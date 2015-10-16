@@ -1,0 +1,25 @@
+* http://en.wikipedia.org/wiki/Object-Relational_impedance_mismatch[Object-relational impedance mismatch]
+* http://www.ibm.com/developerworks/kr/library/dm-0708ahadian/?ca=dnn-krt-20071031[pureQuery: 자바 데이터베이스 애플리케이션을 작성하는 IBM의 새로운 패러다임]
+* http://martinfowler.com/eaaCatalog/activeRecord.html[http://martinfowler.com/eaaCatalog/activeRecord.html]
+
+== 기술비교
+* http://whiteship.tistory.com/1522[Hibernate VS JPA]
+* http://blog.empas.com/naruma/read.html?a=10376482[iBatis vs Hiberate]
+* http://db.apache.org/jdo/jdo_v_jpa.html[http://db.apache.org/jdo/jdo_v_jpa.html]
+* http://www.javaworld.com/javaworld/jw-07-2008/jw-07-orm-comparison.html[iBATIS, Hibernate, and JPA: Which is right for you?]
+* http://blog.openframework.or.kr/50[Hibernate, iBATIS 그리고 JPA중.. 당신의 선택은.?]
+* http://younghoe.info/901[관심이 가는 Data Access 라이브러리]
+
+* http://jdbi.org/
+* https://github.com/timmolter/Yank
+
+=== JPA
+
+* http://whiteship.me/2316[JPA 구현 패턴]
+* http://blog.sdnkorea.com/blog/846[Java Persistence 2.0의 잠금과 동시성]
+* http://www.ibm.com/developerworks/kr/library/os-openjpa/index.html[Slice를 사용하여 OpenJPA 애플리케이션 확장하기]
+* https://greencrayon00.wordpress.com/2015/10/16/aws-rds%EC%99%80-spring-cloud-jpa-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/[AWS RDS와 Spring Cloud + JPA 시작하기]
+
+=== jOOQ
+http://java.dzone.com/articles/no-more-need-orms
+
