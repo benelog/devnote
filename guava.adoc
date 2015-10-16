@@ -1,0 +1,6 @@
+== Event bus
+* http://code.google.com/p/guava-libraries/wiki/EventBusExplained  
+* http://camel.apache.org/guava-eventbus.html  
+* http://codingjunkie.net/guava-eventbus/  
+* http://tomaszdziurko.pl/2012/01/google-guava-eventbus-easy-elegant-publisher-subscriber-cases/  
+* 성능비교 자료 : http://codeblock.engio.net/?p=37  
