@@ -1,0 +1,2 @@
+
+http://presos.dsyer.com/decks/cloud-boot-netflix.html[Spring Cloud, Spring Boot and Netflix OSS] : Spring one 2014
