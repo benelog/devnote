@@ -1,0 +1,30 @@
+* http://bcho.tistory.com/805
+* http://www.slideshare.net/modestjude/docker-in-deview-2013
+* https://github.com/google/lmctfy
+* https://speakerdeck.com/jbeda/containers-at-scale
+* LXC and Android : http://www.linuxplumbersconf.org/2013/ocw/proposals/975
+* https://github.com/newrelic/centurion
+* http://signup.resin.io/
+* https://github.com/shipyard/shipyard
+* Docker 관련 간단 사용후기: http://yisangwook.tumblr.com/post/89030483989/docker-misconceptions
+* Docker로 Spring Boot 배포: http://thediscoblog.com/blog/2014/06/13/docker-containers-with-gradle-in-4-steps/
+* Docker로 NodeJS 배포: http://blog.abhinav.ca/blog/2014/06/17/develop-a-nodejs-app-with-docker/
+* http://www.informationweek.com/cloud/platform-as-a-service/docker-container-system-works-with-all-linuxes/d/d-id/1112830
+* https://docs.docker.com/articles/using_supervisord/
+
+== Plugins
+=== Maven plugin
+* https://github.com/etux/docker-maven-plugin
+* https://github.com/bibryam/docker-maven-plugin
+* http://www.javacodegeeks.com/2014/04/a-docker-maven-plugin-for-integration-testing.html
+
+=== Gradle Plugin
+* https://github.com/Transmode/gradle-docker
+* https://github.com/bmuschko/gradle-docker-plugin
+
+=== Jenkins plugin
+* https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin
+
+=== Docker + Virgo
+http://eclipsesource.com/blogs/2013/07/03/automated-installation-of-virgo-with-docker/
+http://eclipsesource.com/blogs/2013/10/25/continuous-deployment-with-docker-and-virgo/
