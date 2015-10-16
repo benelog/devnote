@@ -1,0 +1,10 @@
+
+* http://kwonnam.pe.kr/wiki/gradle 
+* https://github.com/kwon37xi/gradle-tutorial 
+* https://github.com/ihoneymon/rocking-the-gradle 
+* http://kwonnam.pe.kr/wiki/gradle/from_maven[손권남님이 느낀 Maven이 Gradle보다 좋았던 점]
+
+== Publising
+* http://chris.banes.me/2013/08/27/pushing-aars-to-maven-central/
+* https://github.com/chrisbanes/gradle-mvn-push
+* https://github.com/townsfolk/gradle-release
