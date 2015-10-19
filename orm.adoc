@@ -9,15 +9,11 @@
 * http://blog.openframework.or.kr/50[Hibernate, iBATIS 그리고 JPA중.. 당신의 선택은.?]
 * http://younghoe.info/901[관심이 가는 Data Access 라이브러리]
 
-* http://jdbi.org/
-* https://github.com/timmolter/Yank
-
 === JPA
 * http://whiteship.me/2316[JPA 구현 패턴]
 * http://blog.sdnkorea.com/blog/846[Java Persistence 2.0의 잠금과 동시성]
 * http://www.ibm.com/developerworks/kr/library/os-openjpa/index.html[Slice를 사용하여 OpenJPA 애플리케이션 확장하기]
 * https://greencrayon00.wordpress.com/2015/10/16/aws-rds%EC%99%80-spring-cloud-jpa-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/[AWS RDS와 Spring Cloud + JPA 시작하기]
-
 
 == Hibernate
 * http://whiteship.me/2451[[메이븐] 하이버네이트 플러그인]
@@ -77,4 +73,11 @@
 == jOOQ
 * http://java.dzone.com/articles/no-more-need-orms
 
+== Sql2o
+* http://www.sql2o.org/
 
+== JBDI
+* http://jdbi.org/
+
+== Yank
+* https://github.com/timmolter/Yank
