@@ -1,0 +1,12 @@
+* http://blog.symbiont.net/2008/05/java-next-app-engine-language.html[Java The Next App Engine Language?]
+* http://code.google.com/intl/ko/appengine/docs/java/overview.html[http://code.google.com/intl/ko/appengine/docs/java/overview.html]
+* http://broadcast.oreilly.com/2009/04/java-for-google-appengine-fina.html[http://broadcast.oreilly.com/2009/04/java-for-google-appengine-fina.html]
+* http://groups.google.com/group/google-appengine-java/web/will-it-play-in-app-engine?pli=1[http://groups.google.com/group/google-appengine-java/web/will-it-play-in-app-engine?pli=1]
+* http://code.google.com/intl/ko/appengine/docs/java/jrewhitelist.html[The JRE Class White List]
+* http://www.theserverside.com/news/thread.tss?thread_id=54256[Sun's Open Source Boss Slams Google App Engine]
+* http://library.dzone.com/sites/all/files/refcardz/rc079-010d-google-app-engine-2.pdf[http://library.dzone.com/sites/all/files/refcardz/rc079-010d-google-app-engine-2.pdf]
+* https://www.ibm.com/developerworks/java/library/j-javadev2-1/index.html[Java development 2.0: Hello Google App Engine]
+* http://xguru.net/blog/511.html[오바마와 구글 AppEngine / Moderator / YouTube]
+* http://agilewombat.blogspot.com/2009/12/spring-jdo-and-google-app-engine.html[http://agilewombat.blogspot.com/2009/12/spring-jdo-and-google-app-engine.html]
+* http://cloudyshrimpy.blogspot.com/2010/12/how-to-run-ruby-on-rails-on-google.html[http://cloudyshrimpy.blogspot.com/2010/12/how-to-run-ruby-on-rails-on-google.html]
+  
