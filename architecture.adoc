@@ -1,0 +1,7 @@
+UML에서 정의한 컴포넌트의 정의 (참고자료 : UML 1.3 Specification, OMG)
+
+A component is a physical, replaceable part of a system that packages implementation and provides the Realization of a set of Interfaces.
+A component represents a physical piece of implementation of a system,including software code(source, binary or executable) or equivalents such
+as scripts or command files. As such, a Component may itself conform to and provide the Realization of a set of Interfaces, which represent services implemented by the elements
+resident in the Component. These services define behavior offered by instances of the Component as a whole to other client Component instances.
+
