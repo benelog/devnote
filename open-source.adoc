@@ -1,0 +1,13 @@
+영국 정부의 오픈 소스 소프트웨어(OSS) 구현 정책” (Office of Government Commerce, 2002)   
+ http://www.ogc.gov.uk/embedded_object.asp?docid=1005066[http://www.ogc.gov.uk/embedded_object.asp?docid=1005066]  
+“오픈 소스 소프트웨어 연구 보고서” (한국 소프트웨어 진흥원, 2002.12)  
+ http://korea.gnu.org/people/chsong/copyleft/open_source.pdf[http://korea.gnu.org/people/chsong/copyleft/open_source.pdf]  
+“할로윈 문서 : 마이크로소프트의 오픈 소스 공동체에 대한 내부 보고서” (프로그램세계 99.2월호, 최준호)  
+http://www.kr.freebsd.org/~cjh/freetime/oss/halloween[http://www.kr.freebsd.org/~cjh/freetime/oss/halloween]
+
+30312_%EB%8B%AC%EC%BD%A4%ED%95%9C%EA%BF%88%EA%B0%99%EB%8D%98%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%EC%99%80%EC%9D%98%EB%A7%8C%EB%82%A8.pdf[달콤한꿈같던오픈소스와의만남.pdf]
+
+http://www.ibm.com/developerworks/kr/opensource/newto/#7[오픈 소스 입문 (한글)]
+
+http://gleamynode.net/articles/1574/[코드 중복이 인류에게 미치는 해악]
+  
