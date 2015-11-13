@@ -1,0 +1,56 @@
+http://uratang.egloos.com/2045132[Drupal을 이용한 웹사이트 개발]
+
+http://phpman-en.tistory.com/265[array_shift]
+
+http://kr2.php.net/manual/kr/function.mysql-real-escape-string.php[mysql_real_escape_string]
+
+http://phpman.tistory.com/1556[ksort]
+
+http://www.ibm.com/developerworks/kr/library/os-php-future/[PHP의 미래]
+
+http://www.bestwebframeworks.com/php/[http://www.bestwebframeworks.com/php/]
+
+http://developers.facebook.com/news.php?blog=1&story=358[HipHop for PHP: Move Fast]
+
+==== Zend
+
+http://zendframework.com/manual/en/zend.controller.router.html[]http://zendframework.com/manual/en/zend.controller.router.html[http://zendframework.com/manual/en/zend.controller.router.html]
+
+==== CackePhp
+
+http://learneveryday.net/php/framework/cake-php/beginners-cake-php-framework-php/cakephp-creating-and-sending-parameters-between-controller-and-view/[]http://learneveryday.net/php/framework/cake-php/beginners-cake-php-framework-php/cakephp-creating-and-sending-parameters-between-controller-and-view/[http://learneveryday.net/php/framework/cake-php/beginners-cake-php-framework-php/cakephp-creating-and-sending-parameters-between-controller-and-view/]
+
+==== CodeIgniter 코드이그나이터
+
+http://codeigniter.com/user_guide/general/controllers.html[]http://codeigniter.com/user_guide/general/controllers.html[http://codeigniter.com/user_guide/general/controllers.html]
+
+http://www.codeigniter-kr.org/lecture/view/38/page/1[]http://www.codeigniter-kr.org/lecture/view/38/page/1[http://www.codeigniter-kr.org/lecture/view/38/page/1]
+
+<?php
+
+class Blog extends Controller {
+
+    function index(){
+
+         $data['title'] = "My blog title";
+
+         $data['query'] = $this->db->get('entries');
+
+         $this->load->view('blog_view');
+
+   }
+
+}
+
+$this->db->insert('entires',$_POST);
+
+$this->db->where('entry_id',, $this->uri->segment(3));
+
+$data['query'] = $this->db->get('entries');
+
+?>
+
+==== PHP - java Bridge
+
+http://php-java-bridge.sourceforge.net/pjb/[http://php-java-bridge.sourceforge.net/pjb/]
+  
