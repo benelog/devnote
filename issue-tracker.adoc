@@ -7,6 +7,11 @@ http://blog.naver.com/knbawe/110031344785[ZDnet 협업노하우]
 
 http://www.intland.com/[http://www.intland.com/]
 
+http://bobbyryu.blogspot.com/2008/03/openproj-10.html[무료 프로젝트관리 도구: OpenProj 1.0]
+
+http://bobbyryu.blogspot.com/2008/03/collanos-workplace.html[무료 실시간 협업 도구: Collanos Workplace]
+
+
 
 ==== Mylyn
 
