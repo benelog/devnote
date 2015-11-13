@@ -1,5 +1,14 @@
 
-== sqlite
+== Sqlite
 * driver:  org.sqlite.JDBC
 * jdbc:sqlite:F:/data/com.astroframe.seoulbus/databases/station.sqlite
 
+
+== HSQL
+* Driver : org.hsqldb.jdbcDriver
+** Datasource  : org.hsqldb.jdbc.jdbcDataSource
+* URL 형식
+** jdbc:hsqldb:file:/./DATABASE/db/sampledb
+** jdbc:hsqldb:file:/D:/work/hsql/sample1/sampledb
+** jdbc:hsqldb:hsql://localhost/sampledb
+** jdbc:hsqldb:mem:mymemdb
