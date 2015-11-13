@@ -1,0 +1,76 @@
+http://blog.springsource.org/2011/08/26/clean-code-with-android/
+Android however, does not support runtime bytecode generation, so RoboGuice depends on the version of Guice without AOP.
+Subclassing framework specific types is required because the way a third-party framework can hook into the Android application lifecycle is limited. Additionally, Guice itself is not small, adding about 400 KB to the size of your application. 댓글중에 :  Honestly, don't try that at home, it hurts : java annotation processors have the worst documentation I've ever seen  
+
+=== Dependency Injection
+
+=== http://code.google.com/p/roboguice/[Robo-guice]
+
+*   Cafe 앱에서 사용
+*   AOP 미지원 : RoboGuice depends on the version of Guice without AOP.(Android does not support runtime bytecode generation.)
+
+==== 장점
+
+*   POJO의 DI가 가능
+*   View를 찾아오는 Annotaton등은 쓸만함.
+
+==== 단점
+
+*   상위클래스 상속. RoboApplication.addApplicationModules, AbstractAndroidModule,configure안에서 DI관계 설정
+*   Service객체의 주입하는 간단한 DI를 위해서 코드가 많이 들어간다.
+*   Runtime 용량이 커서 부담.
+*   문서화 부실
+
+==== 주요 클래스
+
+*   https://github.com/roboguice/roboguice/blob/master/roboguice/src/main/java/roboguice/activity/RoboActivity.java[RoboActivity.java]
+
+=== http://androidannotations.org/[Android Annotations]
+
+*   the goal of the project is specifically to help reduce the amount of boilerplate code in Android projects
+
+==== 장점
+
+*   Compile time. runtime에서 부담 적음
+*   상속할 상위클래스가 없음. 다른 프레임워크와 병행해서 사용가능.
+
+==== 단점
+
+*   클래스명 끝에 "_"가 자동으로 붙음. xml선언시 이를 고려해야 함
+*   Intelli J에서 안 되는 사람도 있음. Itelli J 내부의 Annotation processing 처리방식이 Eclipse하고 다른듯.
+*   IntelliJ문제 참조
+
+        *   http://www.jayway.com/2012/08/31/making-androidannotations-work-with-intellij-idea[http://www.jayway.com/2012/08/31/making-androidannotations-work-with-intellij-idea]
+    *   http://blogs.jetbrains.com/idea/2009/11/userfriendly-annotation-processing-support-jpa-20-metamodel/%EF%BB%BF[http://blogs.jetbrains.com/idea/2009/11/userfriendly-annotation-processing-support-jpa-20-metamodel/﻿]
+
+=== https://github.com/square/dagger[Dagger]
+
+*   Anntation processing 사용
+*   @Inject 같은 JSR330 annotation 지원
+*   문서화 부족한편.
+
+        *   http://square.github.com/dagger/[http://square.github.com/dagger/]
+    *   http://www.infoq.com/news/2012/10/dagger[http://www.infoq.com/news/2012/10/dagger]
+    *   http://www.infoq.com/presentations/Dagger[http://www.infoq.com/presentations/Dagger]
+*   Guice와 비교해서, Dagger has a more minimal profile and it is clearly developed with Android in mind
+*   incomplete bindings을 compile time에 제거
+*   Dagger does not support method injection.
+
+=== http://droidparts.org/[DroidParts]
+
+*   @InjectResource, @InjectSystemService, @InjectView 제공
+*   Documentation 충분하지 않다.
+
+=== http://androidtransfuse.org/[Transfuse]
+
+*   @Inject 같은 JSR330 annotation 지원
+*   AOP 지원
+*   Annotation processing 사용
+*   상위 클래스 상속없이 @Activity, @Service, @BroadcastReceiver 활용
+*   0.1.2로 아직 초기인듯
+*   Transfuse moves the declaration of Manifest metadata to the component class level. 특이한데, 이를 다들 선호할까?
+
+=== http://code.google.com/p/yasdic/[Yasdic]
+
+*   Android전용은 아니나 작은 DI 프레임워크라서 Android에서도 쓸만하다고 추천됨.
+*   2009년 10월 29일 1.0 발표이후 update 안 됨.
