@@ -1,0 +1,27 @@
+http://www.ibm.com/developerworks/kr/library/j-ap10106/index.html[빌드 스크립트에서 나는 “악취(smell)” 제거하기]
+
+http://blog.naver.com/trimaran/382842[]http://blog.naver.com/trimaran/382842[ftp task의 문제점:]
+
+http://blog.naver.com/pluggers/150003316374[1900개가 넘는 java컴파일시 ant의 설정]
+
+http://whiteship.tistory.com/1204[Ant 라이브러리 관리]
+
+http://whiteship.tistory.com/1352[Ant 빌드로 테스트 실행하기]
+
+http://chanwook.tistory.com/422[Make ANT Easy with Eclipse(번역)]
+
+http://www.ibm.com/developerworks/java/library/j-ap05068/index.html[Automation for the people: Manage dependencies with Ivy]
+
+==== SVN
+
+http://blog.openframework.or.kr/80[[Ant] Ant로 SVN 작업 처리하기]
+
+==== Ant  관련 문서화
+
+http://antdoc.free.fr/[http://antdoc.free.fr]
+
+http://vizant.sourceforge.net/[http://vizant.sourceforge.net]
+
+==== Ant2IDE
+
+http://gleamynode.net/articles/2234/ant2ide-ide-project-file-generation-from-ant-buildxml[Ant2IDE - IDE project file generation from Ant build.xml]
