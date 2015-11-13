@@ -1,0 +1,60 @@
+http://skyul.tistory.com/309[파이썬 구현들]
+
+http://openlook.org/blog/2008/06/28/python-multiprocessing/[파이썬은 멀티코어 줘도 쓰잘데기가 없나요?"에 대한 파이썬 2.6의 대답]
+
+http://skyul.tistory.com/266[파이썬 바인딩]
+
+ http://metaleks.net/programming/the-evolution-of-a-python-programmer[http://metaleks.net/programming/the-evolution-of-a-python-programmer]
+
+http://blog.dahlia.pe.kr/articles/2009/09/15/python-%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0%EB%B0%98%EB%B3%B5%EC%9E%90%EC%9D%98-%EB%A7%88%EB%B2%95[Python 제너레이터+반복자의 마법]
+
+http://www.ibm.com/developerworks/kr/aix/library/au-cleancode/index.html[Python으로 간결하고 테스트 가능하며 수준 높은 코드 쓰기]
+
+http://ipython.org/[http://ipython.org/]
+
+== 입문서
+http://learnpythonthehardway.org/book/[http://learnpythonthehardway.org/book/]http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2008/[http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2008/]http://stackoverflow.com/questions/3088/best-ways-to-teach-a-beginner-to-program[http://stackoverflow.com/questions/3088/best-ways-to-teach-a-beginner-to-program]  
+
+== 프레임웍
+http://www.pylonsproject.org/[http://www.pylonsproject.org/]http://flask.pocoo.org/[http://flask.pocoo.org/]
+http://elixir.ematia.de/trac/wiki[http://elixir.ematia.de/trac/wiki]
+
+Learn Django: Create a Wiki in 20 minutes http://showmedo.com/videos/video?name=1100000&fromSeriesID=110[http://showmedo.com/videos/video?name=1100000&fromSeriesID=110]  
+
+==== Evenlet 
+
+http://codescience.wordpress.com/2011/09/05/non-blocking-io-node-js-and-pythons-eventlet/[http://codescience.wordpress.com/2011/09/05/non-blocking-io-node-js-and-pythons-eventlet/]
+
+http://vodpod.com/watch/4072135-pycon-2010eventlet-asynchronous-io-with-a-synchronous-interface-141[http://vodpod.com/watch/4072135-pycon-2010eventlet-asynchronous-io-with-a-synchronous-interface-141]
+
+== 테스트
+http://docs.python.org/library/doctest.html[http://docs.python.org/library/doctest.html] http://docs.python.org/library/unittest.html[http://docs.python.org/library/unittest.html]   
+
+== 예제
+조각 코드 : http://coreapython.hosting.paran.com/howto/sebsauvage_net-%20Snyppets%20-%20Python%20snippets.htm[http://coreapython.hosting.paran.com/howto/sebsauvage_net-%20Snyppets%20-%20Python%20snippets.htm]  
+
+=== 날짜 변환
+
+http://wiki.dgoon.net/doku.php?id=python:time_-_string[http://wiki.dgoon.net/doku.php?id=python:time_-_string]
+
+파일 읽기
+
+[source,python]
+----
+
+def read(file_name):
+
+    file_content = open(file_name)
+
+    while 1: 
+
+        line = file_content.readline() 
+
+        if not line:
+
+            break
+
+        print line
+
+    file_content.close();
+  ----
