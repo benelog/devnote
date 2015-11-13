@@ -12,9 +12,6 @@ http://chanwook.tistory.com/422[Make ANT Easy with Eclipse(번역)]
 
 http://www.ibm.com/developerworks/java/library/j-ap05068/index.html[Automation for the people: Manage dependencies with Ivy]
 
-==== SVN
-
-http://blog.openframework.or.kr/80[[Ant] Ant로 SVN 작업 처리하기]
 
 ==== Ant  관련 문서화
 
