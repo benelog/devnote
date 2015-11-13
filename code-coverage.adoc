@@ -1,0 +1,55 @@
+==== Coverage 개념
+
+http://www.javaranch.com/journal/2004/01/IntroToCodeCoverage.html[http://www.javaranch.com/journal/2004/01/IntroToCodeCoverage.html]
+
+http://www.bullseye.com/coverage.html[http://www.bullseye.com/coverage.html]
+
+http://www.bullseye.com/statementCoverage.html[http://www.bullseye.com/statementCoverage.html]
+
+Decision coverage = Branch Coverage
+
+http://comjnl.oxfordjournals.org/cgi/content/abstract/bxm021v1[http://comjnl.oxfordjournals.org/cgi/content/abstract/bxm021v1]
+
+branch coverage - is every conditional branch tested at least once?
+
+=== Code Coverage 측정 도구
+
+==== Cobertura
+
+*   http://cobertura.sourceforge.net/[http://cobertura.sourceforge.net/]
+
+
+[source,xml]
+----
+<plugin>  
+<groupId>org.codehaus.mojo</groupId>  
+<artifactId>cobertura-maven-plugin</artifactId>  
+<configuration>  
+<formats>  
+<format>html</format>  
+<format>xml</format>  
+</formats>  
+</configuration>  
+</plugin>
+----
+
+==== Clover
+
+*   http://www.atlassian.com/software/clover/[http://www.atlassian.com/software/clover/]
+*   http://www.cenqua.com/clover/[http://www.cenqua.com/clover/] 상용
+
+==== emma
+
+http://emma.sourceforge.net/[http://emma.sourceforge.net/]
+
+http://www.eclemma.org/[http://www.eclemma.org/]
+
+http://openframework.or.kr/blog/?p=369[[eclemma] Java Code Coverage]
+
+http://younghoe.info/784[Test Driven Development 전도 일지 2]
+
+Code Pro Anlytix Pro
+
+http://www.instantiations.com/codepro/analytix/server/index.html[http://www.instantiations.com/codepro/analytix/server/index.html]
+
+ 
