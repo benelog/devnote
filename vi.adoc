@@ -1,0 +1,38 @@
+vi 메뉴얼
+
+http://blog.naver.com/lani76/457564[http://blog.naver.com/lani76/457564]
+
+http://blog.naver.com/bigdra/140002909223[]http://blog.naver.com/bigdra/140002909223[http://blog.naver.com/bigdra/140002909223]
+
+vim 시작하기
+
+http://user.oss.or.kr/lecture/view.html?num=2&page=1&id=26[http://user.oss.or.kr/lecture/view.html?num=2&page=1&id=26]
+
+vim - 검색, 치환 및 정규식
+
+http://user.oss.or.kr/lecture/view.html?num=4&page=1&id=26[http://user.oss.or.kr/lecture/view.html?num=4&page=1&id=26]
+
+vim - 블록설정, 다중창 단축기 지정
+
+http://user.oss.or.kr/lecture/view.html?num=6&page=1&id=26[http://user.oss.or.kr/lecture/view.html?num=6&page=1&id=26]
+
+vim - 프로그래머용 기능 활용, syntax highlight, 자동 들여쓰기, 변수 매크로 찾기, ctag활용하기
+
+http://user.oss.or.kr/lecture/view.html?num=7&page=1&id=26[http://user.oss.or.kr/lecture/view.html?num=7&page=1&id=26]
+
+vim - 기타기능 (vim에서 make돌려서 에러위치 자동 가기)
+
+http://user.oss.or.kr/lecture/view.html?num=24&page=1&id=26[http://user.oss.or.kr/lecture/view.html?num=24&page=1&id=26]
+
+vim - block fold/unfold 기능 써보기
+
+http://doc.kldp.org/wiki.php/VimFold[http://doc.kldp.org/wiki.php/VimFold]
+
+C프로그래머를 위한 vim사용
+
+http://www.joinc.co.kr/modules/moniwiki/wiki.php/Site/Vim/Documents/VimHowToForCProg/index.html[http://www.joinc.co.kr/modules/moniwiki/wiki.php/Site/Vim/Documents/VimHowToForCProg/index.html]
+
+http://www.ibm.com/developerworks/kr/library/tutorial/l-vi/?S_TACT=105AGX55&amp;S_CMP=EDU[vi 입문 -- 컨닝 페이퍼 이용하기]
+
+
+http://blog2book.hanb.co.kr/191[]http://blog2book.hanb.co.kr/191[VIM에서 자동완성 기능 사용하기]
