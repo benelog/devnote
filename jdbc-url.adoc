@@ -1,0 +1,5 @@
+
+== sqlite
+* driver:  org.sqlite.JDBC
+* jdbc:sqlite:F:/data/com.astroframe.seoulbus/databases/station.sqlite
+
