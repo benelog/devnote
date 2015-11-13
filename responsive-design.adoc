@@ -1,0 +1,5 @@
+* http://www.threeriversinstitute.org/blog/?cat=6[http://www.threeriversinstitute.org/blog/?cat=6]
+* http://pragprog.com/magazines/download/3.pdf[http://pragprog.com/magazines/download/3.pdf]
+* http://agile.egloos.com/5106266[http://agile.egloos.com/5106266]
+* http://agile.egloos.com/5096485[설계 딜레마]
+* http://sites.google.com/site/kentbackkorea2009/home/Responsive-Design-Explained[Responsive Design Explained]
