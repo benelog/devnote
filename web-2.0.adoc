@@ -1,0 +1,30 @@
+*   http://network.hanbitbook.co.kr/view.php?bi_id=1141[Web 2.0이란 무엇인가 (1)]
+*   http://network.hanbitbook.co.kr/view.php?bi_id=1148[Web 2.0이란 무엇인가 (2)]
+*   http://network.hanbitbook.co.kr/view.php?bi_id=1152[Web 2.0이란 무엇인가 (3)]
+*   http://blog.webservices.or.kr/hollobit/archives/000907.html[Web 2.0과 NGWeb]
+*   http://blog.webservices.or.kr/hollobit/archives/001063.html[장님 시맨틱 코끼리 떠들기 ?]
+*   http://wired.daum.net/technology/article00430.shtm["웹 2.0은 사람 그 자체"]
+*   http://www.dal.co.kr/blog/2005/11/20051103_semantic_web_0203_web20.html[시맨틱웹과 웹2.0의 차이는?]
+*   http://www.zdnet.co.kr/itbiz/column/anchor/scyoon/0,39030409,39140448,00.htm[웹2.0에서 바로 본 새로운 세계]
+*   http://blog.webservices.or.kr/hollobit/archives/001217.html[비판적으로 바라본 web 2.0 - "웹2.0은 없다"]
+*   http://channy.creation.net/blog/?p=201[웹2.0은 회귀본능이다]
+
+What is web 2.0 http://news.zdnet.com/2036-2_22-6103931.html[http://news.zdnet.com/2036-2_22-6103931.html]
+
+웹의철학, 웹2.0의 철학 - 김중태 :  http://www.dal.kr/blog/2007/10/20070801_nanet.html[http://www.dal.kr/blog/2007/10/20070801_nanet.html]
+
+ http://ettrends.etri.re.kr/PDFData/21-5_141_153.pdf[http://ettrends.etri.re.kr/PDFData/21-5_141_153.pdf]
+
+비교표:  http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html[http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html]
+
+팀오렐리가 말한 웹2.0의 특징 : http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html[http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html]
+
+ __SOA가_바꿔놓을_세상.pdf__
+
+http://www.bloter.net/_news/8df446934d53e4bf[세상을 바꾸는 크고 작은 웹 2.0/크라우드소싱 서비스들].
+
+http://www.zdnet.co.kr/itbiz/column/anchor/scyoon/0,39030409,39168722,00.htm[웹2.0 시대의 불편한 진실]
+
+http://cafe.naver.com/humpany/250[미코노미 책 리뷰]
+
+http://ti.nhncorp.com/CS/cs.jsp?tsd=2009-11-12&tsu=http://www.kisdi.re.kr/kisdi/common/download?type=R&file=a1020092002.pdf[웹3.0 정보 서비스의 사례와 시사점]
