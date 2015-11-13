@@ -1,0 +1,69 @@
+== PaaS 비교
+http://www.ibm.com/developerworks/library/j-paasshootout/[Java PaaS shootout] , https://www.ibm.com/developerworks/kr/library/j-paasshootout/index.html[Java Paas 논쟁]: Google App Engine, Amazon Elastic Beanstalk, CloudBee를 비교
+
+http://www.infoq.com/presentations/Java-in-the-Cloud-PaaS-Platform-in-Comparison[http://www.infoq.com/presentations/Java-in-the-Cloud-PaaS-Platform-in-Comparison] : 
+
+http://wso2.com/whitepapers/selecting-a-cloud-platform/
+
+Google GAE, Amazon Beanstalk, VMware Cloud Foundry, and Cloud Bees 비교
+
+GAE : 제약된 Java, RDB 보다는 NoSql에 초점 response time 제약등
+
+Amazon Beanstalk :  Amazon infra사용. Auto-scaling. US EAST에서만 사용가능. Tomcat, VM에 대한   detail control가능. 
+
+Eclipse plugin 존재. Virtual Access Cloud. Tomcat + RDBMS
+
+1 server = 1 VM
+
+CloudFoundry : PHP, Erlang, Python 지원은 커뮤니티에서 개발함
+
+NO elastic scaling
+
+easy to create your own elastic scaling
+
+http://www.slideshare.net/cobiacomm/introduction-topaa-s[http://www.slideshare.net/cobiacomm/introduction-topaa-s]
+http://blog.cobia.net/cobiacomm/2011/11/02/paas-evaluation-framework-for-cios-and-architects/[http://blog.cobia.net/cobiacomm/2011/11/02/paas-evaluation-framework-for-cios-and-architects/]  
+
+http://crackradio.com/post/19884367834/paas[http://crackradio.com/post/19884367834/paas] : Heroku, Cloudfoundry, dotCloud 비교Open Paas 비교 자료 : http://blog.daum.net/htann/41[http://blog.daum.net/htann/41]http://www.virtualizationpractice.com/vmwares-cloudfoundry-and-red-hats-openshift-compare-and-contrast-10567/[http://www.virtualizationpractice.com/vmwares-cloudfoundry-and-red-hats-openshift-compare-and-contrast-10567/]http://www.aircondream.co.kr/[http://www.aircondream.co.kr/]  
+
+==== Websphere Cloud
+
+http://www.theserverside.com/discussions/thread.tss?thread_id=61739[http://www.theserverside.com/discussions/thread.tss?thread_id=61739]
+
+http://www.ibm.com/developerworks/cloud/library/cl-wr1-patterns/[http://www.ibm.com/developerworks/cloud/library/cl-wr1-patterns/]
+
+http://www.ibm.com/developerworks/kr/cloud/library/cl-dbconnections/index.html[http://www.ibm.com/developerworks/kr/cloud/library/cl-dbconnections/index.html]
+
+==== Jelastic
+
+http://jelastic.com/[http://jelastic.com/]
+
+==== Nodester
+Heroku의 오픈소스판 비슷 :http://nodester.com/
+
+
+=== OpenShift
+
+http://news.naver.com/main/read.nhn?mode=LSD&aid=0000005657&oid=293&mid=sec&sid1=105[레드햇, PaaS 업체 마카라 인수...MS·VM웨어와 승부]
+
+=== Cloudfoundry
+
+http://www.infoq.com/presentations/Cloud-Foundry-Inside-the-Machine[http://www.infoq.com/presentations/Cloud-Foundry-Inside-the-Machine]
+
+http://whiteship.me/?tag=cloud-foundry[http://whiteship.me/?tag=cloud-foundry]
+
+http://toby.epril.com/?p=1183[http://toby.epril.com/?p=1183]
+
+http://xrath.com/2012/06/an-overview-of-cloudfoundry/[http://xrath.com/2012/06/an-overview-of-cloudfoundry/]
+
+Kernel component : Router ,CloudController, DEA(Droplet Execution Agent), HealthManager ,ServiceProvisioningAgent ,MessagingSystem
+vSphere, OpenStack, AWS, MicroCloud 다 가능..
+Juju + Cloudfoundry : http://www.cloudave.com/14950/ubuntu-ensemble-is-now-juju/[http://www.cloudave.com/14950/ubuntu-ensemble-is-now-juju/]
+
+http://www.slideshare.net/derekcollison/cloud-foundry-inside-the-machine[http://www.slideshare.net/derekcollison/cloud-foundry-inside-the-machine]
+
+=== AppScale
+http://www.ibm.com/developerworks/kr/library/os-cloud-virtual2/[http://www.ibm.com/developerworks/kr/library/os-cloud-virtual2/]  
+
+==== IDE support
+http://c9.io/site/blog/2012/04/cloud-foundry-and-cloud9/[http://c9.io/site/blog/2012/04/cloud-foundry-and-cloud9/]
