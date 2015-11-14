@@ -1,0 +1,79 @@
+http://bcho.tistory.com/entry/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%8F%99%ED%99%94-%EB%8F%84%EA%B5%AC%EB%93%A4[테스트 자동화 도구들]
+
+http://rc3.org/2007/01/the-unit-testin.php[The unit testing gap]
+
+http://www.unitils.org/summary.html[http://www.unitils.org/summary.html]
+
+__test automation frameworks.pdf__
+
+http://moai.tistory.com/644[테스트 자동화는 왜 실패하는가 ?]
+
+http://toby.epril.com/?p=424[테스팅 프레임워크는 직접 만들어 써보자]
+
+http://whiteship.me/tag/xUnit[xUnit]
+
+=== 기본 Unit test
+
+==== /pages/2258278[Junit]
+
+====   
+Junit 기반의 성능테스트
+
+*   http://www.clarkware.com/software/JUnitPerf.html[http://www.clarkware.com/software/JUnitPerf.html]
+http://labs.carrotsearch.com/junit-benchmarks-tutorial.html[http://labs.carrotsearch.com/junit-benchmarks-tutorial.html]
+
+http://code.google.com/p/junitbench/[http://code.google.com/p/junitbench/]
+
+http://databene.org/contiperf.html[http://databene.org/contiperf.html]
+
+==== Nunit
+
+*   http://unit.org/[http://unit.org]
+*   .NET을 위한 단위 테스트
+
+==== MbUnit 
+
+*   http://www.mbunit.org/[http://www.mbunit.org]
+*   NUnit을 기반으로 고수준의 테스트 기술을 모음
+
+==== dbunit
+
+*   http://dbunit.sourceforge.net/[http://dbunit.sourceforge.net/]
+
+    *   http://dbunit.sourceforge.net/faq.html#extract[http://dbunit.sourceforge.net/faq.html#extract]
+http://kekedie.tistory.com/96[[JAVA] DBUnit 엑셀파일(.xls) import & export]
+
+http://whiteship.tistory.com/403[DbUnit]
+
+http://whiteship.tistory.com/407[DbUnit 사용하기]
+
+http://blog.naver.com/ecshoons/60000381502[DBUnit의 사용]
+
+http://whiteship.me/2677[[회사일] DAO 테스트 만들기]
+
+==== AgitarOne
+
+http://www.agitar.com/[http://www.agitar.com/]
+
+http://moai.tistory.com/445[JUnit 테스트 코드 생성 도구 AgitarOne - 소개]
+
+http://moai.tistory.com/446[JUnit 테스트 코드 생성 도구 AgitarOne - 설치 및 실행]
+
+http://moai.tistory.com/447[JUnit 테스트 코드 생성 도구 AgitarOne - 테스트 코드 생성하기]
+
+==== JTest
+
+http://www.parasoft.com/jsp/home.jsp[http://www.parasoft.com/jsp/home.jsp]
+
+http://fitness.org/[]
+
+=== 더 많은 테스트 지원 소프트웨어들
+
+http://www.xprogramming.com/software.htm[http://www.xprogramming.com/software.htm]
+
+http://www.testingfaqs.org/t-unit.html[http://www.testingfaqs.org/t-unit.html]
+
+마이크로소프트웨어 3월호 : 151009_%ED%86%B5%ED%95%A9_%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC_%EC%9C%84%ED%95%9C_%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC_FIT.pdf[통합_테스트를_위한_프레임워크_FIT.pdf]
+
+=== Make it easy
+https://github.com/npryce/make-it-easy
