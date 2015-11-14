@@ -1,0 +1,122 @@
+==== Mockito
+
+http://javacan.tistory.com/entry/MocktestUsingMockito[Mockito를 이용한 MockTestJava]
+
+http://chanwook.tistory.com/664[Mock 라이브러리 - Mockito]
+
+http://whiteship.tistory.com/1741[상태 기반 테스트란?]
+
+http://whiteship.tistory.com/1738[expect -> run -> verify 스타일(ex. Easymock) 바이바이]
+
+http://code.google.com/p/mockito/wiki/MockitoVSEasyMock[MockitoVSEasyMock]
+
+http://monkeyisland.pl/2008/04/26/asking-and-telling/[is there a difference between asking and telling?]
+
+http://kwon37xi.egloos.com/4165915[왜 Mockito가 좋은가?]
+
+http://toby.epril.com/?p=846[Spring Expressions(SpEL)를 이용한 Mockito Argument Matcher 만들기]
+
+http://whiteship.me/2319[Mockito mock 객체 쉽게 만들기]
+
+http://blog.frankel.ch/mockito-spy-method-and-spring[http://blog.frankel.ch/mockito-spy-method-and-spring]
+
+http://blog.frankel.ch/tech/dev/java/two-different-mocking-approaches[http://blog.frankel.ch/tech/dev/java/two-different-mocking-approaches]
+
+==== Mock 프레임웍비교
+
+__http://blog.naver.com/iamteri/150021253494[easymock vs jmock]__
+
+http://kwon37xi.egloos.com/4126439[jMock vs. EasyMock]
+
+==== jmock
+
+*   http://www.jmock.org/[http://www.jmock.org/]
+http://www.theserverside.com/tt/articles/content/JMockTestDrivenDev/article.html[Using JMock with TDD]
+
+==== Easymockhttp://www.easymock.org/[  
+]
+
+http://whiteship.tistory.com/1448[EasyMock으로 클래스의 Mock 객체 만들기]http://openframework.or.kr/framework_reference/easymock/2.3/Documentation_ko.html[]
+
+http://openframework.or.kr/framework_reference/easymock/2.3/Documentation_ko.html[EasyMock 2.3 기본문서]
+
+http://younghoe.info/101[Easy Mock 2 시작하기]
+
+http://www.realsolve.co.uk/site/tech/easymock.php[Mock Object Testing With EasyMock 2]
+
+__http://younghoe.info/109[easymock을 이용한 Spring MVC Form 컨트롤러 요청 처리 테스트의 개선]__
+
+__http://younghoe.info/780[EasyMock(old)을 활용한 협업 테스트]__
+
+http://younghoe.info/803[EasyMock 1.2 API 개선 1차 시도]
+
+http://whiteship.tistory.com/tag/EasyMock[http://whiteship.tistory.com/tag/EasyMock]
+
+http://bcho.tistory.com/entry/EasyMock%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8[http://bcho.tistory.com/entry/EasyMock%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8]
+
+ http://kingori.egloos.com/4169398[Mock을 이용한 단위 테스트]
+
+==== Power mock
+
+http://code.google.com/p/powermock/[http://code.google.com/p/powermock/]
+
+easymock이나 mockito와 함께 사용가능
+
+build 환경, runtime 환경설정을 수정할 필요가 없음.
+
+==== AMock
+
+http://www.javalobby.org/java/forums/t97599.html[http://www.javalobby.org/java/forums/t97599.html]
+
+==== jmockit
+
+https://jmockit.dev.java.net/[https://jmockit.dev.java.net/]
+
+==== jeasytest
+
+https://jeasytest.dev.java.net/[https://jeasytest.dev.java.net/]
+
+==== js mock
+
+*   http://jsmock.sourceforge.net/[http://jsmock.sourceforge.net/]
+*   참고자료
+
+    *   TDD and Javascript with JsMock : http://ajaxian.com/archives/tdd-and-javascript-with-jsmock[http://ajaxian.com/archives/tdd-and-javascript-with-jsmock]
+
+==== mock FtpServer
+
+http://mockftpserver.sourceforge.net/[http://mockftpserver.sourceforge.net/]
+
+==== 일반이론
+
+===== Test double
+
+http://younghoe.info/25[테스트 전용 객체(Test Double)]
+
+http://martinfowler.com/bliki/TestDouble.html[http://martinfowler.com/bliki/TestDouble.html]
+
+http://xunitpatterns.com/Test%20Double.html[http://xunitpatterns.com/Test%20Double.html]
+
+Mock Object 적용에 대한 FAQ :  http://www.mockobjects.com/Faq.html[http://www.mockobjects.com/Faq.html]
+
+http://en.wikipedia.org/wiki/Mock_object[http://en.wikipedia.org/wiki/Mock_object]
+
+http://martinfowler.com/bliki/TestDouble.html[http://martinfowler.com/bliki/TestDouble.html]
+
+http://younghoe.info/25[테스트 전용 객체(Test Double)]
+
+http://whiteship.tistory.com/1738[expect -> run -> verify 스타일(ex. Easymock) 바이바이]
+
+http://martinfowler.com/articles/mocksArentStubs.html[Mocks Aren't Stubs]
+
+state verification <-> behavior veryfication
+
+http://www.sizovpoint.com/2009/03/java-mock-frameworks-comparison.html[http://www.sizovpoint.com/2009/03/java-mock-frameworks-comparison.html]
+
+http://pragmaticstory.com/1080[Mock 객체가 단위테스트를 컨텍스트와 분리하는일만 하는 것은 아니다.]
+
+http://blog.objectmentor.com/articles/2010/01/23/mocking-mocking-and-testing-outcomes[http://blog.objectmentor.com/articles/2010/01/23/mocking-mocking-and-testing-outcomes]
+
+Keeping middle-class test doubles (i.e. Mocks) to a minimum is another way of decoupling.
+
+ 
