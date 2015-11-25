@@ -1,0 +1,6 @@
+== Scala 포기
+* https://www.quora.com/Is-LinkedIn-getting-rid-of-Scala
+* http://www.infoq.com/news/2011/11/yammer-scala
+
+== RoR 포기
+* http://www.hemju.com/2014/06/why-lingohub-is-switching-from-ruby-on-rails-to-java-spring-mvc/
