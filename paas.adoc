@@ -64,12 +64,15 @@ http://www.slideshare.net/derekcollison/cloud-foundry-inside-the-machine[http://
 
 === Docker + Cloud foundry
 * http://www.activestate.com/blog/2014/04/docker-and-cloud-foundry
-** Decker는 DEA의 API를 구현
-** Stackato는 LXC implementation with Docker
-** Diego 는 DEA대체
+** Decker : DEA의 API를 구현
+** Stackato
+** Diego : DEA대체
 
 ==== Decker
 * http://www.cloudcredo.com/decker-docker-cloud-foundry/
+
+==== Stackato
+* https://docs.stackato.com/
 
 ==== Diego
 * http://thenewstack.io/docker-on-diego-cloud-foundrys-new-elastic-runtime/
