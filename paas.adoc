@@ -75,6 +75,7 @@ http://www.slideshare.net/derekcollison/cloud-foundry-inside-the-machine[http://
 * https://docs.stackato.com/
 
 ==== Diego
+* http://www.activestate.com/blog/2014/09/cloud-foundry-diego-explained-onsi-fakhouri
 * http://thenewstack.io/docker-on-diego-cloud-foundrys-new-elastic-runtime/
 
 
