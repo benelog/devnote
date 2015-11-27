@@ -62,6 +62,19 @@ Juju + Cloudfoundry : http://www.cloudave.com/14950/ubuntu-ensemble-is-now-juju/
 
 http://www.slideshare.net/derekcollison/cloud-foundry-inside-the-machine[http://www.slideshare.net/derekcollison/cloud-foundry-inside-the-machine]
 
+=== Docker + Cloud foundry
+* http://www.activestate.com/blog/2014/04/docker-and-cloud-foundry
+** Decker는 DEA의 API를 구현
+** Stackato는 LXC implementation with Docker
+** Diego 는 DEA대체
+
+==== Decker
+* http://www.cloudcredo.com/decker-docker-cloud-foundry/
+
+==== Diego
+* http://thenewstack.io/docker-on-diego-cloud-foundrys-new-elastic-runtime/
+
+
 === AppScale
 http://www.ibm.com/developerworks/kr/library/os-cloud-virtual2/[http://www.ibm.com/developerworks/kr/library/os-cloud-virtual2/]  
 
