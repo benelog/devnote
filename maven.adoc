@@ -1,0 +1,428 @@
+http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/[http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/]
+
+==== 비교, 전환
+
+http://jazoon.com/download/presentations/4840.pdf[http://jazoon.com/download/presentations/4840.pdf]
+
+http://www.sonatype.com/people/2009/04/how-to-convert-from-ant-to-maven-in-5-minutes/[http://www.sonatype.com/people/2009/04/how-to-convert-from-ant-to-maven-in-5-minutes/]
+
+==== MAVEN : The Definitive Guide
+
+http://sonatype.com/book/[http://sonatype.com/book/]
+
+http://www.sonatype.com/MavenTheDefinitiveGuide.zip[http://www.sonatype.com/MavenTheDefinitiveGuide.zip]
+
+==== 시작하기
+* http://maven.apache.org/guides/introduction/introduction-to-the-pom.html[http://maven.apache.org/guides/introduction/introduction-to-the-pom.html]
+* http://innerman.pe.kr/study/8960[[강좌] maven 따라하기 - 프로젝트 생성, 빌드, 레포팅, 배포]
+* http://www.ibm.com/developerworks/kr/library/tutorial/j-mavenv2/section8.html[아파치 메이븐 2 시작하기 (한글)]
+* http://seoeun25.tistory.com/355[Maven Getting Started Guide(1)]
+* http://seoeun25.tistory.com/358[Maven Getting Started Guide(2)]
+* http://seoeun25.tistory.com/359[Maven Getting Started Guide(3)]
+* http://maven.apache.org/ref/2.0.8/maven-model/maven.html[http://maven.apache.org/ref/2.0.8/maven-model/maven.html]
+* http://blog.naver.com/phrack/80051134315[Maven 설치하기]
+* http://www.javaworld.com/javaworld/jw-12-2005/jw-1205-maven.html[An introduction to Maven 2]
+
+생성 mvn archetype:create -DgroupId=com.mycompany.app -DartifactId=myapp
+
+http://moai.tistory.com/474[[Maven]으로 프로젝트 빌드하기 (maven1)]
+
+http://whiteship.tistory.com/1268[Maven 용어 2 (POM)]
+
+[source,xml]
+----
+<dependency>  
+  <groupId>.....</groupId>  
+  <artifactId>.....</artifactId>  
+  <version>1.0.1</version>  
+  <scope>system</scope>  
+  <systemPath>${basedir}/lib/xss.jar</systemPath>  
+</dependency>
+----
+
+Effective pom : mvn help:effective-pom
+
+Super pom
+
+http://maven.apache.org/pom.html[http://maven.apache.org/pom.html]
+
+http://maven.apache.org/guides/introduction/introduction-to-the-pom.html[http://maven.apache.org/guides/introduction/introduction-to-the-pom.html]
+
+http://www.ibm.com/developerworks/kr/library/j-5things13/index.html[Apache Maven에 대해 모르고 있던 5가지 사항]
+
+==== Options
+* -e : 발생한 error에 대해서 보여준다.  
+* -X : Debug를 보여준다. 보통 이 옵션에 > log.log 처럼 파일로 내보내서 무슨 문제가 생겼는지 확인하면 좋다.  
+* -U : 업데이트가 제대로 안되었을 경우 강제로 repository에서 업데이트 하도록한다.  
+* -fn : 에러가 나던 말던 일단 빌드부터 하고 본다.  
+* -P : 프로파일을 설정해서 하나의 프로젝트를 다른 설정으로 빌드할 수 있다.
+
+==== 기초개념
+* http://whiteship.tistory.com/1295[Profile]
+* http://whiteship.tistory.com/1290[Plugin]
+
+==== Life Cycle
+* http://whiteship.tistory.com/1265[Maven 용어 1 (Plugin, Goal, Phase)]
+* http://javajigi.tistory.com/95[**Maven** 강좌 7 - **Maven**을 이용하여 Appfuse 프로젝트 생성하기]
+* http://blog.naver.com/phrack/80051232261[[Maven]Option]
+* http://whiteship.me/2235[메이븐 상식: 기본 페이스(phase)]
+* http://whiteship.tistory.com/1588[Commit comment template]
+* http://whiteship.tistory.com/1595[]
+* http://msinterdev.org/blog/entry/Eclipse-Maven2-toolsjar-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0?TSSESSIONmsinterdevorgblog=46ef6ae21901697c556d92d05477786d[]
+
+==== Dependency
+* http://homo-ware.tistory.com/43[Maven Dependency의 scope의 의미]
+* http://blog.naver.com/iamteri/150030254660[maven2 transitive dependency]
+* http://whiteship.tistory.com/1597[Managed Depedency 네 녀석의 정체를 드디어 알았다.]
+* http://whiteship.tistory.com/1512[[Maven]을 쓴다고 해서 종속성을 안중에서 Out 시킬 수 있느냐?]
+* http://whiteship.tistory.com/1763[exclusion을 하까마까] "가장 가까운" 의존성을 사용하게 됩니다
+* http://whiteship.tistory.com/1600[기본적인 managed dependency 사용법]
+* http://whiteship.tistory.com/1597[Managed Depedency 네 녀석의 정체를 드디어 알았다.]
+* http://toby.epril.com/?p=610[Maven의 version range를 사용할 때 주의할 점]
+* mvn versions:display-dependency-updates  : 상위 버전 보여주기  
+* http://toby.epril.com/?p=610[]
+
+==== Site
+* http://whiteship.tistory.com/1273[mvn site]
+* http://whiteship.tistory.com/1300[Site Generation]
+
+==== 디렉토리구조
+* http://toby.epril.com/?p=414[Maven의 default directory layout 변경하기]
+* http://arawn.tistory.com/37[Maven의 webapp directory 변경하기]
+* http://maven.apache.org/plugins/maven-war-plugin/war-mojo.html#warSourceDirectory[http://maven.apache.org/plugins/maven-war-plugin/war-mojo.html#warSourceDirectory]
+
+==== Plug-in
+* http://maven.apache.org/plugins/[http://maven.apache.org/plugins/]
+* http://maven.apache.org/plugins/maven-jar-plugin/[http://maven.apache.org/plugins/maven-jar-plugin/]
+* http://maven.apache.org/plugins/maven-assembly-plugin/[http://maven.apache.org/plugins/maven-assembly-plugin/] : http://whiteship.tistory.com/1304[Assemblies]
+* http://mojo.codehaus.org/exec-maven-plugin/java-mojo.html[http://mojo.codehaus.org/exec-maven-plugin/java-mojo.html]
+* http://mojo.codehaus.org/exec-maven-plugin/usage.html[http://mojo.codehaus.org/exec-maven-plugin/usage.html]
+* http://maven.apache.org/plugins/maven-dependency-plugin/index.html[maven-dependency-plugin]  : http://whiteship.me/1984[Maven 프로젝트 의존성 파일들 패키징하기]
+* http://dgkim84.tistory.com/101[]
+* http://mojo.codehaus.org/javancss-maven-plugin/http://maven-plugins.sourceforge.net/maven-javancss-plugin/http://emma.sourceforge.net/maven-emma-plugin/http://maven.apache.org/guides/development/guide-testing-development-plugins.html[]
+* http://dgkim84.tistory.com/101[]
+* http://mojo.codehaus.org/javancss-maven-plugin/[http://mojo.codehaus.org/javancss-maven-plugin/]
+* http://maven-plugins.sourceforge.net/maven-javancss-plugin/[http://maven-plugins.sourceforge.net/maven-javancss-plugin/]
+* http://emma.sourceforge.net/maven-emma-plugin/[http://emma.sourceforge.net/maven-emma-plugin/]
+* http://maven.apache.org/guides/development/guide-testing-development-plugins.html[http://maven.apache.org/guides/development/guide-testing-development-plugins.html]
+* http://maven.apache.org/plugin-developers/cookbook/attach-source-javadoc-artifacts.html[http://maven.apache.org/plugin-developers/cookbook/attach-source-javadoc-artifacts.html]
+
+[source,xml]
+----
+<plugin>  
+  <groupId>org.apache.maven.plugins</groupId>  
+  <artifactId>maven-jar-plugin</artifactId>  
+  <configuration>  
+  <archive>  
+    <manifest>  
+    <addClasspath>true</addClasspath>  
+    <mainClass>ca.sqlpower.architect.swingui.ArchitectFrame</mainClass>  
+    <classpathPrefix>lib/</classpathPrefix>  
+    </manifest>  
+    <manifestEntries>  
+      <Class-Path>jdbc/</Class-Path>  
+     </manifestEntries>  
+     </archive>  
+    </configuration>  
+</plugin>
+----
+
+exec plugin
+
+[source,xml]
+----
+          <plugin>  
+            <groupId>org.codehaus.mojo</groupId>  
+            <artifactId>exec-maven-plugin</artifactId>  
+            <executions>  
+              <execution>  
+                <phase>deploy</phase>  
+                <goals>  
+                  <goal>exec</goal>  
+                </goals>  
+              </execution>  
+            </executions>  
+            <configuration>  
+              <executable>/home1/irteam/bin/tomcat.sh</executable>  
+              <workingDirectory>/home1/irteam/bin</workingDirectory>  
+              <arguments>  
+                <argument>start</argument>  
+                <argument>buzz</argument>  
+              </arguments>  
+            </configuration>  
+          </plugin>
+----
+
+Resource Filter encoding 설정
+[source,xml]
+----
+
+             <plugin>  
+               <groupId>org.apache.maven.plugins</groupId>  
+               <artifactId>maven-resources-plugin</artifactId>  
+               <configuration>  
+                       <encoding>UTF-8</encoding>  
+                   </configuration>  
+               </plugin>
+----
+
+==== archetype
+
+http://arawn.tistory.com/38[maven archetype 만들기]
+
+http://www.sonatype.com/books/mvnref-book/reference/archetype-sect-third-party.html[http://www.sonatype.com/books/mvnref-book/reference/archetype-sect-third-party.html]
+
+http://www.sonatype.com/books/mvnref-book/reference/archtype-sect-generate.html[http://www.sonatype.com/books/mvnref-book/reference/archtype-sect-generate.html]
+
+mvn install:install-file -Dfile=C:\aa.jar -DgroupId=aa -DartifactId=aa -Dversion=1.0 -Dpackaging=jar
+
+mvn archetype:update-local-catalog
+
+mvn archetype:generate
+
+==== Maven - Eclipse
+
+http://javajigi.tistory.com/91[Maven 강좌 5 - Maven 기반의 Eclipse 프로젝트 생성 및 활용]
+
+http://msinterdev.org/blog/entry/Eclipse-Maven2-toolsjar-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0?TSSESSIONmsinterdevorgblog=46ef6ae21901697c556d92d05477786d[Eclipse-Maven2-tools.jar 문제 해결]
+
+http://whiteship.tistory.com/1595[Maven으로 이클립스 프로젝트 만들기 - Screen Cast]
+
+http://whiteship.tistory.com/1646[MAVEN을 사용하세요. 코딩이 편해집니다.]
+
+    <classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER">  
+        <attributes>  
+            <attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>  
+        </attributes>  
+    </classpathentry>
+
+  <nature>org.eclipse.jdt.core.javanature</nature>  
+  <nature>org.maven.ide.eclipse.maven2Nature</nature>  
+  <nature>org.eclipse.wst.common.project.facet.core.nature</nature>  
+  <nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>  
+  <nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+
+http://cmaki.blogspot.com/2007/10/getting-maven-and-eclipse-to-work.html[Getting Maven and Eclipse to work together to filter resources]
+
+http://jira.codehaus.org/browse/MJNCSS-16[http://jira.codehaus.org/browse/MJNCSS-16]
+
+http://jira.codehaus.org/browse/MJNCSS-15[http://jira.codehaus.org/browse/MJNCSS-15]
+
+http://javacan.tistory.com/entry/HowToImportMavenProjectIntoEclipse[Maven 프로젝트 이클립스 import 하기]
+
+===== Maven-Eclipse plugin
+
+http://maven.apache.org/plugins/maven-eclipse-plugin/[http://maven.apache.org/plugins/maven-eclipse-plugin/]
+
+http://mevenide.codehaus.org/[http://mevenide.codehaus.org/]
+
+http://www.nabble.com/JavaNCSS-Maven-Plugin-td15224237.html[http://www.nabble.com/JavaNCSS-Maven-Plugin-td15224237.html]
+
+http://swik.net/Eclipse/Euxx/Maven+resource+filtering+with+Maven+Integration+for+Eclipse/b2w9e[Maven resource filtering with Maven Integration for Eclipse]
+
+=====   
+
+==== 테스트
+
+``Skip : -Dmaven.test.skip=true``
+
+    <properties>  
+        <maven.test.skip>true</maven.test.skip>  
+    </properties>
+
+하나만 : ``-Dtest=MyTest``
+
+http://whiteship.me/2227[통합 테스트 분리와 메이븐 관련 참조 할 글]
+
+http://whiteship.me/2233[메이븐 프로젝트에서 단위/통합 테스트 어설프게 구분하기]
+
+http://igooo.org/tc/entry/Maven-Test-%EC%88%98%ED%96%89%ED%95%98%EA%B8%B0[http://igooo.org/tc/entry/Maven-Test-수행하기]
+
+메모리 문제시
+
+export MAVEN_OPTS=-XX:MaxPermSize=256m
+
+-XX:MaxPermSize=256m
+
+ <plugin>  
+ <groupId>org.apache.maven.plugins</groupId>  
+        <artifactId>maven-surefire-plugin</artifactId>  
+        <version>2.4.3</version>  
+        <configuration>  
+          <argLine>-Xmx256m</argLine>  << 요 부분에 좀 자세히 적어주시면 될 겁니다.  
+          <forkMode>once</forkMode>  
+          <reportFormat>xml</reportFormat>  
+        </configuration>  
+</plugin>
+
+http://docs.codehaus.org/display/MAVENUSER/Maven+and+Integration+Testing[http://docs.codehaus.org/display/MAVENUSER/Maven+and+Integration+Testing]
+
+http://www.edwardkim.pe.kr/?tag=test[http://www.edwardkim.pe.kr/?tag=test]
+
+==== 주의할 점
+
+http://www.filsa.net/2008/02/11/maven-and-the-method-does-not-override-a-method-from-its-superclass-error/[http://www.filsa.net/2008/02/11/maven-and-the-method-does-not-override-a-method-from-its-superclass-error/]
+
+Version 인식문제
+
+==== Profile
+
+http://java.dzone.com/articles/maven-profile-best-practices[http://java.dzone.com/articles/maven-profile-best-practices]
+
+=== Library 검색
+
+http://maven.ozacc.com/[http://maven.ozacc.com/]
+
+http://www.mvnbrowser.com/index.html[http://www.mvnbrowser.com/index.html]
+
+http://repository.sonatype.org/[http://repository.sonatype.org/]
+
+=== Repository
+
+http://toby.epril.com/?p=420[Nexus Maven Repository 1.0 출시]
+
+http://whiteship.tistory.com/1269[Maven 용어 3 (Repository)]
+
+http://javajigi.tistory.com/87[Maven 강좌 4 - Maven을 이용하여 Dependency 라이브러리 관리 방법]
+
+http://javajigi.tistory.com/92[Maven 강좌 6 - Artifactory를 이용하여 Maven Repository 세팅하기]
+
+http://msinterdev.org/blog/entry/Eclipse-Maven2-toolsjar-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0?TSSESSIONmsinterdevorgblog=46ef6ae21901697c556d92d05477786d[Eclipse-Maven2-tools.jar 문제 해결]
+
+http://www.theserverside.com/tt/articles/article.tss?l=SettingUpMavenRepository[Setting Up Maven Repository]
+
+http://whiteship.me/?p=12858[[메이븐 저장소] war 버전 Nexus 설치 및 설정]
+
+http://blog.fastconnect.fr/?p=275[Using Maven2 projects at googlecode.com]
+
+https://docs.sonatype.org/display/Repository/Central+Sync+Requirements[https://docs.sonatype.org/display/Repository/Central+Sync+Requirements]
+
+http://maven.apache.org/guides/mini/guide-central-repository-upload.html[http://maven.apache.org/guides/mini/guide-central-repository-upload.html]
+
+http://stuartsierra.com/2009/09/08/run-your-own-maven-repository[http://stuartsierra.com/2009/09/08/run-your-own-maven-repository]
+
+http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/[http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/]
+
+=== Maven WAS
+
+===== Jetty
+
+<build>
+
+<plugin>
+
+<groupId>org.mortbay.jetty</groupId>
+
+<artifactId>maven-jetty-plugin</artifactId>
+
+<configuration>
+
+<scanIntervalSeconds>3</scanIntervalSeconds>
+
+<contextPath>/</contextPath>
+
+<connectors>
+
+<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+
+<port>8080</port>
+
+</connector>
+
+</connectors>
+
+</configuration>
+
+</plugin><plugin>  
+
+http://javacan.tistory.com/entry/WebAppDevelopmentUsingMaven[Maven을 이용한 웹 어플리케이션 개발 및 Jetty 연동법]
+
+===== Tomcat
+
+<groupId>org.codehaus.mojo</groupId>
+
+<artifactId>tomcat-maven-plugin</artifactId>
+
+<version>1.0</version>
+
+<configuration>
+
+               <path>/admin</path>
+
+       </configuration>
+
+</plugin>
+
+</plugins>
+
+</build> 
+
+Tomcat maven plugin 소스 :  https://github.com/apache/tomcat-maven-plugin
+
+=== Eclipse Integration
+
+http://wiki.eclipse.org/M2E_plugin_execution_not_covered[http://wiki.eclipse.org/M2E_plugin_execution_not_covered] 
+
+===== m2 Eclipse
+
+update site : http://m2eclipse.sonatype.org/update/[http://m2eclipse.sonatype.org/update/], <font color="#0000ff">http://download.eclipse.org/technology/m2e/releases</font>
+
+http://m2eclipse.codehaus.org/[Maven Integration for Eclipse] (M2 Eclipse):
+
+http://whiteship.tistory.com/1602[pom.xml에 종속성 추가하기]
+
+http://www.theserverside.com/tt/articles/article.tss?l=Introductiontom2eclipse[Introduction to m2eclipse]
+
+http://toby.epril.com/?p=568[Effective POM과 M2Eclipse Plugin]
+
+http://cmaki.blogspot.com/2007/10/getting-maven-and-eclipse-to-work.html[Getting Maven and Eclipse to work together to filter resources]
+
+===== Q4e
+
+http://q4e.googlecode.com/svn/trunk/updatesite[q4e]
+
+http://whiteship.tistory.com/1604[Q4E 플러그인 사용기 1]
+
+http://whiteship.tistory.com/1601[이클립스용 Maven 플러그인 Q4EMaven 플러그인 Q4E]
+
+Local에 파일설치 : mvn install:install-file -Dfile=ojdbc14.jar -DgroupId=com.oracle-DartifactId=ojdbc14 -Dversion=10.2.0.2.0 -Dpackaging=jar  
+
+Release
+
+mvn release:prepare -Darguments="-DskipTests" -Dusername=benelog -Dpassword=234234
+
+War 파일에 버전 새기기
+
+[source,xml]
+----
+ <properties>
+ <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format> 
+
+  </properties> 
+
+  <plugin>
+
+ <artifactId>maven-war-plugin</artifactId>
+
+ <configuration>
+
+ <webappDirectory>${deploy.dir}</webappDirectory>
+
+ <archive>
+
+ <manifestEntries>
+
+ <Build-Date>${maven.build.timestamp}</Build-Date>
+
+ <Revision-Number>${revision}</Revision-Number>
+
+ </manifestEntries>
+
+ </archive>
+
+ </configuration>
+
+ </plugin>
+----
+
+http://stackoverflow.com/questions/1272648/reading-my-own-jars-manifest
