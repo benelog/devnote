@@ -1,0 +1,78 @@
+http://chanwook.tistory.com/571[Use Case Modeling In Theory]
+
+http://younghoe.info/832[UML의 한계, 그리고 CBD 방법론자의 생존 방안]
+
+마소기사 : 가능성과 확장성을 품고 등장한 UML 2.0
+
+== UML 도구
+
+총정리 : http://www.devcurry.com/2010/06/free-open-source-uml-tools.html[http://www.devcurry.com/2010/06/free-open-source-uml-tools.html]
+
+==== 
+Graphviz : http://www.graphviz.org/Download..php[http://www.graphviz.org/Download..php]
+
+===  단독실행형
+
+==== StartUML (오픈소스)
+
+http://staruml.sourceforge.net/en/[http://staruml.sourceforge.net/en/]
+
+http://staruml.sourceforge.net/docs/user-guide(ko)/toc.html[StarUML 5.0 사용자 가이드]
+
+윈도우용만 됨
+
+==== Argo UML (오픈소스)
+
+http://argouml.tigris.org/[http://argouml.tigris.org/]
+
+java 기반.
+
+Ctrl + V, Ctrl + Z 같은 관습적인 키가 안 먹혀서 불폄함.
+
+==== Plantuml (오픈소스)
+
+http://plantuml.sourceforge.net/[]
+
+http://plantuml.sourceforge.net/[http://plantuml.sourceforge.net/]
+
+간단한 텍스트 정의로 Diagram을 그릴 수 있음.  sequence diagram을 그리기에는 유용하나 Layout을 자유롭게 배치하는 class diagram에 쓰기에는 불편.  
+
+(Eclipse plugin, Servlet, Maven plugin 다 제공)
+
+==== Gaphor
+
+http://gaphor.sourceforge.net/[http://gaphor.sourceforge.net/]
+
+단순한  사용법
+
+Windows에서는 안 되는듯
+
+==== Umbrello
+
+http://uml.sourceforge.net/[http://uml.sourceforge.net/]
+
+==== Dia
+
+http://sourceforge.net/projects/dia-installer/  
+
+Uml뿐만 아니라 회로도 등 다양한 형식 지원
+
+자유도가 높음.  
+
+=== Eclipse plugin
+
+http://www.devcurry.com/2010/06/free-open-source-uml-tools.html[]http://www.graphviz.org/Download..php[]
+
+http://www.objectaid.com/class-diagram[http://www.objectaid.com/class-diagram]
+
+http://www.architexa.com/index_1.php[http://www.architexa.com/index_1.php]
+
+=== Web
+
+http://yuml.me/diagram/scruffy/class/draw[http://yuml.me/diagram/scruffy/class/draw] : 간단한 텍스트 그림
+
+http://www.websequencediagrams.com/[http://www.websequencediagrams.com/]
+
+http://www.plantuml.com/plantuml/[http://www.plantuml.com/plantuml/]
+
+http://www.zooml.com/[http://www.zooml.com]
