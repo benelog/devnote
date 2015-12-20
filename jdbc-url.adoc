@@ -1,8 +1,19 @@
 
 == Sqlite
-* driver:  org.sqlite.JDBC
-* jdbc:sqlite:F:/data/com.astroframe.seoulbus/databases/station.sqlite
+* http://www.zentus.com/sqlitejdbc/ : Original
+* http://www.xerial.org/trac/Xerial/wiki/SQLiteJDBC : 개선판
+* Class :  org.sqlite.JDBC
+* url : jdbc:sqlite:F:/data/com.astroframe.seoulbus/databases/station.sqlite
+* multithread에서 쓰면 안되요 : http://stackoverflow.com/questions/5117248/spring-sqlite-in-multi-threaded-application
 
+[source,xml]
+----
+<dependency>
+ <groupId>org.xerial</groupId>
+ <artifactId>sqlite-jdbc</artifactId>
+ <version>3.7.2</version>
+</dependency>
+----
 
 == HSQL
 * Driver : org.hsqldb.jdbcDriver
