@@ -1,0 +1,22 @@
+Thread dump 분석하기
+
+
+
+자주 쓰는 명령
+
+jps -v
+
+more dum.txt  | grep locked | sort -i | uniq -c | sort -i : 같은 객체에 lock이 걸린것이 있는지 확인
+
+
+
+도구
+
+TDA : https://java.net/projects/tda
+
+Thread Logic : https://java.net/projects/threadlogic
+
+IBM Thread and Monitor Dump Analyzer for Java : 
+
+https://www.ibm.com/developerworks/mydeveloperworks/groups/service/html/communityview?communityUuid=2245aa39-fa5c-4475-b891-14c205f7333c
+
