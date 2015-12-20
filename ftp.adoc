@@ -1,0 +1,98 @@
+== Active 모드와 Passive 모드
+
+http://blog.naver.com/geeksblog/20028104462[http://blog.naver.com/geeksblog/20028104462]
+
+http://wearekorean.co.kr/zbxe/400[http://wearekorean.co.kr/zbxe/400]
+
+=== Command로 접근
+
+http://linux.byexamples.com/archives/320/using-curl-to-access-ftp-server/[http://linux.byexamples.com/archives/320/using-curl-to-access-ftp-server/]
+
+http://curl.haxx.se/docs/manual.html[http://curl.haxx.se/docs/manual.html]
+
+curl -T test.py ftp://benelog.net:2121 -u user:password
+
+curl -T test.py ftps://benelog.net:2121 -u user:password -k
+
+wget ftp://user:password@benelog.net/file.out[ftp://user:password@benelog.net/file.out]
+
+=== SFTP vs FTPS
+* SFTP : SSH File Transfer Protocol. SSH Key 사용 . 1 port. firewell friendly
+* FPTS =  FTP over SSL
+
+http://www.codeguru.com/csharp/.net/net_general/internet/article.php/c14329/FTPS-vs-SFTP-What-to-Choose.htm[http://www.codeguru.com/csharp/.net/net_general/internet/article.php/c14329/FTPS-vs-SFTP-What-to-Choose.htm]
+
+http://ezinearticles.com/?Security-of-SFTP-Vs-FTPS&id=4885637[http://ezinearticles.com/?Security-of-SFTP-Vs-FTPS&id=4885637]
+
+ With FTPS the control session is always encrypted, but the data session might not be. Why is this? Because with the control session encrypted the authentication is protected and you always want this (normal ftp uses clear text).
+
+=== Ftps 키 발급
+http://docs.oracle.com/cd/E19159-01/820-4605/ablrb/index.htmlkeytool
+
+-genkey -alias keyAlias -keyalg RSA -keypass pass0101 -storepass pass0101 -keystore ftpkeystore.jks  
+
+
+== Command
+
+ascii : 전송모드를 ASCII모드로 설정한다.(ascii또는 as)
+
+binary : 전송모드를 BINARY모드로 설정한다.( binary또는 bi)  
+
+bell : 명령어 완료시에 벨소리를 나게한다.(bell)
+
+bye : ftp접속을 종료하고 빠져나간다.(bye)  
+
+cd : remote시스템의 디렉토리를 변경한다.(cd 디렉토리명)
+
+cdup : remote시스템에서 한단계 상위디렉토리로 이동한다.(cdup)
+
+chmod : remote시스템의 파일퍼미션을 변경한다.(chmod 755 index.html)
+
+close : ftp접속을 종료한다. (close)
+
+delete : remote시스템의 파일을 삭제한다.(delete index.old)
+
+dir : remote시스템의 디렉토리 내용을 디스플레이한다.(dir)
+
+disconnect : ftp접속을 종료한다.(disconnect)
+
+exit : ftp접속을 종료하고 빠져나간다.(exit)
+
+get : 지정된 파일하나를 가져온다.(get index.html)
+
+hash : 파일전송 도중에 "#"표시를 하여 전송중임을 나타낸다.(hash)
+
+help : ftp명령어 도움말을 볼 수 있다.(help또는 help 명령어)
+
+lcd : local시스템의 디렉토리를 변경한다.(lcd 디렉토리명)
+
+ls : remote시스템의 디렉토리 내용을 디스플레이한다. (ls 또는 ls -l)
+
+mdelete : 여러개의 파일을 한꺼번에 지울 때 사용한다.( mdelete *.old)
+
+mget : 여러개의 파일을 한꺼번에 가져오려할 때 사용한다. ( mget *.gz)
+
+mput : 한꺼번에 여러개의 파일을 remote시스템에 올린다.(mput *.html)
+
+open : ftp접속을 시도한다.(open 168.126.72.51또는 open ftp://ftp.kornet.net/[ftp.kornet.net])
+
+prompt : 파일전송시에 확인과정을 거친다. on/off 토글 (prompt)
+
+put : 하나의 파일을 remote시스템에 올린다.(put index.html)
+
+pwd : remote시스템의 현재 작업디렉토리를 표시한다.(pwd)
+
+quit : ftp접속을 종료하고 빠져나간다.(quit)
+
+rstatus : remote시스템의 상황(version, 어디서, 접속ID등)을 표시한다.(rstatus)
+
+rename : remote시스템의 파일명을 바꾼다.(remote 현재파일명 바꿀파일명)
+
+rmdir : remote시스템의 디렉토리을 삭제한다.(rmdir 디렉토리명)
+
+size :remote시스템에 있는 파일의 크기를 byte단위로 표시한다.(size index.html)
+
+status : 현재 연결된 ftp세션모드에 대한 설정을 보여준다.(status)
+
+type : 전송모드를 설정한다.(type 또는 type ascii 또는 type binary)
+  
