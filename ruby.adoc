@@ -1,0 +1,95 @@
+http://dotty.springnote.com/pages/8886[http://dotty.springnote.com/pages/8886]
+
+http://www.techotopia.com/index.php/Ruby_Essentials[http://www.techotopia.com/index.php/Ruby_Essentials]
+
+http://thinkr.egloos.com/796564[http://thinkr.egloos.com/796564]  : 웹 2.0과 루비 온 레일즈(Ruby on Rails)
+
+http://onestepback.org/articles/quickrails/takahashi.xul?data=quickrails.data#1[http://onestepback.org/articles/quickrails/takahashi.xul?data=quickrails.data#1]
+
+마이크로소프트웨어 연재  http://benelog.springnote.com/pages/84624/attachments/30264[루비를스크립트로활용해보기.pdf]
+
+http://benelog.springnote.com/pages/84624/attachments/30265[루비를타고떠나는기차여행RubyOnRails.pdf]
+
+루비한글사이트(quickstart)  : http://www.ruby-lang.org/ko/documentation/quickstart/[http://www.ruby-lang.org/ko/documentation/quickstart/]
+
+루비연습    : http://tryruby.hobix.com/[http://tryruby.hobix.com/]
+
+루비 블로그 : http://beyond.daesan.com/pages/ruby-faq[http://beyond.daesan.com/pages/ruby-faq]
+
+루비퀴즈    : http://www.rubyquiz.com/[http://www.rubyquiz.com/]
+
+루비기본문법    : http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2[http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2]
+
+http://martinfowler.com/bliki/GroovyOrJRuby.html[MF Bliki: Groovy or JRuby]
+
+http://www-128.ibm.com/developerworks/web/library/wa-rubyonrails/[Ruby on Rails and J2EE: Is there room for both?]
+
+루비를 이용한 Behavior Driven Developmenthttp://network.hanb.co.kr/view.php?bi_id=1458[  
+http://network.hanb.co.kr/view.php?bi_id=1458]  
+http://network.hanb.co.kr/view.php?bi_id=1459[http://network.hanb.co.kr/view.php?bi_id=1459]
+
+http://push.cx/2007/fixtures-in-ruby-unit-tests[Fixtures in Ruby Unit Tests]
+
+http://moai.tistory.com/454[UltraEditor로 루비 개발환경 설정하기]
+
+http://pds8.egloos.com/pds/200803/19/44/pt.pdf[컨퍼런스 발표를 마치고]
+
+http://thinkr.egloos.com/1811596[레일스로 이메일 받아 처리하기]
+
+http://thinkr.egloos.com/1878511[배우(actor)가 된 루비, Revactor]
+
+http://thinkr.egloos.com/1954598[루비가 얼랭에 빠졌던 이유?]
+
+http://newlord.egloos.com/1978181[클로저 (Closure) - 마틴 파울러]
+
+http://wiki.rubyonrails.org/rails/pages/HowtoConfigureLogging[Ruby on Rails]
+
+http://railscasts.com/episodes/54[Debugging with ruby-debug]
+
+http://wiki.rubyonrails.org/rails/pages/HowtoDebugWithRubyDebug[HowtoDebugWithRubyDebug]
+
+http://wiki.rubyonrails.org/rails/pages/HowtoConfigureLogging[HowtoConfigureLogging]
+
+http://labuschin.com/rails[The Ruby on Rails Link Library]
+
+http://thinkr.egloos.com/2180851[Rails + Merb, 또 하나의 인수합병]
+
+http://www.oreillynet.com/pub/a/ruby/2007/08/09/behavior-driven-development-using-ruby-part-1.html[http://www.oreillynet.com/pub/a/ruby/2007/08/09/behavior-driven-development-using-ruby-part-1.html]
+
+http://www.slideshare.net/viget/mockfight-flexmock-vs-mocha[http://www.slideshare.net/viget/mockfight-flexmock-vs-mocha]
+
+http://thinkr.egloos.com/2011191[레일스 테스팅 참고자료]
+
+http://www.nomedojogo.com/2008/06/15/ruby-on-rails-21-whats-new-second-edition/[http://www.nomedojogo.com/2008/06/15/ruby-on-rails-21-whats-new-second-edition/]
+
+http://giantrobots.thoughtbot.com/2008/6/19/gotchas-when-upgrading-to-rails-2-1[http://giantrobots.thoughtbot.com/2008/6/19/gotchas-when-upgrading-to-rails-2-1]
+
+http://lastmind.net/blog/2009/02/learning-rails-heroku.html[Learning Rails + Heroku]
+
+http://railscasts.com/[http://railscasts.com/]
+
+http://railslab.newrelic.com/[http://railslab.newrelic.com/]
+
+==== typing
+
+http://toby.epril.com/?p=722[http://toby.epril.com/?p=722]
+
+http://skyul.tistory.com/264[Static Type Inference for Ruby]
+
+==== Rake
+
+http://corund.egloos.com/84815[Rake를 사용해 보고]
+
+=== Sinatra
+
+http://www.sinatrarb.com/[http://www.sinatrarb.com/]
+
+==== Migration
+
+ruby script/generate migration add_price_column
+
+http://lambert.tistory.com/142[http://lambert.tistory.com/142]
+
+rake db:migrate
+
+ 
