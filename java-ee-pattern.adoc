@@ -1,0 +1,46 @@
+http://blog.naver.com/advan94/80002188172[http://blog.naver.com/advan94/80002188172]
+
+== Business Deligate
+
+http://blog.naver.com/kvivaldi/60003133968[http://blog.naver.com/kvivaldi/60003133968]
+
+웹 계층과 애플리케이션 계층인 EJB 계층과 분리를 하기 위해 사용되는 패턴. 성능향상을 위해 자주 요청되는 데이터를 캐싱하여 서비스할 수도 있음. Session Facade가 제공하는 인터페이스를 그대로 제공. Business Delegate를 사용하는 클라이언트는 EJB에 관련된 내용을 전혀 몰라도, 즉, 비즈니스 서비스 API가 클라이언트에 직접 노출되지 않아도, 클라이언트는 그냥 일반 로컬 클래스를 사용하듯이 EJB 서비스를 사용할 수 있다는 장점. 일반적으로 자바 local class로 구현됩니다. Command Bean 클라이언트로부터 요청이 들어오면 해당 EJB를 lookup하여 처리하고, 그 결과를 Command Bean에게 돌려줌
+
+== Data Access Object
+Entity class로부터 직접 데이터를 데이터 저장소를 이용하여 처리하는 역할을 위임받은 클래스를 사용하는 설계 패턴. Entity class는 데이터 저장소를 다루기 위한 세부적인 내용을 알지 못하고 Data Access Object을 통해서 데이터 처리를 합니다. 따라서, 데이터 저장소 변동에 관련된 내용은 entity class와는 상관없이 Data Access Object class에서 만 처리하면 됩니다. Data Access Object class는 일반  자바 local class로 구현됩니다. 데이터 처리 관련한 기능은 DB에 쿼리를 하는 부분에서 에러가 발생될 확률이  높으므로, Data Access Object class를 통하여 테스트를 진행하면 EJB를 통하지 않아도 되므로 간편하게 진행할 수 있는 장점이 있습니다.  
+
+== Service Activator
+EJB 서버단과 클라이언트단의 호출을 비동기적으로 처리하여 효율을 높임
+
+== Service Locator
+JNDI lookup을 하는데 이미 찾아 놓은 정보를 재활용할 수 있도록 하여 지연시간을 단축시킴.
+
+== Transfer Object (Value Object)
+관련된 데이터를 낱개가 아닌 묶음으로 전달할 때 사용. EJB를 사용할 경우, 원격호출이 이루어지므로, 각 속성 값들을 낱개로 일일이 호출하면 성능상 부담이 크므로, 필요한 관련 데이터를 일괄적으로 묶어서 한 번에 전달하기 위해 사용되는 패턴입니다. Value Object class내부에는 다른 메서드는 존재하지 않고, 전달할 데이터가 클래스 속성으로 정의되어 있고, 이 데이터를 쓰고 가지고 올 get/set메서드만 정의되어 있습니다. 일반적으로 Serializable하게 선언되어 원격으로 전달될 수 있게 구현되고, JavaBeans 형태로 구현하여 전달 받은 데이터를 JSP에서 직접 useBean하여 사용할 수 있도록 구현됩니다.
+
+http://martinfowler.com/eaaCatalog/dataTransferObject.html[http://martinfowler.com/eaaCatalog/dataTransferObject.html]  
+http://www.theserverside.com/discussions/thread.tss?thread_id=32389[When to use DTO pattern?]  
+http://en.wikipedia.org/wiki/Data_Transfer_Object[Data Transfer Object]
+
+== Session Facade
+EJB는 원격 호출이기 때문에, 클라이언트에서 Workflow를 가지고 있고, 이 Workflow에 따라, 관련되는 EJB들을 매번 호출하기에는 성능상 부담이 아주 큽니다. 또한, EJB들에 대한 Workflow나 비즈니스 로직이 클라이언트 측에 있으면 EJB변경 시, 이를 참조하는 모든 클라이언트들이  변경되어야 하는 부담이 발생합니다. 따라서, 클라이언트  입장에서는 원하는 기능을 단일 창구를 통해 위임을 하고, 그 단일 창구는 기능 처리 요구를 받아서, 가지고 있는  Workflow를 이용하여 필요한 EJB를 내부적으로  호출합니다. 그리고, 호출하여 만든 결과를 다시  클라이언트에게 일괄적으로 돌려주게 됩니다. 이 단일  창구 역할을 하는 패턴이 바로 Session Facade 패턴입니다. Session Facade가 내부 Workflow를 가지고  
+처리를 하기 때문에, 클라이언트 입장에서는 기능 요청만하면 되고, 내부 처리 프로세스나 비즈니스 로직에 대해서는 알 필요가 없습니다. 또한, Session Facade는 EJB(Session Bean)으로 구현이 되는데, 같은 서버에  위치한 EJB를 내부적으로 호출하기 때문에 원격호출에  대한 부담이 없는 장점이 있습니다. Session Facade는 일반적으로 설계된 컴포넌트의 대표 인터페이스 제공 역할을 하는데 사용됩니다.
+
+== Command Bean
+Front Controller에 해당하는 Servlet으로 부터 자신에 맞는 웹 요청을 전달받아서 해당하는 애플리케이션 컴포넌트에게 전달하는 역할
+
+웹 계층에서 해당 명령을 처리하기 위한 Workflow를 포함하고 있습니다. EJB를 사용하지 않는 경우는 해당 명령을 처리하기 위한 비즈니스 로직을 담고 있는 클래스를 로컬로 호출합니다. EJB를 사용하는 경우는 해당 명령을 처리하기 위한 Business Delegate를 호출. Command Bean은 일반 자바 local class로 구현되면 하나의 Front Controller에 복수개의 Command Bean이 연관되게 됩니다.
+
+== Fast-Lane Controller
+
+리스트와 같은 많은 항목을 가지고 올 때, Entity Bean을 직접 호출을 하면, 리스트 상의 개수만큼 EJB Object이 생성되며, 리스트상의 항목이 많을 때, 시스템에 상당한 부담을 주게 됩니다. 실제 자세한 데이터는 데이터 건당 하나씩 처리하면 되며, EJB Object를 일일이 생성시킬 필요는 없습니다. 따라서, Entity Bean을 통해서 EJB Object이 리스트 상의 개수만큼 생겨 시스템에 커다란 부하를 주는 것을 방지하기 위해 고안된 패턴
+
+일단, 리스트를 가져오는 명령을 Session Bean이 받고, DB를 통해 리스트를 가져오는 명령은 Entity Bean이 아닌 로컬 클래스로 구현된 Data Access Object을 직접 통하도록 하면서 리스트는 가지고 오면서 EJB Object은 생성되지 않도록 합니다.    
+
+== Intercepting Filter
+
+클라이언트의 요청을 가로채어 전처리, 후처리를 해야 할 때, 어플리케이션 코드에 독립적으로 필터를 선언해서 사용하는 방식입니다. 선언적이며 유연한 설정 사용이 가능한 장점이 있습니다.
+
+== Front Controller
+웹 요청을 받아서 해당 웹 컴포넌트로 전달하는 역할. 웹 요청을 전달 받은 웹 컴포넌트는 처리된 결과를 다시 이 Controller에게 전달하면 처리 결과를 받아서 결과 화면을 만드는 해당 JSP로 데이터를 전달하도록 되어 있습니다. 일종의 각 전기 기구를 연결하는 전기 배선과도 같은 역할이라 할 수 있습니다. 따라서, 웹 요청을 처리하는 비즈니스 로직이나 처리 Workflow에 대해서는 Front Controller는 전혀 알지 못합니다. 이 외에도 Front  Controller에서 웹 요청을 전달하기 전에 처리해야할 일, 즉, 세션관리, 권한관리를 수행할 수 있으며, 웹 컴포넌트로부터 전달 받은 데이터를 후처리하는 일, 즉,  
+데이터를 일정한 형태로 파싱(Parsing)하는 역할을 수행하기도 합니다. 일반적으로, 웹 환경에서는 Servlet 기술을 이용하여 Front Controller를 구현.  제어를 중앙집중화하여 관리성과 재사용성이 증대되고, 역할별 분할 작업이 향상되는 장점.
