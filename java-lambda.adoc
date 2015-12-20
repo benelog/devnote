@@ -1,0 +1,42 @@
+http://blog.hartveld.com/2013/03/jdk-8-13-interface-default-method.htmlhttp://blog.hartveld.com/2013/03/jdk-8-23-lambda-expressions.htmlhttp://blog.hartveld.com/2013/03/jdk-8-33-stream-api.html  
+
+http://www.infoq.com/presentations/lambda-invokedynamic   
+ http://blog.jooq.org/2014/04/04/java-8-friday-the-dark-side-of-java-8/  
+
+=== Joshua Bloch의 인터뷰
+ http://blog.jooq.org/2014/04/04/java-8-friday-the-dark-side-of-java-8/  
+
+이 글을 보니 Joshua Bloch가 과거에 말한게 생각나는데 2006년에는 아래와 같이 말했고,  
+
+2006년 : http://www.infoq.com/interviews/joshua-bloch  
+
+질문 : Where do you stand on the closures debate?  
+
+답변 :  I like closures. I think they work very well in languages that design them, like Smalltalk and Scheme and so forth. I think closures in java are a good thing. We've basically had them since 1.1 in the form of anonymous class instances and those are a bit clunky so I definitely see a place for improvement support for closures; on the other hand some of the proposals that I've seen floating around are overly complex; they involve massive changes to the type system, things like function types and I'm severely worried about pushing the complexity of the language beyond the point where Joe Java can't use the language anymore. If we add more support for closures I think it has to be in the spirit of the current support, which means that closures should take the form of instances, of types that have a single abstract method, whether they are interface types such as Runnable , or class types such as TimerTask.  I think it would be nice if a better syntax in the current anonymous class syntax were adopted and if requirement with regards to Final variables were somehow made more tangible, which doesn't mean necessarily relaxed; I think it's actually good that you can not close over non Final variables, but it's a pain to actually mark them final, so if they automatically marked themselves final which would be nice.  
+
+2010년 : http://www.infoq.com/interviews/josh-bloch-java-prog  
+
+질문 : One of the debates, which has been ongoing for the last several years, is that around adding closures to Java the language. What are your thoughts on that?  
+
+답변 : I think that some form of closures would be a good thing because anonymous inner classes are verbose and nobody really like them all that much. On the other hand, we have certainly seen proposals that add immensely to the conceptual surface area of the language and I’m glad that Project Lambda seems to be moving away from these overly complex solutions. I hope they come up with something nice.  
+
+질문 : Which of the variety of Lambda proposals do you think is best suited to putting into the Java language or do you think it’s one that would contain some of the capabilities of the different implementations which have been discussed?  
+
+Clearly it’s going to contain something from each of the proposals, but there are certain things that add a lot of complexity. For example, permitting local and non-local returns and forcing people to think about whether this is a local return or a non-local return. That’s a massive source of complexity. Function types is an interesting one, I was kind of resigned to seeing them in the language, although of course they do add greatly to the complexity. The most recent proposals from Project Lambda don’t include function types. We’ll see what happens there.  
+
+I think the most important thing is to make it easier to do what you can already do with anonymous inner classes, just to remove all of that needless verbosity. Another thing which I see as worse than a mixed blessing is the ability to access to close over mutable state from within Lambda expressions. Generally that causes more harm than good and I don’t mind at all if it’s outright impossible or if you have to somehow annotate (I shouldn’t say annotate but), to place some syntactic cue as to what state you wish to mutate from within a Lambda expression.    
+
+- Eclipsecon 2004의 'The Road To Lambda' : <https://www.eclipsecon.org/na2014/sites/default/files/slides/2014-03-18%20The%20Road%20To%20Lambda.pdf>  
+
+- Devox 2013의 Invoke Dyamic 관련 발표 : <http://www.parleys.com/play/517af3a5e4b0736a5fa66a20/chapter0/about>  
+https://cdn.parleys.com/p/517af3a5e4b0736a5fa66a20/517ab55a1e8fa_1366996277881.pdf  
+
+http://cr.openjdk.java.net/~briangoetz/lambda/lambda-translation.html  
+
+JVM 실행 옵션에 -Djdk.internal.lambda.dumpProxyClasses를 주고 람다식이 있는 코드를 실행시키면 런타임시 정의한 람다 클래스를 파일로 저장해준다.  클래스 파일 위치를 지정하고 싶으면 경로를 = 뒤에 넣어줘도 된다.  
+
+http://www.slipp.net/wiki/pages/viewpage.action?pageId=19530334  
+
+https://www.facebook.com/tobyilee?fref=ts#[]  
+
+AOP에 응용 : http://www.slideshare.net/antoinesd/invoke-dynamite-with-invoke-dynamic  
