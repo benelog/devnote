@@ -1,0 +1,6 @@
+=== 중복파일 삭제
+[source]
+----
+dir /b > file.list
+for /f %i in (file.list) do del ..\%i
+----
