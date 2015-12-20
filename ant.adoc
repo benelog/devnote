@@ -1,6 +1,8 @@
 http://www.ibm.com/developerworks/kr/library/j-ap10106/index.html[빌드 스크립트에서 나는 “악취(smell)” 제거하기]
 
-http://blog.naver.com/trimaran/382842[]http://blog.naver.com/trimaran/382842[ftp task의 문제점:]
+http://blog.naver.com/trimaran/382842[]
+
+http://blog.naver.com/trimaran/382842[ftp task의 문제점:]
 
 http://blog.naver.com/pluggers/150003316374[1900개가 넘는 java컴파일시 ant의 설정]
 
