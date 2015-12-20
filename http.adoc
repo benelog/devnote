@@ -1,0 +1,11 @@
+http://mkseo.pe.kr/blog/?p=2269[URL에 사용되는 특수문자 #!]
+
+=== Http Header
+* http://pungjoo.tistory.com/14[Transfer-Encoding: chunked VS Content-Length]
+
+=== Cache
+* Cache-Control, Expires, Date 응답 해더는 캐쉬 사용을 권장하는데 사용해야 한다.  
+* Cache-Control, Expires, Pragma 응답 해더는 캐쉬 사용을 중지하는데 사용해야 한다.
+
+==== Web Socket
+* http://jwebsocket.org/[http://jwebsocket.org/]
