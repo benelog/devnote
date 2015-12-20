@@ -1,21 +1,230 @@
-Apache MaxClients와 Tomcat의 Full GC
-
-
-
 참조하는 jar파일 확인
 
-
-
+[source]
+----
 pmap [pid] | grep jar
+----
 
 혹은 cat /proc/<pid>/smaps
 
+[source]
+----
 ps axuw | grep java | grep -v grep | awk '{print $2}' | while read P; do pmap $P | grep 'spring' ; done 
+----
 
 
+* Apache MaxClients와 Tomcat의 Full GC
+* JDBC internal timeout의 이해
+* Garbage Collection과 Statement Pool
 
-Database
 
-JDBC internal timeout의 이해
+iBatis + DBCP  
+http://www.imaso.co.kr/?doc=bbs/gnuboard.php&bo_table=article&wr_id=40288[iBatis와 DBCP 바로알기]
 
-Garbage Collection과 Statement Pool
+*   - iBatis는 JDBC 3.0이전에도 내부적으로 statement cache를 함. 그러나 ibatis session level의 cache이기 때문에 Driver level cache보다 효율이 떨어짐
+*   - evictor 스레드가 실행될 때는  timeBetweenEviction RunMillis > 0
+*   - Evictor 스레드 역할http://devyongsik.tistory.com/509[http://devyongsik.tistory.com/509]  
+
+http://java-source.net/open-source/connection-pools[http://java-source.net/open-source/connection-pools]
+
+http://www.java2go.net/blog/117[dbcp와 c3p0 커넥션 풀 유지하기 :: 2009/02/17 18:09]
+
+http://tom.tharrisx.homedns.org/javalib/c3p0-0.8.4.5/doc/[c3p0 - JDBC3 Connection and Statement Pooling]
+
+http://czar.tistory.com/297[jsp DBCP pool 모니터링 페이지]
+
+<%@ page language="java" contentType="text/html; charset=EUC-KR" %>  
+<%@ page import="  
+    java.util.*,  
+    javax.naming.*,  
+    javax.sql.*,  
+    org.apache.commons.beanutils.*,  
+    org.apache.commons.dbcp.*"  
+%>  
+<%  
+ Context initContext = new InitialContext();  
+ DataSource ds   = (DataSource)initContext.lookup("jdbc/Sims");  
+ BasicDataSource bds = (BasicDataSource)ds;  
+
+ try {  
+    Map<Object,Object> desc = BeanUtils.describe(bds);  
+%>  
+<%=desc%>  
+<%  
+ } catch(Exception e) {  
+  out.println(e.toString());  
+ }  
+%>
+
+==== DBCP
+
+Race condition error : https://issues.apache.org/jira/browse/DBCP-270[https://issues.apache.org/jira/browse/DBCP-270]
+
+The pool is initialized the first time one of the following methods is invoked: ``getConnection, setLogwriter, setLoginTimeout, getLoginTimeout, getLogWriter.``
+
+==== testOnBorrow
+
+http://geroros.hajima.net/entry/iBatis%EC%97%90%EC%84%9C-%EC%BB%A4%EB%82%B5%EC%85%98-%EC%97%90%EB%9F%AC-%EB%82%A0[http://geroros.hajima.net/entry/iBatis에서-커낵션-에러-날]-때
+
+http://twopairs.tistory.com/67[mysql "Communications link failure" 문제]
+
+http://blog.ajkuhn.com/33[장시간 미사용된 DBCP 커넥션의 단절현상]
+
+==== removeAbandoned
+
+long connection의 경우 의도하지 않은 connection close 현상 발생 가능 
+
+|====
+| <bean id="masterDs" class="org.apache.commons.dbcp.BasicDataSource" />
+
+        ...
+
+        <property name="removeAbandoned" value="true" />
+
+        <property name="removeAbandonedTimeout" value="30" />
+
+        ...
+
+</bean>
+|====
+
+|====
+|  
+
+if(abandonedConfig != null && abandonedConfig.getRemoveAbandoned())
+
+    connectionPool = new AbandonedObjectPool(null, abandonedConfig);
+
+else            
+
+    connectionPool = new GenericObjectPool();
+
+...
+
+dataSource = new PoolingDataSource(connectionPool);
+
+ 
+|====
+
+|====
+|  
+
+conn = (Connection)_pool.borrowObject();
+
+ 
+|====
+
+|====
+|  
+
+if(config != null && config.getRemoveAbandoned() && getNumIdle() < 2 && getNumActive() > getMaxActive() - 3)
+
+    removeAbandoned();
+
+…
+
+if(pc.getLastUsed() <= timeout && pc.getLastUsed() > 0L)
+
+    remove.add(pc);
+
+…
+
+if(config == null || !config.getRemoveAbandoned())
+
+    break MISSING_BLOCK_LABEL_54;
+
+synchronized(trace)
+
+{
+
+    boolean foundObject = trace.remove(obj);
+
+ 
+|====
+
+==== 성능비교
+
+ http://javatech.org/2007/11/c3p0-vs-dbcp-the-straight-dope/[http://javatech.org/2007/11/c3p0-vs-dbcp-the-straight-dope/]
+
+JDBC SQL 구문에 클라이언트 정보 남기기 : http://kwon37xi.egloos.com/4860051[http://kwon37xi.egloos.com/4860051]  
+
+==== JDBC API 사용법
+
+*   http://www.javaservice.net/~java/bbs/read.cgi?m=devtip&b=servlet&c=r_p&n=968185187&k=JDBC&d=tb[서블렛 + JDBC 연동시 코딩 고려사항 -제1탄-]
+*   http://www.javaservice.net/~java/bbs/read.cgi?m=devtip&b=servlet&c=r_p&n=968522077[서블렛 + JDBC 연동시 코딩 고려사항 -제2탄-]
+
+*   http://www03.zdnet.co.kr/news/enterprise/0,39031021,10048177,00.htm[서블렛 + JDBC 연동시 코딩 고려사항 4]
+*   http://www03.zdnet.co.kr/news/enterprise/0,39031021,10048192,00.htm[서블렛 + JDBC 연동시 코딩 고려사항 5]
+*   http://www.zdnet.co.kr/builder/dev/java/0,39031622,10048223,00.htm[서블렛 + JDBC 연동시 코딩 고려사항 6]
+
+Statment를 안 가지
+
+면 maximum open cursor exceed ! 에러나 Limit on number of statements exceeded 에러 발생
+
+http://www.onjava.com/pub/a/onjava/2001/12/19/oraclejdbc.html[Top Ten Oracle JDBC Tips]
+
+==== JDBC 드라이버의 4가지 타입
+
+http://www.onjava.com/pub/a/onjava/excerpt/javaentnut_2/index1.html[http://www.onjava.com/pub/a/onjava/excerpt/javaentnut_2/index1.html]
+
+==== 각종 DBMS JDBC 드라이버 셋팅법 정리
+
+http://blog.naver.com/jeany4u/20003041849[http://blog.naver.com/jeany4u/20003041849]
+
+http://blog.naver.com/sj1g/80010958766[http://blog.naver.com/sj1g/80010958766]
+
+Class.forName("sun.jdbc.odbc.JdbcOdbcDriver"); //  JdbcOdbcDriver 로드
+
+==== 에러 관련
+
+http://www.javaservice.net/~java/bbs/data/jdbc/1031683974+/Protocol_Violation.doc[Oracle Protocol-violation]
+
+http://www.jakartaproject.com/board-read.do?boardId=dbtip&boardNo=116424143325438&command=READ&page=1&categoryId=-1[ORA-01000: maximum open cursors exceeded 조사]
+
+http://sayjava.egloos.com/3628406#8145310[ResultSet 의 close 메소드를 finally 에서 반드시 부르지 않아도 되는 이유]
+
+http://www.javaservice.net/~java/bbs/read.cgi?m=apm&amp;b=jscfaq&amp;c=r_p&amp;n=1130485838[JDBC 중복할당에 의한 WAS행(Hang)현상 추적하기]
+
+==== Mysql fetchsize
+
+http://bleujin.tistory.com/152[http://bleujin.tistory.com/152]
+
+http://dev.mysql.com/doc/refman/5.1/en/connector-j-reference-implementation-notes.html[http://dev.mysql.com/doc/refman/5.1/en/connector-j-reference-implementation-notes.html]
+
+http://deadlock.tistory.com/273[http://deadlock.tistory.com/273]
+
+http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html#setFetchSize%28int%29[http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html#setFetchSize(int)]
+
+http://www.databasesandlife.com/reading-row-by-row-into-java-from-mysql/[http://www.databasesandlife.com/reading-row-by-row-into-java-from-mysql/]
+
+http://blog.naver.com/PostView.nhn?blogId=kang594&logNo=40515882&parentCategoryNo=8&viewDate=&currentPage=1&listtype=0[http://blog.naver.com/PostView.nhn?blogId=kang594&logNo=40515882&parentCategoryNo=8&viewDate=&currentPage=1&listtype=0]
+
+connector 버전 5.0.2이상에서는 useCursorFetch가 먹음
+
+http://wiki.gxtechnical.com/commwiki/servlet/hwiki?Client+and+server+cursors+-+using+MySQL,[http://wiki.gxtechnical.com/commwiki/servlet/hwiki?Client+and+server+cursors+-+using+MySQL,]
+
+==== Mysql autoreconnect=true
+
+http://dev.mysql.com/doc/refman/5.1/en/connector-j-usagenotes-j2ee.html[http://dev.mysql.com/doc/refman/5.1/en/connector-j-usagenotes-j2ee.html]
+
+==== Mysql batchupdate
+
+http://swik.net/MySQL/Mark+Matthew/A+10x+Performance+Increase+for+Batch+INSERTs+With+MySQL+Connector%2FJ+Is+On+The+Way..../cxj7h[http://swik.net/MySQL/Mark+Matthew/A+10x+Performance+Increase+for+Batch+INSERTs+With+MySQL+Connector%2FJ+Is+On+The+Way..../cxj7h]
+
+==== BLOB image 관련
+
+http://javaservice.net/~java/bbs/read.cgi?m=devtip&b=servlet&c=r_p&n=1092807454&p=1&s=t[JSP나 서블릿에서 이미지 출력에 관해서...]
+
+http://blog.naver.com/yacjae/100020395789[http://blog.naver.com/yacjae/100020395789]
+
+==== API사용
+
+http://bcho.tistory.com/entry/SQL-Batch[SQL batch]
+
+==== 기타
+
+http://blog.openframework.or.kr/10[[DB] 가벼운 SQL 인터페이스..]
+
+http://java.dzone.com/articles/lightweight-sql-interfaces-jav[http://java.dzone.com/articles/lightweight-sql-interfaces-jav]
+
+  
