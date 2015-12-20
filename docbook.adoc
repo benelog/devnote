@@ -1,0 +1,39 @@
+
+
+http://www.joinc.co.kr/modules/moniwiki/wiki.php/article/docbook_howto[http://www.joinc.co.kr/modules/moniwiki/wiki.php/article/docbook_howto]
+
+http://wiki.kldp.org/KoreanDoc/html/Using_Docbook-KLDP/[http://wiki.kldp.org/KoreanDoc/html/Using_Docbook-KLDP/]
+
+https://src.springframework.org/svn/spring-batch/trunk/src/site/docbook/reference/repeat.xml[https://src.springframework.org/svn/spring-batch/trunk/src/site/docbook/reference/repeat.xml]
+
+http://www.vineetmanohar.com/2010/02/maven-docbook-for-beginners/[http://www.vineetmanohar.com/2010/02/maven-docbook-for-beginners/]
+
+== Linux 설치
+
+sudo apt-get install sgmltools-lite  
+
+sudo apt-get install docbook-xml  
+
+sudo apt-get install htmldoc  
+
+sudo apt-get install jade  
+
+http://docbookpublishing.com/[http://docbookpublishing.com/]  
+
+http://www.ibm.com/developerworks/kr/linux/library/l-docbk.html[http://www.ibm.com/developerworks/kr/linux/library/l-docbk.html]  
+
+xsltproc stylesheet/dbk-html-chunk.xsl computer/git/git_beginner_story.xml
+
+== Slide  
+
+http://docbook.sourceforge.net/release/slides/current/doc/[http://docbook.sourceforge.net/release/slides/current/doc/]  
+
+http://docbook.sourceforge.net/release/slides/[http://docbook.sourceforge.net/release/slides/]  
+
+  
+
+== 변환도구
+http://open.comsultia.com/docbook2odf/[http://open.comsultia.com/docbook2odf/]http://www.artofsolving.com/opensource/jodconverter[http://www.artofsolving.com/opensource/jodconverter]  
+
+Build tool  
+https://github.com/spring-projects/gradle-plugins/tree/master/docbook-reference-plugin  
