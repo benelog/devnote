@@ -1,0 +1,47 @@
+http://www.oreillynet.com/onjava/blog/2003/07/new_way_to_learn_mvc_view_a_si.html[New way to learn MVC. View a sing-song]
+
+Java 웹애플리케이션 프레임워크 분석과 설계의 노하우(이성기 저, 정보문화사)
+
+MVC 패턴에서 사용된 컨트롤러를 엄격하게 분류하면 앞단의 프레젠테이션 티어에서 사용된 프레젠테이션 로직 컨트롤러(Presentation Logic Controller, 또는 Front Controller)와 뒷단에 비즈니스 로직 컨트롤러(Business Logic Controller, 또는 Back Controller)로 분류된다.
+
+Presentation Logic Controller(Front Controller)
+
+Business Logic Controller(Back Controller)
+
+Spring 프레임워크 워크북(박재성,한빛미디어)
+
+P304
+
+모델2의 근간이 되고 있는 MVC에서 모델(Model)에 대한 개념 정의를 개발자에 따라서 다르게 정의하고 있다. 모델에 대한 첫 번째 정의는 비즈니스 계층과 퍼시스턴스 계층을 통틀어서 모델이라고 정의하는 것이다. 두 번째는 UI계층과 비즈니스 계층 사이에서 주고받는 데이터를 모델이라고 정의한다. Spring MVC는 후자를 모델의 개념으로 정의하고 있다. 따라서 이 책에서 사용하는 모델에 대한 개념은 후자를 사용하도록 하겠다.
+
+Controller는 비즈니스 계층과의 통신을 완료한 다음 비즈니스 계층에서 전달된 모델 데이터와 클라이언트에게 보여줄 뷰화면에 대한 정보를 ModelAndView에 담아서 DispatcherServlet에 반환하게 된다.
+
+Spring in Action (크렉월즈,라이언 브라이덴바흐 지음, 이태상 옮김, 에이콘)
+
+8.1 스프링 MVC로 시작하기.
+
+ ... 잘 설계된 Controller라면 자신이 직접 비즈니스 로직을 수행하지 않는다. 그 대신 비즈니스 로직에 대한 책임을 하나 이상의 서비스 객체에 위임한다.
+
+http://www.javaworld.com/javaworld/jw-12-1999/jw-12-ssj-jspmvc.html[Understanding JavaServer Pages Model 2 architecture]
+
+파워유저가 알려주는 스트럿츠 프로그래밍(송만균, 신혜원 공저, 가메출판사)
+
+Chapter 2 모델,뷰,컨트롤러.
+
+모델영역은 애플리키에션에서 비즈니스 로직을 구현하는 부분이다. 특히 기업용 프로그램에서 모델은 비즈니스 데이터와 그 데이터를 다루는 연산의 집합이다.
+
+컨트롤러는 흐름을 관리하는 역할, 모델과 뷰 간의 조정 역할을 한다. 사용자의 요청을 받아 이를 수행하기 위해 모델 영역의 어떤 비즈니스 로직을 수행할지를 선택하여 호출하며, 수행한 비즈니스 로직의 결과를 보여주기 위해 뷰를 선택하여 포워드 해주는 역할을 수행한다.
+
+http://www.amazon.ca/Expert-One-One-Design-Development/dp/customer-reviews/0764543857[Expert One-on-One J2EE Design and Development]
+
+Chapter 1. 36쪽
+
+Head first design Pattern
+
+Chapter 12.
+
+컨트롤러는 제어로직을 뷰로부터 분리해내서 뷰와 모델의 결합을 끊어주는 역할을 합니다.
+
+http://www.onjava.com/pub/a/onjava/2006/01/11/exception-handling-framework-for-j2ee.html?page=1[An Exception Handling Framework for J2EE Applications]
+
+ 
