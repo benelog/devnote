@@ -1,0 +1,21 @@
+Apache MaxClients와 Tomcat의 Full GC
+
+
+
+참조하는 jar파일 확인
+
+
+
+pmap [pid] | grep jar
+
+혹은 cat /proc/<pid>/smaps
+
+ps axuw | grep java | grep -v grep | awk '{print $2}' | while read P; do pmap $P | grep 'spring' ; done 
+
+
+
+Database
+
+JDBC internal timeout의 이해
+
+Garbage Collection과 Statement Pool
