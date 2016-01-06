@@ -1,3 +1,2 @@
-http://hyperworlds.org/mindmaps/XanaduWiki/FormatEdit.html[위키와 Xanadu]
-
-http://www.slideshare.net/gagnonc/wiki-it[http://www.slideshare.net/gagnonc/wiki-it]
+* http://hyperworlds.org/mindmaps/XanaduWiki/FormatEdit.html[위키와 Xanadu]
+* http://www.slideshare.net/gagnonc/wiki-it[http://www.slideshare.net/gagnonc/wiki-it]
