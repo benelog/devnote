@@ -2,3 +2,5 @@
 * http://java-performance.info/string-intern-in-java-6-7-8/
 ** JDK6 : Perm 영역. OOM 위험
 ** JDK7이후 : Heap으로. GC됨.
+* <http://stackoverflow.com/questions/348985/deadlock-on-synchronized-string-intern>
+** String.intern() is a native method
