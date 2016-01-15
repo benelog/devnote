@@ -1,0 +1,126 @@
+== GIT 사용환경 ( zshell + scm_breeze )
+
+=== https://gist.github.com/benelog/2939bb100d26a31c7c92#git-gitk[git, gitk]
+
+[source]
+----
+sudo apt-get install git gitk
+
+----
+
+=== https://gist.github.com/benelog/2939bb100d26a31c7c92#zshell[zshell]
+
+[source]
+----
+curl -L http://install.ohmyz.sh | sh
+
+----
+
+( https://github.com/robbyrussell/oh-my-zsh[https://github.com/robbyrussell/oh-my-zsh] 참고 )
+
+=== https://gist.github.com/benelog/2939bb100d26a31c7c92#scm-breeze[scm breeze]
+
+[source]
+----
+git clone git://github.com/ndbroadbent/scm_breeze.git ~/.scm_breeze
+~/.scm_breeze/install.sh
+source ~/.bashrc   # or source ~/.zshrc
+
+----
+
+( https://github.com/ndbroadbent/scm_breeze[https://github.com/ndbroadbent/scm_breeze] 참고 )
+
+== https://gist.github.com/benelog/2939bb100d26a31c7c92#java-개발환경[Java 개발환경]
+
+=== https://gist.github.com/benelog/2939bb100d26a31c7c92#java8[Java8]
+
+[source]
+----
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+java -version
+----
+
+( http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html[http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html] 참조 )
+
+==== https://gist.github.com/benelog/2939bb100d26a31c7c92#수동설치[수동설치]
+
+[source]
+----
+sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_31/bin/java 1000
+sudo update-alternatives --config java
+sudo update-alternatives --display java
+
+----
+
+=== https://gist.github.com/benelog/2939bb100d26a31c7c92#maven[Maven]
+
+3.0 설치시
+
+[source]
+----
+sudo apt-get install maven
+
+----
+
+3.1 설치시 : http://askubuntu.com/questions/420281/how-to-update-maven-3-0-4-3-1-1[http://askubuntu.com/questions/420281/how-to-update-maven-3-0-4-3-1-1] 참조
+
+[source]
+----
+sudo apt-get install gdebi
+wget http://ppa.launchpad.net/natecarlson/maven3/ubuntu/pool/main/m/maven3/maven3_3.2.1-0~ppa1_all.deb
+sudo gdebi maven3_3.2.1-0~ppa1_all.deb
+sudo ln -s /usr/share/maven3/bin/mvn /usr/bin/maven
+
+----
+
+=== https://gist.github.com/benelog/2939bb100d26a31c7c92#gradle[Gradle]
+
+gvm ( http://gvmtool.net/[http://gvmtool.net/]) 을 이용해서 설치하면 여러 버전을 동시에 사용하기에 편함.
+
+[source]
+----
+curl -s get.gvmtool.net | bash
+gvm install gradle
+
+----
+
+설치된 버전 확인
+
+[source]
+----
+gvm list gradle
+
+----
+
+사용할 버전 지정
+
+[source]
+----
+gvm use gradle 1.12
+
+----
+
+=== https://gist.github.com/benelog/2939bb100d26a31c7c92#springsource-tool-suite[Springsource Tool Suite]
+
+http://spring.io/tools/sts/all[http://spring.io/tools/sts/all]에서 다운로드 하여 설치
+
+=== https://gist.github.com/benelog/2939bb100d26a31c7c92#intellij-community-edition[IntelliJ Community Edition]
+
+http://www.jetbrains.com/idea/download/[http://www.jetbrains.com/idea/download/] 에서 다운로드 하여 설치
+
+=== https://gist.github.com/benelog/2939bb100d26a31c7c92#android-studio[Android Studio]
+
+ubuntu-developer-tools-center를 이용하여 설치. Ubuntu 14.10부터는 'add-apt-repository'로 저장소 추가를 하지 않아도 됨.
+
+[source]
+----
+sudo add-apt-repository ppa:didrocks/ubuntu-developer-tools-center
+sudo apt-get update
+sudo apt-get install ubuntu-developer-tools-center
+udtc android
+
+----
+
+( http://www.webupd8.org/2014/09/canonical-releases-ubuntu-developer.html[http://www.webupd8.org/2014/09/canonical-releases-ubuntu-developer.html] 참조 )
