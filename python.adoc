@@ -57,4 +57,9 @@ def read(file_name):
         print line
 
     file_content.close();
-  ----
+----
+
+=== Proxy 서버
+http://code.activestate.com/recipes/483732-asynchronous-port-forwarding/
+sudo python proxy.py -l 127.0.0.1 -p 80 -r 127.0.0.1 -P 8080
+
