@@ -1,1 +1,3 @@
-http://www.slideshare.net/baejjae93/ss-55571345[어플리케이션 아키텍처와 객체지향] 
+- http://www.slideshare.net/baejjae93/ss-55571345[어플리케이션 아키텍처와 객체지향]
+- http://www.slideshare.net/gyumee/ss-55616001[자바 어플리케이션 아키텍처 안티패턴]
+- http://www.slideshare.net/madvirus/ksug-20151128[몇가지 도메인구현 이야기]
