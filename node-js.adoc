@@ -1,0 +1,6 @@
+== 기초 설명
+* https://vinebrancho.wordpress.com/2014/03/24/node-js-%EB%82%B4%EA%B0%80-%EC%93%B0%EA%B8%B0%EB%A1%9C-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0/[Node.js 내가 쓰기로 선택한 이유.]
+
+
+== 활용 사례
+* http://readme.skplanet.com/wp-content/uploads/Tech_Planet_2013_baek.pdf[스마트폰 앱 백엔드 서비스 개발을 위한 node.js 실전가이드]
