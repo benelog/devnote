@@ -6,4 +6,10 @@
 * http://readme.skplanet.com/wp-content/uploads/Tech_Planet_2013_baek.pdf[스마트폰 앱 백엔드 서비스 개발을 위한 node.js 실전가이드]
 
 == Database
-- MS-SQL : http://cretz.github.io/node-tds/
+* MS-SQL : http://cretz.github.io/node-tds/
+
+== 예외 처리
+*  http://programmingsummaries.tistory.com/375[try/catch는 모든 에러를 잡을수 있을까?]
+** 비동기 에러는 잡기 힘들다. 특히 3rd party 모듈에서 적절한 예외처리가 되어 있지 않은 경우
+** UncatchException으로 전역에러 처리를 할수는 ㅇ 있으나 정교하지 않고, 남용하면 위험하다.
+** Domain으로 처리할수도 있으나 Deprecated 될수 있다.
