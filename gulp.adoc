@@ -1,0 +1,24 @@
+  
+소개 : http://www.slideshare.net/meadunhansa/gulp-48608642?ref=http://arahansa.com/frontboard/9[http://www.slideshare.net/meadunhansa/gulp-48608642?ref=http://arahansa.com/frontboard/9]
+
+*   https://github.com/arahansa/learn_gulp[https://github.com/arahansa/learn_gulp]
+
+HTML 정리  
+
+https://www.npmjs.com/package/gulp-html-replace[https://www.npmjs.com/package/gulp-html-replace]  
+https://www.npmjs.com/package/gulp-processhtml  
+
+== Webserver 띄우기
+
+https://scotch.io/tutorials/a-quick-guide-to-using-livereload-with-gulp  
+
+http://code.tutsplus.com/tutorials/gulp-as-a-development-web-server--cms-20903  
+
+== Bower + live reload   
+
+https://gist.github.com/ktmud/9384509
+
+https://gist.github.com/vincent-zurczak/424c5d136063c120ee18
+
+http://stackoverflow.com/questions/22901726/how-can-i-integrate-bower-with-gulp-js
+http://andy-carter.com/blog/a-beginners-guide-to-package-manager-bower-and-using-gulp-to-manage-components  
