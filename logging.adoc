@@ -1,1 +1,2 @@
 * https://blogs.apache.org/foundation/entry/apache_logging_services_project_announces
+* https://mdeinum.wordpress.com/2015/07/01/spring-framework-hidden-gems/
