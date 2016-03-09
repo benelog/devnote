@@ -1,0 +1,11 @@
+Gradle vs Maven vs BuildR : http://www.theserverside.com/discussions/thread.tss?thread_id=61471  
+
+== Buildr
+
+http://whiteship.tistory.com/1716[메이븐을 대체할 것인가~ Buildr]
+
+http://incubator.apache.org/buildr/index.html[http://incubator.apache.org/buildr/index.html]
+
+== Ivy
+
+http://ant.apache.org/ivy/[http://ant.apache.org/ivy/]
