@@ -1,0 +1,71 @@
+== Spring resource handling 예제프로젝트
+
+*   https://github.com/bclozel/spring-resource-handling/blob/master/client/pom.xml[https://github.com/bclozel/spring-resource-handling/blob/master/client/pom.xml]
+*   https://github.com/bclozel/spring-resource-handling/blob/master/client/package.json[https://github.com/bclozel/spring-resource-handling/blob/master/client/package.json]
+*   https://github.com/bclozel/spring-resource-handling/blob/master/client/gulpfile.js[https://github.com/bclozel/spring-resource-handling/blob/master/client/gulpfile.js]
+*   https://github.com/bclozel/spring-resource-handling/blob/master/server/src/main/java/org/springframework/samples/resources/WebConfig.java[https://github.com/bclozel/spring-resource-handling/blob/master/server/src/main/java/org/springframework/samples/resources/WebConfig.java]
+개발모드 일때는 src 아래의 폴더를 바로 봄.
+
+[source,java]
+----
+    String location = devMode ? "file:///" + getProjectRootRequired() + "/client/src/" : "classpath:static/";
+
+----
+
+== sagan의 빌드 파일
+
+=== sagan-client
+
+*   https://github.com/spring-io/sagan/blob/master/sagan-client/build.gradle[https://github.com/spring-io/sagan/blob/master/sagan-client/build.gradle]
+*   https://github.com/spring-io/sagan/blob/master/sagan-client/gulpfile.js[https://github.com/spring-io/sagan/blob/master/sagan-client/gulpfile.js]
+
+=== sagan-site
+
+*   https://github.com/spring-io/sagan/blob/master/sagan-site/build.gradle[https://github.com/spring-io/sagan/blob/master/sagan-site/build.gradle]
+
+    *   ``compile project(':sagan-client')``로 의존성 선언
+    *   Gradle에서 옵션으로 SAGAN_HOME 지정
+[source,java]
+----
+applicationDefaultJvmArgs = [
+  // Set SAGAN_HOME env variable to the root of sagan project. This allows to register an additional
+  // resource handler location and serve static resources directly from the sagan-client module during dev.
+  // See sagan.ClientResourcesConfig
+  "-DSAGAN_HOME=${rootProject.rootDir}"
+]
+
+        ----
+*   https://github.com/spring-io/sagan/blob/master/sagan-site/src/main/java/sagan/MvcConfig.java[https://github.com/spring-io/sagan/blob/master/sagan-site/src/main/java/sagan/MvcConfig.java]
+
+    [source,java]
+----
+@Configuration
+@Profile(SaganProfiles.STANDALONE)
+class ClientResourcesConfig extends WebMvcConfigurerAdapter {
+
+      @Value("${SAGAN_HOME:}")
+  private String saganPath;
+
+      @Override
+  public void addResourceHandlers(ResourceHandlerRegistry registry) {
+      if (!this.saganPath.isEmpty()) {
+          registry.addResourceHandler("/**")
+                  .addResourceLocations("file:///" + this.saganPath + "/sagan-client/src/")
+                  .setCachePeriod(0);
+      }
+  }
+}
+
+    ----
+
+*   https://github.com/spring-io/sagan/blob/master/sagan-common/src/main/java/sagan/SaganApplication.java[https://github.com/spring-io/sagan/blob/master/sagan-common/src/main/java/sagan/SaganApplication.java]
+**   Profile이 특별히 없으면 DEFAULT 프로파일 할당
+
+== Spring boot의 디폴트 동작
+
+*.jar의 static 폴더에 있는 자원을 자동으로 등록
+
+*   https://spring.io/blog/2013/12/19/serving-static-web-content-with-spring-boot[https://spring.io/blog/2013/12/19/serving-static-web-content-with-spring-boot]
+*   https://github.com/spring-projects/spring-boot/blob/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.java[https://github.com/spring-projects/spring-boot/blob/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.java]
+
+  
