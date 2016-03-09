@@ -35,7 +35,6 @@ applicationDefaultJvmArgs = [
 ]
 ----
 *   https://github.com/spring-io/sagan/blob/master/sagan-site/src/main/java/sagan/MvcConfig.java[https://github.com/spring-io/sagan/blob/master/sagan-site/src/main/java/sagan/MvcConfig.java]
-
     [source,java]
 ----
 @Configuration
