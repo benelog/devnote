@@ -1,1 +1,5 @@
-http://jxnblk.com/rebass/
+== 구조/개념
+* http://blog.coderifleman.com/post/121910103804/%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%B6%81%EC%9D%98-%EA%B2%B0%EC%A0%95-mvc%EB%8A%94-%ED%99%95%EC%9E%A5%EC%97%90-%EC%9A%A9%EC%9D%B4%ED%95%98%EC%A7%80-%EC%95%8A%EB%8B%A4-%EA%B7%B8%EB%A0%87%EB%8B%A4%EB%A9%B4-flux%EB%8B%A4[페이스북의 결정: MVC는 확장에 용이하지 않다. 그렇다면 Flux다.]
+
+== 응용 라이브러리
+* http://jxnblk.com/rebass/
