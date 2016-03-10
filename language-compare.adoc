@@ -1,0 +1,2 @@
+* http://elbenshira.com/blog/the-end-of-dynamic-languages/
+* https://www.youtube.com/watch?v=SWTWkYbcWU0["Type Systems - The Good, Bad and Ugly" by Paul Snively and Amanda Laucher ]
