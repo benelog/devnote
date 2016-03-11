@@ -1,4 +1,5 @@
 == 구조/개념
+* http://blog.coderifleman.com/post/122232296024/reactjs%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8B%A41[React.js를 이해하다]
 * http://www.slideshare.net/deview/141-react-everywhere
 * http://www.slideshare.net/jeokrang/facebook-react-55649927?ref=http://d2.naver.com/[Facebook은 React를 왜 만들었을까?]
 
