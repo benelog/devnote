@@ -19,3 +19,4 @@ http://haruair.github.io/flux/docs/overview.html#content
 
 == 활용사례
 * http://fbdg.github.io/ironhee-2015-presentation
+* http://developer.dramancompany.com/2016/03/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%97%90-flux-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/[안드로이드에 Flux 적용하기. Flux는 정말 새로운 것인가?]
