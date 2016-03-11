@@ -8,6 +8,7 @@
 http://haruair.github.io/flux/docs/overview.html#content
 
 == Redux
+* https://taegon.kim/archives/5288[Flux와 Redux]
 * http://dobbit.github.io/redux/
 * http://www.slideshare.net/dalinaum/redux-55650128?ref=http://d2.naver.com/news/7030975[역시 Redux]
 
