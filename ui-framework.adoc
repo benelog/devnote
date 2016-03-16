@@ -1,4 +1,4 @@
-* http://htglss.tistory.com/54[[HTML] DTD DOCTYPE 과 HTML5]
+* http://htglss.tistory.com/54[DTD DOCTYPE 과 HTML5]
 * http://msdn.microsoft.com/en-us/library/cc288325(v=vs.85).aspx[http://msdn.microsoft.com/en-us/library/cc288325(v=vs.85).aspx]  
 
 == library
