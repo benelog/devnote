@@ -7,15 +7,16 @@
 http://dmfrancisco.github.com/activo/[http://dmfrancisco.github.com/activo/]  
 
 === Bootstrap
-http://helloworld.naver.com/helloworld/67876[Bootstrap from twitter]
+* http://helloworld.naver.com/helloworld/67876[Bootstrap from twitter]
+* http://tutorialzine.com/2015/06/12-time-saving-bootstrap-examples/
 
 ==== 테마 제공 사이트
 http://bootswatch.com/[http://bootswatch.com/]http://wrapbootstrap.com/[http://wrapbootstrap.com/]http://stylebootstrap.info/[http://stylebootstrap.info/]   
 
-UI layout 잡기  
-www.layoutit.com  
-https://jetstrap.com/  
-http://bootsnipp.com/forms  
+== UI layout 잡기
+* http://www.layoutit.com  
+* https://jetstrap.com/  
+* http://bootsnipp.com/forms  
 
 ==== XE Icon
 http://contest.xpressengine.com/templates/xe_icon/index.html  
