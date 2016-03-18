@@ -1,0 +1,6 @@
+* Play 영상 : http://www.youtube.com/watch?v=_zyQ_OVyhNE
+* 소스코드 : https://github.com/jmechner/Prince-of-Persia-Apple-II
+* Making film : http://jordanmechner.com/blog/2011/10/ebook/
+* Ebook  sample : http://jordanmechner.com/wp-content/uploads/resources/POP_sample.pdf
+* 개발환경 : http://www.youtube.com/watch?v=CDPlfqpgW8c
+* 6502 aseembly에 대한 자료 : ftp://ftp.apple.asimov.net/pub/apple_II/documentation/programming/6502assembly/
