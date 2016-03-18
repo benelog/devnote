@@ -1,3 +1,5 @@
+http://www.developer.com/tech/article.php/3579756[Effective Code Reviews Without the Pain]
+
 http://moai.tistory.com/907[코드리뷰를 할때 생각해야 할 부분들]
 
 http://www.infoq.com/presentations/code-organization-large-projects[http://www.infoq.com/presentations/code-organization-large-projects] : http://whiteship.tistory.com/1767[Code Organization Guidelines for Large Code Bases - 유겐 휄러]
