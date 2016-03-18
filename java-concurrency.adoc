@@ -1,0 +1,1 @@
+* http://www.tuning-java.com/410[왜 Thread의 stop 메소드는 deprecated 되었을까?]
