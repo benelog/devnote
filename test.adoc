@@ -1,72 +1,40 @@
-마이크로소프트웨어
 
-2005/11  151037_%ED%85%8C%EC%8A%A4%ED%8C%85_%EA%B7%B8_%EC%B0%BD%EC%A1%B0%EC%A0%81_%ED%8C%8C%EA%B4%B4%EC%9D%98_%EC%A4%91%EC%9A%94%EC%84%B1.pdf[테스팅_그_창조적_파괴의_중요성.pdf]
-
-http://www.zdnet.co.kr/builder/dev/etc/0,39031619,39160855,00.htm[http://www.zdnet.co.kr/builder/dev/etc/0,39031619,39160855,00.htm]
-
-마이크로소프트웨어 2007/04 151043_%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84%EA%B0%9C%EB%B0%9C_TDD_%EA%B0%80%EC%9A%A9%EC%84%B1%EC%9D%80.pdf[테스트_주도개발_TDD_가용성은.pdf]
-
-http://blog.naver.com/phrack/80051147384[Test Technique]
-
-성능측정
-
-http://www.codeplex.com/PerfTestingGuide[http://www.codeplex.com/PerfTestingGuide]
-
-http://www.aptest.com/resources.html#api[Software QA Testing and Test Tool Resources]
-
-http://blog.naver.com/phrack/80051146924[테스트의 종류]
-
+* 성능측정 : http://www.codeplex.com/PerfTestingGuide[http://www.codeplex.com/PerfTestingGuide]
+* http://www.aptest.com/resources.html#api[Software QA Testing and Test Tool Resources]
+* http://blog.naver.com/phrack/80051146924[테스트의 종류]
 *   http://www.math.uaa.alaska.edu/%7Eafkjm/cs470/handouts/breaking.pdf[How to break Software PPT]
 *   http://www.mrtc.mdh.se/rtis2003/pres/Keynote1Whittaker.pdf[How to break Software Other PPT]
-http://msdn.microsoft.com/ko-kr/magazine/cc507646.aspx[침투테스트]
-
-http://agile.egloos.com/4599387[제임스 바흐의 쾌속 소프트웨어 테스팅 교육]
-
-http://moai.tistory.com/699[제임스 바흐의 탐험적 테스트 교육후기]
-
-http://www.slideshare.net/Byungwook/testing-process?type=presentation[Testing process]
+* http://msdn.microsoft.com/ko-kr/magazine/cc507646.aspx[침투테스트]
+* http://agile.egloos.com/4599387[제임스 바흐의 쾌속 소프트웨어 테스팅 교육]
+* http://moai.tistory.com/699[제임스 바흐의 탐험적 테스트 교육후기]
+* http://www.slideshare.net/Byungwook/testing-process?type=presentation[Testing process]
 
 ==== 논쟁
-
-http://younghoe.info/1075[테스트에 대한 오해]
-
-http://toby.epril.com/?p=608[코드리뷰와 인스펙션이 테스트보다 효과적이고 블랙박스 테스트가 단위테스트/개발자테스트보다 낫다고?]
-
-http://younghoe.info/1077[DW 칼럼 "개발 일정을 줄이는 방법-테스팅"을 더 잘 이해하기 위한 조언]
+* http://younghoe.info/1075[테스트에 대한 오해]
+* http://toby.epril.com/?p=608[코드리뷰와 인스펙션이 테스트보다 효과적이고 블랙박스 테스트가 단위테스트/개발자테스트보다 낫다고?]
+* http://younghoe.info/1077[DW 칼럼 "개발 일정을 줄이는 방법-테스팅"을 더 잘 이해하기 위한 조언]
 
 ==== 테스트업무
-
-http://www.ibm.com/developerworks/kr/library/dwclm/20080115/?ca=dnn-krt-20080123[좋은 테스터가 되기 위한 요건]
-
-http://moai.tistory.com/492[테스트와 장인]
-
-http://blog.mgm-tp.com/2010/11/successful-software-testing-part1/[Developers, Don’t Write Functional Tests!]
+* http://www.ibm.com/developerworks/kr/library/dwclm/20080115/?ca=dnn-krt-20080123[좋은 테스터가 되기 위한 요건]
+* http://moai.tistory.com/492[테스트와 장인]
+* http://blog.mgm-tp.com/2010/11/successful-software-testing-part1/[Developers, Don’t Write Functional Tests!]
 
 ==== Bug Report
-
-http://testobsessed.com/wordpress/wp-content/uploads/2007/01/webr.pdf[http://testobsessed.com/wordpress/wp-content/uploads/2007/01/webr.pdf]
-
-http://www.devbistro.com/articles/Testing/How-to-Write-Effective-Bug-Reports[http://www.devbistro.com/articles/Testing/How-to-Write-Effective-Bug-Reports]
-
-http://www.softwaretestinghelp.com/how-to-write-good-bug-report/[http://www.softwaretestinghelp.com/how-to-write-good-bug-report/]
+* http://testobsessed.com/wordpress/wp-content/uploads/2007/01/webr.pdf[http://testobsessed.com/wordpress/wp-content/uploads/2007/01/webr.pdf]
+* http://www.devbistro.com/articles/Testing/How-to-Write-Effective-Bug-Reports[http://www.devbistro.com/articles/Testing/How-to-Write-Effective-Bug-Reports]
+* http://www.softwaretestinghelp.com/how-to-write-good-bug-report/[http://www.softwaretestinghelp.com/how-to-write-good-bug-report/]
 
 ==== GTAC
-
-http://www.youtube.com/view_play_list?p=3592C3CFE011E214[http://www.youtube.com/view_play_list?p=3592C3CFE011E214]
+* http://www.youtube.com/view_play_list?p=3592C3CFE011E214[http://www.youtube.com/view_play_list?p=3592C3CFE011E214]
 
 ==== DB test
-
-http://www.dallaway.com/acad/dbunit.html[http://www.dallaway.com/acad/dbunit.html]
+* http://www.dallaway.com/acad/dbunit.html[http://www.dallaway.com/acad/dbunit.html]
 
 ==== Rabdoop
-http://people.csail.mit.edu/cpacheco/randoop/1.2/doc/[http://people.csail.mit.edu/cpacheco/randoop/1.2/doc/]
+* http://people.csail.mit.edu/cpacheco/randoop/1.2/doc/[http://people.csail.mit.edu/cpacheco/randoop/1.2/doc/]
 
 ==== CUnit
-
-http://neocode.egloos.com/1897154[Cunit Test Suite]
-
-http://neocode.egloos.com/1861109[CUnit 예제]
-
-http://neocode.egloos.com/1851239[Cunit Test]
-
-http://neocode.egloos.com/1851209[Cunit]
+* http://neocode.egloos.com/1897154[Cunit Test Suite]
+* http://neocode.egloos.com/1861109[CUnit 예제]
+* http://neocode.egloos.com/1851239[Cunit Test]
+* http://neocode.egloos.com/1851209[Cunit]
