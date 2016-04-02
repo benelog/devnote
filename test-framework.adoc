@@ -14,12 +14,8 @@ http://whiteship.me/tag/xUnit[xUnit]
 
 === 기본 Unit test
 
-==== /pages/2258278[Junit]
-
-====   
-Junit 기반의 성능테스트
-
-*   http://www.clarkware.com/software/JUnitPerf.html[http://www.clarkware.com/software/JUnitPerf.html]
+==== Junit 기반의 성능테스트
+* http://www.clarkware.com/software/JUnitPerf.html[http://www.clarkware.com/software/JUnitPerf.html]
 http://labs.carrotsearch.com/junit-benchmarks-tutorial.html[http://labs.carrotsearch.com/junit-benchmarks-tutorial.html]
 
 http://code.google.com/p/junitbench/[http://code.google.com/p/junitbench/]
@@ -38,28 +34,19 @@ http://databene.org/contiperf.html[http://databene.org/contiperf.html]
 
 ==== dbunit
 
-*   http://dbunit.sourceforge.net/[http://dbunit.sourceforge.net/]
-
-    *   http://dbunit.sourceforge.net/faq.html#extract[http://dbunit.sourceforge.net/faq.html#extract]
-http://kekedie.tistory.com/96[[JAVA] DBUnit 엑셀파일(.xls) import & export]
-
-http://whiteship.tistory.com/403[DbUnit]
-
-http://whiteship.tistory.com/407[DbUnit 사용하기]
-
-http://blog.naver.com/ecshoons/60000381502[DBUnit의 사용]
-
-http://whiteship.me/2677[[회사일] DAO 테스트 만들기]
+*  http://dbunit.sourceforge.net/[http://dbunit.sourceforge.net/]
+** http://dbunit.sourceforge.net/faq.html#extract[http://dbunit.sourceforge.net/faq.html#extract]
+* http://kekedie.tistory.com/96[[JAVA] DBUnit 엑셀파일(.xls) import & export]
+* http://whiteship.tistory.com/403[DbUnit]
+* http://whiteship.tistory.com/407[DbUnit 사용하기]
+* http://blog.naver.com/ecshoons/60000381502[DBUnit의 사용]
+* http://whiteship.me/2677[[회사일] DAO 테스트 만들기]
 
 ==== AgitarOne
-
-http://www.agitar.com/[http://www.agitar.com/]
-
-http://moai.tistory.com/445[JUnit 테스트 코드 생성 도구 AgitarOne - 소개]
-
-http://moai.tistory.com/446[JUnit 테스트 코드 생성 도구 AgitarOne - 설치 및 실행]
-
-http://moai.tistory.com/447[JUnit 테스트 코드 생성 도구 AgitarOne - 테스트 코드 생성하기]
+* http://www.agitar.com/[http://www.agitar.com/]
+* http://moai.tistory.com/445[JUnit 테스트 코드 생성 도구 AgitarOne - 소개]
+* http://moai.tistory.com/446[JUnit 테스트 코드 생성 도구 AgitarOne - 설치 및 실행]
+* http://moai.tistory.com/447[JUnit 테스트 코드 생성 도구 AgitarOne - 테스트 코드 생성하기]
 
 ==== JTest
 
@@ -77,3 +64,7 @@ http://www.testingfaqs.org/t-unit.html[http://www.testingfaqs.org/t-unit.html]
 
 === Make it easy
 https://github.com/npryce/make-it-easy
+
+
+== IDE plugins
+* http://www.happyprog.com/pulse/
