@@ -1,5 +1,6 @@
-http://alankang.tistory.com/102[테스트 주도 개발이란]
+http://junit.sourceforge.net/doc/testinfected/testing.htm
 
+http://alankang.tistory.com/102[테스트 주도 개발이란]
 
 http://moai.tistory.com/725[단위 테스트에 대한 의식조사 결과]
 
@@ -14,16 +15,6 @@ http://blog.objectmentor.com/articles/2009/10/06/echoes-from-the-stone-age[http:
 http://www.rbcs-us.com/UserFiles/File/Articles/Test%20Driven%20Development.pdf[http://www.rbcs-us.com/UserFiles/File/Articles/Test%20Driven%20Development.pdf]
 
 http://tech.groups.yahoo.com/group/testdrivendevelopment/[http://tech.groups.yahoo.com/group/testdrivendevelopment/]
-
-버그리포트를 받으면, 먼저 그 버그를 밖으로 드러나게 할 수 있는 단위테스트를 작성하라.
-
-리팩토링을 하지 않을 때에도 잘 짜여진 테스트는 프로그래밍을 빠르게 한다는 것을 알게 되었다.
-
-한벌의 테스트는 버그를 찾는데 걸리는 시간을 엄청나게 단축시키는 강력한 버그 탐지기이다.
-
-테스트로 모든 버그를 잡을 수 없다는 걱정 때문에 대부분의 버그를 잡을 수 있는 테스트를 작성하는 것을 멈추지 마라.
-
-완전한 테스트를 실행시키지 않는 것보다는 불완전한 테스트라도 작성하고 실행시키는 것이 더 낫다.
 
 http://toby.epril.com/?p=778[깜짝 놀랄만한 이야기를 들려주마]
 
