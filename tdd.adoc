@@ -1,4 +1,4 @@
-http://junit.sourceforge.net/doc/testinfected/testing.htm
+http://junit.sourceforge.net/doc/testinfected/testing.htm[JUnit Test Infected: Programmers Love Writing Tests]
 
 http://alankang.tistory.com/102[테스트 주도 개발이란]
 
