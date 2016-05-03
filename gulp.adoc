@@ -1,12 +1,11 @@
-  
-소개 : http://www.slideshare.net/meadunhansa/gulp-48608642?ref=http://arahansa.com/frontboard/9[http://www.slideshare.net/meadunhansa/gulp-48608642?ref=http://arahansa.com/frontboard/9]
-
+== 소개
+* http://www.slideshare.net/meadunhansa/gulp-48608642?ref=http://arahansa.com/frontboard/9[http://www.slideshare.net/meadunhansa/gulp-48608642?ref=http://arahansa.com/frontboard/9]
 *   https://github.com/arahansa/learn_gulp[https://github.com/arahansa/learn_gulp]
 
-HTML 정리  
-
-https://www.npmjs.com/package/gulp-html-replace[https://www.npmjs.com/package/gulp-html-replace]  
-https://www.npmjs.com/package/gulp-processhtml  
+== HTML 정리  
+* https://www.npmjs.com/package/gulp-html-replace
+* https://www.npmjs.com/package/gulp-processhtml  
+* https://www.npmjs.com/package/gulp-preprocess
 
 == Webserver 띄우기
 
