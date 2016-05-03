@@ -3,6 +3,7 @@
 *   https://github.com/arahansa/learn_gulp[https://github.com/arahansa/learn_gulp]
 
 == HTML 처리
+=== 문자열 교체, 삭제
 * https://www.npmjs.com/package/gulp-processhtml
 ** CSS, JS 교체에 특화된 표현식 제공
 ** replace 표현식 지원. gulp-html-replace를 따로 안 써도 될듯
@@ -12,10 +13,13 @@
 * https://www.npmjs.com/package/gulp-inject
 ** gulp의 변수로 css, js 목록을 선언해서 html에 주입
 * https://www.npmjs.com/package/gulp-html-replace
+
+=== include
 * https://www.npmjs.com/package/gulp-file-include
 ** @@include 표현식 사용
 * https://www.npmjs.com/package/gulp-html-tag-include
 ** <include/> 태그사용
+* https://www.npmjs.com/package/gulp-htmlincluder
 
 == Webserver 띄우기
 * https://scotch.io/tutorials/a-quick-guide-to-using-livereload-with-gulp  
