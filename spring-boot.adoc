@@ -1,0 +1,13 @@
+* Java로 helloworld 찍기 : https://gist.github.com/benelog/d320305ec724384bb0c5
+* 소개 자료 : http://www.slideshare.net/sungyongjung/springcamp2014springboot
+
+* Groovy 예제 코드 : https://github.com/SpringSource/spring-boot/tree/master/spring-boot-cli/samples
+
+* Batch 에제 : https://github.com/SpringSource/spring-boot/blob/master/spring-boot-samples/spring-boot-sample-batch/src/main/java/org/springframework/boot/sample/batch/SampleBatchApplication.java
+* Batch 지원 클래스 : https://github.com/SpringSource/spring-boot/tree/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/batch
+* DataSource 지원 클래스 : https://github.com/SpringSource/spring-boot/tree/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/jdbc
+
+
+* https://github.com/bungubbang/springcamp2014-boot
+* thin-war만들기 : https://github.com/bungubbang/springcamp2014-boot-war
+
