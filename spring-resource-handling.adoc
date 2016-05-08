@@ -14,7 +14,9 @@
 == sagan의 빌드 파일
 
 === sagan-client
+* https://github.com/spring-io/sagan/commit/4a7d4aedf68e1927dc246a5c6cd4c5aa6576d0bd 에서 spring-boot의 기본 전략 사용하는것으로 수정
 
+==== 이전 방식
 *   https://github.com/spring-io/sagan/blob/master/sagan-client/build.gradle[https://github.com/spring-io/sagan/blob/master/sagan-client/build.gradle]
 *   https://github.com/spring-io/sagan/blob/master/sagan-client/gulpfile.js[https://github.com/spring-io/sagan/blob/master/sagan-client/gulpfile.js]
 
@@ -65,4 +67,10 @@ class ClientResourcesConfig extends WebMvcConfigurerAdapter {
 *   https://spring.io/blog/2013/12/19/serving-static-web-content-with-spring-boot[https://spring.io/blog/2013/12/19/serving-static-web-content-with-spring-boot]
 *   https://github.com/spring-projects/spring-boot/blob/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.java[https://github.com/spring-projects/spring-boot/blob/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.java]
 
-  
+spring.resources.static-locations 로 수정 가능
+
+[java,source]
+----
+spring.resources.static-locations=classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/ # Locations of static resources.
+
+----
