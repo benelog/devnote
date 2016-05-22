@@ -1,5 +1,5 @@
 == 가이드
-* https://github.com/nhnent/fe.javascript
+* https://github.com/nhnent/fe.javascript/wiki/%EC%BD%94%EB%94%A9-%EC%BB%A8%EB%B2%A4%EC%85%98[NHN Entertainment FE coding convention]
 * https://github.com/tipjs/javascript-style-guide
 * http://javascript.crockford.com/code.html
 
