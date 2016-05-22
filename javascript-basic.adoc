@@ -5,3 +5,6 @@
 
 == Tips
 * http://www.itworld.co.kr/news/84870[‘제다이급’ 자바스크립트 고수들이 전하는 6가지 개발팁]
+
+== Promise
+* http://www.html5rocks.com/ko/tutorials/es6/promises/
