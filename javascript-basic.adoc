@@ -1,1 +1,7 @@
-https://github.com/nhnent/fe.javascript
+== 가이드
+* https://github.com/nhnent/fe.javascript
+* https://github.com/tipjs/javascript-style-guide
+* http://javascript.crockford.com/code.html
+
+== Tips
+* http://www.itworld.co.kr/news/84870[‘제다이급’ 자바스크립트 고수들이 전하는 6가지 개발팁]
