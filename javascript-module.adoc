@@ -1,7 +1,7 @@
 * http://blog.coderifleman.com/post/112564054684/browserify%EC%99%80-webpack[Browserify와 Webpack]
 * http://www.slideshare.net/jesterxl/system-webpackjspm[System, Webpack, & jspm]
 * http://d2.naver.com/helloworld/12864[JavaScript 표준을 위한 움직임: CommonJS와 AMD]
-* .com/nhnent/fe.javascript/wiki/의존성-관리
+* https://github.com/nhnent/fe.javascript/wiki/%EC%9D%98%EC%A1%B4%EC%84%B1-%EA%B4%80%EB%A6%AC[의존성 관리]
 
 === Webpack
 http://d2.naver.com/helloworld/0239818[JavaScript 모듈화 도구, webpack]
