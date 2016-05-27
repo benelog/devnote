@@ -8,3 +8,6 @@
 
 == Promise
 * http://www.html5rocks.com/ko/tutorials/es6/promises/
+
+== Pattern
+* https://addyosmani.com/resources/essentialjsdesignpatterns/book/
