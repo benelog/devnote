@@ -1,13 +1,17 @@
 
 * 성능측정 : http://www.codeplex.com/PerfTestingGuide[http://www.codeplex.com/PerfTestingGuide]
 * http://www.aptest.com/resources.html#api[Software QA Testing and Test Tool Resources]
-* http://blog.naver.com/phrack/80051146924[테스트의 종류]
-*   http://www.math.uaa.alaska.edu/%7Eafkjm/cs470/handouts/breaking.pdf[How to break Software PPT]
-*   http://www.mrtc.mdh.se/rtis2003/pres/Keynote1Whittaker.pdf[How to break Software Other PPT]
+
+* http://www.math.uaa.alaska.edu/%7Eafkjm/cs470/handouts/breaking.pdf[How to break Software PPT]
+* http://www.mrtc.mdh.se/rtis2003/pres/Keynote1Whittaker.pdf[How to break Software Other PPT]
 * http://msdn.microsoft.com/ko-kr/magazine/cc507646.aspx[침투테스트]
 * http://agile.egloos.com/4599387[제임스 바흐의 쾌속 소프트웨어 테스팅 교육]
 * http://moai.tistory.com/699[제임스 바흐의 탐험적 테스트 교육후기]
 * http://www.slideshare.net/Byungwook/testing-process?type=presentation[Testing process]
+
+=== 테스트 종류
+* http://blog.naver.com/phrack/80051146924[테스트의 종류] (신상재님)
+* https://justhackem.wordpress.com/2016/05/23/unit-integration-acceptance-and-functional-testing/[단위 테스팅과 통합, 승인, 기능 테스팅] (이규원님)
 
 ==== 논쟁
 * http://younghoe.info/1075[테스트에 대한 오해]
@@ -27,14 +31,3 @@
 ==== GTAC
 * http://www.youtube.com/view_play_list?p=3592C3CFE011E214[http://www.youtube.com/view_play_list?p=3592C3CFE011E214]
 
-==== DB test
-* http://www.dallaway.com/acad/dbunit.html[http://www.dallaway.com/acad/dbunit.html]
-
-==== Rabdoop
-* http://people.csail.mit.edu/cpacheco/randoop/1.2/doc/[http://people.csail.mit.edu/cpacheco/randoop/1.2/doc/]
-
-==== CUnit
-* http://neocode.egloos.com/1897154[Cunit Test Suite]
-* http://neocode.egloos.com/1861109[CUnit 예제]
-* http://neocode.egloos.com/1851239[Cunit Test]
-* http://neocode.egloos.com/1851209[Cunit]
