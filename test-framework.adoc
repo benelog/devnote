@@ -33,7 +33,7 @@ http://databene.org/contiperf.html[http://databene.org/contiperf.html]
 *   NUnit을 기반으로 고수준의 테스트 기술을 모음
 
 ==== dbunit
-
+* http://www.dallaway.com/acad/dbunit.html[http://www.dallaway.com/acad/dbunit.html]
 *  http://dbunit.sourceforge.net/[http://dbunit.sourceforge.net/]
 ** http://dbunit.sourceforge.net/faq.html#extract[http://dbunit.sourceforge.net/faq.html#extract]
 * http://kekedie.tistory.com/96[[JAVA] DBUnit 엑셀파일(.xls) import & export]
@@ -41,6 +41,15 @@ http://databene.org/contiperf.html[http://databene.org/contiperf.html]
 * http://whiteship.tistory.com/407[DbUnit 사용하기]
 * http://blog.naver.com/ecshoons/60000381502[DBUnit의 사용]
 * http://whiteship.me/2677[[회사일] DAO 테스트 만들기]
+
+==== Rabdoop
+* http://people.csail.mit.edu/cpacheco/randoop/1.2/doc/[http://people.csail.mit.edu/cpacheco/randoop/1.2/doc/]
+
+==== CUnit
+* http://neocode.egloos.com/1897154[Cunit Test Suite]
+* http://neocode.egloos.com/1861109[CUnit 예제]
+* http://neocode.egloos.com/1851239[Cunit Test]
+* http://neocode.egloos.com/1851209[Cunit]
 
 ==== AgitarOne
 * http://www.agitar.com/[http://www.agitar.com/]
