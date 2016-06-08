@@ -85,3 +85,6 @@
 == Empire DB
 * http://empire-db.apache.org/
 
+== EL SQL
+SQL 전용 템플릿 엔진. https://github.com/OpenGamma/ElSql
+
