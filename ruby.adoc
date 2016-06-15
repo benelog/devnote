@@ -1,14 +1,7 @@
-http://dotty.springnote.com/pages/8886[http://dotty.springnote.com/pages/8886]
 
 http://www.techotopia.com/index.php/Ruby_Essentials[http://www.techotopia.com/index.php/Ruby_Essentials]
 
-http://thinkr.egloos.com/796564[http://thinkr.egloos.com/796564]  : 웹 2.0과 루비 온 레일즈(Ruby on Rails)
-
 http://onestepback.org/articles/quickrails/takahashi.xul?data=quickrails.data#1[http://onestepback.org/articles/quickrails/takahashi.xul?data=quickrails.data#1]
-
-마이크로소프트웨어 연재  http://benelog.springnote.com/pages/84624/attachments/30264[루비를스크립트로활용해보기.pdf]
-
-http://benelog.springnote.com/pages/84624/attachments/30265[루비를타고떠나는기차여행RubyOnRails.pdf]
 
 루비한글사이트(quickstart)  : http://www.ruby-lang.org/ko/documentation/quickstart/[http://www.ruby-lang.org/ko/documentation/quickstart/]
 
@@ -69,6 +62,10 @@ http://lastmind.net/blog/2009/02/learning-rails-heroku.html[Learning Rails + Her
 http://railscasts.com/[http://railscasts.com/]
 
 http://railslab.newrelic.com/[http://railslab.newrelic.com/]
+
+=== Ruby on rails
+* http://yisangwook.tumblr.com/post/145910847954/ruby-rails-solnic[“Rails 이제 안 써” 를 읽고]
+* http://thinkr.egloos.com/796564[http://thinkr.egloos.com/796564]  : 웹 2.0과 루비 온 레일즈(Ruby on Rails)
 
 ==== typing
 
