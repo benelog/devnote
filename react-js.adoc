@@ -16,6 +16,7 @@ http://haruair.github.io/flux/docs/overview.html#content
 * http://jxnblk.com/rebass/
 * https://github.com/reactjs/react-router
 ** https://github.com/reactjs/react-router-tutorial : Reactor 라우터 예제
+* https://facebook.github.io/react/blog/2015/09/02/new-react-developer-tools.html[react-developer-tools]
 
 == 활용사례
 * http://fbdg.github.io/ironhee-2015-presentation
