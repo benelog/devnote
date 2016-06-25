@@ -9,7 +9,6 @@ http://ui-patterns.com/[http://ui-patterns.com/]
 == Prototyping tools
 * http://balsamiq.com/products/mockups
 * http://www.evolus.vn/Pencil/Home.html
-* http://www.evolus.vn/Pencil/Home.html
 * http://www.justproto.com/en/
 * https://www.lucidchart.com/
 * https://gomockingbird.com/
