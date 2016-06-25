@@ -1,0 +1,18 @@
+
+* http://www.heybears.com/2511671[기획의 달인들이 소개하는 실전 기획 노하우 10]
+* http://blog.saver.pe.kr/entry/How-to-Web20-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B0%80%EC%9D%B4%EB%93%9C[How to Web2.0 디자인 가이드]
+* http://www.hceye.org/HCInsight-Nielsen.htm[Ten Steps to Personas]
+
+http://ui-patterns.com/[http://ui-patterns.com/]
+
+
+== Prototyping tools
+* http://balsamiq.com/products/mockups
+* http://www.evolus.vn/Pencil/Home.html
+* http://www.evolus.vn/Pencil/Home.html
+* http://www.justproto.com/en/
+* https://www.lucidchart.com/
+* https://gomockingbird.com/
+* http://creately.com/
+* http://marketplace.eclipse.org/content/wireframesketcher#.UQbifx1SjBk
+* http://sneakpeekit.com/
