@@ -1,0 +1,5 @@
+
+* https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf[QRS Documents by Greg Young]
+* http://martinfowler.com/eaaDev/EventSourcing.html
+* https://msdn.microsoft.com/magazine/mt703431[Cutting Edge - Building an Historical CRUD]
+* http://cqrsjourney.github.io/
