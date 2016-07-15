@@ -1,0 +1,14 @@
+https://medium.com/@jooyunghan/%EC%99%9C-%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%9C%EA%B0%80-john-hughes-1989-f6a1074a055b#.o6mqwonfy[왜 함수형 프로그래밍이 중요한가 — John Hughes 1989]
+
+== currying 
+* http://skyul.tistory.com/328 
+* 여러 개 인자를 받는 함수를 1개의 인자를 받는 여러 함수로 변화시키는 것을 커링이라고 부른다.
+* http://beyond.daesan.com/articles/2007/02/24/ruby-functional-programming-2 : Ruby 사례
+* http://nundefined.tistory.com/22 : javascript 사례
+
+== closure
+http://aeternum.egloos.com/tag/%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98
+이처럼 함수가 실행되는 시점에 동적으로 유효 범위가 결정되지 않고 함수가 정의되는 시점에 유효 범위가 결정되는 것을 ‘어휘적 유효 범위(lexical scope)’라고 한다. 고차 함수가 반환하는 함수가 고차 함수에 속한 어휘적 유효 범위의 변수를 포함할 경우 이를 ‘어휘적 클로저(Lexical Closure)’ 또는 간단히 ‘클로저(Closure)’라고 부른다.
+
+프로그래밍 실전노트|클로저(코드 블록)의 개념과 유용성 / 서광열 :
+http://olv.moazine.com/search2/?page=&where=atl&ot_mag=&ot_atl=&ot_img=&domainurl=olv.moazine.com&SearchText=%BC%AD%B1%A4%BF%AD%20%C5%AC%B7%CE%C0%FA&S_id=3&a_id=H8pjG1mIIWF3EdcDm44FBaO0
