@@ -1,3 +1,5 @@
+== API design
+* https://speakerdeck.com/olivergierke/ddd-and-rest-domain-driven-apis-for-the-web-2
 
 == Documentation
 === Spring RestDocs
