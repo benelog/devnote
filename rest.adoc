@@ -1,4 +1,10 @@
 == API design
+* http://www.restapitutorial.com/lessons/restquicktips.html[REST API Quick Tips]
+*  https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf[APIGee의 Web API Design]
+* http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm[Architectural Styles and
+the Design of Network-based Software Architectures by  Roy Thomas Fielding]
+* http://martinfowler.com/articles/richardsonMaturityModel.html[리처드슨 REST 성숙도 모델 (원문)],  http://jinson.tistory.com/190[리처드슨 REST 성숙도 모델 (번역)]
+* http://meetup.toast.com/posts/92
 * https://speakerdeck.com/olivergierke/ddd-and-rest-domain-driven-apis-for-the-web-2
 
 == Documentation
