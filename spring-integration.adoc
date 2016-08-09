@@ -1,1 +1,2 @@
-http://www.slideshare.net/WangeunLee/spring-integration-47185594
+* http://www.slideshare.net/WangeunLee/spring-integration-47185594
+* https://www.infoq.com/presentations/Spring-Integration-Batch
