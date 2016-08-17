@@ -6,6 +6,7 @@ the Design of Network-based Software Architectures by  Roy Thomas Fielding]
 * http://martinfowler.com/articles/richardsonMaturityModel.html[리처드슨 REST 성숙도 모델 (원문)],  http://jinson.tistory.com/190[리처드슨 REST 성숙도 모델 (번역)]
 * http://meetup.toast.com/posts/92
 * https://speakerdeck.com/olivergierke/ddd-and-rest-domain-driven-apis-for-the-web-2
+* http://racksburg.com/choosing-an-http-status-code/
 
 == Documentation
 === Spring RestDocs
