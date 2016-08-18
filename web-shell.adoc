@@ -6,3 +6,4 @@
 == Linux shell
 * http://bellard.org/jslinux/
 * https://github.com/chjj/tty.js/
+* https://github.com/chjj/term.js
