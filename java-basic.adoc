@@ -1,0 +1,1 @@
+* http://blog.hazard.kr/archives/778[[Java] 제네릭의 비애]
