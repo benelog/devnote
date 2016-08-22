@@ -2,6 +2,7 @@
 * https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf[QRS Documents by Greg Young]
 * https://msdn.microsoft.com/magazine/mt703431[Cutting Edge - Building an Historical CRUD]
 * http://cqrsjourney.github.io/
+* https://msdn.microsoft.com/en-us/magazine/mt767692.aspx[Cutting Edge - Beyond CRUD: Commands, Events and Bus]
 
 == EventSourcing
 * http://martinfowler.com/eaaDev/EventSourcing.html
