@@ -1,1 +1,2 @@
 * http://d2.naver.com/helloworld/0239818[JavaScript 모듈화 도구, webpack]
+* http://hyunseob.github.io/2016/04/03/webpack-practical-guide/
