@@ -9,3 +9,15 @@ ConcurrentLinkedHashmap 라이브러리는 이 ConcurrentHashMap과 LinkedHashMa
 그런데 이제 caffeine이라는 Cache 라이브러리만 활발히 개발되고 ConcurrentLinkedHashmap은 유지보수모드인듯.. Spring 4.3에는 Caffein을 지원하는 클래스가 들어가고, Spring 5.0에서는 Guava Cache에 대한 지원이 오히려 없어질듯하다. ( https://spring.io/…/core-container-refinements-in-spring-fr… )
 
 * https://github.com/ben-manes/concurrentlinkedhashmap
+
+
+== Terracotta
+* http://yunsunghan.tistory.com/194[Terracotta + Spring 기반의 NAM 예제]
+* http://forums.terracotta.org/forums/posts/list/1578.page[http://forums.terracotta.org/forums/posts/list/1578.page]
+* http://yunsunghan.tistory.com/205[Terracotta Master/worker 구현 성공사례]
+* http://yunsunghan.tistory.com/213[http://yunsunghan.tistory.com/213]
+* http://forum.springsource.org/showthread.php?t=50460[http://forum.springsource.org/showthread.php?t=50460]  
+
+PartitionHandler
+
+http://blog.terracottatech.com/2008/03/tired_of_jargon_and_vendor_gob_1.html[http://blog.terracottatech.com/2008/03/tired_of_jargon_and_vendor_gob_1.html]
