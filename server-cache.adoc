@@ -1,0 +1,11 @@
+== Caffeine
+
+https://github.com/ben-manes/caffeine
+
+LinkedHashMap에는 removeEldestEntry 메서드가 있어서 이를 잘 이용하면 LRU cache로 쓸 수 있다. 문제는 LinkedHashMap는 thread-safe하지 않아서 적절히 synchronized를 걸어줘야 한다는 것.
+Spring의 AbstractCachingViewResolver같은 소스를 봐도 LinkedHashMap과 ConcurrentHashMap을 다 들고 있다. 조회 용도로는 ConcurrentHashMap에 접근하고 , 값을 쓸때는 꽤나 성가시게 2개를 동기화하고 있다.
+ConcurrentLinkedHashmap 라이브러리는 이 ConcurrentHashMap과 LinkedHashMap의 장점을 합친것처럼 보이네.
+
+그런데 이제 caffeine이라는 Cache 라이브러리만 활발히 개발되고 ConcurrentLinkedHashmap은 유지보수모드인듯.. Spring 4.3에는 Caffein을 지원하는 클래스가 들어가고, Spring 5.0에서는 Guava Cache에 대한 지원이 오히려 없어질듯하다. ( https://spring.io/…/core-container-refinements-in-spring-fr… )
+
+* https://github.com/ben-manes/concurrentlinkedhashmap
