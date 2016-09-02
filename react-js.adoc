@@ -3,6 +3,7 @@
 * http://www.slideshare.net/deview/141-react-everywhere
 * http://www.slideshare.net/jeokrang/facebook-react-55649927?ref=http://d2.naver.com/[Facebook은 React를 왜 만들었을까?]
 * http://webframeworks.kr/tutorials/react/es2015-react/
+* http://www.slideshare.net/jisuyoun/frontend-es6-reactjs
 * https://facebook.github.io/react/docs/tutorial.html
 
 == Flux & Redux
