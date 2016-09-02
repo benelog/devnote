@@ -1,1 +1,71 @@
-https://github.com/Netflix/feign
+== Spring RestTemplate
+* http://blog.springsource.com/2009/03/27/rest-in-spring-3-resttemplate/[http://blog.springsource.com/2009/03/27/rest-in-spring-3-resttemplate/]
+* http://aruld.info/resttemplate-the-spring-way-of-accessing-restful-services/[http://aruld.info/resttemplate-the-spring-way-of-accessing-restful-services/]
+* http://dlinsin.blogspot.com/2009/11/playing-with-spring-resttemplate.html[http://dlinsin.blogspot.com/2009/11/playing-with-spring-resttemplate.html]
+* http://whiteship.me/2609[[Spring 3.0 & Atlassian] RestTemplate으로 Confluence의 Space 목록 가져오기]
+
+== Apache HttpClient, HtpComponent
+* http://fuyun.org/2009/09/connection-close-in-httpclient/[http://fuyun.org/2009/09/connection-close-in-httpclient/]
+
+SimpleHttpConnectionManager를 쓰면 releaseConnection을 호출해도 바로 닫지 않는다.
+
+Peer가 FIN보내면 이쪽에서 닫기 전까지 CLOSE_WAIT 상태
+
+확실하게 close하려면 connetionManager를 shutdown 시켜야 한다.
+
+CLOSE_WAIT는 timeout이 나지 않는다.
+
+GC가 일어나면 CLOSE_WAIT상태의 socket이 닫힌다.
+
+SimpleHttpConnectionManager(boolean alwaysClose).를 통해서도 해결 가능 
+
+https://issues.apache.org/jira/browse/HTTPCLIENT-1234 : javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+
+https
+
+http://javaskeleton.blogspot.fr/2010/07/avoiding-peer-not-authenticated-with.html  
+
+http://blog.nerdability.com/2013/01/tech-how-to-fix-sslpeerunverifiedexcept.html
+
+``locate cacerts``
+
+-Djavax.net.ssl.trustStore=/tmp/cacerts 
+
+**``-Djavax.net.debug=ssl``**
+
+**
+[source,java]
+----
+
+----
+**
+
+**http://code.google.com/p/java-use-examples/source/browse/trunk/src/com/aw/ad/util/InstallCert.java  
+**
+
+https://issues.apache.org/bugzilla/show_bug.cgi?id=54759
+
+http://stackoverflow.com/questions/318441/truststore-and-keystore-definitions  
+
+http://javarevisited.blogspot.kr/2012/03/add-list-certficates-java-keystore.html
+
+http://javarevisited.blogspot.kr/2012/03/add-list-certficates-java-keystore.html  
+
+==== SO_LINGER  옵션
+
+SO_LINGER OFF (디폴트): socket.close()는 즉시 리턴, OS는 소켓 버퍼에 있는 데이터를 모두 보내고 나서 FIN 전송하여 4-way handshake shutdown 후 소켓 회수 
+
+SO_LINGER ON, LINGER 시간은 0: socket.close()는 즉시 리턴, OS는 소켓 버퍼에 있는 데이터 모두 버리고, RST 전송하고 소켓도 바로 회수
+
+SO_LINGER ON, LINGER 시간이 0보다 큼: socket.close()는 소켓 버퍼에 있는 데이터를 모두 보내고 나서 리턴, LINGER 시간까지 다 못 보내면 에러를 리턴, 연결 종료는 FIN 전송하여 4-way handshake shutdown 후 소켓 회수   
+
+== JDK URL Connection
+
+http://javacan.tistory.com/entry/35[자바로 구현하는 Web-to-web 프로그래밍, Part 1]
+
+http://javacan.tistory.com/entry/35[]
+
+http://javacan.tistory.com/entry/42[자바로 구현하는 Web-to-web 프로그래밍, Part 2]  
+
+== Feign
+https://github.com/OpenFeign/feign
