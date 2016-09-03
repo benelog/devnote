@@ -1,0 +1,53 @@
+http://whiteship.me/2460[[웹 사이트 속도 향상 베스트 프랙티스 1] HTTP 요청 최소화 하기]
+
+http://whiteship.me/2464[[웹 사이트 속도 향상 베스트 프랙티스 2] CDN(Content Delivery Network) 사용하기]
+
+http://whiteship.me/2465[[웹 사이트 속도 향상 베스트 프랙티스 3] Expires 또는 Cache-Control 헤더 추가하기]
+
+http://whiteship.me/2467[[웹 사이트 속도 향상 베스트 프랙티스 4] 컴포넌트 압축하기(Gzip Components)]
+
+http://whiteship.me/2470[[웹 사이트 속도 향상 베스트 프랙티스 5] 스타일시트를 HEAD에 넣기]
+
+http://whiteship.me/2473[[웹 사이트 속도 향상 베스트 프랙티스 6] 스크립트를 바닦에 두기]
+
+http://whiteship.me/2475[[웹 사이트 속도 향상 베스트 프랙티스 7] CSS expression 사용하지 않기]
+
+http://whiteship.me/2479[[웹 사이트 속도 향상 베스트 프랙티스 8] 자바스크립트와 CSS 외부화하기]
+
+http://whiteship.me/2483[[웹 사이트 속도 향상 베스트 프랙티스 9] DNS 룩업 줄이기]
+
+http://engdic.daum.net/dicen/contents.do?query1=ED00866730[http://engdic.daum.net/dicen/contents.do?query1=ED00866730]
+
+http://developer.yahoo.com/performance/rules.html[Best Practices for Speeding Up Your Web Site]
+
+http://kwon37xi.egloos.com/4380851[프로그래밍 언어와 무관하게 웹 서버 부담을 줄이는 몇 가지 방법]
+
+http://developer.yahoo.com/performance/rules.html[Best Practices for Speeding Up Your Web Site]
+
+http://greatkim91.tistory.com/118[성능을 위한 초간단 HTTP 304 Not Modified 구현 방법]
+
+http://www.facebook.com/notes/facebook-engineering/bigpipe-pipelining-web-pages-for-high-performance/389414033919[http://www.facebook.com/notes/facebook-engineering/bigpipe-pipelining-web-pages-for-high-performance/389414033919]
+
+http://perftestingguide.codeplex.com/[http://perftestingguide.codeplex.com/]
+
+http://www.ibm.com/developerworks/kr/library/wa-aj-jsajaxperf/index.html[JavaScript와 Ajax 성능 극대화하기]
+
+== 로그분석
+
+Webalizer
+
+http://smashinghub.com/10-best-server-monitoring-tools-that-kick-ass.htm[http://smashinghub.com/10-best-server-monitoring-tools-that-kick-ass.htm]
+
+== 측정도구
+
+http://www.webpagetest.org/[http://www.webpagetest.org/]
+
+http://www.showslow.com/[http://www.showslow.com/]
+
+이미지 Metadata, format, Compression rate 점검
+
+http://regex.info/exif.cgi?
+
+http://tools.phinf.naver.net/tools.html
+
+Emulator : http://blog.mrpol.nl/2010/01/14/network-emulator-toolkit/[http://blog.mrpol.nl/2010/01/14/network-emulator-toolkit/]
