@@ -1,0 +1,32 @@
+* https://www.infoq.com/minibooks/emag-java-agents-bytecode  
+* http://spring.io/blog/2014/11/09/springone2gx-2014-replay-living-in-the-matrix-with-bytecode-manipulation
+* http://www.slideshare.net/SpringCentral/bytecode-spring2gx2014  
+
+== 예제
+* https://github.com/spring-projects/spring-framework/blob/master/spring-context/src/main/java/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java
+* https://github.com/spring-projects/spring-framework/blob/master/spring-core/src/main/java/org/springframework/core/type/classreading/SimpleMetadataReader.java
+* https://github.com/spring-projects/spring-framework/commit/c16f18a5fd659f34d6290b5f2cffe54534b7592a
+
+== BCI (Bytecode Instrumentation)
+* http://architecture-guru.textcube.com/48[Power of bytecode instrumentation in java] 
+
+== Library
+
+=== ASM
+CGLIB 가 사용 ( CGLIB is a higher abstraction than ASM. )  
+
+* http://whiteship.me/2624[ASM 개요]
+* http://whiteship.me/2625[ASM 클래스 만들기]
+* ASM의 Visitor패턴 :  http://whiteship.tistory.com/2617
+
+=== BCEL
+* Findbugs, AspectJ, Spring의 CGLIB-> Javassit migration :https://jira.springsource.org/browse/SPR-8190 
+
+=== SERP  
+* http://serp.sourceforge.net/
+
+=== Javassist
+* https://github.com/jboss-javassist/javassist  
+
+=== 비교
+* http://www.java-opensource.com/open-source/bytecode-libraries.html[http://www.java-opensource.com/open-source/bytecode-libraries.html]- BCEL vs ASM : * http://blog.naver.com/PostView.nhn?blogId=junsu60&logNo=80123035668[http://blog.naver.com/PostView.nhn?blogId=junsu60&logNo=80123035668]
