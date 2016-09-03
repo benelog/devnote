@@ -1,0 +1,3 @@
+http://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap[What and where are the stack and heap]
+
+http://lwn.net/Articles/250967/[What every programmer should know about memory, Part 1]
