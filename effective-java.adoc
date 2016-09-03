@@ -1,0 +1,29 @@
+* http://developers.sun.com/learning/javaoneonline/2006/coreplatform/TS-1512.pdf[Effective Java Reloaded, JavaOne Conference 2006]
+* http://javapolis.libsyn.com/index.php?post_id=380974[Effective Java Reloaded - 2008]
+* http://cs.gmu.edu/~pammann/619/ppt/Bloch10.ppt[http://cs.gmu.edu/~pammann/619/ppt/Bloch10.ppt]
+
+== 주목할만한 Item
+=== Item 38: Adhere to generally accepted naming conventions
+
+Note that constant fields constitute the only recommended use of underscores. (p.125)
+
+Naming convention : http://java.sun.com/docs/books/jls/third_edition/html/names.html#6.8[http://java.sun.com/docs/books/jls/third_edition/html/names.html#6.8]
+
+== 서평
+
+재미있는 서평 : http://www.amazon.com/review/R296QBPY6ZC2LB/ref=cm_cr_pr_cmt?%5Fencoding=UTF8&ASIN=0201310058#wasThisHelpful[http://www.amazon.com/review/R296QBPY6ZC2LB/ref=cm_cr_pr_cmt?%5Fencoding=UTF8&ASIN=0201310058#wasThisHelpful]
+
+
+== 인터뷰
+
+http://www.infoq.com/articles/bloch-effective-java-2e[Book Excerpt and Interview: Effective Java, Second Edition]
+
+http://java.dzone.com/articles/effective-java-an-interview-wi[Effective Java: An Interview with Joshua Bloch]
+
+http://developers.sun.com/learning/javaoneonline/j1sessn.jsp?sessn=TS-6623&yr=2008&track=javase[More "Effective Java"]
+
+http://whiteship.me/tag/effective%20java[http://whiteship.me/tag/effective%20java]
+
+Item 8: hashCode 재정의
+
+equals(null)일 때 true가 발생할 가능성은 없음.
