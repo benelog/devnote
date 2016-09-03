@@ -1,0 +1,14 @@
+image::http://dl.adminlife.net/regular_expressions_cheat_sheet.png[regular_expressions_cheat_sheet.png]
+
+
+== 도움사이트
+* http://www.regexper.com/[http://www.regexper.com]
+* http://regexpal.com/[http://regexpal.com/]
+* http://www.myezapp.com/apps/dev/regexp/show.ws[http://www.myezapp.com/apps/dev/regexp/show.ws]
+* http://blog.naver.com/ahndongju/100052756446[http://blog.naver.com/ahndongju/100052756446]
+* http://swbae.egloos.com/1780067[RegEx Coach - 정규표현식 도우미 툴]
+* http://www.ibm.com/developerworks/kr/library/s_issue/20080729/[초보 개발자 코드 트레이닝, Part 5: 정규 표현식]
+* http://www.slipp.net/wiki/pages/viewpage.action?pageId=950361[자바 정규 표현식 구현] : 집 전화번호, 휴대폰 번호 검사 예제
+
+== 예제
+* style 태그 제거: `style=\"[^\"]*\"`
