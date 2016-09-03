@@ -1,0 +1,141 @@
+* http://blog.naver.com/aspdotnet/140002583711[Calendar클래스(GregorianCalendar)를 이용한 달력 출력하기]
+
+== Library
+
+* http://joda-time.sourceforge.net/[http://joda-time.sourceforge.net/]
+* http://timeandmoney.sourceforge.net/[http://timeandmoney.sourceforge.net/] : 에릭에반스와 켄트백이 만든 돈과 시간 관련 라이브러리
+* http://www.date4j.net/[http://www.date4j.net/]
+* http://calendardate.sourceforge.net/[http://calendardate.sourceforge.net/]
+
+== 예제
+[source,java]
+.파싱
+----
+java.text.DateFormat
+
+java.text.SimpleDateFormat
+
+import java.util.Calendar;  
+import java.util.Date;
+
+ import java.util.SimpleTimeZone;
+
+    public static Date parseDate(String dateStr) {  
+        SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");  
+        SimpleTimeZone timeZone = new SimpleTimeZone(9 * 60 * 60 * 1000, "KST");  
+        fmt.setTimeZone(timeZone);  
+        try {  
+            return fmt.parse(dateStr);  
+        } catch (ParseException e) {  
+            return null;  
+        }  
+    }
+
+    public static String getDateString(Date date, String format) {  
+        // 테스트  
+        if (date == null) {  
+            return "";  
+        }  
+        SimpleDateFormat dateFormat = new SimpleDateFormat(format);  
+        SimpleTimeZone timeZone = new SimpleTimeZone(9 * 60 * 60 * 1000, "KST");  
+        dateFormat.setTimeZone(timeZone);  
+        Calendar cal = dateFormat.getCalendar();  
+        cal.setTime(date);  
+        return dateFormat.format(cal.getTime());  
+    }
+
+    /**  
+     * 현재 시스템 날짜(yyyyMMdd HH:mm:ss.SSS) 값을 얻어온다.  
+     * @return ymd  
+     */  
+    public static String getTimeSSS() {  
+        long currentTimes = System.currentTimeMillis();  
+        return  new SimpleDateFormat("yyyyMMdd HH:mm:ss.SSS").format(new Date(currentTimes));  
+    }
+----
+
+[source,java]
+.요일 확인
+----
+import java.util.Calendar;  
+import java.util.GregorianCalendar;  
+
+public class WeekdayTest {  
+
+    public static void main(String args[]){  
+        boolean b1 = isMatchedWeekday("20080114", Calendar.MONDAY);  
+        boolean b2 = isMatchedWeekday("20080105", Calendar.SATURDAY);         
+        boolean b3 = isMatchedWeekday("20080107", Calendar.MONDAY);  
+
+        System.out.println(b1);  
+        System.out.println(b2);  
+        System.out.println(b3);         
+    }  
+
+    public static boolean isMatchedWeekday(String date, int weekday){  
+        int year = Integer.parseInt(date.substring(0,4));  
+        int month = Integer.parseInt(date.substring(4,6))-1;  
+        int day = Integer.parseInt(date.substring(6,8));   
+        Calendar c = new GregorianCalendar();    
+        c.set(year,month,day);  
+        return (weekday ==c.get(Calendar.DAY_OF_WEEK));  
+    }     
+}
+----
+
+[source,java]
+.Timezone의 특이사항 시점 확인
+----
+
+static final String DAY_FORAMT = "yyyy-MM-dd";
+
+static final String TIME_FORAMT = "yyyy-MM-dd HH:mm:ss";
+
+@Test
+
+public void dateTest() throws Exception {
+
+     Date date = DateUtils.parseDate("1850-01-01 00:00:00", new String[]{TIME_FORAMT});
+
+     int count = 200 * 365;
+
+     System.out.println("Expected print out => Actual print out");
+
+     do {
+
+            String actualDateString = DateFormatUtils.format(date, TIME_FORAMT);
+
+            String expectedDateString = DateFormatUtils.format(date, DAY_FORAMT) + " 00:00:00";
+
+            if (!actualDateString.equals(expectedDateString)) {
+
+                   System.out.println(expectedDateString + " => " + actualDateString);
+
+            }
+
+            assertTrue(actualDateString.equals(expectedDateString));
+
+            date = DateUtils.addDays(date,1);
+
+            date = DateUtils.truncate(date, Calendar.DATE);
+
+     } while (count-- > 0);
+
+----
+
+== Timezone update
+* http://java.sun.com/javase/tzupdater_README.html[http://java.sun.com/javase/tzupdater_README.html]
+* http://java.sun.com/javase/timezones/[http://java.sun.com/javase/timezones/]
+
+
+== 현재 Date문제점  
+http://www.wolkje.net/2010/01/06/java-date-and-time-api-and-jsr-310/  
+http://blog.joda.org/2007/01/announcing-jsr-310-date-and-time-api_2753.html  
+http://blog.joda.org/2007/10/jsr-310-and-java-7-language-changes_4325.html  
+https://today.java.net/pub/a/today/2008/09/18/jsr-310-new-java-date-time-api.html  
+http://www.slideshare.net/JustinSDK/2013-java-developer-day-joda-timejsr310  
+https://github.com/ThreeTen/threeten  
+https://jcp.org/aboutJava/communityprocess/edr/jsr310/guide-0.7.html
+
+== JSR 310
+* http://www.infoq.com/news/2010/03/jsr-310  
