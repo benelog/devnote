@@ -1,0 +1,47 @@
+http://blog.naver.com/knbawe/110024057033[http://blog.naver.com/knbawe/110024057033]
+
+http://www.planetstruts.org/struts2-showcase/showcase.action[http://www.planetstruts.org/struts2-showcase/showcase.action]  
+
+http://www.infoq.com/minibooks/starting-struts2[http://www.infoq.com/minibooks/starting-struts2]
+
+http://blog.dev.daewoobrenic.co.kr/tc/jcfblog/124[좋은 사회를 만드는 기술^^ (폼중복전송방지)]
+
+http://blog.openframework.or.kr/55[[메모] webwork 사용시 에러 페이지 처리]
+
+http://utumdol.springnote.com/pages/1628432[WebWork Friendly Tutorial]
+
+http://www.opensymphony.com/webwork/wikidocs/Getting%20Started.html[http://www.opensymphony.com/webwork/wikidocs/Getting%20Started.html]
+
+  <xwork>   
+     <package name="default">   
+     ...   
+     <global-results>   
+         <result name="NPException">/common/system/error_page.jsp</result>   
+     </global-results>   
+
+     <global-exception-mappings>   
+         <exception-mapping exception="java.lang.NullPointerException" result="NPException"/>   
+     </global-exception-mappings>   
+     ...   
+     </package>   
+ </xwork>
+
+http://babtingdev.tistory.com/category/Framework/webwork[xwork.xml에서 하나의 action에 default method설정하는 법]
+
+http://www.ologist.co.kr/tag/Adapt%20Parameter[웹프레임워크(webwork, struts2.0)에서 Action 테스트를 위한 코딩방법Developer]
+
+==== Rest plugin
+
+http://cwiki.apache.org/S2PLUGINS/rest-plugin.html[http://cwiki.apache.org/S2PLUGINS/rest-plugin.html]
+
+==== Model Driven
+
+http://www.vaannila.com/struts-2/struts-2-example/struts-2-model-driven-action-example-1.html[http://www.vaannila.com/struts-2/struts-2-example/struts-2-model-driven-action-example-1.html]
+
+http://www.ologist.co.kr/575[http://www.ologist.co.kr/575]
+
+==== Performance
+
+http://old.nabble.com/Serious-Struts-2-%28up-to-2.1.8.1%29-performance-problems-to27214502.html[http://old.nabble.com/Serious-Struts-2-%28up-to-2.1.8.1%29-performance-problems-to27214502.html]
+
+http://old.nabble.com/Slow-performance-with-Struts2-td18092204.html[http://old.nabble.com/Slow-performance-with-Struts2-td18092204.html]
