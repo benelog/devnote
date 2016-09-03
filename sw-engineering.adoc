@@ -1,0 +1,17 @@
+http://www.talk-with-hani.com/archives/1160[우리가 ‘소프트웨어 공학’이라고 믿는 것의 정체는 무엇일까?]  : SE는 공학이라기보다는 공학으로 향하는 무언가”  
+
+http://minslovey.tistory.com/17[소프트웨어 유지보수란?(소프트웨어 컨플릭트2.0)]
+
+http://legendre.tistory.com/178[소프트웨어 컨플릭트2.0]
+
+http://www.lips.utexas.edu/ee382c-15005/Readings/Readings1/05-Broo87.pdf[은총알은 없다]
+
+http://jhrogue.blogspot.com/2008/06/blog-post_23.html[(번역) 소프트웨어 공학이라는 단어를 묻어버리자.] ( http://www.agilejournal.com/content/view/696/76/[Let's Bury the Term Software Engineering] )
+
+http://www.ibm.com/developerworks/kr/library/08/jan08/pollice/[소프트웨어 엔지니어링 이해하기: 학생 관점에서 바라본 모습]
+
+http://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf[On the Criteria To Be Used in Decomposing Systems into Modules]
+
+http://portal.acm.org/citation.cfm?id=1005943[http://portal.acm.org/citation.cfm?id=1005943]
+
+http://moai.tistory.com/882[SW 공학백서를 읽어보시나요]
