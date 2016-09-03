@@ -1,0 +1,114 @@
+|====
+| 
+http://npcode.com/blog/archives/736[Git의 Staging Area는 어떤 점이 유용한가]
+
+http://gun.io/blog/how-to-github-fork-branch-and-pull-request/[http://gun.io/blog/how-to-github-fork-branch-and-pull-request/]
+
+http://eclipsesource.com/blogs/2010/06/22/git-support-eclipse-helios-feature-2/[http://eclipsesource.com/blogs/2010/06/22/git-support-eclipse-helios-feature-2/]  
+
+http://r6.ca/blog/20110416T204742Z.html[GIT is inconsistent]  
+
+http://www.youtube.com/watch?v=4XpnKHJAok8[http://www.youtube.com/watch?v=4XpnKHJAok8]
+GIT 주요개념 :  http://whiteship.tistory.com/2185  
+http://whiteship.me/2185[]
+http://whiteship.me/2181[JGit 설치]
+
+http://whiteship.me/2189[GIT config]
+
+http://video.google.com/videoplay?docid=-3999952944619245780&q=Git&total=14242&start=0&num=10&so=0&type=search&plindex=3[http://video.google.com/videoplay?docid=-3999952944619245780&q=Git&total=14242&start=0&num=10&so=0&type=search&plindex=3]
+
+http://video.google.com/videoplay?docid=-2199332044603874737[http://video.google.com/videoplay?docid=-2199332044603874737]
+
+http://git.or.cz/gitwiki/EclipsePlugin[http://git.or.cz/gitwiki/EclipsePlugin]
+
+ http://git.or.cz/gitwiki/EclipsePluginScreenshots[http://git.or.cz/gitwiki/EclipsePluginScreenshots]
+
+http://whiteship.tistory.com/2228[JGit로 push 성공 기념샷.]
+
+http://kwon37xi.egloos.com/4114325[Kenai - Git 을 지원하는 오픈 소스 프로젝트 호스팅 서비스]
+
+http://whiteship.me/?p=12920[rm -cached]
+
+http://ohyecloudy.com/pnotes/archives/1949[git HEAD, index, working directory 이해하기 - A Tale of Three Trees 발표자료를 보고 - See more at: http://ohyecloudy.com/pnotes/archives/1949#sthash.b4dj9MAn.dpuf]
+
+=== 종합 가이드  
+
+http://progit.org/book/[http://progit.org/book/]  
+
+http://book.git-scm.com/index.html[http://book.git-scm.com/index.html]http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide  
+http://learnbranch.urigit.com/[http://learnbranch.urigit.com/]
+
+=== 다른 도구와의 비교
+http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/]  
+
+=== Git- SVN  
+
+http://toby.epril.com/?p=703[Subversion 사용자를 위한 Git 소개]
+
+http://git.or.cz/course/svn.html[Git - SVN Crash Course]
+http://whiteship.me/?p=12771[[Git] SVN 사용자를 위한 Git 가이드 1. 시작]
+
+=== 명령어 정리
+
+http://blog.outsider.ne.kr/572[Git 명령어 정리]
+
+http://whiteship.tistory.com/2188[기트(git) 주요 명령어]
+
+=== Tips
+
+http://blog.outsider.ne.kr/571[]
+
+http://blog.outsider.ne.kr/571[Git에서 명령어에 별칭(Alias) 사용하기]
+
+http://andyjeffries.co.uk/articles/25-tips-for-intermediate-git-users[25-tips-for-intermediate-git-users]
+
+http://blog.outsider.ne.kr/616[bash 프롬프트에 Git와 Mercurial의 branch를 표시하기]
+
+http://www.ologist.co.kr/1024[GIT을 이용한 릴리즈 노트]
+
+http://insanehong.kr/post/debuging-with-git/   
+
+http://softwaregeeks.org/2013/07/03/jgitflow%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-javamaven-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%A5%BC-%EC%89%BD%EA%B2%8C%ED%95%98%EB%8A%94-%EB%B2%95/[jgitflow를-사용하여-javamaven-프로젝트-릴리즈를-쉽게하는-법]
+
+http://blog.lckymn.com/2013/03/11/git-push-to-pull-from-both-github-and-bitbucket/
+
+http://blog.outsider.ne.kr/1011[git diff 에서 변경된 부분을 더 명확하게 보는 방법]  
+
+=== Branch
+
+http://binggrec.tistory.com/118[Git - branch 개념정리]
+
+http://kdsoo.com/1262[GIT branch 사용]
+
+http://nvie.com/posts/a-successful-git-branching-model/[http://nvie.com/posts/a-successful-git-branching-model/]
+http://blog.outsider.ne.kr/644[git에서 원격저장소에 branch와 tag를 push하기]http://blog.outsider.ne.kr/914[Git에서 이전에 사용한 브랜치로 체크아웃하기]  
+
+=== Rebase
+http://blog.outsider.ne.kr/666[git의 merge와 rebase 비교하기]  
+http://blog.doortts.com/285[git에서 특정 commit에 들어간 수정 파일을 다른 commit으로 옮기는 방법]  
+http://dogfeet.github.com/articles/2012/git-merge-rebase.html[Git: Rebase는 언제 어떻게 해야 할까?]  
+
+http://whiteship.me/?p=13740[포크 따서 작업하다 원본이랑 싱크 맞춰서 보내기]
+http://git-scm.com/book/ko/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0[]http://git-scm.com/book/ko/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0[히스토리 단장하기]  
+http://blog.springsource.com/2010/12/21/git-and-social-coding-how-to-merge-without-fear/[http://blog.springsource.com/2010/12/21/git-and-social-coding-how-to-merge-without-fear/]  
+
+
+
+=== CI integration
+
+http://www.infoq.com/articles/Gerrit-jenkins-hudson[http://www.infoq.com/articles/Gerrit-jenkins-hudson]
+
+http://alblue.bandlem.com/2011/02/someday.html[http://alblue.bandlem.com/2011/02/someday.html]
+
+== Github
+
+http://whiteship.tistory.com/2192[Github에 pull, push하기]
+
+http://dogfeet.github.com/articles/2012/how-to-github.html[http://dogfeet.github.com/articles/2012/how-to-github.html]
+
+== Workflow
+https://about.gitlab.com/2014/09/29/gitlab-flow/  
+http://endoflineblog.com/gitflow-considered-harmful  
+
+
+|====
