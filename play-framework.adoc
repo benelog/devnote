@@ -1,0 +1,13 @@
+http://blog.outsider.ne.kr/527[Play framework에서 Long Polling 구현하기]
+
+http://iam.guillaume.bort.fr/post/558830013/why-there-is-no-servlets-in-play[http://iam.guillaume.bort.fr/post/558830013/why-there-is-no-servlets-in-play]
+
+=== Play 특이한점
+
+정상적인 처리에도 Return 값 대신 Exception을 날림:
+
+https://github.com/playframework/play/blob/master/framework/src/play/mvc/results/Result.java[https://github.com/playframework/play/blob/master/framework/src/play/mvc/results/Result.java]
+
+Static 멤버변수인데도 요청사이에 공유되지 않도록 Thread local로 바꿔줌:
+
+https://github.com/playframework/play/blob/master/framework/src/play/mvc/Controller.java#L61[https://github.com/playframework/play/blob/master/framework/src/play/mvc/Controller.java#L61]
