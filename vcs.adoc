@@ -1,0 +1,21 @@
+== 버전관리 시스템의 종류 :
+
+http://en.wikipedia.org/wiki/List_of_revision_control_software[http://en.wikipedia.org/wiki/List_of_revision_control_software]
+
+http://blog.doortts.com/158[GIT 대 Mercurial]
+
+http://gitvsmercurial.com/[http://gitvsmercurial.com/]
+
+http://www.infoq.com/articles/agile-version-control[http://www.infoq.com/articles/agile-version-control]  
+
+시각화 :http://code.google.com/p/gource/[http://code.google.com/p/gource/]
+
+== DVCS
+
+http://wiki.javajigi.net/display/IDE/Distributed+Version+Control[http://wiki.javajigi.net/display/IDE/Distributed+Version+Control]
+
+http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/] : GIT은 맥가이버, Mercurial은 제임스 본드
+
+http://altdevblogaday.org/2011/03/09/its-time-to-stop-using-subversion/[http://altdevblogaday.org/2011/03/09/its-time-to-stop-using-subversion/]
+
+Subversion re-education : http://surpreem.com/archives/51[http://surpreem.com/archives/51]
