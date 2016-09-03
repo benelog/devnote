@@ -1,0 +1,34 @@
+== 동영상
+https://www.youtube.com/watch?v=SZydc3BS--s[오브젝트와 의존관계 그리고 스프링 3 1부 ]
+
+https://www.youtube.com/watch?v=JI7RNrWqp7k[오브젝트와 의존관계 그리고 스프링 3 2부 ]
+
+https://www.youtube.com/watch?v=SOfhE_Dt-f4[테스트와 스프링 1]
+
+https://www.youtube.com/watch?v=2qHE734VPZA[테스트와 스프링 2]
+
+https://www.youtube.com/watch?v=hHwbUlWOelk[템플릿과 스프링 1]
+
+https://www.youtube.com/watch?v=73fO2mVjuxg[템플릿과 스프링 2]  
+
+전체 : https://www.youtube.com/watch?list=PLfI752FpVCS9_BbDzcpuATNZ5hh1c5tQ2&v=5z9YIy6Kx3Q  
+
+https://www.youtube.com/watch?v=5z9YIy6Kx3Q[[백기선의 토스3 코딩] 1장 오브젝트와 의존관계 1/2]
+
+https://www.youtube.com/watch?v=YukeycBcy8U[[백기선의 토스3 코딩] 1장 오브젝트와 의존관계 2/2]
+
+https://www.youtube.com/watch?v=Li6KY6xTkC8[[백기선의 토스3 코딩] 2장 테스트 1/3]
+
+== 기사  
+* https://www.ibm.com/developerworks/mydeveloperworks/blogs/9e635b49-09e9-4c23-8999-a4d461aeace2/entry/277?lang=ko[테스트와 스프링]
+* https://www.ibm.com/developerworks/mydeveloperworks/blogs/9e635b49-09e9-4c23-8999-a4d461aeace2/entry/288?lang=en[템플릿과 스프링]
+
+== 백기선님
+* http://whiteship.me/?p=13794[백기선의 스프링 3.0 교육 자료 ]  
+* http://whiteship.me/2725[[토비의 스프링 3] 2차 완독 후기]
+* http://whiteship.me/2734[토비의 스프링 3]
+* http://whiteship.me/2753[템플릿-콜백 패턴으로 Try-Catch-Finally 블럭을 무찌르자.]
+* http://whiteship.me/2759['스프링 3.0 이해와 선택' 강의 후기]
+
+== 권남님
+* http://kwon37xi.egloos.com/4630733[http://kwon37xi.egloos.com/4630733]
