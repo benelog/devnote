@@ -1,0 +1,29 @@
+* Template : http://snipplr.com/view/52862/  
+* http://www.bennadel.com/blog/1853-Posting-XML-SOAP-Requests-With-jQuery.htm
+
+== 자주쓰는 코드  
+
+[source,javascript]
+----
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>  
+<script  type="text/javascript">  
+
+    function requestImage (imageId) {  
+        var requestUrl = "/viewImage.json";  
+
+        var icon =  $("#icon");  
+        $.ajax({  
+         url : requestUrl,  
+         type: "POST",  
+         dataType :"json",  
+         success:function(image){  
+             icon.attr('src', image.src);  
+             icon.attr('height',image.height);  
+             icon.attr('width',image.width);               
+         },  
+         error:function(jqXHR, textStatus, errorThrown){  
+          alert("Error");  
+         }  
+        });  
+    }  
+----
