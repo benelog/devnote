@@ -1,22 +1,82 @@
-vi 메뉴얼
+단축키 표 : http://blog.insightbook.co.kr/post/872[http://blog.insightbook.co.kr/post/872]  
+
+환경설정  
+vi .exrc  
+set showmode  
+set number  
+
+== 단축키
+
+=== 이동
++ : 다음줄의 첫문자  
+- :  전줄의 첫문자  
+0 : 현재줄의 첫문자 (Home)  
+$ : 현재줄의 마지막 문자  
+G: 마지막줄의 첫문자  
+3+ : 3줄아래  
+H : 화면의 맨위 라인  
+L : 화면의 맨 아래 라인  
+M :ghkausdml wndrks  
+^L : 현재화면 다시  
+^B : 한 화면 위  
+^F : 한 화면 아래  
+
+=== 입력
+o : 아래라인  
+I : 현재라인의 첫문자  
+A : 현재라인의 마지막  
+O : 현재라인의 위  
+
+=== 삭제
+x: 현재 커서위치 삭제 (Del 키)  
+X : 현재 커서앞 삭제 (Backspace 키)  
+dw : 현재부터 단어끝 삭제  
+db :  현재부터 단어 시작 삭제  
+dd : 현재줄 삭제  
+dG: 현재부터 파일 끝 삭제  
+
+이동 복사  
+yw : 단어 복사  
+yy : 라인 복사  
+p : 붙여넣기.  
+P : 현재 커서 앞에 붙여넣기  
+J : 현재라인과 다음라인 연결  
+
+=== Do/Undo
+u : 바로전 취소 (Ctrl + Z )  
+U : 현재 라인에서 한 명령 취소  
+. : 재실행  
+
+=== 줄 보이기
+set number  
+se nonu  
+
+=== Shell
+!ls 등  
+
+검색  
+/pattern  
+:s/pattern1/pattern2
+
+== vi 메뉴얼
 
 http://blog.naver.com/lani76/457564[http://blog.naver.com/lani76/457564]
 
 http://blog.naver.com/bigdra/140002909223[]http://blog.naver.com/bigdra/140002909223[http://blog.naver.com/bigdra/140002909223]
 
-vim 시작하기
+== vim 시작하기
 
 http://user.oss.or.kr/lecture/view.html?num=2&page=1&id=26[http://user.oss.or.kr/lecture/view.html?num=2&page=1&id=26]
 
-vim - 검색, 치환 및 정규식
+== vim - 검색, 치환 및 정규식
 
 http://user.oss.or.kr/lecture/view.html?num=4&page=1&id=26[http://user.oss.or.kr/lecture/view.html?num=4&page=1&id=26]
 
-vim - 블록설정, 다중창 단축기 지정
+== vim - 블록설정, 다중창 단축기 지정
 
 http://user.oss.or.kr/lecture/view.html?num=6&page=1&id=26[http://user.oss.or.kr/lecture/view.html?num=6&page=1&id=26]
 
-vim - 프로그래머용 기능 활용, syntax highlight, 자동 들여쓰기, 변수 매크로 찾기, ctag활용하기
+== vim - 프로그래머용 기능 활용, syntax highlight, 자동 들여쓰기, 변수 매크로 찾기, ctag활용하기
 
 http://user.oss.or.kr/lecture/view.html?num=7&page=1&id=26[http://user.oss.or.kr/lecture/view.html?num=7&page=1&id=26]
 
