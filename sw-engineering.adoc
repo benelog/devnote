@@ -15,3 +15,12 @@ http://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf[On the Crite
 http://portal.acm.org/citation.cfm?id=1005943[http://portal.acm.org/citation.cfm?id=1005943]
 
 http://moai.tistory.com/882[SW 공학백서를 읽어보시나요]
+
+== 생산성 차이
+http://forums.construx.com/blogs/stevemcc/archive/2008/03/27/productivity-variations-among-software-developers-and-teams-the-origin-of-quot-10x-quot.aspx
+
+=== 소프트웨어 컨플릭트 2.0 디버깅 , P68페이지
+* 생산성 : 어떤 사람들은 다른 사람들보다 5배나 우수하다
+* 디버깅 : 어떤 사람들은 다른 사람들보다 28배나 우수하다.
+
+
