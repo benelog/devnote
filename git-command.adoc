@@ -1,0 +1,290 @@
+== version
+
+git --version
+
+== config :변수설정
+
+git config --global user.name "benelog"
+
+git config --global user.email "sanghyuk.jung@nhn.com"
+
+git config --global --list
+
+git config --global i18n.commitEncoding cp949
+
+git config --global i18n.logOutputEncoding cp949
+
+git config --local user.email sanghyuk.jung@gmail.com
+
+== add
+
+git add -i
+
+git add -am
+
+git add --patch : 파일의 일부분만 스테이징  
+
+== log
+
+git shortlog  
+
+git log -p -2 : 최근 2개의 로그 결과 보여줌
+
+git log --stat : 통계 정보 포함   
+
+git log --since="6 hours"
+
+git log --before="6 hours"
+
+git log -1 HEAD^^^
+
+git log -1 HEAD^~2
+
+git log -1 HEAD~1^^
+
+git log -1 HEAD~3
+
+git log -10
+
+git log --pretty=oneline
+
+git blame index.html
+
+git log --pretty=oneline --graph   
+
+git log contrib --not master
+
+git log --abbrev-commit --pretty=oneline
+
+git rev-parse topic1
+
+git reflog  
+
+git show HEAD@{5}
+
+git show master@{yesterday}
+
+git log -g master : reglog결과를 git log 명령과 같은 형태로 보여줌
+
+git log --left-right master...experiment  
+
+git log -S<string> : search through all history. (find a deleted method)
+
+git log --diff-filter=D --summary : lists all deleted files
+
+=== blame
+
+git blame -L 12,22 simplegit.rb
+
+git blame -C -L 12,22 simplegit.rb : 파일명 포함
+
+== diff
+
+git diff --stat
+
+git diff --check : 공백문자에 대한 오류 확인
+
+git diff --cached : staged에 대한 변경사항   
+
+git diﬀ --staged : --cached와 같음 
+
+git mergetool
+
+git diff master...contrib : 두 브랜치의 차이  
+
+git merge-base contrib master + git diff [commit이름] : 두 브랜치의 차이   
+
+== 파일 관리
+
+git rm
+
+git mv
+
+== stash
+
+git stash
+
+git stash list
+
+git stash apply
+
+git stash apply --index : 스테이징 상태까지 만들어줌 
+
+git stash drop : 삭제
+
+git stash pop : 적용 후 삭제
+
+git stash show -p stash@{0} | git apply -R : 취소
+
+git stash branch testchanges
+
+== branch   
+
+==== 이동
+
+git checkout dev
+
+git checkout -b dev : 생성 + 이동  
+
+==== 보기
+
+git branch : 지역 브랜치보기
+
+git branch -r : 원격 브랜치 보기
+
+git branch -a : 모든 브랜치 보기
+
+git branch -v :  마지막 커밋메시지 같이 보여주기
+
+git branch --no-merged  : 아직 머지 안 된 브랜치 보기  
+
+git branch --merged : lists branches already merged
+
+==== 생성
+
+git branch dev master (뒤쪽이 from)
+
+git checkout -b alternative master : 생성하고 checkout
+
+git branch newBranch : 현재 브랜치에서 새로운 브랜치 생성
+
+git branch -f  <기존브랜치> [<브랜치를 생성할 위치>] : 기존 브랜치를 새로운 브랜치로 덮어쓰기
+
+git rebase --onto master contact search
+
+==== 삭제
+
+git branch -d mybranch
+
+git branch -D mybranch : 강제삭제  
+
+git push origin :heads/ISSUE-16 : remote branch 삭제 
+
+=== 이름 변경
+
+git branch -m master mymaster
+
+git branch -M master mymaster (이미 존재해도 덮어쓰면서 강제로 이름 변경)
+
+== tag
+
+git tag mytag
+
+git tag -l 'v1.4.2.*'  
+
+git tag -d mytag
+
+git tag -a v1.4 -m 'my version 1.4'
+
+git tag -a v1.2 9fceb02
+
+git push origin --tags  
+
+git push origin :refs/tags/TAGNAME
+
+== rebase
+
+checkout master
+
+git rebase [branch명]
+
+== merge
+
+git merge <브랜치> : 다른 브랜치를 현재 브랜치로 합치기
+
+git merge --squash mybranch
+
+git cherry-pick 321d76f
+
+git merge --no-comit <브랜치> : commit하지 않고 합치기
+
+git merge origin/master
+
+== commit
+
+git commit --amend  
+
+git commit -C HEAD -a --amend
+
+git commit -m "메시지" --amend
+
+git commit -C HEAD --amend : 마지막 commit 수정하고 commit 메시지 재활용
+
+Contribution
+
+git rebase upstream/master
+
+==== 취소
+
+git rest --hard HEAD^
+
+git revert
+
+git revert -n (commit 하지 않고 돌려놓기)
+
+==== submodule
+
+git submodule
+
+==== 색상표시
+
+git config --global color.diff auto  
+git config --global color.status auto  
+git config --global color.branch auto
+
+== remote (원격저장소)
+
+git remote add <원격 저장소> <저장소 url> : 새로운 원격 저장소 추가하기
+
+git remote -v
+
+git remote show origin
+
+git remote rename
+
+git checkout -b serverfix origin/serverfix
+
+== push
+
+git push origin publish_with_bloc
+
+git push origin serverfix:awesomebranch
+
+git push origin :serverfix : remote 브랜치 삭제
+
+git format-patch -M origin/master
+
+== alias
+
+git config --global alias.co checkout  
+git config --global alias.br branch  
+git config --global alias.ci commit  
+git config --global alias.st status
+
+git config --global alias.last 'log -1 HEAD'  
+
+git clone http://url/[http://url] : 복재 생성
+
+git clone --depth 200 : 마지막 200개의 커밋만 포함하여 저장소 복제하기
+git branch <새로운 브랜치> <원격 브랜치> : 원격 브랜치에서 지역 브랜치 생성하기
+git fetch : origin 저장소에서 합치지 않고 지역 브랜치로 변경  가져오기
+
+git fetch <원격 저장소>  :  원격 저장소에서 합치지 않고 지역 브랜치로 변경사항 가지고 오기
+
+git pull : origin 저장소에서 변경사항을 가져와 현재 브랜치에 합치기
+
+git push <원격저장소> <지역 브랜치>:<원격브랜치> : 지역 브랜치를 원격 브랜치에 푸싱하기
+
+git push <원격저장소> <지역 브랜치> : 지역 브랜치를 동일한 이름의 원격 브랜치에 푸싱하기
+
+git push <원격 저장소> <지역브랜치> : 새로운 로컬 브랜치를 원격 저장소에 푸싱하기
+
+git push : 지역 변경 사항을 origin 저장소에 푸싱하기
+
+git push <원격저장소>:<원격브랜치> : 원격 브랜치 삭제하기
+
+git remote prune <원격저장소> : 원격 저장소에서 쓸모가 없어진 원격 브랜치 제거하기
+
+git remote rm <원격저장소> : 원격 저장소를 제거하고 관련된 브랜치도 제거하기
+
+git pull <원격저장소> <지역브랜치>: git pull origin master
