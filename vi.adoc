@@ -1,9 +1,9 @@
 단축키 표 : http://blog.insightbook.co.kr/post/872[http://blog.insightbook.co.kr/post/872]  
 
-환경설정  
-vi .exrc  
-set showmode  
-set number  
+== 환경설정  
+* vi .exrc  
+* set showmode  
+* set number  
 
 == 단축키
 
@@ -28,14 +28,14 @@ A : 현재라인의 마지막
 O : 현재라인의 위  
 
 === 삭제
-x: 현재 커서위치 삭제 (Del 키)  
-X : 현재 커서앞 삭제 (Backspace 키)  
-dw : 현재부터 단어끝 삭제  
-db :  현재부터 단어 시작 삭제  
-dd : 현재줄 삭제  
-dG: 현재부터 파일 끝 삭제  
+* x: 현재 커서위치 삭제 (Del 키)  
+* X : 현재 커서앞 삭제 (Backspace 키)  
+* dw : 현재부터 단어끝 삭제  
+* db :  현재부터 단어 시작 삭제  
+* dd : 현재줄 삭제  
+* dG: 현재부터 파일 끝 삭제  
 
-이동 복사  
+=== 이동 복사  
 yw : 단어 복사  
 yy : 라인 복사  
 p : 붙여넣기.  
@@ -43,9 +43,9 @@ P : 현재 커서 앞에 붙여넣기
 J : 현재라인과 다음라인 연결  
 
 === Do/Undo
-u : 바로전 취소 (Ctrl + Z )  
-U : 현재 라인에서 한 명령 취소  
-. : 재실행  
+* u : 바로전 취소 (Ctrl + Z )  
+* U : 현재 라인에서 한 명령 취소  
+* . : 재실행  
 
 === 줄 보이기
 set number  
