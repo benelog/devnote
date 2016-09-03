@@ -1,0 +1,22 @@
+== 비교
+http://stackoverflow.com/questions/3112448/getting-a-list-of-elements-from-an-arraylist[http://stackoverflow.com/questions/3112448/getting-a-list-of-elements-from-an-arraylist]언어별 비교 : http://aeternum.egloos.com/2948571[http://aeternum.egloos.com/2948571]  
+
+이처럼 함수가 실행되는 시점에 동적으로 유효 범위가 결정되지 않고 함수가 정의되는 시점에 유효 범위가 결정되는 것을 ‘어휘적 유효 범위(lexical scope)’라고 한다. 고차 함수가 반환하는 함수가 고차 함수에 속한 어휘적 유효 범위의 변수를 포함할 경우 이를 ‘어휘적 클로저(Lexical Closure)’ 또는 간단히 ‘클로저(Closure)’라고 부른다.  
+
+주로 filter, aggregate, sort, convert, extract, index, group   
+LambdaJ의 convert = Guava의 transform  
+
+http://cyrille.martraire.com/2010/11/a-touch-of-functional-style-in-plain-java-with-predicates-part-1/  
+
+
+== Bolt
+https://bitbucket.org/stepancheg/bolts/wiki/Home[https://bitbucket.org/stepancheg/bolts/wiki/Home]  
+
+== Lambda J
+https://code.google.com/p/lambdaj/[https://code.google.com/p/lambdaj/]  
+
+== Guava
+https://code.google.com/p/guava-libraries/[https://code.google.com/p/guava-libraries/]DefensiveThread-safeEfficient  
+
+== FunctionalJava
+http://functionaljava.org/[http://functionaljava.org/]  
