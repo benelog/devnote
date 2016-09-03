@@ -1,0 +1,204 @@
+(Head first) 패턴이란 특정 컨텍스트 내에서 주어진 문제에 대한 해결책이다.  
+
+시스템을 설계시 재사용 가능한 해결책을 말한다.
+
+http://blog.naver.com/phrack/80045184082[Design Pattern 분류]
+
+http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf[Design Priciples and Patterns]
+
+http://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjavascript[http://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjavascript]
+
+== GOF Patterns
+
+ GOF 디자인 패턴을 이용한 Java Web Architecture  :
+http://blog.naver.com/hny76/100008549995[http://blog.naver.com/hny76/100008549995]
+
+http://www.vincehuston.org/dp/[http://www.vincehuston.org/dp/]
+
+ Architecture & Design 마을 in DevPia.com : http://www.devpia.com/AnD.MAEUL[http://www.devpia.com/AnD.MAEUL]
+
+ http://www.oracle.com/technology//sample_code/tech/java/ejb_corba/vsm/htdocs/vsmpatterns.html[Design Patterns in the VSM]
+
+ http://web.comlab.ox.ac.uk/people/Jeremy.Gibbons/dpa/typeobject.pdf[http://web.comlab.ox.ac.uk/people/Jeremy.Gibbons/dpa/typeobject.pdf]
+
+http://www.scribd.com/doc/9973578/Design-Patterns-Explained-With-Java-and-Uml2-2008[http://www.scribd.com/doc/9973578/Design-Patterns-Explained-With-Java-and-Uml2-2008]
+
+=== Design pattern 15년후, 20년후
+
+https://www.youtube.com/watch?v=ALxQdnOdYXQ
+
+http://lambda-the-ultimate.org/node/3655
+
+http://www.informit.com/articles/article.aspx?p=1404056
+
+==== 종합
+
+http://www.briandupreez.net/2010/11/design-patterns-in-jdk.html[https://github.com/iluwatar/java-design-patterns   
+]
+
+http://www.briandupreez.net/2010/11/design-patterns-in-jdk.html[http://www.briandupreez.net/2010/11/design-patterns-in-jdk.html]
+
+http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns[http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns]
+
+http://refcardz.dzone.com/refcardz/design-patterns[http://refcardz.dzone.com/refcardz/design-patterns]
+
+http://www.mcdonaldland.info/2007/11/28/40/[http://www.mcdonaldland.info/2007/11/28/40/]
+
+==== Singleton
+
+(Head First) 싱글턴 패턴은 해당 클래스가 인스턴스가 하나만 만들어지고, 어디서든지 그 인스턴스에 접근할 수 있도록 하기 위한 패턴입니다.
+
+http://blog.naver.com/eugene70/80001509250[http://blog.naver.com/eugene70/80001509250]
+Implementing the Singleton Pattern in Java :  http://radio.weblogs.com/0122027/stories/2003/10/20/implementingTheSingletonPatternInJava.html[http://radio.weblogs.com/0122027/stories/2003/10/20/implementingTheSingletonPatternInJava.html]
+
+==== Factory Method
+
+(Head first) 팩토리 메소드 패턴에서는 객체를 생성하기 위한 인터페이스를 정의하는데, 어떤 클래스의 인스턴스를 만들지는 서브클래스에서 결정하게 만듭니다. 팩토리 메소드패턴을 이용하면 클래스의 인스턴스를 만드는 일을 서브클래스에게 맡기는 것이죠.
+
+Simple Factory가  Factory Pattern은 아니다.
+
+http://cafe.naver.com/thejune.cafe?iframe_url=/ArticleRead.nhn%3Farticleid=5[http://cafe.naver.com/thejune.cafe?iframe_url=/ArticleRead.nhn%3Farticleid=5]
+
+==== Abstract Factory
+
+(Head first) - 추상 팩토리 패턴에서는 인터페이스를 이용하여 서로 연관된, 또는 의존하는 객체를 구상 클래스를 지정하지 않고도 생성할 수 있습니다.
+
+==== Visitor
+
+http://whiteship.me/2598[http://whiteship.tistory.com/2598]
+http://www.buggymind.com/24[http://www.buggymind.com/24]  
+
+더블 디스패치 : http://home.postech.ac.kr/~skyul/visitor_and_dynamic_dispatch/visitor_and_dynamic_dispatch.html[http://home.postech.ac.kr/~skyul/visitor_and_dynamic_dispatch/visitor_and_dynamic_dispatch.html]
+
+http://community.jboss.org/wiki/ProxyVisitorPattern[]http://community.jboss.org/wiki/ProxyVisitorPattern[http://community.jboss.org/wiki/ProxyVisitorPattern]
+
+http://javacan.tistory.com/entry/VisitorPatternPT[http://javacan.tistory.com/entry/VisitorPatternPT]
+
+특정 기능을 한 곳을 모은다.  
+
+public void accept(Visitor visitor){
+
+    visitor.visit(this);  
+
+}  
+
+http://javacan.tistory.com/280[http://javacan.tistory.com/280]
+
+==== State
+
+http://javacan.tistory.com/entry/%ED%8C%A8%ED%84%B4-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B0%9C%ED%91%9C-%EC%9E%90%EB%A3%8C-Pattern[http://javacan.tistory.com/entry/%ED%8C%A8%ED%84%B4-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B0%9C%ED%91%9C-%EC%9E%90%EB%A3%8C-Pattern]
+
+http://javacan.tistory.com/216[생활코딩에서 만나는 상태(State)패턴)]
+
+(Head first) 스테이트 패턴을 이용하면 객체의 내부 상태가 바뀜에 따라서 객체의 행동을 바꿀 수 있습니다. 마치 객체의 클래스가 바뀌는 것과 같은 결과를 얻을 수 있습니다.
+
+ State와 Strategy와 Diagram은 똑같다. State는 상태 객체에 일련의 행동이 캡슐화. 클라이언트 쪽에서는 객체의 상태에 대해서 아무 것도 몰라도 된다. Strategy는 클라이언트에서 컨텍스트 객체한테 어떤 전략 객체를 사용할지를 지정해 준다. Strategy는 주로 실행시에 전략 객체를 변경할수 있는 유연성을 제공하기 위한 용도로 쓰임   
+
+http://javacan.tistory.com/entry/%ED%8C%A8%ED%84%B4-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B0%9C%ED%91%9C-%EC%9E%90%EB%A3%8C-Pattern[http://javacan.tistory.com/entry/%ED%8C%A8%ED%84%B4-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B0%9C%ED%91%9C-%EC%9E%90%EB%A3%8C-Pattern]
+
+http://javacan.tistory.com/271[State 패턴 요약]
+
+==== Mediator
+
+http://javacan.tistory.com/268[http://javacan.tistory.com/268]  
+
+==== Observer
+
+(Head first)한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들에게 연락이 가고 자동으로 내용이 갱신되는 방식으로 일대다 의존성을 정의한다.
+
+java.util.Observer, java.util.Observable 존재
+
+JDK에서는 Swing의  JButton
+
+Spring batch의 JobExecutionListener
+
+==== Adaptor   
+
+(Head first)한 클래스의 인터페이스를 클라언트에서 사용하고자하는 다른 인터페이스로 변환합니다. 어댑터를 이용하면 인터페이스 호환성 문제 때문에 같이 쓸 수 없는 클래스들을 연결해서 쓸 수 있습니다.  
+
+비교:
+
+ Decorator : 인터페이스는 바꾸지 않고 책임(기능)만 추가
+
+Adaptor : 한 인터페이스를 다른 인터페이스로 변환  
+
+Facade : 인터페이스를 간단하게 바꿈  
+
+==== Facade
+
+어떤 서브시스템의 일련의 인터페이스에 대한 통합된 인터페이스를 제공합니다. 퍼사드에서 고수준 인터페이스를 정의하기 때문에 서브시스템을 더 쉽게 사용할 수 있습니다.  
+
+==== Template method
+
+(Head first) 템플릿 메소드 패턴에서는 메소드에서 알고리즘의 골격을 정의합니다. 알고리즘의 여러 단계 중 일부는 서브클래스에서 구현할 수 있습니다. 템플릿 메소드를 이용하면 알고리즘의 구조는 그대로 유지하면서 서브클래스에서 특정 단계를 재정의할 수 있습니다.
+
+Strategy는 구성사용,  Template method는 상속 사용
+
+==== Iterator
+
+(Head first)이터레이터 패턴은 컬렉션 구현 방법을 노출시키지 않으면서도 그 집합체 안에 들어있는 모든 항목에 접근할 수 있게 해주는 방법을 제공합니다.  
+
+==== Composite
+
+(Head first) 컴포지트 패턴을 이용하면 객체들을 트리 구조로 구성하여 부분과 전체를 나타내는 계층 구조로 만들 수 있습니다. 이 패턴을 이용하면, 클라언트에서 개별 객체와 다른 객체들로 구성된 복합 객체(Composite)를 똑같은 방법으로 다룰 수 있습니다.
+
+http://javacan.tistory.com/entry/137[]
+
+http://javacan.tistory.com/entry/137[Composite 패턴 적용 사례 공유]
+
+http://javacan.tistory.com/entry/137[  
+]
+
+==== Strategy
+
+http://javacan.tistory.com/entry/%ED%8C%A8%ED%84%B4-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%B0%9C%ED%91%9C-%EC%9E%90%EB%A3%8C-Delegation-Strategy[패턴 스터디 발표 자료 - Delegation & Strategy]
+
+ (Head first) 스트래티지 패턴에서는 알고리즘군을 정의하고 각각을 캡슐화하여 교환해서 사용할 수 있도록 만든다. 스트래티지을 활용하면 알고리즘을 사용하는 클라이언트와는 독립적으로 알고리즘을 변경할 수 있다.  
+
+http://javacan.tistory.com/272[http://javacan.tistory.com/272]
+
+==== Decorator
+
+(Head first) 데코레이터 패턴에서는 객체에 추가적인 요건을 동적으로  첨가한다. 데코레이터는 서브 클래스를 만드는 것을 통해서  기능을 유연하게 확장하는 방법을 제공한다.
+
+jdk 예제 :   java io InputStream
+
+==== Proxy
+
+(Head first)어떤 객체에 대한 접근을 제어하기 위한 용도로 대리인이나 대변인에 해당하는 객체를 제공하는 패턴
+
+Decorator는  클래스에 새로운 행동을 추가하기 위한 용도로 쓰이지만 프록시는 어떤 클래스에 대한 접근을 제어하기 위한 용도로 쓰이죠.
+
+Proxy와 Adaptor는 모두 클라이언트와 다른 객체 사이에 끼여들어서 클라이언트로부터 요청을 받아와서 다른 객체한테 전달해주는 역할을 합니다. 어댑터에서는 다른 객체의 인터페이스를 바꿔주지만, 프록시에서는 똑같은 인터페이스를 사용하다는 차이점이 있죠
+
+==== Command
+
+(Head first)커맨드 패턴을 이용하면 요구사항을 객체와 캡슐화 할 수 있으며, 매개 변수를 써서 여러 가지 다른 요구사항을 집어 넣을 수도 있습니다. 또한 요청 내역을 큐에 저장하거나  로그로 기록할 수도 있으며, 작업 취소 기능도 지원가능합니다.  
+
+- command.execute, 멤버변수로 필요한 파라미터 설정.  
+
+http://javacan.tistory.com/279
+
+==== Compound
+
+==== Chain of responsibility
+
+http://javacan.tistory.com/277
+
+== GoF 외 패턴  
+
+==== Value Object
+
+http://aeternum.egloos.com/1899296[http://aeternum.egloos.com/1899296]
+
+http://www.adam-bien.com/roller/abien/entry/value_object_vs_data_transfer[http://www.adam-bien.com/roller/abien/entry/value_object_vs_data_transfer]   
+
+==== IoC, DI
+
+http://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming
+
+http://toby.epril.com/?p=911[http://toby.epril.com/?p=911]
+
+http://david.heinemeierhansson.com/2012/dependency-injection-is-not-a-virtue.html[http://david.heinemeierhansson.com/2012/dependency-injection-is-not-a-virtue.html]
+
+http://grantammons.me/2013/01/06/dependency-injection-is-not-a-bad-guy/[http://grantammons.me/2013/01/06/dependency-injection-is-not-a-bad-guy/]
