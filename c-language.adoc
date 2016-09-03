@@ -1,0 +1,22 @@
+http://www.ibm.com/developerworks/aix/library/au-endianc/index.html?ca=drs[http://www.ibm.com/developerworks/aix/library/au-endianc/index.html?ca=drs]
+
+http://decoder.tistory.com/529[C언어 최적화 관련]
+
+http://neocode.egloos.com/1910217[Program Library HOWTO]
+
+http://minjang.egloos.com/1934885[printf vs. cout (수정 및 추가)]
+
+http://neocode.egloos.com/1897644[Make에 대하여]
+
+http://bbs.minzkn.com/viewtopic.php?t=819[[C/64bit] 32bit 에서 64bit로 소스호환을 위한 고려사항 정리]
+
+http://alones.byus.net/moniwiki/wiki.php/c_cpp_tips_32_64?action=show[Machine이 32bit인지 64bit인지 구분하기]
+
+http://decoder.tistory.com/547[20가지 C++ 팁]
+
+=== Malloc
+
+http://www.mimul.com/pebble/default/2011/05/15/1305469792430.html[멀티 쓰레드 환경에서 Memory Allocator]
+
+http://dev.paran.com/2011/05/12/last-free-lunch-facebooks-memory-allocator-jemalloc/[http://dev.paran.com/2011/05/12/last-free-lunch-facebooks-memory-allocator-jemalloc/]
+  
