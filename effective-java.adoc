@@ -3,6 +3,9 @@
 * http://cs.gmu.edu/~pammann/619/ppt/Bloch10.ppt[http://cs.gmu.edu/~pammann/619/ppt/Bloch10.ppt]
 
 == 주목할만한 Item
+=== Item 8: hashCode 재정의
+equals(null)일 때 true가 발생할 가능성은 없음.
+
 === Item 38: Adhere to generally accepted naming conventions
 
 Note that constant fields constitute the only recommended use of underscores. (p.125)
@@ -24,6 +27,3 @@ http://developers.sun.com/learning/javaoneonline/j1sessn.jsp?sessn=TS-6623&yr=20
 
 http://whiteship.me/tag/effective%20java[http://whiteship.me/tag/effective%20java]
 
-Item 8: hashCode 재정의
-
-equals(null)일 때 true가 발생할 가능성은 없음.
