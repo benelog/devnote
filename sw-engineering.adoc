@@ -23,4 +23,14 @@ http://forums.construx.com/blogs/stevemcc/archive/2008/03/27/productivity-variat
 * 생산성 : 어떤 사람들은 다른 사람들보다 5배나 우수하다
 * 디버깅 : 어떤 사람들은 다른 사람들보다 28배나 우수하다.
 
+== 추정
+
+추정을 전혀 하지 않은 프로젝트가 생산성 측면에서 가장 성공적이었고, 그 다음은 기술자들이 추정을 수행한 프로젝트, 관리자가 추정을 한 프로젝트는 최악. 생산성 수준과 통제에 대한 감사이에 밀접한 관계, 프로그래머는 그들의 운명을 스스로 통제할 수 있다는 느낌을 가질 때 생산성이훨씬 높았다.
+
+Jeffery, D.R., and M.J.Lawrence. 1985, "Managing Programmer Productivity." Journal of System and Software, Jan.
+
+Lnadsbaum, Jerome B. and Robert L.Glass. 1992. Measuring and Motivating Maintenance Programmers. Englewood Cliffs, NH: Prentice-Hall
+
+
+http://agile.egloos.com/4930312[카드와 수신호]
 
