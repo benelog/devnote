@@ -1,0 +1,12 @@
+
+[source,java]
+.멈추는 코드
+----
+public static void main(String[] args) throws IOException, InterruptedException{  
+   Process pc = Runtime.getRuntime().exec("javac");  
+   InputStream input = pc.getInputStream();  
+   IOUtils.copy(input, System.out);  
+   int exitCode = pc.waitFor();  
+   System.out.println(exitCode);  
+}
+----
