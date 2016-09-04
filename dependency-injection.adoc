@@ -2,6 +2,7 @@
 * IOC : 자신이 만든 프로그램의 컨트롤을 인터페이스 혹은 설정을 통하여 역으로 위임하는 사상으로 Interface의 구현 또는 Operation의 Overriding을 통해서 정의 가능하다.
 * DI :  코드의 수행 시점에서 의존성 관계를 정의(Dependency를 Inject)하는 기법. 클래스 사이의 의존관계를 설정된 정보를 바탕으로 컨테이너가 연결시켜줌.
 * DL (Dependency Lookup) : 저장소에 의하여 관리되고 있는 객체를 개발자들이 직접 Lookujp하여 사용하는 것.(=Dependency Pull )
+* http://misko.hevery.com/2010/05/26/do-it-yourself-dependency-injection/
 
 == IoC
 * http://martinfowler.com/bliki/InversionOfControl.html
