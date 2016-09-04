@@ -16,6 +16,67 @@ http://portal.acm.org/citation.cfm?id=1005943[http://portal.acm.org/citation.cfm
 
 http://moai.tistory.com/882[SW 공학백서를 읽어보시나요]
 
+* http://www.talk-with-hani.com/archives/723[정보방열기 사용방법 : 프로젝트 마무리하기]
+* http://www.talk-with-hani.com/archives/734[정보방열기 사용방법 : 프로젝트 마무리하기2]
+* http://www.ibm.com/developerworks/kr/library/aug06/pollice/[프로세스가 중요한가?]:
+* http://blog.naver.com/parnx/140102830216[방법론이 현장에서 잘 적용되지 못하는 원인]
+* 설계 : http://www.bleading-edge.com/Publications/C++Journal/Cpjour2.htm[http://www.bleading-edge.com/Publications/C++Journal/Cpjour2.htm]
+* 기타방법론 :http://gettingreal.37signals.com/GR_kor.php[http://gettingreal.37signals.com/GR_kor.php]
+* Hard code 컬럼 : http://blogs.msdn.com/eric_brechner/[http://blogs.msdn.com/eric_brechner/]
+
+|====
+| | 장점 | 단점
+| 구조적 방법론 | • 철저한 모듈화로 추상화와 정보은닉을 이루어 프로그램의 구조를 읽기 쉽게 단순화함 | • 데이터의 구성에 대한 설계 방안이 부족
+
+• 프로젝트 관리 및 조직, 역할 등 방법론적 다른 요소들의 정의가 없음
+
+| 정보공학 방법론 | • 경쟁우위 확보의 전략적 기회 식별 및 방안 제공
+
+• 일관성 있고 통일된 정보시스템 구축 가능
+
+• 시스템의 장기적인 진화, 발전 허용
+
+• 데이터 중심으로 업무절차 및 환경변화에 유연 | • 정보공학의 효과를 위해 장기간 필요
+
+• 소규모의 자동화 요구 사업영역에는 시간이 오래 걸림
+
+• 특정 사업영역으로부터 독립된 시스템 개발에는 부적합
+| 객체지향 방법론 | • 데이터와 로직을   통합(객체)
+
+• 상속에 의한 재사용 (White Box  Reuse)
+
+• 분석-설계간  Gap이 없음 | • 상속에 의한 재사용의 장점이 있음에도 불구하고 상속의 깊이가 깊어질수록, 변경 등에 대한 유지보수가 어렵움.
+
+• 객체 개념을 기존의 관계형 모델에 기반한 Database에 반영하기가 쉽지 않음
+| CBD방법론 | • Interface 중시  (구현에 제약
+
+  없음) Black Box  Reuse 지향
+
+• 재사용성이 증대되어 직접 개발해야 하는 비용이 줄고 복잡성이 줄게됨으로써 품질 향상을 얻을 수 있음 | • 제대로 된 품질을 유지하기 위해서는 보다 많은 협업이 강조된다.
+|====
+
+
+== CBD
+
+component도출:
+
+* 독립적으로 존재할 수 있는 것이 CORE  
+* core인 경우만 그에 대응되는 interface class가 도출될 수 있다.  
+* package는 업무흐름간 연관이 있는 것은 같은 package로 묶을 수 있다.  
+* 여러 core에서 공통적으로 연관이 지어진 것은 독립적인 component로 때어낼 수 있다.
+
+모듈내부의 응집도는 강하게, 모듈간의 결합도는 낮게
+
+==  정보공학방법론
+*  Entity Relation Diagram
+* 기능/프로세스 분해도
+
+== 구조적 방법론
+* Data Flow Diagram
+* 외부입출력, 처리, 자료저장소, 자료흐름
+* 자료사전(Data Dictionary)
+* 소단위 명세서
+
 == 생산성 차이
 http://forums.construx.com/blogs/stevemcc/archive/2008/03/27/productivity-variations-among-software-developers-and-teams-the-origin-of-quot-10x-quot.aspx
 
