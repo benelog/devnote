@@ -1,3 +1,56 @@
+When Runtime.exec() won't
+
+Java Pitfalls: Excuting an external program using Runtime.exec() method or ProcessBuilder class
+
+http://devdaily.com/java/edu/pj/pj010016/
+
+http://jppf-project.cvs.sourceforge.net/viewvc/jppf-project/node/src/java/org/jppf/process/ProcessWrapper.java?revision=1.2&view=markup
+
+http://www.rgagnon.com/javadetails/java-0014.html
+
+ 
+
+== 예제
+[source,java]
+----
+public class StreamConverter implements Runnable {
+
+ private StringBuilder message =null;
+ private InputStream input = null;
+ public StreamConverter(InputStream input){
+  this.input = input;
+  this.message = new StringBuilder();
+ }
+
+ public void run() {
+    BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+    String line= null;
+    try {
+   while( (line = reader.readLine())!=null){
+      message.append(line);
+     }
+    } catch (IOException e) {
+    throw new IllegalStateException("cann not read stream",e);
+    }
+ }
+
+ public StringBuilder getMessage() {
+  return message;
+ }
+}
+----
+
+[source,java]
+.waitFor는 무한대기 될 수도 있다...
+----
+public static void main(String[] args) throws IOException, InterruptedException{
+        Process pc = Runtime.getRuntime().exec("java");
+        InputStream input = pc.getInputStream();
+        IOUtils.copy(input, System.out);
+        int exitCode = pc.waitFor();
+        System.out.println(exitCode);
+ }
+----
 
 [source,java]
 .멈추는 코드
