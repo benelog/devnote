@@ -34,3 +34,12 @@ Lnadsbaum, Jerome B. and Robert L.Glass. 1992. Measuring and Motivating Maintena
 
 http://agile.egloos.com/4930312[카드와 수신호]
 
+== 요구분석 기법
+* http://alankang.tistory.com/147[사용자 인터뷰를 할 때 주의할 점들]
+* http://cavin.egloos.com/4869054[유스케이스나 사용자스토리 크기 기준]
+
+유스케이스 모델링 -> 웹화면 프로토타이핑-> 요구사항명세화 -> 시스템화 범위 및 우선 순위 결정
+
+필름기법: FilmStrip
+
+StateChart Diagram
