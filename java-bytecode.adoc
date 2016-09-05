@@ -1,6 +1,7 @@
-* https://www.infoq.com/minibooks/emag-java-agents-bytecode  
+* https://www.infoq.com/minibooks/emag-java-agents-bytecode
 * http://spring.io/blog/2014/11/09/springone2gx-2014-replay-living-in-the-matrix-with-bytecode-manipulation
-* http://www.slideshare.net/SpringCentral/bytecode-spring2gx2014  
+** http://www.slideshare.net/SpringCentral/bytecode-spring2gx2014  
+* https://www.youtube.com/watch?v=CgFY39zk5r8[스프링캠프 2016[C-4]: BCI(BYTE CODE INSTRUMET) 기술 소개 및 활용 방안]
 
 == 예제
 * https://github.com/spring-projects/spring-framework/blob/master/spring-context/src/main/java/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java
