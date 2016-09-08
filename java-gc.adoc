@@ -122,7 +122,7 @@ default will be set to 512K.
 참고옵션:  
 -XX:+PrintHeapAtGC  
 
-사례:  
+==== Log rotation 테스트
 java -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:./gc-was1.log -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=256M -jar winstone.jar --webroot=./  
 
 java -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:./gc-was1.log -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=256M -jar jenkins.war  
@@ -130,6 +130,9 @@ java -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:./gc-was1.lo
 java -verbose:gc -XX:PermSize=256m -XX:MaxPermSize=100m -Xms100m -Xmx100m -server -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:./gc-was1.log -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=256M -jar jenkins.war  
 
 분석도구 사무라이 : http://yusuke.homeip.net/samurai/en/index.html[http://yusuke.homeip.net/samurai/en/index.html]  
+
+=== 종합 설정 사례
+-XX:PermSize=128m -XX:MaxPermSize=128m -XX:NewSize=512m  -XX:MaxNewSize=512m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:-CMSConcurrentMTEnabled -XX:CMSInitiatingOccupancyFraction=70 -XX:+CMSParallelRemarkEnabled -XX:+UseCMSInitiatingOccupancyOnly
 
 === 사례
 http://www.slideshare.net/aszegedi/everything-i-ever-learned-about-jvm-performance-tuning-twitter[http://www.slideshare.net/aszegedi/everything-i-ever-learned-about-jvm-performance-tuning-twitter]http://prezi.com/lzofqasgefim/java-garbage-collection-and-heap-analysis/[http://prezi.com/lzofqasgefim/java-garbage-collection-and-heap-analysis/]  
@@ -195,14 +198,11 @@ http://www.imaso.co.kr/?bo_table=article&doc=bbs/gnuboard_pdf.php&wr_id=7327[htt
 -XX:+UseConcMarkSweepGC
 
 === Tunning Option
+* -XX:NewRatio : New영역과 Old 영역의 비율
+**  -XX:NewRatio=2
+* -XX:NewSize : New영역의 크기
+* -XX:SurvivorRatio : Eden 영역과 Survivor 영역의 비율
 
--XX:NewRatio : New영역과 Old 영역의 비율
-
--XX:NewSize : New영역의 크기
-
--XX:SurvivorRatio : Eden 영역과 Survivor 영역의 비율
-
-예:   -XX:NewRatio=2
 
 ==== 노하우
 
