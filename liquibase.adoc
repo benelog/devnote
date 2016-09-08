@@ -1,0 +1,1 @@
+http://www.baeldung.com/liquibase-refactor-schema-of-java-app
