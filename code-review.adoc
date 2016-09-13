@@ -1,16 +1,12 @@
-http://www.developer.com/tech/article.php/3579756[Effective Code Reviews Without the Pain]
+* http://haruair.com/blog/3116[thoughtbot의 코드 리뷰 가이드]
+* http://www.developer.com/tech/article.php/3579756[Effective Code Reviews Without the Pain]
+* http://moai.tistory.com/907[코드리뷰를 할때 생각해야 할 부분들]
+* http://www.infoq.com/presentations/code-organization-large-projects[http://www.infoq.com/presentations/code-organization-large-projects] : http://whiteship.tistory.com/1767[Code Organization Guidelines for Large Code Bases - 유겐 휄러]
+* http://articles.techrepublic.com.com/5100-22-1045782.html[Ten Commandments of Egoless Programming]
+* http://en.wikipedia.org/wiki/Fagan_inspection[http://en.wikipedia.org/wiki/Fagan_inspection]
+* http://swprocess.egloos.com/2462137[code review 조사 자료]
 
-http://moai.tistory.com/907[코드리뷰를 할때 생각해야 할 부분들]
-
-http://www.infoq.com/presentations/code-organization-large-projects[http://www.infoq.com/presentations/code-organization-large-projects] : http://whiteship.tistory.com/1767[Code Organization Guidelines for Large Code Bases - 유겐 휄러]
-
-http://articles.techrepublic.com.com/5100-22-1045782.html[Ten Commandments of Egoless Programming]
-
-http://en.wikipedia.org/wiki/Fagan_inspection[http://en.wikipedia.org/wiki/Fagan_inspection]
-
-http://swprocess.egloos.com/2462137[code review 조사 자료]
-
-==== Egoless Programming
+== Egoless Programming
 http://lastmind.net/blog/2008/01/egoless-programming.html[Egoless Programming]
 
 http://www.codinghorror.com/blog/archives/000584.html[http://www.codinghorror.com/blog/archives/000584.html]
@@ -18,16 +14,15 @@ http://www.codinghorror.com/blog/archives/000584.html[http://www.codinghorror.co
 http://xrath.com/2009/09/egoless-programming-restarted/[http://xrath.com/2009/09/egoless-programming-restarted/]
 
 
-==== 코드 쓰기
+== 코드 쓰기
 
 http://www.artima.com/weblogs/viewpost.jsp?thread=255898[Writing Software is Like ... Writing]
 
-==== 도구
+== 도구
+* http://video.google.com/videoplay?docid=-8502904076440714866[Mondrian Code Review On The Web]
 
-http://video.google.com/videoplay?docid=-8502904076440714866[Mondrian Code Review On The Web]
 
-
-=== 지속적인 Chapter 7
+== 지속적인 Chapter 7 메모
 
 fault finding을 넘어선 협업
 
