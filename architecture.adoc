@@ -5,3 +5,7 @@ A component represents a physical piece of implementation of a system,including 
 as scripts or command files. As such, a Component may itself conform to and provide the Realization of a set of Interfaces, which represent services implemented by the elements
 resident in the Component. These services define behavior offered by instances of the Component as a whole to other client Component instances.
 
+
+== MSA
+* http://www.moreagile.net/2014/10/microservices.html
+* http://www.popit.kr/why-microservice/
