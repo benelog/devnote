@@ -5,5 +5,8 @@
 
 == Spring
 * https://spring.io/blog/2016/04/19/understanding-reactive-types
-* https://spring.io/blog/2016/09/22/new-in-spring-5-functional-web-framework
+* https://spring.io/blog/2016/06/07/notes-on-reactive-programming-part-i-the-reactive-landscape
+* https://spring.io/blog/2016/06/13/notes-on-reactive-programming-part-ii-writing-some-code
+* https://spring.io/blog/2016/07/20/notes-on-reactive-programming-part-iii-a-simple-http-server-application
 * https://spring.io/blog/2016/07/28/reactive-programming-with-spring-5-0-m1
+* https://spring.io/blog/2016/09/22/new-in-spring-5-functional-web-framework
