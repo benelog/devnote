@@ -1,0 +1,6 @@
+== Java9
+* https://github.com/reactive-streams/reactive-streams-jvm
+
+== Spring
+* https://spring.io/blog/2016/09/22/new-in-spring-5-functional-web-framework
+* https://spring.io/blog/2016/07/28/reactive-programming-with-spring-5-0-m1
