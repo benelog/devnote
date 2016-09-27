@@ -1,6 +1,7 @@
 * http://reactivex.io/
 
 == Java9
+* https://www.infoq.com/presentations/java9-reactive-programming
 * https://github.com/reactive-streams/reactive-streams-jvm
 
 == Spring
