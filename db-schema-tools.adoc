@@ -9,6 +9,10 @@
 
 WARNING 12. 12. 6 오후 1:40:liquibase: modifyDataType will lose primary key/autoincrement/not null settings for mysql.  Use <sql> and re-specify all configuration if this is the case  
 
+=== JPA
+* http://stackoverflow.com/questions/36549359/liquibase-generate-changelog-from-jpa-entities
+* http://stackoverflow.com/questions/27877154/liquibase-and-jpa-annotated-entities
+
 == c5
 * http://code.google.com/p/c5-db-migration/[http://code.google.com/p/c5-db-migration/]
 
