@@ -3,9 +3,9 @@ http://movenpick.tistory.com/29
 http://middleware.tistory.com/entry/%ED%95%A8%EC%88%98%EC%A0%81-%EC%A2%85%EC%86%8D%EA%B3%BC-%EC%A0%95%EA%B7%9C%ED%99%94
 
 
-* 완전 함수 종속(Full Functional Dependency) : X → Y일 때 X가 Y의 속성값을 유일하게 결정하기 위한 최소한의 속성들만을 포함하는 경우.
-* 부분 함수 종속(Partial Functional Dependency) : X →  Y 인 경우, Y가 X의 부분집합인 Z에 대해서도 함수적으로 종속인 경우 Y는 X에 대해 부분 함수 종속을 가지고 있음.
-* 이행 함수 종속(Transitive Functional Dependency) : (X → Y) & (Y → Z) 일경우 X → Z가 성립되는 종속.
+* 완전 함수적 종속(Full Functional Dependency) : X → Y일 때 X가 Y의 속성값을 유일하게 결정하기 위한 최소한의 속성들만을 포함하는 경우.
+* 부분 함수적 종속(Partial Functional Dependency) : X →  Y 인 경우, Y가 X의 부분집합인 Z에 대해서도 함수적으로 종속인 경우 Y는 X에 대해 부분 함수 종속을 가지고 있음.
+* 이행 함수적 종속(Transitive Functional Dependency) : (X → Y) & (Y → Z) 일경우 X → Z가 성립되는 종속.
 
 == 정규화
 
