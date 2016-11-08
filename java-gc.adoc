@@ -118,7 +118,7 @@ must be >=1, default is one;
 
 default will be set to 512K.
 
--XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home1/irteam/logs/gc-was1.log -XX:+UseGCLogFileRotation -XX:NumberOfGClogFiles=5 -XX:GCLogFileSize=256M   
+-XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home/benelog/logs/gc-was1.log -XX:+UseGCLogFileRotation -XX:NumberOfGClogFiles=5 -XX:GCLogFileSize=256M   
 참고옵션:  
 -XX:+PrintHeapAtGC  
 
@@ -132,6 +132,11 @@ java -verbose:gc -XX:PermSize=256m -XX:MaxPermSize=100m -Xms100m -Xmx100m -serve
 분석도구 사무라이 : http://yusuke.homeip.net/samurai/en/index.html[http://yusuke.homeip.net/samurai/en/index.html]  
 
 === 종합 설정 사례
+CATALINA_OPTS="-server -Xms1024m -Xmx1024m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home/benelog/logs/gc.log -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=2M  -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/benelog/logs/heap-was1.hprof"
+
+
+CATALINA_OPTS="-server -Xms1024m -Xmx1024m  -XX:+UseG1GC  -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/home/benelog/logs/gc.log -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=10M  -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/benelog/logs/heap-was1.hprof"
+
 -XX:PermSize=128m -XX:MaxPermSize=128m -XX:NewSize=512m  -XX:MaxNewSize=512m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:-CMSConcurrentMTEnabled -XX:CMSInitiatingOccupancyFraction=70 -XX:+CMSParallelRemarkEnabled -XX:+UseCMSInitiatingOccupancyOnly
 
 === 사례
