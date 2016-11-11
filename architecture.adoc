@@ -9,3 +9,4 @@ resident in the Component. These services define behavior offered by instances o
 == MSA
 * http://www.moreagile.net/2014/10/microservices.html
 * http://www.popit.kr/why-microservice/
+* http://www.slideshare.net/JoshEvans2/mastering-chaos-a-netflix-guide-to-microservices
