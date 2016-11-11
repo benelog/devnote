@@ -57,14 +57,11 @@ http://www.ibm.com/developerworks/kr/library/j-eaed3/index.html[http://www.ibm.c
 테스트를 통한 설계 진행 및 개선에 관한 추가 정보
 
 ==== 논쟁
-
-http://younghoe.info/1225[복식부기와 TDD (바뀌는 글)]
-
-http://toby.epril.com/?p=917[동상이몽 – TDD]
-
-http://toby.epril.com/?p=680[Joel의 TDD(Kent Beck), SOLID(Robert Martin) 공격과 논쟁]
-
-http://blogs.msdn.com/b/cashto/archive/2009/03/31/it-s-ok-not-to-write-unit-tests.aspx[http://blogs.msdn.com/b/cashto/archive/2009/03/31/it-s-ok-not-to-write-unit-tests.aspx]
+* http://younghoe.info/1225[복식부기와 TDD (바뀌는 글)]
+* http://toby.epril.com/?p=917[동상이몽 – TDD]
+* http://toby.epril.com/?p=680[Joel의 TDD(Kent Beck), SOLID(Robert Martin) 공격과 논쟁]
+* http://blogs.msdn.com/b/cashto/archive/2009/03/31/it-s-ok-not-to-write-unit-tests.aspx[http://blogs.msdn.com/b/cashto/archive/2009/03/31/it-s-ok-not-to-write-unit-tests.aspx]
+* http://blog.cleancoder.com/uncle-bob/2016/11/10/TDD-Doesnt-work.html
 
 ==== 적용사례
 
