@@ -5,3 +5,6 @@
 == RoR 포기
 * http://www.hemju.com/2014/06/why-lingohub-is-switching-from-ruby-on-rails-to-java-spring-mvc/
 * https://www.wired.com/2013/09/the-second-coming-of-java/
+
+== Javascript MVC
+* https://engineering.shopify.com/17489056-rebuilding-the-shopify-admin-improving-developer-productivity-by-deleting-28-000-lines-of-javascript
