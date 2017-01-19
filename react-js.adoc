@@ -21,7 +21,7 @@
 * http://www.slideshare.net/UyeongJu/fluxutils?next_slideshow=1[FluxUtils 한바퀴]
 * http://jaysoo.ca/2015/02/06/what-the-flux/
 ** As you see, the canonical Flux architecture is only one way of implementing CQRS in a system. 
-
+* https://egghead.io/courses/getting-started-with-redux
 
 == 생태계 라이브러리
 * http://jxnblk.com/rebass/
