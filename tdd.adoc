@@ -226,4 +226,7 @@ http://blogs.microsoft.co.il/blogs/dhelper/archive/2009/02/23/presentation-from-
 
  
 
+== Lodon school vs Chicago school
+* http://softwareengineering.stackexchange.com/questions/123627/what-are-the-london-and-chicago-schools-of-tdd
+
  
