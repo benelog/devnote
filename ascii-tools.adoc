@@ -1,0 +1,6 @@
+* https://asciinema.org/
+* https://github.com/yaronn/blessed-contrib
+* https://github.com/jstrace/chart
+* https://github.com/mdr/ascii-graphs
+* http://asciiflow.com/
+* https://github.com/indvd00m/java-ascii-render
