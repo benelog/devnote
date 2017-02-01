@@ -1,0 +1,11 @@
+데이터 변경을 요청하면 이전 버전을 보존
+
+=== Scala
+* http://stackoverflow.com/questions/3107151/persistent-data-structures-in-scala
+
+=== Java
+* http://pcollections.org/
+* https://github.com/andrewoma/dexx
+
+=== Javascript
+* https://facebook.github.io/immutable-js/
