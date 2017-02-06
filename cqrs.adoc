@@ -7,5 +7,6 @@
 * https://msdn.microsoft.com/en-us/magazine/mt767692.aspx[Cutting Edge - Beyond CRUD: Commands, Events and Bus]
 
 == EventSourcing
+* https://justhackem.wordpress.com/2017/02/05/introducing-event-sourcing/
 * http://martinfowler.com/eaaDev/EventSourcing.html
 * http://cqrs.nu/Faq/event-sourcing
