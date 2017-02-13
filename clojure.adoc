@@ -1,0 +1,27 @@
+http://clojure.org/[http://clojure.org/]
+
+ http://thecleancoder.blogspot.com/2010/08/why-clojure.html[http://thecleancoder.blogspot.com/2010/08/why-clojure.html]
+
+==== 기초
+
+http://www.ibm.com/developerworks/kr/library/os-eclipse-clojure/[Clojure 프로그래밍 언어]
+
+http://slee0303.tistory.com/5[Clojure - A modern LISP dialect]
+
+http://blog.java2game.com/380[Clojure 개발 환경 구축하기]
+
+http://clojure.blip.tv/[http://clojure.blip.tv/]
+
+http://blog.objectmentor.com/articles/2010/06/03/tdd-in-clojure[http://blog.objectmentor.com/articles/2010/06/03/tdd-in-clojure]
+
+http://parkpd.egloos.com/3472062[꽤 실용적인 Lisp 인 Clojure 배우기]
+
+http://www.ibm.com/developerworks/kr/library/wa-clojure/index.html[Clojure와 동시성]
+
+==== 성능비교
+
+http://berlinbrowndev.blogspot.com/2009/07/jvm-notebook-basic-clojure-java-and-jvm.html[http://berlinbrowndev.blogspot.com/2009/07/jvm-notebook-basic-clojure-java-and-jvm.html]
+
+http://jvmnotebook.googlecode.com/files/clojure_jvm_performance.pdf[http://jvmnotebook.googlecode.com/files/clojure_jvm_performance.pdf]
+
+http://stackoverflow.com/questions/1506728/on-performance-and-java-interoperability-clojure-vs-scala[http://stackoverflow.com/questions/1506728/on-performance-and-java-interoperability-clojure-vs-scala]
