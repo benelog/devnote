@@ -1,0 +1,44 @@
+* http://stackoverflow.com/questions/926266/performance-optimization-strategies-of-last-resort[http://stackoverflow.com/questions/926266/performance-optimization-strategies-of-last-resort]
+* http://www.slideshare.net/group/webapps-scalability/slideshows[Scalability of web applications]
+* http://www.theserverside.com/tt/articles/article.tss?l=ScalingYourJavaEEApplications[Scaling your Java EE applications]
+* http://highscalability.com/java-world-interview-scalability-and-other-java-scalability-secrets[Java World Interview on Scalability and Other Java Scalability Secrets]
+* http://netdb09.cis.upenn.edu/netdb09papers/netdb09-final3.pdf[Scaling Online Social Networks without Pains]
+* http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster[http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster]
+* Facebook geographic distributed architecture :  http://bcho.tistory.com/416[http://bcho.tistory.com/416]
+* http://www.infoq.com/presentations/Scale-at-Facebook[http://www.infoq.com/presentations/Scale-at-Facebook]
+* http://royal.pingdom.com/2010/06/18/the-software-behind-facebook/[http://royal.pingdom.com/2010/06/18/the-software-behind-facebook/]
+* http://techcrux.blogspot.com/2010/12/scalable-system-design-patterns.html[http://techcrux.blogspot.com/2010/12/scalable-system-design-patterns.html]
+
+== 사례
+
+모음 : https://gist.github.com/ragingwind/5840075[https://gist.github.com/ragingwind/5840075]   
+
+=== Tumblr
+
+*   http://rainblue.kr/1045[http://rainblue.kr/1045]
+*   http://ti.nhncorp.com/CS/cs.jsp?tsd=2012-02-21&tsu=http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html[Tumblr Architecture - 15 Billion Page Views a Month and Harder to Scale than Twitter] High Scalability
+*   http://ti.nhncorp.com/CS/cs.jsp?tsd=2012-02-22&tsu=http://gigaom.com/cloud/how-tumblr-went-from-wee-to-webscale/[How Tumblr went from wee to webscale] Gigaom
+*   http://www.mimul.com/pebble/default/2012/09/14/1347604822256.html[Tumblr가 가진 기술과 개발 문화] 
+
+=== Evernote
+http://highscalability.com/blog/2011/5/23/evernote-architecture-9-million-users-and-150-million-reques.html http://blog.evernote.com/tech/2011/05/17/architectural-digest/#http://www.mimul.com/pebble/default/2012/03/02/1330664364631.html[http://www.mimul.com/pebble/default/2012/03/02/1330664364631.html]  
+
+=== Netfix
+http://www.mimul.com/pebble/default/2012/09/06/1346890689112.html[http://www.mimul.com/pebble/default/2012/09/06/1346890689112.html]  
+
+=== Soundcloud
+http://www.looah.com/article/view/1652http://backstage.soundcloud.com/2012/08/evolution-of-soundclouds-architecture/  
+
+=== Stackoverflow
+http://yisangwook.tumblr.com/post/73202754212/stackoverflow-com  
+
+=== AOL
+
+http://highscalability.com/blog/2014/2/17/how-the-aolcom-architecture-evolved-to-99999-availability-8.html  
+
+=== Whatsapp
+http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html  
+
+=== Line
+http://helloworld.naver.com/helloworld/809802  
+http://helloworld.naver.com/helloworld/551588
