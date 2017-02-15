@@ -1,6 +1,6 @@
 http://clojure.org/[http://clojure.org/]
 
- http://thecleancoder.blogspot.com/2010/08/why-clojure.html[http://thecleancoder.blogspot.com/2010/08/why-clojure.html]
+http://thecleancoder.blogspot.com/2010/08/why-clojure.html[http://thecleancoder.blogspot.com/2010/08/why-clojure.html]
 
 ==== 기초
 
