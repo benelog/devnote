@@ -1,0 +1,25 @@
+== 사례
+=== 국내
+* http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=101&oid=008&aid=0002002908[http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=101&oid=008&aid=0002002908]
+* http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=029&aid=0001951580[http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=029&aid=0001951580]
+
+=== 국외
+* http://www.pcworld.com/businesscenter/article/146048/mass_sql_injection_attack_targets_chinese_web_sites.html[  
+* http://www.pcworld.com/businesscenter/article/146048/mass_sql_injection_attack_targets_chinese_web_sites.html]
+* http://www.technewsworld.com/story/Mass-SQL-Attack-a-Wake-Up-Call-for-Developers-62783.html?welcome=1209498513&welcome=1210717878[http://www.technewsworld.com/story/Mass-SQL-Attack-a-Wake-Up-Call-for-Developers-62783.html?welcome=1209498513&welcome=1210717878]
+* http://www.theregister.co.uk/2008/05/21/china_sql_injection_attack/[http://www.theregister.co.uk/2008/05/21/china_sql_injection_attack/]
+* http://erratasec.blogspot.com/2007/08/sidejacking-with-hamster_05.html[http://erratasec.blogspot.com/2007/08/sidejacking-with-hamster_05.html]
+
+
+== 도구  
+* http://blog.naver.com/PostView.nhn?blogId=mkgk888&logNo=150090912890[http://blog.naver.com/PostView.nhn?blogId=mkgk888&logNo=150090912890]
+* http://sqlninja.sourceforge.net/[http://sqlninja.sourceforge.net/]
+* https://addons.mozilla.org/en-US/firefox/addon/sql-inject-me[https://addons.mozilla.org/en-US/firefox/addon/sql-inject-me]  : firefox 12이후 안 됨
+
+== 기법
+
+0/컬럼명, @@version
+
+having 1=1부터 시작해서 group by 절에  컬럼명을 하나씩 넣어서 컬럼명 알아내기
+
+Mysql의 load_file 등 DBMS dependent 한게 있다.
