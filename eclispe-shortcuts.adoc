@@ -1,0 +1,61 @@
+* https://shortcutworld.com/en/Eclipse/win/all
+* https://shortcutworld.com/en/Eclipse/win/all
+* http://wiki.javajigi.net/pages/viewpage.action?pageId=155[Eclipse 사용시 알아두면 좋은 유용한 단축키 모음]
+* http://okjsp.tistory.com/1165643186[eclipse ctrl+3]
+
+* 선택 커서 변환 (Alt+Shift+A)
+* Code Assist (CTRL + Space)
+* Refactoring (ALT + SHIFT + T)  
+* Source (ALT + SHIFT + S)  
+* Surround With (ALT + SHIFT + Z)  
+* Delete Rows (CTRL + D)  
+* Call Hierarchy (CTRL + ALT + H)  
+* Quick Type Hierarchy (CTRL + T)  
+* Quick Outline (CTRL + O)  
+* Show All Shortcuts (CTRL + SHIFT + L)
+* Back/Forward (ALT + LEFT/RIGHT)
+* 대소문자 변환 Ctrl+Shift+X 또는 Ctrl+Shift+Y
+* Remove Block Comment : Ctrl + Shift + \
+* Comment  : Alt + Shift + J
+* 기본 View창은 너무 작다. Ctrl + m 키를 눌러 전체화면으로 본다.
+* 현재 라인 위에 빈 라인 삽입하고 편집하기 :  -↑ , End, Enter를 누르는 복잡한 과정을 Ctrl + Shift + Enter로 해결한다.
+* 자동완성기능  Alt + /
+* Local 변수 추출 : Alt + Shift + L
+* Ctrl + , : 찾기나, TASK항목 이동  
+* Ctrl + . : 이동  
+* Ctrl + F6 : Editor 선택  
+* Ctrl + F7 : View 선택  
+* Ctrl + F8 : Perspectieve 선택  
+* Ctrl + 1 : QuickFix 실행  
+Ctrl + Shift + space : 입력 파라미터 정보 보여줌
+
+=== 소스코드 사이 이동
+* Ctrl + , : 이전 warning 으로 이동  
+* Ctrl +  . : 다음 warning 으로 이동
+
+=== 소스코드 생성, 정리
+* Ctrl + Shift + m : 자동 임포트  
+* Ctrl + Shift + o : 임포트 자동 정리
+* http://chanwook.tistory.com/554[마우스 없이 Getter/Setter 추가하기]
+** Alt+Shift+S+R -> alt+g -> alt+s -> enter 또는
+** Alt+Shift+S+R+ I -> enter
+* Ctrl + Shift + f : 코드 포맷팅
+
+=== 리팩토링
+* Alt+Shift+R : Rename  
+* Alt+Shift+V : Move  
+* Alt+Shift+C : Change Method SIgnature
+* Alt+Shift+M : Extract Method  
+* Alt+Shift+L : Extract Local Variable
+* Alt+Shift+I : Inline
+
+=== 실행 및 디버그
+* Ctrl+F11 : 실행  
+* F11: 디버그  
+* Ctrl+Shift+B : 브레이크 포인트 토글  
+* F5 : Step into  
+* F6 : Step over  
+* F7 : Step return  
+* Ctrl+R : Run to line  
+* F8 : Resume  
+* Ctrl+F2 : 프로그램 종료
