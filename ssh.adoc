@@ -1,0 +1,18 @@
+ssh -f -i /home/benelog/keys/benelog.pem ubuntu@10.0.1.10 -p 10022 /deploy/deploy.sh  
+
+== ip table 변경
+
+vi /etc/sysconfig/iptables/etc/init.d/iptables restart (또는 /etc/rc.d/init.d/iptables start )  
+
+== sshd 변경
+vi /etc/ssh/sshd_config /etc/init.d/sshd restart  
+
+== 실행 확인
+
+netstat -na|grep 22
+
+netstat -nlp
+
+
+== SCP
+scp -P 22 -i /home/benelog/keys/benelog.pem /deploy/blog.war ubuntu@10.0.1.10:/deploy  
