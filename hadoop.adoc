@@ -1,0 +1,170 @@
+http://developer.yahoo.com/blogs/hadoop/[http://developer.yahoo.com/blogs/hadoop/]
+
+http://lucene.apache.org/hadoop/[http://lucene.apache.org/hadoop/]  
+http://en.wikipedia.org/wiki/Hadoop[http://en.wikipedia.org/wiki/Hadoop]
+
+http://www.hadoop.co.kr/[Hadoop Korean User Group]
+
+http://benelog.springnote.com/blog/jshan/78[PlatformDay 후기]
+
+http://www.jaso.co.kr/253[hadoop summit 자료 공개]
+
+http://www.jaso.co.kr/260[Hadoop을 이용하지 않는 Map&Reduce]
+
+http://decoder.tistory.com/543[MapReduce, Hadoop 관련 링크]
+
+http://www.jaso.co.kr/283[Enterprise 시장에서의 mapreduce]
+
+http://younghoe.info/952[http://wikis.sun.com/download/attachments/38208497/Hadoop-Primer.pdf]
+
+http://blog.naver.com/smiler82/30039332654[Hadoop의 map task 스케줄링]
+
+http://moai.tistory.com/attachment/4998bdb2caf789Y.pptx[Hadoop and Neptune]
+
+http://mixellaneous.tistory.com/620[Hadoop 관련 프로젝트 정리]
+
+http://hadoop.apache.org/core/docs/r0.15.2/quickstart.html[http://hadoop.apache.org/core/docs/r0.15.2/quickstart.html]
+
+http://www.jco.or.kr/conference/data/10th/Merlin-1.zip[http://www.jco.or.kr/conference/data/10th/Merlin-1.zip]
+
+http://www.jaso.co.kr/368[Hadoop DB]
+
+http://database.cs.brown.edu/sigmod09/[A Comparison of Approaches to Large-Scale Data Analysis: MapReduce vs. DBMS Benchmarks]
+
+http://www.jaso.co.kr/364[RDBMS, Hadoop, Neptune]
+
+https://www.ibm.com/developerworks/mydeveloperworks/blogs/9e635b49-09e9-4c23-8999-a4d461aeace2/entry/274?lang=en[아파치 하둡 맵리듀스 기반 애플리케이션 구현하기 Part 1]
+
+http://www.ibm.com/developerworks/kr/library/l-hadoop-3/index.html[Hadoop을 이용한 분산 데이터 처리, Part 3: 애플리케이션 개발]
+
+http://www.ibm.com/developerworks/kr/library/wa-dojohadoop1/index.html[Apache Hadoop과 Dojo를 사용하여 저비용으로 비즈니스 인텔리전스 데이터 생성하기, Part 1: Apache Hadoop을 사용하여 기존 데이터 처리하기]
+
+=== Hadoop 업체 제휴 상황
+
+http://kimws.wordpress.com/2012/02/01/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%86%94%EB%A3%A8%EC%85%98-%EC%97%85%EC%B2%B4-%EA%B4%80%EA%B3%84%EC%99%80-%ED%95%98%EB%91%A1%EA%B8%B0%EC%88%A0%EA%B8%B0%EB%B0%98%EC%9D%98-%EC%8A%A4%ED%83%80/[http://kimws.wordpress.com/2012/02/01/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%86%94%EB%A3%A8%EC%85%98-%EC%97%85%EC%B2%B4-%EA%B4%80%EA%B3%84%EC%99%80-%ED%95%98%EB%91%A1%EA%B8%B0%EC%88%A0%EA%B8%B0%EB%B0%98%EC%9D%98-%EC%8A%A4%ED%83%80/]  
+
+=== 예제
+
+http://mimul.com/pebble/default/2011/11/05/1320482173560.html[Hadoop을 이용한 Apache Log 분석]
+
+=== Hadoop 간단 요약
+
+내부적으로 분산 병렬 처리를 지원하고 사용자에게 모든 처리과정을 추상화한 인터페이스를 제공한다.
+
+Hadoop was inspired by http://en.wikipedia.org/wiki/Google[Google]'s http://en.wikipedia.org/wiki/MapReduce[MapReduce] and http://en.wikipedia.org/wiki/GoogleFS[Google File System] (GFS) papers.
+
+HDFS filesystem uses
+
+*   http://en.wikipedia.org/wiki/HBase[HBase] - http://en.wikipedia.org/wiki/BigTable[BigTable]-model database.
+*   http://wiki.apache.org/hadoop/Hive[http://wiki.apache.org/hadoop/Hive] : data warehouse infrastructure built on top of http://wiki.apache.org/hadoop/[Hadoop].  SQL-like query language, called QL, that
+HBase는 HDFS를 기반으로 하는 또 하나의 흥미로운 애플리케이션으로 Google BigTable과 비슷한 고성능 데이터베이스 시스템이다. 일반적인 파일 처리 대신 HBase는 데이터베이스 테이블을 입력 및 출력 양식으로 사용하여 MapReduce 처리를 수행한다.
+
+==== Eclipse plugin
+
+http://combible.tistory.com/39[http://combible.tistory.com/39]
+
+http://www.alphaworks.ibm.com/tech/mapreducetools/[http://www.alphaworks.ibm.com/tech/mapreducetools/]
+
+==== 주요개념
+
+http://labs.google.com/papers/mapreduce.html[http://labs.google.com/papers/mapreduce.html] 논문
+
+http://wiki.apache.org/hadoop/HadoopMapReduce[http://wiki.apache.org/hadoop/HadoopMapReduce]
+
+http://ypshin.com/2690309[구글의 MapReduce의 간략한 이해]
+
+http://blog.naver.com/smiler82/30039332654[Hadoop의 map task 스케줄링]
+
+http://hadoop.apache.org/core/docs/r0.19.1/mapred_tutorial.html[http://hadoop.apache.org/core/docs/r0.19.1/mapred_tutorial.html]
+
+http://hadoop.apache.org/core/docs/r0.19.1/hdfs_design.html[http://hadoop.apache.org/core/docs/r0.19.1/hdfs_design.html]
+
+http://virgo81.tistory.com/46[하둡 분산 파일 시스템: 구조와 설계(The Hadoop Distributed File System: Architecture and Design)]
+
+ Linux에 mount
+
+http://mixellaneous.tistory.com/676[Sqoop: A database import tool for Hadoop]
+
+http://combible.tistory.com/52[http://combible.tistory.com/52]
+
+http://www.jaso.co.kr/100[hadoop을 linux 파일시스템으로 mount]
+
+==== FTP
+
+http://www.gruter.co.kr/213[hadoop을 이용한 ftp server]
+
+https://issues.apache.org/jira/browse/HADOOP-3199?page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel&focusedCommentId=12587077#action_12587077[https://issues.apache.org/jira/browse/HADOOP-3199?page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel&focusedCommentId=12587077#action_12587077]
+
+ https://sites.google.com/a/iponweb.net/hadoop/Home/hdfs-over-ftp[https://sites.google.com/a/iponweb.net/hadoop/Home/hdfs-over-ftp]
+
+==== Stream 얻기
+
+Path
+
+FileSystem
+
+Configuration
+
+==== Hadoop command
+
+hadoop fs -ls
+
+bin/hadoop jar sims-batch.jar sims.batch.WriteTest
+
+http://www.mail-archive.com/core-user@hadoop.apache.org/msg07497.html[http://www.mail-archive.com/core-user@hadoop.apache.org/msg07497.html]
+
+==== Database Inout
+
+http://developer.yahoo.net/blogs/hadoop/DBInputFormat.ppt[http://developer.yahoo.net/blogs/hadoop/DBInputFormat.ppt]
+
+http://www.cloudera.com/blog/wp-content/uploads/DBInputFormat.pdf[http://www.cloudera.com/blog/wp-content/uploads/DBInputFormat.pdf]
+
+http://www.cloudera.com/blog/2009/03/06/database-access-with-hadoop/[http://www.cloudera.com/blog/2009/03/06/database-access-with-hadoop/]
+
+http://www.cloudera.com/blog/tag/dbinputformat/[http://www.cloudera.com/blog/tag/dbinputformat/]
+
+http://www.mail-archive.com/core-user@hadoop.apache.org/msg07497.html[http://www.mail-archive.com/core-user@hadoop.apache.org/msg07497.html]
+
+http://www.jaso.co.kr/308[http://www.jaso.co.kr/308]
+
+http://www.jaso.co.kr/303[http://www.jaso.co.kr/303]
+
+DBOutputFormat
+
+DBInputFormat
+
+DBConfiguration
+
+[source,java]
+----
+public int run(String[] arg0) throws Exception {
+  JobConf conf = new JobConf(getConf(), LoadTable1.class);
+  conf.setInputFormat(DBInputFormat.class);
+  DBConfiguration.configureDB(conf, DATABASE_DRIVER_CLASS, CONNECT_URL, DB_USER, DB_PWD);
+  DBInputFormat.setInput(conf, ose_epr_contract.class, "select CONTRACT_NUMBER from OSE_EPR_CONTRACT", "select COUNT(CONTRACT_NUMBER) from OSE_EPR_CONTRACT");
+  FileOutputFormat.setOutputPath(conf, new Path(CONTRACT_OUTPUT_PATH));
+  conf.setMapperClass(LoadMapper.class);
+
+  conf.setNumReduceTasks(0); conf.setOutputKeyClass(Text.class);
+  conf.setOutputValueClass(NullWritable.class);
+  JobClient.runJob(conf); return 0; }
+----
+
+== Hadoop DB
+
+http://www.greenplum.com/[http://www.greenplum.com/]  
+
+http://db.cs.yale.edu/hadoopdb/hadoopdb.html[http://db.cs.yale.edu/hadoopdb/hadoopdb.html]
+
+http://db.cs.yale.edu/hadoopdb/hadoopdb.html[]
+
+== ZooKeeper
+
+http://www.jaso.co.kr/338[zookeeper 살짝엿보기]
+
+http://www.jaso.co.kr/348[zookeeper 사용하기]
+
+== Hadoop + ETL
+
+http://www.slideshare.net/ydn/4-integration-patternshadoopsummit2010[http://www.slideshare.net/ydn/4-integration-patternshadoopsummit2010]
+  
