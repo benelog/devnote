@@ -1,3 +1,15 @@
 - http://www.slideshare.net/baejjae93/ss-55571345[어플리케이션 아키텍처와 객체지향]
 - http://www.slideshare.net/gyumee/ss-55616001[자바 어플리케이션 아키텍처 안티패턴]
 - http://www.slideshare.net/madvirus/ksug-20151128[몇가지 도메인구현 이야기]
+
+* http://misko.hevery.com/2008/12/08/clean-code-talks-inheritance-polymorphism-testing/[http://misko.hevery.com/2008/12/08/clean-code-talks-inheritance-polymorphism-testing/]
+* http://parkpd.egloos.com/3339098[OOP 설계의 5대 원칙, S.O.L.I.D.]
+* http://javacan.tistory.com/197[기본 OO 원칙 몇 가지 SRP, DIP, OCP]
+
+=== SRP  
+http://arload.wordpress.com/2012/01/30/single-responsibility-princinple/[http://arload.wordpress.com/2012/01/30/single-responsibility-princinple/]  
+
+== 객체지향적 글쓰기  
+
+http://mckdh.net/179[http://mckdh.net/179]  
+
