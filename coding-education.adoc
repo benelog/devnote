@@ -1,17 +1,22 @@
 == 어린이 코딩 교육
+https://prezi.com/lock1kguxctl/vs/[스크래치 VS 엔트리]
+
 * https://playentry.org/
 * https://codly.co.kr/
 * https://studio.code.org
 * https://scratch.mit.edu/
 * https://blockly-games.appspot.com/
 * https://codecombat.com/
+* http://appinventor.mit.edu/
+
+소스 코드 http://info.scratch.mit.edu/Source_Code
 
 === 컨텐츠
 * https://code.org/
 * http://www.playsw.or.kr/
 
-=== 비교
-* https://prezi.com/lock1kguxctl/vs/
+=== 특강
+* http://on.ted.com/MResnick
 
 == 기초 강좌
 * https://tryhelloworld.co.kr
