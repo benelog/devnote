@@ -1,0 +1,25 @@
+비교 : http://rainblue.kr/1013[http://rainblue.kr/1013]
+
+http://www.graylog2.org/[http://www.graylog2.org/]
+
+http://www.splunk.com/[http://www.splunk.com/]
+
+http://blog.naver.com/joycestudy?Redirect=Log&logNo=100113154364[http://blog.naver.com/joycestudy?Redirect=Log&logNo=100113154364]
+
+http://www.piwik.org/[http://www.piwik.org]
+
+http://logstash.net/[http://logstash.net/]
+
+https://logentries.com/[https://logentries.com/]
+
+https://papertrailapp.com/[https://papertrailapp.com/]
+
+== Flume
+
+http://www.imaso.co.kr/?doc=bbs/gnuboard.php&bo_table=article&wr_id=40969[아파치 플룸을 통한 로그 수집]
+
+http://www.jopenbusiness.com/mediawiki/index.php/Flume[http://www.jopenbusiness.com/mediawiki/index.php/Flume]
+
+http://mimul.com/pebble/default/2012/02/10/1328851289297.html
+
+http://www.elasticsearch.org/overview/kibana/
