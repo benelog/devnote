@@ -1,0 +1,61 @@
+== 이론
+Little’s law by John D. C. Little in 1961Number of concurrent user = TPS * avg. response time Concurrency = TPS * Avg. Response time or Concurrency = TPS * Max. Response time수용가능한 동시 사용자 = 가상사용자 * Think Time / 평균응답속도Tomcat MaxThreads = Concurrency * (100% + buffer %)  
+ performance anxiety : http://parleys.com/[http://parleys.com]/#id=2103&st=5abstraction gap 때문에 성능은 직접 측정해야 알 수 있다.In java, run VM 30 times to get meaningful data.
+통계적으로 접근해라..  
+벤크마크는 잘 못하기가 쉽다..
+(1) http://dl.acm.org/citation.cfm?id=1297033
+(2) http://code.google.com/p/caliper/
+
+Benchmark tools
+
+*   http://labs.carrotsearch.com/junit-benchmarks-tutorial.html[http://labs.carrotsearch.com/junit-benchmarks-tutorial.html]
+
+*   Junit 기반. H2DB로 결과 저장. 그래프 그려줌.*   http://www.clarkware.com/software/JUnitPerf.html[http://www.clarkware.com/software/JUnitPerf.html]
+*   http://code.google.com/p/junitbench/[http://code.google.com/p/junitbench/]
+*   http://databene.org/contiperf.html[http://databene.org/contiperf.html]
+*   http://code.google.com/p/caliper/
+*   Apache benchmark : http://httpd.apache.org/docs/2.2/programs/ab.html[http://httpd.apache.org/docs/2.2/programs/ab.html]
+
+== 성능로깅
+http://metrics.codahale.comhttps://code.google.com/p/javasimonhttps://code.google.com/p/parfaithttps://code.google.com/p/stajisticshttps://github.com/Netflix/Hystrix[https://github.com/Netflix/Hystrix]
+
+== Load test
+
+http://gatling-tool.org/[http://gatling-tool.org/]
+
+== Jmeter
+
+http://www.ibm.com/developerworks/kr/library/os-jmeter/[Apache JMeter를 이용한 WebSphere 퍼포먼스 테스트]
+
+http://network.hanb.co.kr/view.php?bi_id=1520[Jmeter를 사용한 Stress Test(1)]
+
+http://network.hanb.co.kr/view.php?bi_id=1521[Jmeter를 사용한 Stress Test(2)]
+
+http://network.hanb.co.kr/view.php?bi_id=1522[Jmeter를 사용한 Stress Test(3)]
+
+http://blog.empas.com/ahnyounghoe/list.html?c=1411683[http://blog.empas.com/ahnyounghoe/list.html?c=1411683]
+
+http://www.ibm.com/developerworks/kr/library/j-ap04088/index.html?ca=drs-kr[사람을 위한 자동화: 전혀 귀찮지 않은 로드 테스팅] (http://www.ibm.com/developerworks/java/library/j-ap04088/[Automation for the people: Hands-off load testing] )
+
+http://www.infoq.com/news/2008/04/JMeter-Ant-CI[Hands-off Load Testing with JMeter and Ant]
+
+http://blog.openframework.or.kr/49[[리뷰] 프로파일러 비교]
+
+http://www.wikibook.kr:8180/JSPWiki/Data/TWA_14.pdf[실용적인 성능테스팅]
+
+== Grinder
+
+http://grinder.sourceforge.net/
+
+http://track.sourceforge.net/analyzer.html
+
+http://code.google.com/p/grinderstone/  (grinder를 Eclipse 내 에서)
+
+http://sourceforge.net/projects/webflange/ (continuous testing), 
+
+http://wiki.hudson-ci.org/display/HUDSON/Grinder+Plugin
+
+http://www.cdjdn.com/downloads/performancetesting-grinder.pdf
+
+http://grinder.sourceforge.net/[http://grinder.sourceforge.net/]
+  
