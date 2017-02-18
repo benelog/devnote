@@ -1,0 +1,74 @@
+  
+
+JSP의 문제점 : http://www.servlets.com/soapbox/problems-jsp.html[http://www.servlets.com/soapbox/problems-jsp.html]  
+
+서블릿이란 http://nettop.pe.kr/nettop/nettop3/link/servlet/servlet.htm[http://nettop.pe.kr/nettop/nettop3/link/servlet/servlet.htm]
+
+JAVA 웹프로그래머의 기본
+
+javascript:void(0);[http://youngrok.com/wiki/wiki.php/%C0%DA%B9%D9%C0%A5%C7%C1%B7%CE%B1%D7%B7%A1%B8%D3%C 0%C7%B1%E2%BA%BB]
+
+한스의 10가지 jsp tip http://blog.naver.com/favome/60002068479[http://blog.naver.com/favome/60002068479]
+
+GET, POST, MULTI-PART http://blog.naver.com/essbihan/100005665540[http://blog.naver.com/essbihan/100005665540]
+
+ JSP 샘플코드
+
+http://blog.naver.com/parkjinhang/120004186612[http://blog.naver.com/parkjinhang/120004186612]
+
+JSP 2.0에서 변한것
+
+http://kr.geocities.com/kwon37xi/jsp20/WhatsNewJSP20-1.html[http://kr.geocities.com/kwon37xi/jsp20/WhatsNewJSP20-1.html]
+
+JSP 서블릿 한글문제
+
+http://blog.naver.com/sungback/90006711364[http://blog.naver.com/sungback/90006711364]
+
+HTML에서 웹브라이저가 알 수 있게 인코딩 설정
+
+
+
+blob으로 저장된 이미지 파일을 웹에 입출력
+
+http://javaservice.net/~java/bbs/read.cgi?m=devtip&b=servlet&c=r_p&n=1092807454&p=1&s=t[http://javaservice.net/%7Ejava/bbs/read.cgi?m=devtip&b=servlet&c=r_p&n=1092807454&p=1&s=t]
+
+http://blog.naver.com/yacjae/100020395789[http://blog.naver.com/yacjae/100020395789]
+
+ Generating Images with JSPs and Servlets : http://today.java.net/pub/a/today/2004/04/22/images.html[http://today.java.net/pub/a/today/2004/04/22/images.html]
+
+filter 사용예 : http://siyeon.com/servlet/ReferenceView/1376[http://siyeon.com/servlet/ReferenceView/1376]
+
+http://blog.naver.com/alucard99/35593101[WAR 파일]
+
+ http://java.sun.com/j2se/1.5.0/docs/guide/net/http-keepalive.html[http://java.sun.com/j2se/1.5.0/docs/guide/net/http-keepalive.html]
+
+== 기본 스펙 설명
+ServletConfig는 서블릿당 하나  
+ServletContext는 웹 애플리케이션 당 하나  
+
+Listener  
+HttpSessionBindingListener : 자기자신이 Sessoin에 추가,변경될때 이벤트 받을 수 있음  
+
+RequestDispatcher  
+RequestDispatcher view = request.getRequsetDispatcher("result.jsp");  
+// 혹은 getServletContext.getRequestDIspatcher("/result.jsp"); //절대 경로만 사용가능  
+
+Session id  
+첫번째 응답은 쿠키와 URL재작성을 동시에 사용 (URL재작성은 ;jsessionid=123445 의 형식)  
+URL 재작성을 jsp에서 알아서 붙이려면 <c:url> 혹은 reqsponse.encodeURL(url);  
+
+== Servlet 3.0
+http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/async-servlet/async-servlets.html  
+AsyncServlet  
+
+http://www.nurkiewicz.com/2011/03/tenfold-increase-in-server-throughput.html  
+  https://github.com/nurkiewicz/token-bucket/blob/master/src/main/java/com/blogspot/nurkiewicz/download/DownloadServletHandler.java  
+
+http://www.oracle.com/au/products/database/asynchronous-servlets-088344.html  
+https://dzone.com/articles/limited-usefulness  
+http://javacan.tistory.com/201  
+
+Comet  
+https://www.ibm.com/developerworks/library/wa-cometjava/  
+
+Tomcat의 BIO/NIO와 sync/Async Servlet과의 조합 : https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!msg/ksug/cLTLVpYD6P4/NpYnZwRYk0QJ  
