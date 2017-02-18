@@ -1,0 +1,54 @@
+기능
+
+- 요청작업큐 + Thread pool을 이용한 동시 요청 지원.   
+
+- 요청별 우선 순위 :  목록조회와 이미지 다운로드를 할때 목록조회가 우선순위가 높게 설정. 다음 페이지의 목록조회를 요청하면 이전페이지의 이미지로딩이 끝나지 않아도 기다리지 않고 수행.
+
+- Transparent cache   
+
+- 이미지 로딩툴 지원
+
+-  Requset cancelation API :  특정 요청, 해당  Context의 요청 모두 취소할 수 있습니다. 
+
+-  진저브레드 이전의 HttpURLConnection의 버그 문제 해결 :  The platform 기사에서 여러 오픈소스가 그랬던 것처럼, 다룬것처럼 진저브레드 이상에서만 내부적으로 HttpUrlConnection을 쓰는 로직이 역시나 들어가 있씁니다.
+
+- retry policy
+
+- ViewHolder패턴과 NetworkImageVIew라는 VIew 제공
+
+- SPDY 지원 예정 : Volley의 tranport stack으로 OkHttp( http://square.github.io/okhttp/[http://square.github.io/okhttp/] ) 를 넣는 작업을 누군가가 진행하고 있다. 
+
+Ok Http는 Squre에서 공개한 Http + SPDY 지원 라이브러리로 역시나 저희가 The platform 기사를 작성한 이후로 따끈따끈하게 공게되었습니다.
+
+- JSON, XML, Image, protobuffer 등 다양한 Response형식을 지원하고 확장 가능 : Spring RestTemplate의 Converter와 같은 Layer가 있어보입니다.
+
+- 성능에 자신감: Google + 팀이 다양한 Network 라이브러리들과 Benchmark를 했을때 Volley가 모든 것을 다 이겼고, 매번 빨랐고, 어떤 경우에는 10배까지 빨랐다고 합니다.
+
+구글에서 앱을 개발하면서 어렵게 얻은 교훈의 이득을 쉽게 얻을 수 있을것이고, 스스로 개발하는것보다 훨씬 빠를 것이라고 자신있게 말합니다.
+
+( It's easier than doing it yourself, and you get the benefit of all of those lessons we've learned the hard way in developing our apps at Google.
+
+But it's also fater than doing it in yourself.  Google + Team did a bench mark last year, A bunch of networking libraries and Volley won every single one.)
+
+=== 참고자료  
+
+발표자료 : http://www.youtube.com/watch?v=yhv8l9F44qo[http://www.youtube.com/watch?v=yhv8l9F44qo]  
+
+maven : https://gist.github.com/f2prateek/5606337[https://gist.github.com/f2prateek/5606337]   
+
+git clone https://android.googlesource.com/platform/frameworks/volley
+
+https://gist.github.com/givenjazz/5626084[]
+
+예제 :   
+
+https://gist.github.com/ficusk/5614325[https://gist.github.com/ficusk/5614325] : LruBitmapCache.java
+
+https://gist.github.com/ficusk/5474673[https://gist.github.com/ficusk/5474673 ]: GsonRequest.java
+
+Cache : https://gist.github.com/givenjazz/5626084[https://gist.github.com/givenjazz/5626084]
+
+*   http://www.kpbird.com/2013/05/volley-easy-fast-networking-for-android.html[http://ogrelab.ikratko.com/android-volley-examples-samples-and-demos/]
+
+*   https://github.com/ogrebgr/android_volley_examples[https://github.com/ogrebgr/android_volley_examples]*   http://www.kpbird.com/2013/05/volley-easy-fast-networking-for-android.html[http://www.kpbird.com/2013/05/volley-easy-fast-networking-for-android.html]
+*   http://kvandroidapp.blogspot.kr/2013/05/example-using-volley-google-framework.html[http://kvandroidapp.blogspot.kr/2013/05/example-using-volley-google-framework.html]  
