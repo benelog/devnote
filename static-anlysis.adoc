@@ -1,0 +1,110 @@
+http://www.laatuk.com/tools/review_tools.html[http://www.laatuk.com/tools/review_tools.html]
+
+http://www.cs.cmu.edu/~aldrich/courses/654/tools/index.html[http://www.cs.cmu.edu/~aldrich/courses/654/tools/index.html]
+
+http://findbugs.sourceforge.net/[http://findbugs.sourceforge.net/]
+
+http://kingori.egloos.com/3795134[Glean- 다양한 코드 검사 도구의 결과를 통합하는 도구]
+
+http://iolothebard.tistory.com/378[웹 프로젝트에서 jslint로 자바스크립트 검증하기: maven 또는 ant]
+
+http://stackoverflow.com/questions/207652/how-do-commercial-java-static-analysis-tools-compare-with-the-free-ones[http://stackoverflow.com/questions/207652/how-do-commercial-java-static-analysis-tools-compare-with-the-free-ones]
+
+So it depends on whether your priority is quality checking (Findbugs, Coverity) or security vulnerability analysis (Klocwork, or Fortify).
+
+ Jones Capers, Assessment and Control of Software Risks
+
+'이미 1978년에 LOC는 .. 생산성과 품질 데이터를 수집하는데 있어 신뢰할 수 없다는 것이 입증됐다.' , 'LOC 페트릭을 사용하는 것은 가장 심각한 문제로 분류된다' 
+
+== JavanCSS
+
+http://www.kclee.de/clements/java/javancss/[www.kclee.de/clements/java/javancss/]
+
+== Simian
+
+ Optimization SimplifyStartsWith
+
+https://www.ibm.com/developerworks/kr/library/dwclm/20080826/[자바 패스파인더를 이용한 소프트웨어 모델 검사]
+
+== PMD
+
+http://moai.tistory.com/541[PMD로 코드리뷰 자동으로 수행하기]
+
+PMD Design Ruls : http://pmd.sourceforge.net/rules/design.html[http://pmd.sourceforge.net/rules/design.html]
+
+http://blog.empas.com/seeiris/14381547[PMD 이클립스 플러그인 사용법]
+
+http://blog.naver.com/youmasan?Redirect=Log&logNo=130037037455[PMD - CPD Inspection using Maven2 Pluin]
+
+http://ecogeo.tistory.com/70[Hudson : 리포트/차트 보기]
+
+==== Macker 
+
+Architectural Rule check 
+
+http://innig.net/macker/[http://innig.net/macker/]
+
+== XRadar
+
+http://xradar.sourceforge.net/[http://xradar.sourceforge.net/]
+
+== Relief
+
+프로젝트 의존관계, 패키지 크기 등을 시각화
+
+http://www.workingfrog.org/[http://www.workingfrog.org/]
+
+== FindBugs
+
+http://findbugs.sourceforge.net/bugDescriptions.html[http://findbugs.sourceforge.net/bugDescriptions.html]
+
+    <plugin>  
+           <groupId>org.codehaus.mojo</groupId>  
+           <artifactId>findbugs-maven-plugin</artifactId>  
+           <version>1.2</version>  
+           <configuration>  
+              <findbugsXmlOutput>true</findbugsXmlOutput>  
+              <findbugsXmlWithMessages>true</findbugsXmlWithMessages>  
+          <xmlOutput>true</xmlOutput>  
+          <excludeFilterFile>${basedir}/findBugsExclude.xml</excludeFilterFile>           
+           </configuration>  
+    </plugin>
+
+<FindBugsFilter>  
+    <Match>  
+          <Bug code="Se,SnVI,Dm" />  
+    </Match>  
+</FindBugsFilter>
+
+http://findbugs.sourceforge.net/manual/filter.html[http://findbugs.sourceforge.net/manual/filter.html]
+
+http://mojo.codehaus.org/findbugs-maven-plugin/findbugs-mojo.html[http://mojo.codehaus.org/findbugs-maven-plugin/findbugs-mojo.html]
+
+=== 강연
+
+http://okjsp.tistory.com/1165643579[Sun Techdays 2008 Lightning Talk 발표자료; findbugs]
+
+http://developers.sun.com/learning/javaoneonline/2007/pdf/TS-2007.pdf[http://developers.sun.com/learning/javaoneonline/2007/pdf/TS-2007.pdf]
+
+10분36초. Joshua Bloch
+
+http://www.buggymind.com/177[http://www.buggymind.com/177]
+
+If Josh makes a dumb mistake, you are allowed to make a dumb mistake, all right?
+
+//Eclipse 3.0.0M8
+
+String sig = type.getSignature();
+
+if(sig!=null || sig.length() ==1 ) {
+
+   return sig;
+
+}
+
+Eclipse 3.0.0M8
+
+String name = workingCopy.getName()
+
+name.replace('/','.);
+  
