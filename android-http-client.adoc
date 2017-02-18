@@ -1,0 +1,65 @@
+== Pattern
+http://www.google.com/events/io/2010/sessions/developing-RESTful-android-apps.html[http://www.google.com/events/io/2010/sessions/developing-RESTful-android-apps.html]<ul><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">Activity안에서 RestClient를 구현하지 마라.</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">Long runinng operations는 Service에서 시작하라.</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">Persist early, Persist often</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">Service, ContentProvider, SyncAdaptor 등을 활용하는 3가지 패턴 권장</li></ul>
+
+== 기본 클래스
+
+=== https://developer.android.com/reference/android/net/http/AndroidHttpClient.html[AndroidHttpClient]
+
+implementation of the Apache DefaultHttpClient that is configured with reasonable default settings
+
+=== http://developer.android.com/reference/java/net/HttpURLConnection.html[HttpUrlConnection]
+
+By default, this implementation of HttpURLConnection requests that servers use gzip compression.   
+
+기본적으로 gzip
+
+Bugs
+
+http://code.google.com/p/android/issues/detail?id=2939[Issue 2939: The chunked HTTT input stream must hurry the underlying stream]  
+
+==== https://github.com/android/platform_frameworks_base/blob/master/core/java/android/net/http/AndroidHttpClient.java[AndroidHttpClient.java]
+
+ main 쓰레드에서 못 돌도록 
+
+default
+<ul><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">connection timeout : 60초</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">sockettimeout: 60초</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">socket buffer size : 8192</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">redirect : false</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">ThreadSafeClientConnManager 사용  
+</li></ul>
+
+==== https://developer.android.com/reference/android/net/http/HttpResponseCache.html[HttpResponseCache]
+
+Http 표준 스펙에 의해 Cache
+
+http://android-developers.blogspot.kr/2011/09/androids-http-clients.html[http://android-developers.blogspot.kr/2011/09/androids-http-clients.html]
+
+== Frameworks
+  
+
+==== http://www.springsource.org/spring-android[Spring Android]
+<ul><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">
+http://www.infoq.com/presentations/Native-Android-Development-Practices[http://www.infoq.com/presentations/Native-Android-Development-Practices]
+</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">https://github.com/SpringSource/spring-android-samples/tree/master/spring-android-showcase[https://github.com/SpringSource/spring-android-samples/tree/master/spring-android-showcase]</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">
+http://blog.springsource.com/2010/12/17/spring-android-and-maven-part-1/[http://blog.springsource.com/2010/12/17/spring-android-and-maven-part-1/]
+</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">RestClient와 Auth지원</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">Server쪽의 RestTemplate을 Android에 맞게 수정<ul><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">Logging을 Android 로깅으로</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">디폴트 동작 변경 (디폴트 생성자로는 Converter가 등록되지 않음.)</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">Gson등 Android에 적합한 라이브러리 지원</li></ul></li></ul>
+
+질문 PoolingClientConnectionManager은 Spring의 언제부터 들어갔는가?
+
+==== https://code.google.com/p/google-http-java-client/[google-http-java-client]
+
+==== https://github.com/square/retrofit[Retrofit]
+<ul><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">Squre에서 쓰이고 있는걸 공개</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">Spring android + Android annotations와 비슷한 형태 (interface에 Annotation으로 REST 호출 정도 기술)</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">Async에 대한 처리가 다소 편한듯.</li></ul>
+
+==== http://loopj.com/android-async-http/[Android Asunchronous Http Client]
+
+==== https://github.com/kevinsawicki/http-request[Http request]
+<ul><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">The single goal of this library is to improve the usability of the HttpURLConnection class.</li></ul>
+
+==== https://github.com/foxykeep/DataDroid[DataDroid]
+
+==== https://github.com/candrews/HttpResponseCache[HttpResponseCache]
+<ul><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">ICS이후의 https://developer.android.com/reference/android/net/http/HttpResponseCache.html[HttpResponseCache]를 배껴서 씀.</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">버전별 분기는 앱개발자가 알아서. 홈페이지에 나와있는 try-catch이용한 예제는 구림. 버전을 명시적으로 확인하는 방식이 좋을듯.</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">한정적인 용도에서만 이득이 있을듯.<ul><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">이미지를 따로 Cache하다면 주로 API 호출만 하는 앱에서는 효용성이 별로 없지 않을까?</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">Javascript 파일 같은 자원의 Cache가 이득이 있으려면 Webview를 쓸때도 적용이 될 수 있어야할 듯. 확인 필요</li></ul></li></ul>
+
+==== OKHttp
+
+http://square.github.io/okhttp/[http://square.github.io/okhttp/]
+
+|====
