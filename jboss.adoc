@@ -1,0 +1,20 @@
+Standalone vs Domain : https://docs.jboss.org/author/display/AS71/Operating+modes[https://docs.jboss.org/author/display/AS71/Operating+modes]  
+
+== start & stop
+
+==== standalone
+./standalone.sh -b=0.0.0.0 -bmanagement=0.0.0.0 &./jboss-cli.sh --connect --command=:shutdown  
+
+==== domain
+./domain.sh -b=0.0.0.0 -bmanagement=0.0.0.0 &./jboss-cli.sh --connect --command=/host=master:shutdown  
+
+== HA
+https://docs.jboss.org/author/display/AS71/mod_cluster+in+AS7[https://docs.jboss.org/author/display/AS71/mod_cluster+in+AS7]http://docs.jboss.org/mod_cluster/1.1.0/html/java.AS7config.html[http://docs.jboss.org/mod_cluster/1.1.0/html/java.AS7config.html]  
+http://www.jboss.org/mod_cluster[http://www.jboss.org/mod_cluster]http://docs.jboss.org/jbossclustering/cluster_guide/5.1/html/deployment.chapt.html[http://docs.jboss.org/jbossclustering/cluster_guide/5.1/html/deployment.chapt.html]  
+
+=== Mode cluster 연동
+http://joss.tistory.com/entry/JBoss-%EC%9D%B4%EC%A0%A0-modcluster%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-Apache-%EC%9B%B9%EC%84%9C%EB%B2%84%EC%99%80-%EC%97%B0%EB%8F%99%ED%95%98%EC%9E%90[﻿JBoss. 이젠 mod_cluster를 이용하여 Apache 웹서버와 연동하자. 1]http://joss.tistory.com/entry/JBoss-%EC%9D%B4%EC%A0%A0-modcluster%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-Apache-%EC%9B%B9%EC%84%9C%EB%B2%84%EC%99%80-%EC%97%B0%EB%8F%99%ED%95%98%EC%9E%90-2[JBoss. 이젠 mod_cluster를 이용하여 Apache 웹서버와 연동하자. 2]
+
+== Session clutering
+http://novaculite.tistory.com/36[http://novaculite.tistory.com/36]  
+http://www.jboss.org/dms/AS7/as7webinar/AS7-clustering-webinar.pdf[http://www.jboss.org/dms/AS7/as7webinar/AS7-clustering-webinar.pdf]  
