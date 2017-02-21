@@ -1,0 +1,31 @@
+== Class
+
+Class A 0~127
+
+Class B 128~191
+
+Class C 192~233
+
+Class D 234 이상
+
+사설네트워크 영역 (RFC 1597)
+
+10.0.0.0 ~ 10.255.255.255
+
+172.16.0.0 ~ 172.31.255.255
+
+192.168.0.0 ~ 192.168.255.255
+
+== CIDR
+http://en.wikipedia.org/wiki/CIDR  
+
+== TCP
+
+http://neocode.egloos.com/1939688[Transmission Control Protocol(TCP)]
+
+http://neocode.egloos.com/1940628[TCP에 관한 정리 (1)]
+
+http://monac.egloos.com/1990631[MAC 주소를 속이는 방법]
+
+== Switch
+http://mkhouse.info/tt/58[[네트워크 이야기] L4 스위치]  
