@@ -1,0 +1,33 @@
+http://tong.nate.com/wlstjs/21051594[프로세스 관리(kill, nohup...)]
+
+== nohup
+
+http://blog.empas.com/flazma/26071407[nohup 으로 실행시 , 로그파일 안남게 하는 방법]
+
+nohup [command] 1> dev/null 2>&1 &
+
+nohup boot.sh 1>/dev/null 2>&1 &
+
+nohup boot.sh >/dev/null &
+
+http://blog.daum.net/itnewsplus/5011099[nohup 안 쓰고 프로세스 계속 실행]
+
+== kiill
+
+시그널번호  시그널이름
+
+1                      SIGHUP            재시작
+
+2                      SIGINIT            인터럽트
+
+9                      SIGKILL           강제종료
+
+15                    SIGTERM        종료
+
+default: 15
+
+kill -signal번호[또는 시그널 이름] PID
+
+kill %[작업번호]
+
+killlall -signal 프로세스명
