@@ -1,0 +1,52 @@
+가상화 :
+
+마소 2008.01
+
+가상화에 부는 새 바람
+
+물리적인 한개의 자원을 분할해 효율적으로 사용하거나, 물리적으로 다른 다수의 자원을 논리적으로 통합하는 기술  
+
+예) 한 대의 컴퓨터 시스템에서 여러 개의 운영체제를 함께 운용할 수 있도록 지원한는 기술  
+
+자원을 이용하는 이들이 어떤 자원들이 실제로 사용되는지를 구체적으로 알 필요가 없게 만드는데 핵심  
+
+하위의 물리적 자원과 상위의 논리적 사용간의 단절을 제공  
+
+서버가상화  
+
+스토리지 가상화 :  SAN(Storage Area Network)  
+
+어플리케이션/데스크톱 가상화  
+
+임베디드 가상화  
+
+인포메이션 가상화  
+
+*   데이터가상화, 파일시스템 가상화
+유틸리티 컴퓨팅?  
+
+자율컴퓨팅(?) )Autonomic Computing)  
+
+http://www.bloter.net/_news/8df44f71ba8f7a3c[데스크톱에도 가상화 바람 분다]  
+
+http://skyul.tistory.com/311[가상화의 종류]  
+
+http://rinapc.com/164[가상화의 유형]  
+
+http://gomufan.tistory.com/354[그리드 컴퓨팅과 가상화]  
+
+http://itviewpoint.com/62136[기술을 감추는 미학 ‘가상화’, 오픈소스가 앞당긴다]  
+
+http://news.naver.com/main/read.nhn?mode=LSD&amp;sid1=105&amp;mid=sec&amp;oid=092&amp;aid=0001940892[]
+
+http://www.bloter.net/_news/8df450f0adc8b9d6[MS, 가상화 시장 공략 나섰다]  
+
+http://news.naver.com/main/read.nhn?mode=LSD&sid1=105&mid=sec&oid=092&aid=0001941816[고객에게 가상화를 묻다]  
+
+==== Grid Computing middleware  
+
+http://www.cs.wisc.edu/condor[http://www.cs.wisc.edu/condor]  
+
+http://globus.org/[http://globus.org]  
+
+ 
