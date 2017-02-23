@@ -1,0 +1,27 @@
+== 성능 비교자료  
+
+=== Jackson이 우세한 자료  
+
+http://code.google.com/p/thrift-protobuf-compare/wiki/Benchmarking  
+
+http://blaazinsoftwaretech.blogspot.kr/2013/08/jackson-2-vs-gson-performance-comparison.html?m=1[http://blaazinsoftwaretech.blogspot.kr/2013/08/jackson-2-vs-gson-performance-comparison.html?m=1]
+
+ 위의  블로그의 자료에서 Jackson이 성능이 잘 안 나온 경우는 매번 ObjectMapper를 새로 생성하는 경우임. 해당 객체는 초기 설정 후에는 thread-safe하기 때문에 singleton scope의 서비스 객체에 멤버변수로 두고, 한번만 생성해서 사용됨. ObjectMapper객체의 생성시간이 250ms 정도 걸린다고 나온 사례도 있음.
+
+안드로이드 단말에서도 Jackson의 실행시간의 Gson에 비해 56%에 불과했던 비교 사례  
+
+http://martinadamek.com/2011/02/04/json-parsers-performance-on-android-with-warmup-and-multiple-iterations/[http://martinadamek.com/2011/02/04/json-parsers-performance-on-android-with-warmup-and-multiple-iterations/]  
+
+Jackson의 Streamming API 사용  
+
+https://github.com/martinadamek/json-android-compare/blob/master/src/com/martinadamek/jsonandroid/JacksonJson.java[https://github.com/martinadamek/json-android-compare/blob/master/src/com/martinadamek/jsonandroid/JacksonJson.java]  
+
+http://www.cowtowncoder.com/blog/archives/2009/09/entry_326.html  
+
+=== Gson이 우세한 자료
+
+http://geek.amindstretched.com/2012/07/gson-vs-jackson-which-library-is-faster.html  
+
+== Jackson 사용팁
+
+http://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion  
