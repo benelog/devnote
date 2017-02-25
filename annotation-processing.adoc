@@ -1,0 +1,61 @@
+http://kerebus.com/2011/02/using-java-6-processors-in-eclipse/[http://kerebus.com/2011/02/using-java-6-processors-in-eclipse/]패키지 변경 : https://blogs.oracle.com/darcy/entry/an_apt_replacement[https://blogs.oracle.com/darcy/entry/an_apt_replacement]
+
+
+사례
+
+http://today.java.net/pub/a/today/2008/04/10/source-code-analysis-using-java-6-compiler-apis.html[http://today.java.net/pub/a/today/2008/04/10/source-code-analysis-using-java-6-compiler-apis.html]
+
+http://blogs.steeplesoft.com/2012/07/annotation-processing-the-new-way/[http://blogs.steeplesoft.com/2012/07/annotation-processing-the-new-way/]
+
+http://turbomanage.wordpress.com/2012/09/28/annotation-processor-android-eclipse/[http://turbomanage.wordpress.com/2012/09/28/annotation-processor-android-eclipse/]
+
+http://blog.xebia.com/2009/07/21/testing-annotation-processors/[http://blog.xebia.com/2009/07/21/testing-annotation-processors/]
+
+http://www.javaspecialists.eu/archive/Issue167.html[http://www.javaspecialists.eu/archive/Issue167.html]
+
+http://www.youtube.com/watch?v=PjUaHkUsgzo[http://www.youtube.com/watch?v=PjUaHkUsgzo
+
+]http://turbomanage.wordpress.com/2012/09/28/annotation-processor-android-eclipse/[http://turbomanage.wordpress.com/2012/09/28/annotation-processor-android-eclipse/] (Android에서 활용. Freemarker사용한점이 독측)  
+
+=== Maven + Eclipse integration
+https://community.jboss.org/en/tools/blog/2012/05/20/annotation-processing-support-in-m2e-or-m2e-apt-100-is-out[https://community.jboss.org/en/tools/blog/2012/05/20/annotation-processing-support-in-m2e-or-m2e-apt-100-is-out]  
+
+=== Tips
+https://code.google.com/p/acris/wiki/AnnotationProcessing_DebuggingEclipse[https://code.google.com/p/acris/wiki/AnnotationProcessing_DebuggingEclipse]환경설정과 테스트 : https://github.com/excilys/androidannotations/wiki/InstallingEnvironment[https://github.com/excilys/androidannotations/wiki/InstallingEnvironment]  
+
+== 활용 사례
+
+==== Lombok
+Getter/Setter생성, toString 같은 뻔한 코드를 Annotation으로 대체해서 쓸 수 있는, 유명한 라이브러리입니다.  
+EclipseAnnotationsEclipseAnnotationHandlerJavacAnnotationHandler  
+https://github.com/rzwitserloot/lombok/blob/master/src/core/lombok/eclipse/handlers/HandleGetter.javahttps://github.com/rzwitserloot/lombok/blob/master/src/core/lombok/javac/handlers/HandleGetter.java  
+
+==== Android Annotations
+안드로이드에서 자주 쓰는 메소드 호출을 Annotation으로 대체할 수 있는 라이브러라입니다.예를 들면 Activity.findViewById메소드를에 대항하는 @ViewById라는  Annotation이 있습니다.  
+<https://github.com/excilys/androidannotations/wiki/Building-Project-Maven-Eclipse>  
+
+==== QueryDSL
+AbstractQuerydslProcessorcom.mysema.query.apt.jpa.JPAAnnotationProcessor  
+
+https://github.com/mysema/querydsl/blob/master/querydsl-apt/src/test/java/com/mysema/query/apt/EclipseCompilationTest.java[EclipseCompilationTest.java]  
+<http://blog.mysema.com/2010/10/using-querydsl-in-eclipse.html><https://github.com/mysema/querydsl/blob/master/querydsl-apt/src/main/java/com/mysema/query/apt/AbstractQuerydslProcessor.java><https://github.com/mysema/querydsl/blob/master/querydsl-apt/src/main/java/com/mysema/query/apt/jpa/JPAAnnotationProcessor.java>  
+
+조언  
+https://plus.google.com/102717421433762219474/posts/FQcboWtVazV[https://plus.google.com/102717421433762219474/posts/FQcboWtVazV]  
+Hi !  
+Answering from my G Nexus, please excuse typos :-)  
+Refresh problem in eclipse : I configured the annotation processor to be an eclipse plugin project (onlt for dev purposes, not for the processor users). Then, you are able to run the processor in a new eclipse instance (run as > ...). In this new eclipse instance, you can import your test project. The annontation processor will be available in the processor list in the properties of your project.  
+If you run your project in debug, you can even benefit from hot code swapping, so as long as you don't change signatures, you can do a change in the processor and then just recompile the test project. You could also use JRebel to benefit from real hot code swappig. I didn't try yet but it's on my list.  
+But of course the real advantage of debug is to be able to put breakpoints, instead of logs (good old printf debugging...). It helped me a lot in understanding how the processor behaves (docs aren't always really clear) and also how to hack around some eclipse compiler bugs.  
+In your blog, you're saying that the API is a library project. Why not just a simple jar?  
+We started with templates too, but it became hard to manage when the number of combinaisons increased. So we swithed to CodeModel, a DSL to write java code that is way easier to use then the usual code ASTs.  
+Last but not least, I can't wait to see your ORM. It's something we've had on the list for quite a long time, but I wasn't sure about the best implementation and I didn't want to screw up such a big piece. Can't wait to see your implementation and.. maybe steal it ;-) .  
+Cheers,Py﻿  
+Hi David,  
+Well, you need a good computer, but I really prefer launcher a new Eclipse instance because it's a no brainer, just hit Run and voila. Way less error prone then all this Jar gymnastic. And it doesn't take THAT long, seriously.  
+It's quite easy to convert your project to a plugin, once you know how to do it... And you can use any standard Eclipse version.  
+This page was quite useful when I configured everything : http://code.google.com/p/acris/wiki/AnnotationProcessing_DebuggingEclipse  
+Although it's AndroidAnnotation' specific, you may find useful information on this page too : https://github.com/excilys/androidannotations/wiki/InstallingEnvironment  
+This is an extra project I had to set up, mainly to handle dependencies (Couldn't figure out how to have Eclipse deps mechanism talking to Maven) : https://github.com/excilys/androidannotations/tree/develop/androidannotations-dependencies  
+And of course there's also the main project : https://github.com/excilys/androidannotations/tree/develop/AndroidAnnotations/androidannotations  
+"I made the API a library because it includes some of the ORM runtime, as well." => It could still be a simple JAR, right ? It seems to me that the main advantage of library projects is to allow sharing of android resources, and usage of the R class in your library code. Maybe I missed the point.﻿f
