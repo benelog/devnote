@@ -1,0 +1,55 @@
+http://documents.bmc.com/products/documents/75/58/97558/97558.pdf[magic quadrant for Job Scheduling]
+
+http://www.gartner.com/it/products/mq/mq_ms.jsp[http://www.gartner.com/it/products/mq/mq_ms.jsp]
+
+== IBM Tivoli Business Systems Manager
+
+http://www-01.ibm.com/software/tivoli/products/scheduler/[http://www-01.ibm.com/software/tivoli/products/scheduler/]
+
+http://www-01.ibm.com/software/tivoli/library/demos/twa-demo.html[http://www-01.ibm.com/software/tivoli/library/demos/twa-demo.html]
+
+real-time alerts and user notifications,  
+self-monitoring,  
+self-healing,  
+automated recovery
+
+and user-defined event rules
+
+Dynamic triggering and optimization of plans
+
+Dynamic provisionng of resoures
+
+Dynamic starting and stopping of resources
+
+Auto discovery of resources
+
+management visility
+
+flexibility
+
+single point of control,
+
+single point of failure
+
+load balacing
+
+== Control M
+
+http://www.bmc.com/products/products_services_detail/0,,0_0_0_2,00.html[http://www.bmc.com/products/products_services_detail/0,,0_0_0_2,00.html]
+
+http://documents.bmc.com/products/documents/75/58/97558/97558.pdf
+
+agentless job scheduling
+
+Agent-Based Scheduling
+
+SSH, WMI
+
+Creates complex dependencies
+
+== PRO ETL
+
+Pro sort
+
+Open frame batch
+  
