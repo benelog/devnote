@@ -1,0 +1,151 @@
+http://www.onjava.com/pub/a/onjava/2004/11/24/replication1.html[Session Replication in Tomcat 5 Clusters, Part 1]
+
+== Performance
+
+http://www.solutionhacker.com/?p=147[Tomcat Performance Tuning]
+
+http://www.tomcatexpert.com/blog/2010/03/24/myth-or-truth-one-should-always-use-apache-httpd-front-apache-tomcat-improve-perform[http://www.tomcatexpert.com/blog/2010/03/24/myth-or-truth-one-should-always-use-apache-httpd-front-apache-tomcat-improve-perform]
+
+https://issues.apache.org/jira/browse/EL-5[https://issues.apache.org/jira/browse/EL-5]
+
+ tomcat 6에서는 EL 관련 라이브러리를 두가지를 사용하더군요.  
+http://apache.mirror.cdnetworks.com/tomcat/tomcat-6/v6.0.26/RELEASE-NOTES[http://apache.mirror.cdnetworks.com/tomcat/tomcat-6/v6.0.26/RELEASE-NOTES]  
+* el-api.jar (EL 2.1 API)  
+* jasper-el.jar (Jasper 2 EL implementation)  
+그 반면 tomcat 5.5에서는 apache commons에 있는 EL을 사용하고 있습니다.  
+http://apache.tt.co.kr/tomcat/tomcat-5/v5.5.29/RELEASE-NOTES[http://apache.tt.co.kr/tomcat/tomcat-5/v5.5.29/RELEASE-NOTES]
+
+https://www.safaribooksonline.com/library/view/Tomcat:+The+Definitive+Guide,+2nd+Edition/9780596101060/ch04.html#benchmark_results_for_serving_small_tex
+
+== Admin
+
+http://blog.naver.com/eclipse4j.do?Redirect=Log&logNo=120004176433[Tomcat 4/5.x 의 Administration tool을 보자.]
+
+http://blog.naver.com/hdyu12?Redirect=Log&logNo=10001167934[tomcat 5.5.9 에 admin 설치 하기]
+
+http://blog.naver.com/whitesky39?Redirect=Log&logNo=60017446373[Tomcat Admin]
+
+http://exoth.com/blog/219[Tomcat admin 활성화하기]
+
+http://wiki.javajigi.net/pages/viewpage.action?pageId=381[Tomcat 서버 설치 및 환경 세팅]
+
+http://blog.naver.com/harurun?Redirect=Log&logNo=120060048679[Tomcat 설정파일 server.xml 주석]
+
+== Tomcat context
+
+http://blog.naver.com/innoc99/140052476110[Tomcat에서 Context.xml을 이용한 자카르타 DBCP 설정]
+
+http://blog.naver.com/dulposooil/140047520131[Tomcat 5.5에서 context 설정]
+
+http://blog.naver.com/soulooso/60035921997[http://blog.naver.com/soulooso/60035921997]
+
+http://www.yunsobi.com/tt/subby/274[Tomcat 5.5 서버에 호스트 설정하기 :: Host Configuration on Tomcat 5.5]
+
+http://okjsp.pe.kr/seq/91825[단일 Tomcat 서버에서 가상 호스트 설정법과 각 호스트별 Manager 기능 설정]
+
+http://blog.naver.com/1b20/38447383[tomcat reloadable]
+
+=== Monitoring
+http://www.tuning-java.com/171[[jconsole] JConsoled을 사용해서 Tomcat 5.5 모니터링 하기]
+
+http://www.lambdaprobe.org/d/index.htm
+
+==== <font face="나눔고딕">User</font>
+
+<?xml version='1.0' encoding='utf-8'?>  
+<tomcat-users>  
+  <role rolename="manager"/>  
+  <role rolename="tomcat"/>  
+  <role rolename="admin"/>  
+  <role rolename="role1"/>  
+  <user username="both" password="tomcat" roles="tomcat,role1"/>  
+  <user username="tomcat" password="tomcat" roles="tomcat"/>  
+  <user username="role1" password="tomcat" roles="role1"/>  
+  <user username="admin" password="password" roles="admin,manager"/>  
+</tomcat-users>
+
+http://opensource.atlassian.com/confluence/spring/pages/viewpage.action?pageId=2669[Memory leaks where the classloader cannot be garbage collected]
+
+== Tomcat 7
+
+http://java.dzone.com/articles/mark-thomas-apache-tomcat-7[http://java.dzone.com/articles/mark-thomas-apache-tomcat-7]
+
+http://svn.apache.org/repos/asf/tomcat/tc7.0.x/tags/[http://svn.apache.org/repos/asf/tomcat/tc7.0.x/tags/]
+
+http://java.dzone.com/articles/memory-leak-protection-tomcat[http://java.dzone.com/articles/memory-leak-protection-tomcat]
+
+http://whiteship.me/2599[[톰캣] 톰켓 7의 메모리 누수 방지]
+
+http://svn.apache.org/repos/asf/tomcat/tc7.0.x/tags/[http://svn.apache.org/repos/asf/tomcat/tc7.0.x/tags/]
+
+http://tomcat.apache.org/tomcat-6.0-doc/aio.html[http://tomcat.apache.org/tomcat-6.0-doc/aio.html]
+
+http://www.tomcatexpert.com/blog/2011/01/26/cross-site-scripting-xss-prevention-tomcat-7[http://www.tomcatexpert.com/blog/2011/01/26/cross-site-scripting-xss-prevention-tomcat-7]
+
+== Tomcat classloader
+
+http://whiteship.me/2587[톰캣 6.0 클래스로더 구조]
+
+http://knight76.tistory.com/entry/sunmiscGC-%ED%81%B4%EB%9E%98%EC%8A%A4[http://knight76.tistory.com/entry/sunmiscGC-%ED%81%B4%EB%9E%98%EC%8A%A4]
+
+== Tomcat cookie 관련 버그
+
+https://issues.apache.org/bugzilla/show_bug.cgi?id=47429[https://issues.apache.org/bugzilla/show_bug.cgi?id=47429]
+
+http://tomcat.apache.org/tomcat-6.0-doc/changelog.html[http://tomcat.apache.org/tomcat-6.0-doc/changelog.html]
+
+== 설정구성
+
+http://www.tomcatexpert.com/blog/2010/06/16/deciding-between-modjk-modproxyhttp-and-modproxyajp[http://www.tomcatexpert.com/blog/2010/06/16/deciding-between-modjk-modproxyhttp-and-modproxyajp]
+
+http://www.infoq.com/presentations/Tuning-Tomcat-Mark-Thomas[http://www.infoq.com/presentations/Tuning-Tomcat-Mark-Thomas]
+
+http://www.infoq.com/presentations/Diagnosing-Memory-Leaks[http://www.infoq.com/presentations/Diagnosing-Memory-Leaks]
+
+http://wiki.apache.org/tomcat/MemoryLeakProtection[http://wiki.apache.org/tomcat/MemoryLeakProtection]
+
+== Security
+
+http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%3C4F155CDC.8050804@apache.org%3E[http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%3C4F155CDC.8050804@apache.org%3E]  
+http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%3C4F155CE2.3060301@apache.org%3E[http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%3C4F155CE2.3060301@apache.org%3E]
+
+==  SSL
+
+Tomcat에 SSL 인증서 설치하기 : http://whiteship.me/?p=13548[http://whiteship.me/?p=13548]
+
+== Tomcat maven plugin
+
+https://github.com/apache/tomcat-maven-plugin
+
+<plugin>  
+                <groupId>org.apache.tomcat.maven</groupId>  
+                <artifactId>tomcat6-maven-plugin</artifactId>  
+                <version>2.0</version>  
+            </plugin>  
+            <plugin>  
+                <groupId>org.codehaus.mojo</groupId>  
+                <artifactId>tomcat-maven-plugin</artifactId>  
+                <version>1.1</version>  
+                <configuration>  
+                    <path>/</path>  
+                </configuration>  
+            </plugin>  
+            <plugin>  
+                <groupId>org.apache.tomcat.maven</groupId>  
+                <artifactId>tomcat7-maven-plugin</artifactId>  
+                <version>2.1</version>  
+                <configuration>  
+                    <path>/</path>  
+                </configuration>  
+            </plugin>
+
+== Embeded WAS
+
+*   http://blog.benelog.net/2879657[Local 개발환경에서 WAS를 띄우는 여러가지 방법]
+*   http://www.slipp.net/wiki/pages/viewpage.action?pageId=16711743[eclipse에 embedded tomcat 연결] (박재성)
+
+        *   http://www.slipp.net/questions/208[IDE에서 embedded tomcat을 직접 실행할 때 발생하는 에러 해결]
+    *   http://www.slipp.net/questions/209[WTP 버리고 embedded tomcat 활용하자]
+*   https://github.com/benelog/tomcat-bed[UI 테스트에 Embeded Tomcat을 사용한 사례] (정상혁)
+
+        *   https://github.com/benelog/tomcat-bed/blob/master/tomcat-bed-test/src/test/java/net/benelog/tomcatbed/WebApplicationServer.java[WebApplicationServer.java]
