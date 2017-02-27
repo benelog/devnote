@@ -1,0 +1,6 @@
+lio=read.csv('aggr1.out',header=T)lio2=read.csv('aggr2.out')  
+R --slave < test.inpng('file.png')plot(price, amount,main="주 제목", sub="부 제목", xlab="x축 라벨", ylab="y축 라벨")dev.off()lio$dt<-strftime(lio$date, "%y-%m-%d")lio$dt<-as.Date(lio$date, "%Y-%m-%d")  
+plot(lio$dt,lio$login,col="red",type="l",xlab="날짜",ylab="횟수",main="PC Client")  
+plot(lio$login,col="blue",type="l",xlab="날짜",ylab="횟수",main="PC Client")lines(lio$logout,col="green",type="l")lines(lio$close,col="red",type="l")  
+lio=read.csv('aggr1.out',header=T)lio$dt<-as.Date(lio$date, "%Y-%m-%d")png("count-graph.png")plot(lio$dt, lio$login,col="blue",type="l",xlab="날짜",ylab="횟수",main="PC Client", lwd=3)lines(lio$dt, lio$logout,col="green",type="l", lwd=3)lines(lio$dt, lio$close,col="red",type="l", lwd=3)legend("topright",legend=c("Login","Logout","Close"),col=c("blue","green","red"),lty=1,lwd=2)dev.off();  
+R --slave < make-graph.r  
