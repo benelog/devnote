@@ -1,0 +1,27 @@
+|====
+| http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?curPage=1&menu_dist=2&seq=20640&dir_group_dist=0[1부 : 안드로이드 OS, 숨겨진 속살을 파고들다]
+
+http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?curPage=1&menu_dist=2&seq=20765&dir_group_dist=0[2부 : ‘디지털’ 증거의 ‘물리적’ 수집]
+
+http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?curPage=1&menu_dist=2&seq=20934&dir_group_dist=0[3부 : 일반적인 분석으로 못 얻는 증거 획득]
+
+http://www.ahnlab.com/kr/site/securityinfo/secunews/secuNewsView.do?curPage=2&menu_dist=2&seq=21051[4부 : 리눅스 기반의 안드로이드 리버싱 분석]
+
+== 마스터키취약점
+<ul><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">http://bluebox.com/corporate-blog/bluebox-uncovers-android-master-key/[http://bluebox.com/corporate-blog/bluebox-uncovers-android-master-key/]</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">http://www.esecurityplanet.com/mobile-security/inside-the-bluebox-android-master-key-vulnerability.html[http://www.esecurityplanet.com/mobile-security/inside-the-bluebox-android-master-key-vulnerability.html]</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">https://plus.google.com/116566869231688761472/posts/RCB6oD5jyj2[주민석님의 Master key 취약점 설명]</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">https://plus.google.com/101901704178116997887/posts/7E776UaLJVf[김용옥님의 Master key 취약점 설명]</li><li style="list-style: disc outside url(&quot;bullet.gif&quot;);">http://venturebeat.com/2013/07/03/massive-android-flaw-allows-hackers-to-take-over-and-control-99-of-android-devices/[http://venturebeat.com/2013/07/03/massive-android-flaw-allows-hackers-to-take-over-and-control-99-of-android-devices/]</li></ul>
+Verify Hamful apps 기능 : https://support.google.com/accounts/answer/2812853[https://support.google.com/accounts/answer/2812853]
+
+MasterKeys Check Installer : https://play.google.com/store/apps/details?id=com.alanjeon.blueboxcheck[https://play.google.com/store/apps/details?id=com.alanjeon.blueboxcheck]
+
+https://play.google.com/store/apps/details?id=com.alanjeon.blueboxcheck[]
+
+소스 :  https://github.com/skyisle/MasterKeysCheckInstaller  
+
+Patch 제공
+
+http://www.zdnet.com/google-releases-fix-to-oems-for-blue-security-android-security-hole-7000017782/
+
+http://www.hngn.com/articles/7289/20130709/android-master-key-google-pushes-patch-fix-4-year-old.htm
+
+http://www.techspot.com/news/53165-google-patches-master-key-android-flaw-ships-code-to-oems.html  
+  
