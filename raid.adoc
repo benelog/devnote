@@ -1,0 +1,9 @@
+RAID :http://ko.wikipedia.org/wiki/RAID[http://ko.wikipedia.org/wiki/RAID]
+
+* RAID 0 : 분산 저장. Data striping. 성능이 좋으나 복구능력 없음.
+* RAID 1 : Mirroring
+* RAID 0 +1 : Striping + Mirroring
+* RAID 2 : 에러 검출 느역이 없는 디스크를 위해 Hamming 오류정정코드 사용. SCSI 드라이브는 에러 검출능력을 갖고 있기 때문에 요즘은 사용되지 않음.
+* RAID 3 : Stripe + Parity Disk. 
+* RAID 4 : RAID 3을 Block단위 구현
+* RAID 5 : Parity Disk 배분  
