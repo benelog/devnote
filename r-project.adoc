@@ -1,0 +1,29 @@
+http://www.r-project.org/[http://www.r-project.org/] : R프로젝트 페이지
+
+http://www.sciviews.org/_rgui/[]http://www.sciviews.org/_rgui/[http://www.sciviews.org/_rgui/] : R package용 java GUI 관련 사이트
+
+http://tong.nate.com/asamaru/45743796[]http://tong.nate.com/asamaru/45743796[http://tong.nate.com/asamaru/45743796] : JSP에서 통계관련 GUI를 보여주는 예제
+
+ http://mimul.com/pebble/default/2011/11/30/1322652328196.html[http://mimul.com/pebble/default/2011/11/30/1322652328196.html] : Hadop + R로 apache 로그분석
+
+http://www.statmethods.net/[Quick R]
+
+Graph gallery
+
+http://www.floss4science.com/the-r-graphic-gallery/[http://www.floss4science.com/the-r-graphic-gallery/]
+
+http://addictedtor.free.fr/graphiques/[http://addictedtor.free.fr/graphiques/]
+http://www.sr.bham.ac.uk/~ajrs/R/r-gallery.html[http://www.sr.bham.ac.uk/~ajrs/R/r-gallery.html]
+
+=== 그래프 그리기
+
+http://www.remantu.com/r/graph/3d-scatter[3차원 산점도 그리기]
+
+> library(rgl) 
+
+> rgl.open()
+
+
+=== 함수
+
+*   rnom : 난수 생성
