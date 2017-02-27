@@ -1,0 +1,98 @@
+HP Fortify 에서 제공하는 보안 취약점 관련 자료 : http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html[http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html]  
+
+Toolskeytool -genkey -alias keyAlias -keyalg RSA -keypass pass0101 -storepass passwd0101 -keystore keystore.jks  
+
+http://www.owasp.org/index.php/WebScarab_Getting_Started[http://www.owasp.org/index.php/WebScarab_Getting_Started]
+
+http://mkseo.pe.kr/blog/?p=1743[Smart iframe attack]
+
+http://madchick.tistory.com/17[First Line of Defense for Web Applications..]
+
+http://blog.stochastictechnologies.com/secure-authentication-over-http[http://blog.stochastictechnologies.com/secure-authentication-over-http]
+
+====     
+Tool
+
+burp suite , Hamster
+
+네트워크 취약점 도구 : Nmap, Sscan, Mscan, Nessus
+
+==== Network 보안
+
+Switch Jamming : 위조된 MAC 주소를 지속적으로 네트워크에 전송하여 스위치 장비를 비정상적으로 동작시키는 공격. 스위칭 호브의 주소테이블을 넘치게 함. 대부분의 스위치 장비는 주소 테이블이 가득차게 되면 모든 네트워크 세그먼트로 트래픽을 브로드캐스팅하는 문제점이 있음.
+
+ARP Redirect : 위조된 ARP Reply 패킷을 네트워크에 전송하여 공격자 호스트를 라우터인 것처럼 가장하는 공격
+
+ARP Spoofing : 스니핑 하고자하는 호스트의 MAC주소로 ARP reply패킷을 가장하는 공격
+
+ICMP Redirect : ICMP Redirect ㅔ시지를 이용하여 라우터로 가장하는 공격
+
+==== IP 관련 취약점
+
+Land attack : Source Address와 Destination Adress를 동일하게 위조하여 패킷을 보내 시스템 자원을 고갈시키는 DoS공격
+
+==== DoS
+
+Smurf attack : Victim의 주소로 위장한 공격자가 ICMP Echo패킷을 네트워크에 브로드캐스팅하여 네트워크의 모든 호스트로부터 Reply를 받게하는 공격기법
+
+SYN Flooding : 존재하지 않는 호스트의 주소로 위장하여 SYN 패킷을 지속적으로 전송하여 Backlog 큐를 고갈시켜 더 이상의 서비스를 불가능하게 하는 기법
+
+UDP Flooding : 송신자의 주소를 속여 UDP패킷을 보내 루프를 생성하여 네트워크 트래픽을 증가시키는 공격기법
+
+ACL (Access Control List)
+
+== Linux checklist
+불필요한 서비스 확인 : chkconfig --listTimout 설정 :  /etc/profile TMOUT 1800경고문구 : vi /etc/motd권한 : lastlog (/var/log/lastlog 참조)last ( /var/log/wtmp 참조)lastb (/var/log/btmp 참조)w (/usr/bin/w )who (/usr/bin/who)users (/usr/bin/users)finger (/usr/bin/finger)dmesg (/bin/dmesg)ifconfig (/sbin/ifconfig)  
+chmod 700 /usr/bin/wchmod 700 /usr/bin/whochmod 700 /usr/bin/userschmod 700 /usr/bin/fingerchmod 700 /bin/dmesgchmod 700 /sbin/ifconfig  
+
+/etc/securetty 파일의 tty1, tty2와 vc/1, vc/2 이외의 값은 주석 처리  
+
+- /etc/securetty 파일의 설정을 변경하여 시스템에 접근 가능한 터미널에 수를 제한하기 위한 조치  
+B. /etc/profile의 ‘TMOUT’를 32400으로 설정  
+- root 사용자의 idle time 설정을 변경하여 자동 로그아웃하기 위한 설정임.  
+C. SSH(포트 22번)는 IP접근 제어  
+- iptables에 ssh 접근제어 룰 추가 또는 /etc/hosts.allow, /etc/hosts.deny 파일에 접근 제어할 IP 추가
+
+ 시스템 보안 영역 & 네트워크 보안 영역  
+A. /etc/issue 파일 내용을 삭제  
+- 시스템 OS 버전 / 호스트명 정보의 노출을 예방하기 위함.  
+B. boot/grub/grub.conf, /etc/lilo.conf 파일에 immutable 속성 설정  
+- 부트로더의 내용이 변경되는 것을 예방함  
+C. /etc/xinetd.d에서 telnet 서비스 실행 중지  
+- Telnet 서비스(23번 포트)가 실행 중임. Telnet 서비스는 보안상 취약한 서비스이므로 사용하지 않을 것을 권고
+
+A. 파일 퍼미션 644 : /etc/passwd  
+B. 파일 퍼미션 400 : /etc/shadow  
+C. 파일 퍼미션 644 : /etc/group  
+D. 파일 퍼미션 400 : /etc/gshadow  
+A. SUID, SGID를 제거 : /usr/bin/chage  
+B. SUID, SGID를 제거 : /usr/bin/gpasswd  
+C. SUID, SGID를 제거 : /usr/bin/wall  
+D. SUID, SGID를 제거 : /usr/bin/chfn  
+E. SUID, SGID를 제거 : /usr/bin/chsh  
+F. SUID, SGID를 제거 : /usr/bin/newgrp  
+G. SUID, SGID를 제거 : /usr/bin/write  
+H. SUID, SGID를 제거 : /usr/sbin/usernetctl  
+I. SUID, SGID를 제거 : /bin/mount  
+J. SUID, SGID를 제거 : /bin/umount  
+K. SUID, SGID를 제거 : /sbin/netreport"
+
+==== hash dos
+
+http://knight76.tistory.com/1567[http://knight76.tistory.com/1567]
+
+==== IIS
+
+http://secunia.com/advisories/35109[http://secunia.com/advisories/35109]
+
+http://technet.microsoft.com/en-us/security/advisory/971492[http://technet.microsoft.com/en-us/security/advisory/971492]
+
+==== PHP
+
+http://www.cvedetails.com/vulnerability-list/vendor_id-74/product_id-128/version_id-50739/PHP-PHP-5.2.5.html[http://www.cvedetails.com/vulnerability-list/vendor_id-74/product_id-128/version_id-50739/PHP-PHP-5.2.5.html]
+
+Open ssl
+
+http://p4ssion.com/426
+
+  
