@@ -13,3 +13,43 @@ the Design of Network-based Software Architectures by  Roy Thomas Fielding]
 * http://www.slideshare.net/gmind7/making-your-api-easy-to-document-with-spring-rest-docs
 ** 예제 : https://github.com/gmind7/spring-restdocs-seminar
 * https://speakerdeck.com/andreasevers/writing-comprehensive-and-guaranteed-up-to-date-rest-api-documentation-springone-platform-2016
+
+
+http://younghoe.info/1352[REST revisited]
+
+http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm[http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm]
+
+**Everything about REST web services - What and How**
+
+http://www.codeproject.com/KB/architecture/RESTWebServicesPart1.aspx[http://www.codeproject.com/KB/architecture/RESTWebServicesPart1.aspx]  
+**Everything about REST web services - Design**
+
+http://www.codeproject.com/KB/architecture/RESTWebServicesPart2.aspx[http://www.codeproject.com/KB/architecture/RESTWebServicesPart2.aspx]
+
+http://blog.openmaru.com/97[[maso 4월호] Open API계의 샛별, 오픈마루의 스프링노트 개발분투기]
+
+http://www.ibm.com/developerworks/kr/library/tutorial/j-rest/index.html[RESTful한 웹 서비스 만들기]
+
+http://humbleprogrammer.net/blog/?p=264[Open Resource. Open Web이 꾸는 Plaza의 꿈]
+
+http://humbleprogrammer.net/blog/?p=304[REST , 데이터와 데이터가 가장 간단하게 대화하는 방식]
+
+http://www.jaso.co.kr/333[RESTful 웹 서비스란?] 
+
+*   http://blogs.sun.com/enterprisetechtips/entry/implementing_restful_web_services_in[Implementing RESTful Web Services in Java]
+*   http://blogs.sun.com/enterprisetechtips/entry/configuring_json_for_restful_web[Configuring JSON for RESTful Web Services in Jersey 1.0]
+*   http://www.ibm.com/developerworks/webservices/library/ws-restful/index.html?ca=dgr-jw22RESTfulBasics&S_Tact=105AGX59&S_CMP=GRsitejw22[RESTful Web services: The basics]
+
+http://bcho.tistory.com/355[Oracle Product을 이용한 REST Service 구축]
+
+http://javacan.tistory.com/entry/ConvertServerObjectToDWRJsonObject[]
+
+http://bcho.tistory.com/348[REST Overview (Draft)]
+
+http://www.adobeflex.co.kr/iwt/attachFile/blog2/pdfTemp/RESTfulJava_JBoss.pdf[http://www.adobeflex.co.kr/iwt/attachFile/blog2/pdfTemp/RESTfulJava_JBoss.pdf]
+
+http://www.skill-guru.com/blog/2010/11/02/goodbye-soap-welcome-json-rest/[http://www.skill-guru.com/blog/2010/11/02/goodbye-soap-welcome-json-rest/]
+
+http://doortts.tistory.com/145[[dw Review] REST 서비스]
+
+http://ahnyounghoe.tistory.com/1392[한국 IBM DeveloperWorks에서 REST 학습하기]
