@@ -1,0 +1,161 @@
+== Spring 3.0
+
+* http://www.springify.com/archives/15[Live from SpringOne 2008: Collected bits about Spring 3.0]
+* http://toby.epril.com/?p=557[Spring 3.0 (1) 프로젝트 구조와 빌드 시스템의 변화]
+* http://toby.epril.com/?p=561[Spring 3.0 (2) R-518 스프링의 새 모듈 OXM(Object/XML Mapping)]
+* http://toby.epril.com/?p=573[Spring 3.0 (3) R-543 Portlet Mocks, MVC 등등]
+* http://toby.epril.com/?p=576[Spring 3.0 (4) - Maven에서 Spring 3.0 최신버전 사용하기]
+* http://toby.epril.com/?p=598[Spring3.0 (5) - 스프링 모듈의 의존관계]
+* http://toby.epril.com/?p=614[Spring 3.0 (8) Core 모듈의 선택 라이브러리 분석]
+* http://toby.epril.com/?p=618[Spring 3.0 (10) AOP 모듈의 선택 라이브러리 분석]
+* http://toby.epril.com/?p=620[Spring 3.0 (11) Aspects 모듈의 선택 라이브러리 분석]
+* http://chanwook.tistory.com/758[로든 존슨 감독의 인터뷰 시청]
+* http://whiteship.me/2151[Petclinic을 통해 스프링 3.0 주요기능 살펴보기]
+* http://whiteship.me/2190[OpenSprout Nexus 이용하여 스프링 3.0 라이브러리 추가하기]
+* http://www.opensprout.org:9060/browse/OSAF/osaf/trunk[http://www.opensprout.org:9060/browse/OSAF/osaf/trunk]
+* http://whiteship.tistory.com/1966[Spring 2.5 on the Way to 3.0 - 유겐 휄러]
+* http://whiteship.me/2199[What's new in Spring 3.0?]
+* http://whiteship.me/2423[[스프링 3.0] @Valid 이론]
+* http://whiteship.me/2424[[스프링 3.0] @Valid 실습]
+* http://whiteship.tistory.com/2397[스프링 3.0] 애노테이션 기반 스케줄링]
+
+==== Spring and Java EE5 
+* http://www.infoq.com/presentations/Spring-and-Java-EE-6-Jurgen-Holler[Spring and Java EE 6]
+
+Spring on J2EE 1.3
+
+Java EE server as deployment plaform and system service provider
+
+Spring as business component framework and infrasturucal orchestrator
+
+upgrade: like system s/w, DB system
+
+deloyment platform
+
+java EE5
+
+more than just a d3eployment platform with system service
+
+user-lvel component model
+
+
+== Spring 3.1
+* http://static.springsource.org/spring-framework/docs/3.1.x/spring-framework-reference/html/new-in-3.1.html 
+* http://static.springsource.org/spring-framework/docs/3.1.x/spring-framework-reference/html/migration-3.1.html  
+* http://static.springsource.org/spring/docs/3.1.x/changelog.txt  
+* http://static.springsource.org/spring-framework/docs/3.0.6.RELEASE_to_3.1.0.BUILD-SNAPSHOT/  
+* http://static.springsource.org/spring-framework/docs/3.1.x/javadoc-api/deprecated-list.html  
+
+@MVC 하위 호환성 이슈  
+
+Spring @MVC에서 3.0 -> 3.1 업그레이드는  WebArgumentResolver, HandlerInterceptor 관련해서 하위 호환성 이슈가 있습니다.  @MVC의 기반구조 변화는 어플리케이션 동작에 영향을 줍니다.   
+
+WebArgumentResolver와 HandlerInterceptor 모두 <mvc:annotation-driven/>을 쓸때는 주의해야합니다.   
+
+<mvc:annotation-driven/>에 의해 등록되는 MVC기반 클래스들이 아래와 같이 바뀌었기 때문인데요,   
+
+- HandlerMapping : DefaultAnnotationHandlerMapping -> RequestMappingHadlerMapping  
+
+- HadlerAdaptor : AnnotationMethodHandlerAdapter -> RequestMappingHandlerAdapter  
+
+- HandlerExceptionResolver : AnnotationMethodHandlerExceptionResolver -> ExceptionHandlerExceptionResolver  
+
+ <mvc:annotation-driven/>을 선언 안 했을 때는 기본 사용 클래스는 변함이 없으므로 기존의 하위 호환성이 유지됩니다.   
+
+마찬기지로  <mvc:annotation-drive/> 대신 AnnotationMethodHandlerAdapter, DefaultAnnotationHandlerMapping를 수동으로 등록해도 마찬가지로 기존 클래스 동작에 변화가 없습니다.  
+
+그러나 <mvc:annotation-driven/> 선언을 쓰고 있다면  더 이상 AnnotationMethodHandlerAdapter, DefaultAnnotationHandlerMapping가 쓰이지 않습니다.   
+
+이렇게 바뀐 이유는 메서드 단위의 URL매핑에 보다 자연스러운 구조를 지원하기 위해서인데요..  
+
+토비의 Spring 3.1 VOl2의 '4.9 스프링 3.1의 @MVC (p633-669)'에 자세히 설명되어 있습니다.  
+
+WebArgumentResolver 관련   
+
+우선 WebArguemtResolver는 HandlerMethodArgumentResolver로 대처되었습니다.  
+
+같은 역할이면 HandlerMethodArgumentResolver로 새로 구현하는게 좋지만  WebArguemtResolver도 쓸 수 있도록 지원은 됩니다.  
+
+그러나 3.1에서 WebArgumentResolver를 그대로 쓰면 아래와 같은 차이점이 있습니다..  
+
+1. WebArguementResolver에서 Exception이 발생하면 무시된다.(http://blog.naver.com/PostView.nhn?blogId=clotho95&logNo=140144711547 참조 )  
+
+2. WebArguemtResolver가 HandlerInterceptor보다 먼저 호출된다.   
+
+만약 <mvc:annotation-driven/>  + WebArguementResolver를 쓰는곳이 있다면 HandlerMethodArgumentResolver로 인터페이스를 바꿀 것을 권장합니다.  
+
+HandlerInterceptor 관련  
+
+<mvc:annotation-drive/> 을 쓸 경우 HandlerInterceptor에서 preHandle에 넘어오는 3번째 Parameter가 HandlerMethod의 형으로 넘어옵니다.  
+
+
+public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {  
+
+
+}
+
+
+역시나 <mvc:annotation-driven/> 과 HandlerInterceptor를 같이 쓰면서 이 3번째 Object handler 메서드 파라미터를 활용하고 있다면 주의해야 합니다.  
+
+<font face="나눔고딕, NanumGothic, 맑은 고딕, AppleGothic, 돋움">3.1에서는 </font><context:property-placeholder />으로 기본 등록되는 bean이 <font face="나눔고딕, NanumGothic, 맑은 고딕, AppleGothic, 돋움">PropertyPlaceholderConfigurer에서 PropertySourcesPlaceholderConfigurer로 바뀌었습니다.</font>
+
+
+Properties파일을 직접 지정할 경우 동작은 거의 동일한데 없는 속성이 선언될경우 보다 적극적으로 에러를 내어 줍니다.</font>
+
+<font face="나눔고딕, NanumGothic, 맑은 고딕, AppleGothic, 돋움" style="font-size: 9pt;">그리고 </font><font face="나눔고딕, NanumGothic, 맑은 고딕, AppleGothic, 돋움">Spring 3.1.0 ~ 3.1.3 버전에서는  Properties XML 선언과 관련된 버그가 있으니 유의해야 합니다.</font>
+
+=== 스프링소스 블로그의 관련 자료  
+
+* http://blog.springsource.org/2011/02/11/spring-framework-3-1-m1-released/
+* http://blog.springsource.org/2011/02/14/spring-3-1-m1-introducing-profile/
+* http://blog.springsource.org/2011/02/15/spring-3-1-m1-unified-property-management/
+* http://blog.springsource.org/2011/06/09/spring-framework-3-1-m2-released/
+* http://blog.springsource.org/2011/06/10/spring-3-1-m2-configuration-enhancements/
+* http://blog.springsource.org/2011/06/21/spring-3-1-m2-testing-with-configuration-classes-and-profiles/
+* http://blog.springsource.org/2011/10/12/spring-framework-3-1-rc1-released/
+* http://blog.springsource.org/2011/12/13/spring-framework-3-1-goes-ga/
+* http://blog.springsource.org/2012/04/06/migrating-to-spring-3-1-and-hibernate-4-1/  
+
+=== Toby님의 Spring 3.1 분석 자료
+
+* http://toby.epril.com/?p=1168[스프링 3.1 (1) JavaConfig의 위험성]
+* http://toby.epril.com/?p=1172[스프링 3.1 (2) HandlerInterceptor의 적용순서]
+* http://toby.epril.com/?p=1174[스프링 3.1 (3) @Enable~]
+* http://toby.epril.com/?p=1177[스프링 3.1 (4) Static @Bean 메소드]
+* http://toby.epril.com/?p=1179[스프링 3.1 (5) @Enable*을 이용한 설정 재활용 기법 세미나 동영상 & 자료]
+* http://toby.epril.com/?p=1188[스프링 3.1 (6) web.xml의 활성 프로파일 설정]
+* http://toby.epril.com/?p=1191[스프링 3.1 (7) 프로퍼티 소스 추상화와 PropertySourcePlaceholderConfigurer]
+* http://toby.epril.com/?p=1205[스프링 3.1 (8) web.xml 없는 스프링 개발]
+* http://toby.epril.com/?p=1207[스프링 3.1 (9) 애노테이션은 상속되지 않는다?]
+* http://toby.epril.com/?p=1210[스프링 3.1 (10) 심심풀이 @RequestMapping 요청 조건 퀴즈]
+* http://toby.epril.com/?p=1212[스프링 3.1 (11) 심심풀이 @RequestMapping 요청 조건 퀴즈 풀이]  
+
+== Spring 3.2
+
+http://static.springsource.org/spring-framework/docs/3.2.x/spring-framework-reference/html/new-in-3.2.html  
+http://static.springsource.org/spring-framework/docs/3.2.0.RELEASE/spring-framework-reference/html/migration-3.2.html  
+http://static.springsource.org/spring/docs/3.2.x/changelog.txt  
+
+http://static.springsource.org/spring-framework/docs/3.2.x/javadoc-api/deprecated-list.html  
+
+JDIFF : http://static.springsource.org/spring-framework/docs/3.1.3.RELEASE_to_3.2.0.RELEASE/  
+
+http://blog.springsource.org/2012/05/10/spring-mvc-3-2-preview-making-a-controller-method-asynchronous/  
+
+=== 스프링소스 블로그의 관련 자료  
+* http://blog.springsource.org/2012/05/06/spring-mvc-3-2-preview-introducing-servlet-3-async-support/
+* http://blog.springsource.org/2012/05/08/spring-mvc-3-2-preview-techniques-for-real-time-updates/
+* http://blog.springsource.org/2012/05/10/spring-mvc-3-2-preview-making-a-controller-method-asynchronous/  
+* http://blog.springsource.org/2012/05/13/spring-mvc-3-2-preview-adding-long-polling-to-an-existing-web-application/  
+* http://blog.springsource.org/2012/11/05/spring-framework-3-2-rc1-released/  
+* http://blog.springsource.org/2012/11/12/spring-framework-3-2-rc1-spring-mvc-test-framework/  
+* http://blog.springsource.org/2012/12/13/spring-framework-3-2-goes-ga/  
+
+RequestMappingHandlerAdapter에서 supportInternal 메소드 변화
+
+https://github.com/SpringSource/spring-framework/commit/acc75aa4b898a34dce42748df5b54624f8b3e9f2[https://github.com/SpringSource/spring-framework/commit/acc75aa4b898a34dce42748df5b54624f8b3e9f2]  
+
+== Spring 4.0
+* http://blog.springsource.org/2013/05/21/spring-framework-4-0-m1-3-2-3-available/  
+* http://blog.springsource.org/2013/05/22/spring-framework-4-0-m1-websocket-support/  
+
