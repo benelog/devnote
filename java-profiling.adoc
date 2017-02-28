@@ -14,13 +14,13 @@ http://www.java2s.com/Open-Source/Java-Document/6.0-JDK-Modules-sun/tools/sun/to
 
 http://www.java2s.com/Open-Source/Java-Document/6.0-JDK-Modules-sun/jvmstat/sun.jvmstat.monitor.htm[http://www.java2s.com/Open-Source/Java-Document/6.0-JDK-Modules-sun/jvmstat/sun.jvmstat.monitor.htm]
 
-=== Btrace
+== Btrace
 http://kenai.com/projects/btrace/pages/Home  
 http://eggboy.egloos.com/1866372  
 http://piotrnowicki.com/2012/05/btrace-a-simple-way-to-instrument-running-java-applications/[http://piotrnowicki.com/2012/05/btrace-a-simple-way-to-instrument-running-java-applications/]  
 http://www.javacodegeeks.com/2012/06/introduction-to-btrace-for-java.html[http://www.javacodegeeks.com/2012/06/introduction-to-btrace-for-java.html]  
 
-==== Visual VM
+== Visual VM
 
 http://www.tuning-java.com/248[[Java Visual VM] JDK에 포함된 무료 프로파일링 툴]
 
@@ -32,7 +32,7 @@ http://tinywolf.tistory.com/105[JavaTool] 유용한 자바툴 - jvisualvm]
 
 http://www.skill-guru.com/blog/2010/11/11/troubleshooting-application-performance-with-visualvm/[Troubleshooting application performance with VisualVM]
 
-==== Hprof (Heap And CPU Profiling Agent)
+== Hprof (Heap And CPU Profiling Agent)
 
 http://java.sun.com/developer/technicalArticles/Programming/HPROF.html[http://java.sun.com/developer/technicalArticles/Programming/HPROF.html]
 
@@ -47,7 +47,7 @@ http://wiki.ex-em.com/index.php/HProf[http://wiki.ex-em.com/index.php/HProf]
 
 java -agentlib:hprof=heap=dump,format=b,file=heapdump.hprof,doe=n HoldMemory
 
-==== Jstat
+== Jstat
 
 jstat -gcutil
 
@@ -59,11 +59,11 @@ jps는 /tmp/hsperfdata_계정명 으로 임시 파일들을 저장하는데. 이
 
 /etc/cron.daily/tmpwatch
 
-==== JConsole
+== JConsole
 
 http://tinywolf.tistory.com/104[http://tinywolf.tistory.com/104]
 
-==== Heap Analyzer
+== Heap Analyzer
 
 http://www-1.ibm.com/support/docview.wss?uid=swg27006624&aid=1[http://www-1.ibm.com/support/docview.wss?uid=swg27006624&aid=1]
 
@@ -79,7 +79,7 @@ GC 상태 그래프 : http://www.alphaworks.ibm.com/tech/pmat[http://www.alphawo
 MAT : http://www.eclipse.org/mat/[http://www.eclipse.org/mat/]
 MAT + IBM Heap analyzer : http://web-dev.tistory.com/623[http://web-dev.tistory.com/623]
 
-==== Thread dump
+== Thread dump
 
 http://yusuke.homeip.net/samurai/en/index.html[http://yusuke.homeip.net/samurai/en/index.html]
 
@@ -110,7 +110,7 @@ ps -mo pid,lwp,stime,time,pcpu -p javapid
 *   Python> print hex(6860)
 *   Bash> echo "obase=16;6860" | bc
 
-==== Headump option  
+== Headump option  
 
 -XX:+HeapDumpOnOutOfMemoryError
 
@@ -118,7 +118,7 @@ ps -mo pid,lwp,stime,time,pcpu -p javapid
 
 -XX:OnError="gcore%p"
 
-=== **Jmap**  
+== Jmap
 
 덤프파일생성   
 
@@ -130,7 +130,7 @@ ps -mo pid,lwp,stime,time,pcpu -p javapid
 
     jmap -dump:format=b,file=jvm.hprof  jvm.core  /jdk/bin/java   
 
-=== Jhat  
+== Jhat  
 
 jhat <dumpFileName>
 
@@ -146,33 +146,27 @@ http://blogs.atlassian.com/2013/03/so-you-want-your-jvms-heap/[<font color="#006
 
 jmap -histo:live <pid>
 
-==== JRat
-
+== JRat
 http://jrat.sourceforge.net/[http://jrat.sourceforge.net/]
 
-==== JIP
-
+== JIP
 http://jiprof.sourceforge.net/[http://jiprof.sourceforge.net/]  
 http://www.ibm.com/developerworks/java/library/j-jip/[http://www.ibm.com/developerworks/java/library/j-jip/]
 
-=== oktech-profiler
-
+== oktech-profiler
 http://code.google.com/p/oktech-profiler/[http://code.google.com/p/oktech-profiler/]
 
 Monkey Wrench  
 http://www.gorillalogic.com/monkeywrench[http://www.gorillalogic.com/monkeywrench]
 
-==== Your kit
-
+== Your kit
 http://www.yourkit.com/[http://www.yourkit.com/]
 
-==== Java allocation instrumenter
-
+== Java allocation instrumenter
 http://code.google.com/p/java-allocation-instrumenter/[http://code.google.com/p/java-allocation-instrumenter/]
 
 == APM
-
- http://www.javaperformancetuning.com/articles/apm1b.shtml[http://www.javaperformancetuning.com/articles/apm1b.shtml]
+http://www.javaperformancetuning.com/articles/apm1b.shtml[http://www.javaperformancetuning.com/articles/apm1b.shtml]
 
 자원사용량으로 Applicatino 성능저하를 설명하기 어려움  애플리케이션 서비스가 필요로 하는 자원 중에 단 하나라도 부족하면 수행될 수 없음
 
@@ -192,25 +186,18 @@ OS나 시스템S/W는 H/W나 다른 하위 S/W 리소스를 Warping하여
 
 외부리소스를 사용하는 클래스/메소드 연계지점
 
-==== Jenifer
-
+== Jenifer
 http://blog.openframework.or.kr/82[Jennifer 4.0 사용기]
 
 http://blog.naver.com/firebats?Redirect=Log&logNo=30039537369&vid=0[http://blog.naver.com/firebats?Redirect=Log&logNo=30039537369&vid=0]
 
-==== Spring insight
-
- http://www.infoq.com/interviews/travis-springinsight[http://www.infoq.com/interviews/travis-springinsight]
+== Spring insight
+http://www.infoq.com/interviews/travis-springinsight[http://www.infoq.com/interviews/travis-springinsight]
 
 http://static.springsource.com/projects/tc-server/2.0/devedition/html/ch04s04.html[http://static.springsource.com/projects/tc-server/2.0/devedition/html/ch04s04.html]
 
-==== Sigar
 
-http://www.javapattern.info/346[http://www.javapattern.info/346]
-
-http://support.hyperic.com/display/SIGAR/Home[http://support.hyperic.com/display/SIGAR/Home]
-
-==== Byteman
+== Byteman
 
 http://www.jboss.org/byteman/[http://www.jboss.org/byteman/]
   
