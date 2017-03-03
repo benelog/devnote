@@ -1,0 +1,92 @@
+Java performance fundmental 교재 : http://performeister.tistory.com/category/Performance[http://performeister.tistory.com/category/Performance]  
+http://jikesrvm.org/[http://jikesrvm.org/]
+http://ukja.tistory.com/category/Enterprise%20Java[http://ukja.tistory.com/category/Enterprise%20Java]
+
+http://ukja.tistory.com/category/Enterprise%20Java[https://github.com/AdoptOpenJDK/jitwatch  
+]
+
+== JVM위에서 돌아가는 언어
+
+http://www.is-research.de/info/vmlanguages/[Programming Languages for the Java Virtual Machine]
+
+http://skyul.tistory.com/275[Da Vinci Machine]
+
+ http://en.wikipedia.org/wiki/List_of_JVM_languages[http://en.wikipedia.org/wiki/List_of_JVM_languages]
+
+== JVM 관련 서적
+
+Inside of Java Virtual Machine :
+
+http://www.artima.com/insidejvm/resources/index.html[http://www.artima.com/insidejvm/resources/index.html]
+
+http://www.artima.com/insidejvm/ed2/jvm.html[http://www.artima.com/insidejvm/ed2/jvm.html]
+
+== ClassLoader
+
+http://benelog.springnote.com/pages/314014/attachments/129468[7._Chapter21_-_ClassLoaders_and_J2EE.pdf]
+
+Inside Class Loaders : http://www.onjava.com/pub/a/onjava/2003/11/12/classloader.html[http://www.onjava.com/pub/a/onjava/2003/11/12/classloader.html]
+
+http://www.ibm.com/developerworks/kr/series/j-dclp.html?ca=dnn-krt-20071226[http://www.ibm.com/developerworks/kr/series/j-dclp.html?ca=dnn-krt-20071226]
+
+http://twit88.com/blog/2007/10/04/java-dynamic-loading-of-class-and-jar-file/[Java - Dynamic loading of class and jar file]
+
+http://www.javaworld.com/javaworld/javatips/jw-javatip70.html[Java Tip 70: Create objects from jar files!]
+
+http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4957990[PermHeap bloat in and only in server VM]
+
+http://www.ibm.com/developerworks/java/library/j-dyn0429/[Java programming dynamics, Part 1: Java classes and class]
+
+http://www.yunsobi.com/tt/subby/136[CLASSPATH에 없는 클래스 로딩]
+
+http://whiteship.me/?p=12653[[자바 클래스 릴로딩 101] 객체, 클래스, 클래스로더]
+
+http://whiteship.me/?p=12656[[자바 클래스 릴로딩 201] 클래스로더 누수가 어떻게 발생하는가]
+
+http://whiteship.me/?p=12658[[자바 클래스 릴로딩 301] 톰캣, 글래스피쉬, OSGi, Tapestry 5 등 웹 배포시 클래스로더]
+
+http://whiteship.me/?p=12661[[자바 클래스 릴로딩 401] HotSwap과 JRebel]
+
+http://www.zeroturnaround.com/blog/video-do-you-really-get-class-loaders-a-jazoon-talk-by-jevgeni-kabanov/[http://www.zeroturnaround.com/blog/video-do-you-really-get-class-loaders-a-jazoon-talk-by-jevgeni-kabanov/]
+
+== 메모리
+
+http://cafe.naver.com/wkqk2.cafe?iframe_url=/ArticleRead.nhn%3Farticleid=85[자바 객체 생성시의 메모리 저장소]
+
+http://blog.naver.com/swucs/40011983402[JAVA(J2SE 1.4.1) 메모리 영역 구조]
+
+http://www.jaso.co.kr/190[64 bits JVM vs. 32 bits JVM]
+
+http://kr.sun.com/developers/tech_docs/wireless_web06/wireless02.html[JDK 1.4.1에서의 Heap배정]
+
+http://java.sun.com/j2se/1.5.0/docs/guide/vm/class-data-sharing.html[Class Data Sharing]
+
+http://www.codeinstructions.com/2008/12/java-objects-memory-structure.html[Code Instructions: Java Objects Memory Structure]
+
+https://www.ibm.com/developerworks/kr/library/j-memusage/[자바 애플리케이션의 Windows 메모리 사용 관리 방법]
+
+== 성능 최적화
+
+http://skyul.tistory.com/313[Dynamic Profiling]
+
+http://www.ics.uci.edu/~franz/Site/pubs-pdf/ICS-TR-07-10.pdf[Efficient Just-In-Time Execution of Dynamically Typed Languages Via Code Specialization Using Precise Runtime Type Inference]
+
+http://skyul.tistory.com/316[method inlining and deoptimization]
+
+http://java.sun.com/developer/technicalArticles/Networking/HotSpot/inlining.html[The Java HotSpot Performance Engine: Method Inlining Example]
+
+http://blog.java2game.com/191[핫스팟VM의 메소드 인라이닝]
+
+== 컴파일
+
+http://skyul.tistory.com/334[자바 컴파일러 들여다보기]
+
+http://moai.tistory.com/796[자바 바이트코드 이야기 - 디컴파일]
+
+http://moai.tistory.com/797[자바 바이트코드 활용하기 - 바이트코드 조회]
+
+http://whiteship.me/2304[클래스파일 보기]
+
+http://www.tuning-java.com/417[자바의 JIT가 어떻게 컴파일이 되는지 보고 싶다면...]   
+
+http://daniel.mitterdorfer.name/talks/2015/jvm-deep-dive-ljug/
