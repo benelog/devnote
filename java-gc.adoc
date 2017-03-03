@@ -235,3 +235,38 @@ http://blogs.sun.com/fkieviet/entry/classloader_leaks_the_dreaded_java[http://bl
 ==== Static
 
 http://blog.naver.com/parnx/140054010739[Java의 가비지 콜렉션 & Static Variable]
+
+
+==== VM options
+
+http://java.sun.com/javase/technologies/hotspot/vmoptions.jsp[<font color="#0000ff">http://java.sun.com/javase/technologies/hotspot/vmoptions.jsp</font>]
+
+http://blogs.sun.com/watt/resource/jvm-options-list.html[http://blogs.sun.com/watt/resource/jvm-options-list.html] : 튜닝 참고
+
+http://bcho.tistory.com/entry/XXPretenureSizeThreshold
+
+http://www.jaso.co.kr/162[JVM 옵션 중 PermSize 관련]
+
+http://blogs.sun.com/watt/resource/jvm-options-list.html[http://blogs.sun.com/watt/resource/jvm-options-list.html]
+
+http://wiki.ex-em.com/index.php/JVM_Options[http://wiki.ex-em.com/index.php/JVM_Options]  
+
+http://java.sun.com/docs/hotspot/gc5.0/gc_tuning_5.html[http://java.sun.com/docs/hotspot/gc5.0/gc_tuning_5.html]
+
+http://java.sun.com/performance/reference/whitepapers/tuning.html[http://java.sun.com/performance/reference/whitepapers/tuning.html]
+
+http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf[<font color="#0000ff" face="'맑은 고딕'" size="2">http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf</font>]
+
+
+== 자주쓰는 option
+
+-XX:PermSize=128m -XX:MaxPermSize=256m
+
+-XX:+CMSClassUnloadingEnabled :  쓰지 않는 클래스 정보 unloading
+
+-XX:+CMSPermGenSweepingEnabled : 
+
+
+http://www.webmin.com/
+
+http://www.ibm.com/developerworks/kr/library/j-5things11/index.html[JVM의 명령행 플래그에 대해 모르고 있던 5가지 사항]
