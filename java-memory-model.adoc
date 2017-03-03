@@ -1,0 +1,42 @@
+이는 Java lanauge spec에 정의된 java 메모리 모델 때문인데, 각 쓰레드가 사용하는 작업 메모리(Working memory)와 모든 쓰레드가 공유하는 주메모리(Main memory)의 개념이 분리되어 있습니다. 작업 메모리에는 각 변수의 복사본(Working copy)가 있고, lock의 획득하면 주메모리에서 working 메모리로 값을 읽어오고, lock을 해제하면 주메모리에 값을 쓰는 작업이 보장이 됩니다. 이런 작업 메모리에 쓰이는 값들이 실제로 어떤 레벨에서 저장될지는 Java memory model에서 딱 찦어서 말하지는 않습니다. 즉 CPU레벨의 레시스터, 컴파일러에 의한 처리, 프로세스 캐쉬 어느 곳이든 가능하고, 그런 것들은 class,object, method레벨보다는 하위레벨 수준의 작업입니다. Java memory model은 thread와 메인메모리간의 추상적인 관계를 정의하고만 있습니다.
+
+(참고자료 3의 'The model does not specifically address whether the kinds of execution tactics discussed above are performed by compilers, CPUs, cache controllers, or any other mechanism.  It does not even discuss them in terms of classes, objects, and methods familiar to programmers. Instead, the model defines an abstract relation between threads and main memory.' )
+
+ 또 하나, 최적화 기법으로 명령어 재배치가 있기 때문에 순차적으로 생각하면 일어날수 없는 일이 multi thread에서 생기기도 합니다.
+
+ 아래와 같은 코드가
+
+<font face="gulim" size="2"> while (!done)</font>
+
+<font face="gulim" size="2">  i++;</font>
+
+<font face="gulim" size="2">  
+</font>
+
+<font face="gulim" size="2"> 아래와 같이 바뀔 수도 있는 것이죠</font>
+
+<font face="gulim" size="2">if (!done)</font>
+
+<font face="gulim" size="2">while (true)</font>
+
+volatile은 모든 쓰레드가 공유하는 항상 최신의 값을 보장하는 의미라고 보시면 됩니다. 다만 그만큼의 비용이 있으니 synchronized와 마찬가지 수준의 성능저하가 있다고 합니다.
+
+== 참고자료
+* 참고자료1: volatile과 명령어 재배치 : http://mkseo.pe.kr/blog/?p=475[http://mkseo.pe.kr/blog/?p=475]
+* 참고자료2: Java Language spec의 memory 부분 :  http://java.sun.com/docs/books/jls/second_edition/html/memory.doc.html[http://java.sun.com/docs/books/jls/second_edition/html/memory.doc.html]
+* 참고자료3:  Java memory model http://g.oswego.edu/dl/cpj/jmm.html[http://g.oswego.edu/dl/cpj/jmm.html]
+
+
+== Java memory model
+자바 메모리모델과 스레드 : http://www.javadom.com/tutorial/maso_tech_column/memory_model.html[http://www.javadom.com/tutorial/maso_tech_column/memory_model.html]
+
+
+http://java.sun.com/docs/books/jls/second_edition/html/memory.doc.html[http://java.sun.com/docs/books/jls/second_edition/html/memory.doc.html]
+
+http://g.oswego.edu/dl/cpj/jmm.html[http://g.oswego.edu/dl/cpj/jmm.html]
+
+http://www.cs.umd.edu/~pugh/java/memoryModel/[http://www.cs.umd.edu/~pugh/java/memoryModel/]
+
+http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html#whatismm[http://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html#whatismm]
+
+http://www.cs.umd.edu/~pugh/java/memoryModel/jsr133.pdf[http://www.cs.umd.edu/~pugh/java/memoryModel/jsr133.pdf]
