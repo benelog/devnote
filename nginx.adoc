@@ -4,6 +4,8 @@ http://www.javajigi.net/pages/viewpage.action?pageId=257327108[http://www.javaji
 
 http://www.o3magazine.com/4/a/0/2.html[Open Source SSL Acceleration]
 
+## URL rewrite
+https://www.nginx.com/blog/creating-nginx-rewrite-rules/
 
 ## Service
 
