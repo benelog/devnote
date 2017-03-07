@@ -8,6 +8,9 @@
 * http://slides.com/roto/react-js-live-service#/[React.js 실서비스 적용기]
 * https://spoqa.github.io/2015/09/09/react-guide-01.html
 
+=== Props, State
+* https://velopert.com/921
+
 == Server side rendering
 * http://subicura.com/2016/06/20/server-side-rendering-with-react.html
 
