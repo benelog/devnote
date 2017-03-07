@@ -23,5 +23,5 @@ http://www.cowtowncoder.com/blog/archives/2009/09/entry_326.html
 http://geek.amindstretched.com/2012/07/gson-vs-jackson-which-library-is-faster.html  
 
 == Jackson 사용팁
-
-http://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion  
+* http://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion  
+* http://eglowc.tistory.com/28[@JsonProperty 를 이용한 접근 제어 - 응답값에 포함하지 않기]
