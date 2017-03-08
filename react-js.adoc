@@ -11,6 +11,18 @@
 === Props, State
 * https://velopert.com/921
 
+=== Lifecycle method
+* constructor
+* getChildContext
+* componentWillMount : ES6 에서는 사용할 일 없음
+* componentDidMount
+* componentWillReceiveProps
+* shouldComponentUpdate
+* componentWillUpdate
+* componentDidUpdate
+* componentWillUnmount
+* render
+
 == Server side rendering
 * http://subicura.com/2016/06/20/server-side-rendering-with-react.html
 
