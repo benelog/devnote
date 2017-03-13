@@ -10,8 +10,9 @@ resident in the Component. These services define behavior offered by instances o
 * http://www.moreagile.net/2014/10/microservices.html
 * http://www.popit.kr/why-microservice/
 * http://www.slideshare.net/JoshEvans2/mastering-chaos-a-netflix-guide-to-microservices
+* http://basho.com/posts/technical/microservices-please-dont/
 
-아키텍트의 역할
+== 아키텍트의 역할
 
 Meet the achitect http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml[http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml]
 
