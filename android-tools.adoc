@@ -1,0 +1,153 @@
+http://developer.android.com/tools/help/index.html 참조
+
+각종 쉘명령어 : http://dryang.egloos.com/viewer/4013509   
+
+== Profiling
+
+=== Traceview
+
+메소드별 프로파일링 도구 . ADT에 통합되어 있음 
+
+http://developer.android.com/tools/help/traceview.html[http://developer.android.com/tools/help/traceview.html]
+
+http://developer.android.com/tools/debugging/debugging-tracing.html[http://developer.android.com/tools/debugging/debugging-tracing.html]
+
+GC, FinalizerDdaemon 스데드를 눈여겨 볼것. 이 스레드가 시간을 많이 먹는다면 불필요한 객체가 많다는 신호일수도 있다.
+
+jdwp가 오픈되어 있는 프로세스에만 사용가능. 즉 AndroidManifest.xml의 debuggable이 true일때만.
+
+AOSP를 eng모드나 userdebug모드로 빌드하면 모든 프로세스와 소스코드가 없는 애플리케이션까지 확인 가능함.
+
+http://developer.android.com/reference/android/os/Debug.html[http://developer.android.com/reference/android/os/Debug.html] : Debug.startMethodTracing(). Debug.stopMethodTracing()
+
+=== Hirachy view
+
+View의 계층구조와 속성을 최적화
+
+ADT에 통합제공. 에뮬레이터나 underdebug, eng타입으로 빌드된 시스템 이미지에서만 실행 가능.
+
+http://developer.android.com/tools/debugging/debugging-ui.html[http://developer.android.com/tools/debugging/debugging-ui.html]
+
+=== Dumpsys
+
+adb shell dumpsys
+
+adb shell dumpsys meminfo
+
+adb shell dumpsys activity -h
+
+adb shell dumpsys activity <package_name>
+
+frameworks/native/cmds/dumpsys/dumpsys.cpp 참조
+
+https://github.com/xdtianyu/android-4.2_r1/blob/master/frameworks/native/cmds/dumpsys/dumpsys.cpp[https://github.com/xdtianyu/android-4.2_r1/blob/master/frameworks/native/cmds/dumpsys/dumpsys.cpp]
+
+https://github.com/xdtianyu/android-4.2_r1/blob/master/frameworks/base/services/java/com/android/server/pm/PackageManagerService.java[https://github.com/xdtianyu/android-4.2_r1/blob/master/frameworks/base/services/java/com/android/server/pm/PackageManagerService.java] 의 DUMP메서드
+
+https://github.com/xdtianyu/android-4.2_r1/tree/master/frameworks/base/services/java/com/android/server[https://github.com/xdtianyu/android-4.2_r1/tree/master/frameworks/base/services/java/com/android/server] 아래에 시스템 서비스의 대부분이 있으니 참조
+
+=== am
+
+Activity Manager 관련 동작을 CommandLine에서 수행. 숨겨진 activity도 수행가능
+
+adb shell am start com.android.vending
+
+adb shell am start -n com.android.settings/.UssageStats
+
+=== pm
+
+PackageManager 관련 동작 수행
+
+adb shell pm list packages
+
+=== service
+
+ServiceManager 관련 동작 수행
+
+adb shell service list
+
+adb shell service call phone 2 s16 "<phonenumber>"  
+
+jdb
+
+== Emulator
+
+==== x86 emulator image
+http://software.intel.com/en-us/articles/installing-the-intel-atom-tm-android-x86-emulator-image-add-on-from-the-android-sdk-manager/[http://software.intel.com/en-us/articles/installing-the-intel-atom-tm-android-x86-emulator-image-add-on-from-the-android-sdk-manager/]http://developer.android.com/guide/developing/devices/emulator.html#accel-vm[http://developer.android.com/guide/developing/devices/emulator.html#accel-vm]  
+http://android-developers.blogspot.com/2012/04/faster-emulator-with-better-hardware.html  
+
+==== Tool 사용법
+
+ddbms : 화면 캡쳐할때. 디버그 모드로 연결
+
+=== adb
+
+android list avd
+
+adb shell
+
+/adb shell dumpsys activity
+
+adb : 설치. adb install
+
+adb devices
+
+https://www.activeandroid.com/help/sample-project/[https://www.activeandroid.com/help/sample-project/]
+
+http://developer.android.com/reference/android/database/SQLException.html[http://developer.android.com/reference/android/database/SQLException.html]
+
+서명
+
+http://gtko.springnote.com/pages/4471143[http://gtko.springnote.com/pages/4471143]  
+
+http://koreawolf.tistory.com/237[http://koreawolf.tistory.com/237]
+
+용량부족할때
+
+emulator.exe -avd test2 -partition-size 204
+
+7 -no-snapshot-load
+
+./adb -d install -r naver-map-share.apk
+
+==== <font face="'맑은 고딕'">개발환경</font>
+
+http://justice0223.blog.me/10087087007[http://justice0223.blog.me/10087087007]
+
+http://okjsp.tistory.com/1165643944[헬리오스에서 안드로이드 strings.xml 편집시 오류]
+
+=== ``Maven``
+
+http://code.google.com/p/maven-android-plugin/[http://code.google.com/p/maven-android-plugin/]
+
+=== Code generator
+
+http://androidkickstartr.com/[http://androidkickstartr.com/]
+
+http://www.androidbootstrap.com/[http://www.androidbootstrap.com/]
+
+Monkey runner
+
+Android monkey test 를 돌리면서 해당 로그를 파일로도, 콘솔 화면으로도 동시에 출력 시키려면??? 
+
+adb shell monkey -p com.your.packagename --throttle 500 -v 1000 --monitor-native-crashes | tee logfile.txt
+
+from com.android.monkeyrunner import MonkeyRunner, MonkeyDevice  
+
+device = MonkeyRunner.waitForConnection()  
+device.shell("log -t TEST This is line")  
+
+screen = device.takeSnapshot()  
+screen.writeToFile('shot1.png','png')  
+
+Logcat  
+
+adb logcat -c : 로그 삭제  
+adb logcat -v threadtime  
+
+adb logcat -s dalvikvm:d   
+
+http://shinluckyarchive.tistory.com/487  
+
+http://developer.android.com/tools/help/logcat.html  
+  
