@@ -3,6 +3,7 @@
 *   https://code.google.com/p/vogar/wiki/Examples[Vogar]
 *   https://code.google.com/p/caliper/wiki/CaliperOnAndroid[Caliper on Android]  
 
+
 == 최적화 기법  
 - ConvertView  
 Adaptor의 getView에서 convertView 파라미터가 null일때만 inflate  
@@ -13,3 +14,128 @@ Strict mode 사용 : http://dev.kthcorp.com/2012/01/31/android-strict-mode-howto
 http://mmlab.sogang.ac.kr/Publication/Domestic_Journals/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C_%EC%9D%91%EC%9A%A9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%98_%EB%B0%98%EC%9D%91%EC%86%8D%EB%8F%84_%ED%96%A5%EC%83%81%EC%9D%84_%EC%9C%84%ED%95%9C_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B4%80%EB%A6%AC_%EA%B8%B0%EB%B2%95.pdf[안드로이드_응용프로그램의_반응속도_향상을_위한_메모리_관리_기법.pdf]  
 
 http://dubroy.com/memory_management_for_android_apps.pdf[http://dubroy.com/memory_management_for_android_apps.pdf]  
+
+  
+http://engineered.egloos.com/2156970[안드로이드에서 아파치 xml-rpc 사용하기.]  
+
+http://techjun.com/entry/PC%EC%9A%A9-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EA%B0%80-%EC%99%94%EB%8B%A4-%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9CLiveAndroid[http://techjun.com/entry/PC%EC%9A%A9-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EA%B0%80-%EC%99%94%EB%8B%A4-%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9CLiveAndroid]
+
+http://www.hanb.co.kr/network/view.html?bi_id=1694[안드로이드 설계코드 노하우 및 개발방법]
+
+== 기초
+
+용어
+
+Dalvik Executable (DEX)
+
+Activities basically represent a single screen of an Android application.
+
+Life cycle : http://developer.android.com/reference/android/app/Activity.html#ActivityLifecycle[http://developer.android.com/reference/android/app/Activity.html#ActivityLifecycle]
+
+ http://developer.android.com/resources/tutorials/hello-world.html[http://developer.android.com/resources/tutorials/hello-world.html]
+
+크기
+
+http://javacan.tistory.com/233[해상도와 DP] :dp 단위를 사용하면 위 그림처럼 기기의 크기에 상관없이 물리적으로 동일한 크기로 레이아웃을 구성할 수 있다.
+
+px = dp * (DPI / 160) . DPI는 기기마다 다르다. DPI를 구하는 코드..
+http://javacan.tistory.com/234[안드로이드 기초 쌓기 - 크기 기준 DP와 비율]
+
+Lifecycle
+
+pause : 다른 Activity가 위에 있지만 보이기는 하는 상태
+
+stop : 완벽하게 다른 Activity로 가려진 상태
+
+*   전체 lifetime: onCreate -> onDestroy
+*   visible lifetime : onStart -> onStop
+*   foreground lifetime : onResume(), onPause()
+*
+
+==== 이미지
+
+http://javacan.tistory.com/243[[팁] 안드로이드 이미지 크기 구하기 및 변경하기] : BitmapFactory.decodeFile 을 이용
+
+==== Intent
+
+http://developer.android.com/guide/appendix/g-app-intents.html[http://developer.android.com/guide/appendix/g-app-intents.html]
+
+Key event
+
+http://javacan.tistory.com/235[[팁] 안드로이드에서 백버튼 두 번 눌러 종료하기]
+
+==== Cache
+
+http://javacan.tistory.com/237[안드로이드에서 파일 캐시 구현하기]
+
+http://javacan.tistory.com/238[안드로이드에서 URL로 파일 다운 받아 로컬에 저장하기] :<font color="#666666" face="dotum"> AsyncExecutor 활용 </font>
+
+http://javacan.tistory.com/239[안드로이드 이미지 캐시 구현]
+
+http://javacan.tistory.com/240[안드로이드에서 URL 이미지를 ImageView에 보여주기]
+
+==== Android binding
+
+designed to separate the activity from working directly on the user interfaces. 
+
+http://code.google.com/p/android-binding/
+
+Runtime-based. 특정 Activity 상속
+
+Such reliance on concrete inheritance would likely make it difficult to use RoboGuice and Binding together in the same application
+
+Where I think Binding really shines is in larger business applications that have data entry and validation requirements
+
+=== Multi language
+
+==== PHP for android
+
+http://phpforandroid.net/screencast[http://phpforandroid.net/screencast]
+
+http://www.phonegap.com/[http://www.phonegap.com/]
+
+http://www.appcelerator.com/products/titanium-mobile-application-development/[http://www.appcelerator.com/products/titanium-mobile-application-development/]
+
+=== Android inside
+
+==== <font size="2"> the Dalvik VM is based on a subset of the Apache Harmony project for its core class library.</font>
+<font size="2">  
+</font>
+
+
+==== Bind
+
+안드로이드 프로세스의 통신 메커니즘 : http://helloworld.naver.com/helloworld/47656[http://helloworld.naver.com/helloworld/47656]
+
+Bind는 안드로이드 자체의 IPC 메커니즘. 
+
+==== 안드로이드의 시스템 서비스(메모리, 스피커, 위치정보, 카메라)등도 결국 다른 프로세스다.   
+다른 프로세스와의 통신에 쓰이는게 Binder.  IPC를 사용하지 않았다. 커널메모리를 참조해서 메모리 복사의 오버헤드가 적다.  
+Linux 커널에 포함 예정  
+
+ContextManager 가 부팅시에 바인더를 위한 핸들정보를 등록한다.  
+
+==== Zygote
+앱의 로딩 시간을 단축시키기 위한 프로세스.  Java기반의 앱은 Zygote를 통해 fork된 프로세스로 실행.  
+System Service Zygote로 최초로 fork되는 안드로이드 애플리케이션 프로세스. ActivityManager, LocationManager 등 
+
+== UI 성능 문제  
+
+Android UI가 버벅이는 이유 : http://eggy.egloos.com/3776976[http://eggy.egloos.com/3776976]
+
+* iOS와 비교하면  UI처리에 대한 우선권이 높지 않다. UI 렌더링이 앱와 같이 메인 쓰레드에서 이루어진다 UI 렌더링이 보통우선권이다
+* 데스크탑 VM같은 달빅이 좋지는 못하다.
+
+안드로이드 그래픽에 대한 진실들 : http://eggy.egloos.com/3776975[http://eggy.egloos.com/3776975]
+
+== 주의할점
+
+http://www.doubleencore.com/2013/06/context/[http://www.doubleencore.com/2013/06/context/]  
+
+* 똑같이 Context로 보여도 Activity, Application 등 실제로는 다양한 객체다
+* singleton에서 context를 보유할때 Application을 얻도록 해라.. 안그러면 메모리릭 등에 취약하다
+* UI를 다룰 때는 Activity인 context를 이용해라. 안 그러면 의도한 동작이 안 일어난다..  
+
+UI cataloghttp://www.androidviews.net/[http://www.androidviews.net/]  
+
+  
