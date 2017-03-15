@@ -1,2 +1,141 @@
 * http://www.tuning-java.com/410[왜 Thread의 stop 메소드는 deprecated 되었을까?]
 * http://www.popit.kr/java8-stream%EC%9D%98-parallel-%EC%B2%98%EB%A6%AC/[Java8 Stream의 parallel 처리]
+
+== Concurrency 개념
+
+http://skyul.tistory.com/263[Parallelism and Concurrency 1]  
+
+http://minjang.egloos.com/2517211[http://minjang.egloos.com/2517211]  
+
+디자인 패턴으로 알아보는 Java thread:
+
+(최적화 기법에 대해서 잘 설명)
+
+ http://blog.naver.com/PostView.nhn?blogId=cackyhk&logNo=130022083355[http://blog.naver.com/PostView.nhn?blogId=cackyhk&logNo=130022083355]
+
+http://www.ibm.com/developerworks/kr/library/j-5things15/index.html[http://www.ibm.com/developerworks/kr/library/j-5things15/index.html]  
+
+: TimeUnit,  CopyOnWriteArrayList, BlockingQueue, ConcurrentMap, SynchronousQueues에 대해서 소개  
+
+http://tutorials.jenkov.com/java-concurrency/index.html[http://tutorials.jenkov.com/java-concurrency/index.html]
+
+Double check idiom
+
+*   java멀티쓰레드 디자인패턴의 Appendix 1
+*   Effective java 2nd edition item 71
+*   http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html[http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html]  
+http://findbugs.sourceforge.net/bugDescriptions.html#DC_DOUBLECHECK  
+
+http://javaservice.net/~java/bbs/read.cgi?m=resource&b=discussion&c=r_p_p&n=1028302072[http://javaservice.net/~java/bbs/read.cgi?m=resource&b=discussion&c=r_p_p&n=1028302072]
+
+http://javaservice.net/~java/bbs/read.cgi?m=resource&b=javatip&c=r_p&n=1028864906&k=doug&d=tb[http://javaservice.net/~java/bbs/read.cgi?m=resource&b=javatip&c=r_p&n=1028864906&k=doug&d=tb]
+
+http://javaservice.net/~java/bbs/read.cgi?m=resource&b=discussion&c=r_p&n=1028484821&k=JLS&d=tb#1028484821[http://javaservice.net/~java/bbs/read.cgi?m=resource&b=discussion&c=r_p&n=1028484821&k=JLS&d=tb#1028484821]
+
+http://blog.naver.com/freessul01?Redirect=Log&logNo=100039629221[http://blog.naver.com/freessul01?Redirect=Log&logNo=100039629221]
+
+자바 2 SDK 1.5의「데드락 해결 비법」:http://www.zdnet.co.kr/builder/dev/java/0,39031622,39130026,00.htm[http://www.zdnet.co.kr/builder/dev/java/0,39031622,39130026,00.htm]
+
+http://blog.naver.com/parnx/140054010993[static initializer]
+
+http://benelog.springnote.com/pages/397558/attachments/232207[JavaThread.hwp]
+
+http://benelog.springnote.com/pages/397558/attachments/232208[SpeculativeLocking.pdf]
+
+http://chanwook.tistory.com/674[java.util.concurrent.atomic 패키지]
+
+http://jsd.kldp.net/[Java Simple Daemon]
+
+http://javacan.tistory.com/entry/134[Java Concurrency: Executor와 Callable/FutureJava]
+
+http://javacan.tistory.com/entry/135[CommonJ의 Work Manager API 활용]
+
+thread safe하게 만들기
+
+Collections.synchronizedList
+
+BlockingQueue
+
+http://agbird.egloos.com/4849046[ConcurrentHashMap vs. HashTable]
+
+ http://java.sun.com/j2se/1.4.2/docs/guide/misc/threadPrimitiveDeprecation.html[http://java.sun.com/j2se/1.4.2/docs/guide/misc/threadPrimitiveDeprecation.html]
+
+ http://www.thinkingparallel.com/2007/07/31/10-ways-to-reduce-lock-contention-in-threaded-programs/[http://www.thinkingparallel.com/2007/07/31/10-ways-to-reduce-lock-contention-in-threaded-programs/]
+
+https://www.ibm.com/developerworks/kr/library/j-5things4.html[java.util.concurrent에 대해 모르고 있던 5가지 사항, Part 1]
+
+http://opnote.tistory.com/60[발표자료] Multithread Design Patterns]
+
+HashMap의 무한루프 : http://mailinator.blogspot.com/2009/06/beautiful-race-condition.html
+
+Volatile
+
+http://mkseo.pe.kr/blog/?p=475[http://mkseo.pe.kr/blog/?p=475]
+
+voltile에 대한 Effective java 1st Ed. 시절의 옛날 설명
+
+ synchronized 키워드가 메소드와 블록에 쓰는 것이라면, volatile 키워드는 필드에 붙이는 수정자다. volatile 수정자 역시 스레드의 작업 메모리와 주 메모리의 내용을 일치시키는 역할을 한다. volatile 수정자가 붙은 필드는 항상 정확한 값을 제공한다는 것을 보장한다고 JLS는 명세하고 있다. synchronized가 원하는 객체의 잠금장치를 얻어 이 객체를 잠근 상태에서 원하는 필드에 접근한다면, volatile 수정자가 붙은 필드에 접근할 때 아무런 잠금장치를 쓰지 않아도 이 필드를 읽거나(use) 쓰면(assign) 언제나 작업메모리와 주 메모리의 내용을 일치시키는 작업이 일어난다고 한다. 하지만, 많은 JVM에서 volatile 필드가 제대로 동작하지 않을 수도 있으므로 조심해야 한다. JLS는 volatile 필드를 쓰는 코드부분을 바이트코드로 만들거나 실행할 때 최적화를 적용하지 말아야 한다고 명세하고 있지만 이것을 제대로 지키는 JVM은 거의 없다. 또, JLS은 다중 프로세서 환경에서 volatile 필드가 어떻게 동작하는지도 명확하게 명세하고 있지 않다. 현재까지 IBM JVM이 완벽하지는 않지만 volatile 명세를 가장 잘 지원하고 있따.(Sun이 아니다!). 만약 IBM JVM을 쓴다면, volatile 필드를 고려해 볼 수 있다. volatile을 쓰면 잠금이 일어나지 않아서 성능이 좋을 것 같지만, 상황에 따라 synchronized 키워드와 잘 가려 써야 한다. 필드에 접근하는 작업이 많다면 volatile 필드를 쓰는 것이 synchronized 메소드나 블록을 쓰는 것보다 성능이 떨어질 수 있으므로 synchronized 메소드나 블록을 쓰는 것이 더 낫다. 반대로, 뛰어난 동시성이 필요하고 플드에 접근하는 작업이 적다면 volatile 필드를 쓰는 것이 더 낫다. 하지만 한 번 만든 코드를 어디서나 쓸 수 있다는 자바의 기본 철학을 생각한다면 아직까지 volatile 필드를 쓰기에는 무리가 있다.
+
+==== DateFormat과 threadsafe
+
+http://solidsimplesafe.com/view/13[Java Tip #8: Thread-safe Alternatives to Java's SimpleDateFormat class]
+
+http://younghoe.info/965[DateFormat 은 thread-safe하지 않다]
+
+==== Jaxb
+
+http://jaxb.java.net/guide/Performance_and_thread_safety.html[http://jaxb.java.net/guide/Performance_and_thread_safety.html]
+
+==== Thread Local
+
+http://javacan.tistory.com/entry/ThreadLocalUsage[http://javacan.tistory.com/entry/ThreadLocalUsage]
+
+http://www.ibm.com/developerworks/java/library/j-5things15/index.html?ca=drs[developerWorksJava technologyTechnical library5 things you didn't know about ... multithreaded programming]
+
+==== Mac
+
+인증실패
+
+1) http://geek.starbean.net/?p=193
+
+2) https://forums.oracle.com/forums/thread.jspa?threadID=1526499&tstart=750[https://forums.oracle.com/forums/thread.jspa?threadID=1526499&tstart=750]
+
+public static String getMessageDigest(Mac mac, String message) {  
+      synchronized(mac) {
+
+byte[] rawHmac = mac.doFinal(message.getBytes());
+
+     }
+
+        return Base64.encodeBase64(rawHmac);  
+
+}
+
+==== race condition in java.util 
+
+http://mailinator.blogspot.com/2009/06/beautiful-race-condition.html[http://mailinator.blogspot.com/2009/06/beautiful-race-condition.html]
+
+http://lightbody.net/blog/2005/07/hashmapget_can_cause_an_infini.html[http://lightbody.net/blog/2005/07/hashmapget_can_cause_an_infini.html]
+
+==== Non blocking alorithm
+
+http://www.ibm.com/developerworks/java/library/j-jtp04186/[http://www.ibm.com/developerworks/java/library/j-jtp04186/]
+
+==== Queue
+
+http://www.javacodegeeks.com/2010/09/java-best-practices-queue-battle-and.html[http://www.javacodegeeks.com/2010/09/java-best-practices-queue-battle-and.html]
+
+==== Speculative Locking
+
+http://mkseo.pe.kr/blog/?p=1402[http://mkseo.pe.kr/blog/?p=1402]
+
+=== Fork & Join
+
+http://whiteship.me/?p=13100[http://whiteship.me/?p=13100]
+
+http://mkseo.pe.kr/blog/?p=2465[http://mkseo.pe.kr/blog/?p=2465]
+
+http://www.slideshare.net/knight1128/jdk-7-4forkjoin
+
+=== AkkA
+http://javacan.tistory.com/169[Akka 첫 번째, Akka를 이용한 Concurrent 프로그래밍 시작하기]  
