@@ -1,0 +1,23 @@
+
+http://android-developers.blogspot.kr/2009/05/painless-threading.html[http://android-developers.blogspot.kr/2009/05/painless-threading.html] : AsyncTask 장점 소개   
+runOneUiThread  
+
+잘못된 Thread에서 호출되면 CalledFromWrongThreadException  
+ANR http://developer.android.com/training/articles/perf-anr.html[http://developer.android.com/training/articles/perf-anr.html]http://aroundck.tistory.com/223[ANR 이란?]http://aroundck.tistory.com/entry/android%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%9D%91%EB%8B%B5%EC%84%B1%EC%9D%84-%EA%B3%A0%EB%A0%A4%ED%95%9C-%EC%84%A4%EA%B3%84-ANR-%EC%9D%84-%ED%94%BC%ED%95%98%EB%8A%94-%EC%84%A4%EA%B3%84[http://aroundck.tistory.com/entry/android%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%9D%91%EB%8B%B5%EC%84%B1%EC%9D%84-%EA%B3%A0%EB%A0%A4%ED%95%9C-%EC%84%A4%EA%B3%84-ANR-%EC%9D%84-%ED%94%BC%ED%95%98%EB%8A%94-%EC%84%A4%EA%B3%84]  
+
+http://brainflush.wordpress.com/2009/04/08/android-in-sync-handling-concurrent-tasks-in-google-android/[Android In-Sync: Handling Concurrent Tasks In Google Android]implements TaskListener, Task.getOrCreate().  
+Droid-fu의 BetterAsyncTask : AsyncTask 중에 rotate 작업등으로 원래의 Activity가 바뀌어도 새로운 instance를 찾아서 연결해 줌.  
+http://jnb.ociweb.com/jnb/jnbJan2009.html[http://jnb.ociweb.com/jnb/jnbJan2009.html]http://brainflush.wordpress.com/2008/08/15/handling-long-running-operations-in-google-android/[http://brainflush.wordpress.com/2008/08/15/handling-long-running-operations-in-google-android/]:  AsyncTask와 유사한 태크닉  
+http://javacan.tistory.com/entry/increase-cohesion-using-command-and-callback-insteadof-handler-in-android[안드로이드 Handler 사용으로 인해 흩어진 코드 커맨드와 콜백으로 정리하기]: Message.what + case문 대신에 Message.obj 에 command객체 전달   
+http://javacan.tistory.com/236[유지보수를 고려한 안드로이드 비동기 처리 기반 코드 만들기]Handler를 사용해서 결과를 주고 받는 방식보다는 콜백 인터페이스를 이용해서 결과를 받는 것이 코드 유지보수에 유리하다.AsyncTask를 상속한 클래스 정의.  background에서 실행할 Callable객체와 결과 처리후에 실행될 클래스를 지정해주고 실행한다.  
+
+http://www.slideshare.net/fullscreen/andersgoransson/efficient-android-threading[http://www.slideshare.net/fullscreen/andersgoransson/efficient-android-threading]  
+
+== Looper
+http://blog.naver.com/PostView.nhn?blogId=huewu&logNo=110115454542[안드로이드 Handler 이야기 - Handler 와 Looper]  
+
+== AsyncTask 문제점/대안
+
+http://stackoverflow.com/questions/3357477/is-asynctask-really-conceptually-flawed-or-am-i-just-missing-something  
+http://code.google.com/p/roboguice/wiki/RoboAsyncTask  
+http://logc.at/2011/11/08/the-hidden-pitfalls-of-asynctask/
