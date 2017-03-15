@@ -1,0 +1,181 @@
+== 스레드 안전성을 어떻게 문서에 표기할까?
+
+Javadoc에서는 기본적으로 synchronized 메소드 여부를 표시하지 않습니다. 그 이유는 동기화 여부는 세부 구현 방식이기 때문에 문서에까지 그것을 노출하지 하는 것은 적절하지 않기 때문이라고 합니다.
+
+선언부에 synchronized가 있는 메소드도 메소드 안의 모든 블럭이 synchronized(this)와 감싸진 코드와 의미입니다. 즉 아래의 코드는
+
+[source,java]
+----
+synchronized void run() {
+  //do something
+}
+
+----
+
+다음과 똑같은 역할을 하는 코드입니다.
+
+[source,java]
+----
+void run(){
+  synchronized(this) {
+    // do something
+  }
+}
+
+----
+
+구현방식을 개선하면서 동기화 구간을 메소드의 일부 구간으로 좁힐 수도 있고, this 객체 말고 다른 객체로 lock을 바꿀 수도 있습니다. 이런 세부구현 상황은 외부 인터페이스보다 더 쉽게 바뀔 여지가 있습니다. 그리고 lock으로 보호되는 모든 구간을 javadoc의 메소드 선언부에 표시하기도 어렵고, this로 전체 메소드를 lock으로 잡는 메소드인 synchronized 메소드 여부를 표시하는 것만으로 충분히 문서화가 되었다고 생각하기도 어렵습니다. 내부적으로 더 효율적인 방식으로 동기화가 되어 있을 수도 있으니, Javadoc에서 synchronized가 있느냐 없느냐가 스레드 안정성을 판단할 수 있는 일관적인 기준도 되지 못합니다.
+
+따라서 현재 javadoc의 정책은 적절하다고 생각됩니다. Effective Java 2nd Edition의 Item 70에서도 그렇게 언급되었습니다.
+
+결국 현재 javadoc의 규약으로는 어떤 메소드가 멀티스레드에서의 안전한지 여부를 표시해야 하는 강제성은 없다는 이야기입니다.
+
+Effective Java 2nd Edition에서는 스레드 안정성을 다음 4자리 분류로 구분해서 문서화하라고 권장합니다.
+
+* Immutable
+** 상태가 없습니다. 당연히 Thread-safe합니다.
+** 예) String, Long, Integer, BigDecimal
+* 무조건 Thread-safe
+**  상태가 있으나 내부적으로 알아서 동기화되어 있습니다.
+**  예) ConcurrentHashMap
+*   조건부 Thread-safe
+**  어떤 메소드는 외부에서 sync가 필요한 클래스입니다.
+**  예) Collections.synchronizedList로 받은 List의 iterator는 ConcurrentModificationException을 발생시킬수 있습니다.
+* Not Thread-safe
+** 외부에서 synchronized를 해야 함
+** 예) HashMap, ArrayList
+* Thread-hostile
+** 외부에서 synchronized를 해도 멀티쓰레드에서는 못 쓰는 클래스입니다. 다행히 Java에는 거의 없습니다.
+** 예) System.runFinalizersOnExit
+
+저렇게 잘 구분해서 Javadoc 문서의 제일 앞에 설명을 해준다면 좋겠지만, 강제적인 표준이 없다보니 기존의 문서들은 클래스 설명의 중간에서 스레드 안정성을 설명합니다.
+
+== 몇가지 클래스의 사례
+
+그렇다면 현재 Java 클래스가 스레드 안정성을 문서화하고 있는지 몇가지 예를 살펴보겠습니다.
+
+=== java.util.LinkedList
+
+http://download.oracle.com/javase/1.5.0/docs/api/java/util/LinkedList.html[LinkedList]의 javadoc에서는 클래스 설명의 중간 쯤에 볼드체로 강조해서 이 구현은 'not synchronized'되었다고 적혀 있습니다.
+
+'''
+
+image::http://dl.dropbox.com/u/13960300/javacon/LinkedList_doc.png[LinkedList]
+
+'''
+
+=== java.text.SimpleDateFormat
+
+http://download.oracle.com/javase/1.5.0/docs/api/java/text/SimpleDateFormat.html[SimpleDateFormat]의 javadoc에서는 클래스 설명의 마지막 즈음에 synchronization이라는 제목의 절에서 'not synchronized'라고 설명합니다.
+
+'''
+
+image::http://dl.dropbox.com/u/13960300/javacon/SimpleDateFormat_doc.png[SimpleDateFormat]
+
+'''
+
+=== org.springframework.batch.item.file.FlatFileItemWriter
+
+스프링배치의 클래스인 http://static.springsource.org/spring-batch/apidocs/org/springframework/batch/item/file/FlatFileItemWriter.html[FlatFileItemWriter]는 앞뒤로 별표를 붙여서 'not thread-safe'라고 적어놨습니다.
+
+'''
+
+image::http://dl.dropbox.com/u/13960300/javacon/FlatFileItemWriter_doc.png[FlatFileItemWriter]
+
+'''
+
+이렇게 클래스가 스레드 안정성을 표시하는 방법은 제 각각이고, 나름대로는 강조하고 있지만 주의깊게 API 문서를 주의 깊게 본 사람이 아니라면 지나치기 쉽습니다. 차라리 '스레드 안정성은 클래스별 설명 제일 윗줄에 넣도록 하고, 반드시 빨간색 Bold로 표시한다' 같은 규칙이 있었으면 얼마나 좋을까하는 생각까지도 듭니다.
+
+== JCIP annotation
+
+http://jcip.net/annotations/doc/net/jcip/annotations/package-summary.html[JCIP annotation]은 'Java concurrent in practice' 책에서 제안된 스레드 안정성을 표시하는 기법입니다.아래 4개의 종류의 애노테이션을 제공합니다.
+
+*   @GuardedBy : 해당 객체가 어떤 Lock으로 보호되고 있는지 표시. 필드에 메소드에 사용 가능
+*   @Immutable : 불변객체
+*   @NotThreadSafe : 스레드 안전하지 않음
+*   @ThreadSafe : 스레드 안전함
+
+=== Apache Httpclient에서 활용 사례
+
+실제 이 JCIP 애노테이션이 활용된 사례는 http://hc.apache.org/httpcomponents-client-ga/[Apache Httpclient]가 있습니다. 이 라이브러리의 클래스인 http://www.docjar.org/html/api/org/apache/http/message/HttpGet.java.html[HttpGet], http://www.docjar.com/html/api/org/apache/http/impl/client/DefaultHttpClient.java.html[DefaultHttpClient],http://www.docjar.com/html/api/org/apache/http/impl/conn/SingleClientConnManager.java.html[SingleClientConnManager]는 아래와 같이 @NotThreadSafe, @ThreadSafe를 클래스 선언에 붙었습니다.
+
+[source,java]
+----
+@NotThreadSafe
+public class HttpGet extends HttpRequestBase { 
+
+@ThreadSafe
+public class DefaultHttpClient extends AbstractHttpClient {
+
+@ThreadSafe
+public class SingleClientConnManager implements ClientConnectionManager {
+
+----
+
+이 애노테이션들은 원래의 JCIP 애노테이션의 패키지인 net.jcip.annotations 대신에 org.apache.http.annotation 패키지에 들어가 있기는 합니다. 그런데 이 패키지에 있는 http://www.docjar.com/docs/api/org/apache/http/annotation/ThreadSafe.html[@ThreadSafe]등의 javadoc를 봐도 이 애노테이션들은 JCIP책에서 유례하였다고 설명합니다.
+
+http://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/org/apache/http/impl/client/DefaultHttpClient.html[Javadoc]에서는 클래스 설명 단락의 위 쪽에 이 애노테이션을 보여줍니다.
+
+'''
+
+image::http://dl.dropbox.com/u/13960300/javacon/DefaultHttpClient_doc.png[DefaultHttpClient]
+
+'''
+
+일관성 있는 위치에 표시되기 떄문에 한 눈에 스레드 안정성 여부를 인식할 수 있습니다.
+
+=== FindBugs에서의 지원
+
+오픈소스 정적분석 도구인 http://findbugs.sourceforge.net/[Findbugs]에서는 JCIP 애노테이션 중 @Immutable을 인식합니다. 버전 2.0부터 JCIP라는 버그 패턴으로 등록이 되어 있습니다. 아래 페이지에서 확인할 수 있습니다.
+
+*   http://findbugs.sourceforge.net/bugDescriptions.html#JCIP_FIELD_ISNT_FINAL_IN_IMMUTABLE_CLASS[http://findbugs.sourceforge.net/bugDescriptions.html#JCIP_FIELD_ISNT_FINAL_IN_IMMUTABLE_CLASS]
+http://findbugs.sourceforge.net/manual/eclipse.html[Findbugs Eclipse plugin]를 설치하면 보다 편하게 FindBugs가 주는 경고를 확인할 수 있습니다..
+
+만약 아래와 같이 @Immutable로 선언된 클래스에 final이 아닌 필드가 있다면
+
+[source,java]
+----
+import net.jcip.annotations.Immutable;
+
+@Immutable
+public class Memo {
+    private String content;
+    public void setContent(String content) {
+        this.content = content;
+    }
+    public String getContent() {
+        return content;
+    }
+}
+
+----
+
+Eclipse에서 경고를 보여줍니다.
+
+'''
+
+image::http://dl.dropbox.com/u/13960300/javacon/immutable_findbugs.png[findbugs에서  Immutable 경고]
+
+'''
+
+그러나 FindBugs에서는 @Immutable외의 애너테이션은 특별히 확인하지는 않습니다. 즉 @ThreadSafe로 선언된 객체에서 @NotThreadSafe로 선언된 멤버변수를 접근하더라구도 아무런 경고를 보내지는 않습니다. JCIP 애노테이션과 Findbugs를 동시에 쓰면서 많은 기대를 하지는 말아야 합니다.
+
+Findbugs의 자세한 설명방법은 아래 포스트를 참고하시기 바랍니다.
+
+*   http://blog.benelog.net/2079841[FindBugs + Eclipse + Maven2 + Hudson]
+
+== 정리
+
+Java에서 어떤 클래스가 멀티스레드에서 의도하지 않게 사용될 때 그 부작용은 심각하지만, 문제가 되는 지점을 추적하기는 어렵습니다. 그렇게 때문에 스레드 안정성은 반드시 엄격하게 문서에 언급 되어야 합니다.그러나 기존의 클래스를 보면 제 각각의 표현 방식으로, 때로는 눈에 잘 띄지 않게 문서에 적혀 있습니다.
+
+JCIP 애노테이션은 일관된 방식으로 스레드 안정성을 문서화하는데 도움이 됩니다. 이 애토테이션은 Apache httpclient 프로젝트에 적용되었고, 강력하지는 않지만 findbugs에서 JCIP annotation이 걸린 클래스를 정적 분석을 해주기도 합니다.
+
+대부분의 웹프로젝트에서는 비지니스 레이어를 상태가 없는 클래스로 멀티스레드에서도 안전하게 만드는 방식이 권장됩니다.   
+그러나 때로는 스레드 안전하지 않은 클래스를 만들게 될 수도 있습니다. 예를 들면 멀티스레드에서 공유되면 안 되는 외부 라이브러리의 클래스를 사용하는데, 그 클래스를 생성자로 받아서 멤버변수에 할당해야 하는 경우입니다. 또, 배치나 데몬서버 등을 만드는 프로젝트에서는 스레드 안전한 클래스와 그렇지 않은 클래스가 혼재하게 될 때도 많습니다.
+
+그런 클래스들을 명확하게 구분하고 싶다면 JCIP 애노테이션으로 표시하는 것을 고려해볼만도 합니다.
+
+== 참고자료
+
+*   [EJ2] : Effective Java 2nd Edition - Item 70
+*   [JCIP] : Java concurrency in practice
