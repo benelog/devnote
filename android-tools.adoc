@@ -140,7 +140,7 @@ device.shell("log -t TEST This is line")
 screen = device.takeSnapshot()  
 screen.writeToFile('shot1.png','png')  
 
-Logcat  
+== Logcat  
 
 adb logcat -c : 로그 삭제  
 adb logcat -v threadtime  
@@ -151,3 +151,21 @@ http://shinluckyarchive.tistory.com/487
 
 http://developer.android.com/tools/help/logcat.html  
   
+
+
+안드로이드 난독화 도구 비교  
+http://krnet.or.kr/board/include/download.php?no=1749&db=dprogram&fileno=3 : 숭실대 이정현교수의 발표자료  
+
+== obfuscation
+=== Progurad
+
+로깅제거  
+-assumenosideeffects class android.util.Log {  
+ public static * i(...);  
+ public static * d(...);  
+ public static * v(...);  
+}﻿  
+
+=== DexGuard
+http://www.saikoa.com/comparison_proguard_dexguard  
+http://www.android-decompiler.com/blog/2013/04/02/a-look-inside-dexguard/
