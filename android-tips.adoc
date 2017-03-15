@@ -1,0 +1,11 @@
+== Test framework  
+
+*   https://code.google.com/p/vogar/wiki/Examples[Vogar]
+*   https://code.google.com/p/caliper/wiki/CaliperOnAndroid[Caliper on Android]  
+
+== 최적화 기법  
+- ConvertView  
+Adaptor의 getView에서 convertView 파라미터가 null일때만 inflate  
+ViewWrapper : findByView를 매번 사용하지 않도록                                                                                                                                                   
+
+Strict mode 사용 : http://dev.kthcorp.com/2012/01/31/android-strict-mode-howto/[http://dev.kthcorp.com/2012/01/31/android-strict-mode-howto/]
