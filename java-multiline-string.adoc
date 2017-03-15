@@ -1,0 +1,13 @@
+http://stringfier.com/
+
+Eclipse multiline String editor : http://marketplace.eclipse.org/node/491839#.UJ08SIfAeSo[http://marketplace.eclipse.org/node/491839#.UJ08SIfAeSo]
+
+http://blog.efftinge.de/2008/10/multi-line-string-literals-in-java.html[http://blog.efftinge.de/2008/10/multi-line-string-literals-in-java.html] + Exceptin + line 정보  
+
+http://www.adrianwalker.org/2011/12/java-multiline-string.html[http://www.adrianwalker.org/2011/12/java-multiline-string.html] : Javadoc 주석 + Annotation processing  
+
+
+스펙제안 : http://blog.joda.org/2008/01/java-7-multi-line-string-literals_594.html
+
+https://docs.google.com/document/edit?id=1TBVweU_9nz9ESLV3N5FniBOfpaBKwIXkUVYNmyGrQ94
+
