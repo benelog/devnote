@@ -1,5 +1,8 @@
-http://stackoverflow.com/questions/2762665/how-to-use-emma-code-coverage-in-android[  
-http://stackoverflow.com/questions/2762665/how-to-use-emma-code-coverage-in-android]http://developer.android.com/guide/developing/projects/projects-cmdline.html[http://developer.android.com/guide/developing/projects/projects-cmdline.html]http://developer.android.com/guide/developing/building/building-cmdline.html[http://developer.android.com/guide/developing/building/building-cmdline.html]  
+http://stackoverflow.com/questions/2762665/how-to-use-emma-code-coverage-in-android
+
+http://developer.android.com/guide/developing/projects/projects-cmdline.html
+
+http://developer.android.com/guide/developing/building/building-cmdline.html
 
 ==  Instrumentation 의미
 
@@ -16,3 +19,240 @@ http://dtmilano.blogspot.com/2011/08/linuxcon-2011-north-america.html[http://dtm
 하나만:  adb shell am instrument -w -e class com.example.aatg.myfirstproject.test.MyFirstProjectTests com.example.aatg.myfirstproject.
 
 test/android.test.InstrumentationTestRunner
+
+==== 사례
+
+카카오톡 임유진 님 ( eugenelgm@gmail.com  )의 발표
+
+*   발표자료 : http://goo.gl/1WyAz
+*   예제코드 : https://github.com/eugenelgm/AndroidForTest[https://github.com/eugenelgm/AndroidForTest]
+https://github.com/eugenelgm/AndroidForTest[  
+]
+
+==== 추천자료
+
+http://www.slideshare.net/dtmilano/testing-on-android[http://www.slideshare.net/dtmilano/testing-on-android]
+
+http://dtmilano.blogspot.com/2011/08/linuxcon-2011-north-america.html[http://dtmilano.blogspot.com/2011/08/linuxcon-2011-north-america.html]
+
+http://jeyong.com/MoinMoin/ns/moin.cgi/AndroidJUnit[]
+
+http://jeyong.com/MoinMoin/ns/moin.cgi/AndroidJUnit[]
+
+http://jeyong.com/MoinMoin/ns/moin.cgi/AndroidJUnit[http://jeyong.com/MoinMoin/ns/moin.cgi/AndroidJUnit]
+
+http://dtmilano.blogspot.com/search/label/junit[http://dtmilano.blogspot.com/search/label/junit]
+
+http://mihaifonoage.blogspot.com/2010/01/unit-and-functional-testing-in-android.html[http://mihaifonoage.blogspot.com/2010/01/unit-and-functional-testing-in-android.html]
+
+https://sites.google.com/site/androiddevtesting/[https://sites.google.com/site/androiddevtesting/]
+
+  Activity.finish(), and restarts it using the instrumentation method getActivity()
+
+onPause() and ``onResume()``
+
+Instrumentation mInstr = this.getInstrumentation();
+
+ mInstr.callActivityOnPause(mActivity);
+
+@UiThreadTest@MediumTest
+
+        Intent intent = new Intent(Intent.ACTION_VIEW);  
+        intent.setData(Uri.parse("http://www.google.com/[http://www.google.com]"));  
+        startActivity(intent);
+
+==== 기본 메뉴얼
+
+http://www.androidpub.com/39606[이클립스에서 안드로이드 JUnit Test 프로젝트 생성]
+
+http://mainia.tistory.com/490[안드로이드에서 단위테스트를 위한 Junit 사용하기 (1)]
+
+http://mainia.tistory.com/487[안드로이드에서 단위테스트를 위한 Junit 사용하기 (2)]
+
+http://developer.android.com/resources/tutorials/testing/helloandroid_test.html[http://developer.android.com/resources/tutorials/testing/helloandroid_test.html]
+
+http://huewu.blog.me/110089690999[안드로이드 테스트 - Hello, Testing]
+
+http://developer.android.com/guide/topics/testing/testing_android.html[http://developer.android.com/guide/topics/testing/testing_android.html]
+
+http://blog.naver.com/huewu/110089444708[안드로이드 테스트 - Testing and Instrumentation 소프트웨어]
+
+http://developer.android.com/resources/tutorials/testing/activity_test.html[]
+
+http://developer.android.com/resources/tutorials/testing/activity_test.html[]
+
+http://developer.android.com/resources/tutorials/testing/activity_test.html[http://developer.android.com/resources/tutorials/testing/activity_test.html]
+
+번역 : http://blog.naver.com/huewu/110089695301[http://blog.naver.com/huewu/110089695301] ,http://blog.naver.com/huewu/110089769967[http://blog.naver.com/huewu/110089769967]
+
+http://developer.android.com/resources/tutorials/testing/activity_test.html[]
+
+http://dreamjr.springnote.com/pages/4628249[Android JUnit vs JUnit 4]
+
+http://d.android.com/resources/tutorials/testing/activity_test.html[http://d.android.com/resources/tutorials/testing/activity_test.html]
+
+http://jeungun.wordpress.com/2010/02/28/a-hint-of-dependency-injection-in-android-or-not/[http://jeungun.wordpress.com/2010/02/28/a-hint-of-dependency-injection-in-android-or-not/]
+
+``final`` ``EditText edittext = (EditText) findViewById(R.id.edittext);``
+
+``http://d.android.com/reference/android/test/ServiceTestCase.html[http://d.android.com/reference/android/test/ServiceTestCase.html]``
+
+https://sites.google.com/site/androiddevtesting/[https://sites.google.com/site/androiddevtesting/]
+
+http://developer.android.com/reference/android/app/Instrumentation.ActivityMonitor.html[http://developer.android.com/reference/android/app/Instrumentation.ActivityMonitor.html]  
+
+http://kingori.egloos.com/4554640[안드로이드 unit test 에서 async task 결과를 테스트하기]
+
+http://kingori.egloos.com/4577436[Android, Unit test 대상 로직에서 Handler 사용 시 멈추는 문제 해결]
+
+http://mobile.dzone.com/news/unit-and-functional-testing[http://mobile.dzone.com/news/unit-and-functional-testing]
+
+==== mock 응용
+
+http://stuffikeepforgettinghowtodo.blogspot.com/2008/12/android-mockito.html[]
+
+http://stuffikeepforgettinghowtodo.blogspot.com/2008/12/android-mockito.html[]
+
+http://stuffikeepforgettinghowtodo.blogspot.com/2008/12/android-mockito.html[http://stuffikeepforgettinghowtodo.blogspot.com/2008/12/android-mockito.html]
+
+==== Junit 하위 클래스
+
+http://d.android.com/reference/android/test/package-summary.html[http://d.android.com/reference/android/test/package-summary.html]
+
+====  
+
+==== ActivityInstrumentationTestCase2
+
+single activity에 대한 테스트
+
+Activity를 system infrastructure에 의해서 만듬. 일반 시스템 환경
+
+@UiThreadTest annotation과 함께 만듬
+
+Activity가 다른 요소들과 잘 상호작용 하는지를 테스트
+
+MockContext 사용 불가
+
+Mock Intent 사용 가능
+
+키, 터치 이벤트 전달 가능
+
+setActivityTouchMode(false)
+
+sendKeys
+
+setActivityIntent
+
+==== ApplicationTestCase
+
+onCreate after createApplication()
+
+tearDown calls onDestroy();
+
+mockContext 삽입가능
+
+terminatorApplication
+
+==== ActivityUnitTestCase
+
+1개 Activity의 고립된 테스트
+
+System과의 interaction에 Activity가 참가할 수 없다
+
+System과의 최소한도로 연결되어서 Activity가 생성
+
+일부 메소드는 Exception
+
+==== ProviderTestCase2
+
+ContentProvider의 고립된 테스트
+
+MockContentResolver 사용이 제한됨
+
+IsolatedContext 사용.
+
+==== ServiceTestCase
+
+startService(Intent) 혹은 bindService(Intent)를 부르면 onCreate가 호출된다.
+
+setApplication혹은 setContext()를 호출해서 Mock 주입가능
+
+==== AndroidTestCase
+
+custom view, permission 관련 테스트
+
+권한, resource접근 테스트
+
+==== ViewAsserts
+
+==== TouchUtils
+
+clickView()
+
+longClick()
+
+== Mock
+
+http://d.android.com/reference/android/test/mock/package-summary.html[http://d.android.com/reference/android/test/mock/package-summary.html]
+
+adb -e shell am instrument -w -e class com.benelogTouchActivityTests
+
+==== 에러
+
+http://code.google.com/p/android/issues/detail?id=14616[http://code.google.com/p/android/issues/detail?id=14616]
+
+http://stackoverflow.com/questions/2634991/android-1-6-android-view-windowmanagerbadtokenexception-unable-to-add-window[http://stackoverflow.com/questions/2634991/android-1-6-android-view-windowmanagerbadtokenexception-unable-to-add-window]
+
+http://stackoverflow.com/questions/2365561/testing-dialog-in-androids-activityunittestcase[http://stackoverflow.com/questions/2365561/testing-dialog-in-androids-activityunittestcase]
+
+ unlock
+
+http://stackoverflow.com/questions/3214531/how-to-send-key-events-to-a-headless-emulator-in-an-instrumentation-test/3366443#3366443[http://stackoverflow.com/questions/3214531/how-to-send-key-events-to-a-headless-emulator-in-an-instrumentation-test/3366443#3366443]
+
+=== http://code.google.com/p/robotium/[Robotium]
+
+ActivityInstrumentationTestCase : depreciated.   
+
+=== http://pivotal.github.com/robolectric/[RoboElectric]
+
+*   Davik 대신 JVM에서 테스트. 강추
+*   http://sdudzin.blogspot.kr/2011/01/easy-unit-testing-for-android.html[h<font color="#003f5c">ttp://sdudzin.blogspot.kr/2011/01/easy-unit-testing-for-android.html</font>]
+*   활용 사례 : http://msbaek.tumblr.com/post/45892265696/robolectric-android-tdd[http://msbaek.tumblr.com/post/45892265696/robolectric-android-tdd]
+
+=== https://code.google.com/p/android-mock/[Android Mock]
+
+*   CGLib등을 안 쓰는 EasyMock 2.4 이용. interface mocking만 가능.
+
+=== https://github.com/calabash/calabash-android[Calabash]
+
+=== http://square.github.com/spoon/[Spoon]
+
+*   여러 Device에서 앱을 동시에 실행하고 스크린샷 제공
+
+=== https://github.com/vmware/lmock[LMock]
+
+*   Jmock 스타일, Mockito 스타일 다 가능.
+*   VMWare에서 만들었음. 문서화는 부족하나 예제는 잘 정리되어 있음.
+
+        *   https://github.com/vmware/lmock/blob/master/examples/com/vmware/lmock/example/geek/GeekDayTest.java[예제]
+
+=== http://scalamock.org/[ScalaMock]
+
+*   전에는 Borachio
+*   Mockito가 이제 Android 지원하므로 더 이상 나는 지원안한다고 쿨하게 밝힘.
+*   Roboguice + Borachio 예제 프로젝트 https://github.com/jaley/borachio-warehouse[https://github.com/jaley/borachio-warehouse]
+*   Android + ScalaMock 예제 설명
+
+        *   http://www.paulbutcher.com/2011/03/mock-objects-on-android-with-borachio-part-1/[http://www.paulbutcher.com/2011/03/mock-objects-on-android-with-borachio-part-1/]
+    *   http://www.paulbutcher.com/2011/03/mock-objects-on-android-with-borachio-part-2/[http://www.paulbutcher.com/2011/03/mock-objects-on-android-with-borachio-part-2/]
+    *   http://www.paulbutcher.com/2011/03/mock-objects-on-android-with-borachio-part-3/[http://www.paulbutcher.com/2011/03/mock-objects-on-android-with-borachio-part-3/]
+
+=== https://github.com/jbrechtel/robospecs[RoboSpec]
+
+*   Scala. Robolectric + Specs2  
+Mockitohttps://code.google.com/p/mockito/issues/detail?id=308Android에서 Mockito에러페이지 : https://code.google.com/p/mockito/issues/detail?id=57[https://code.google.com/p/mockito/issues/detail?id=57]
+
+== PowerMock
+
+*   PowerMock 사용 시도 : https://sites.google.com/site/androiddevtesting/[https://sites.google.com/site/androiddevtesting/]
+*   http://sdudzin.blogspot.kr/2011/01/easy-unit-testing-for-android.html[http://sdudzin.blogspot.kr/2011/01/easy-unit-testing-for-android.html]  
