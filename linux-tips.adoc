@@ -1,0 +1,37 @@
+== 부팅을 위한 배포판
+http://knopper.net/knoppix/index-en.html[http://knopper.net/knoppix/index-en.html]http://www.damnsmalllinux.org/[http://www.damnsmalllinux.org/]  
+
+== 한글 깨질 때
+
+${JAVA_HOME}/jre/lib/fonts 에 폰트 파일 복사 후, fonts.dir 파일을 수정  
+
+naverdic.ttf -b&h-naverdic-medium-r-normal–0-0-0-0-p-0-iso8859-9  
+NanumGothic.ttf -b&h-nanumgothic-medium-r-normal–0-0-0-0-p-0-iso8859-9  
+NanumGothicBold.ttf -b&h-nanumgothic-bold-r-normal–0-0-0-0-p-0-iso8859-9  
+gulim.tcc -microsoft-gulim-medium-r-normal–0-0-0-0-p-0-iso10646-1
+
+== Java 설치
+
+[source]
+----
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+java -version
+
+http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
+
+----
+
+== Lan 안 될때 
+
+[sourcea]
+----
+cd /etc/NetworkManager/system-connections
+sudo vi my_wlan
+----
+
+' system-ca-certs=true' 줄 삭제 
+
+
+( http://www.noelstyle.net/2014/04/ubuntu-1404-wpawpa2-wireless-network.html[http://www.noelstyle.net/2014/04/ubuntu-1404-wpawpa2-wireless-network.html] 참고 ) 
