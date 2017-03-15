@@ -1,0 +1,29 @@
+== 예제  
+* https://github.com/mminella/Pro-Spring-Batch-source-code
+* https://github.com/mminella/Spring-Batch-Talk
+* https://github.com/mminella/Spring-Batch-Talk-2.0
+
+== JavaConfig
+http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-comparison-to-xml/[]
+
+* http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-comparison-to-xml/[Part 1 : A comparison to XML]
+* http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-2-jobparameters-executioncontext-and-stepscope/[Part 2 : JobParameters, ExecutionContext and StepScope
+]
+* http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-3-profiles-and-environments/[Part 3 : <font face="나눔고딕, NanumGothic, 맑은 고딕, AppleGothic, 돋움">Profiles and environments</font>]
+* http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-4-job-inheritance/[Part 4 : Job inheritance]
+* http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-5-modular-configurations/[Part 5 : Modular configurations]
+* http://blog.codecentric.de/en/2013/07/spring-batch-2-2-javaconfig-part-6-partitioning-and-multi-threaded-step/[Part 6 : Partitioning and Multi-threaded Step]
+
+== JSR 352
+
+* JSR-352 소개 : http://www.planetjones.co.uk/blog/25-05-2013/introducing-jsr-352-java-batch-ee-7.html
+* Spring batch 3.0의  JSR-352 관련 스펙들 : https://jira.springsource.org/issues/?jql=labels%20%3D%20JSR-352
+* 포럼에 관련 질문 : http://forum.springsource.org/showthread.php?138022-Spring-Batch-and-JSR352
+* JSR-352와 Spring batch의 차이점 : http://blog.codecentric.de/en/2013/07/spring-batch-and-jsr-352-batch-applications-for-the-java-platform-differences/
+* http://blog.springsource.org/2013/08/23/spring-batch-3-0-milestone-1-released/
+* https://github.com/mminella/jsr352-springbatch-and-you
+
+== 핵심 commit
+
+retry 별도 프로젝트 분리 : https://github.com/SpringSource/spring-batch/commit/e827990f08c04122538d4ec17b0e90b8aa7ed577[https://github.com/SpringSource/spring-batch/commit/e827990f08c04122538d4ec17b0e90b8aa7ed577]
+  
