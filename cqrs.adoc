@@ -5,6 +5,7 @@
 * https://msdn.microsoft.com/magazine/mt703431[Cutting Edge - Building an Historical CRUD]
 * http://cqrsjourney.github.io/
 * https://msdn.microsoft.com/en-us/magazine/mt767692.aspx[Cutting Edge - Beyond CRUD: Commands, Events and Bus]
+* https://github.com/gyuwon/SimpleCQRS
 
 == EventSourcing
 * https://justhackem.wordpress.com/2017/02/05/introducing-event-sourcing/
