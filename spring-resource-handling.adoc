@@ -74,3 +74,7 @@ spring.resources.static-locations 로 수정 가능
 spring.resources.static-locations=classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/ # Locations of static resources.
 
 ----
+
+
+== Cache 전략
+http://kwon37xi.egloos.com/4735742[웹의 정적 리소스의 버전 명시를 통한 캐시 전략]
