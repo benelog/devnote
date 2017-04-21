@@ -23,3 +23,7 @@ http://www.jopenbusiness.com/mediawiki/index.php/Flume[http://www.jopenbusiness.
 http://mimul.com/pebble/default/2012/02/10/1328851289297.html
 
 http://www.elasticsearch.org/overview/kibana/
+
+== CLI
+* http://lnav.org/ 
+* https://github.com/tigrawap/slit
