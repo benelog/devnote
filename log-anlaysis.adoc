@@ -1,5 +1,7 @@
 비교 : http://rainblue.kr/1013[http://rainblue.kr/1013]
 
+https://www.tecmint.com/best-linux-log-monitoring-and-management-tools/?utm_content=buffere3104&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
+
 http://www.graylog2.org/[http://www.graylog2.org/]
 
 http://www.splunk.com/[http://www.splunk.com/]
