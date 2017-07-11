@@ -96,6 +96,7 @@ rake db:migrate
 
 == Server
 * https://www.engineyard.com/articles/rails-server
+* http://blog.scoutapp.com/articles/2017/02/10/which-ruby-app-server-is-right-for-you
 
 == Event machine
 * https://github.com/igrigorik/em-http-request
