@@ -96,3 +96,8 @@ rake db:migrate
 
 == Server
 * https://www.engineyard.com/articles/rails-server
+
+== Event machine
+* https://github.com/igrigorik/em-http-request
+* https://github.com/bcg/em-mongo
+
