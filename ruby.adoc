@@ -90,9 +90,10 @@ http://lambert.tistory.com/142[http://lambert.tistory.com/142]
 rake db:migrate
 
  
-== Scalability
+== Scalability / Performance
 * https://medium.com/@WesleyDavis/multi-threading-in-ruby-1c075f4c7410
 * https://medium.com/@franzejr/ruby-3-mri-and-gil-a302577c6634
+* http://www.madebymarket.com/blog/dev/ruby-web-benchmark-report.html
 
 == Server
 * https://www.engineyard.com/articles/rails-server
