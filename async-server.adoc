@@ -5,6 +5,8 @@ https://www.slideshare.net/arawnkr/reactive-web-servlet-async-nonblocking-io-738
 http://docs.paralleluniverse.co/comsat/
 
 == Tomcat BIO vs NIO
+* https://www.slideshare.net/Paganel/tomcatx-performancetuning
+** 28 페이지에 NIO Connector 관련
 * https://techblog.bozho.net/tomcats-default-connectors/
 ** https://github.com/Glamdring/bozho-benchmarks/tree/master/nonblocking
 * https://blog.eveoh.nl/2012/04/some-notes-on-tomcat-connector-performance/
