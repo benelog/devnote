@@ -2,3 +2,4 @@ http://callistaenterprise.se/blogg/teknik/2014/04/22/c10k-developing-non-blockin
 
 https://www.slideshare.net/arawnkr/reactive-web-servlet-async-nonblocking-io-73838876
 
+http://docs.paralleluniverse.co/comsat/
