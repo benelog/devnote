@@ -2,6 +2,7 @@ http://www.onjava.com/pub/a/onjava/2004/11/24/replication1.html[Session Replicat
 
 == Performance
 * https://www.slideshare.net/Paganel/tomcatx-performancetuning
+** 28 페이지에 NIO Connector 관련
 * https://medium.com/netflix-techblog/tuning-tomcat-for-a-high-throughput-fail-fast-system-e4d7b2fc163f
 ** 앞 단에 Apache Httpd 제거
 
