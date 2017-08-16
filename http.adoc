@@ -16,6 +16,10 @@ http://mkseo.pe.kr/blog/?p=2269[URL에 사용되는 특수문자 #!]
 * https://www.nginx.com/blog/7-tips-for-faster-http2-performance/
 * https://serverfault.com/questions/765258/use-http-2-0-between-nginx-reverse-proxy-and-backend-webserver
 
+=== Web server support
+- https://geekflare.com/http2-implementation-apache-nginx/
+- https://httpd.apache.org/docs/2.4/mod/mod_http2.html
+
 === Java support
 * https://vanwilgenburg.wordpress.com/2017/01/10/haproxy-with-undertow-and-tomcat-in-spring-boot/
 * https://www.youtube.com/watch?v=QpLtBftqM04
