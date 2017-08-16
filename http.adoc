@@ -14,6 +14,7 @@ http://mkseo.pe.kr/blog/?p=2269[URL에 사용되는 특수문자 #!]
 == HTTP/2
 * https://blog.cloudflare.com/http-2-for-web-developers/
 * https://www.nginx.com/blog/7-tips-for-faster-http2-performance/
+* https://serverfault.com/questions/765258/use-http-2-0-between-nginx-reverse-proxy-and-backend-webserver
 
 === Java support
 * https://vanwilgenburg.wordpress.com/2017/01/10/haproxy-with-undertow-and-tomcat-in-spring-boot/
