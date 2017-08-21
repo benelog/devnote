@@ -1,2 +1,3 @@
 
-http://tumblr.lunatine.net/post/28546340998/faq-linux-%EB%A9%94%EB%AA%A8%EB%A6%AC-%ED%9A%A8%EC%9C%A8%EC%9D%84-%EC%9C%84%ED%95%9C-vfscachepressure[Linux 메모리 효율을 위한 vfs_cache_pressure] : vfs_cache_pressure  를 통해 slab의 dentry와 inode의 cache 정도를 조절하는 방법
+* http://tumblr.lunatine.net/post/28546340998/faq-linux-%EB%A9%94%EB%AA%A8%EB%A6%AC-%ED%9A%A8%EC%9C%A8%EC%9D%84-%EC%9C%84%ED%95%9C-vfscachepressure[Linux 메모리 효율을 위한 vfs_cache_pressure] : vfs_cache_pressure  를 통해 slab의 dentry와 inode의 cache 정도를 조절하는 방법
+* https://brunch.co.kr/@alden/14[메모리 재할당과 커널 파라미터]
