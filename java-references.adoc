@@ -2,9 +2,12 @@ http://www-128.ibm.com/developerworks/java/library/j-jtp01246.html[Plugging memo
 
 http://whiteship.tistory.com/1638[자바의 레퍼런스 클래스 사용 가이드라인]
 
+[source,java]
+----
 WeakReference<User> ref = new  
 WeakReference<User>( new User());  
 User user = ref.get();
+----
 
 Weak은 GC될때마다 회수. LRU cache에 유리.  
 
