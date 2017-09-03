@@ -1,6 +1,7 @@
 == API design
 * http://www.restapitutorial.com/lessons/restquicktips.html[REST API Quick Tips]
-*  https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf[APIGee의 Web API Design]
+* https://www.theteams.kr/teams/371/post/64313[REST 아키텍처를 훌륭하게 적용하기 위한 몇 가지 디자인 팁]
+* https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf[APIGee의 Web API Design]
 * http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm[Architectural Styles and
 the Design of Network-based Software Architectures by  Roy Thomas Fielding]
 * http://martinfowler.com/articles/richardsonMaturityModel.html[리처드슨 REST 성숙도 모델 (원문)],  http://jinson.tistory.com/190[리처드슨 REST 성숙도 모델 (번역)]
