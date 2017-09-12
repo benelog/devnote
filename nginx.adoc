@@ -27,4 +27,6 @@ sudo update-rc.d -f nginx disable
 
 == 설정
 * http://bong8nim.com/post/programming/etc/nginx-config-manual/
-* epoll 추천 : http://sarc.io/index.php/nginx/149-2014-04-28-14-57-47
+* epoll 관련
+** http://nginx.org/en/docs/events.html
+** http://sarc.io/index.php/nginx/149-2014-04-28-14-57-47
