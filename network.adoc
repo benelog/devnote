@@ -19,13 +19,5 @@ Class D 234 이상
 == CIDR
 http://en.wikipedia.org/wiki/CIDR  
 
-== TCP
-
-http://neocode.egloos.com/1939688[Transmission Control Protocol(TCP)]
-
-http://neocode.egloos.com/1940628[TCP에 관한 정리 (1)]
-
-http://monac.egloos.com/1990631[MAC 주소를 속이는 방법]
-
 == Switch
 http://mkhouse.info/tt/58[[네트워크 이야기] L4 스위치]  
