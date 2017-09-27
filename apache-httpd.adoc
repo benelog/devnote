@@ -1,18 +1,18 @@
 소스 분석 거리 : http://svn.apache.org/repos/asf/apr/apr/trunk/network_io/unix/sockets.c
 
-==== Apache 설치
+== Apache 설치
 
-===== yum을 이용해 설치 :
+=== yum을 이용해 설치 :
 
 $ yum install httpd httpd-devel
 
-====== 다운받아 설치
+=== 다운받아 설치
 
 http://blog.naver.com/tonyounmi?Redirect=Log&logNo=40047198497[리눅스 - Apache 설치하기]
 
 ./configure --prefix=/home1/irteam/apache2 --enable-rewrite --enable-so --enable-mods-shared=most
 
-=== 명령어
+== 명령어
 
 service httpd start
 
@@ -26,24 +26,18 @@ apachectl configtest
 
 apachectl graceful
 
-=== Tomcat 연동
-
-http://tomcat.apache.org/connectors-doc/generic_howto/quick.html[http://tomcat.apache.org/connectors-doc/generic_howto/quick.html]
-
-http://kwon37xi.egloos.com/1761178[[mod_jk] Apache 2 + Tomcat 5.0 + mod_jk 1.2 on Linux 연동] (권남)
-
-http://www.tuning-java.com/185[[Tomcat Apache 연동] 톰캣과 아파치 연동(JDK 1.6 + Apache 2.2 + Tomcat 6.0)Tools/WAS] (Tunning-java)
+== Tomcat 연동
+* http://net4all.egloos.com/2164189[Apache 2.2 + PHP 5.2.7 + Tomcat 6.0 연동하기 (톰캣편)]
+* http://tomcat.apache.org/connectors-doc/generic_howto/quick.html[http://tomcat.apache.org/connectors-doc/generic_howto/quick.html]
+* http://kwon37xi.egloos.com/1761178[[mod_jk] Apache 2 + Tomcat 5.0 + mod_jk 1.2 on Linux 연동] (권남)
+* http://www.tuning-java.com/185[[Tomcat Apache 연동] 톰캣과 아파치 연동(JDK 1.6 + Apache 2.2 + Tomcat 6.0)Tools/WAS] (Tunning-java)
 
 <Connector port="8009" protocol="AJP/1.3" redirectPort="8443" /> :   
 
-http://blog.openframework.or.kr/74[[tomcat] Apache, Tomcat 연동하기]  
-http://blog.naver.com/cycle98?Redirect=Log&logNo=140003166006[http://blog.naver.com/cycle98?Redirect=Log&logNo=140003166006]
+* http://blog.openframework.or.kr/74[[tomcat] Apache, Tomcat 연동하기]  
+* http://blog.naver.com/cycle98?Redirect=Log&logNo=140003166006[http://blog.naver.com/cycle98?Redirect=Log&logNo=140003166006]
+* http://blog.naver.com/eosdeath?Redirect=Log&logNo=140032477546[http://blog.naver.com/eosdeath?Redirect=Log&logNo=140032477546]
 
-http://blog.naver.com/eosdeath?Redirect=Log&logNo=140032477546[http://blog.naver.com/eosdeath?Redirect=Log&logNo=140032477546]
-
-Tomcat Connectors (mod_jk) Downloads : http://tomcat.apache.org/download-connectors.cgi[http://tomcat.apache.org/download-connectors.cgi]
-
-mod_jk.so 다운로드
 
 1.  LoadModule  설정
 2.  JkWorkersFile  설정
@@ -53,19 +47,17 @@ http://tomcat.apache.org/download-connectors.cgi?Preferred=http%3A%2F%2Fmirror.k
 
 http://suya55.springnote.com/pages/2098366[http://suya55.springnote.com/pages/2098366]
 
-=== Virtual host 
+== Virtual host 
 
 http://kwon37xi.egloos.com/4544612[http://kwon37xi.egloos.com/4544612] 
 
 http://www.javacodegeeks.com/2012/04/virtual-host-apache-httpd-server-tomcat.html[http://www.javacodegeeks.com/2012/04/virtual-host-apache-httpd-server-tomcat.html]
 
-====   
-
-=== 로그
+== 로그
 
 http://kwon37xi.egloos.com/1717906[[Apache HTTPD] Log rotation(logrotate)]
 
-=== Load balacing
+== Load balacing
 
 http://tong.nate.com/bassdot/47781604[apache + tomcat ajp load-balance tip]
 
@@ -73,50 +65,28 @@ http://blog.naver.com/jistol?Redirect=Log&logNo=80057344253[Apache 2.2 + mod_jk 
 
 http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55-with.html[How to load balance Tomcat 5.5 with Apache on Windows]
 
-=== 에러해결
+== 에러해결
+* http://www.cyberciti.biz/faq/apache-403-forbidden-error-and-solution/[Apache 403 Forbidden Error and Solution]
+* http://yamazsw.egloos.com/2230872[http://yamazsw.egloos.com/2230872]
+* 에러 .htaccess : `.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable`
 
-http://www.cyberciti.biz/faq/apache-403-forbidden-error-and-solution/[Apache 403 Forbidden Error and Solution]
+== 보안
+* http://blog.daum.net/superman2up/8676327?srchid=BR1http%3A%2F%2Fblog.daum.net%2Fsuperman2up%2F8676327[Image 펌질을 막아보자]
 
-http://yamazsw.egloos.com/2230872[http://yamazsw.egloos.com/2230872]
+== 설정
+* http://www.yourhtmlsource.com/sitemanagement/urlrewriting.html[URL Rewriting]
+* http://dragonpapa.pe.kr/130033975559[ETag 제거]
 
-에러 .htaccess
-
-.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
-
-=== PHP연동
-
-http://net4all.egloos.com/2164195[Apache 2.2 + PHP 5.2.7 + Tomcat 6.0 연동하기 (PHP편)]
-
-http://net4all.egloos.com/2164189[Apache 2.2 + PHP 5.2.7 + Tomcat 6.0 연동하기 (톰캣편)]
-
-=== 보안
-
-http://blog.daum.net/superman2up/8676327?srchid=BR1http%3A%2F%2Fblog.daum.net%2Fsuperman2up%2F8676327[Image 펌질을 막아보자]
-
-=== 설정
-
-http://www.yourhtmlsource.com/sitemanagement/urlrewriting.html[URL Rewriting]
-
-http://dragonpapa.pe.kr/130033975559[ETag 제거]
-
-===  TCP Connection Reset
-
-/etc/sysctl.conf 파일에 “net.core.somaxconn =1024  
-Apache 설정에 “ListenBacklog 1024" 추가
-
-=== Performance Tuning
-
-http://people.apache.org/~sctemme/ApconUS2007/scalingup.pdf[http://people.apache.org/~sctemme/ApconUS2007/scalingup.pdf]
-
-http://helloworld.naver.com/helloworld/132178[Apache MaxClients와 Tomcat의 Full GC] : apche의  maxClient값과 Tomcat의 maxThread, AJP의 backlog값을 결정할 때 고려할 사안
-
-http://blog.naver.com/PostView.nhn?blogId=sugyoo&logNo=20119924250[http://blog.naver.com/PostView.nhn?blogId=sugyoo&logNo=20119924250] : Worker vs prefork
+== Performance Tuning
+* http://people.apache.org/~sctemme/ApconUS2007/scalingup.pdf[http://people.apache.org/~sctemme/ApconUS2007/scalingup.pdf]
+* http://helloworld.naver.com/helloworld/132178[Apache MaxClients와 Tomcat의 Full GC] : apche의  maxClient값과 Tomcat의 maxThread, AJP의 backlog값을 결정할 때 고려할 사안
+* http://blog.naver.com/PostView.nhn?blogId=sugyoo&logNo=20119924250[http://blog.naver.com/PostView.nhn?blogId=sugyoo&logNo=20119924250] : Worker vs prefork
 
 == 아파치 설치
 
 Ubuntu 배포판 :  http://blog.naver.com/PostView.nhn?blogId=nimbusob&logNo=179889399
 
-==== 설치하기
+=== 설치하기
 
 sudo apt-get install apache2  
 
@@ -125,29 +95,18 @@ sudo apt-get install apache2
 sudo /etc/init.d/apache2 restart  
 
 ==== 확인
+기본 설치하면 /var/www에 index.html 이 읽어진다. index.html의 내용을 바꾼후 바뀐 내용이 반영되는지 본지
 
-기본 설치하면 /var/www에 index.html 이 읽어진다.  
 
-index.html의 내용을 바꾼후 바뀐 내용이 반영되는지 본지
-
-== Mod-jk 설치
-
-==== apxs 설치
+== apxs 설치
 
 sudo apt-get install apache2-threaded-dev  
 
-==== Mod-jk 다운받기
 
-http://tomcat.apache.org/download-connectors.cgi[http://tomcat.apache.org/download-connectors.cgi] 에서 다운받는다.
 
-====   
+== 컴파일
 
-==== 컴파일
 ./configure --with-apxs=/usr/bin/apxs2 --enable-EAPI
 make  
 
 make install  
-
-==== 설정
-apache2.conf의 내용을 확인하고 필요없는 부분을 주석처리한다.
-<font face="굴림, Gulim, 돋움, Dotum, Arial, sans-serif">같은 파일에 mod-jk관련 설정을 추가하거나 /etc/apache2/httpd.conf에 추가한다.</font>
