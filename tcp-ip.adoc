@@ -1,4 +1,7 @@
-http://helloworld.naver.com/helloworld/textyle/47667[TCP/IP 네트워크 스택 이해하기]   
+* http://helloworld.naver.com/helloworld/textyle/47667[TCP/IP 네트워크 스택 이해하기]   
+* http://neocode.egloos.com/1939688[Transmission Control Protocol(TCP)]
+* http://neocode.egloos.com/1940628[TCP에 관한 정리 (1)]
+* http://monac.egloos.com/1990631[MAC 주소를 속이는 방법]
 
 == TCP 특징
 *   신뢰성
@@ -25,3 +28,8 @@ TCP 3-way handshaking
 Peer가 FIN보내면 이쪽에서 닫기 전까지 CLOSE_WAIT 상태
 
 CLOSE_WAIT는 timeout이 나지 않는다.
+
+==  TCP Connection Reset
+
+/etc/sysctl.conf 파일에 “net.core.somaxconn =1024  Apache 설정에 “ListenBacklog 1024" 추가
+
