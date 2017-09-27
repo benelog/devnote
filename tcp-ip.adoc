@@ -11,8 +11,6 @@
 *   양반향 통신
 *   혼잡제어
 
-TCP 3-way handshaking
-
 === 연결
 1. SYN
 2. SYN+ACK
@@ -28,6 +26,8 @@ TCP 3-way handshaking
 Peer가 FIN보내면 이쪽에서 닫기 전까지 CLOSE_WAIT 상태
 
 CLOSE_WAIT는 timeout이 나지 않는다.
+
+http://tech.kakao.com/2016/04/21/closewait-timewait[CLOSE_WAIT & TIME_WAIT 최종 분석]
 
 ==  TCP Connection Reset
 
