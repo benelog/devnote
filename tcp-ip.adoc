@@ -29,10 +29,16 @@ CLOSE_WAIT는 timeout이 나지 않는다.
 
 http://tech.kakao.com/2016/04/21/closewait-timewait[CLOSE_WAIT & TIME_WAIT 최종 분석]
 
-==  TCP Connection Reset
+== Linux tuning
+* http://meetup.toast.com/posts/53[리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 - 1편]
+* http://meetup.toast.com/posts/54[리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 - 2편]
+* http://meetup.toast.com/posts/55[리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 - 3편]
+
+===  TCP Connection Reset
 
 /etc/sysctl.conf 파일에 “net.core.somaxconn =1024  Apache 설정에 “ListenBacklog 1024" 추가
 
-
-== tcp_tw_reuse
+=== tcp_tw_reuse
 * https://brunch.co.kr/@alden/3[tcp_tw_reuse와 tcp_tw_recycle] : tw_use는 outing 트래픽에 대해 로컬 포트가 모자랄 경우, TW 상태에 있는 소켓을 재사용할 수 있게 해줍니다.
+* http://kikiho.tistory.com/entry/Linux-TIMEWAIT-State-%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC
+* https://www.joinc.co.kr/w/Site/Network_Programing/Documents/Time_Wait
