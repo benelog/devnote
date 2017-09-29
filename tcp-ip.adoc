@@ -33,3 +33,6 @@ http://tech.kakao.com/2016/04/21/closewait-timewait[CLOSE_WAIT & TIME_WAIT 최�
 
 /etc/sysctl.conf 파일에 “net.core.somaxconn =1024  Apache 설정에 “ListenBacklog 1024" 추가
 
+
+== tcp_tw_reuse
+* https://brunch.co.kr/@alden/3[tcp_tw_reuse와 tcp_tw_recycle]
