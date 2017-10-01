@@ -26,5 +26,6 @@ http://mkseo.pe.kr/blog/?p=2269[URL에 사용되는 특수문자 #!]
 * https://httpd.apache.org/docs/trunk/mod/mod_proxy_http2.html
 
 === Java support
+* 추천하는 방식 : https://youtu.be/QpLtBftqM04?t=2056
 * https://vanwilgenburg.wordpress.com/2017/01/10/haproxy-with-undertow-and-tomcat-in-spring-boot/
 * https://www.youtube.com/watch?v=QpLtBftqM04
