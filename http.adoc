@@ -33,3 +33,6 @@ http://mkseo.pe.kr/blog/?p=2269[URL에 사용되는 특수문자 #!]
 * https://vanwilgenburg.wordpress.com/2017/01/10/haproxy-with-undertow-and-tomcat-in-spring-boot/
 * https://www.youtube.com/watch?v=QpLtBftqM04
 * https://stackoverflow.com/questions/35697681/can-we-use-apache-to-deliver-http-2-connection-for-a-java-application-server
+
+=== Server push
+* https://www.smashingmagazine.com/2017/04/guide-http2-server-push/
