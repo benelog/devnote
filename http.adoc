@@ -27,6 +27,7 @@ http://mkseo.pe.kr/blog/?p=2269[URL에 사용되는 특수문자 #!]
 
 ==== Nginx
 * https://www.nginx.com/blog/http2-module-nginx/
+* https://serverfault.com/questions/765258/use-http-2-0-between-nginx-reverse-proxy-and-backend-webserver
 
 === Java support
 * 추천하는 방식 : https://youtu.be/QpLtBftqM04?t=2056
