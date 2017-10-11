@@ -12,10 +12,10 @@ http://mkseo.pe.kr/blog/?p=2269[URL에 사용되는 특수문자 #!]
 
 
 == HTTP/2
+* https://http2.github.io/faq
 * https://github.com/bagder/http2-explained/tree/master/ko
 * https://blog.cloudflare.com/http-2-for-web-developers/
 * https://www.nginx.com/blog/7-tips-for-faster-http2-performance/
-* https://serverfault.com/questions/765258/use-http-2-0-between-nginx-reverse-proxy-and-backend-webserver
 
 === Web server support
 * https://geekflare.com/http2-implementation-apache-nginx/
@@ -32,6 +32,8 @@ http://mkseo.pe.kr/blog/?p=2269[URL에 사용되는 특수문자 #!]
 * Cloudflare에서는 자체 NGinx 모듈로 server push를 제공하고 있는 것으로 추정됨
 ** https://blog.cloudflare.com/announcing-support-for-http-2-server-push-2/
 ** https://community.centminmod.com/threads/nginx-support-for-http-2-server-push.7149/
+
+https://serverfault.com/questions/765258/use-http-2-0-between-nginx-reverse-proxy-and-backend-webserver
 
 upstream module 에서는 HTTP/2를 지원 안 함. 
 
