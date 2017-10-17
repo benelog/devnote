@@ -51,8 +51,12 @@ instead of multiple ones.
 * https://github.com/bclozel/http2-experiments
 * https://blogs.oracle.com/theaquarium/http2-and-server-push
 
+=== Servlet 4.0 support
+* https://github.com/bclozel/http2-experiments/commit/5559e0f06617e4d2861b8d661b5c9283e43ee884#diff-ac70a73e96ba95cc3fa3b043de1ade7c
+
 == nghttpx
 https://nghttp2.org/documentation/nghttpx-howto.html
 
 == Server push
 * https://www.smashingmagazine.com/2017/04/guide-http2-server-push/
+
