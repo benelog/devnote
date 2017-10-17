@@ -2,7 +2,9 @@
 * https://github.com/bagder/http2-explained/tree/master/ko
 * https://blog.cloudflare.com/http-2-for-web-developers/
 * https://www.nginx.com/blog/7-tips-for-faster-http2-performance/
-* upgrade : https://b.luavis.kr/http2/http2-start
+* upgrade
+** https://b.luavis.kr/http2/http2-start
+** https://community.akamai.com/groups/korea-user-group/blog/2016/10/14/http2-checker-coding
 * https://geekflare.com/http2-implementation-apache-nginx/
 
 == Apache httpd
