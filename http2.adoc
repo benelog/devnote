@@ -1,0 +1,53 @@
+* https://http2.github.io/faq
+* https://github.com/bagder/http2-explained/tree/master/ko
+* https://blog.cloudflare.com/http-2-for-web-developers/
+* https://www.nginx.com/blog/7-tips-for-faster-http2-performance/
+* upgrade : https://b.luavis.kr/http2/http2-start
+* https://geekflare.com/http2-implementation-apache-nginx/
+
+== Apache httpd
+* https://httpd.apache.org/docs/2.4/howto/http2.html
+* https://httpd.apache.org/docs/2.4/mod/mod_http2.html
+* https://httpd.apache.org/docs/trunk/mod/mod_proxy_http2.html
+
+== Nginx
+* https://www.nginx.com/blog/http2-module-nginx/
+* https://http2.pro/doc/Nginx
+* https://serverfault.com/questions/765258/use-http-2-0-between-nginx-reverse-proxy-and-backend-webserver
+* Cloudflare에서는 자체 NGinx 모듈로 server push를 제공하고 있는 것으로 추정됨
+** https://blog.cloudflare.com/announcing-support-for-http-2-server-push-2/
+** https://community.centminmod.com/threads/nginx-support-for-http-2-server-push.7149/
+
+https://serverfault.com/questions/765258/use-http-2-0-between-nginx-reverse-proxy-and-backend-webserver
+
+upstream module 에서는 HTTP/2를 지원 안 함. 
+
+https://www.nginx.com/blog/http2-module-nginx/#QandA 에서
+
+But what is the point of HTTP/2 on the backend side? Because as you can see from the benchmarks, there’s not much benefit in HTTP/2 for low‑latency networks such as upstream connections.
+
+Also, in NGINX you have the keepalive module, and you can configure a keepalive cache. The main performance benefit of HTTP/2 is to eliminate additional handshakes, but if you do that already with a keepalive cache, you don’t need HTTP/2 on the upstream side.
+
+
+http://mailman.nginx.org/pipermail/nginx/2015-December/049445.html 에서 
+
+There is almost no sense to implement it, as the main HTTP/2 
+benefit is that it allows multiplexing many requests within a 
+single connection, thus [almost] removing the limit on number of 
+simalteneous requests - and there is no such limit when talking to 
+your own backends.  Moreover, things may even become worse when 
+using HTTP/2 to backends, due to single TCP connection being used 
+instead of multiple ones.
+ 
+== Java support
+* 추천하는 방식 : https://youtu.be/QpLtBftqM04?t=2056
+* https://vanwilgenburg.wordpress.com/2017/01/10/haproxy-with-undertow-and-tomcat-in-spring-boot/
+* https://www.youtube.com/watch?v=QpLtBftqM04
+* https://stackoverflow.com/questions/35697681/can-we-use-apache-to-deliver-http-2-connection-for-a-java-application-server
+* https://github.com/bclozel/http2-experiments
+
+== nghttpx
+https://nghttp2.org/documentation/nghttpx-howto.html
+
+== Server push
+* https://www.smashingmagazine.com/2017/04/guide-http2-server-push/
