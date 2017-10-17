@@ -49,6 +49,7 @@ instead of multiple ones.
 * https://www.youtube.com/watch?v=QpLtBftqM04
 * https://stackoverflow.com/questions/35697681/can-we-use-apache-to-deliver-http-2-connection-for-a-java-application-server
 * https://github.com/bclozel/http2-experiments
+* https://blogs.oracle.com/theaquarium/http2-and-server-push
 
 == nghttpx
 https://nghttp2.org/documentation/nghttpx-howto.html
