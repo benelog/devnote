@@ -34,14 +34,47 @@ http://tech.kakao.com/2016/04/21/closewait-timewait[CLOSE_WAIT & TIME_WAIT 최�
 * http://meetup.toast.com/posts/54[리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 - 2편]
 * http://meetup.toast.com/posts/55[리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 - 3편]
 
-===  TCP Connection Reset
+=== TCP buffer size
+[source]
+----
+sysctl -w net.core.rmem_max=16777216
+sysctl -w net.core.wmem_max=16777216
+sysctl -w net.ipv4.tcp_rmem="4096 87380 16777216"
+sysctl -w net.ipv4.tcp_wmem="4096 16384 16777216"
+----
 
-/etc/sysctl.conf 파일에 “net.core.somaxconn =1024  Apache 설정에 “ListenBacklog 1024" 추가
+===  Queue size
+* net.core.somaxconn
+**  size of the connection listening queue 
+** default 128
+** /etc/sysctl.conf 파일에 `net.core.somaxconn =1024`
+* Apache 설정에 `ListenBacklog 1024`
 
-=== tcp_tw_reuse
+[source]
+----
+sysctl -w net.core.somaxconn=4096
+sysctl -w net.core.netdev_max_backlog=16384
+sysctl -w net.ipv4.tcp_max_syn_backlog=8192
+sysctl -w net.ipv4.tcp_syncookies=1
+----
+
+=== Ports
+[source]
+----
+sysctl -w net.ipv4.ip_local_port_range="1024 65535"
+sysctl -w net.ipv4.tcp_tw_recycle=1
+----
+
 * https://brunch.co.kr/@alden/3[tcp_tw_reuse와 tcp_tw_recycle] : tw_use는 outing 트래픽에 대해 로컬 포트가 모자랄 경우, TW 상태에 있는 소켓을 재사용할 수 있게 해줍니다.
 * http://kikiho.tistory.com/entry/Linux-TIMEWAIT-State-%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC
 * https://www.joinc.co.kr/w/Site/Network_Programing/Documents/Time_Wait
+
+=== Congestion Control
+[source]
+----
+sysctl net.ipv4.tcp_available_congestion_control
+sysctl -w net.ipv4.tcp_congestion_control=cubic
+----
 
 == Monitoring
 [source]
