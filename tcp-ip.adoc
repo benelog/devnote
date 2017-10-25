@@ -44,10 +44,14 @@ sysctl -w net.ipv4.tcp_wmem="4096 16384 16777216"
 ----
 
 ===  Queue size
+syn queue: 3-way handshake 중인 connection 이 대기
+
 * net.core.somaxconn
-**  size of the connection listening queue 
+** size of the connection listening queue, socket당 listen queue 최대 크기
 ** default 128
 ** /etc/sysctl.conf 파일에 `net.core.somaxconn =1024`
+* net.core.netdev_max_backlog : 들어온 패킷이 프로세서에서 처리되기까지 대기하는 queue
+* net.ipv4.tcp_max_syn_backlog : 전체 listen queue 최대 크기
 * Apache 설정에 `ListenBacklog 1024`
 
 [source]
@@ -57,6 +61,8 @@ sysctl -w net.core.netdev_max_backlog=16384
 sysctl -w net.ipv4.tcp_max_syn_backlog=8192
 sysctl -w net.ipv4.tcp_syncookies=1
 ----
+
+/etc/sysctl.conf 를 수정하면 재부팅해도 동일하게 적용됨. `sudo /sbin/sysctl -p /etc/sysctl.conf` 로 반영
 
 === Ports
 [source]
