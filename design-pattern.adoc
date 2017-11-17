@@ -194,6 +194,7 @@ http://aeternum.egloos.com/1899296[http://aeternum.egloos.com/1899296]
 http://www.adam-bien.com/roller/abien/entry/value_object_vs_data_transfer[http://www.adam-bien.com/roller/abien/entry/value_object_vs_data_transfer]   
 
 ==== IoC, DI
+http://jwchung.github.io/DI%EB%8A%94-IoC%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%A7%80-%EC%95%8A%EC%95%84%EB%8F%84-%EB%90%9C%EB%8B%A4[DI는-IoC를-사용하지-않아도-된다]
 
 http://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming
 
