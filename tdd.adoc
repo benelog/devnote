@@ -1,5 +1,6 @@
-https://www.thoughtworks.com/insights/blog/mockists-are-dead-long-live-classicists
+http://agiledata.org/essays/tdd.html
 
+https://www.thoughtworks.com/insights/blog/mockists-are-dead-long-live-classicists
 
 http://junit.sourceforge.net/doc/testinfected/testing.htm[JUnit Test Infected: Programmers Love Writing Tests]
 
