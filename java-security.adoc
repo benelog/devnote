@@ -1,3 +1,5 @@
+https://github.com/kantega/notsoserial
+
 == Struts2
 
 참고 : OGNL 명세 www.ognl.org/2.6.9/Documentation/html/LanguageGuide/expressionEvaluation.html  
