@@ -10,3 +10,5 @@ http://mkseo.pe.kr/blog/?p=2269[URL에 사용되는 특수문자 #!]
 == Web Socket
 * http://jwebsocket.org/[http://jwebsocket.org/]
 
+== HTTPS
+* http://blog.httpwatch.com/2009/02/20/how-secure-are-query-strings-over-https/
