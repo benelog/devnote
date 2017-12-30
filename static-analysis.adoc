@@ -1,3 +1,7 @@
+http://errorprone.info/
+
+https://github.com/uber/NullAway
+
 https://code.facebook.com/posts/293371094514305/open-sourcing-racerd-fast-static-race-detection-at-scale/
 
 http://benelog.egloos.com/2079841[FindBugs + Eclipse + Maven2 + Hudson]
