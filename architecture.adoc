@@ -11,6 +11,7 @@ resident in the Component. These services define behavior offered by instances o
 * http://www.popit.kr/why-microservice/
 * http://www.slideshare.net/JoshEvans2/mastering-chaos-a-netflix-guide-to-microservices
 * http://basho.com/posts/technical/microservices-please-dont/
+* http://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/
 
 == 아키텍트의 역할
 
