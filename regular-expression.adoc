@@ -1,5 +1,7 @@
 image::http://dl.adminlife.net/regular_expressions_cheat_sheet.png[regular_expressions_cheat_sheet.png]
 
+== 학습
+* https://github.com/zeeshanu/learn-regex/blob/master/README-ko.md
 
 == 도움사이트
 * http://www.regexper.com/[http://www.regexper.com]
