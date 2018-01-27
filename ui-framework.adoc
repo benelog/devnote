@@ -1,5 +1,6 @@
 * http://htglss.tistory.com/54[DTD DOCTYPE 과 HTML5]
 * http://msdn.microsoft.com/en-us/library/cc288325(v=vs.85).aspx[http://msdn.microsoft.com/en-us/library/cc288325(v=vs.85).aspx]  
+* http://www.jetbrains.org/ring-ui/index.html
 
 == Activo
 http://dmfrancisco.github.com/activo/[http://dmfrancisco.github.com/activo/]  
