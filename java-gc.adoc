@@ -259,14 +259,14 @@ http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf[<
 
 
 == 자주쓰는 option
-
--XX:PermSize=128m -XX:MaxPermSize=256m
-
--XX:+CMSClassUnloadingEnabled :  쓰지 않는 클래스 정보 unloading
-
--XX:+CMSPermGenSweepingEnabled : 
+* -XX:PermSize=128m -XX:MaxPermSize=256m
+* -XX:+CMSClassUnloadingEnabled :  쓰지 않는 클래스 정보 unloading
+* -XX:+CMSPermGenSweepingEnabled : 
 
 
 http://www.webmin.com/
 
 http://www.ibm.com/developerworks/kr/library/j-5things11/index.html[JVM의 명령행 플래그에 대해 모르고 있던 5가지 사항]
+
+== Pergem
+http://netframework.tistory.com/entry/Java8-PermGen%EC%97%90%EC%84%9C-Metaspace%EB%A1%9C
