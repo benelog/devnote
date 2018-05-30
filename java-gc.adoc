@@ -1,50 +1,51 @@
-*   http://helloworld.naver.com/helloworld/helloworld/1329[Java Garbage Collection (이상민)]
-
-*   Young 영역 -> Minor gc, Old 영역 -> Major GC. Perm 영역 GC도 Major GC에 포함
-*   Old -> Young 참조는 card table 사용
-*   Young 영역은 Eden, Survivor 로 나눔*   http://helloworld.naver.com/helloworld/37111[Garbage Collection 튜닝]
-
-*   Old 영역으로 넘어가는 객체의 수 최소화하기, Full GC 실행시간 줄이기*   http://apmblog.compuware.com/2011/03/24/the-impact-of-garbage-collection-on-java-performance/[the-impact-of-garbage-collection-on-java-performance/]  
-http://apmblog.compuware.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms/[how-garbage-collection-differs-in-the-three-big-jvms/]  
-http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html[Java Garbage Collection Basics]http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/JavaJCMD/index.html[Java SE 7: Reviewing JVM Performance Command Line Tools]  
+* http://helloworld.naver.com/helloworld/helloworld/1329[Java Garbage Collection (이상민)]
+** Young 영역 -> Minor gc, Old 영역 -> Major GC. Perm 영역 GC도 Major GC에 포함
+** Old -> Young 참조는 card table 사용
+** Young 영역은 Eden, Survivor 로 나눔
+* http://helloworld.naver.com/helloworld/37111[Garbage Collection 튜닝]
+** Old 영역으로 넘어가는 객체의 수 최소화하기, Full GC 실행시간 줄이기
+* http://apmblog.compuware.com/2011/03/24/the-impact-of-garbage-collection-on-java-performance/[the-impact-of-garbage-collection-on-java-performance/]
+* http://apmblog.compuware.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms/[how-garbage-collection-differs-in-the-three-big-jvms/]
+* http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html[Java Garbage Collection Basics]
+* http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/JavaJCMD/index.html[Java SE 7: Reviewing JVM Performance Command Line Tools]  
 
 default GC 찾기 :  
 java -XX:+PrintCommandLineFlags -version   
 
-=== 영역 구분   
-
+== 영역 구분   
 *   Young Generation
+** eden
+** survivor1
+** survivor2*
+* Old Generation
+** Tenured*   Method area
+* Pergem
+** http://netframework.tistory.com/entry/Java8-PermGen%EC%97%90%EC%84%9C-Metaspace%EB%A1%9C
 
-*   eden
-*   survivor1
-*   survivor2*   Old Generation
 
-*   Tenured*   Method area
+* Minor GC :  Young의 Eden에 객체가 최초로 할당되는데, 객체가 계속 할당되면 참조되는 객체(Live Object)들은 Survivor1이나 Survivor2로 옮겨지고, 더 이상 참조되지 않는 객체들은 삭제됩니다.   
+* Full GC 혹은 Major GC :  Minor GC의 결과로 충분히 오랫동안 참조된 객체들은 Old로 승격(Promotion) .  Old의 메모리가 충분하지 않으면 Old에서 더 이상 참조되지 않는 객체를 삭제해서 공간을 확보해야 함.
 
-Minor GC :  Young의 Eden에 객체가 최초로 할당되는데, 객체가 계속 할당되면 참조되는 객체(Live Object)들은 Survivor1이나 Survivor2로 옮겨지고, 더 이상 참조되지 않는 객체들은 삭제됩니다.   
-
-Full GC 혹은 Major GC :  Minor GC의 결과로 충분히 오랫동안 참조된 객체들은 Old로 승격(Promotion) .  Old의 메모리가 충분하지 않으면 Old에서 더 이상 참조되지 않는 객체를 삭제해서 공간을 확보해야 함.
-
-=== Garbarge Collector 방식
+== Garbarge Collector 방식
 http://wiki.ex-em.com/index.php/Garbage_Collector[http://wiki.ex-em.com/index.php/Garbage_Collector]  
 
-Parallel Collector : (Throughput) 위주   
-CMS : 응답시간 개선(Low Pause) 위주  
+* Parallel Collector : (Throughput) 위주   
+* CMS : 응답시간 개선(Low Pause) 위주  
 
-==== Serial GC
+=== Serial GC
 
-==== Pararrel GC
+=== Pararrel GC
 스레드의 작업을 멈춘 후에는 모든 CPU들이 협력하여 GC를 수행.이 옵션을 사용할 경우에는 CPU는 적게 소모하지만, Full GC를 수행할 때 많은 시간이 소요되는 문제가 발생함.  
 
 Pararrel Old GC(Parral Compacting GC)  
 
-==== Concurrent Mark And Sweep
+=== Concurrent Mark And Sweep
  작업스레드와 병행하여 GC관련 정보를 수집해 둠. 특정 CPU를 GC를 위해 할당한 후에 사용중인 객체를 프로그램 수행과 동시에 파악함  지속적으로 GC를 위한 작업을 수행하므로 CPU는 더 많이 사용하지만, Full GC 시간이 줄어드는 장점이 있음. 일명 Low latency GC. 그러나 Concurrent mode failure가 발생하면 다른 Parallel GC보다 느리다.  
 
-*   -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC
-*   -XX:+UseParNewGC : CMS Collector를 사용하는 경우에 한해서, Young에 대해서 Parallel Collection을 수행할 지의 여부를 지정함
-*   -XX:+CMSParallelRemarkEnabled : -XX:+UseParNewGC와 같이 사용할 때 Remark Phase의 Pause Time을 좀 더 줄이기 위해서 사용하는 옵션임
-*   -XX:+UseConcMarkSweepGC : CMS Collector를 사용할 지의 여부를 지정함
+* -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC
+* -XX:+UseParNewGC : CMS Collector를 사용하는 경우에 한해서, Young에 대해서 Parallel Collection을 수행할 지의 여부를 지정함
+* -XX:+CMSParallelRemarkEnabled : -XX:+UseParNewGC와 같이 사용할 때 Remark Phase의 Pause Time을 좀 더 줄이기 위해서 사용하는 옵션임
+* -XX:+UseConcMarkSweepGC : CMS Collector를 사용할 지의 여부를 지정함
 
 -XX:PermSize=256m -XX:MaxPermSize=256m -Xms1024m -Xmx1024m -server -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC
 
@@ -60,8 +61,7 @@ cms full gc (concurrent mode fail, promotion fail) 를 개선하기 위해서 cm
 
 -XX:CMSInitiatingOccupancyFraction=N -XX:+UseCMSInitiatingOccupancyOnly
 
-N 70으로 주면 70%정도 old gen이 찾을 경우 cms gc를 시작. 더 많은 가용공간을 확보된 상황에서 gc를 하기 때문에 promotion fail이 잘발생하지 않음. - promoation fail은 old 영역의 단편화로 인한 현상이므로
- 충분한 메모리가 확보된 상황이라면 확률을 줄일 수 있음.   
+N 70으로 주면 70%정도 old gen이 찾을 경우 cms gc를 시작. 더 많은 가용공간을 확보된 상황에서 gc를 하기 때문에 promotion fail이 잘 발생하지 않음. - promoation fail은 old 영역의 단편화로 인한 현상이므로 충분한 메모리가 확보된 상황이라면 확률을 줄일 수 있음.   
 
 CMS Collector는 Permanent Generation(이하 Permanent)에 대해 GC 작업과 Class 메타데이터에 대한 Unloading 작업을 수행하지 않음. 따라서 Application의 특성상 많은 수의 Class를 동적으로 생성하고 Loading하는 경우에는 Permanent 에서 OOM(Out Of Memory) 에러가 발생할 수 있음. Permanent 조절 필요성 검토
 
@@ -69,27 +69,25 @@ CMS Collector는 Permanent Generation(이하 Permanent)에 대해 GC 작업과 C
 
 RMI full gc  
 
--XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=60 - XX:+UseCMSInitiatingOccupancyOnly으로 설정해도 RMI때 Full GC  
-아래 설정으로 주기 조정가능-Dsun.rmi.dgc.server.gcInterval=VALUE-Dsun.rmi.dgc.client.gcInterval=VALUE  
+-XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=60 - XX:+UseCMSInitiatingOccupancyOnly으로 설정해도 RMI때 Full GC
+
+아래 설정으로 주기 조정가능
+
+-Dsun.rmi.dgc.server.gcInterval=VALUE-Dsun.rmi.dgc.client.gcInterval=VALUE  
+
 아래 옵션 붙이면 Full GC대신 CMS GC-XX:+ExplicitGCInvokesConcurrent  
 
 -XX:+CMSClassUnloadingEnabled을 적용한다.  
 
 이 경우, Minor GC마다 Perm Gen 영역을 GC하므로 Unloading되어야 할 Class가 잡고 있는 Old Gen 영역이 제대로 확보된다.  
 
-==== G1
-
-http://www.tuning-java.com/272[자바의 CMS(Concurrent Mark & Sweep)을 대체할 G1]
-
-http://bcho.tistory.com/303[G1GC Collector성능과 튜닝]
-
-http://www.infoq.com/news/2009/04/g1[Sun's Garbage First Collector Largely Eliminates Low Latency/High Throughput Tradeoff]
-
-DisableExplicitGC
-
-http://logonjava.blogspot.com/2010/07/java-distributed-gc-and.html[http://logonjava.blogspot.com/2010/07/java-distributed-gc-and.html]
-
- http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/G1GettingStarted/index.html[Getting Started with the G1 Garbage Collector]
+=== G1
+* http://www.tuning-java.com/272[자바의 CMS(Concurrent Mark & Sweep)을 대체할 G1]
+* http://bcho.tistory.com/303[G1GC Collector성능과 튜닝]
+* http://www.infoq.com/news/2009/04/g1[Sun's Garbage First Collector Largely Eliminates Low Latency/High Throughput Tradeoff]
+* DisableExplicitGC
+* http://logonjava.blogspot.com/2010/07/java-distributed-gc-and.html[http://logonjava.blogspot.com/2010/07/java-distributed-gc-and.html]
+* http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/G1GettingStarted/index.html[Getting Started with the G1 Garbage Collector]
 
 == Monitoring
 http://helloworld.naver.com/helloworld/6043[Garbage Collection 모니터링 방법]http://5bpa.blog.me/130149643330[http://5bpa.blog.me/130149643330]http://hermestop.tistory.com/68[GC Viewer]jstat -gcutil <pid> <report interval>  
@@ -139,7 +137,7 @@ CATALINA_OPTS="-server -Xms1024m -Xmx1024m  -XX:+UseG1GC  -verbose:gc -XX:+Print
 
 -XX:PermSize=128m -XX:MaxPermSize=128m -XX:NewSize=512m  -XX:MaxNewSize=512m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:-CMSConcurrentMTEnabled -XX:CMSInitiatingOccupancyFraction=70 -XX:+CMSParallelRemarkEnabled -XX:+UseCMSInitiatingOccupancyOnly
 
-=== 사례
+== 사례
 http://www.slideshare.net/aszegedi/everything-i-ever-learned-about-jvm-performance-tuning-twitter[http://www.slideshare.net/aszegedi/everything-i-ever-learned-about-jvm-performance-tuning-twitter]http://prezi.com/lzofqasgefim/java-garbage-collection-and-heap-analysis/[http://prezi.com/lzofqasgefim/java-garbage-collection-and-heap-analysis/]  
 
 http://java.dzone.com/articles/how-tame-java-gc-pauses[http://java.dzone.com/articles/how-tame-java-gc-pauses] :   
@@ -202,63 +200,41 @@ http://www.imaso.co.kr/?bo_table=article&doc=bbs/gnuboard_pdf.php&wr_id=7327[htt
 
 -XX:+UseConcMarkSweepGC
 
-=== Tunning Option
+=== 노하우
+* http://www.tuning-java.com/260[[GC] Java GC Tuning 방법 (자바 메모리 튜닝)]
+* http://ukja.tistory.com/51[재미있는 GC성능 사례]
+* http://blog.naver.com/94eun/100004595476[GC 관련 Java 애플리케이션 성능과 확장성 향상시키기]
+* http://bcho.tistory.com/entry/JVM-%ED%8A%9C%EB%8B%9D[JVM 튜닝]
+* http://java.dzone.com/articles/how-tame-java-gc-pauses[http://java.dzone.com/articles/how-tame-java-gc-pauses]
+* http://helloworld.naver.com/helloworld/132178[Apache MaxClients와 Tomcat의 Full GC]
+
+== Memory leak
+* http://opensource.atlassian.com/confluence/spring/pages/viewpage.action?pageId=2669[http://opensource.atlassian.com/confluence/spring/pages/viewpage.action?pageId=2669]
+* http://www.infoq.com/presentations/Diagnosing-Memory-Leaks[http://www.infoq.com/presentations/Diagnosing-Memory-Leaks]
+* http://blogs.sun.com/fkieviet/entry/classloader_leaks_the_dreaded_java[http://blogs.sun.com/fkieviet/entry/classloader_leaks_the_dreaded_java]
+
+==== Static
+http://blog.naver.com/parnx/140054010739[Java의 가비지 콜렉션 & Static Variable]
+
+
+== VM options
 * -XX:NewRatio : New영역과 Old 영역의 비율
 **  -XX:NewRatio=2
 * -XX:NewSize : New영역의 크기
 * -XX:SurvivorRatio : Eden 영역과 Survivor 영역의 비율
+* -XX:MaxTenuringThreshold
+** https://sourcevirtues.com/2013/03/29/never-set-gc-parameter-maxtenuringthreshold-greater-than-15/
+* http://java.sun.com/javase/technologies/hotspot/vmoptions.jsp[<font color="#0000ff">http://java.sun.com/javase/technologies/hotspot/vmoptions.jsp</font>]
+* http://blogs.sun.com/watt/resource/jvm-options-list.html[http://blogs.sun.com/watt/resource/jvm-options-list.html] : 튜닝 참고
+* http://bcho.tistory.com/entry/XXPretenureSizeThreshold
+* http://www.jaso.co.kr/162[JVM 옵션 중 PermSize 관련]
+* http://blogs.sun.com/watt/resource/jvm-options-list.html[http://blogs.sun.com/watt/resource/jvm-options-list.html]
+* http://wiki.ex-em.com/index.php/JVM_Options[http://wiki.ex-em.com/index.php/JVM_Options]  
+* http://java.sun.com/docs/hotspot/gc5.0/gc_tuning_5.html[http://java.sun.com/docs/hotspot/gc5.0/gc_tuning_5.html]
+* http://java.sun.com/performance/reference/whitepapers/tuning.html[http://java.sun.com/performance/reference/whitepapers/tuning.html]
+* http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf[<font color="#0000ff" face="'맑은 고딕'" size="2">http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf</font>]
 
-
-==== 노하우
-
-http://www.tuning-java.com/260[[GC] Java GC Tuning 방법 (자바 메모리 튜닝)]
-
-http://ukja.tistory.com/51[재미있는 GC성능 사례]
-
-http://blog.naver.com/94eun/100004595476[GC 관련 Java 애플리케이션 성능과 확장성 향상시키기]
-
-http://bcho.tistory.com/entry/JVM-%ED%8A%9C%EB%8B%9D[JVM 튜닝]
-
-http://java.dzone.com/articles/how-tame-java-gc-pauses[http://java.dzone.com/articles/how-tame-java-gc-pauses]
-
-http://helloworld.naver.com/helloworld/132178[Apache MaxClients와 Tomcat의 Full GC   
-]
-
-=== Memory leak
-
-http://opensource.atlassian.com/confluence/spring/pages/viewpage.action?pageId=2669[http://opensource.atlassian.com/confluence/spring/pages/viewpage.action?pageId=2669]
-
-http://www.infoq.com/presentations/Diagnosing-Memory-Leaks[http://www.infoq.com/presentations/Diagnosing-Memory-Leaks]
-
-http://blogs.sun.com/fkieviet/entry/classloader_leaks_the_dreaded_java[http://blogs.sun.com/fkieviet/entry/classloader_leaks_the_dreaded_java]
-
-==== Static
-
-http://blog.naver.com/parnx/140054010739[Java의 가비지 콜렉션 & Static Variable]
-
-
-==== VM options
-
-http://java.sun.com/javase/technologies/hotspot/vmoptions.jsp[<font color="#0000ff">http://java.sun.com/javase/technologies/hotspot/vmoptions.jsp</font>]
-
-http://blogs.sun.com/watt/resource/jvm-options-list.html[http://blogs.sun.com/watt/resource/jvm-options-list.html] : 튜닝 참고
-
-http://bcho.tistory.com/entry/XXPretenureSizeThreshold
-
-http://www.jaso.co.kr/162[JVM 옵션 중 PermSize 관련]
-
-http://blogs.sun.com/watt/resource/jvm-options-list.html[http://blogs.sun.com/watt/resource/jvm-options-list.html]
-
-http://wiki.ex-em.com/index.php/JVM_Options[http://wiki.ex-em.com/index.php/JVM_Options]  
-
-http://java.sun.com/docs/hotspot/gc5.0/gc_tuning_5.html[http://java.sun.com/docs/hotspot/gc5.0/gc_tuning_5.html]
-
-http://java.sun.com/performance/reference/whitepapers/tuning.html[http://java.sun.com/performance/reference/whitepapers/tuning.html]
-
-http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf[<font color="#0000ff" face="'맑은 고딕'" size="2">http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf</font>]
-
-
-== 자주쓰는 option
+=== 자주쓰는 option
 * -XX:PermSize=128m -XX:MaxPermSize=256m
 * -XX:+CMSClassUnloadingEnabled :  쓰지 않는 클래스 정보 unloading
 * -XX:+CMSPermGenSweepingEnabled : 
@@ -268,5 +244,3 @@ http://www.webmin.com/
 
 http://www.ibm.com/developerworks/kr/library/j-5things11/index.html[JVM의 명령행 플래그에 대해 모르고 있던 5가지 사항]
 
-== Pergem
-http://netframework.tistory.com/entry/Java8-PermGen%EC%97%90%EC%84%9C-Metaspace%EB%A1%9C
