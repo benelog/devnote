@@ -87,6 +87,7 @@ RMI full gc
 * http://www.infoq.com/news/2009/04/g1[Sun's Garbage First Collector Largely Eliminates Low Latency/High Throughput Tradeoff]
 * DisableExplicitGC
 * http://logonjava.blogspot.com/2010/07/java-distributed-gc-and.html[http://logonjava.blogspot.com/2010/07/java-distributed-gc-and.html]
+* https://logonjava.blogspot.com/2015/08/java-g1-gc-full-gc.html
 * http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/G1GettingStarted/index.html[Getting Started with the G1 Garbage Collector]
 
 == Monitoring
