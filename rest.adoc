@@ -10,13 +10,16 @@ the Design of Network-based Software Architectures by  Roy Thomas Fielding]
 * https://speakerdeck.com/olivergierke/ddd-and-rest-domain-driven-apis-for-the-web-2
 * http://racksburg.com/choosing-an-http-status-code/
 * https://blog.npcode.com/2017/04/03/rest%EC%9D%98-representation%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/[REST의 representation이란 무엇인가]
+* https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md
+* https://github.com/Microsoft/api-guidelines/blob/vNext/Guidelines.md
+* https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
+* https://twitter.com/fielding/status/376835835670167552[로이필딩은 버저닝에 대해서 비판적]
 
 == Documentation
 === Spring RestDocs
 * http://www.slideshare.net/gmind7/making-your-api-easy-to-document-with-spring-rest-docs
 ** 예제 : https://github.com/gmind7/spring-restdocs-seminar
 * https://speakerdeck.com/andreasevers/writing-comprehensive-and-guaranteed-up-to-date-rest-api-documentation-springone-platform-2016
-
 
 http://younghoe.info/1352[REST revisited]
 
