@@ -65,3 +65,6 @@ https://nghttp2.org/documentation/nghttpx-howto.html
 == Server push
 * https://www.smashingmagazine.com/2017/04/guide-http2-server-push/
 
+== curl
+curl --http2 -v d2.naver.com
+
