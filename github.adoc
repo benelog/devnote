@@ -1,3 +1,32 @@
 == PSD 활용 사례
 * 웹에서 보기 : https://github.com/hawkthorne/hawkthorne-server-lua/blob/ac50b30e50f9e20f7b6926432d19719c96f0d5af/psds/jeff.psd
 * 변경 내력 : https://github.com/hawkthorne/hawkthorne-server-lua/commit/ac50b30e50f9e20f7b6926432d19719c96f0d5af#diff-1edae442c937d30cd61fe474d48ee585
+
+
+== Java SDK
+https://github.com/eclipse/egit-github/tree/master/org.eclipse.egit.github.core
+
+[source,java]
+====
+package com.example;
+
+import java.io.IOException;
+import java.util.List;
+
+import org.eclipse.egit.github.core.service.UserService;
+import org.junit.Test;
+
+import com.github.maven.plugins.core.egit.GitHubClientEgit;
+
+public class GithubClientTest {
+
+	@Test
+	public void test() throws IOException {
+		GitHubClientEgit client = new GitHubClientEgit("github.com");
+		client.setOAuth2Token("?????");
+		UserService service = new UserService(client);
+		List<String> emails = service.getEmails();
+		System.out.println(emails);
+	}
+}
+====
