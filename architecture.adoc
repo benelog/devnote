@@ -1,3 +1,5 @@
+https://github.com/donnemartin/system-design-primer#index-of-system-design-topics
+
 UML에서 정의한 컴포넌트의 정의 (참고자료 : UML 1.3 Specification, OMG)
 
 A component is a physical, replaceable part of a system that packages implementation and provides the Realization of a set of Interfaces.
@@ -59,7 +61,7 @@ http://en.wikipedia.org/wiki/Architectural_pattern_%28computer_science%29[http:/
 
 http://wi.wu-wien.ac.at/home/uzdun/publications/ArchPatterns.pdf[http://wi.wu-wien.ac.at/home/uzdun/publications/ArchPatterns.pdf]
 
- http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html[http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html]
+http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html[http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html]
 
 오픈소스 아키텍처 : http://www.aosabook.org/en/[http://www.aosabook.org/en/]  
 
