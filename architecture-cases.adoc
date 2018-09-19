@@ -1,0 +1,55 @@
+모음 : https://gist.github.com/ragingwind/5840075[https://gist.github.com/ragingwind/5840075]   
+
+== Twitter
+* http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster[http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster]
+
+== Facebook
+* Facebook geographic distributed architecture :  http://bcho.tistory.com/416[http://bcho.tistory.com/416]
+* http://www.infoq.com/presentations/Scale-at-Facebook[http://www.infoq.com/presentations/Scale-at-Facebook]
+* http://royal.pingdom.com/2010/06/18/the-software-behind-facebook/[http://royal.pingdom.com/2010/06/18/the-software-behind-facebook/]
+
+== Tumblr
+* http://rainblue.kr/1045[http://rainblue.kr/1045]
+* http://ti.nhncorp.com/CS/cs.jsp?tsd=2012-02-21&tsu=http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html[Tumblr Architecture - 15 Billion Page Views a Month and Harder to Scale than Twitter] High Scalability
+* http://ti.nhncorp.com/CS/cs.jsp?tsd=2012-02-22&tsu=http://gigaom.com/cloud/how-tumblr-went-from-wee-to-webscale/[How Tumblr went from wee to webscale] Gigaom
+* http://www.mimul.com/pebble/default/2012/09/14/1347604822256.html[Tumblr가 가진 기술과 개발 문화] 
+
+== Evernote
+* http://highscalability.com/blog/2011/5/23/evernote-architecture-9-million-users-and-150-million-reques.html *  http://blog.evernote.com/tech/2011/05/17/architectural-digest/#http://www.mimul.com/pebble/default/2012/03/02/1330664364631.html[http://www.mimul.com/pebble/default/2012/03/02/1330664364631.html]  
+
+== Netfix
+http://www.mimul.com/pebble/default/2012/09/06/1346890689112.html[http://www.mimul.com/pebble/default/2012/09/06/1346890689112.html]  
+
+== Soundcloud
+http://www.looah.com/article/view/1652http://backstage.soundcloud.com/2012/08/evolution-of-soundclouds-architecture/  
+
+== Stackoverflow
+http://yisangwook.tumblr.com/post/73202754212/stackoverflow-com  
+
+== AOL
+* http://highscalability.com/blog/2014/2/17/how-the-aolcom-architecture-evolved-to-99999-availability-8.html  
+
+== Whatsapp
+http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html  
+
+== Line
+http://helloworld.naver.com/helloworld/809802  
+http://helloworld.naver.com/helloworld/551588
+
+== 광군제 참여 업체
+* https://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%94%EB%9D%BC%EB%B3%B8-%EC%A4%91%EA%B5%AD-%EC%87%BC%ED%95%91-%EC%B6%95%EC%A0%9C-%EA%B4%91%EA%B5%B0%EC%A0%9C/[개발자가 바라본 중국 쇼핑 축제 쐉쓰이(광군제)]
+* https://www.popit.kr/%EB%82%B4-%EB%A9%8B%EB%8C%80%EB%A1%9C-%EA%B5%AC%ED%98%84%ED%95%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%93%9C%EB%A6%AC%EB%B8%90/[내 멋대로 구현한 이벤트 드리븐]
+* https://www.popit.kr/%EB%8C%80%EC%9A%A9%EB%9F%89-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EA%B7%B8%EB%9F%AD%EC%A0%80%EB%9F%AD-%EB%8F%8C%EC%95%84%EA%B0%80%EB%8A%94-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0/[대용량 환경에서 그럭저럭 돌아가는 서비스 만들기]
+
+== 쿠팡
+* https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-94678fe9eb61[쿠팡의 MSA Part 1]
+* https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-a31fc2d5a572[쿠팡의 MSA Part 2]
+* https://medium.com/coupang-tech/spring-camp-2018-msa-%EC%84%B8%EC%85%98-%EC%B0%B8%EA%B4%80%EA%B8%B0-8862b61c4f5[Spring Camp 2018 - MSA 세션 참관기]
+
+== 11번가
+* https://www.slideshare.net/balladofgale/spring-camp-2018-11-spring-cloud-msa-1
+
+== 우아한 형제들
+* https://www.slideshare.net/arawnkr/ss-94475606[Springcamp 2018:이벤트 기반 분산 시스템을 향한 여정]
+* http://woowabros.github.io/r&d/2017/06/13/apigateway.html[배민 API GATEWAY - spring cloud zuul 적용기]
+* http://woowabros.github.io/experience/2017/08/21/hystrix-tunning.html[Hystrix! API Gateway를 도와줘!]
