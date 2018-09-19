@@ -15,6 +15,11 @@ resident in the Component. These services define behavior offered by instances o
 * http://basho.com/posts/technical/microservices-please-dont/
 * http://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/
 
+=== 광군제 참여 업체 사례
+* https://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%94%EB%9D%BC%EB%B3%B8-%EC%A4%91%EA%B5%AD-%EC%87%BC%ED%95%91-%EC%B6%95%EC%A0%9C-%EA%B4%91%EA%B5%B0%EC%A0%9C/[개발자가 바라본 중국 쇼핑 축제 쐉쓰이(광군제)]
+* https://www.popit.kr/%EB%82%B4-%EB%A9%8B%EB%8C%80%EB%A1%9C-%EA%B5%AC%ED%98%84%ED%95%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%93%9C%EB%A6%AC%EB%B8%90/[내 멋대로 구현한 이벤트 드리븐]
+* https://www.popit.kr/%EB%8C%80%EC%9A%A9%EB%9F%89-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EA%B7%B8%EB%9F%AD%EC%A0%80%EB%9F%AD-%EB%8F%8C%EC%95%84%EA%B0%80%EB%8A%94-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0/[대용량 환경에서 그럭저럭 돌아가는 서비스 만들기]
+
 == 아키텍트의 역할
 
 Meet the achitect http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml[http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml]
