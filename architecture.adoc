@@ -14,19 +14,6 @@ resident in the Component. These services define behavior offered by instances o
 * http://www.slideshare.net/JoshEvans2/mastering-chaos-a-netflix-guide-to-microservices
 * http://basho.com/posts/technical/microservices-please-dont/
 * http://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/
-
-=== 광군제 참여 업체 사례
-* https://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%94%EB%9D%BC%EB%B3%B8-%EC%A4%91%EA%B5%AD-%EC%87%BC%ED%95%91-%EC%B6%95%EC%A0%9C-%EA%B4%91%EA%B5%B0%EC%A0%9C/[개발자가 바라본 중국 쇼핑 축제 쐉쓰이(광군제)]
-* https://www.popit.kr/%EB%82%B4-%EB%A9%8B%EB%8C%80%EB%A1%9C-%EA%B5%AC%ED%98%84%ED%95%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%93%9C%EB%A6%AC%EB%B8%90/[내 멋대로 구현한 이벤트 드리븐]
-* https://www.popit.kr/%EB%8C%80%EC%9A%A9%EB%9F%89-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EA%B7%B8%EB%9F%AD%EC%A0%80%EB%9F%AD-%EB%8F%8C%EC%95%84%EA%B0%80%EB%8A%94-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0/[대용량 환경에서 그럭저럭 돌아가는 서비스 만들기]
-
-=== 쿠팡
-- https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-94678fe9eb61[쿠팡의 MSA Part 1]
-- https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-a31fc2d5a572[쿠팡의 MSA Part 2]
-* https://medium.com/coupang-tech/spring-camp-2018-msa-%EC%84%B8%EC%85%98-%EC%B0%B8%EA%B4%80%EA%B8%B0-8862b61c4f5[Spring Camp 2018 - MSA 세션 참관기]
-
-=== 11번가
-* https://www.slideshare.net/balladofgale/spring-camp-2018-11-spring-cloud-msa-1
 	
 == 아키텍트의 역할
 
@@ -39,22 +26,12 @@ http://www.codeplex.com/AppArchGuide[patterns & practices Application Architectu
 프로토타입을 위한 http://napkinlaf.sourceforge.net/[http://napkinlaf.sourceforge.net/]
 
 ==== 혁신적 설계와 창발적 아키텍처
+* SLAP(Single Level of Abstraction Principle)에 대해 논의
+* 역설적으로 확장성을 위해 추가한 수많은 메커니즘이 프로젝트의 초기 릴리스를 위험에 빠트린다. 왜냐하면 복잡도가 높아지면서 프로젝트에 소요되는 시간과 비용이 증가하기 때문이다.
+* 더 큰 잠재적 영향이 있을지라도 아키텍처 의사결정을 최후의 결정 순간까지 미루는 것이 좋다.
+* 각 부분이 무수히 많게 때로는 예상치 못한 방식으로 서로 다른 부분과 상호작용하기 때문에 소프트웨어에 대해 선행 설계(design up front)하는 것은 어렵다.
+* 코드가 설계이면, 사용하는 컴퓨터 언어와 프레임워크는 우리가 설계 가능한 대상에 대한 원자재를 정의한다.
 
-http://www.ibm.com/developerworks/kr/library/j-eaed17/index.html[혁신적인 아키텍처와 창발적 설계: 설계를 위한 환경 고려사항, Part 1]
-
-http://www.ibm.com/developerworks/kr/library/j-eaed18/index.html[혁신적인 아키텍처와 창발적 설계: 설계를 위한 환경 고려사항, Part 2] : 
-
-- SLAP(Single Level of Abstraction Principle)에 대해 논의
-
-- 역설적으로 확장성을 위해 추가한 수많은 메커니즘이 프로젝트의 초기 릴리스를 위험에 빠트린다. 왜냐하면 복잡도가 높아지면서 프로젝트에 소요되는 시간과 비용이 증가하기 때문이다.
-
-- 더 큰 잠재적 영향이 있을지라도 아키텍처 의사결정을 최후의 결정 순간까지 미루는 것이 좋다.
-
-http://www.ibm.com/developerworks/kr/library/j-eaed19/index.html[혁신적인 아키텍처와 창발적 설계: 미지의 창발적 설계]
-
-각 부분이 무수히 많게 때로는 예상치 못한 방식으로 서로 다른 부분과 상호작용하기 때문에 소프트웨어에 대해 선행 설계(design up front)하는 것은 어렵다.
-
-코드가 설계이면, 사용하는 컴퓨터 언어와 프레임워크는 우리가 설계 가능한 대상에 대한 원자재를 정의한다.
 
 http://mbastory.tistory.com/258[설계의 중요성을 보여주는 건축물들]
 
@@ -68,16 +45,13 @@ http://younghoe.info/1260[아키텍처에 대한 좋은 글 메모]
 
 Simplex architecture :  http://www.sei.cmu.edu/simplex[http://www.sei.cmu.edu/simplex]
 
-Architecture pattern
+== Architecture pattern
+* http://en.wikipedia.org/wiki/Architectural_pattern_%28computer_science%29[http://en.wikipedia.org/wiki/Architectural_pattern_%28computer_science%29]
+* http://wi.wu-wien.ac.at/home/uzdun/publications/ArchPatterns.pdf[http://wi.wu-wien.ac.at/home/uzdun/publications/ArchPatterns.pdf]
+* http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html[http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html]
+* 4+1 View : http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf[http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf]  
 
-http://en.wikipedia.org/wiki/Architectural_pattern_%28computer_science%29[http://en.wikipedia.org/wiki/Architectural_pattern_%28computer_science%29]
 
-http://wi.wu-wien.ac.at/home/uzdun/publications/ArchPatterns.pdf[http://wi.wu-wien.ac.at/home/uzdun/publications/ArchPatterns.pdf]
-
-http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html[http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html]
-
-오픈소스 아키텍처 : http://www.aosabook.org/en/[http://www.aosabook.org/en/]  
-
-4+1 View : http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf[http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf]  
+== 오픈소스 아키텍처 : http://www.aosabook.org/en/[http://www.aosabook.org/en/]  
 
   
