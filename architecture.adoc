@@ -24,6 +24,9 @@ resident in the Component. These services define behavior offered by instances o
 - https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-94678fe9eb61[쿠팡의 MSA Part 1]
 - https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-a31fc2d5a572[쿠팡의 MSA Part 2]
 * https://medium.com/coupang-tech/spring-camp-2018-msa-%EC%84%B8%EC%85%98-%EC%B0%B8%EA%B4%80%EA%B8%B0-8862b61c4f5[Spring Camp 2018 - MSA 세션 참관기]
+
+=== 11번가
+* https://www.slideshare.net/balladofgale/spring-camp-2018-11-spring-cloud-msa-1
 	
 == 아키텍트의 역할
 
