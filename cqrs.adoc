@@ -11,3 +11,12 @@
 * https://justhackem.wordpress.com/2017/02/05/introducing-event-sourcing/
 * http://martinfowler.com/eaaDev/EventSourcing.html
 * http://cqrs.nu/Faq/event-sourcing
+
+=== Kafka 활용
+* https://www.confluent.io/blog/event-sourcing-cqrs-stream-processing-apache-kafka-whats-connection/
+* https://blog.softwaremill.com/event-sourcing-using-kafka-53dfd72ad45d
+* https://medium.com/serialized-io/apache-kafka-is-not-for-event-sourcing-81735c3cf5c
+
+=== Elastic Search 활용
+* https://discuss.elastic.co/t/elasticsearch-as-eventstore-for-cqrs/13252/2
+* http://blog.2mas.xyz/cqrs-the-simple-way-with-eventstore-and-elasticsearch-integrating-elasticsearch/
