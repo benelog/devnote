@@ -6,6 +6,7 @@
 * http://cqrsjourney.github.io/
 * https://msdn.microsoft.com/en-us/magazine/mt767692.aspx[Cutting Edge - Beyond CRUD: Commands, Events and Bus]
 * https://github.com/gyuwon/SimpleCQRS
+* https://onedrive.live.com/view.aspx?resid=B1E53179A4EBCCB1!32444&ithint=file%2cpptx&app=PowerPoint&authkey=!AF5vYzWyHAGxcCs[Azure를 이용한 Join 없는 글로벌 분산 시스템 설계하기]
 
 == EventSourcing
 * https://justhackem.wordpress.com/2017/02/05/introducing-event-sourcing/
