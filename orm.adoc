@@ -10,7 +10,7 @@
 * http://younghoe.info/901[관심이 가는 Data Access 라이브러리]
 
 == JPA
-link:JPA[jpa.adoc] 참조
+link:jpa.adoc[JPA] 참조
 
 == jOOQ
 * http://java.dzone.com/articles/no-more-need-orms
