@@ -30,3 +30,10 @@ public class GithubClientTest {
 	}
 }
 ----
+
+== Jenkins plugin
+* https://github.com/jenkinsci/ghprb-plugin
+* https://github.com/jenkinsci/github-pr-coverage-status-plugin
+* https://github.com/jenkinsci/github-coverage-reporter-plugin
+* https://plugins.jenkins.io/violation-comments-to-github
+
