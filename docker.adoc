@@ -26,5 +26,8 @@
 * https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin
 
 === Docker + Virgo
-http://eclipsesource.com/blogs/2013/07/03/automated-installation-of-virgo-with-docker/
-http://eclipsesource.com/blogs/2013/10/25/continuous-deployment-with-docker-and-virgo/
+* http://eclipsesource.com/blogs/2013/07/03/automated-installation-of-virgo-with-docker/
+* http://eclipsesource.com/blogs/2013/10/25/continuous-deployment-with-docker-and-virgo/
+
+== Java in container
+* https://www.youtube.com/watch?v=qKqqQcjheAg
