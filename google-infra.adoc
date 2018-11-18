@@ -1,0 +1,2 @@
+- https://www.youtube.com/watch?v=dhTVVWzpc4Q[Google Production Environment]
+- https://www.youtube.com/watch?v=XZmGGAbHqa0[Inside a Google data center]
