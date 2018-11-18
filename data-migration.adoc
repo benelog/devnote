@@ -1,0 +1,8 @@
+
+
+## 사례
+* https://stripe.com/blog/online-migrations
+** 1. Dual writing
+** 2. Changing all read paths
+** 3. Changing all write paths
+** 4. Removing old data
