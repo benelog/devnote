@@ -33,9 +33,7 @@ http://kwon37xi.egloos.com/4126439[jMock vs. EasyMock]
 *   http://www.jmock.org/[http://www.jmock.org/]
 http://www.theserverside.com/tt/articles/content/JMockTestDrivenDev/article.html[Using JMock with TDD]
 
-==== Easymockhttp://www.easymock.org/[  
-]
-
+==== Easymock
 http://whiteship.tistory.com/1448[EasyMock으로 클래스의 Mock 객체 만들기]http://openframework.or.kr/framework_reference/easymock/2.3/Documentation_ko.html[]
 
 http://openframework.or.kr/framework_reference/easymock/2.3/Documentation_ko.html[EasyMock 2.3 기본문서]
@@ -87,9 +85,12 @@ https://jeasytest.dev.java.net/[https://jeasytest.dev.java.net/]
 
 http://mockftpserver.sourceforge.net/[http://mockftpserver.sourceforge.net/]
 
-==== 일반이론
+==== FakeSMTP
+http://nilhcem.com/FakeSMTP/
 
-===== Test double
+== 일반이론
+
+=== Test double
 
 http://younghoe.info/25[테스트 전용 객체(Test Double)]
 
@@ -119,4 +120,3 @@ http://blog.objectmentor.com/articles/2010/01/23/mocking-mocking-and-testing-out
 
 Keeping middle-class test doubles (i.e. Mocks) to a minimum is another way of decoupling.
 
- 
