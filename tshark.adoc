@@ -1,0 +1,45 @@
+https://yangbongsoo.gitbooks.io/study/content/tshark.html
+
+== tshark를 root 권한으로 실행하지 않기
+tshark를 root 권한으로 실행하면 보안상 좋지 않다. 아래와 같은 스크립트로 tshark를 실행할 수 있는 별도의 사용자 그룹을 만들고, setcap으로 필요한 기능만을 부여한다.
+
+[source]
+----
+sudo groupadd tshark
+sudo usermod -a -G tshark benelog
+sudo chgrp tshark /usr/bin/dumpcap
+sudo chmod 750 /usr/bin/dumpcap
+sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
+getcap /usr/bin/dumpcap
+----
+
+== 주요 옵션
+https://www.wireshark.org/docs/man-pages/tshark.html 혹은 `man tshark`
+
+* `-i` : 인터페이스 지정
+* `-f` : 캡쳐 필터
+* `-R` : 리드(Read) 필터, 디스플레이 필터
+* `-r` : pcap 파일에서 읽기
+	
+== 명령어 예시
+[source]
+----
+tshark -i lo  -c 2
+----
+
+lo 포트 53번 UDP 패킷
+[source]
+----
+tshark -f "udp port 53" -i lo
+----
+
+장치 ID가 RI1 라우터로부터 전송 된 CDP 패킷만 캡처
+[source]
+----
+tshark -R "cdp.deviceid==R1" -i eth0
+----
+
+[source]
+----
+tshark -i lo -f 'tcp port 8080' -T fields -e _ws.col.Protocol -e _ws.col.Info
+----
