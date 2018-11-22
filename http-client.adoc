@@ -38,8 +38,8 @@ https://issues.apache.org/jira/browse/HTTPCLIENT-1234 : javax.net.ssl.SSLPeerUnv
 * http://javarevisited.blogspot.kr/2012/03/add-list-certficates-java-keystore.html  
 
 == SO_LINGER  옵션
-http://rucaus.egloos.com/2372401
-
+* http://rucaus.egloos.com/2372401
+* https://docs.oracle.com/javase/7/docs/api/java/net/StandardSocketOptions.html#SO_LINGER
 * SO_LINGER OFF (디폴트): socket.close()는 즉시 리턴, OS는 소켓 버퍼에 있는 데이터를 모두 보내고 나서 FIN 전송하여 4-way handshake shutdown 후 소켓 회수 
 * SO_LINGER ON, LINGER 시간은 0: socket.close()는 즉시 리턴, OS는 소켓 버퍼에 있는 데이터 모두 버리고, RST 전송하고 소켓도 바로 회수
 * SO_LINGER ON, LINGER 시간이 0보다 큼: socket.close()는 소켓 버퍼에 있는 데이터를 모두 보내고 나서 리턴, LINGER 시간까지 다 못 보내면 에러를 리턴, 연결 종료는 FIN 전송하여 4-way handshake shutdown 후 소켓 회수   
