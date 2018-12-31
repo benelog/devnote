@@ -8,5 +8,8 @@
 == cacert
 * jdk8에도 jdk11의 caert를 사용
 ** https://github.com/AdoptOpenJDK/openjdk-build/pull/688/commits/79a1da7174c1c048db4f284b1d590b7345d89abf
+* mozila nss의 https://hg.mozilla.org/mozilla-central/log/tip/security/nss/lib/ckfw/builtins/certdata.txt[certdata.txt]
 
-
+== iced-tea-web
+* https://blog.adoptopenjdk.net/2018/10/using-icedtea-web-browser-plug-in-with-adoptopenjdk
+* http://icedtea.classpath.org/hg/
