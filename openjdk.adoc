@@ -1,8 +1,12 @@
-== [adoptopenjdk](https://adoptopenjdk.net/support.html)
+== https://adoptopenjdk.net/support.html[adoptopenjdk]
 * JDK11을 2022년까지 지원할 예정 ( https://adoptopenjdk.net/support.html)
 
 == 배포판 소개
 * https://dev.karakun.com/java/2018/06/25/java-releases.html
 * https://blog.joda.org/2018/09/time-to-look-beyond-oracles-jdk.html
+
+== cacert
+* jdk8에도 jdk11의 caert를 사용
+** https://github.com/AdoptOpenJDK/openjdk-build/pull/688/commits/79a1da7174c1c048db4f284b1d590b7345d89abf
 
 
