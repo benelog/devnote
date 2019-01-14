@@ -4,6 +4,8 @@ image::http://dl.adminlife.net/regular_expressions_cheat_sheet.png[regular_expre
 * https://github.com/zeeshanu/learn-regex/blob/master/README-ko.md
 
 == 도움사이트
+* Java : http://www.regexplanet.com/advanced/java/index.html
+* JavaScript : https://regexr.com/
 * http://www.regexper.com/[http://www.regexper.com]
 * http://regexpal.com/[http://regexpal.com/]
 * http://www.myezapp.com/apps/dev/regexp/show.ws[http://www.myezapp.com/apps/dev/regexp/show.ws]
