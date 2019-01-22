@@ -8,20 +8,14 @@ http://www.baeldung.com/httpclient-ssl : SSLContext 설정 방법
 
 == Apache HttpClient, HtpComponent
 * http://fuyun.org/2009/09/connection-close-in-httpclient/[http://fuyun.org/2009/09/connection-close-in-httpclient/]
-
-SimpleHttpConnectionManager를 쓰면 releaseConnection을 호출해도 바로 닫지 않는다.
-
-Peer가 FIN보내면 이쪽에서 닫기 전까지 CLOSE_WAIT 상태
-
-확실하게 close하려면 connetionManager를 shutdown 시켜야 한다.
-
-CLOSE_WAIT는 timeout이 나지 않는다.
-
-GC가 일어나면 CLOSE_WAIT상태의 socket이 닫힌다.
-
-SimpleHttpConnectionManager(boolean alwaysClose).를 통해서도 해결 가능 
-
-https://issues.apache.org/jira/browse/HTTPCLIENT-1234 : javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+** SimpleHttpConnectionManager를 쓰면 releaseConnection을 호출해도 바로 닫지 않는다.
+** Peer가 FIN보내면 이쪽에서 닫기 전까지 CLOSE_WAIT 상태
+** 확실하게 close하려면 connetionManager를 shutdown 시켜야 한다.
+** CLOSE_WAIT는 timeout이 나지 않는다.
+** GC가 일어나면 CLOSE_WAIT상태의 socket이 닫힌다.
+** SimpleHttpConnectionManager(boolean alwaysClose).를 통해서도 해결 가능 
+* https://issues.apache.org/jira/browse/HTTPCLIENT-1234 : javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+* http://www.yunsobi.com/blog/i/entry/660[PoolingHttpClientConnectionManager 를 xml기반 Spring bean으로 등록하기.]
 
 == https
 * http://javaskeleton.blogspot.fr/2010/07/avoiding-peer-not-authenticated-with.html  
