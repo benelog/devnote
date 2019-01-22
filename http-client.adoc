@@ -16,6 +16,7 @@ http://www.baeldung.com/httpclient-ssl : SSLContext 설정 방법
 ** SimpleHttpConnectionManager(boolean alwaysClose).를 통해서도 해결 가능 
 * https://issues.apache.org/jira/browse/HTTPCLIENT-1234 : javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
 * http://www.yunsobi.com/blog/i/entry/660[PoolingHttpClientConnectionManager 를 xml기반 Spring bean으로 등록하기.]
+* https://github.com/spring-projects/spring-social/issues/176#issuecomment-217548884
 
 == https
 * http://javaskeleton.blogspot.fr/2010/07/avoiding-peer-not-authenticated-with.html  
