@@ -1,75 +1,42 @@
-http://msdn.microsoft.com/ko-kr/magazine/dd419654.aspx[DDD(Domain Driven Design) 소개]
-
-http://www.infoq.com/minibooks/domain-driven-design-quickly[http://www.infoq.com/minibooks/domain-driven-design-quickly]
-
-http://www.infoq.com/news/2006/12/domain-driven-design[http://www.infoq.com/news/2006/12/domain-driven-design]
-
-http://www.infoq.com/news/2007/09/eric-evans-domain-driven-design[http://www.infoq.com/news/2007/09/eric-evans-domain-driven-design]
-
- http://www.infoq.com/articles/ddd-in-practice[http://www.infoq.com/articles/ddd-in-practice]
-
- http://www.infoq.com/presentations/design-strategic-eric-evans[http://www.infoq.com/presentations/design-strategic-eric-evans]
-
-http://www.infoq.com/articles/ddd-in-practice[Domain Driven Design and Development In Practice]
-
-http://www.infoq.com/news/2007/09/eric-evans-domain-driven-design[http:///www.infoq.com/news/2007/09/eric-evans-domain-driven-design]
-
-http://www.slideshare.net/gyumee/ddd-10067384[박성철님의 DDD 산책 발표] :   
-
-http://www.infoq.com/presentations/model-to-work-evans;jsessionid=598EEE33567DCD3CDD6A2D35EA48A71C[DDD: putting the model to work]
-
-http://truthiness.pe.kr/blog/archives/323[나도 DDD 하고싶어 모델링 적용기]
-
-http://toby.epril.com/?p=356[DDD에서 말하는 Ubiquitous Langauge가 어려운 이유]
-
-http://whiteship.tistory.com/1323[Services]
-
-http://whiteship.tistory.com/1325[Modules]
-
-http://whiteship.tistory.com/1341[Factories]
-
-http://younghoe.info/747[DDD 인덱스 페이지]
-
-http://whiteship.tistory.com/2267[DDD 입문에 좋은 글]
-
-http://gyumee.egloos.com/1783716[도메인 로직과 SQL] (원문 : http://martinfowler.com/articles/dblogic.html[Domain Logic and SQL] )
-
-http://www.zdnet.co.kr/builder/dev/web/0,39031700,39170212,00.htm[고객과 개발자를 아우르는 하나의 언어 도메인이 주도하는 개발]
-
-http://www.zdnet.co.kr/builder/dev/web/0%2C39031700%2C39170216%2C00.htm[JSSpec을 이용한 행동 주도 개발 BDD(Behavior Driven Development)]
-
-http://whiteship.me/2268[[DDD] Whiteship's DDD 아키텍처]
-
-http://younghoe.info/1076[데이터 주도 설계 대 책임 주도 설계]
-
-빈약한 Domain Object : http://martinfowler.com.bliki.anemicdomainmodel.html/[http://martinfowler.com.bliki.AnemicDomainModel.html]
-
-http://bcho.tistory.com/356[DDD (Domain Driven Design) - Context Continuous Integration]
-
-http://bcho.tistory.com/360[Domain Driven Design - Modeling]
-
-http://aeternum.egloos.com/1160846[DDD vs Repository]
-
-http://pds17.egloos.com/pds/201003/31/18/Domain-Driven_Design_Essence.pdf[http://pds17.egloos.com/pds/201003/31/18/Domain-Driven_Design_Essence.pdf]
-
-http://smack.kr/372[좋은 도메인 모델은 어떻게 만들 수 있을까? 10가지 최고의 충고.]
-
-http://aeternum.egloos.com/2422827[Domain-Driven Design Essence]
-
-http://aeternum.egloos.com/2628475[Rich Domain Model]
+* https://www.popit.kr/에그리게잇-하나에-리파지토리-하나/[에그리게잇-하나에-리파지토리-하나]
+* http://msdn.microsoft.com/ko-kr/magazine/dd419654.aspx[DDD(Domain Driven Design) 소개]
+* http://www.infoq.com/minibooks/domain-driven-design-quickly[http://www.infoq.com/minibooks/domain-driven-design-quickly]
+* http://www.infoq.com/news/2006/12/domain-driven-design[http://www.infoq.com/news/2006/12/domain-driven-design]
+* http://www.infoq.com/news/2007/09/eric-evans-domain-driven-design[http://www.infoq.com/news/2007/09/eric-evans-domain-driven-design]
+* http://www.infoq.com/articles/ddd-in-practice[http://www.infoq.com/articles/ddd-in-practice]
+* http://www.infoq.com/presentations/design-strategic-eric-evans[http://www.infoq.com/presentations/design-strategic-eric-evans]
+* http://www.infoq.com/articles/ddd-in-practice[Domain Driven Design and Development In Practice]
+* http://www.infoq.com/news/2007/09/eric-evans-domain-driven-design[http:///www.infoq.com/news/2007/09/eric-evans-domain-driven-design]
+* http://www.slideshare.net/gyumee/ddd-10067384[박성철님의 DDD 산책 발표]
+* http://www.infoq.com/presentations/model-to-work-evans;jsessionid=598EEE33567DCD3CDD6A2D35EA48A71C[DDD: putting the model to work]
+* http://truthiness.pe.kr/blog/archives/323[나도 DDD 하고싶어 모델링 적용기]
+* http://toby.epril.com/?p=356[DDD에서 말하는 Ubiquitous Langauge가 어려운 이유]
+* http://whiteship.tistory.com/1323[Services]
+* http://whiteship.tistory.com/1325[Modules]
+* http://whiteship.tistory.com/1341[Factories]
+* http://younghoe.info/747[DDD 인덱스 페이지]
+* http://whiteship.tistory.com/2267[DDD 입문에 좋은 글]
+* http://gyumee.egloos.com/1783716[도메인 로직과 SQL] (원문 : http://martinfowler.com/articles/dblogic.html[Domain Logic and SQL] )
+* http://www.zdnet.co.kr/builder/dev/web/0,39031700,39170212,00.htm[고객과 개발자를 아우르는 하나의 언어 도메인이 주도하는 개발]
+* http://www.zdnet.co.kr/builder/dev/web/0%2C39031700%2C39170216%2C00.htm[JSSpec을 이용한 행동 주도 개발 BDD(Behavior Driven Development)]
+* http://whiteship.me/2268[[DDD] Whiteship's DDD 아키텍처]
+* http://younghoe.info/1076[데이터 주도 설계 대 책임 주도 설계]
+* 빈약한 Domain Object : http://martinfowler.com.bliki.anemicdomainmodel.html/[http://martinfowler.com.bliki.AnemicDomainModel.html]
+* http://bcho.tistory.com/356[DDD (Domain Driven Design) - Context Continuous Integration]
+* http://bcho.tistory.com/360[Domain Driven Design - Modeling]
+* http://aeternum.egloos.com/1160846[DDD vs Repository]
+* http://pds17.egloos.com/pds/201003/31/18/Domain-Driven_Design_Essence.pdf[http://pds17.egloos.com/pds/201003/31/18/Domain-Driven_Design_Essence.pdf]
+* http://smack.kr/372[좋은 도메인 모델은 어떻게 만들 수 있을까? 10가지 최고의 충고.]
+* http://aeternum.egloos.com/2422827[Domain-Driven Design Essence]
+* http://aeternum.egloos.com/2628475[Rich Domain Model]
 
 == Sculptor
-
 http://www.theserverside.com/tt/articles/content/ProductivityWithSculptor/article.html[http://www.theserverside.com/tt/articles/content/ProductivityWithSculptor/article.html]
 
 ==== Sample
-
-http://dddsample.sourceforge.net/[http://dddsample.sourceforge.net/]
-
-http://dddstepbystep.com/[http://dddstepbystep.com/]
-
-http://debasishg.blogspot.com/2006/12/domain-driven-design-service-injection_12.html[http://debasishg.blogspot.com/2006/12/domain-driven-design-service-injection_12.html]
-
+* http://dddsample.sourceforge.net/[http://dddsample.sourceforge.net/]
+* http://dddstepbystep.com/[http://dddstepbystep.com/]
+* http://debasishg.blogspot.com/2006/12/domain-driven-design-service-injection_12.html[http://debasishg.blogspot.com/2006/12/domain-driven-design-service-injection_12.html]
 
 == 연재
 
