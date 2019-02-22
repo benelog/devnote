@@ -1,1 +1,4 @@
-https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md
+== Coroutines
+
+* https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md
+* https://medium.com/@elizarov/structured-concurrency-722d765aa952
