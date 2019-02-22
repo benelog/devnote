@@ -17,7 +17,8 @@ resident in the Component. These services define behavior offered by instances o
 * http://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/
 * https://baramnemse.github.io/blog/05/[마이크로서비스 - 데이터 조인하기]
 * https://baramnemse.github.io/blog/1/[마이크로 서비스, 콜하지 말고 이벤트 컨슈밍하기]
-	
+* https://allegro.tech/2016/03/Managing-Frontend-in-the-microservices-architecture.html
+
 == 아키텍트의 역할
 
 Meet the achitect http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml[http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml]
