@@ -24,12 +24,19 @@ find / -name "sysinfo.html"
 grep "sysinfo.html" *|awk '{print $1}'
 
 == 내용
-
+[source]
+----
+# 찾기
 find /. -name "*" | xargs grep -i "benelog"
 
 find /. -name "*" -print -exec grep "benelog" {} \;
 
 find /. -name "*" -print | wc -l
+
+
+# sub directory안의 파일 내용 중에 문자열 대체하기
+find ./ -type f -exec sed -i -e 's/assets-cdn.github.com/github.githubassets.com/g' {} \;
+----
 
 == 용량과 업로드일자
 
