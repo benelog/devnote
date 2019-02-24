@@ -9,3 +9,6 @@ http://www.mulesoft.com/tcat/tomcat-reload#server-restart
 * https://www.future-processing.pl/blog/better-java-hot-code-replace-at-no-cost/
 * https://dzone.com/articles/hot-swap-java-bytecode-on-runtime
 
+
+== 빠른 시작을 위한 팁
+* https://spring.io/blog/2018/12/12/how-fast-is-spring
