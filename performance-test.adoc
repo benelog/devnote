@@ -17,7 +17,11 @@ Benchmark tools
 *   Apache benchmark : http://httpd.apache.org/docs/2.2/programs/ab.html[http://httpd.apache.org/docs/2.2/programs/ab.html]
 
 == 성능로깅
-http://metrics.codahale.comhttps://code.google.com/p/javasimonhttps://code.google.com/p/parfaithttps://code.google.com/p/stajisticshttps://github.com/Netflix/Hystrix[https://github.com/Netflix/Hystrix]
+* http://metrics.codahale.com
+* https://code.google.com/p/javasimon
+* https://code.google.com/p/parfait
+* https://code.google.com/p/stajistics
+* https://github.com/Netflix/Hystrix[https://github.com/Netflix/Hystrix]
 
 == Load test
 
