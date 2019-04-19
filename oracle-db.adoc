@@ -1,0 +1,10 @@
+== 자주 쓰는 쿼리
+
+[source,sql]
+----
+SELECT nullable
+  FROM all_tab_cols
+ WHERE owner = <<owner of table>>
+   AND table_name = <<name of table>>
+   AND column_name = <<name of column>>
+----
