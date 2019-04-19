@@ -4,7 +4,6 @@
 ----
 SELECT nullable
   FROM all_tab_cols
- WHERE owner = <<owner of table>>
-   AND table_name = <<name of table>>
-   AND column_name = <<name of column>>
+ WHERE table_name = UPPER('테이블명')
+   AND column_name = UPPER('컬럼명')
 ----
