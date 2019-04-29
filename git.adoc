@@ -42,12 +42,10 @@ http://ohyecloudy.com/pnotes/archives/1949[git HEAD, index, working directory �
 == 다른 도구와의 비교
 http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/]  
 
-== Git- SVN  
-
-http://toby.epril.com/?p=703[Subversion 사용자를 위한 Git 소개]
-
-http://git.or.cz/course/svn.html[Git - SVN Crash Course]
-http://whiteship.me/?p=12771[[Git] SVN 사용자를 위한 Git 가이드 1. 시작]
+== Git- SVN
+* http://toby.epril.com/?p=703[Subversion 사용자를 위한 Git 소개]
+* http://git.or.cz/course/svn.html[Git - SVN Crash Course]
+* http://whiteship.me/?p=12771[[Git] SVN 사용자를 위한 Git 가이드 1. 시작]
 
 == 명령어 정리
 * http://blog.outsider.ne.kr/572[Git 명령어 정리]
@@ -56,20 +54,13 @@ http://whiteship.me/?p=12771[[Git] SVN 사용자를 위한 Git 가이드 1. 시�
 == Tips
 * http://blog.outsider.ne.kr/571
 * http://blog.outsider.ne.kr/571[Git에서 명령어에 별칭(Alias) 사용하기]
-
-http://andyjeffries.co.uk/articles/25-tips-for-intermediate-git-users[25-tips-for-intermediate-git-users]
-
-http://blog.outsider.ne.kr/616[bash 프롬프트에 Git와 Mercurial의 branch를 표시하기]
-
-http://www.ologist.co.kr/1024[GIT을 이용한 릴리즈 노트]
-
-http://insanehong.kr/post/debuging-with-git/   
-
-http://softwaregeeks.org/2013/07/03/jgitflow%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-javamaven-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%A5%BC-%EC%89%BD%EA%B2%8C%ED%95%98%EB%8A%94-%EB%B2%95/[jgitflow를-사용하여-javamaven-프로젝트-릴리즈를-쉽게하는-법]
-
-http://blog.lckymn.com/2013/03/11/git-push-to-pull-from-both-github-and-bitbucket/
-
-http://blog.outsider.ne.kr/1011[git diff 에서 변경된 부분을 더 명확하게 보는 방법]  
+* http://andyjeffries.co.uk/articles/25-tips-for-intermediate-git-users[25-tips-for-intermediate-git-users]
+* http://blog.outsider.ne.kr/616[bash 프롬프트에 Git와 Mercurial의 branch를 표시하기]
+* http://www.ologist.co.kr/1024[GIT을 이용한 릴리즈 노트]
+* http://insanehong.kr/post/debuging-with-git/   
+* http://softwaregeeks.org/2013/07/03/jgitflow%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-javamaven-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%A5%BC-%EC%89%BD%EA%B2%8C%ED%95%98%EB%8A%94-%EB%B2%95/[jgitflow를-사용하여-javamaven-프로젝트-릴리즈를-쉽게하는-법]
+* http://blog.lckymn.com/2013/03/11/git-push-to-pull-from-both-github-and-bitbucket/
+* http://blog.outsider.ne.kr/1011[git diff 에서 변경된 부분을 더 명확하게 보는 방법]  
 
 === Branch
 
@@ -100,5 +91,6 @@ http://dogfeet.github.com/articles/2012/git-merge-rebase.html[Git: Rebase는 언
 
 == Workflow
 * https://about.gitlab.com/2014/09/29/gitlab-flow/  
+* https://www.atlassian.com/blog/archives/simple-git-workflow-simple
 * http://endoflineblog.com/gitflow-considered-harmful  
 
