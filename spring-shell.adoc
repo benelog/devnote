@@ -23,6 +23,6 @@
 
 == 참고 프로젝트
 
-*   http://www.crashub.org/[http://www.crashub.org/]
-
-        *   https://github.com/crashub/crash/tree/master/shell/src/main/java/org/crsh/command[https://github.com/crashub/crash/tree/master/shell/src/main/java/org/crsh/command]
+* http://www.crashub.org/[http://www.crashub.org/]
+** https://github.com/crashub/crash/tree/master/shell/src/main/java/org/crsh/command[https://github.com/crashub/crash/tree/master/shell/src/main/java/org/crsh/command]
+* https://picocli.info/
