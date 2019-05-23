@@ -1,1 +1,2 @@
-https://www.bench87.com/content/53[K8S ISTIO SIDECAR NETWORK]
+* https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/
+* https://www.bench87.com/content/53[K8S ISTIO SIDECAR NETWORK]
