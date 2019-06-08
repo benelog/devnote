@@ -1,3 +1,4 @@
+* http://tech.kakao.com/2016/02/04/code-review/[카카오스토리 팀의 코드 리뷰 도입 사례]
 * http://haruair.com/blog/3116[thoughtbot의 코드 리뷰 가이드]
 * http://www.developer.com/tech/article.php/3579756[Effective Code Reviews Without the Pain]
 * http://moai.tistory.com/907[코드리뷰를 할때 생각해야 할 부분들]
