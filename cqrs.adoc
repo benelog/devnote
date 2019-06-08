@@ -21,3 +21,5 @@
 === Elastic Search 활용
 * https://discuss.elastic.co/t/elasticsearch-as-eventstore-for-cqrs/13252/2
 * http://blog.2mas.xyz/cqrs-the-simple-way-with-eventstore-and-elasticsearch-integrating-elasticsearch/
+
+https://queue.acm.org/detail.cfm?id=3321612[Online Event Processing - Achieving consistency where distributed transactions have failed]
