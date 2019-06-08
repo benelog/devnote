@@ -58,6 +58,7 @@
 
 == OpenSessionInView
 * http://whiteship.tistory.com/1636[OSIV 사용시 주의 할 것]
+* https://kingbbode.tistory.com/27[Spring - Open Session In View]
 
 == View
 * https://forum.hibernate.org/viewtopic.php?t=985811[https://forum.hibernate.org/viewtopic.php?t=985811]
