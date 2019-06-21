@@ -1,2 +1,5 @@
+* https://www.infoq.com/articles/microservices-post-kubernetes/
 * https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/
 * https://www.bench87.com/content/53[K8S ISTIO SIDECAR NETWORK]
+* https://bcho.tistory.com/1255
+
