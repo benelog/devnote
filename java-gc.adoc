@@ -8,6 +8,7 @@
 * http://apmblog.compuware.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms/[how-garbage-collection-differs-in-the-three-big-jvms/]
 * http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html[Java Garbage Collection Basics]
 * http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/JavaJCMD/index.html[Java SE 7: Reviewing JVM Performance Command Line Tools]  
+* https://www.azul.com/resources/azul-technology/azul-c4-garbage-collector/
 
 default GC 찾기 :  
 java -XX:+PrintCommandLineFlags -version   
