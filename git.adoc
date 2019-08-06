@@ -52,7 +52,7 @@ http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importan
 * http://whiteship.tistory.com/2188[기트(git) 주요 명령어]
 
 == Tips
-* http://blog.outsider.ne.kr/571
+* https://blog.outsider.ne.kr/1249[git filter-branch로 저장소 분리하기]
 * http://blog.outsider.ne.kr/571[Git에서 명령어에 별칭(Alias) 사용하기]
 * http://andyjeffries.co.uk/articles/25-tips-for-intermediate-git-users[25-tips-for-intermediate-git-users]
 * http://blog.outsider.ne.kr/616[bash 프롬프트에 Git와 Mercurial의 branch를 표시하기]
@@ -63,19 +63,15 @@ http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importan
 * http://blog.outsider.ne.kr/1011[git diff 에서 변경된 부분을 더 명확하게 보는 방법]  
 
 === Branch
-
-http://binggrec.tistory.com/118[Git - branch 개념정리]
-
-http://kdsoo.com/1262[GIT branch 사용]
-
-http://nvie.com/posts/a-successful-git-branching-model/[http://nvie.com/posts/a-successful-git-branching-model/]
-http://blog.outsider.ne.kr/644[git에서 원격저장소에 branch와 tag를 push하기]http://blog.outsider.ne.kr/914[Git에서 이전에 사용한 브랜치로 체크아웃하기]  
+* http://binggrec.tistory.com/118[Git - branch 개념정리]
+* http://kdsoo.com/1262[GIT branch 사용]
+* http://nvie.com/posts/a-successful-git-branching-model/[http://nvie.com/posts/a-successful-git-branching-model/]
+* http://blog.outsider.ne.kr/644[git에서 원격저장소에 branch와 tag를 push하기]http://blog.outsider.ne.kr/914[Git에서 이전에 사용한 브랜치로 체크아웃하기]  
 
 === Rebase
-http://blog.outsider.ne.kr/666[git의 merge와 rebase 비교하기]  
-http://blog.doortts.com/285[git에서 특정 commit에 들어간 수정 파일을 다른 commit으로 옮기는 방법]  
-http://dogfeet.github.com/articles/2012/git-merge-rebase.html[Git: Rebase는 언제 어떻게 해야 할까?]  
-
+* http://blog.outsider.ne.kr/666[git의 merge와 rebase 비교하기]  
+* http://blog.doortts.com/285[git에서 특정 commit에 들어간 수정 파일을 다른 commit으로 옮기는 방법]  
+* http://dogfeet.github.com/articles/2012/git-merge-rebase.html[Git: Rebase는 언제 어떻게 해야 할까?]  
 * http://whiteship.me/?p=13740[포크 따서 작업하다 원본이랑 싱크 맞춰서 보내기]
 * http://git-scm.com/book/ko/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0[]
 * http://git-scm.com/book/ko/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0[히스토리 단장하기]
@@ -93,4 +89,3 @@ http://dogfeet.github.com/articles/2012/git-merge-rebase.html[Git: Rebase는 언
 * https://about.gitlab.com/2014/09/29/gitlab-flow/  
 * https://www.atlassian.com/blog/archives/simple-git-workflow-simple
 * http://endoflineblog.com/gitflow-considered-harmful  
-
