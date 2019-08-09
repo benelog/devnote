@@ -2,4 +2,4 @@
 * https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/
 * https://www.bench87.com/content/53[K8S ISTIO SIDECAR NETWORK]
 * https://bcho.tistory.com/1255
-
+* https://engineering.linecorp.com/ko/blog/building-large-kubernetes-cluster/[대규모 Kubernetes 클러스터 구축기]
