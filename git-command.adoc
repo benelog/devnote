@@ -4,9 +4,9 @@ git --version
 
 == config :변수설정
 
-git config --global user.name "benelog"
+git config --global user.name "Sanghyuk Jung"
 
-git config --global user.email "sanghyuk.jung@nhn.com"
+git config --global user.email "benelog@gmail.com"
 
 git config --global --list
 
