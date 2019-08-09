@@ -288,3 +288,8 @@ git remote prune <원격저장소> : 원격 저장소에서 쓸모가 없어진 
 git remote rm <원격저장소> : 원격 저장소를 제거하고 관련된 브랜치도 제거하기
 
 git pull <원격저장소> <지역브랜치>: git pull origin master
+
+== clean
+
+glt clean -fd : 추적하지 않는 파일과 디렉토리 삭제
+
