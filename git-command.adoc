@@ -214,15 +214,20 @@ Contribution
 
 git rebase upstream/master
 
-==== 취소
+== reset
 
 git rest --hard HEAD^
+
+git reset  --hard origin/master : orgin/master와 동일하게
+
+
+== revert
 
 git revert
 
 git revert -n (commit 하지 않고 돌려놓기)
 
-==== submodule
+== submodule
 
 git submodule
 
