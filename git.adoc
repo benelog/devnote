@@ -89,3 +89,9 @@ http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importan
 * https://about.gitlab.com/2014/09/29/gitlab-flow/  
 * https://www.atlassian.com/blog/archives/simple-git-workflow-simple
 * http://endoflineblog.com/gitflow-considered-harmful  
+
+== Commmit message
+* https://blog.ull.im/engineering/2019/03/10/logs-on-git.html[좋은 git commit 메시지를 위한 영어 사전]
+* https://chris.beams.io/posts/git-commit/
+* https://github.com/git/git/blob/master/Documentation/SubmittingPatches
+* https://www.slideshare.net/TarinGamberini/commit-messages-goodpractices
