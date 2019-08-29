@@ -95,3 +95,5 @@ http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importan
 * https://chris.beams.io/posts/git-commit/
 * https://github.com/git/git/blob/master/Documentation/SubmittingPatches
 * https://www.slideshare.net/TarinGamberini/commit-messages-goodpractices
+* https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-git-commit-guidelines
+
