@@ -98,7 +98,6 @@ https://github.com/spring-projects/spring-framework/blob/master/spring-jdbc/src/
 https://github.com/spring-projects/spring-framework/blob/master/spring-jdbc/src/main/java/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.java[AbstractRoutingDataSource]
 
 == Best effort
-
-http://www.javaworld.com/javaworld/jw-01-2009/jw-01-spring-transactions.html?page=6[http://www.javaworld.com/javaworld/jw-01-2009/jw-01-spring-transactions.html?page=6]
-
-https://jira.springsource.org/browse/SPR-3844[https://jira.springsource.org/browse/SPR-3844]
+* http://www.javaworld.com/javaworld/jw-01-2009/jw-01-spring-transactions.html[Distributed transactions in Spring, with and without XA]
+* https://gist.github.com/anair-it/f92ac33bd6ac5d260961022dd06110f2
+* https://jira.springsource.org/browse/SPR-3844[https://jira.springsource.org/browse/SPR-3844]
