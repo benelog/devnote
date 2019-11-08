@@ -25,23 +25,16 @@ http://www.javacodegeeks.com/2012/06/introduction-to-btrace-for-java.html[http:/
 * https://kenai.com/projects/btrace/sources/hg/content/samples/JdbcQueries.java
 
 == Visual VM
-
-http://www.tuning-java.com/248[[Java Visual VM] JDK에 포함된 무료 프로파일링 툴]
-
-http://blog.openframework.or.kr/91[[성능] VisualVM]
-
-http://blog.openframework.or.kr/92[[성능] VisualVM 플러그인 이야기]
-
-http://tinywolf.tistory.com/105[JavaTool] 유용한 자바툴 - jvisualvm]
-
-http://www.skill-guru.com/blog/2010/11/11/troubleshooting-application-performance-with-visualvm/[Troubleshooting application performance with VisualVM]
+* http://www.tuning-java.com/248[Java Visual VM JDK에 포함된 무료 프로파일링 툴]
+* http://blog.openframework.or.kr/91[VisualVM]
+* http://blog.openframework.or.kr/92[VisualVM 플러그인 이야기]
+* http://tinywolf.tistory.com/105[JavaTool] 유용한 자바툴 - jvisualvm]
+* http://www.skill-guru.com/blog/2010/11/11/troubleshooting-application-performance-with-visualvm/[Troubleshooting application performance with VisualVM]
 
 == Hprof (Heap And CPU Profiling Agent)
-
-http://java.sun.com/developer/technicalArticles/Programming/HPROF.html[http://java.sun.com/developer/technicalArticles/Programming/HPROF.html]
-
-http://wiki.ex-em.com/index.php/HProf[http://wiki.ex-em.com/index.php/HProf]
-http://wiki.ex-em.com/index.php/HProf[http://wiki.ex-em.com/index.php/HProf]  
+* http://java.sun.com/developer/technicalArticles/Programming/HPROF.html[http://java.sun.com/developer/technicalArticles/Programming/HPROF.html]
+* http://wiki.ex-em.com/index.php/HProf[http://wiki.ex-em.com/index.php/HProf]
+* http://wiki.ex-em.com/index.php/HProf[http://wiki.ex-em.com/index.php/HProf]  
 
 도움말 :  java -agentlib:hprof
 
@@ -56,8 +49,6 @@ java -agentlib:hprof=heap=dump,format=b,file=heapdump.hprof,doe=n HoldMemory
 jstat -gcutil
 
 jstat -gcutil 1363 5s
-
-<groupId>com.sun</groupId> <artifactId>tools</artifactId>
 
 jps는 /tmp/hsperfdata_계정명 으로 임시 파일들을 저장하는데. 이 파일들을 cent os에서 정의된 tmpwatch에서 지운다.
 
@@ -138,7 +129,7 @@ jmap -dump:format=b,file=jvm.hprof  jvm.core  /jdk/bin/java
 .Heap histogram 뽑기. 반복해서 뽑아보고 증가가 큰 객체를 보는 방법도 유용하다
 ----
 jmap -histo:live
----
+----
 
 == Jhat  
 
