@@ -124,15 +124,21 @@ ps -mo pid,lwp,stime,time,pcpu -p javapid
 
 == Jmap
 
-덤프파일생성   
+[source]
+.덤프파일생성
+----
+jmap -dump:format=b,file=dump.hprofpid
 
-    jmap-dump:format=b,file=dump.hprofpid
+jmap -dump:live,format=b,file=<fileName> <pid>
 
-    jmap -dump:live,format=b,file=<fileName> <pid>
+jmap -dump:format=b,file=jvm.hprof  jvm.core  /jdk/bin/java   
+----
 
-그냥  
-
-    jmap -dump:format=b,file=jvm.hprof  jvm.core  /jdk/bin/java   
+[source]
+.Heap histogram 뽑기. 반복해서 뽑아보고 증가가 큰 객체를 보는 방법도 유용하다
+----
+jmap -histo:live
+---
 
 == Jhat  
 
