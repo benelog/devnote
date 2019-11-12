@@ -7,7 +7,6 @@
 * http://signup.resin.io/
 * https://github.com/shipyard/shipyard
 * Docker 관련 간단 사용후기: http://yisangwook.tumblr.com/post/89030483989/docker-misconceptions
-* Docker로 Spring Boot 배포: http://thediscoblog.com/blog/2014/06/13/docker-containers-with-gradle-in-4-steps/
 * Docker로 NodeJS 배포: http://blog.abhinav.ca/blog/2014/06/17/develop-a-nodejs-app-with-docker/
 * http://www.informationweek.com/cloud/platform-as-a-service/docker-container-system-works-with-all-linuxes/d/d-id/1112830
 * https://docs.docker.com/articles/using_supervisord/
@@ -30,4 +29,9 @@
 * http://eclipsesource.com/blogs/2013/10/25/continuous-deployment-with-docker-and-virgo/
 
 == Java in container
+* Docker로 Spring Boot 배포
+** https://spring.io/guides/topicals/spring-boot-docker
+** https://perfectacle.github.io/2019/04/16/spring-boot-docker-image-optimization/
+** https://medium.com/@gaemi/spring-boot-%EA%B3%BC-docker-with-jib-657d32a6b1f0
+** http://thediscoblog.com/blog/2014/06/13/docker-containers-with-gradle-in-4-steps/
 * https://www.youtube.com/watch?v=qKqqQcjheAg
