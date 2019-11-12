@@ -1,4 +1,4 @@
 == Coroutines
-
+* https://www.bsidesoft.com/8135
 * https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md
 * https://medium.com/@elizarov/structured-concurrency-722d765aa952
