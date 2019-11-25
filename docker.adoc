@@ -13,7 +13,8 @@
 
 
 == 명령어
-- Add와 Copy : https://nickjanetakis.com/blog/docker-tip-2-the-difference-between-copy-and-add-in-a-dockerile
+* Add와 Copy : https://nickjanetakis.com/blog/docker-tip-2-the-difference-between-copy-and-add-in-a-dockerile
+* https://codefresh.io/docker-tutorial/not-ignore-dockerignore-2/
 
 == Plugins
 === Maven plugin
