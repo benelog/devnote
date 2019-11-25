@@ -11,6 +11,10 @@
 * http://www.informationweek.com/cloud/platform-as-a-service/docker-container-system-works-with-all-linuxes/d/d-id/1112830
 * https://docs.docker.com/articles/using_supervisord/
 
+
+== 명령어
+- Add와 Copy : https://nickjanetakis.com/blog/docker-tip-2-the-difference-between-copy-and-add-in-a-dockerile
+
 == Plugins
 === Maven plugin
 * https://github.com/etux/docker-maven-plugin
