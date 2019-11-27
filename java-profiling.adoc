@@ -59,20 +59,16 @@ jps는 /tmp/hsperfdata_계정명 으로 임시 파일들을 저장하는데. 이
 http://tinywolf.tistory.com/104[http://tinywolf.tistory.com/104]
 
 == Heap Analyzer
-
-http://www-1.ibm.com/support/docview.wss?uid=swg27006624&aid=1[http://www-1.ibm.com/support/docview.wss?uid=swg27006624&aid=1]
-
-http://jensor.sourceforge.net/[http://jensor.sourceforge.net/]
-
-http://bcho.tistory.com/entry/Sun-JVM-HeapDump-%EC%96%BB%EA%B8%B0[http://bcho.tistory.com/entry/Sun-JVM-HeapDump-%EC%96%BB%EA%B8%B0]
-
-https://hat.dev.java.net/[https://hat.dev.java.net/]
-
-http://www.tuning-java.com/259[[Heap Dump] 자바 힙 덤프(java heap dump) 분석기 - Eclipse Memory Analyzer]
-
-GC 상태 그래프 : http://www.alphaworks.ibm.com/tech/pmat[http://www.alphaworks.ibm.com/tech/pmat]
-MAT : http://www.eclipse.org/mat/[http://www.eclipse.org/mat/]
-MAT + IBM Heap analyzer : http://web-dev.tistory.com/623[http://web-dev.tistory.com/623]
+* http://www-1.ibm.com/support/docview.wss?uid=swg27006624&aid=1[http://www-1.ibm.com/support/docview.wss?https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/uid=swg27006624&aid=1]
+* http://jensor.sourceforge.net/[http://jensor.sourceforge.net/]
+* http://bcho.tistory.com/entry/Sun-JVM-HeapDump-%EC%96%BB%EA%B8%B0[http://bcho.tistory.com/entry/Sun-JVM-HeapDump-%EC%96%BB%EA%B8%B0]
+* https://heaphero.io/
+* https://www.jxray.com/
+* https://hat.dev.java.net/[https://hat.dev.java.net/]
+* http://www.tuning-java.com/259[[Heap Dump] 자바 힙 덤프(java heap dump) 분석기 - Eclipse Memory Analyzer]
+* GC 상태 그래프 : http://www.alphaworks.ibm.com/tech/pmat[http://www.alphaworks.ibm.com/tech/pmat]
+* MAT : http://www.eclipse.org/mat/[http://www.eclipse.org/mat/]
+* MAT + IBM Heap analyzer : http://web-dev.tistory.com/623[http://web-dev.tistory.com/623]
 
 == Thread dump
 
