@@ -61,6 +61,8 @@ Simplex architecture :  http://www.sei.cmu.edu/simplex[http://www.sei.cmu.edu/si
 * http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html[http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html]
 * 4+1 View : http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf[http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf]  
 
+== Module
+*http://woowabros.github.io/study/2019/07/01/multi-module.html[멀티모듈 설계 이야기 with Spring, Gradle]
 
 == 오픈소스 아키텍처 : http://www.aosabook.org/en/[http://www.aosabook.org/en/]  
 
