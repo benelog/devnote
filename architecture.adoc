@@ -56,6 +56,7 @@ http://younghoe.info/1260[아키텍처에 대한 좋은 글 메모]
 Simplex architecture :  http://www.sei.cmu.edu/simplex[http://www.sei.cmu.edu/simplex]
 
 == Architecture pattern
+* https://docs.microsoft.com/ko-kr/azure/architecture/patterns/anti-corruption-layer
 * http://en.wikipedia.org/wiki/Architectural_pattern_%28computer_science%29[http://en.wikipedia.org/wiki/Architectural_pattern_%28computer_science%29]
 * http://wi.wu-wien.ac.at/home/uzdun/publications/ArchPatterns.pdf[http://wi.wu-wien.ac.at/home/uzdun/publications/ArchPatterns.pdf]
 * http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html[http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html]
