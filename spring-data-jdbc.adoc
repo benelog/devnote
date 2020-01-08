@@ -4,7 +4,3 @@ https://stackoverflow.com/questions/4919687/aggregate-root-references-other-aggr
 
 > It makes life much easier if you just keep a reference of the aggregate's ID rather than the actual aggregate itself. 
 
-* https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf[Effective Aggregate Design Part I: Modeling a Single Aggregate]
-* https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_2.pdf[Effective Aggregate Design Part II : Making Aggregates Work Together]
-* https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_3.pdf[Effective Aggregate Design Part III : Gaining Insight Through Discovery]
-
