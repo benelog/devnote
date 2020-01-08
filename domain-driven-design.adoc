@@ -1,3 +1,4 @@
+* https://github.com/kgrzybek/modular-monolith-with-ddd
 * http://scabl.blogspot.com/p/advancing-enterprise-ddd.html
 * https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf[Effective Aggregate Design Part I: Modeling a Single Aggregate]
 * https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_2.pdf[Effective Aggregate Design Part II : Making Aggregates Work Together]
@@ -43,67 +44,35 @@ http://www.theserverside.com/tt/articles/content/ProductivityWithSculptor/articl
 * http://debasishg.blogspot.com/2006/12/domain-driven-design-service-injection_12.html[http://debasishg.blogspot.com/2006/12/domain-driven-design-service-injection_12.html]
 
 == 연재
-
-http://aeternum.egloos.com/1747170[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 1부]
-
-http://aeternum.egloos.com/1832181[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 2부]
-
-http://aeternum.egloos.com/1891121[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 3부]
-
-http://aeternum.egloos.com/1899296[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 4부]
-
-http://aeternum.egloos.com/1912820[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 5부]
-
-http://aeternum.egloos.com/1960629[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 6부]
-
-http://aeternum.egloos.com/1960629[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 7부]
-
-http://aeternum.egloos.com/1984703[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 1부]
-
-http://aeternum.egloos.com/1986866[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 2부]
-
-http://aeternum.egloos.com/2150438[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 3부]
-
-http://aeternum.egloos.com/2195758[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 4부]
-
-http://aeternum.egloos.com/2312162[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 5부]
-
-http://aeternum.egloos.com/2322024[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 6부]
-
-http://aeternum.egloos.com/2333979[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 7부]
-
-http://aeternum.egloos.com/2363367[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 1부]
-
-http://aeternum.egloos.com/2374119[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 2부]
-
-http://aeternum.egloos.com/2382119[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 3부]
-
-http://aeternum.egloos.com/2382485[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 4부]
-
-http://aeternum.egloos.com/2388357[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 5부]
-
-http://aeternum.egloos.com/2402082[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 6부]
-
-http://aeternum.egloos.com/2405638[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 7부]
-
-http://aeternum.egloos.com/2420521[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 8부]
-
-http://aeternum.egloos.com/2473500[유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 1부]
-
-http://aeternum.egloos.com/2483783[유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 2부]
-
-http://aeternum.egloos.com/2486549[유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 3부]
-
-http://aeternum.egloos.com/2490834[유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 4부]
-
-http://aeternum.egloos.com/2492445[유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 5부]
-
-http://aeternum.egloos.com/2493642[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 1부]
-
-http://aeternum.egloos.com/2497570[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 2부]
-
-http://aeternum.egloos.com/2503382[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 3부]
-
-http://aeternum.egloos.com/2508743[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 4부]
-
-http://aeternum.egloos.com/2511360[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 5부[完]]
+* http://aeternum.egloos.com/1747170[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 1부]
+* http://aeternum.egloos.com/1832181[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 2부]
+* http://aeternum.egloos.com/1891121[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 3부]
+* http://aeternum.egloos.com/1899296[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 4부]
+* http://aeternum.egloos.com/1912820[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 5부]
+* http://aeternum.egloos.com/1960629[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 6부]
+* http://aeternum.egloos.com/1960629[유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 7부]
+* http://aeternum.egloos.com/1984703[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 1부]
+* http://aeternum.egloos.com/1986866[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 2부]
+* http://aeternum.egloos.com/2150438[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 3부]
+* http://aeternum.egloos.com/2195758[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 4부]
+* http://aeternum.egloos.com/2312162[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 5부]
+* http://aeternum.egloos.com/2322024[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 6부]
+* http://aeternum.egloos.com/2333979[유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 7부]
+* http://aeternum.egloos.com/2363367[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 1부]
+* http://aeternum.egloos.com/2374119[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 2부]
+* http://aeternum.egloos.com/2382119[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 3부]
+* http://aeternum.egloos.com/2382485[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 4부]
+* http://aeternum.egloos.com/2388357[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 5부]
+* http://aeternum.egloos.com/2402082[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 6부]
+* http://aeternum.egloos.com/2405638[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 7부]
+* http://aeternum.egloos.com/2420521[유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 8부]
+* http://aeternum.egloos.com/2473500[유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 1부]
+* http://aeternum.egloos.com/2483783[유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 2부]
+* http://aeternum.egloos.com/2486549[유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 3부]
+* http://aeternum.egloos.com/2490834[유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 4부]
+* http://aeternum.egloos.com/2492445[유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 5부]
+* http://aeternum.egloos.com/2493642[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 1부]
+* http://aeternum.egloos.com/2497570[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 2부]
+* http://aeternum.egloos.com/2503382[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 3부]
+* http://aeternum.egloos.com/2508743[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 4부]
+* http://aeternum.egloos.com/2511360[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 5부[完]]
