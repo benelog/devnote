@@ -1,3 +1,7 @@
+* http://scabl.blogspot.com/p/advancing-enterprise-ddd.html
+* https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf[Effective Aggregate Design Part I: Modeling a Single Aggregate]
+* https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_2.pdf[Effective Aggregate Design Part II : Making Aggregates Work Together]
+* https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_3.pdf[Effective Aggregate Design Part III : Gaining Insight Through Discovery]
 * https://www.popit.kr/에그리게잇-하나에-리파지토리-하나/[에그리게잇-하나에-리파지토리-하나]
 * http://msdn.microsoft.com/ko-kr/magazine/dd419654.aspx[DDD(Domain Driven Design) 소개]
 * http://www.infoq.com/minibooks/domain-driven-design-quickly[http://www.infoq.com/minibooks/domain-driven-design-quickly]
