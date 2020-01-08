@@ -66,3 +66,5 @@ ls
 http://www.cyberciti.biz/open-source/command-line-hacks/linux-ls-commands-examples/
 
 열려있는 파일 찾기
+
+https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html[Command-line Tools can be 235x Faster than your Hadoop Cluster]
