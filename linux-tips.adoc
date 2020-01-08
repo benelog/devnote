@@ -1,6 +1,3 @@
-== 부팅을 위한 배포판
-http://knopper.net/knoppix/index-en.html[http://knopper.net/knoppix/index-en.html]http://www.damnsmalllinux.org/[http://www.damnsmalllinux.org/]  
-
 == 한글 깨질 때
 
 ${JAVA_HOME}/jre/lib/fonts 에 폰트 파일 복사 후, fonts.dir 파일을 수정  
