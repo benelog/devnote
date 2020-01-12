@@ -10,6 +10,7 @@ resident in the Component. These services define behavior offered by instances o
 
 
 == MSA
+* https://towardsdatascience.com/effective-microservices-10-best-practices-c6e4ba0c6ee2
 * http://www.moreagile.net/2014/10/microservices.html
 * http://www.popit.kr/why-microservice/
 * http://www.slideshare.net/JoshEvans2/mastering-chaos-a-netflix-guide-to-microservices
@@ -26,14 +27,10 @@ resident in the Component. These services define behavior offered by instances o
 
 
 == 아키텍트의 역할
-
-Meet the achitect http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml[http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml]
-
-http://www.ibm.com/developerworks/kr/library/j-ap07107/index.html[아키텍처 건전성]
-
-http://www.codeplex.com/AppArchGuide[patterns & practices Application Architecture Guide 2.0]
-
-프로토타입을 위한 http://napkinlaf.sourceforge.net/[http://napkinlaf.sourceforge.net/]
+* Meet the achitect http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml[http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml]
+* http://www.ibm.com/developerworks/kr/library/j-ap07107/index.html[아키텍처 건전성]
+* http://www.codeplex.com/AppArchGuide[patterns & practices Application Architecture Guide 2.0]
+* 프로토타입을 위한 http://napkinlaf.sourceforge.net/[http://napkinlaf.sourceforge.net/]
 
 ==== 혁신적 설계와 창발적 아키텍처
 * SLAP(Single Level of Abstraction Principle)에 대해 논의
@@ -42,18 +39,12 @@ http://www.codeplex.com/AppArchGuide[patterns & practices Application Architectu
 * 각 부분이 무수히 많게 때로는 예상치 못한 방식으로 서로 다른 부분과 상호작용하기 때문에 소프트웨어에 대해 선행 설계(design up front)하는 것은 어렵다.
 * 코드가 설계이면, 사용하는 컴퓨터 언어와 프레임워크는 우리가 설계 가능한 대상에 대한 원자재를 정의한다.
 
-
-http://mbastory.tistory.com/258[설계의 중요성을 보여주는 건축물들]
-
-http://benelog.springnote.com/pages/348906/attachments/229908[ArchitectureDefinitions.pdf]
-
-http://www.ibm.com/developerworks/kr/library/ar-enterarch3/[전사적 아키텍처의 핵심, Part 3: 전사적 아키텍처 설계와 구현]
-
-http://www.ibm.com/developerworks/kr/library/ar-enterarch4/[전사적 아키텍처의 핵심, Part 4: 전사적 아키텍처 테스트]
-
-http://younghoe.info/1260[아키텍처에 대한 좋은 글 메모]
-
-Simplex architecture :  http://www.sei.cmu.edu/simplex[http://www.sei.cmu.edu/simplex]
+* http://mbastory.tistory.com/258[설계의 중요성을 보여주는 건축물들]
+* http://benelog.springnote.com/pages/348906/attachments/229908[ArchitectureDefinitions.pdf]
+* http://www.ibm.com/developerworks/kr/library/ar-enterarch3/[전사적 아키텍처의 핵심, Part 3: 전사적 아키텍처 설계와 구현]
+* http://www.ibm.com/developerworks/kr/library/ar-enterarch4/[전사적 아키텍처의 핵심, Part 4: 전사적 아키텍처 테스트]
+* http://younghoe.info/1260[아키텍처에 대한 좋은 글 메모]
+* Simplex architecture :  http://www.sei.cmu.edu/simplex[http://www.sei.cmu.edu/simplex]
 
 == Architecture pattern
 * https://docs.microsoft.com/ko-kr/azure/architecture/patterns/anti-corruption-layer
@@ -66,5 +57,3 @@ Simplex architecture :  http://www.sei.cmu.edu/simplex[http://www.sei.cmu.edu/si
 *http://woowabros.github.io/study/2019/07/01/multi-module.html[멀티모듈 설계 이야기 with Spring, Gradle]
 
 == 오픈소스 아키텍처 : http://www.aosabook.org/en/[http://www.aosabook.org/en/]  
-
-  
