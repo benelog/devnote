@@ -1,3 +1,4 @@
+* https://www.infoq.com/presentations/microservices-ddd-bounded-contexts/
 * https://github.com/kgrzybek/modular-monolith-with-ddd
 * http://scabl.blogspot.com/p/advancing-enterprise-ddd.html
 * https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf[Effective Aggregate Design Part I: Modeling a Single Aggregate]
