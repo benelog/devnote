@@ -1,4 +1,5 @@
 == API design
+* https://velog.io/@codemcd/RESTREpresentational-State-Transfer-hgk2muj4l2
 * http://slides.com/eungjun/rest#/
 * http://www.restapitutorial.com/lessons/restquicktips.html[REST API Quick Tips]
 * https://www.theteams.kr/teams/371/post/64313[REST 아키텍처를 훌륭하게 적용하기 위한 몇 가지 디자인 팁]
