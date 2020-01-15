@@ -33,8 +33,10 @@ http://yisangwook.tumblr.com/post/73202754212/stackoverflow-com
 http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html  
 
 == Line
-http://helloworld.naver.com/helloworld/809802  
-http://helloworld.naver.com/helloworld/551588
+* http://helloworld.naver.com/helloworld/809802  
+* http://helloworld.naver.com/helloworld/551588
+* https://engineering.linecorp.com/en/blog/line-storage-storing-billions-of-rows-in-sharded-redis-and-hbase/
+
 
 == 광군제 참여 업체
 * https://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%94%EB%9D%BC%EB%B3%B8-%EC%A4%91%EA%B5%AD-%EC%87%BC%ED%95%91-%EC%B6%95%EC%A0%9C-%EA%B4%91%EA%B5%B0%EC%A0%9C/[개발자가 바라본 중국 쇼핑 축제 쐉쓰이(광군제)]
