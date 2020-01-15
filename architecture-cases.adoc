@@ -54,4 +54,8 @@ http://helloworld.naver.com/helloworld/551588
 * https://www.slideshare.net/arawnkr/ss-115339631[점진적인 레거시 웹 애플리케이션 개선 과정]
 * http://woowabros.github.io/r&d/2017/06/13/apigateway.html[배민 API GATEWAY - spring cloud zuul 적용기]
 * http://woowabros.github.io/experience/2017/08/21/hystrix-tunning.html[Hystrix! API Gateway를 도와줘!]
-* https://www.slideshare.net/arawnkr/ss-195979955[잘 키운 모노리스 하나 열 마이크로서비스 안 부럽다] 
+* https://www.slideshare.net/arawnkr/ss-195979955[잘 키운 모노리스 하나 열 마이크로서비스 안 부럽다]
+
+== 네이버
+* https://d2.naver.com/helloworld/6070967[네이버 메인 페이지의 트래픽 처리]
+
