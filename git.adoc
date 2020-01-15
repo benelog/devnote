@@ -91,6 +91,7 @@ http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importan
 * http://endoflineblog.com/gitflow-considered-harmful  
 
 == Commmit message
+* https://tagilog.tistory.com/588[github에서 자주 쓰이는 영어]
 * https://blog.ull.im/engineering/2019/03/10/logs-on-git.html[좋은 git commit 메시지를 위한 영어 사전]
 * https://chris.beams.io/posts/git-commit/
 * https://github.com/git/git/blob/master/Documentation/SubmittingPatches
