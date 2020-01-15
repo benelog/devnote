@@ -10,6 +10,8 @@ resident in the Component. These services define behavior offered by instances o
 
 
 == MSA
+* https://particular.net/blog/goodbye-microservices-hello-right-sized-services
+* https://www.ben-morris.com/entity-services-when-microservices-are-worse-than-monoliths/
 * https://medium.com/@lenalysis/right-sized-services-and-microservice-architecture-1c907ef55d3b
 * https://towardsdatascience.com/effective-microservices-10-best-practices-c6e4ba0c6ee2
 * http://www.moreagile.net/2014/10/microservices.html
