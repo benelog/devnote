@@ -1,3 +1,4 @@
+* https://www.slideshare.net/NHNFORWARD/nhnforward2019-2[Spring JPA의 사실과 오해]
 * https://en.wikibooks.org/wiki/Java_Persistence
 * http://whiteship.me/2316[JPA 구현 패턴]
 * http://blog.sdnkorea.com/blog/846[Java Persistence 2.0의 잠금과 동시성]
