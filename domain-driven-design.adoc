@@ -1,3 +1,4 @@
+* https://www.slideshare.net/NHNFORWARD/nhnforward2019-6[DDD Lite@Spring]
 * https://www.infoq.com/presentations/microservices-ddd-bounded-contexts/
 * https://github.com/kgrzybek/modular-monolith-with-ddd
 * http://scabl.blogspot.com/p/advancing-enterprise-ddd.html
