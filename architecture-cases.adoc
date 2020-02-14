@@ -21,7 +21,8 @@
 http://www.mimul.com/pebble/default/2012/09/06/1346890689112.html[http://www.mimul.com/pebble/default/2012/09/06/1346890689112.html]  
 
 == Soundcloud
-http://www.looah.com/article/view/1652http://backstage.soundcloud.com/2012/08/evolution-of-soundclouds-architecture/  
+* http://backstage.soundcloud.com/evolution-of-soundclouds-architecture/  
+* http://www.looah.com/article/view/1652
 
 == Stackoverflow
 http://yisangwook.tumblr.com/post/73202754212/stackoverflow-com  
