@@ -286,7 +286,7 @@ git push <원격 저장소> <지역브랜치> : 새로운 로컬 브랜치를 �
 
 git push : 지역 변경 사항을 origin 저장소에 푸싱하기
 
-git push <원격저장소>:<원격브랜치> : 원격 브랜치 삭제하기
+git push <원격저장소>:<원격브랜치> : 원격 브랜치 삭제하
 
 git remote prune <원격저장소> : 원격 저장소에서 쓸모가 없어진 원격 브랜치 제거하기
 
@@ -297,4 +297,11 @@ git pull <원격저장소> <지역브랜치>: git pull origin master
 == clean
 
 glt clean -fd : 추적하지 않는 파일과 디렉토리 삭제
+
+== Contribution
+- `git remote add --track master upstream [remote github repository address]`
+- `git pull --ff upstream master`
+
+
+
 
