@@ -3,7 +3,8 @@
 
 
 == DirectByteBuffer
-* `ByteBuffer.allocateDirect()`
+* `ByteBuffer.allocateDirect()` 로 할당 받음
+* `-Djdk.nio.maxCachedBufferSize` 옵션으로 크기 조정 가능
 
 == Netty
 * https://github.com/netty/netty/blob/4.1/common/src/main/java/io/netty/util/internal/PlatformDependent.java#L192
