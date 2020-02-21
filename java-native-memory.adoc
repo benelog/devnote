@@ -2,6 +2,9 @@
 * https://dzone.com/articles/troubleshooting-problems-with-native-off-heap-memo
 
 
+== DirectByteBuffer
+* `ByteBuffer.allocateDirect()`
+
 == Netty
 * https://github.com/netty/netty/blob/4.1/common/src/main/java/io/netty/util/internal/PlatformDependent.java#L192
 * Dio.netty.noPreferDirect=true 
