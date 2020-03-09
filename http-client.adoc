@@ -1,10 +1,10 @@
 http://www.baeldung.com/httpclient-ssl : SSLContext 설정 방법
 
 == Spring RestTemplate
+* https://hellokoding.com/spring-resttemplate-error-handling/
 * http://blog.springsource.com/2009/03/27/rest-in-spring-3-resttemplate/[http://blog.springsource.com/2009/03/27/rest-in-spring-3-resttemplate/]
 * http://aruld.info/resttemplate-the-spring-way-of-accessing-restful-services/[http://aruld.info/resttemplate-the-spring-way-of-accessing-restful-services/]
 * http://dlinsin.blogspot.com/2009/11/playing-with-spring-resttemplate.html[http://dlinsin.blogspot.com/2009/11/playing-with-spring-resttemplate.html]
-* http://whiteship.me/2609[[Spring 3.0 & Atlassian] RestTemplate으로 Confluence의 Space 목록 가져오기]
 
 == Apache HttpClient, HtpComponent
 * http://fuyun.org/2009/09/connection-close-in-httpclient/[http://fuyun.org/2009/09/connection-close-in-httpclient/]
