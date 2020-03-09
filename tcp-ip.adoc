@@ -15,17 +15,17 @@
 https://mindnet.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-22%ED%8E%B8-TCP-3-WayHandshake-4-WayHandshake
 
 === 연결
-1. SYN
-2. SYN+ACK
-3. ACK  
+1. (Client -> Server) SYN
+2. (Server -> Client) SYN+ACK
+3. (Client -> Server) ACK  
 
 === Close
-1. FIN + ACK
-2. ACK 
-3. FIN + ACK
-4. ACK
+1. (Client -> Server) FIN
+2. (Server -> Client) ACK (Server : CLOSE_WAIT, Client: TIME_WAIT)
+3. (Server -> Client) FIN
+4. (Client -> Server) ACK
 
-서버가 FIN 패킷을 수신한 이후, 종료때까지 약간의 시간 지연
+서버가 FIN 패킷을 수신한 이후, 종료 때까지 약간의 시간 지연
 Peer가 FIN보내면 이쪽에서 닫기 전까지 CLOSE_WAIT 상태
 
 CLOSE_WAIT는 timeout이 나지 않는다.
