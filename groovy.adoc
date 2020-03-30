@@ -1,0 +1,6 @@
+* https://gist.github.com/3496884[https://gist.github.com/3496884]
+* groovy-eclipse-compiler Maven integration :
+** http://groovy.codehaus.org/Groovy-Eclipse+compiler+plugin+for+Maven[http://groovy.codehaus.org/Groovy-Eclipse+compiler+plugin+for+Maven]
+* Eclipse update site :
+** 4.2 (Juno) : http://dist.springsource.org/release/GRECLIPSE/e4.2[http://dist.springsource.org/release/GRECLIPSE/e4.2]
+** 3.7 (Indigo) : http://dist.springsource.org/release/GRECLIPSE/e3.7[http://dist.springsource.org/release/GRECLIPSE/e3.7]  
