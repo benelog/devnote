@@ -11,3 +11,7 @@
 == Netty
 * https://github.com/netty/netty/blob/4.1/common/src/main/java/io/netty/util/internal/PlatformDependent.java#L192
 * Dio.netty.noPreferDirect=true 
+
+== Linux command
+* `cat /proc/meminfo`
+* `cat /proc/{pid}/status`
