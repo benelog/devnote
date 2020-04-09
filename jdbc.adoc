@@ -18,6 +18,8 @@ ps axuw | grep java | grep -v grep | awk '{print $2}' | while read P; do pmap $P
 
 == Statement Cache
 * https://vladmihalcea.com/how-does-the-mysql-jdbc-driver-handle-prepared-statements/
+* https://dev.mysql.com/doc/refman/5.6/en/statement-caching.html
+* MySQL에서는 `useServerPrepStmts=true` 를써야 Server side cache 활성화됨
 
 == Connection pool
 * http://www.imaso.co.kr/?doc=bbs/gnuboard.php&bo_table=article&wr_id=40288[iBatis와 DBCP 바로알기]
