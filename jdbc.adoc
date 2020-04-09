@@ -19,7 +19,6 @@ ps axuw | grep java | grep -v grep | awk '{print $2}' | while read P; do pmap $P
 == Statement Cache
 * https://vladmihalcea.com/how-does-the-mysql-jdbc-driver-handle-prepared-statements/
 * https://dev.mysql.com/doc/refman/5.6/en/statement-caching.html
-* MySQL에서는 `useServerPrepStmts=true` 를써야 Server side cache 활성화됨
 
 == Connection pool
 * http://www.imaso.co.kr/?doc=bbs/gnuboard.php&bo_table=article&wr_id=40288[iBatis와 DBCP 바로알기]
@@ -170,6 +169,10 @@ Statment를 안 가지면 maximum open cursor exceed ! 에러나 Limit on number
 * http://www.javaservice.net/~java/bbs/read.cgi?m=apm&amp;b=jscfaq&amp;c=r_p&amp;n=1130485838[JDBC 중복할당에 의한 WAS행(Hang)현상 추적하기]
 
 == Mysql
+* https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-configuration-properties.html
+* https://kwonnam.pe.kr/wiki/database/mysql/jdbc
+** MySQL에서는 `useServerPrepStmts=true` 를써야 Server side cache 활성화됨 (default false)
+
 == Fetch size
 * http://bleujin.tistory.com/152[http://bleujin.tistory.com/152]
 * http://dev.mysql.com/doc/refman/5.1/en/connector-j-reference-implementation-notes.html
