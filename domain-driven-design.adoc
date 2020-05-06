@@ -1,3 +1,4 @@
+* https://www.slideshare.net/baejjae93/ss-27536729[도메인 주도 설계의 본질]
 * https://www.slideshare.net/NHNFORWARD/nhnforward2019-6[DDD Lite@Spring]
 * https://www.infoq.com/presentations/microservices-ddd-bounded-contexts/
 * https://github.com/kgrzybek/modular-monolith-with-ddd
