@@ -1,0 +1,46 @@
+==  알고리즘 시각화 사이트
+* https://workshape.github.io/visual-graph-algorithms/
+* https://algorithm-visualizer.org/
+* https://visualgo.net/
+* http://algo-visualizer.jasonpark.me/
+* https://illustrated-algorithms.now.sh/
+
+== 정리
+* http://bigocheatsheet.com/
+* https://medium.com/omarelgabrys-blog/algorithms-data-structures-series-85ec94eb8aff#.ro8tu132u
+* https://medium.mybridge.co/algorithm-top-10-articles-in-september-8a0e6afb0807#.dma71wobl
+* http://www.cse.ucsd.edu/users/dasgupta/mcgrawhill/
+* http://david.tribble.com/text/goto.html#part-1[http://david.tribble.com/text/goto.html#part-1]  
+* http://openframework.or.kr/JSPWiki/Wiki.jsp?page=Basic
+* http://www.cs.princeton.edu/introcs/40algorithms/
+* 마소: 다시 도전하는 자료구조와 알고리즘   
+* http://minjang.egloos.com/1687021[토끼와 거북이 알고리즘]  
+
+== SICP
+* http://blog.insightbook.co.kr/51[SICP를 공부하는 방법]  
+* http://mitpress.mit.edu/sicp/
+* http://www.swiss.ai.mit.edu/classes/6.001/abelson-sussman-lectures/
+
+== 자료구조
+* http://www.brpreiss.com/  
+* http://www.datastructures.info/  
+* http://www.informatics.susx.ac.uk/courses/dats/notes/pdf/notes.pdf  
+* http://www.informatics.susx.ac.uk/courses/dats/notes/html/notes.html
+
+=== Skiplst
+* 이진 검색 트리보다 빠르다.
+* RB Tree보다 리벨런싱 부담이  적다.
+* Persistent하게 만들기 어렵다.
+* Cache miss / Fragmentation 등으로 인해 간혹 B-Tree보다 느리게 동작하기도 한다.
+* 멀티스레드에서 수정이 빈번한 컨테이너,  순차적인 탐색을 많이 하는 경우에 적당
+* 참고
+** http://en.wikipedia.org/wiki/Skip_list
+** http://www.slideshare.net/jongwookkim/skip-list
+** http://en.literateprograms.org/Skip_list_(Java)
+
+== Hashing, 암호화
+http://whiteship.me/?p=13111[MD5, SHA, 다이제스트, 솔트, 이터레이션]http://mkseo.pe.kr/blog/?p=2394[MODERN PASSWORD HASHING ALGORITHMS]http://mkseo.pe.kr/blog/?p=2327[CityHash]  
+Salt : 단방향 해쉬함수에서 다이제스트를 생성할 때 추가되는 바이트 단위의  임의의 문자열  
+
+== 재귀
+* 꼬리 재귀 : http://golee07.tistory.com/364  메서드 파라미터에 값을 축적시키는 방식..
