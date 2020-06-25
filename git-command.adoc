@@ -299,8 +299,30 @@ git pull <원격저장소> <지역브랜치>: git pull origin master
 glt clean -fd : 추적하지 않는 파일과 디렉토리 삭제
 
 == Contribution
-- `git remote add --track master upstream [remote github repository address]`
-- `git pull --ff upstream master`
+* `git remote add --track master upstream [remote github repository address]`
+* `git pull --ff upstream master`
+
+== 내부보기
+
+* `git hash-object [file name]` : checksum 확인
+** `.git/objects/` 아래에 checksum 값으로 파일 생성됨
+* `.git/index` 파일 : Git의 스테이지
+* `git ls-files --stage` : 스테이지 파일의 내용 확인
+* `git show [checksum]` : 파일 내용을 보여줌
+* `git cat-file -t [checksum]` : checksum으로 객체의 종류 알아보기
+* `git cat-file blob [checksum]` : checksum으로 파일 내용보기
+* commit과 tree도 `.git/objects` 아래의 객체임
+* `git ls-tree HEAD` : 헤드 커밋의 내용 확인
+* `git write-tree` : 트리 생성
+* `echo "tree commit" | git commit-tree 0edb88 -p HEAD` : 트리를 커밋
+* `cat .git/refs/heads/master` : HEAD 확인
+* `git update-ref refs/heads/master [commit checksum]`
+* `.git/refs/heads` : 각 branch별 디렉토리가 생김
+** 브랜치는 commit의 참조일 뿐이다.
+** `git branch -d`는 `.git/refs/heads` 아래에 있는 파일을 삭제
+** 체크아웃은 '해당 브랜치를 HERAD로 이동사키고 스테이지와 워킹트리를 HEAD가 가르키는 커밋과 동일한 내용으로 변경'
+** hard reset은 커밋, 스테이지, 워킹트리의 내용이 모두 같아짐
+
 
 
 
