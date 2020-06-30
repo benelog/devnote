@@ -1,4 +1,5 @@
-https://github.com/donnemartin/system-design-primer#index-of-system-design-topics
+* https://github.com/donnemartin/system-design-primer#index-of-system-design-topics
+* https://www.educative.io/prepare-for-interview/system-design
 
 == 용어
 UML에서 정의한 컴포넌트의 정의 (참고자료 : UML 1.3 Specification, OMG)
