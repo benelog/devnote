@@ -98,3 +98,5 @@ http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importan
 * https://www.slideshare.net/TarinGamberini/commit-messages-goodpractices
 * https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-git-commit-guidelines
 
+== Subtree
+* https://nering.dev/2016/git-submodules-vs-subtrees/
