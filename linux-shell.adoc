@@ -68,3 +68,11 @@ http://www.cyberciti.biz/open-source/command-line-hacks/linux-ls-commands-exampl
 열려있는 파일 찾기
 
 https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html[Command-line Tools can be 235x Faster than your Hadoop Cluster]
+
+== 파일명 일괄 변경
+
+[source]
+._를 -로
+----
+for i in *_*;do mv $i ${i//"_"/"-"};done 
+----
