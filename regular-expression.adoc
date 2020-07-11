@@ -17,3 +17,4 @@ image::http://dl.adminlife.net/regular_expressions_cheat_sheet.png[regular_expre
 == 예제
 * style 태그 제거: `style=\"[^\"]*\"`
 * slug 로 시작하는 라인 :`^(Slug)(.*)\n`
+* Hugo를 위해 tag 형식 바꾸기 : `^(tags\: )(.*?)\n` -> `tags:[$2]\n---\n\n`
