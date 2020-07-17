@@ -51,7 +51,7 @@ http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bou
 
 == 11번가
 * https://www.slideshare.net/balladofgale/spring-camp-2018-11-spring-cloud-msa-1
-* https://deview.kr/data/deview/2019/presentation/[216]%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%BA%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%8B%E1%85%B5_%E1%84%89%E1%85%AE%E1%86%AB%E1%84%80%E1%85%A1%E1%86%AB_%E1%84%80%E1%85%B3%E1%86%B8%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB_%E1%84%8C%E1%85%AE%E1%84%86%E1%85%AE%E1%86%AB_%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5p.pdf[스케일 아웃없이 순간 급증하는 주문처리하기] (DEVIEW 2019, 김태경 님)
+* https://deview.kr/2019/schedule/305[스케일 아웃없이 순간 급증하는 주문처리하기(Microservice with Kafka)] (DEVIEW 2019, 김태경 님)
 
 == 우아한 형제들
 * https://www.slideshare.net/arawnkr/ss-94475606[Springcamp 2018:이벤트 기반 분산 시스템을 향한 여정]
