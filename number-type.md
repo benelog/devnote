@@ -1,0 +1,8 @@
+== Double형 한계
+* https://hashcode.co.kr/questions/2315/%EB%8F%88%EC%9D%84-%ED%91%9C%EA%B8%B0%ED%95%A0-%EB%95%8C%EB%8A%94-%EC%99%9C-double%EA%B3%BC-float%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EC%A7%80-%EC%95%8A%EB%82%98%EC%9A%94[돈을 표기할 때는 왜 Double과 Float을 사용하지 않나요?]
+- https://dzone.com/articles/never-use-float-and-double-for-monetary-calculatio
+
+
+=== 사례
+- https://www.yna.co.kr/view/AKR20110902079600004[`나이스오류' 예견된 사고…설계서ㆍ테스트 없었다]
+- https://news.chosun.com/site/data/html_dir/2011/07/25/2011072500100.html[나이스, 프로그램에 문제… 쓰레기값(컴퓨터 연산과정서 드물게 나오는 엉뚱한 값) 처리 누락]
