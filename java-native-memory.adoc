@@ -1,6 +1,6 @@
 * https://openjdk.java.net/jeps/370
 * https://dzone.com/articles/troubleshooting-problems-with-native-off-heap-memo
-
+* https://www.javacodegeeks.com/2016/03/jcmd-one-jdk-command-line-tool-rule.html
 
 == DirectByteBuffer
 * `ByteBuffer.allocateDirect()` 로 할당 받음
