@@ -24,6 +24,8 @@ resident in the Component. These services define behavior offered by instances o
 * https://baramnemse.github.io/blog/1/[마이크로 서비스, 콜하지 말고 이벤트 컨슈밍하기]
 * https://allegro.tech/2016/03/Managing-Frontend-in-the-microservices-architecture.html
 * https://blog.bernd-ruecker.com/3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them-3f27a442cd07
+
+== Transactional out box ( Store and forward)
 * https://www.popit.kr/msa%ec%97%90%ec%84%9c-%eb%a9%94%ec%8b%9c%ec%a7%95-%ed%8a%b8%eb%9e%9c%ec%9e%ad%ec%85%98-%ec%b2%98%eb%a6%ac%ed%95%98%ea%b8%b0/[MSA에서 메시징 트랜잭션 처리하기]
 
 == Events
