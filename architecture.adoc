@@ -65,6 +65,6 @@ resident in the Component. These services define behavior offered by instances o
 * 4+1 View : http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf[http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf]  
 
 == Module
-*http://woowabros.github.io/study/2019/07/01/multi-module.html[멀티모듈 설계 이야기 with Spring, Gradle]
+* http://woowabros.github.io/study/2019/07/01/multi-module.html[멀티모듈 설계 이야기 with Spring, Gradle]
 
 == 오픈소스 아키텍처 : http://www.aosabook.org/en/[http://www.aosabook.org/en/]  
