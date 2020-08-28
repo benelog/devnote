@@ -31,6 +31,11 @@ resident in the Component. These services define behavior offered by instances o
 == Events
 * https://www.infoq.com/articles/events-workflow-automation
 
+== TCC
+* https://www.codota.com/code/java/methods/org.bytesoft.compensable.Compensable/%3Cinit%3E
+* https://github.com/liuyangming/ByteTCC
+* https://github.com/apache/servicecomb-pack
+** https://github.com/apache/servicecomb-pack/blob/133a2fa7247b2ba00a380762a38369849390560e/integration-tests/pack-tests/src/test/java/org/apache/servicecomb/pack/integration/tests/resttemplate/GreetingService.java#L38
 
 == 아키텍트의 역할
 * Meet the achitect http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml[http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml]
