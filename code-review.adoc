@@ -1,3 +1,4 @@
+* https://google.github.io/eng-practices/review/reviewer/
 * http://tech.kakao.com/2016/02/04/code-review/[카카오스토리 팀의 코드 리뷰 도입 사례]
 * http://haruair.com/blog/3116[thoughtbot의 코드 리뷰 가이드]
 * http://www.developer.com/tech/article.php/3579756[Effective Code Reviews Without the Pain]
@@ -22,19 +23,12 @@ http://www.artima.com/weblogs/viewpost.jsp?thread=255898[Writing Software is Lik
 == 도구
 * http://video.google.com/videoplay?docid=-8502904076440714866[Mondrian Code Review On The Web]
 
-
 == 지속적인 Chapter 7 메모
-
-fault finding을 넘어선 협업
-
-적은 오류
-
-코딩표준 준수,
-
-빠른 학습 곡선
-
-신뢰관계
-
-비동기적인 pair programming(빠른 피드백..)
+* fault finding을 넘어선 협업
+* 적은 오류
+* 코딩표준 준수
+* 빠른 학습 곡선
+* 신뢰관계
+* 비동기적인 pair programming(빠른 피드백..)
 
 http://javajigi.tistory.com/228[소스 코드 리뷰와 짝 프로그래밍]
