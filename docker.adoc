@@ -35,7 +35,9 @@
 * http://eclipsesource.com/blogs/2013/10/25/continuous-deployment-with-docker-and-virgo/
 
 == Java in container
+* https://aboullaite.me/speed-up-your-java-application-images-build-with-buildkit/
 * Docker로 Spring Boot 배포
+** https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1
 ** https://spring.io/guides/topicals/spring-boot-docker
 ** https://perfectacle.github.io/2019/04/16/spring-boot-docker-image-optimization/
 ** https://medium.com/@gaemi/spring-boot-%EA%B3%BC-docker-with-jib-657d32a6b1f0
