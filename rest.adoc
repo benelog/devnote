@@ -1,4 +1,5 @@
 == API design
+* https://opensource.zalando.com/restful-api-guidelines/
 * https://www.slideshare.net/NHNFORWARD/nhnforward2019-7[HTTP API 설계 후회 고민]
 * https://velog.io/@codemcd/RESTREpresentational-State-Transfer-hgk2muj4l2
 * http://slides.com/eungjun/rest#/
