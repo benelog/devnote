@@ -9,13 +9,21 @@ http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-compa
 * http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-comparison-to-xml/[Part 1 : A comparison to XML]
 * http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-2-jobparameters-executioncontext-and-stepscope/[Part 2 : JobParameters, ExecutionContext and StepScope
 ]
-* http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-3-profiles-and-environments/[Part 3 : <font face="나눔고딕, NanumGothic, 맑은 고딕, AppleGothic, 돋움">Profiles and environments</font>]
+* http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-3-profiles-and-environments/[Part 3 : Profiles and environments</font>]
 * http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-4-job-inheritance/[Part 4 : Job inheritance]
 * http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-5-modular-configurations/[Part 5 : Modular configurations]
 * http://blog.codecentric.de/en/2013/07/spring-batch-2-2-javaconfig-part-6-partitioning-and-multi-threaded-step/[Part 6 : Partitioning and Multi-threaded Step]
 
 == Transaction
 * https://blog.codecentric.de/en/2012/03/transactions-in-spring-batch-part-1-the-basics/
+* https://blog.codecentric.de/en/2012/03/transactions-in-spring-batch-part-2-restart-cursor-based-reading-and-listeners/
+* https://blog.codecentric.de/en/2012/03/transactions-in-spring-batch-part-3-skip-and-retry/
+
+== Architecture
+* https://blog.codecentric.de/en/2014/11/enterprise-java-batch-best-practice-architecture/
+
+== Monitoring
+* https://blog.codecentric.de/en/2013/04/monitoring-spring-batch-with-appdynamics/
 
 == JSR 352
 
@@ -25,6 +33,7 @@ http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-compa
 * JSR-352와 Spring batch의 차이점 : http://blog.codecentric.de/en/2013/07/spring-batch-and-jsr-352-batch-applications-for-the-java-platform-differences/
 * http://blog.springsource.org/2013/08/23/spring-batch-3-0-milestone-1-released/
 * https://github.com/mminella/jsr352-springbatch-and-you
+* https://blog.codecentric.de/en/2013/11/batch-processing-java-enterprise-edition-jsr-352-jee7-spring-batch/
 
 == 핵심 commit
 * retry 별도 프로젝트 분리 : https://github.com/SpringSource/spring-batch/commit/e827990f08c04122538d4ec17b0e90b8aa7ed577[https://github.com/SpringSource/spring-batch/commit/e827990f08c04122538d4ec17b0e90b8aa7ed577]
