@@ -14,6 +14,9 @@ http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-compa
 * http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-5-modular-configurations/[Part 5 : Modular configurations]
 * http://blog.codecentric.de/en/2013/07/spring-batch-2-2-javaconfig-part-6-partitioning-and-multi-threaded-step/[Part 6 : Partitioning and Multi-threaded Step]
 
+== Transaction
+* https://blog.codecentric.de/en/2012/03/transactions-in-spring-batch-part-1-the-basics/
+
 == JSR 352
 
 * JSR-352 소개 : http://www.planetjones.co.uk/blog/25-05-2013/introducing-jsr-352-java-batch-ee-7.html
@@ -24,6 +27,5 @@ http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-compa
 * https://github.com/mminella/jsr352-springbatch-and-you
 
 == 핵심 commit
-
-retry 별도 프로젝트 분리 : https://github.com/SpringSource/spring-batch/commit/e827990f08c04122538d4ec17b0e90b8aa7ed577[https://github.com/SpringSource/spring-batch/commit/e827990f08c04122538d4ec17b0e90b8aa7ed577]
-  
+* retry 별도 프로젝트 분리 : https://github.com/SpringSource/spring-batch/commit/e827990f08c04122538d4ec17b0e90b8aa7ed577[https://github.com/SpringSource/spring-batch/commit/e827990f08c04122538d4ec17b0e90b8aa7ed577]
+* non-identifying job parameters https://github.com/spring-projects/spring-batch/commit/557515df45c0f596588418d53c3f2bae3781c1c3
