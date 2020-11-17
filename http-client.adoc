@@ -5,6 +5,7 @@ http://www.baeldung.com/httpclient-ssl : SSLContext 설정 방법
 * http://blog.springsource.com/2009/03/27/rest-in-spring-3-resttemplate/[http://blog.springsource.com/2009/03/27/rest-in-spring-3-resttemplate/]
 * http://aruld.info/resttemplate-the-spring-way-of-accessing-restful-services/[http://aruld.info/resttemplate-the-spring-way-of-accessing-restful-services/]
 * http://dlinsin.blogspot.com/2009/11/playing-with-spring-resttemplate.html[http://dlinsin.blogspot.com/2009/11/playing-with-spring-resttemplate.html]
+* https://multifrontgarden.tistory.com/249 : keep-alive 관련 테스트
 
 == Apache HttpClient, HtpComponent
 * http://fuyun.org/2009/09/connection-close-in-httpclient/[http://fuyun.org/2009/09/connection-close-in-httpclient/]
