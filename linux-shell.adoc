@@ -44,24 +44,13 @@ find ./ -mtime -30 -size +1024k -ls
 find /. -name "StringCleaner.java" | xargs du -b
 
 == 날짜
+* echo $(date '+%y%m%d') -> 060728
+* echo $(date '+%Y%m%d') -> 20060728
+* echo $(date '+%Y%m%d_%H%M%S') -> 20060728_170000
+* echo $(date +"%Y%m%d%H%M%S")
+* echo $(date +%Y%m%d --date '1 day ago')
 
-echo `date '+%y%m%d'`
-
--> 060728
-
-echo `date '+%Y%m%d'`
-
--> 20060728
-
-echo `date '+%Y%m%d_%H%M%S'`
-
--> 20060728_170000
-
-echo `date +"%Y%m%d%H%M%S"`
-
-echo `date +%Y%m%d --date '1 day ago'`
-
-ls
+== ls
 
 http://www.cyberciti.biz/open-source/command-line-hacks/linux-ls-commands-examples/
 
