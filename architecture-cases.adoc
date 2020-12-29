@@ -63,3 +63,5 @@ http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bou
 == 네이버
 * https://d2.naver.com/helloworld/6070967[네이버 메인 페이지의 트래픽 처리]
 
+== 뱅크 샐러드
+*  https://blog.banksalad.com/tech/how-banksalald-decomposes-legacy-services/ 
