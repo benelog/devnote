@@ -6,3 +6,6 @@
 ** 2. Changing all read paths
 ** 3. Changing all write paths
 ** 4. Removing old data
+* https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres
+**  MongoDB 에서  PostgreSQL로 전환
+
