@@ -113,7 +113,7 @@ http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bou
 *** API 실패나 일관성이 맞지 않는 데이터에도 가급적 주문은 이루어지도록 기획과 논의
 *** 예) 사장님이 음식 메뉴이름을 바꾸었을때 이전 이름으로라도 주문은 되는 것이 낫다. 
 
-뉴스기사로도 [배민은 서비스 장애를 어떻게 없앴나](https://byline.network/2020/12/17-108/) 에 소개
+뉴스기사로도 https://byline.network/2020/12/17-108/[배민은 서비스 장애를 어떻게 없앴나] 에 소개
 
 == 네이버
 * https://d2.naver.com/helloworld/6070967[네이버 메인 페이지의 트래픽 처리]
