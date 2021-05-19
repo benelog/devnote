@@ -44,6 +44,7 @@ resident in the Component. These services define behavior offered by instances o
 * http://www.ibm.com/developerworks/kr/library/j-ap07107/index.html[아키텍처 건전성]
 * http://www.codeplex.com/AppArchGuide[patterns & practices Application Architecture Guide 2.0]
 * 프로토타입을 위한 http://napkinlaf.sourceforge.net/[http://napkinlaf.sourceforge.net/]
+* https://sangminpark.blog/2021/05/11/%EC%BD%94%EB%8D%94/amp/[코더]
 
 ==== 혁신적 설계와 창발적 아키텍처
 * SLAP(Single Level of Abstraction Principle)에 대해 논의
