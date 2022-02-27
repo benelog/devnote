@@ -1,4 +1,7 @@
-== API design
+* GET에 request body를 허용하는것과 관련된 스펙
+** RFC2616 - https://tools.ietf.org/html/rfc2616#section-4.3 : 사실상 이러한 요청을 허용하지 않음.
+** RFC7231 - https://tools.ietf.org/html/rfc7231#page-24 : 나중에 허용
+
 * https://opensource.zalando.com/restful-api-guidelines/
 * https://www.slideshare.net/NHNFORWARD/nhnforward2019-7[HTTP API 설계 후회 고민]
 * https://velog.io/@codemcd/RESTREpresentational-State-Transfer-hgk2muj4l2
