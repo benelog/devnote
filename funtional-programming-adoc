@@ -1,0 +1,9 @@
+== Monad
+* https://www.youtube.com/watch?v=jI4aMyqvpfQ[Monad란 무엇인가?] (김동경 님)
+** 값을 담는 컨테이너의 일종
+** Functor를 기반으로 구현
+*** Functor를 이용하면 모델링 할 수 있는 상황의 예 : 값이 없는 경우, 값이 미래에 준비될것으로 예상되는 경우
+** 함수 합성 가능. non-blocking pipeline 구현에 활용 가능.
+** flatMap() 메서드 제공
+** Monad Laws를 만족시키는 구현체
+** Optional, Promise가 Monad의 예
