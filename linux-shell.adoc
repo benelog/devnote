@@ -19,11 +19,14 @@ CD: http://www.ibm.com/developerworks/kr/aix/library/au-directorytree/index.html
 
 == 파일명
 
+find . -type f -name "*Controller.java" -printf "%f\n"  | sort | uniq | awk '{print "- [ ] " $1}'
+
 find / -name "sysinfo.html"
 
 grep "sysinfo.html" *|awk '{print $1}'
 
 == 내용
+
 [source]
 ----
 # 찾기
