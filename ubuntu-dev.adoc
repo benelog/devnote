@@ -102,26 +102,6 @@ gvm use gradle 1.12
 
 ----
 
-=== https://gist.github.com/benelog/2939bb100d26a31c7c92#springsource-tool-suite[Springsource Tool Suite]
-
-http://spring.io/tools/sts/all[http://spring.io/tools/sts/all]에서 다운로드 하여 설치
-
-=== https://gist.github.com/benelog/2939bb100d26a31c7c92#intellij-community-edition[IntelliJ Community Edition]
-
-http://www.jetbrains.com/idea/download/[http://www.jetbrains.com/idea/download/] 에서 다운로드 하여 설치
-
-=== https://gist.github.com/benelog/2939bb100d26a31c7c92#android-studio[Android Studio]
-
-ubuntu-developer-tools-center를 이용하여 설치. Ubuntu 14.10부터는 'add-apt-repository'로 저장소 추가를 하지 않아도 됨.
-
-[source]
-----
-sudo add-apt-repository ppa:didrocks/ubuntu-developer-tools-center
-sudo apt-get update
-sudo apt-get install ubuntu-developer-tools-center
-udtc android
-
-----
 
 ( http://www.webupd8.org/2014/09/canonical-releases-ubuntu-developer.html[http://www.webupd8.org/2014/09/canonical-releases-ubuntu-developer.html] 참조 )
 
