@@ -1,19 +1,11 @@
-ASCII : 영문자 26자와 숫자, 기호, 특수문자 등 128자를 7bit의 이진수로 부호화한 코드이다.실질적인 영문자의 국제 표준 부호이다.영어 알파벳이외의 Ü 와 같은 문자를 표현하기 위해서 Extended ASCII 제정했다
-
-ISO-8859-1 : 기존 ASCII의 128개의 코드와 확장된 128개의 코드 사용이다. 유럽표준안으로 제정되었으며 ISO버전은 언어에 따라 상이.(ISO-8859-1 서유럽언어, ISO-8859-2 동유럽언어)
-
-KSC-5636  (KSX-1003) : ASCII 및 ISO/IEC 646에 기반한 7bit 문자집합이다.  
+* ASCII : 영문자 26자와 숫자, 기호, 특수문자 등 128자를 7bit의 이진수로 부호화한 코드이다.실질적인 영문자의 국제 표준 부호이다.영어 알파벳이외의 Ü 와 같은 문자를 표현하기 위해서 Extended ASCII 제정했다
+* ISO-8859-1 : 기존 ASCII의 128개의 코드와 확장된 128개의 코드 사용이다. 유럽표준안으로 제정되었으며 ISO버전은 언어에 따라 상이.(ISO-8859-1 서유럽언어, ISO-8859-2 동유럽언어)
+* KSC-5636  (KSX-1003) : ASCII 및 ISO/IEC 646에 기반한 7bit 문자집합이다.  
 ASCII와 거의 동일하며 역슬래시가 원화기호인것만 다르다.  
-
-Unicode : 전 세계의 모든 문자를 컴퓨터에서 일관되게 표현하고 다룰 수 있도록 설계된 산업 표준이며, 유니코드 협회가 제정한다.다국어 환경에서 서로 호환되지 않는 기존 인코딩의 문제접을 해결할 수 있고 표준적인 의미로 사용되어 진다.ISO-10646에 포함된 모든 문자열을 포함함 - KSC5601(KSX1001), EUC-KR, ISO-2022-KR 등의 한글 포함된다.현재 버전은 2010년 10월11일에 제정된 Unicode 6.0 이다.
-
-UTF(Unicode Transformation Format) : 유니코드 형태의 문자를 변환하기 위한 공식  
-UTF-7, UTF-8, UTF-16BE, UTF-16LE, UTF-32 등이 있다  
-ASCII와 호환이 가능한 UTF-8이 가장 많이 사용  
-
-UTF-8 : 기존 ASCII 문자 코드 체계와 호환 가능. 가변 길이 문자열 인코딩 방식. 기본 encoding으로 널리 쓰임
-
-UTF-16 :   
+* Unicode : 전 세계의 모든 문자를 컴퓨터에서 일관되게 표현하고 다룰 수 있도록 설계된 산업 표준이며, 유니코드 협회가 제정한다.다국어 환경에서 서로 호환되지 않는 기존 인코딩의 문제접을 해결할 수 있고 표준적인 의미로 사용되어 진다.ISO-10646에 포함된 모든 문자열을 포함함 - KSC5601(KSX1001), EUC-KR, ISO-2022-KR 등의 한글 포함된다.현재 버전은 2010년 10월11일에 제정된 Unicode 6.0 이다.
+* UTF(Unicode Transformation Format) : 유니코드 형태의 문자를 변환하기 위한 공식. UTF-7, UTF-8, UTF-16BE, UTF-16LE, UTF-32 등이 있다. ASCII와 호환이 가능한 UTF-8이 가장 많이 사용  
+* UTF-8 : 기존 ASCII 문자 코드 체계와 호환 가능. 가변 길이 문자열 인코딩 방식. 기본 encoding으로 널리 쓰임
+* UTF-16 :   
 
 http://blog.naver.com/skydoor777/100008000267[특정파일의 인코딩타입 알아내기]
 
@@ -25,13 +17,13 @@ http://helloworld.naver.com/helloworld/19187[한글 인코딩의 이해 1편: �
 
 http://helloworld.naver.com/helloworld/textyle/76650[한글 인코딩의 이해 2편: 유니코드와 Java를 이용한 한글 처리]  
 
-==== euc-kr
+== euc-kr
 
 euc-kr = KSC5601(한글) + KSC5636(영문, ASCII와 거의 같음. 역슬래쉬를 원으로). 영문1바이트, 한글2바이트
 
 http://blog.naver.com/manduys/120008536326[euc-kr, ksc5601 의 차이점]
 
-==== Unicode
+== Unicode
 
 http://www.unicode.org/standard/WhatIsUnicode.html[http://www.unicode.org/standard/WhatIsUnicode.html]
 
@@ -39,7 +31,7 @@ http://parkpd.egloos.com/3395808[유니코드 이해하기]
 
 http://jamestic.egloos.com/2634510[Technical Notes - Unicode의 이해 1.0]
 
-=== BOM
+== BOM
 
 http://www.w3.org/International/questions/qa-utf8-bom[http://www.w3.org/International/questions/qa-utf8-bom]
 
@@ -48,3 +40,9 @@ http://blog.wystan.net/2007/08/18/bom-byte-order-mark-problem[UTF-8 인코딩에
 UltraEdit에서 UTF-8 선언정보 없애기
 
 http://blog.naver.com/jujac/20016185668[http://blog.naver.com/jujac/20016185668]
+
+
+== 글자수 파악
+* https://engineering.linecorp.com/ko/blog/the-7-ways-of-counting-characters/
+* https://meetup.toast.com/posts/317
+* https://stackoverflow.com/questions/55663213/java-substring-by-code-point-indices-treating-pairs-of-surrogate-code-units-as
