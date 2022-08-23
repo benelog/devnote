@@ -7,15 +7,12 @@ ASCII와 거의 동일하며 역슬래시가 원화기호인것만 다르다.
 * UTF-8 : 기존 ASCII 문자 코드 체계와 호환 가능. 가변 길이 문자열 인코딩 방식. 기본 encoding으로 널리 쓰임
 * UTF-16 :   
 
-http://blog.naver.com/skydoor777/100008000267[특정파일의 인코딩타입 알아내기]
-
-http://blog.naver.com/skydoor777/100008000267[문자코드 종류및 설명]
-
-http://blog.dev.daewoobrenic.co.kr/tc/jcfblog/126[문자셋과 인코딩의 정의]
-
-http://helloworld.naver.com/helloworld/19187[한글 인코딩의 이해 1편: 한글 인코딩의 역사와 유니코드  ]
-
-http://helloworld.naver.com/helloworld/textyle/76650[한글 인코딩의 이해 2편: 유니코드와 Java를 이용한 한글 처리]  
+* http://blog.naver.com/skydoor777/100008000267[특정파일의 인코딩타입 알아내기]
+* http://blog.naver.com/skydoor777/100008000267[문자코드 종류및 설명]
+* http://blog.dev.daewoobrenic.co.kr/tc/jcfblog/126[문자셋과 인코딩의 정의]
+* http://helloworld.naver.com/helloworld/19187[한글 인코딩의 이해 1편: 한글 인코딩의 역사와 유니코드  ]
+* http://helloworld.naver.com/helloworld/textyle/76650[한글 인코딩의 이해 2편: 유니코드와 Java를 이용한 한글 처리]  
+* https://meetup.toast.com/posts/35[한글 인코딩 관련 간단 정리]
 
 == euc-kr
 
