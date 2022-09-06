@@ -1,0 +1,41 @@
+(2019년 Oracle 담당자가 한 세미나 듣고 메모한 내용)
+
+개발자들이 시작시간, 메모리 사용량, 최대 처리율, 배포패키지 용량, 최대지연시간 등 여러 특성을 구분하지 않고 '가볍다','무겁다'라고만 표현하는것을 많이 봤다.
+그래서 무거운 Java대신 가벼운 Python, Ruby를 쓴다는 표현도 자주 보이는데, 그 표현을 쓴 사람이 생각하는 가벼움/무거움이 어떤 특성인지는 한번더 물어봐야 알 수 있다.
+
+현재 Hotspot JVM의 특성은 위 그래프의 JIT의 특성과 일치한다.
+
+GraalVM은 보다 나은 JIT와 전에는 없었던 AOT 컴파일을 이용한 네이티브 이미지를 제공하지만, 여전히 둘 사이의 트레이드 오프는 존재한다.
+
+그 간극을 줄이기 위한 노력들도 진행되고 있다는 것을 이번 세미나를 통해 알게 되었다.
+
+먼저 AOT 쪽의 단점을 극복하기 위한 노력들
+
+런타임때 수집되는 정보를 활용할수 있는 JIT의 장점을 AOT에서도 흡수하기 위해 Profile-Guided Optimizations 라는 기법을 사용할 수 있다.
+
+native-image --pgo-instrument 이라는 옵션을 이용해서 프로파일 정보 수집을 위해서 프로그램을 먼저 한번 실행하고, 이 정보를 참조해서 native-image --pgo라는 옵션으로 네이티브 이미지를 빌드하는것이다.
+
+https://github.com/graalvm/graalvm-demos/tree/master/scala-days-2018/streams#profile-guided-optimizations-with-native-image
+
+그리고 Tracing agent라는 기능도 AOT 컴파일을 할때 생기는 번거로움을 개선해준다.
+native 이미지 빌드에서는 Runtime에 동적으로하는 Reflectinon에 대한 정보가 사전에 reflection-config.json와 같은 파일에 정의되어 있어야한다.
+이 파일을 일일히 작성해준다는 건 어려운 일이다. Graal VM으로 어플리케이션을  실행할때 옵션을 붙이면 reflection정보를 수집해두고, 이 파일을 native 이미지 빌드를 할 때 활용할 수 있다.
+
+https://medium.com/graalvm/introducing-the-tracing-agent-simplifying-graalvm-native-image-configuration-c3b56c486271
+
+그 다음으로는 그랄의 JIT 컴파일로의 단점을 극복하기 위한 노력
+
+그랄의 컴파일러는 Java로 되어 있어서 JVM실행시에 컴파일러의 코드를 컴파일하는 비용이 들어간다.
+
+이를 미리 native 코드로 컴파일해서 libgraal이라는 shared library를 만들었다고 한다.
+결국 GraalVM의 구동시간과 메모리 시간을 단축시켜주는데 도움이 된다.
+
+https://medium.com/graalvm/libgraal-graalvm-compiler-as-a-precompiled-graalvm-native-image-26e354bee5c
+
+원리상 위 사진의 오각형을 다 꽉채우는 방식이 나오기는 어렵겠지만, 이런 노력들이 쌓이면 양쪽이 더 넓은 도형을 그릴수 있을 것이라 기대된다.
+
+경우에 따라서는 AOT와 JIT를 오가거나 빌드 타임에 AOT 컴파일러를 위한 정보 수집을 위한 실행 단계가 포함하는 시도등을 할 수 있을듯하다.
+
+== Spring 관련 commit
+* https://github.com/spring-projects/spring-framework/commit/2d05f2ed47d62a4f23421fe8d6046e239ecdfb09#diff-aa41501d699cef8e011c54ed4e203797
+* https://github.com/spring-projects/spring-framework/commit/e8034f2f967ec61a9f5393ec3f93c1d8e373f155#diff-aa41501d699cef8e011c54ed4e203797
