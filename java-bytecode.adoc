@@ -27,7 +27,19 @@ CGLIB 가 사용 ( CGLIB is a higher abstraction than ASM. )
 * http://serp.sourceforge.net/
 
 === Javassist
-* https://github.com/jboss-javassist/javassist  
+* https://github.com/jboss-javassist/javassist
 
 === 비교
-* http://www.java-opensource.com/open-source/bytecode-libraries.html[http://www.java-opensource.com/open-source/bytecode-libraries.html]- BCEL vs ASM : * http://blog.naver.com/PostView.nhn?blogId=junsu60&logNo=80123035668[http://blog.naver.com/PostView.nhn?blogId=junsu60&logNo=80123035668]
+* http://www.java-opensource.com/open-source/bytecode-libraries.html[http://www.java-opensource.com/open-source/bytecode-libraries.html]
+* BCEL vs ASM : http://blog.naver.com/PostView.nhn?blogId=junsu60&logNo=80123035668[http://blog.naver.com/PostView.nhn?blogId=junsu60&logNo=80123035668]
+
+== Framework 의존성
+* Hibenate의  Javassist -> Bytebuddy : https://github.com/hibernate/hibernate-orm/pull/1622
+* Spring의 관련 이슈
+** https://github.com/spring-projects/spring-framework/issues/12840 (2011년)
+*** 2022.09.08 
+** https://github.com/spring-projects/spring-framework/issues/7964 (2007년)
+*** 'Cglib appears to be a poorly maintained and dying project. It would be nice to replace it with a more actively maintained project like javaassist for library dependency reasons.'
+
+
+
