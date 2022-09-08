@@ -38,7 +38,7 @@ CGLIB 가 사용 ( CGLIB is a higher abstraction than ASM. )
 * Spring의 관련 이슈
 ** https://github.com/spring-projects/spring-framework/issues/12840[Support for ByteBuddy as an alternative to CGLIB [SPR-8190]]
 *** 2011년 처음 생성
-*** 2012.10.17 기준으로는 제목이 ''
+*** 2012.10.17 기준으로는 제목이 'Migrate from CGLIB to Javassist'
 *** 2022.09.08 기준으로는 제목이 'Support for ByteBuddy as an alternative to CGLIB', 6.x backlog로 마일스톤이 기록
 ** https://github.com/spring-projects/spring-framework/issues/7964 (2007년)
 *** 'Cglib appears to be a poorly maintained and dying project. It would be nice to replace it with a more actively maintained project like javaassist for library dependency reasons.'
