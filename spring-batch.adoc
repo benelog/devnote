@@ -1,3 +1,16 @@
+== 사례
+* https://www.youtube.com/watch?v=L9K0l65wMbQ[Batch Performance 극한으로 끌어올리기: 1억 건 데이터 처리를 위한 노력 / if(kakao)2022]
+** Read
+*** MySQL에서 limit, offset 지정방식의 페이징쿼리는 건수가 늘어갈 때 뒤로 갈수록 느려진다.
+*** Cursor 조회로도 대량 데이터 조회 가능. 단 JpaCurSorItemReader는 사용하지 말것
+** Aggregation
+*** MySQL에서 group by query 대신 Redis로 집계.command pipeline 을 활용하면 원격 호출 횟수를 최적화 할 수 있음.
+** Write
+*** JDBC batchUpdate를 유도할 것
+*** JPA는 성능최적화 관점에서 배치와 잘 맞지 않음
+** 배치 구동 환경
+*** Spring Cloud Data Flow * K82를 용해서 batch 스케쥴링, 오케스트레이션, 모니터링을 하고 있음.
+
 == 예제  
 * https://github.com/mminella/Pro-Spring-Batch-source-code
 * https://github.com/mminella/Spring-Batch-Talk
