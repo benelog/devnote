@@ -56,7 +56,7 @@ Nonrepeatable read 발생가능. 즉, 동일한 transaction 내에서 반복되�
 
 === repeatable read
 
-트랜잭션이 완료될 때까지 SELECT 문장이 사용하는 모든 데이터에  공유잠금을 유지하여 (읽기 Lock) , 트랜잭션이 종료될 때까지 다른 사용자가 해당 행을 수정하지 못하게 한다. 여러번 데이터를 읽어도 같은 값이 유지되도록 함. 그러나 같은 조건을 만족하는 새로운 row가 다른 트랜잭션에서 insert로 생성거나 update되어서 commit되었을 시 읽어지는 phantom read 발생. 조회건이 늘어날 수 있다.
+트랜잭션이 완료될 때까지 SELECT 문장이 사용하는 모든 데이터에  공유잠 금을 유지하여 (읽기 Lock) 다른 사용자가 해당 행을 수정하지 못하게 한다. 여러번 데이터를 읽어도 같은 값이 유지되도록 함. 그러나 같은 조건을 만족하는 새로운 row가 다른 트랜잭션에서 insert/delete 후 commit되었을 시 읽어지는 phantom read 발생.
 
 === serializable
 
