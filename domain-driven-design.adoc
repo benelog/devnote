@@ -79,3 +79,6 @@ http://www.theserverside.com/tt/articles/content/ProductivityWithSculptor/articl
 * http://aeternum.egloos.com/2503382[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 3부]
 * http://aeternum.egloos.com/2508743[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 4부]
 * http://aeternum.egloos.com/2511360[유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 5부[完]]
+
+## 구현 사례
+* https://blog.gangnamunni.com/post/isolate-transaction-from-domain-model[트랜잭션은 도메인 모델이 아니다]
