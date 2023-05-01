@@ -89,6 +89,7 @@ http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importan
 * https://about.gitlab.com/2014/09/29/gitlab-flow/  
 * https://www.atlassian.com/blog/archives/simple-git-workflow-simple
 * http://endoflineblog.com/gitflow-considered-harmful  
+* https://georgestocker.com/2020/03/04/please-stop-recommending-git-flow/
 
 == Commmit message
 * https://tagilog.tistory.com/588[github에서 자주 쓰이는 영어]
@@ -101,5 +102,3 @@ http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importan
 == Subtree
 * https://nering.dev/2016/git-submodules-vs-subtrees/
 
-== Git Flow
-* https://georgestocker.com/2020/03/04/please-stop-recommending-git-flow/
