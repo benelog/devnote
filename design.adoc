@@ -2,5 +2,5 @@ http://www.developerdotstar.com/mag/articles/reeves_design_main.html[Code as Des
 
 == Composable IT
 * 익히면 익힐수록 더 잘쓸수있어야한다  : http://blog.dahlia.kr/post/78940164278  
-* Windows와 Linux, 그리고 Textcube :http://blog.needlworks.org/ko/entry/Windows%EC%99%80-Linux-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Textcube  
+* Windows와 Linux, 그리고 Textcube : http://blog.needlworks.org/ko/entry/Windows%EC%99%80-Linux-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Textcube  
 * http://www.moolenaar.net/habits.html  
