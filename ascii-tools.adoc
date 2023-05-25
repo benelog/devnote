@@ -7,3 +7,15 @@
 == Editor
 * https://textik.com
 * http://asciiflow.com/
+
+== UI framework
+* Turbo Vision 비슷한 UI
+** CSS : https://github.com/vinibiavatti1/TuiCss
+** Go 구현 : https://pkg.go.dev/github.com/vladimirmarkelov/clui
+** Java 구현 : https://gitlab.com/AutumnMeowMeow/jexer
+*** jexer를 활용한 Java IDE : https://tjide.sourceforge.io/
+* PC 통신스러운 UI
+** https://github.com/vinibiavatti1/TuiCss
+** https://github.com/kristopolous/BOOTSTRA.386
+*** Hugo Theme : https:///gitlab.com/maxlefou/hugo.386
+**** fork : https://github.com/honux77/hugo.386k ( hugo.386 + 둥근모글꼴 등)
