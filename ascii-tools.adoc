@@ -1,14 +1,15 @@
 * https://asciinema.org/
-* https://github.com/yaronn/blessed-contrib
-* https://github.com/jstrace/chart
-* https://github.com/mdr/ascii-graphs
-* https://github.com/indvd00m/java-ascii-render
 
 == Editor
 * https://textik.com
 * http://asciiflow.com/
 
 == UI framework
+* Ascii로 그래프 같은 출력물 만들어줌
+** https://github.com/mdr/ascii-graphs
+** https://github.com/indvd00m/java-ascii-render
+** https://github.com/yaronn/blessed-contrib
+** https://github.com/jstrace/chart
 * Turbo Vision 비슷한 UI
 ** CSS : https://github.com/vinibiavatti1/TuiCss
 ** Go 구현 : https://pkg.go.dev/github.com/vladimirmarkelov/clui
