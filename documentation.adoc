@@ -23,10 +23,10 @@
 ** https://github.com/jackyzha0/hugo-obsidian/ : 위의 Quartz 활용한 GitHub Acion
 ** https://github.com/64bitpandas/amethyst ( hugo-obsidian + hugo-book 테마)
 
-==== 빌드/배포
+==== GitHub Actions 빌드/배포
 
 [source,yaml]
-.GitHub Actions로 빌드
+.빌드
 ----
 
      - name: Setup Hugo
@@ -38,7 +38,6 @@
         run: hugo --minify
 ----
 
-=== 배포
 [source,yaml]
 .GitHub pages로 배포
 ----
