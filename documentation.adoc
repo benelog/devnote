@@ -1,0 +1,35 @@
+== Static site generator
+* https://orchid.run/
+* https://antora.org/
+* http://octopress.org/
+* https://hexo.io/
+* http://jekyllbootstrap.com/
+* https://blog.getpelican.com/
+* https://funbook.js.org/
+* https://flybook.js.org/
+* https://github.com/wiztools/stagen
+* https://nakkaya.com/
+* https://github.com/sysgears/grain
+
+== 협업
+* http://www.corilla.com/
+
+== CMS솔류션
+
+* WordPress
+* Blogger
+* Tumblr
+* Squarespace
+* TypePad
+* Movable Type
+* Drupal
+* Joomla
+* Wix
+* Weebly
+* Strikingly
+* HubSpot
+* Shopify
+* Adobe Muse
+* Jimdo
+* Postach.io
+* Pattern
