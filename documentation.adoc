@@ -11,6 +11,62 @@
 * https://nakkaya.com/
 * https://github.com/sysgears/grain
 
+=== Hugo
+
+==== 추천 템플릿
+* https://geekdocs.de/
+* https://adityatelange.github.io/hugo-PaperMod/
+* https://themes.gohugo.io/hugo_theme_adam_eve/
+* https://themes.gohugo.io/themes/hugo-book/
+* Obsidian과 연동
+** https://github.com/jackyzha0/quartz : 검색, wiki 스타일의 링크 지원, 백링크, 그래프 지원
+** https://github.com/jackyzha0/hugo-obsidian/ : 위의 Quartz 활용한 GitHub Acion
+** https://github.com/64bitpandas/amethyst ( hugo-obsidian + hugo-book 테마)
+
+==== 빌드/배포
+
+[source,yaml]
+.GitHub Actions로 빌드
+----
+
+     - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.96.0'
+          extended: true
+      - name: Build
+        run: hugo --minify
+----
+
+=== 배포
+[source,yaml]
+.GitHub pages로 배포
+----
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: pages
+----
+
+
+[source,yaml]
+.surge.sh로 배포
+----
+      - name: Deploy to relation-study.surge.sh
+        uses: dswistowski/surge-sh-action@v1.0.2
+        with:
+          domain: 'benelog.surge.sh'
+          project: './public'
+          login: ${{ secrets.surge_login }}
+          token: ${{ secrets.surge_token }}
+----
+
+=== 연동 CMS
+* https://decapcms.org/
+* https://tina.io/
+
 == 협업
 * http://www.corilla.com/
 
