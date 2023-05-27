@@ -49,6 +49,8 @@
           publish_branch: pages
 ----
 
+* https://github.com/peaceiris/actions-gh-pages 참조
+* https://github.com/JamesIves/github-pages-deploy-action 도 비슷한 action
 
 [source,yaml]
 .surge.sh로 배포
