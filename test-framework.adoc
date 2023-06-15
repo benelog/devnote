@@ -77,3 +77,8 @@ https://github.com/npryce/make-it-easy
 
 == IDE plugins
 * http://www.happyprog.com/pulse/
+
+== Fixture 생성
+* https://github.com/naver/fixture-monkey
+* https://github.com/instancio/instancio
+* https://github.com/j-easy/easy-random
