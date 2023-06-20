@@ -90,6 +90,7 @@ http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importan
 * https://www.atlassian.com/blog/archives/simple-git-workflow-simple
 * http://endoflineblog.com/gitflow-considered-harmful  
 * https://georgestocker.com/2020/03/04/please-stop-recommending-git-flow/
+* https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf
 
 == Commmit message
 * https://tagilog.tistory.com/588[github에서 자주 쓰이는 영어]
