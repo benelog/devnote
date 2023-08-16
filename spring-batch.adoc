@@ -1,4 +1,7 @@
 == 사례
+* https://tech.kakao.com/2023/08/01/techmeet-spring-batch/[Spring Batch 애플리케이션 성능 향상을 위한 주요 팁 / 제2회 Kakao Tech Meet]
+** Writer에서 다건을 병렬처리, UPDATE 몰아서 하기, batchUpdate 활용
+** https://cheese10yun.github.io/spring-batch-update-performance/
 * https://www.youtube.com/watch?v=L9K0l65wMbQ[Batch Performance 극한으로 끌어올리기: 1억 건 데이터 처리를 위한 노력 / if(kakao)2022]
 ** Read
 *** MySQL에서 limit, offset 지정방식의 페이징쿼리는 건수가 늘어갈 때 뒤로 갈수록 느려진다.
