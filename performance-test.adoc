@@ -1,4 +1,5 @@
 == 이론
+
 * Little’s law by John D. C. Little in 1961
 ** Number of concurrent user = TPS * avg. response time
 ** Concurrency = TPS * Avg. Response time or Concurrency = TPS * Max. Response time
