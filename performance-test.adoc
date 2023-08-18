@@ -5,7 +5,8 @@
 ** Concurrency = TPS * Avg. Response time or Concurrency = TPS * Max. Response time
 ** 수용가능한 동시 사용자 = 가상사용자 * Think Time / 평균응답속도T
 ** Tomcat MaxThreads = Concurrency * (100% + buffer %)  
-* performance anxiety : http://parleys.com/[http://parleys.com]/#id=2103&st=5abstraction gap 때문에 성능은 직접 측정해야 알 수 있다
+* [Performance anxiety by Joshua Bloch](https://dzone.com/articles/joshua-bloch-performance)
+** abstraction gap 때문에 성능은 직접 측정해야 알 수 있다
 ** In java, run VM 30 times to get meaningful data.
 ** http://dl.acm.org/citation.cfm?id=1297033
 ** 통계적으로 접근해라.
