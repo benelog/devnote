@@ -1,0 +1,7 @@
+https://medium.com/@peterpang_84917/personal-experience-of-installing-ubuntu-18-04-lts-on-xps-15-9570-3e53b6cfeefe
+
+[source]
+----
+sudo prime-select intel
+sudo reboot
+----
