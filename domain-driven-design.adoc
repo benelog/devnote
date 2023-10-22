@@ -21,7 +21,7 @@
 * http://toby.epril.com/?p=356[DDD에서 말하는 Ubiquitous Langauge가 어려운 이유]
 * http://whiteship.tistory.com/1323[Services]
 * http://whiteship.tistory.com/1325[Modules]
-* http://whiteship.tistory.com/1341[Factories]
+* http://whiteship.tistory.com/1341[Factories]https://blog.appkr.dev/work-n-play/learn-n-think/ddd-hexagonal/
 * http://younghoe.info/747[DDD 인덱스 페이지]
 * http://whiteship.tistory.com/2267[DDD 입문에 좋은 글]
 * http://gyumee.egloos.com/1783716[도메인 로직과 SQL] (원문 : http://martinfowler.com/articles/dblogic.html[Domain Logic and SQL] )
@@ -82,3 +82,4 @@ http://www.theserverside.com/tt/articles/content/ProductivityWithSculptor/articl
 
 ## 구현 사례
 * https://blog.gangnamunni.com/post/isolate-transaction-from-domain-model[트랜잭션은 도메인 모델이 아니다]
+* https://blog.appkr.dev/work-n-play/learn-n-think/ddd-hexagonal/[내가 경험한 DDD, Hexagonal]
