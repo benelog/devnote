@@ -19,3 +19,10 @@ http://agile.egloos.com/5315009[제럴드 와인버그와 버지니아 사티어
 http://blog.lastmind.net/archives/593[Dreyfus model]
 
 http://www.ciobiz.co.kr/news/articleView.html?idxno=975[차세대 IT 프로젝트 '실패'에서 배운다]
+
+
+== Agile
+* https://agilemanifesto.org/principles.html[Principles behind the Agile Manifesto]
+* https://www.atlassian.com/agile[Atlassian의 애자일 문서]
+
+
