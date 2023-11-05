@@ -1,3 +1,4 @@
+* https://github.com/ByteByteGoHq/system-design-101
 * https://github.com/donnemartin/system-design-primer#index-of-system-design-topics
 * https://www.educative.io/prepare-for-interview/system-design
 * https://www.youtube.com/watch?v=4E1BHTvhB7Y[[마틴 파울러] 소프트웨어 아키텍쳐의 중요성 (한글 자막)]
