@@ -60,6 +60,14 @@ http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bou
 * http://woowabros.github.io/experience/2017/08/21/hystrix-tunning.html[Hystrix! API Gateway를 도와줘!]
 * https://www.slideshare.net/arawnkr/ss-195979955[잘 키운 모노리스 하나 열 마이크로서비스 안 부럽다]
 
+
+=== https://www.youtube.com/watch?v=704qQs6KoUk[대규모 트랜잭션을 처리하는 배민 주문시스템 규모에 따른 진화]
+
+1. 단일DB로 인한 전체 장애 -> 단일DB를 여러 저장소로 분리 (주문/주문중계/가계 등)
+2. 읽기 성능 한계 -> 읽기 부하를 Document DB로 분산(메시지큐를 이용한 데이터 동기화)
+3. 쓰기 성능 한계 -> DB 샤딩 (주문키 기반 샤딩)
+4. 규칙성 없는 이벤트 발행으로 인한 복잡도 증가, 이벤트 유실 -> 이벤트 로직을 단일 어플리케이션에서 처리, transactional outbox 적용
+
 === https://www.youtube.com/watch?v=BnS6343GTkY&feature=emb_imp_woyt[배달의민족 마이크로서비스 여행기]
 
 * Netflix가 MSA로 가는데 7년이 걸렸다고 함
