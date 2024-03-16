@@ -1,3 +1,4 @@
+* https://tech.kakaopay.com/post/eco-ami/[환경미화 프로젝트(부제: 카카오페이 k8s에서 낭비되는 자원을 절약해 보자!)]
 * https://jflip.tistory.com/13[반드시 알아야 할 쿠버네티스 디자인 패턴 10가지]
 * https://www.infoq.com/articles/microservices-post-kubernetes/
 * https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/
