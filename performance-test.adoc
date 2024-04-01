@@ -51,3 +51,8 @@
 * http://wiki.hudson-ci.org/display/HUDSON/Grinder+Plugin
 * http://www.cdjdn.com/downloads/performancetesting-grinder.pdf
 * http://grinder.sourceforge.net/[http://grinder.sourceforge.net/]
+
+=== Locust
+* https://cheese10yun.github.io/locust-part-1/
+
+
