@@ -76,6 +76,7 @@ http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importan
 * http://git-scm.com/book/ko/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0[]
 * http://git-scm.com/book/ko/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0[히스토리 단장하기]
 * http://blog.springsource.com/2010/12/21/git-and-social-coding-how-to-merge-without-fear/[http://blog.springsource.com/2010/12/21/git-and-social-coding-how-to-merge-without-fear/]
+* https://tanzu.vmware.com/content/tech-guides/getting-started-with-git-rebase-onto-for-specific-commits[Getting Started with Git Rebase –onto for Specific Commits]
 
 == CI integration
 * http://www.infoq.com/articles/Gerrit-jenkins-hudson[http://www.infoq.com/articles/Gerrit-jenkins-hudson]
