@@ -1,0 +1,21 @@
+== https://github.com/voidburn/cron-expression-descriptor[cron-expression-descriptor] 활용 예제
+
+[source,java]
+----
+  private static void logCronDescription(String cron) {
+    var options = new CronExpressionParser.Options();
+    options.setUseJavaEeScheduleExpression(true); // 요일 선언이 0이면 일요일으로 인식
+    options.setVerbose(true);
+    options.setLocale("ko");
+
+    String description = CronExpressionDescriptor.getDescription(cron, options);
+    log.info("Cron :{}, Description :{}", cron, description);
+  }
+----
+
+
+[source]
+.결과
+----
+Cron :0 0,10 0 * * 0, Description :시간 이후 0 및 10분, 00:00, 매일, 일요일에만
+----
