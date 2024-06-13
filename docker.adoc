@@ -43,3 +43,11 @@
 ** https://medium.com/@gaemi/spring-boot-%EA%B3%BC-docker-with-jib-657d32a6b1f0
 ** http://thediscoblog.com/blog/2014/06/13/docker-containers-with-gradle-in-4-steps/
 * https://www.youtube.com/watch?v=qKqqQcjheAg
+
+
+'Connection to the Docker daemon at '/var/run/docker.sock' failed with error "[13] Permission denied"; ensure the Docker daemon is running and accessible' 에러가 나올 때 
+
+```
+sudo chmod 666 /var/run/docker.sock
+systemctl restart docker.service
+```
