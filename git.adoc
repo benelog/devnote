@@ -1,33 +1,20 @@
-http://npcode.com/blog/archives/736[Git의 Staging Area는 어떤 점이 유용한가]
-
-http://gun.io/blog/how-to-github-fork-branch-and-pull-request/[http://gun.io/blog/how-to-github-fork-branch-and-pull-request/]
-
-http://eclipsesource.com/blogs/2010/06/22/git-support-eclipse-helios-feature-2/[http://eclipsesource.com/blogs/2010/06/22/git-support-eclipse-helios-feature-2/]  
-
-http://r6.ca/blog/20110416T204742Z.html[GIT is inconsistent]  
-
-http://www.youtube.com/watch?v=4XpnKHJAok8[http://www.youtube.com/watch?v=4XpnKHJAok8]
-GIT 주요개념 :  http://whiteship.tistory.com/2185  
-http://whiteship.me/2185[]
-http://whiteship.me/2181[JGit 설치]
-
-http://whiteship.me/2189[GIT config]
-
-http://video.google.com/videoplay?docid=-3999952944619245780&q=Git&total=14242&start=0&num=10&so=0&type=search&plindex=3[http://video.google.com/videoplay?docid=-3999952944619245780&q=Git&total=14242&start=0&num=10&so=0&type=search&plindex=3]
-
-http://video.google.com/videoplay?docid=-2199332044603874737[http://video.google.com/videoplay?docid=-2199332044603874737]
-
-http://git.or.cz/gitwiki/EclipsePlugin[http://git.or.cz/gitwiki/EclipsePlugin]
-
-http://git.or.cz/gitwiki/EclipsePluginScreenshots[http://git.or.cz/gitwiki/EclipsePluginScreenshots]
-
-http://whiteship.tistory.com/2228[JGit로 push 성공 기념샷.]
-
-http://kwon37xi.egloos.com/4114325[Kenai - Git 을 지원하는 오픈 소스 프로젝트 호스팅 서비스]
-
-http://whiteship.me/?p=12920[rm -cached]
-
-http://ohyecloudy.com/pnotes/archives/1949[git HEAD, index, working directory 이해하기 - A Tale of Three Trees 발표자료를 보고 - See more at: http://ohyecloudy.com/pnotes/archives/1949#sthash.b4dj9MAn.dpuf]
+* http://npcode.com/blog/archives/736[Git의 Staging Area는 어떤 점이 유용한가]
+* http://gun.io/blog/how-to-github-fork-branch-and-pull-request/[http://gun.io/blog/how-to-github-fork-branch-and-pull-request/]
+* http://eclipsesource.com/blogs/2010/06/22/git-support-eclipse-helios-feature-2/[http://eclipsesource.com/blogs/2010/06/22/git-support-eclipse-helios-feature-2/]  
+* http://r6.ca/blog/20110416T204742Z.html[GIT is inconsistent]  
+* http://www.youtube.com/watch?v=4XpnKHJAok8[http://www.youtube.com/watch?v=4XpnKHJAok8]
+* GIT 주요개념 :  http://whiteship.tistory.com/2185  
+* http://whiteship.me/2185
+* http://whiteship.me/2181[JGit 설치]
+* http://whiteship.me/2189[GIT config]
+* http://video.google.com/videoplay?docid=-3999952944619245780&q=Git&total=14242&start=0&num=10&so=0&type=search&plindex=3[http://video.google.com/videoplay?docid=-3999952944619245780&q=Git&total=14242&start=0&num=10&so=0&type=search&plindex=3]
+* http://video.google.com/videoplay?docid=-2199332044603874737[http://video.google.com/videoplay?docid=-2199332044603874737]
+* http://git.or.cz/gitwiki/EclipsePlugin[http://git.or.cz/gitwiki/EclipsePlugin]
+* http://git.or.cz/gitwiki/EclipsePluginScreenshots[http://git.or.cz/gitwiki/EclipsePluginScreenshots]
+* http://whiteship.tistory.com/2228[JGit로 push 성공 기념샷.]
+* http://kwon37xi.egloos.com/4114325[Kenai - Git 을 지원하는 오픈 소스 프로젝트 호스팅 서비스]
+* http://whiteship.me/?p=12920[rm -cached]
+* http://ohyecloudy.com/pnotes/archives/1949[git HEAD, index, working directory 이해하기 - A Tale of Three Trees 발표자료를 보고 - See more at: * http://ohyecloudy.com/pnotes/archives/1949#sthash.b4dj9MAn.dpuf]
 
 == 입문
 * https://backlogtool.com/git-guide/kr/
