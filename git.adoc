@@ -53,7 +53,8 @@ http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importan
 * http://binggrec.tistory.com/118[Git - branch 개념정리]
 * http://kdsoo.com/1262[GIT branch 사용]
 * http://nvie.com/posts/a-successful-git-branching-model/[http://nvie.com/posts/a-successful-git-branching-model/]
-* http://blog.outsider.ne.kr/644[git에서 원격저장소에 branch와 tag를 push하기]http://blog.outsider.ne.kr/914[Git에서 이전에 사용한 브랜치로 체크아웃하기]  
+* http://blog.outsider.ne.kr/644[git에서 원격저장소에 branch와 tag를 push하기]
+* http://blog.outsider.ne.kr/914[Git에서 이전에 사용한 브랜치로 체크아웃하기]  
 
 === Rebase
 * http://blog.outsider.ne.kr/666[git의 merge와 rebase 비교하기]  
