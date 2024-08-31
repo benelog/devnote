@@ -40,6 +40,7 @@ http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-compa
 
 == Monitoring
 * https://blog.codecentric.de/en/2013/04/monitoring-spring-batch-with-appdynamics/
+* https://trifork.nl/blog/spring-boot-observability-spring-batch-jobs/
 
 == JSR 352
 
