@@ -10,9 +10,14 @@ sudo reboot
 == Sound
 * https://askubuntu.com/questions/1515538/fixing-no-sound-dummy-output-issue-in-ubuntu-24-04
 * https://askubuntu.com/questions/1406646/ubuntu-22-04-audio-output-not-working-dummy-audio
-* sudo modprobe snd-hda-intel
+* https://forums.gentoo.org/viewtopic-p-8842356.html?sid=f3a1ecd3162da8ad480c7b89a9c6985c
 
 'snd-hda-intel'은 Linux 운영 체제에서 Intel High Definition Audio (HDA) 컨트롤러를 위한 사운드 드라이버 모듈
+
+검사 명령어
+
+* aplay -l
+* lspci -k
 
 [source]
 ./etc/modprobe.d/audiofix.conf
@@ -35,4 +40,5 @@ blacklist snd_soc_skl
 blacklist snd_soc_skl
 ----
 
-blacklist 선언은 alsa-base.conf, blacklist.conf 둘 중에 한 곳만 하면 될듯
+blacklist 선언은 alsa-base.conf, blacklist.conf 둘 중에 한 곳만 하면 될 듯
+
