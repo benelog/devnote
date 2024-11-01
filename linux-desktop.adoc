@@ -1,0 +1,28 @@
+
+== Graphic card
+https://medium.com/@peterpang_84917/personal-experience-of-installing-ubuntu-18-04-lts-on-xps-15-9570-3e53b6cfeefe
+
+[source]
+----
+sudo prime-select intel
+sudo reboot
+----
+
+== Sound
+* https://askubuntu.com/questions/1515538/fixing-no-sound-dummy-output-issue-in-ubuntu-24-04
+* https://askubuntu.com/questions/1406646/ubuntu-22-04-audio-output-not-working-dummy-audio
+
+[source]
+./etc/modprobe.d/audiofix.conf
+----
+options snd-hda-intel dmic_detect=0
+options snd-hda-intel model=laptop-amic enable=yes
+----
+
+[source]
+./etc/modprobe.d/blacklist.conf
+----
+blacklist snd_soc_skl
+----
+
+
