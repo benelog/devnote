@@ -10,8 +10,9 @@ sudo reboot
 == Sound
 * https://askubuntu.com/questions/1515538/fixing-no-sound-dummy-output-issue-in-ubuntu-24-04
 * https://askubuntu.com/questions/1406646/ubuntu-22-04-audio-output-not-working-dummy-audio
-
 * sudo modprobe snd-hda-intel
+
+'snd-hda-intel'은 Linux 운영 체제에서 Intel High Definition Audio (HDA) 컨트롤러를 위한 사운드 드라이버 모듈
 
 [source]
 ./etc/modprobe.d/audiofix.conf
