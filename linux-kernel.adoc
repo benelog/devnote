@@ -1,0 +1,2 @@
+== Kernel update
+* https://www.baeldung.com/linux/remove-old-kernels
