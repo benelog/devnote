@@ -1,4 +1,3 @@
-
 == Graphic card
 https://medium.com/@peterpang_84917/personal-experience-of-installing-ubuntu-18-04-lts-on-xps-15-9570-3e53b6cfeefe
 
@@ -12,6 +11,8 @@ sudo reboot
 * https://askubuntu.com/questions/1515538/fixing-no-sound-dummy-output-issue-in-ubuntu-24-04
 * https://askubuntu.com/questions/1406646/ubuntu-22-04-audio-output-not-working-dummy-audio
 
+* sudo modprobe snd-hda-intel
+
 [source]
 ./etc/modprobe.d/audiofix.conf
 ----
@@ -20,9 +21,17 @@ options snd-hda-intel model=laptop-amic enable=yes
 ----
 
 [source]
+./etc/modprobe.d/alsa-base.conf
+----
+options snd-hda-intel model=generic
+options snd-hda-intel dmic_detect=0
+blacklist snd_soc_skl
+----
+
+[source]
 ./etc/modprobe.d/blacklist.conf
 ----
 blacklist snd_soc_skl
 ----
 
-
+blacklist 선언은 alsa-base.conf, blacklist.conf 둘 중에 한 곳만 하면 될듯
