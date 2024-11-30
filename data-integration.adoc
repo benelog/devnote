@@ -1,6 +1,8 @@
+== Apache Flink
+* https://tech.kakao.com/posts/632[아파치 플링크와 CDC의 만남. 플링크 CDC 맛보기]
+* https://tech.kakao.com/posts/656[Apache Iceberg와 Flink CDC 심층 탐구]
 
-
-## 사례
+== Migration 사례
 * https://stripe.com/blog/online-migrations
 ** 1. Dual writing
 ** 2. Changing all read paths
