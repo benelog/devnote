@@ -12,3 +12,6 @@ http://www.mulesoft.com/tcat/tomcat-reload#server-restart
 
 == 빠른 시작을 위한 팁
 * https://spring.io/blog/2018/12/12/how-fast-is-spring
+
+== CDS
+* https://netmarble.engineering/class-data-sharing-cds-and-layered-jar/
