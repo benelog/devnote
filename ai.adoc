@@ -1,9 +1,12 @@
 * https://deep-learning-drizzle.github.io/
 * https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web
 
-## Develop with AI
+== Develop with AI
 * https://toss.tech/article/toss-frontend-ai-docs
 * https://www.youtube.com/watch?v=lurbDAEU0KM[Growing the development forest 🌲 — with Martin Fowler]
 ** https://www.youtube.com/watch?v=BT9oqmWFLzI[마틴 파울러가 말하는 AI와 SW 개발]
 * https://techblog.woowahan.com/21240/[코파일럿 ‘열일’하게 만들기]
 * https://techblog.woowahan.com/18144/[AI 데이터 분석가 ‘물어보새’ 등장 – 1부. RAG와 Text-To-SQL 활용]
+
+== Prompt Engineering
+* https://github.com/modu-ai/smarter-prompt
