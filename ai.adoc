@@ -8,7 +8,7 @@
 * https://techblog.woowahan.com/21240/[코파일럿 ‘열일’하게 만들기]
 * https://techblog.woowahan.com/18144/[AI 데이터 분석가 ‘물어보새’ 등장 – 1부. RAG와 Text-To-SQL 활용]
 
-=== 대규모 code to code 작업
+=== 대규모 코드 마이그리에션 작업
 * https://medium.com/airbnb-engineering/accelerating-large-scale-test-migration-with-llms-9565c208023b[Accelerating Large-Scale Test Migration with LLMs]
 ** FE 테스팅 라이브리(Enzyme to RTL(React Testing Library)) 전환 작업을 수동으로는 1.5년 예상, AI 도구 도움으로 6주만에 완료
 ** 75% of Target Files Migrated in just 4 Hrs
@@ -18,8 +18,12 @@
 ** 구글의 (https://research.google/blog/large-sequence-models-for-software-development-activities/[DIDACT 방법론]에 의해 트레이닝
 ** Google 광고 시스템에서 32bit의 ID를 64bit로 변경하는 작업에서 50% 속도 개선 효과
 * (Amazon) https://assets.amazon.science/bc/ec/8213526e4857b6fa09af53b10c66/evaluating-human-ai-partnership-for-llm-based-code-migration.pdf[Evaluating Human-AI Partnership for LLM-based Code Migration]
+** Amazon의 코드 마이그리에션 도구인 Amazon Q Code Transformation 사용 경험 인터뷰
+** 개발자는 본인의 전문성을 바탕으로 AI가 하는 일을 제어,안내,꼼꼼한 검증을 하는 역할을 하기를 바람
+** AI-인간 파트로십의 불완전성을 감추기보다는 한계를 드러내야함
 * https://analyticsindiamag.com/global-tech/airbnb-uses-llms-to-pull-off-an-18-month-enzyme-to-rtl-migration-in-just-6-weeks/
 ** 위의 3개 사례를 개한 종합 내용
+** AI도구를 써도 인간의 통찰, 리뷰, 검증이 필요하다는 문장으로 마무리
 
 == Prompt Engineering
 * https://github.com/modu-ai/smarter-prompt
