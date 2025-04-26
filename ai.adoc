@@ -9,7 +9,7 @@
 * https://techblog.woowahan.com/18144/[AI 데이터 분석가 ‘물어보새’ 등장 – 1부. RAG와 Text-To-SQL 활용]
 
 === 대규모 코드 마이그리에션 작업
-* https://medium.com/airbnb-engineering/accelerating-large-scale-test-migration-with-llms-9565c208023b[Accelerating Large-Scale Test Migration with LLMs]
+* (Airbnb) https://medium.com/airbnb-engineering/accelerating-large-scale-test-migration-with-llms-9565c208023b[Accelerating Large-Scale Test Migration with LLMs]
 ** FE 테스팅 라이브리(Enzyme to RTL(React Testing Library)) 전환 작업을 수동으로는 1.5년 예상, AI 도구 도움으로 6주만에 완료
 ** 75% of Target Files Migrated in just 4 Hrs
 ** Retry Loops & Dynamic Prompting이 효과적
