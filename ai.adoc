@@ -28,6 +28,8 @@
 == 전반적 생산성 개선 사례
 * https://jellyfish.co/blog/with-copilot-engineers-get-15-more-capacity-without-additional-headcount/
 ** Ticket 해결 속도가 15% 향상
+* https://vercel.com/blog/becoming-an-ai-engineering-company
+** https://v0.dev/
 
 == Prompt Engineering
 * https://github.com/modu-ai/smarter-prompt
