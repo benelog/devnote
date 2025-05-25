@@ -42,6 +42,12 @@ http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-compa
 * https://blog.codecentric.de/en/2013/04/monitoring-spring-batch-with-appdynamics/
 * https://trifork.nl/blog/spring-boot-observability-spring-batch-jobs/
 
+=== Spring Batch Metric
+* https://www.devkuma.com/docs/prometheus/spring-batch/
+* https://velog.io/@roycewon/Spring-boot-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81Prometheus-Grafana-docker 해보기
+* https://grafana.com/grafana/dashboards/19004-spring-boot-statistics/
+* https://github.com/spring-projects/spring-batch/blob/45b3c5ef93642f5fbd46302a38e24cd303927bb8/spring-batch-core/src/test/java/org/springframework/batch/core/observability/ObservabilitySampleStepTests.java
+
 == JSR 352
 
 * JSR-352 소개 : http://www.planetjones.co.uk/blog/25-05-2013/introducing-jsr-352-java-batch-ee-7.html
