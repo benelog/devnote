@@ -25,4 +25,6 @@ http://www.ciobiz.co.kr/news/articleView.html?idxno=975[차세대 IT 프로젝�
 * https://agilemanifesto.org/principles.html[Principles behind the Agile Manifesto]
 * https://www.atlassian.com/agile[Atlassian의 애자일 문서]
 
+== 추정
+* https://www.brightball.com/articles/story-points-are-pointless-measure-queues
 
