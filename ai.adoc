@@ -2,6 +2,7 @@
 * https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web
 
 == Develop with AI
+* https://martinfowler.com/articles/2025-nature-abstraction.html
 * https://tidyfirst.substack.com/p/augmented-coding-beyond-the-vibes
 * https://toss.tech/article/toss-frontend-ai-docs
 * https://www.youtube.com/watch?v=lurbDAEU0KM[Growing the development forest 🌲 — with Martin Fowler]
