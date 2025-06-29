@@ -2,6 +2,7 @@
 * https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web
 
 == Develop with AI
+* https://tidyfirst.substack.com/p/augmented-coding-beyond-the-vibes
 * https://toss.tech/article/toss-frontend-ai-docs
 * https://www.youtube.com/watch?v=lurbDAEU0KM[Growing the development forest 🌲 — with Martin Fowler]
 ** https://www.youtube.com/watch?v=BT9oqmWFLzI[마틴 파울러가 말하는 AI와 SW 개발]
