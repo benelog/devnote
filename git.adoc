@@ -1,3 +1,4 @@
+* https://gist.github.com/kateinoigakukun/b0bc920e587851bfffa98b9e279175f2[.git-blame-ignore-revs]
 * http://npcode.com/blog/archives/736[Git의 Staging Area는 어떤 점이 유용한가]
 * http://gun.io/blog/how-to-github-fork-branch-and-pull-request/[http://gun.io/blog/how-to-github-fork-branch-and-pull-request/]
 * http://eclipsesource.com/blogs/2010/06/22/git-support-eclipse-helios-feature-2/[http://eclipsesource.com/blogs/2010/06/22/git-support-eclipse-helios-feature-2/]  
