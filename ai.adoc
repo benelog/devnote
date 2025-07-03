@@ -12,6 +12,8 @@
 * https://devway.tistory.com/70[Cursor Max mode로 대형 코드 베이스 다루기]
 
 === 대규모 코드 마이그레이션 작업
+* (Uber) https://dpe.org/sessions/ty-smith-adam-huda/this-year-in-ubers-ai-driven-developer-productivity-revolution/[This Year in Uber’s AI-Driven Developer Productivity Revolution]
+** AI 도구 활용하여 Kotlin으로 적극 전환
 * (Airbnb) https://medium.com/airbnb-engineering/accelerating-large-scale-test-migration-with-llms-9565c208023b[Accelerating Large-Scale Test Migration with LLMs]
 ** FE 테스팅 라이브리(Enzyme to RTL(React Testing Library)) 전환 작업을 수동으로는 1.5년 예상, AI 도구 도움으로 6주만에 완료
 ** 75% of Target Files Migrated in just 4 Hrs
@@ -36,3 +38,4 @@
 
 == Prompt Engineering
 * https://github.com/modu-ai/smarter-prompt
+* https://petite-peacock-6e6.notion.site/AI-1f9b7b6880c480148190cbaf071eb2f8
