@@ -53,3 +53,8 @@
 sudo chmod 666 /var/run/docker.sock
 systemctl restart docker.service
 ```
+
+== Cloud deploy
+* AWS Elastic Container Service
+* Azure App Service
+* GCP Cloud Run
