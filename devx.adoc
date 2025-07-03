@@ -1,1 +1,2 @@
-https://www.multitudes.com/blog/what-is-devx
+* https://www.multitudes.com/blog/what-is-devx
+* https://www.multitudes.com/blog/want-productive-engineers-start-with-trust-not-metrics
