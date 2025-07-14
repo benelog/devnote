@@ -11,6 +11,9 @@
 * https://techblog.woowahan.com/18144/[AI 데이터 분석가 ‘물어보새’ 등장 – 1부. RAG와 Text-To-SQL 활용]
 * https://devway.tistory.com/70[Cursor Max mode로 대형 코드 베이스 다루기]
 
+=== 시도 사례
+* https://tech.kakao.com/posts/711[Beyond Vibe Coding to Agentic Coding: 카카오의 AI 협업 개발 실험]
+
 === 대규모 코드 마이그레이션 작업
 * (Uber) https://dpe.org/sessions/ty-smith-adam-huda/this-year-in-ubers-ai-driven-developer-productivity-revolution/[This Year in Uber’s AI-Driven Developer Productivity Revolution]
 ** AI 도구 활용하여 Kotlin으로 적극 전환
