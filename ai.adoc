@@ -33,9 +33,14 @@
 ** 위의 3개 사례를 개한 종합 내용
 ** AI도구를 써도 인간의 통찰, 리뷰, 검증이 필요하다는 문장으로 마무리
 
-== 전반적 생산성 개선 사례
+== 생산성 개선 사례
 * https://jellyfish.co/blog/with-copilot-engineers-get-15-more-capacity-without-additional-headcount/
 ** Ticket 해결 속도가 15% 향상
+* https://news.hada.io/topic?id=22248[AI가 개발자 생산성에 미치는 영향 - 스탠포드 연구]
+** https://www.linkedin.com/posts/kurt-lee-70010391_does-ai-actually-boost-developer-productivity-activity-7354024167538659329-Ndov/[같은 자료에 대한 요약]
+* https://news.hada.io/topic?id=21996[AI가 오픈소스 개발자를 느리게 만든다. Peter Naur가 그 이유를 알려줄 수 있다]
+** https://www.facebook.com/seunghwan.lee.9003888/posts/pfbid06AdDqN1kbTSCUbwvBfSzyfs1Hy54msEWzeKBj7LmygKY4zQxASuMLHLdNGjXZRegl[AI착시와 평균의 함정을 피한 슈퍼 개인의 통찰: AI 도구로 생산성 38% 향상시킨 개발자의 비밀]
+
 * https://vercel.com/blog/becoming-an-ai-engineering-company
 ** https://v0.dev/
 
