@@ -2,6 +2,8 @@
 * https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web
 
 == Develop with AI
+* https://blogbyash.com/translation/vibe-coding-needs-context-engineering/[바이브 코딩에는 컨텍스트 엔지니어링이 필요하다]
+* https://prod.d13rzhkk8cj2z0.amplifyapp.com/[AI-Driven Development Lifecycle (AI-DLC) Method Definition]
 * https://martinfowler.com/articles/2025-nature-abstraction.html
 * https://tidyfirst.substack.com/p/augmented-coding-beyond-the-vibes
 * https://toss.tech/article/toss-frontend-ai-docs
