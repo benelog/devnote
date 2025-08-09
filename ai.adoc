@@ -1,5 +1,6 @@
 * https://deep-learning-drizzle.github.io/
 * https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web
+* https://digitalbourgeois.tistory.com/m/1623[LLM 자체 호스팅, 현실과 한계 총정리]
 
 == Develop with AI
 * https://blogbyash.com/translation/vibe-coding-needs-context-engineering/[바이브 코딩에는 컨텍스트 엔지니어링이 필요하다]
