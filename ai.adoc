@@ -3,6 +3,7 @@
 * https://digitalbourgeois.tistory.com/m/1623[LLM 자체 호스팅, 현실과 한계 총정리]
 
 == Develop with AI
+* https://drive.google.com/file/d/1SJ7-1YXo4r4pkHDuMdKLR9NtgbUsSRoZ/view[AI로 개발을 어떻게 가속화하는가] (하용호 님)
 * https://blogbyash.com/translation/vibe-coding-needs-context-engineering/[바이브 코딩에는 컨텍스트 엔지니어링이 필요하다]
 * https://prod.d13rzhkk8cj2z0.amplifyapp.com/[AI-Driven Development Lifecycle (AI-DLC) Method Definition]
 * https://martinfowler.com/articles/2025-nature-abstraction.html
