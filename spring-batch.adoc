@@ -66,3 +66,10 @@ http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-compa
 * https://github.com/spring-projects/spring-batch/issues/4718
 ** https://github.com/spring-projects/spring-batch/commit/f7fcfaa4fdb1f762a3bc16c30750d646dc52a6ed
 ** https://stackoverflow.com/questions/79482719/how-to-remove-h2-dependency-from-spring-batch-5/79492398#79492398
+
+
+== Spring Batch 6.0
+* https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-6.0-Migration-Guide[Spring Batch 6.0 Migration Guide]
+* (2025-08-20) https://spring.io/blog/2025/08/20/spring-batch-6[Spring Batch 6.0.0-M2 available now]
+* (2025-07-23) https://spring.io/blog/2025/07/23/spring-batch-6[Spring Batch 6.0.0-M1 is out!]
+
