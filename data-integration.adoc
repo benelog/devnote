@@ -1,6 +1,23 @@
 == Apache Flink
-* https://tech.kakao.com/posts/632[아파치 플링크와 CDC의 만남. 플링크 CDC 맛보기]
-* https://tech.kakao.com/posts/656[Apache Iceberg와 Flink CDC 심층 탐구]
+=== 구조
+* JobManager
+** 사용자의 플링크 잡(Flink job)을 요청받고 분산 환경에서 실행할 수 있는 실행 그래프(Execution graph)로 변환
+** 생성된 태스크(Task)를 태스크 매니저에게 할당
+* TaskManager
+** 잡 매니저의 태스크 요청을 받으면 해당 태스크를 수행하고 그 결과를 다시 잡 매니저에게 보고
+** TaskSlot : 실제로 태스크를 수행하는 주체. CPU의 코어 수와 동일하게 태스크 슬롯을 할당하는 것을 권장
+* Data source
+** Split : 잡 매니저가 태스크 매니저에게 전달하는 객체로, 외부 시스템에서 데이터를 읽어와야 할 위치나 기준이 담긴 실 구현된 객체
+** SplitEnumerator : 잡 매니저에 존재하며, 태스크 매니저에게 스플릿을 할당하는 역할을 수행
+** SourceReader : 태스크 매니저에 존재하며, 잡 매니저에게 스플릿을 요청하고 할당받은 스플릿을 기반으로 외부 시스템에서 데이터를 읽어옴
+* CheckPoint : 플링크 잡의 상태(State)를 사용자가 정의한 저장소에 주기적으로 저장하는 기능
+
+=== 사례
+* 카카오 사례
+** https://tech.kakao.com/posts/632[아파치 플링크와 CDC의 만남. 플링크 CDC 맛보기]
+*** '예를 들어, 대규모 MySQL 테이블은 내부 레코드의 수가 수천만에서 수억을 넘는 경우들이 있습니다. 이런 환경에서 디비지움 방식을 사용할 경우, 애플리케이션의 최적화 정도나 테이블 레코드의 크기에 따라 차이가 있지만, 초당 만개 이상의 레코드를 가져오기가 쉽지 않습니다.'
+** https://tech.kakao.com/posts/656[Apache Iceberg와 Flink CDC 심층 탐구]
+** https://www.youtube.com/watch?v=PeNHKxadNos[대용량 데이터베이스 동기화를 위한 최적의 CDC 시스템 구축기 / if(kakaoAI)2024]
 
 == Migration 사례
 * https://stripe.com/blog/online-migrations
@@ -10,4 +27,3 @@
 ** 4. Removing old data
 * https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres
 **  MongoDB 에서  PostgreSQL로 전환
-
