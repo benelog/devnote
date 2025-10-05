@@ -63,10 +63,11 @@ http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-compa
 * non-identifying job parameters https://github.com/spring-projects/spring-batch/commit/557515df45c0f596588418d53c3f2bae3781c1c3
 
 === Spring Batch 6.0 개선
-* https://github.com/spring-projects/spring-batch/issues/4718
+* RDB가 아닌 JobRepository 설정 편의성 개선
+** https://github.com/spring-projects/spring-batch/issues/4718
 ** https://github.com/spring-projects/spring-batch/commit/f7fcfaa4fdb1f762a3bc16c30750d646dc52a6ed
 ** https://stackoverflow.com/questions/79482719/how-to-remove-h2-dependency-from-spring-batch-5/79492398#79492398
-
+* [Make transaction manager optional in Tasklet and Chunk-Oriented steps](https://github.com/spring-projects/spring-batch/commit/76a65501f75fd0115d05d3dd6c90d085a8d8d110)
 
 == Spring Batch 6.0
 * https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-6.0-Migration-Guide[Spring Batch 6.0 Migration Guide]
