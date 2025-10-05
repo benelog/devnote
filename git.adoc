@@ -30,6 +30,9 @@
 == 다른 도구와의 비교
 http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/[http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/]  
 
+== Git LFS
+* [https://news.hada.io/topic?id=22546]Git에서 대용량 파일의 미래는 Git 자체임
+
 == Git- SVN
 * http://toby.epril.com/?p=703[Subversion 사용자를 위한 Git 소개]
 * http://git.or.cz/course/svn.html[Git - SVN Crash Course]
