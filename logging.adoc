@@ -1,2 +1,3 @@
 * https://blogs.apache.org/foundation/entry/apache_logging_services_project_announces
 * https://mdeinum.wordpress.com/2015/07/01/spring-framework-hidden-gems/
+* (배민 기술블로그)https://techblog.woowahan.com/13429/[로그 및 SQL 진입점 정보 추가 여정]
