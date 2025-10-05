@@ -1,6 +1,7 @@
 * https://deep-learning-drizzle.github.io/
 * https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web
 * https://digitalbourgeois.tistory.com/m/1623[LLM 자체 호스팅, 현실과 한계 총정리]
+* https://aws.amazon.com/ko/bedrock/
 
 == Develop with AI
 * https://drive.google.com/file/d/1SJ7-1YXo4r4pkHDuMdKLR9NtgbUsSRoZ/view[AI로 개발을 어떻게 가속화하는가] (하용호 님)
