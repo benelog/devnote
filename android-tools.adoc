@@ -2,6 +2,9 @@ http://developer.android.com/tools/help/index.html 참조
 
 각종 쉘명령어 : http://dryang.egloos.com/viewer/4013509   
 
+== Linux terminal
+* https://www.androidauthority.com/android-linux-terminal-future-plans-3581752/
+
 == Profiling
 
 === Traceview
