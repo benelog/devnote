@@ -34,6 +34,12 @@ synchronized 키워드가 메소드와 블록에 쓰는 것이라면, volatile �
 ** https://openjdk.org/jeps/491
 ** https://www.infoq.com/news/2024/11/java-evolves-tackle-pinning/
 ** https://mikemybytes.com/2025/04/09/java24-thread-pinning-revisited/
+* https://www.youtube.com/watch?v=AuBHv8NOca4[Virtual Thread 어디까지 보고 오셨어요?]
+** 플랫폼 스레드는 커널 모드 진입 및 CPU 캐시 재로딩 등 부가 비용이 크지만, 버추얼 스레드는 이를 피해 빠른 스케줄링·스위칭이 가능
+** VitualThread는 Continuation과 실행할 Runnable을 가진 인스턴스
+*** Continuation을 활용해 함수의 실행 중단/재개(코루틴 유사)를 애플리케이션 힙에 스택 프레임을 저장·복원함으로써 구현
+*** park(), unpark()을 통해 실행 중단과 재계
+** JDK는 Vitual Thread 효율성을 위해 소켓 주요 구현을 네이티브→자바 코드로 이동하거나  논블로킹 소켓 이용.
 
 == Mac
 * http://geek.starbean.net/?p=193
