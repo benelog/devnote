@@ -14,7 +14,7 @@
 ** 배치 구동 환경
 *** Spring Cloud Data Flow * K82를 용해서 batch 스케쥴링, 오케스트레이션, 모니터링을 하고 있음.
 * https://www.slideshare.net/slideshow/ss-39145002/39145002[오픈 소스를 활용한 게임 배치 플랫폼 개선 사례](NC 소프트)
-* https://www.slideshare.net/slideshow/batch-8508863/8508863[오픈소스를 활용한 Batch 처리 플랫폼 공유] (NHN, 2011 JCO 발표)
+* https://www.slideshare.net/slideshow/batch-8508863/8508863[오픈소스를 활용한 Batch 처리 플랫폼 공유] (NHN 김용환 님, 2011 JCO 발표)
 
 == 예제  
 * https://github.com/mminella/Pro-Spring-Batch-source-code
