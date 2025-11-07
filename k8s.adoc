@@ -9,3 +9,8 @@
 
 == Warmup
 * https://engineering.linecorp.com/ko/blog/apply-warm-up-in-spring-boot-and-kubernetes
+
+== Scheduling
+* https://github.com/kubernetes-retired/kube-batch
+* https://github.com/volcano-sh/volcano
+
