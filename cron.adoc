@@ -19,3 +19,7 @@
 ----
 Cron :0 0,10 0 * * 0, Description :시간 이후 0 및 10분, 00:00, 매일, 일요일에만
 ----
+
+== DST
+* https://m.blog.naver.com/elviz1/221649940876[Pacific Time Zone (PT) vs Pacific Satndard Zone (PST) vs Pacific Daylight Zone (PDT)]
+* https://meetup.nhncloud.com/posts/232[서머타임과 배치작업]
