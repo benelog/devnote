@@ -1,10 +1,11 @@
+== 정의
+
 * 개발자가 소프트웨어를 설계·구현·배포·운영하는 과정 전반에서 느끼는 사용성, 효율성, 만족도
 * 전체 SDLC(Software Developement Lifecycle), DevOps에 걸친 경험
 * 생산성과 품질, 그리고 개발 문화 전반에 직접적인 영향을 주는 핵심 개념
 * 좋은 DX는 도구, 문서, 플랫폼, 프로세스가 직관적이고 매끄럽게 연결되어 개발자가 본질적인 문제 해결에 집중할 수 있게 함
 
-
-----
+'''
 
 * https://www.atlassian.com/developer-experience
 * https://github.blog/enterprise-software/collaboration/developer-experience-what-is-it-and-why-should-you-care/
