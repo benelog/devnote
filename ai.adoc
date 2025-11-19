@@ -39,6 +39,11 @@
 ** AI도구를 써도 인간의 통찰, 리뷰, 검증이 필요하다는 문장으로 마무리
 
 == 생산성 개선 사례
+* https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report?hl=en
+** 2025년 9월 Google DORA 조직의 조사 결과
+* https://www.gitclear.com/research/ai_tool_impact_on_developer_productive_output_from_2022_to_2025
+** In 2025, the average developer checked in 75% more code than they did in 2022
+* https://www.darkreading.com/application-security/ai-generated-code-leading-expanded-technical-security-debt
 * https://jellyfish.co/blog/with-copilot-engineers-get-15-more-capacity-without-additional-headcount/
 ** Ticket 해결 속도가 15% 향상
 * https://news.hada.io/topic?id=22248[AI가 개발자 생산성에 미치는 영향 - 스탠포드 연구]
