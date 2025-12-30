@@ -21,6 +21,7 @@
 ** AI가 만든 코드는 1.7배 더 많은 문제를 발생시킴
 ** 가드레일 없는 가속은 위험하다
 ** 안전하게 사용하기 위해서는 프로젝트의 문맥(Context)을 이해하는 프롬프트 활용, 엄격한 코드 리뷰 프로세스, 보안 스캐닝 강화가 필수적
+* youtube.com/watch?si=fp9Uqlc_n8bCv1Nq&v=K2rVBIb-KWE&feature=youtu.be[25년 현재 어떤 CLI툴을 써야하는지 말씀드리겠습니다] (박진형 님)
 
 === 시도 사례
 * https://tech.kakao.com/posts/711[Beyond Vibe Coding to Agentic Coding: 카카오의 AI 협업 개발 실험]
