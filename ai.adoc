@@ -24,6 +24,7 @@
 * youtube.com/watch?si=fp9Uqlc_n8bCv1Nq&v=K2rVBIb-KWE&feature=youtu.be[25년 현재 어떤 CLI툴을 써야하는지 말씀드리겠습니다] (박진형 님)
 * https://news.hada.io/topic?id=25570[Claude Code 창시자 Boris Cherny가 Claude Code를 사용하는 방법]
 ** https://www.notion.so/grumatic/Claude-Code-Claude-2dd0586bce7480eb8f0cc5a07d5dd7ae[Claude Code 오픈소스 창시자의 Claude 사용법]
+* https://news.hada.io/topic?id=25574[웹 개발이 다시 재미있어졌다]
 
 === 시도 사례
 * https://tech.kakao.com/posts/711[Beyond Vibe Coding to Agentic Coding: 카카오의 AI 협업 개발 실험]
