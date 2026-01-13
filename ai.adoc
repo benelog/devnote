@@ -26,6 +26,7 @@
 ** https://www.notion.so/grumatic/Claude-Code-Claude-2dd0586bce7480eb8f0cc5a07d5dd7ae[Claude Code 오픈소스 창시자의 Claude 사용법]
 * https://news.hada.io/topic?id=25574[웹 개발이 다시 재미있어졌다]
 * https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/
+* https://www.aladin.co.kr/events/wevent.aspx?EventId=300127[골드러시를 넘어:AI가 바꾸는 소프트웨어 개발의 본질]
 
 === 시도 사례
 * https://tech.kakao.com/posts/711[Beyond Vibe Coding to Agentic Coding: 카카오의 AI 협업 개발 실험]
