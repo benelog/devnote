@@ -1,0 +1,6 @@
+* https://github.com/allenai/olmocr
+* https://github.com/PaddlePaddle/PaddleOCR
+* https://www.upstage.ai/blog/en/prepare-ocr-training-data-to-building-a-complete-ocr-model
+* https://gist.github.com/hikaMaeng/eb431f5d47113447fbdb223f0b2b5146
+* https://github.com/tesseract-ocr/tesseract
+* https://ocrmypdf.readthedocs.io/en/latest/introduction.html
