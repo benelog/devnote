@@ -12,6 +12,21 @@
 ** AI가 만든 코드는 1.7배 더 많은 문제를 발생시킴
 ** 가드레일 없는 가속은 위험하다
 ** 안전하게 사용하기 위해서는 프로젝트의 문맥(Context)을 이해하는 프롬프트 활용, 엄격한 코드 리뷰 프로세스, 보안 스캐닝 강화가 필수적
+* https://www.actuia.com/en/news/a-metr-study-reveals-that-ai-slows-down-experienced-developers/
+* https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report?hl=en
+** 2025년 9월 Google DORA 조직의 조사 결과
+* https://www.gitclear.com/research/ai_tool_impact_on_developer_productive_output_from_2022_to_2025
+** In 2025, the average developer checked in 75% more code than they did in 2022
+* https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/[Measuring AI Ability to Complete Long Tasks]
+* https://www.darkreading.com/application-security/ai-generated-code-leading-expanded-technical-security-debt
+* https://jellyfish.co/blog/with-copilot-engineers-get-15-more-capacity-without-additional-headcount/
+** Ticket 해결 속도가 15% 향상
+* https://news.hada.io/topic?id=22248[AI가 개발자 생산성에 미치는 영향 - 스탠포드 연구]
+** https://www.linkedin.com/posts/kurt-lee-70010391_does-ai-actually-boost-developer-productivity-activity-7354024167538659329-Ndov/[같은 자료에 대한 요약]
+** AI를 쓰면 전체 코드 생산성은 30~40% 늘어남. 하지만 "Rework" 가 15~25% 증가, 결과적으로 실제 생산성 증가는 15~20% 수준.
+* https://news.hada.io/topic?id=21996[AI가 오픈소스 개발자를 느리게 만든다. Peter Naur가 그 이유를 알려줄 수 있다]
+** https://www.facebook.com/seunghwan.lee.9003888/posts/pfbid06AdDqN1kbTSCUbwvBfSzyfs1Hy54msEWzeKBj7LmygKY4zQxASuMLHLdNGjXZRegl[AI착시와 평균의 함정을 피한 슈퍼 개인의 통찰: AI 도구로 생산성 38% 향상시킨 개발자의 비밀]
+
 
 == 적용 사례
 * https://tech.kakao.com/posts/711[Beyond Vibe Coding to Agentic Coding: 카카오의 AI 협업 개발 실험]
@@ -38,18 +53,7 @@
 ** 위의 3개 사례를 개한 종합 내용
 ** AI도구를 써도 인간의 통찰, 리뷰, 검증이 필요하다는 문장으로 마무리
 
-=== 생산성 개선 사례
-* https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report?hl=en
-** 2025년 9월 Google DORA 조직의 조사 결과
-* https://www.gitclear.com/research/ai_tool_impact_on_developer_productive_output_from_2022_to_2025
-** In 2025, the average developer checked in 75% more code than they did in 2022
-* https://www.darkreading.com/application-security/ai-generated-code-leading-expanded-technical-security-debt
-* https://jellyfish.co/blog/with-copilot-engineers-get-15-more-capacity-without-additional-headcount/
-** Ticket 해결 속도가 15% 향상
-* https://news.hada.io/topic?id=22248[AI가 개발자 생산성에 미치는 영향 - 스탠포드 연구]
-** https://www.linkedin.com/posts/kurt-lee-70010391_does-ai-actually-boost-developer-productivity-activity-7354024167538659329-Ndov/[같은 자료에 대한 요약]
-* https://news.hada.io/topic?id=21996[AI가 오픈소스 개발자를 느리게 만든다. Peter Naur가 그 이유를 알려줄 수 있다]
-** https://www.facebook.com/seunghwan.lee.9003888/posts/pfbid06AdDqN1kbTSCUbwvBfSzyfs1Hy54msEWzeKBj7LmygKY4zQxASuMLHLdNGjXZRegl[AI착시와 평균의 함정을 피한 슈퍼 개인의 통찰: AI 도구로 생산성 38% 향상시킨 개발자의 비밀]
+
 == 도구 사용법
 * youtube.com/watch?si=fp9Uqlc_n8bCv1Nq&v=K2rVBIb-KWE&feature=youtu.be[25년 현재 어떤 CLI툴을 써야하는지 말씀드리겠습니다] (박진형 님)
 
