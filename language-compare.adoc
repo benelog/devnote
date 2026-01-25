@@ -1,3 +1,5 @@
+* https://dev.to/rafacalderon/the-ideological-battle-for-memory-management-4226[The Ideological Battle for Memory Management]
+** (요약) https://www.fullstackfamily.com/news/2980[메모리 관리에 대한 이념적 전투]
 * http://elbenshira.com/blog/the-end-of-dynamic-languages/
 ** https://news.ycombinator.com/item?id=10614573
 * https://www.youtube.com/watch?v=SWTWkYbcWU0["Type Systems - The Good, Bad and Ugly" by Paul Snively and Amanda Laucher ]
