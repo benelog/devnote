@@ -54,8 +54,8 @@
 ** 위의 3개 사례를 개한 종합 내용
 ** AI도구를 써도 인간의 통찰, 리뷰, 검증이 필요하다는 문장으로 마무리
 
-
-== 도구 사용법
+== 도구
+* https://github.com/block/goose
 * youtube.com/watch?si=fp9Uqlc_n8bCv1Nq&v=K2rVBIb-KWE&feature=youtu.be[25년 현재 어떤 CLI툴을 써야하는지 말씀드리겠습니다] (박진형 님)
 
 === GitHub Copilot
@@ -64,13 +64,12 @@
 === Cursor
 * https://devway.tistory.com/70[Cursor Max mode로 대형 코드 베이스 다루기]
 
-
 === Claude Code
 * https://news.hada.io/topic?id=25570[Claude Code 창시자 Boris Cherny가 Claude Code를 사용하는 방법]
 ** https://www.notion.so/grumatic/Claude-Code-Claude-2dd0586bce7480eb8f0cc5a07d5dd7ae[Claude Code 오픈소스 창시자의 Claude 사용법]
 * https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/
 * https://www.anthropic.com/engineering/claude-code-best-practices
-
+* https://drive.google.com/file/d/1qfZtTLXQHBeLR_qD3glgmD8LIIe4Akzl/view[Claude Cowork - 엔터프라이즈 AI 에이전트의 새로운 장]
 
 == Open 스펙
 * https://agentskills.io/
