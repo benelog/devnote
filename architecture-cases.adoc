@@ -128,4 +128,7 @@ http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bou
 * https://d2.naver.com/helloworld/6512234[스마트스토어센터 Oracle에서 MySQL로의 무중단 전환기]
 
 == 뱅크 샐러드
-*  https://blog.banksalad.com/tech/how-banksalald-decomposes-legacy-services/ 
+*  https://blog.banksalad.com/tech/how-banksalald-decomposes-legacy-services/
+
+== 무신사
+* https://techblog.musinsa.com/22732a4a607f[“이번 달도 밤샘 정산입니다.” — 정산 시스템은 왜 필요했을까 (설계편)]
