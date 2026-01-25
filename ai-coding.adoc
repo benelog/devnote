@@ -54,7 +54,8 @@
 ** 위의 3개 사례를 개한 종합 내용
 ** AI도구를 써도 인간의 통찰, 리뷰, 검증이 필요하다는 문장으로 마무리
 
-== 도구 사용법
+== 도구
+* https://github.com/block/goose
 * youtube.com/watch?si=fp9Uqlc_n8bCv1Nq&v=K2rVBIb-KWE&feature=youtu.be[25년 현재 어떤 CLI툴을 써야하는지 말씀드리겠습니다] (박진형 님)
 * https://opencode.ai/
 *  (Vive) https://www.fullstackfamily.com/news/3341[Git Worktree를 즐겁게 만드는 CLI 도구를 만들었습니다]
@@ -76,6 +77,7 @@
 ** https://roboco.io/posts/everything-claude-code-distilled/[Everything Claude Code - 해커톤 우승자의 AI 개발 팀 레시피]
 * https://github.com/OthmanAdi/planning-with-files
 * https://goos.kim/ko/blog/claude-code-glm-47-moai-adk-setup-guide[Claude Code에서 GLM 4.7 사용하기 - MoAI-ADK로 쉽게 설정]
+* https://drive.google.com/file/d/1qfZtTLXQHBeLR_qD3glgmD8LIIe4Akzl/view[Claude Cowork - 엔터프라이즈 AI 에이전트의 새로운 장]
 
 == Open 스펙
 * https://agentskills.io/
