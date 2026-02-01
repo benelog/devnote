@@ -132,3 +132,7 @@ http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bou
 
 == 무신사
 * https://techblog.musinsa.com/22732a4a607f[“이번 달도 밤샘 정산입니다.” — 정산 시스템은 왜 필요했을까 (설계편)]
+* https://techblog.musinsa.com/74d8a5d22ba1[“이번 달도 밤샘 정산입니다.” — 정산 시스템은 어떻게 만들었을까 (실전편)]
+** 이벤트 기반 처리 영역 :  정산의 ‘원천 데이터’를 책임지는 영역. Kafka
+** 배치 기반 처리 영역 :  정산의 ‘확정’과 ‘마감’을 책임지는 영역. Spring Batch, Argo Workflow
+
