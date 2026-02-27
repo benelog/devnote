@@ -18,6 +18,7 @@
 *** '예를 들어, 대규모 MySQL 테이블은 내부 레코드의 수가 수천만에서 수억을 넘는 경우들이 있습니다. 이런 환경에서 디비지움 방식을 사용할 경우, 애플리케이션의 최적화 정도나 테이블 레코드의 크기에 따라 차이가 있지만, 초당 만개 이상의 레코드를 가져오기가 쉽지 않습니다.'
 ** https://tech.kakao.com/posts/656[Apache Iceberg와 Flink CDC 심층 탐구]
 ** https://www.youtube.com/watch?v=PeNHKxadNos[대용량 데이터베이스 동기화를 위한 최적의 CDC 시스템 구축기 / if(kakaoAI)2024]
+* https://d2.naver.com/helloworld/6388660[6개월 만에 연간 수십조를 처리하는 DB CDC 복제 도구 무중단/무장애 교체하기]
 
 == Migration 사례
 * https://stripe.com/blog/online-migrations
