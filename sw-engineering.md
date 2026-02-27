@@ -1,0 +1,156 @@
+[우리가 ‘소프트웨어 공학’이라고 믿는 것의 정체는
+무엇일까?](http://www.talk-with-hani.com/archives/1160) : SE는
+공학이라기보다는 공학으로 향하는 무언가”
+
+[소프트웨어 유지보수란?(소프트웨어
+컨플릭트2.0)](http://minslovey.tistory.com/17)
+
+[소프트웨어 컨플릭트2.0](http://legendre.tistory.com/178)
+
+[은총알은
+없다](http://www.lips.utexas.edu/ee382c-15005/Readings/Readings1/05-Broo87.pdf)
+
+[(번역) 소프트웨어 공학이라는 단어를
+묻어버리자.](http://jhrogue.blogspot.com/2008/06/blog-post_23.html) (
+[Let’s Bury the Term Software
+Engineering](http://www.agilejournal.com/content/view/696/76/) )
+
+[소프트웨어 엔지니어링 이해하기: 학생 관점에서 바라본
+모습](http://www.ibm.com/developerworks/kr/library/08/jan08/pollice/)
+
+[On the Criteria To Be Used in Decomposing Systems into
+Modules](http://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf)
+
+<http://portal.acm.org/citation.cfm?id=1005943>
+
+[SW 공학백서를 읽어보시나요](http://moai.tistory.com/882)
+
+- [정보방열기 사용방법 : 프로젝트
+  마무리하기](http://www.talk-with-hani.com/archives/723)
+- [정보방열기 사용방법 : 프로젝트
+  마무리하기2](http://www.talk-with-hani.com/archives/734)
+- [프로세스가
+  중요한가?](http://www.ibm.com/developerworks/kr/library/aug06/pollice/):
+- [방법론이 현장에서 잘 적용되지 못하는
+  원인](http://blog.naver.com/parnx/140102830216)
+- 설계 :
+  [http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm\[http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm](http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm[http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm)\]
+- 기타방법론
+  :http://gettingreal.37signals.com/GR_kor.php\[<http://gettingreal.37signals.com/GR_kor.php>\]
+- Hard code 컬럼 : <http://blogs.msdn.com/eric_brechner/>
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<tbody>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><p>장점</p></td>
+<td style="text-align: left;"><p>단점</p></td>
+</tr>
+<tr>
+<td style="text-align: left;"><p>구조적 방법론</p></td>
+<td style="text-align: left;"><p>• 철저한 모듈화로 추상화와 정보은닉을
+이루어 프로그램의 구조를 읽기 쉽게 단순화함</p></td>
+<td style="text-align: left;"><p>• 데이터의 구성에 대한 설계 방안이
+부족</p>
+<p>• 프로젝트 관리 및 조직, 역할 등 방법론적 다른 요소들의 정의가
+없음</p></td>
+</tr>
+<tr>
+<td style="text-align: left;"><p>정보공학 방법론</p></td>
+<td style="text-align: left;"><p>• 경쟁우위 확보의 전략적 기회 식별 및
+방안 제공</p>
+<p>• 일관성 있고 통일된 정보시스템 구축 가능</p>
+<p>• 시스템의 장기적인 진화, 발전 허용</p>
+<p>• 데이터 중심으로 업무절차 및 환경변화에 유연</p></td>
+<td style="text-align: left;"><p>• 정보공학의 효과를 위해 장기간
+필요</p>
+<p>• 소규모의 자동화 요구 사업영역에는 시간이 오래 걸림</p>
+<p>• 특정 사업영역으로부터 독립된 시스템 개발에는 부적합</p></td>
+</tr>
+<tr>
+<td style="text-align: left;"><p>객체지향 방법론</p></td>
+<td style="text-align: left;"><p>• 데이터와 로직을 통합(객체)</p>
+<p>• 상속에 의한 재사용 (White Box Reuse)</p>
+<p>• 분석-설계간 Gap이 없음</p></td>
+<td style="text-align: left;"><p>• 상속에 의한 재사용의 장점이 있음에도
+불구하고 상속의 깊이가 깊어질수록, 변경 등에 대한 유지보수가 어렵움.</p>
+<p>• 객체 개념을 기존의 관계형 모델에 기반한 Database에 반영하기가 쉽지
+않음</p></td>
+</tr>
+<tr>
+<td style="text-align: left;"><p>CBD방법론</p></td>
+<td style="text-align: left;"><p>• Interface 중시 (구현에 제약</p>
+<p>없음) Black Box Reuse 지향</p>
+<p>• 재사용성이 증대되어 직접 개발해야 하는 비용이 줄고 복잡성이
+줄게됨으로써 품질 향상을 얻을 수 있음</p></td>
+<td style="text-align: left;"><p>• 제대로 된 품질을 유지하기 위해서는
+보다 많은 협업이 강조된다.</p></td>
+</tr>
+</tbody>
+</table>
+
+# CBD
+
+component도출:
+
+- 독립적으로 존재할 수 있는 것이 CORE
+- core인 경우만 그에 대응되는 interface class가 도출될 수 있다.
+- package는 업무흐름간 연관이 있는 것은 같은 package로 묶을 수 있다.
+- 여러 core에서 공통적으로 연관이 지어진 것은 독립적인 component로
+  때어낼 수 있다.
+
+모듈내부의 응집도는 강하게, 모듈간의 결합도는 낮게
+
+# 정보공학방법론
+
+- Entity Relation Diagram
+- 기능/프로세스 분해도
+
+# 구조적 방법론
+
+- Data Flow Diagram
+- 외부입출력, 처리, 자료저장소, 자료흐름
+- 자료사전(Data Dictionary)
+- 소단위 명세서
+
+# 생산성 차이
+
+<http://forums.construx.com/blogs/stevemcc/archive/2008/03/27/productivity-variations-among-software-developers-and-teams-the-origin-of-quot-10x-quot.aspx>
+
+## 소프트웨어 컨플릭트 2.0 디버깅 , P68페이지
+
+- 생산성 : 어떤 사람들은 다른 사람들보다 5배나 우수하다
+- 디버깅 : 어떤 사람들은 다른 사람들보다 28배나 우수하다.
+
+# 추정
+
+추정을 전혀 하지 않은 프로젝트가 생산성 측면에서 가장 성공적이었고, 그
+다음은 기술자들이 추정을 수행한 프로젝트, 관리자가 추정을 한 프로젝트는
+최악. 생산성 수준과 통제에 대한 감사이에 밀접한 관계, 프로그래머는
+그들의 운명을 스스로 통제할 수 있다는 느낌을 가질 때 생산성이훨씬
+높았다.
+
+Jeffery, D.R., and M.J.Lawrence. 1985, "Managing Programmer
+Productivity." Journal of System and Software, Jan.
+
+Lnadsbaum, Jerome B. and Robert L.Glass. 1992. Measuring and Motivating
+Maintenance Programmers. Englewood Cliffs, NH: Prentice-Hall
+
+[카드와 수신호](http://agile.egloos.com/4930312)
+
+# 요구분석 기법
+
+- [사용자 인터뷰를 할 때 주의할 점들](http://alankang.tistory.com/147)
+- [유스케이스나 사용자스토리 크기 기준](http://cavin.egloos.com/4869054)
+
+유스케이스 모델링 → 웹화면 프로토타이핑→ 요구사항명세화 → 시스템화 범위
+및 우선 순위 결정
+
+필름기법: FilmStrip
+
+StateChart Diagram

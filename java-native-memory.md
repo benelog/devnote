@@ -1,0 +1,20 @@
+- <https://openjdk.java.net/jeps/370>
+- <https://dzone.com/articles/troubleshooting-problems-with-native-off-heap-memo>
+- <https://www.javacodegeeks.com/2016/03/jcmd-one-jdk-command-line-tool-rule.html>
+
+# DirectByteBuffer
+
+- `ByteBuffer.allocateDirect()` 로 할당 받음
+- 조정 옵션
+  - `-Djdk.nio.maxCachedBufferSize`
+  - `-XX:MaxDirectMemorySize`
+
+# Netty
+
+- <https://github.com/netty/netty/blob/4.1/common/src/main/java/io/netty/util/internal/PlatformDependent.java#L192>
+- Dio.netty.noPreferDirect=true
+
+# Linux command
+
+- `cat /proc/meminfo`
+- `cat /proc/{pid}/status`

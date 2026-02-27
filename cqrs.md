@@ -1,0 +1,35 @@
+- <http://www.popit.kr/cqrs-eventsourcing/>
+- <https://justhackem.wordpress.com/2016/09/17/what-is-cqrs/>
+- [CQRS 처음
+  도입하기](https://youngjaekim.wordpress.com/2016/09/12/%EC%B5%9C%EC%8B%A0-%EA%B8%B0%EC%88%A0-cqrs-%EC%B2%98%EC%9D%8C-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0/)
+- [QRS Documents by Greg
+  Young](https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf)
+- [Cutting Edge - Building an Historical
+  CRUD](https://msdn.microsoft.com/magazine/mt703431)
+- <http://cqrsjourney.github.io/>
+- [Cutting Edge - Beyond CRUD: Commands, Events and
+  Bus](https://msdn.microsoft.com/en-us/magazine/mt767692.aspx)
+- <https://github.com/gyuwon/SimpleCQRS>
+- [Azure를 이용한 Join 없는 글로벌 분산 시스템
+  설계하기](https://onedrive.live.com/view.aspx?resid=B1E53179A4EBCCB1!32444&ithint=file%2cpptx&app=PowerPoint&authkey=!AF5vYzWyHAGxcCs)
+- <https://github.com/gyuwon/SimpleCQRS>
+
+# EventSourcing
+
+- <https://justhackem.wordpress.com/2017/02/05/introducing-event-sourcing/>
+- <http://martinfowler.com/eaaDev/EventSourcing.html>
+- <http://cqrs.nu/Faq/event-sourcing>
+
+## Kafka 활용
+
+- <https://www.confluent.io/blog/event-sourcing-cqrs-stream-processing-apache-kafka-whats-connection/>
+- <https://blog.softwaremill.com/event-sourcing-using-kafka-53dfd72ad45d>
+- <https://medium.com/serialized-io/apache-kafka-is-not-for-event-sourcing-81735c3cf5c>
+
+## Elastic Search 활용
+
+- <https://discuss.elastic.co/t/elasticsearch-as-eventstore-for-cqrs/13252/2>
+- <http://blog.2mas.xyz/cqrs-the-simple-way-with-eventstore-and-elasticsearch-integrating-elasticsearch/>
+
+[Online Event Processing - Achieving consistency where distributed
+transactions have failed](https://queue.acm.org/detail.cfm?id=3321612)

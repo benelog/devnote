@@ -1,0 +1,7 @@
+# k3diff
+
+<http://kdiff3.sourceforge.net/>
+
+# DiffMerge
+
+<http://www.sourcegear.com/diffmerge/downloads.php>

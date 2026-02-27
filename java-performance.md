@@ -1,0 +1,2 @@
+- <http://www.slideshare.net/elizarov/diy-java-profiling>
+- <http://tutorials.jenkov.com/java-performance/jmh.html#why-are-java-microbenchmarks-hard>

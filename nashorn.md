@@ -1,0 +1,6 @@
+# 응용사례
+
+- <https://avatar-js.java.net/>
+  - <http://www.slideshare.net/leonardozanivan/javaone-2014-scalable-javascript-applications-with-project-nashorn>
+- [nashrn +
+  spark](https://github.com/cmichon/nashorn-spark-ng-helloworld/blob/master/app.js)

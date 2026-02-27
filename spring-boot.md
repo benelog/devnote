@@ -1,0 +1,33 @@
+# 유래
+
+- <https://github.com/spring-projects/spring-framework/issues/14521>
+
+# 예제
+
+- Java로 helloworld 찍기 :
+  <https://gist.github.com/benelog/d320305ec724384bb0c5>
+- 소개 자료 :
+  <http://www.slideshare.net/sungyongjung/springcamp2014springboot>
+- Groovy 예제 코드 :
+  <https://github.com/SpringSource/spring-boot/tree/master/spring-boot-cli/samples>
+- Batch 에제 :
+  <https://github.com/SpringSource/spring-boot/blob/master/spring-boot-samples/spring-boot-sample-batch/src/main/java/org/springframework/boot/sample/batch/SampleBatchApplication.java>
+- Batch 지원 클래스 :
+  <https://github.com/SpringSource/spring-boot/tree/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/batch>
+- DataSource 지원 클래스 :
+  <https://github.com/SpringSource/spring-boot/tree/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/jdbc>
+- <https://github.com/bungubbang/springcamp2014-boot>
+- thin-war만들기 :
+  <https://github.com/bungubbang/springcamp2014-boot-war>
+
+# Monitoring
+
+- [Spring boot 모니터링(Prometheus, Grafana,
+  docker)](https://velog.io/@roycewon/Spring-boot-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81Prometheus-Grafana-docker)
+- <https://docs.spring.io/spring-boot/reference/actuator/metrics.html>
+
+# Toby의 스프링 부트
+
+- <https://www.inflearn.com/course/%ED%86%A0%EB%B9%84-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%EC%9D%B4%ED%95%B4%EC%99%80%EC%9B%90%EB%A6%AC>
+- <https://github.com/tobyspringboot/helloboot>
+- <https://discord.gg/x4eT5HYk6X>

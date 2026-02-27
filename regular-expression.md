@@ -1,0 +1,30 @@
+<figure>
+<img src="http://dl.adminlife.net/regular_expressions_cheat_sheet.png"
+alt="regular_expressions_cheat_sheet.png" />
+</figure>
+
+# 학습
+
+- <https://github.com/zeeshanu/learn-regex/blob/master/README-ko.md>
+
+# 도움사이트
+
+- Java : <http://www.regexplanet.com/advanced/java/index.html>
+- JavaScript : <https://regexr.com/>
+- [http://www.regexper.com](http://www.regexper.com/)
+- <http://regexpal.com/>
+- <http://www.myezapp.com/apps/dev/regexp/show.ws>
+- <http://blog.naver.com/ahndongju/100052756446>
+- [RegEx Coach - 정규표현식 도우미 툴](http://swbae.egloos.com/1780067)
+- [초보 개발자 코드 트레이닝, Part 5: 정규
+  표현식](http://www.ibm.com/developerworks/kr/library/s_issue/20080729/)
+- [자바 정규 표현식
+  구현](http://www.slipp.net/wiki/pages/viewpage.action?pageId=950361) :
+  집 전화번호, 휴대폰 번호 검사 예제
+
+# 예제
+
+- style 태그 제거: `style=\"[^\"]*\"`
+- slug 로 시작하는 라인 :\`^(Slug)(.\*)\n\`
+- Hugo를 위해 tag 형식 바꾸기 : `^(tags\: )(.*?)\n` →
+  `tags:[$2]\n---\n\n`

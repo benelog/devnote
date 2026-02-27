@@ -1,0 +1,21 @@
+- <http://reactivex.io/>
+
+# Java9
+
+- <https://www.infoq.com/presentations/java9-reactive-programming>
+- <https://github.com/reactive-streams/reactive-streams-jvm>
+
+# Spring
+
+- <https://spring.io/blog/2016/04/19/understanding-reactive-types>
+- <https://spring.io/blog/2016/06/07/notes-on-reactive-programming-part-i-the-reactive-landscape>
+- <https://spring.io/blog/2016/06/13/notes-on-reactive-programming-part-ii-writing-some-code>
+- <https://spring.io/blog/2016/07/20/notes-on-reactive-programming-part-iii-a-simple-http-server-application>
+- <https://spring.io/blog/2016/07/28/reactive-programming-with-spring-5-0-m1>
+- <https://spring.io/blog/2016/09/22/new-in-spring-5-functional-web-framework>
+- <https://spring.io/blog/2016/09/27/ready-your-java-8-reactive-apps-now-reactor-3-0-ga-is-out>
+- <https://spring.io/blog/2016/10/05/spring-tips-functional-reactive-endpoints-with-spring-framework-5-0>
+- <https://spring.io/blog/2016/11/28/going-reactive-with-spring-data>
+- <https://spring.io/blog/2017/01/16/springone-platform-2016-replay-designing-implementing-and-using-reactive-apis>
+- <https://spring.io/blog/2017/02/23/spring-framework-5-0-m5-update>
+- <https://spring.io/blog/2017/03/15/spring-tips-the-spring-web-flux-reactive-client>

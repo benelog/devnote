@@ -1,0 +1,3 @@
+- [개발자 생산성 측정하기: 구글, 노션 등의 실제
+  사례들](https://news.hada.io/weekly/202405)
+- <https://tech.inflab.com/20240221-dora-metric-with-devlake/>

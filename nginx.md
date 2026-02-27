@@ -1,0 +1,37 @@
+- [성능이 좋다고 하는 웹서버인 nginx 홈페이지와 위키…​ 그리고 Tomcat과의
+  연동Server/nginx](http://www.tuning-java.com/194)
+- <http://www.javajigi.net/pages/viewpage.action?pageId=257327108>
+- [Open Source SSL Acceleration](http://www.o3magazine.com/4/a/0/2.html)
+
+# URL rewrite
+
+<https://www.nginx.com/blog/creating-nginx-rewrite-rules/>
+
+# Service
+
+service nginx force-reload
+
+service nginx reload
+
+service nginx restart
+
+service nginx try-restart
+
+service nginx start
+
+service nginx status
+
+service nginx stop
+
+# Disable auto start
+
+sudo update-rc.d -f nginx disable
+
+# 설정
+
+- <http://bong8nim.com/post/programming/etc/nginx-config-manual/>
+- <https://www.linode.com/docs/web-servers/nginx/configure-nginx-for-optimized-performance>
+- epoll 관련
+  - <http://nginx.org/en/docs/events.html>
+  - <http://sarc.io/index.php/nginx/149-2014-04-28-14-57-47>
+  - <https://gist.github.com/denji/8359866>

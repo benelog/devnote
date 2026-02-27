@@ -1,0 +1,30 @@
+<http://easybook-project.org/> : Markdown을 이용한 출판
+
+# 문법설명
+
+- 마크다운의 링크문법:
+  <http://blog.dahlia.pe.kr/articles/2008/03/01/link-syntax-of-markdown>
+- GFM :
+  <https://githubengineering.com/a-formal-spec-for-github-markdown/>
+
+# 스펙
+
+- <http://spec.commonmark.org/>
+- <https://github.github.com/gfm>
+
+# 변환
+
+<http://daringfireball.net/projects/markdown/dingus>
+
+<http://freewisdom.org/projects/python-markdown/>
+
+<http://johnmacfarlane.net/pandoc/>
+
+<http://www.xhtml2pdf.com/>
+
+Eclipse plulgin update site :
+<http://winterstein.me.uk/projects/tt-update-site/>
+
+# 에디터
+
+- <https://github.com/nhnent/tui.editor>

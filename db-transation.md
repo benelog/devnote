@@ -1,0 +1,99 @@
+# Transaction 정의
+
+A transaction is a series of one or more data statements that either
+take place as a unit or are aborted as a unit.
+
+A transaction is a logical unit of work.
+
+- Defined from business rules.
+- Typically includes at elast one data modification
+- Transforms the database from one consistent state to another
+
+A transaction has two possible outcomes.
+
+- Commited : All modifications are successfully
+- Rolled back: Any and all modifications are undone.
+
+## Role of Transactions
+
+Protect data from software, hardware, and power failures.
+
+# ACID properties
+
+## Atomicity
+
+A transaction is an all or nothing processes.
+
+이 특성은 일련의 작업 전체가 모두 성공하거나, 모두 성공하지 않아야
+한다는 것을 의미한다.
+
+## Consistency
+
+A transation changes the database from one consistent state to another.
+
+트랜잭션이 성공적으로 실행을 완료하였을 때, 언제나 일관성있는
+데이터베이스 상태를 유지하도록 해야 한다는 것. 이것은 트랜잭션의 결과가
+데이터베이스에 정의된 모든 제약 조건들(프라이머리 키, 참조 무결성,
+유일성 등등)을 만족해야 한다는 것을 의미한다. 일관성은 개발자와 트랜잭션
+시스템에 의해 지켜질 수 있다.
+
+## Isolation
+
+A transation’s changes are not visible to other users until the changes
+are complete or rolled back.
+
+트랜잭션이 실행되는 중간에 방해를 받지 말아야한다는 것으로, 트랜잭션이
+액세스하고 있는 데이터가 중간에 다른 프로세스나 다른 트랜잭션으로 인해
+변하는 걸 방지하기 위해 필요한 성질이다.
+
+## Durability
+
+Once complete, a transaction can not be undone.
+
+지속성은 성공적으로 완료된 트랜잭션의 결과가 영속성을 가지는 저장 매체에
+반영되어야 한다는 것을 의미한다.
+
+By default, you cannot create objects(such as tables, indexes, or views)
+in a transaction.
+
+# Isolation level
+
+## read uncommitted
+
+commit되지 않은 데이터도 읽음. SELECT 문장을 수행하는 경우 해당 데이터에
+Shared Lock이 걸리지 않는 Level이다
+
+가장 낮은 수준의 transaction 수준. dirty read 발생 가능
+
+## read committed
+
+commit된 것만 읽음. 이 Level에선 SELECT 문장이 수행되는 동안 해당
+데이터에 Shared Lock이 걸린다.
+
+Nonrepeatable read 발생가능. 즉, 동일한 transaction 내에서 반복되는
+쿼리에 다른 값이 나올 수 있다. 첫번째 select와 두번째 select 사이에 다른
+transaction으로 update가 일어났을 때 그러하다. 조회 건이 줄어들 수 있을
+것 같다.
+
+## repeatable read
+
+트랜잭션이 완료될 때까지 SELECT 문장이 사용하는 모든 데이터에 공유잠
+금을 유지하여 (읽기 Lock) 다른 사용자가 해당 행을 수정하지 못하게 한다.
+여러번 데이터를 읽어도 같은 값이 유지되도록 함. 그러나 같은 조건을
+만족하는 새로운 row가 다른 트랜잭션에서 insert/delete 후 commit되었을 시
+읽어지는 phantom read 발생.
+
+## serializable
+
+가장 높은 격리 수준으로 이 격리수준을 사용하는 메소드는 DB에 배타적
+쓰기락을 얻음으로써 transaction이 종료될 때까지 조회,수정,입력
+데이터로부터 다른 transaction의 처리를 막는다.
+
+# 참고자료
+
+- Sybase Fast Track to Adaptive Server Enterprise
+- [DBMS는 어떻게 트랜잭션을
+  관리할까?](http://helloworld.naver.com/helloworld/407507)
+- [비즈니스 중심적인 트랜잭션 모니터링 및 관리, Part 1: 엔드투엔드
+  트랜잭션 트래킹 기술
+  소개](http://www.ibm.com/developerworks/kr/library/opendw/20080122/)

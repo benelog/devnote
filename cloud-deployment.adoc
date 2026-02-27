@@ -1,5 +1,0 @@
-
-* https://github.com/coollabsio/coolify[Coolify]
-* Fly.io
-* DigitalOcean App Platform
-* Google Cloud run

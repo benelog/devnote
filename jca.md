@@ -1,0 +1,9 @@
+[JCA로 이해하는 암호화와
+보안](http://helloworld.naver.com/helloworld/197937) keytool이 OpenSSL이
+제공하는 수준과 동일한 기능을 제공하기 시작한 것은 JAVA 7부터다.인증서의
+암호학적 의미는 RSA 알고리즘, 즉 비대칭키 알고리즘에 의해 생성되는 키
+쌍의 공개키(Public Key)에 해당하는 것을 인증기관의 개인키(Private Key)로
+전자 서명한 것이다.
+
+[JCA로 이해하는 암호화와
+보안2](http://helloworld.naver.com/helloworld/227016)

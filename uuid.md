@@ -1,0 +1,5 @@
+# Mysql 저장
+
+- <https://www.percona.com/blog/2014/12/19/store-uuid-optimized-way/> :
+  ordered uuid 함수 예제
+  - <https://www.npmjs.com/package/ordered-uuid>

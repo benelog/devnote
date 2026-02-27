@@ -1,0 +1,40 @@
+# 소개
+
+- <http://www.slideshare.net/meadunhansa/gulp-48608642?ref=http://arahansa.com/frontboard/9>
+- <https://github.com/arahansa/learn_gulp>
+
+# HTML 처리
+
+## 문자열 교체, 삭제
+
+- <https://www.npmjs.com/package/gulp-processhtml>
+  - CSS, JS 교체에 특화된 표현식 제공
+  - replace 표현식 지원. gulp-html-replace를 따로 안 써도 될듯
+- <https://www.npmjs.com/package/gulp-preprocess>
+  - 'PRODUCTION’같은 변수값을 비교하는 분기문 표현식 제공
+  - INCLUDE 표현식 제공
+- <https://www.npmjs.com/package/gulp-inject>
+  - gulp의 변수로 css, js 목록을 선언해서 html에 주입
+- <https://www.npmjs.com/package/gulp-html-replace>
+
+## include
+
+- <https://www.npmjs.com/package/gulp-file-include>
+  - @@include 표현식 사용
+- <https://www.npmjs.com/package/gulp-html-tag-include>
+  - \<include/\> 태그사용
+- <https://www.npmjs.com/package/gulp-htmlincluder>
+
+# Webserver 띄우기
+
+- <https://scotch.io/tutorials/a-quick-guide-to-using-livereload-with-gulp>
+- <http://code.tutsplus.com/tutorials/gulp-as-a-development-web-server—​cms-20903>
+
+# Bower + live reload
+
+<https://gist.github.com/ktmud/9384509>
+
+<https://gist.github.com/vincent-zurczak/424c5d136063c120ee18>
+
+<http://stackoverflow.com/questions/22901726/how-can-i-integrate-bower-with-gulp-js>
+<http://andy-carter.com/blog/a-beginners-guide-to-package-manager-bower-and-using-gulp-to-manage-components>

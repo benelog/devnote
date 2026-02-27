@@ -1,0 +1,18 @@
+<https://github.com/spring-projects/spring-loaded>
+
+<http://www.mulesoft.com/tcat/tomcat-reload#server-restart>
+
+# HotSwap Agent
+
+- <http://hotswapagent.org/>
+- <http://dcevm.github.io/>
+- <https://www.future-processing.pl/blog/better-java-hot-code-replace-at-no-cost/>
+- <https://dzone.com/articles/hot-swap-java-bytecode-on-runtime>
+
+# 빠른 시작을 위한 팁
+
+- <https://spring.io/blog/2018/12/12/how-fast-is-spring>
+
+# CDS
+
+- <https://netmarble.engineering/class-data-sharing-cds-and-layered-jar/>

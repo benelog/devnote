@@ -1,3 +1,0 @@
-http://blog.kangwoo.kr/59[JPPF(Java Parallel Processing Framework)]
-
-http://spark-project.org/[http://spark-project.org/]

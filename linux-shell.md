@@ -1,0 +1,76 @@
+[shell script에서 \#!를 뭐라고
+부를까?](http://www.popit.kr/shell-script%EC%97%90%EC%84%9C-%EB%A5%BC-%EB%AD%90%EB%9D%BC%EA%B3%A0-%EB%B6%80%EB%A5%BC%EA%B9%8C/)
+
+# 쉘 안에서 현재 경로
+
+    #!/bin/sh
+    BASEDIR=`dirname $0`
+    echo $BASEDIR
+    cd $BASEDIR
+
+언제나 절대경로로 하려면
+
+\$(cd `dirname $0` && pwd)
+
+<http://www.electrictoolbox.com/bash-script-directory/> 참조
+
+CD:
+<http://www.ibm.com/developerworks/kr/aix/library/au-directorytree/index.html>
+
+# 파일명
+
+find . -type f -name "\*Controller.java" -printf "%f\n" \| sort \| uniq
+\| awk '{print "- \[ \] " \$1}'
+
+find / -name "sysinfo.html"
+
+grep "sysinfo.html" \*\|awk '{print \$1}'
+
+# 내용
+
+    # 찾기
+    find /. -name "*" | xargs grep -i "benelog"
+
+    find /. -name "*" -print -exec grep "benelog" {} \;
+
+    find /. -name "*" -print | wc -l
+
+
+    # sub directory안의 파일 내용 중에 문자열 대체하기
+    find ./ -type f -exec sed -i -e 's/assets-cdn.github.com/github.githubassets.com/g' {} \;
+
+# 용량과 업로드일자
+
+find ./ -mtime -30 -size +1024k -ls find /. -name "StringCleaner.java"
+\| xargs du -b
+
+# 날짜
+
+- echo \$(date '+%y%m%d') → 060728
+- echo \$(date '+%Y%m%d') → 20060728
+- echo \$(date '+%Y%m%d\_%H%M%S') → 20060728_170000
+- echo \$(date +"%Y%m%d%H%M%S")
+- echo \$(date +%Y%m%d --date '1 day ago')
+
+# ls
+
+<http://www.cyberciti.biz/open-source/command-line-hacks/linux-ls-commands-examples/>
+
+열려있는 파일 찾기
+
+[Command-line Tools can be 235x Faster than your Hadoop
+Cluster](https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
+
+# 파일명 일괄 변경
+
+<div class="formalpara">
+
+<div class="title">
+
+\_를 -로
+
+</div>
+
+    for i in *_*;do mv $i ${i//"_"/"-"};done
+
+</div>

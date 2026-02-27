@@ -1,0 +1,71 @@
+# 구조/개념
+
+- [React.js를
+  이해하다](http://blog.coderifleman.com/post/122232296024/reactjs%EB%A5%BC-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8B%A41)
+- <http://www.slideshare.net/deview/141-react-everywhere>
+- [Facebook은 React를 왜
+  만들었을까?](http://www.slideshare.net/jeokrang/facebook-react-55649927?ref=http://d2.naver.com/)
+- <http://webframeworks.kr/tutorials/react/es2015-react/>
+- <http://www.slideshare.net/jisuyoun/frontend-es6-reactjs>
+- <https://facebook.github.io/react/docs/tutorial.html>
+- [React.js 실서비스
+  적용기](http://slides.com/roto/react-js-live-service#/)
+- <https://spoqa.github.io/2015/09/09/react-guide-01.html>
+
+## Props, State
+
+- <https://velopert.com/921>
+
+## Lifecycle method
+
+- constructor
+- getChildContext
+- componentWillMount : ES6 에서는 사용할 일 없음
+- componentDidMount
+- componentWillReceiveProps
+- shouldComponentUpdate
+- componentWillUpdate
+- componentDidUpdate
+- componentWillUnmount
+- render
+
+# Server side rendering
+
+- <http://subicura.com/2016/06/20/server-side-rendering-with-react.html>
+
+# Flux & Redux
+
+- [페이스북의 결정: MVC는 확장에 용이하지 않다. 그렇다면
+  Flux다.](http://blog.coderifleman.com/post/121910103804/%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%B6%81%EC%9D%98-%EA%B2%B0%EC%A0%95-mvc%EB%8A%94-%ED%99%95%EC%9E%A5%EC%97%90-%EC%9A%A9%EC%9D%B4%ED%95%98%EC%A7%80-%EC%95%8A%EB%8B%A4-%EA%B7%B8%EB%A0%87%EB%8B%A4%EB%A9%B4-flux%EB%8B%A4)
+- <http://haruair.github.io/flux/docs/overview.html#content>
+- [Flux와 Redux](https://taegon.kim/archives/5288)
+- <http://dobbit.github.io/redux/>
+- [역시
+  Redux](http://www.slideshare.net/dalinaum/redux-55650128?ref=http://d2.naver.com/news/7030975)
+- [리덕스(Redux) 애플리케이션 설계에 대한
+  생각](http://huns.me/development/1953)
+- [FluxUtils
+  한바퀴](http://www.slideshare.net/UyeongJu/fluxutils?next_slideshow=1)
+- <http://jaysoo.ca/2015/02/06/what-the-flux/>
+  - As you see, the canonical Flux architecture is only one way of
+    implementing CQRS in a system.
+- <https://egghead.io/courses/getting-started-with-redux>
+
+# 생태계 라이브러리
+
+- <http://jxnblk.com/rebass/>
+- <https://github.com/reactjs/react-router>
+  - <https://github.com/reactjs/react-router-tutorial> : Reactor 라우터
+    예제
+- <https://github.com/mobxjs/mobx-react>
+- [react-developer-tools](https://facebook.github.io/react/blog/2015/09/02/new-react-developer-tools.html)
+
+# 활용사례
+
+- <http://fbdg.github.io/ironhee-2015-presentation>
+- [안드로이드에 Flux 적용하기. Flux는 정말 새로운
+  것인가?](http://developer.dramancompany.com/2016/03/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%97%90-flux-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0/)
+
+# Convention
+
+- <https://github.com/airbnb/javascript/tree/master/react>

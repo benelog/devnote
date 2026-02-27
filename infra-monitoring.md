@@ -1,0 +1,5 @@
+- <https://github.com/facebook/osquery>
+- <https://github.com/oshi/oshi>
+- <https://github.com/hyperic/sigar>
+- <https://github.com/firehol/netdata>
+- <https://github.com/KDAB/hotspot>

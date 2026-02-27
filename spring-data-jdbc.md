@@ -1,0 +1,8 @@
+- <https://github.com/spring-projects/spring-data-jdbc/wiki#why-spring-data-jdbc>
+- <https://spring.io/blog/2018/09/24/spring-data-jdbc-references-and-aggregates>
+- <https://www.slideshare.net/SpringCentral/domaindriven-design-with-relational-databases-using-spring-data-jdbc>
+
+<https://stackoverflow.com/questions/4919687/aggregate-root-references-other-aggregate-roots?noredirect=1&lq=1>
+
+> It makes life much easier if you just keep a reference of the
+> aggregate’s ID rather than the actual aggregate itself.
