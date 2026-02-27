@@ -1,1 +1,0 @@
-<https://github.com/dagwieers/asciidoc-odf>

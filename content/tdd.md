@@ -1,0 +1,273 @@
+<http://agiledata.org/essays/tdd.html>
+
+<https://www.thoughtworks.com/insights/blog/mockists-are-dead-long-live-classicists>
+
+[JUnit Test Infected: Programmers Love Writing
+Tests](http://junit.sourceforge.net/doc/testinfected/testing.htm)
+
+[테스트 주도 개발이란](http://alankang.tistory.com/102)
+
+[단위 테스트에 대한 의식조사 결과](http://moai.tistory.com/725)
+
+[알면서 왜 안할까? TDD](http://toby.epril.com/?p=500)
+
+[테스트 수준은 개발 수준을 드러낸다](http://jooyunghan.da.to/tt/jhan/42)
+
+[학습테스트(Learning Test)를 이용해서
+공부하기](http://toby.epril.com/?p=419)
+
+<http://blog.objectmentor.com/articles/2009/10/06/echoes-from-the-stone-age>
+
+<http://www.rbcs-us.com/UserFiles/File/Articles/Test%20Driven%20Development.pdf>
+
+<http://tech.groups.yahoo.com/group/testdrivendevelopment/>
+
+[깜짝 놀랄만한 이야기를 들려주마](http://toby.epril.com/?p=778)
+
+[10 Ways to Improve Your
+Code](http://www.infoq.com/presentations/10-Ways-to-Better-Code-Neal-Ford)
+
+[How do you convince your boss to
+TDD](http://misko.hevery.com/2009/05/16/how-do-you-convince-your-boss-to-tdd/)
+
+[프로젝트, 팀내에 테스트 문화 만들기](http://javajigi.tistory.com/227)
+
+<http://blog.objectmentor.com/articles/2007/09/20/continuous-testing-explained>
+
+<http://blog.james-carr.org/2006/11/03/tdd-anti-patterns/>
+
+<http://www.junitmax.com/WhereToTest.html>
+
+<http://www.diebuster.com/?p=924>
+
+[테스트 주도 개발을 이해하기](http://www.diebuster.com/?p=924)
+
+[
+](http://ecn.channel9.msdn.com/o9/te/NorthAmerica/2010/pptx/DPR204.pptx)http://ecn.channel9.msdn.com/o9/te/NorthAmerica/2010/pptx/DPR204.pptx\[\]<http://ecn.channel9.msdn.com/o9/te/NorthAmerica/2010/pptx/DPR204.pptx>
+
+[TDD is kanban for
+code,](http://www.threeriversinstitute.org/blog/?p=579) [TDD는 코드에
+대한 칸반이다.](http://www.threeriversinstitute.org/blog/?p=579)
+
+<http://gojko.net/2010/11/09/beyond-basic-tdd/>
+
+[마이클 페더스(Michael Feathers)는 단위테스트를
+부정했는가](http://parkpd.egloos.com/3392357)
+<http://pqtech.safaribooksonline.com/book/software-engineering-and-development/software-testing/9781932394856>
+
+혁신적인 아키텍처와 창발적 설계: 테스트 주도 설계, Part 1
+
+<http://www.ibm.com/developerworks/kr/library/j-eaed2/index.html>
+
+테스트를 통한 설계 진행 및 개선
+
+혁신적인 아키텍처와 창발적 설계: 테스트 주도 설계, Part 2
+
+<http://www.ibm.com/developerworks/kr/library/j-eaed3/index.html>
+
+테스트를 통한 설계 진행 및 개선에 관한 추가 정보
+
+# 논쟁
+
+- [복식부기와 TDD (바뀌는 글)](http://younghoe.info/1225)
+- [동상이몽 – TDD](http://toby.epril.com/?p=917)
+- [Joel의 TDD(Kent Beck), SOLID(Robert Martin) 공격과
+  논쟁](http://toby.epril.com/?p=680)
+- <http://blogs.msdn.com/b/cashto/archive/2009/03/31/it-s-ok-not-to-write-unit-tests.aspx>
+- <http://blog.cleancoder.com/uncle-bob/2016/11/10/TDD-Doesnt-work.html>
+
+# 적용사례
+
+[KGC2007 - 'UnitTest, TDD in Games' 발표
+자료입니다.](http://parkpd.egloos.com/1666157)
+
+# 시연
+
+<http://www.xper.org/LineReaderTdd/>
+
+[TDD Intro, Episode 1, first 10 minutes, unedited by Kent
+Beck](http://vimeo.com/10789674)
+
+<http://blog.objectmentor.com/articles/2010/04/14/c-tdd-videos-you-asked-for-them>
+
+## Kent Beck Interview
+
+19분
+
+Do you think you’ve convined most of people to talk to?
+
+Kent Beck :
+
+I don’t try to convince people any more.I think I spent probably 10
+years really trying to convince people
+
+TDD, pair programming, you should do this, you should do that and I
+don’t do that any more.
+
+I am always working to improve my own practice, I am eager to share what
+I learn
+
+and I try and listen and understand what other people learned and their
+experiences as well.
+
+I don’t keep score how many people do TDD.
+
+# Pattern
+
+[Simplicators](http://www.natpryce.com/articles/000785.html)
+
+# Coverage
+
+<http://michaelfeathers.typepad.com/michael_feathers_blog/2010/12/coverage-in-production-learning-from-your-live-code.html>
+
+# BDD
+
+<https://sites.google.com/site/unclebobconsultingllc/the-truth-about-bdd>
+
+<http://behaviour-driven.org/Implmentations>
+
+[BDD는 또 뭐야](http://okjsp.tistory.com/1165643346)
+
+[코드 품질 향상을 위해: 행위 주도 개발의 모험
+(한글)](http://www-128.ibm.com/developerworks/kr/library/j-cq09187/)
+
+[\[DDD
+⑤](http://www.zdnet.co.kr/builder/dev/web/0%2C39031700%2C39170216%2C00.htm)
+BDD(Behavior Driven Development)\]
+
+<http://dannorth.net/introducing-bdd>
+
+[켄트 벡이 대답하길 2탄](http://agile.egloos.com/2741529)
+
+<http://skillsmatter.com/podcast/agile-testing/using-cucumber-for-bdd-and-agile-acceptance-testing>
+
+[TDD에 대한 조금 다른 생각](http://oddpoet.net/archives/242)
+
+Given, When, Then
+
+<http://www.jroller.com/perryn/entry/given_when_then_and_how>
+
+## 테스트를 위한 디자인
+
+[TDD Design Starter Kit - Static Methods and Singletons May Be
+Harmful](http://codebetter.com/blogs/jeremy.miller/pages/129545.aspx)
+
+[Static is Evil](http://www.jroller.com/cyrille/date/20050414)
+
+[HowToWriteHardToTestCode.pdf](https://docs.google.com/fileview?id=0B7z6S2TvsDWSYWQ1NGEwOTctYTEwOS00ZTUwLWE2Y2QtZjEwMmE2OTQzNjVh&hl=en)
+
+[Design Tech Talk Series Presents: OO Design for
+Testability](http://www.youtube.com/watch?v=acjvKJiOvXw&feature=player_embedded)
+
+[Clean Code Talks – Global State and
+Singletons](http://misko.hevery.com/2008/11/21/clean-code-talks-global-state-and-singletons/)
+
+[Fun With Modules](http://java.dzone.com/articles/fun-modules)
+
+[Clean Code Talks – Dependency
+Injection](http://misko.hevery.com/2008/11/11/clean-code-talks-dependency-injection/)
+
+<http://www.objectmentor.com/resources/articles/TestableJava.pdf>
+
+[All hands on
+testing](https://docs.google.com/present/view?id=d449gch_2603sf622cs)
+
+[Guide: Writing Testable
+Code](http://misko.hevery.com/code-reviewers-guide/)
+
+[application code에서 new operator의 사용은 테스트의
+적이다.](http://javajigi.tistory.com/187)
+
+<http://deathbycode.blogspot.com/2010/11/do-i-really-need-singleton.html>
+
+# 기법
+
+그리고 private 메소드의 테스트 부분에서 생각이 나는 것이 있어서 언급을
+드리면요, 대부분 private메소드가 public을 먼저 작성하다가 메소드가
+추출되어서 나오기 때문에 public을 통해 자연스럽게 테스트 될 것이라는
+것에 이견은 없습니다. 그런데 레가시 코드의 private 부분에서 에러가 났고
+뭔가 흐름이 복잡해서 private부분만 따로 불러보고 싶을 때 이를
+protected로 바꾸는 것도 가끔 해보는 기법입니다. 테스트코드가 원래 코드와
+같은 패키지에서 작성되니 해당 클래스를 테스트하는 코드에서는 바로 호출이
+가능하고, 필요하다면 이를 상속한 테스트용 클래스를 만들어서 해당
+클래스의 일부분만이 실제 실행클래스를 사용하는 stub나 fake object를
+만들수도 있습니다. 그리고 그 정도로 따로 검증이 필요한 로직이 들어간
+private 메소드라면 혹시 상속한 클래스나 같은 패키지 내에서 재활용될
+가능성도 있으므로 실제로 protected가 적합한 접근 범위일 가능성도 발견할
+수 있구요. 뭐 이 내용은 핵심은 아니고 간단한 팁정도입니다 ^^;
+
+     좋은 테스트의 특징: A-TRIP
+    1. 자동적(Automatic)
+    2. 철저함(Thorough)
+    3. 반복 가능(Repeatable)
+    테스트는 어떤 순서로든 여러 번 반복 실행될 수 있어야 하고, 그때마다 늘 같은 결과를 내야 한다.
+    이것은 테스트가 프로그래머의 직접 제어 아래 있는 않은 외부 환경에 의존해서는 안 된다는 것을 의미한다.
+    반복 가능성을 갖추지 않는다면, 진짜 버그가 아닌, 테스트와 관련된 문제를 찾아내기 위해 시간을 낭비해야 할지도 모른다.
+
+1.  독립적(Independent) 어떤 테스트도 다른 테스트에 의존하지 않고 어느
+    때나, 어느 순서로든, 어떤 개별 테스트라도 실행해 볼 수 있어야 한다.
+
+2.  전문적(Professional) 고객에게 인도하는 코드 뿐만 아니라 단위 테스트
+    코드도 진짜 코드다.
+
+3.  테스트를 테스트하기
+
+[Automated Testing Patterns and
+Smells](http://www.youtube.com/watch?v=Pq6LHFM4JvE)
+
+## XUnit test patterns
+
+- <http://parkpd.egloos.com/3174139>
+
+24페이지
+
+- 3.6 Example
+  - Use Better Assertion- Custom assert- Replace Conditional Logic with
+    Guard Assertion
+- 3.12 Transaction Rollback Teardown
+- 3.17 생성부 분리 Distinct Generated Values Creation Method
+
+3.22 Testcase Class per Feature
+
+3.29 Humble object Dependency Injection Dependency Lookup Test-Specific
+Subclass
+
+3.30 Test Logic in Prodution code Test Double / Test Stub, Mock Object,
+Fake Object, Spy Object
+
+Slow Test - 공용 Fixture setup
+
+- [단위 테스트 질문1](http://parkpd.egloos.com/3392794)
+- [단위 테스트 질문 2](http://parkpd.egloos.com/3394408)
+- [단위 테스트 질문 3](http://parkpd.egloos.com/3395808)
+
+# 관련논문
+
+    On the Effectiveness of the Test-First Approach to Programming
+- <http://portal.acm.org/citation.cfm?id=1070618.1070834>
+- <http://www.computer.org/portal/web/csdl/abs/trans/ts/2005/03/e0226abs.htm>
+- <http://neverindoubtnet.blogspot.com/2008/01/on-effectiveness-of-tdd.html>
+- <http://weblogs.asp.net/rosherove/archive/2008/01/25/research-finds-tdd-boosts-developer-productivity.aspx>
+- <http://haacked.com/archive/2008/01/22/research-supports-the-effectiveness-of-tdd.aspx>
+  Realizing quality improvement through test driven development: results
+  and experiences of four industrial
+
+teams :
+<http://research.microsoft.com/en-us/projects/esm/nagappan_tdd.pdf>
+
+Test driven development: empirical body of evidence
+<http://www.agile-itea.org/public/deliverables/ITEA-AGILE-D2.7_v1.0.pdf>
+
+<http://blogs.microsoft.co.il/blogs/dhelper/archive/2009/02/23/presentation-from-net-software-architects-user-group.aspx>
+
+# Lodon school vs Chicago school
+
+- <http://softwareengineering.stackexchange.com/questions/123627/what-are-the-london-and-chicago-schools-of-tdd>
+
+## Related
+- [[code-coverage]]
+- [[junit]]
+- [[mock]]
+- [[tdd-quote]]
+- [[test]]
+- [[test-framework]]

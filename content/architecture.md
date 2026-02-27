@@ -1,0 +1,113 @@
+- <https://github.com/ByteByteGoHq/system-design-101>
+- <https://github.com/donnemartin/system-design-primer#index-of-system-design-topics>
+- <https://www.educative.io/prepare-for-interview/system-design>
+- [\[마틴 파울러](https://www.youtube.com/watch?v=4E1BHTvhB7Y)
+  소프트웨어 아키텍쳐의 중요성 (한글 자막)\]
+
+# 용어
+
+UML에서 정의한 컴포넌트의 정의 (참고자료 : UML 1.3 Specification, OMG)
+
+A component is a physical, replaceable part of a system that packages
+implementation and provides the Realization of a set of Interfaces. A
+component represents a physical piece of implementation of a
+system,including software code(source, binary or executable) or
+equivalents such as scripts or command files. As such, a Component may
+itself conform to and provide the Realization of a set of Interfaces,
+which represent services implemented by the elements resident in the
+Component. These services define behavior offered by instances of the
+Component as a whole to other client Component instances.
+
+# MSA
+
+- <https://medium.com/@madhukaudantha/microservice-architecture-and-design-patterns-for-microservices-e0e5013fd58a>
+- <https://particular.net/blog/goodbye-microservices-hello-right-sized-services>
+- <https://www.ben-morris.com/entity-services-when-microservices-are-worse-than-monoliths/>
+- <https://medium.com/@lenalysis/right-sized-services-and-microservice-architecture-1c907ef55d3b>
+- <https://towardsdatascience.com/effective-microservices-10-best-practices-c6e4ba0c6ee2>
+- <http://www.moreagile.net/2014/10/microservices.html>
+- <http://www.popit.kr/why-microservice/>
+- <http://www.slideshare.net/JoshEvans2/mastering-chaos-a-netflix-guide-to-microservices>
+- <http://basho.com/posts/technical/microservices-please-dont/>
+- <http://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/>
+- [마이크로서비스 - 데이터
+  조인하기](https://baramnemse.github.io/blog/05/)
+- [마이크로 서비스, 콜하지 말고 이벤트
+  컨슈밍하기](https://baramnemse.github.io/blog/1/)
+- <https://allegro.tech/2016/03/Managing-Frontend-in-the-microservices-architecture.html>
+- <https://blog.bernd-ruecker.com/3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them-3f27a442cd07>
+
+# Transactional out box ( Store and forward)
+
+- [MSA에서 메시징 트랜잭션
+  처리하기](https://www.popit.kr/msa%ec%97%90%ec%84%9c-%eb%a9%94%ec%8b%9c%ec%a7%95-%ed%8a%b8%eb%9e%9c%ec%9e%ad%ec%85%98-%ec%b2%98%eb%a6%ac%ed%95%98%ea%b8%b0/)
+
+# Events
+
+- <https://www.infoq.com/articles/events-workflow-automation>
+
+# TCC
+
+- <https://www.codota.com/code/java/methods/org.bytesoft.compensable.Compensable/%3Cinit%3E>
+- <https://github.com/liuyangming/ByteTCC>
+- <https://github.com/apache/servicecomb-pack>
+  - <https://github.com/apache/servicecomb-pack/blob/133a2fa7247b2ba00a380762a38369849390560e/integration-tests/pack-tests/src/test/java/org/apache/servicecomb/pack/integration/tests/resttemplate/GreetingService.java#L38>
+
+# 아키텍트의 역할
+
+- Meet the achitect
+  <http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml>
+- [아키텍처
+  건전성](http://www.ibm.com/developerworks/kr/library/j-ap07107/index.html)
+- [patterns & practices Application Architecture Guide
+  2.0](http://www.codeplex.com/AppArchGuide)
+- 프로토타입을 위한 <http://napkinlaf.sourceforge.net/>
+- [코더](https://sangminpark.blog/2021/05/11/%EC%BD%94%EB%8D%94/amp/)
+
+## 혁신적 설계와 창발적 아키텍처
+
+- SLAP(Single Level of Abstraction Principle)에 대해 논의
+- 역설적으로 확장성을 위해 추가한 수많은 메커니즘이 프로젝트의 초기
+  릴리스를 위험에 빠트린다. 왜냐하면 복잡도가 높아지면서 프로젝트에
+  소요되는 시간과 비용이 증가하기 때문이다.
+- 더 큰 잠재적 영향이 있을지라도 아키텍처 의사결정을 최후의 결정
+  순간까지 미루는 것이 좋다.
+- 각 부분이 무수히 많게 때로는 예상치 못한 방식으로 서로 다른 부분과
+  상호작용하기 때문에 소프트웨어에 대해 선행 설계(design up front)하는
+  것은 어렵다.
+- 코드가 설계이면, 사용하는 컴퓨터 언어와 프레임워크는 우리가 설계
+  가능한 대상에 대한 원자재를 정의한다.
+- [설계의 중요성을 보여주는 건축물들](http://mbastory.tistory.com/258)
+- [ArchitectureDefinitions.pdf](http://benelog.springnote.com/pages/348906/attachments/229908)
+- [전사적 아키텍처의 핵심, Part 3: 전사적 아키텍처 설계와
+  구현](http://www.ibm.com/developerworks/kr/library/ar-enterarch3/)
+- [전사적 아키텍처의 핵심, Part 4: 전사적 아키텍처
+  테스트](http://www.ibm.com/developerworks/kr/library/ar-enterarch4/)
+- [아키텍처에 대한 좋은 글 메모](http://younghoe.info/1260)
+- Simplex architecture : <http://www.sei.cmu.edu/simplex>
+
+# Architecture pattern
+
+- <https://docs.microsoft.com/ko-kr/azure/architecture/patterns/anti-corruption-layer>
+- <http://en.wikipedia.org/wiki/Architectural_pattern_%28computer_science%29>
+- <http://wi.wu-wien.ac.at/home/uzdun/publications/ArchPatterns.pdf>
+- <http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html>
+- 4+1 View :
+  <http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf>
+
+# Module
+
+- [멀티모듈 설계 이야기 with Spring,
+  Gradle](http://woowabros.github.io/study/2019/07/01/multi-module.html)
+
+# 오픈소스 아키텍처 : <http://www.aosabook.org/en/>
+
+## Related
+- [[architecture-cases]]
+- [[platform-choice]]
+- [[design]]
+- [[design-pattern]]
+- [[domain-driven-design]]
+- [[msa-solutions]]
+- [[scalability]]
+- [[spring-cloud]]

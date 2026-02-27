@@ -1,0 +1,96 @@
+- <https://www.infoq.com/minibooks/emag-java-agents-bytecode>
+- <http://spring.io/blog/2014/11/09/springone2gx-2014-replay-living-in-the-matrix-with-bytecode-manipulation>
+  - <http://www.slideshare.net/SpringCentral/bytecode-spring2gx2014>
+- [스프링캠프 2016 : BCI(BYTE CODE INSTRUMET) 기술 소개 및 활용
+  방안](https://www.youtube.com/watch?v=CgFY39zk5r8)
+
+# 예제
+
+- <https://github.com/spring-projects/spring-framework/blob/master/spring-context/src/main/java/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java>
+- <https://github.com/spring-projects/spring-framework/blob/master/spring-core/src/main/java/org/springframework/core/type/classreading/SimpleMetadataReader.java>
+- <https://github.com/spring-projects/spring-framework/commit/c16f18a5fd659f34d6290b5f2cffe54534b7592a>
+
+# BCI (Bytecode Instrumentation)
+
+- [Power of bytecode instrumentation in
+  java](http://architecture-guru.textcube.com/48)
+
+# Library
+
+## ASM
+
+CGLIB 가 사용 ( CGLIB is a higher abstraction than ASM. )
+
+- [ASM 개요](http://whiteship.me/2624)
+- [ASM 클래스 만들기](http://whiteship.me/2625)
+- ASM의 Visitor패턴 : <http://whiteship.tistory.com/2617>
+
+## BCEL
+
+- Findbugs, AspectJ, Spring의 CGLIB→ Javassit migration
+  :https://jira.springsource.org/browse/SPR-8190
+
+## SERP
+
+- <http://serp.sourceforge.net/>
+
+## Javassist
+
+- <https://github.com/jboss-javassist/javassist>
+
+## 비교
+
+- <http://www.java-opensource.com/open-source/bytecode-libraries.html>
+- BCEL vs ASM :
+  <http://blog.naver.com/PostView.nhn?blogId=junsu60&logNo=80123035668>
+
+# Framework 의존성
+
+- Hibenate의 Javassist → Bytebuddy :
+  <https://github.com/hibernate/hibernate-orm/pull/1622>
+- Spring의 관련 이슈
+  - [Support for ByteBuddy as an alternative to CGLIB
+    \[SPR-8190](https://github.com/spring-projects/spring-framework/issues/12840)\]
+    - 2011년 처음 생성
+    - 2012.10.17 기준으로는 제목이 'Migrate from CGLIB to Javassist'
+    - 2022.09.08 기준으로는 제목이 'Support for ByteBuddy as an
+      alternative to CGLIB', 6.x backlog로 마일스톤이 기록
+  - <https://github.com/spring-projects/spring-framework/issues/7964>
+    (2007년)
+    - 'Cglib appears to be a poorly maintained and dying project. It
+      would be nice to replace it with a more actively maintained
+      project like javaassist for library dependency reasons.'
+
+## Related
+- [[effective-java]]
+- [[graal-vm]]
+- [[java-annotation]]
+- [[java-basic]]
+- [[java-basic-summary]]
+- [[java-concurrency]]
+- [[java-date]]
+- [[java-dto]]
+- [[java-ee-pattern]]
+- [[java-encoding]]
+- [[java-external-process]]
+- [[java-fast-boot]]
+- [[java-fiber]]
+- [[java-functional-library]]
+- [[java-gc]]
+- [[java-json-parser]]
+- [[java-lambda]]
+- [[java-memory-model]]
+- [[java-multiline-string]]
+- [[java-native-memory]]
+- [[java-performance]]
+- [[java-process-call]]
+- [[java-profiling]]
+- [[java-puzzler]]
+- [[java-references]]
+- [[java-security]]
+- [[java-string]]
+- [[java-thread-dump]]
+- [[java-tips]]
+- [[java-web-framework]]
+- [[jvm]]
+- [[openjdk]]

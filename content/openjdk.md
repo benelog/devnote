@@ -1,0 +1,72 @@
+# 배포판 소개
+
+- <https://dev.karakun.com/java/2018/06/25/java-releases.html>
+- <https://blog.joda.org/2018/09/time-to-look-beyond-oracles-jdk.html>
+
+# [adoptopenjdk](https://adoptopenjdk.net/support.html)
+
+- JDK11을 2022년까지 지원할 예정 (
+  <https://adoptopenjdk.net/support.html>)
+- regression test 사례 :
+  <https://github.com/AdoptOpenJDK/openjdk-tests/issues/345>
+- JavaFX 포함 : <https://github.com/AdoptOpenJDK/TSC/issues/27>
+- iced-tea web 포함 : <https://github.com/AdoptOpenJDK/TSC/issues/41>
+
+## TCK
+
+- <https://github.com/AdoptOpenJDK/openjdk-website/commit/ab89726d1dcbe68751a36fc6831a8fd78e845163#diff-45b38942cd184c8a28e43bbb2934ca58>
+
+# Red Hat OpenJDK
+
+- <https://stackoverflow.com/questions/52202807/technical-difference-between-adoptopenjdk-and-red-hat-openjdk-for-windows>
+
+# cacert
+
+- jdk8에도 jdk11의 caert를 사용
+  - <https://github.com/AdoptOpenJDK/openjdk-build/pull/688/commits/79a1da7174c1c048db4f284b1d590b7345d89abf>
+- mozila nss의
+  [certdata.txt](https://hg.mozilla.org/mozilla-central/log/tip/security/nss/lib/ckfw/builtins/certdata.txt)
+  를 활용하는 방법 : <https://www.petefreitag.com/item/830.cfm>
+
+# iced-tea-web
+
+- <https://blog.adoptopenjdk.net/2018/10/using-icedtea-web-browser-plug-in-with-adoptopenjdk>
+- <http://icedtea.classpath.org/hg/>
+
+# 사례
+
+- <https://allegro.tech/2018/12/java-11-and-beyond-at-allegro.html>
+
+## Related
+- [[effective-java]]
+- [[graal-vm]]
+- [[java-annotation]]
+- [[java-basic]]
+- [[java-basic-summary]]
+- [[java-bytecode]]
+- [[java-concurrency]]
+- [[java-date]]
+- [[java-dto]]
+- [[java-ee-pattern]]
+- [[java-encoding]]
+- [[java-external-process]]
+- [[java-fast-boot]]
+- [[java-fiber]]
+- [[java-functional-library]]
+- [[java-gc]]
+- [[java-json-parser]]
+- [[java-lambda]]
+- [[java-memory-model]]
+- [[java-multiline-string]]
+- [[java-native-memory]]
+- [[java-performance]]
+- [[java-process-call]]
+- [[java-profiling]]
+- [[java-puzzler]]
+- [[java-references]]
+- [[java-security]]
+- [[java-string]]
+- [[java-thread-dump]]
+- [[java-tips]]
+- [[java-web-framework]]
+- [[jvm]]

@@ -1,3 +1,0 @@
-- <https://www.baeldung.com/java-performance-mapping-frameworks>
-- [DTO에 관한
-  생각](https://velog.io/@aidenshin/DTO%EC%97%90-%EA%B4%80%ED%95%9C-%EA%B3%A0%EC%B0%B0)

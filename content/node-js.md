@@ -1,0 +1,30 @@
+# 기초 설명
+
+- [Node.js 내가 쓰기로 선택한
+  이유.](https://vinebrancho.wordpress.com/2014/03/24/node-js-%EB%82%B4%EA%B0%80-%EC%93%B0%EA%B8%B0%EB%A1%9C-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0/)
+
+# 활용 사례
+
+- [스마트폰 앱 백엔드 서비스 개발을 위한 node.js
+  실전가이드](http://readme.skplanet.com/wp-content/uploads/Tech_Planet_2013_baek.pdf)
+
+# Database
+
+- MS-SQL : <http://cretz.github.io/node-tds/>
+
+# 예외 처리
+
+- [try/catch는 모든 에러를 잡을수
+  있을까?](http://programmingsummaries.tistory.com/375)
+  - 비동기 에러는 잡기 힘들다. 특히 3rd party 모듈에서 적절한 예외처리가
+    되어 있지 않은 경우
+  - UncatchException으로 전역에러 처리를 할수는 ㅇ 있으나 정교하지 않고,
+    남용하면 위험하다.
+  - Domain으로 처리할수도 있으나 Deprecated 될수 있다.
+
+## Related
+- [[javascript-basic]]
+- [[javascript-dom]]
+- [[javascript-module]]
+- [[javascript-trend]]
+- [[jquery]]

@@ -1,0 +1,10 @@
+- <http://saucelabs.com/blog/index.php/2009/09/continuous-deployment%E2%80%94the-video/>
+- <http://bjarte.com/post/the-path-to-frequent-deployments>
+- <http://www.slideshare.net/KentBeck/software-g-forces>
+- <http://martinfowler.com/bliki/BlueGreenDeployment.html>
+
+## Related
+- [[cloud-deployment]]
+- [[docker]]
+- [[k8s]]
+- [[server-automation]]

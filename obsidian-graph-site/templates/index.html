@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="{lang}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title}</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="top-nav">
+    <a href="index.html" class="nav-home">{title}</a>
+    <span class="nav-subtitle">{subtitle}</span>
+  </nav>
+
+  <div class="index-layout">
+    <section class="graph-section">
+      <div id="graph"></div>
+    </section>
+
+    <section class="page-list-section">
+      <div class="page-list-header">
+        <h2>Pages <span class="page-count">({page_count})</span></h2>
+        <input type="text" id="search" placeholder="Search pages…" autocomplete="off">
+      </div>
+      <ul id="page-list" class="page-list">
+        {page_list}
+      </ul>
+    </section>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+  (function() {
+    const data = {graph_data};
+
+    const container = document.getElementById('graph');
+    const width = container.clientWidth;
+    const height = Math.min(600, window.innerHeight * 0.6);
+    container.style.height = height + 'px';
+
+    const svg = d3.select('#graph')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height);
+
+    const g = svg.append('g');
+
+    // Zoom
+    const zoom = d3.zoom()
+      .scaleExtent([0.3, 5])
+      .on('zoom', (event) => {
+        g.attr('transform', event.transform);
+        updateLabels(event.transform.k);
+      });
+    svg.call(zoom);
+
+    // Scale node size by connection count
+    const maxCount = d3.max(data.nodes, d => d.count) || 1;
+    const nodeRadius = d => 3 + (d.count / maxCount) * 10;
+    const nodeColor = d3.scaleSequential(d3.interpolateBlues).domain([0, maxCount]);
+
+    const simulation = d3.forceSimulation(data.nodes)
+      .force('link', d3.forceLink(data.links).id(d => d.id).distance(60))
+      .force('charge', d3.forceManyBody().strength(-80))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 2));
+
+    const link = g.append('g')
+      .attr('class', 'links')
+      .selectAll('line')
+      .data(data.links)
+      .join('line')
+      .attr('stroke', '#ccc')
+      .attr('stroke-width', 0.5);
+
+    const node = g.append('g')
+      .attr('class', 'nodes')
+      .selectAll('circle')
+      .data(data.nodes)
+      .join('circle')
+      .attr('r', nodeRadius)
+      .attr('fill', d => d.count > 0 ? nodeColor(d.count) : '#ddd')
+      .attr('stroke', '#fff')
+      .attr('stroke-width', 1)
+      .style('cursor', 'pointer')
+      .on('click', (event, d) => { window.location.href = d.id + '.html'; })
+      .call(d3.drag()
+        .on('start', dragstart)
+        .on('drag', dragged)
+        .on('end', dragend));
+
+    node.append('title').text(d => d.title);
+
+    const labels = g.append('g')
+      .attr('class', 'labels')
+      .selectAll('text')
+      .data(data.nodes)
+      .join('text')
+      .text(d => d.title)
+      .attr('font-size', 10)
+      .attr('dx', d => nodeRadius(d) + 2)
+      .attr('dy', 3)
+      .style('pointer-events', 'none')
+      .style('opacity', 0);
+
+    function updateLabels(k) {
+      labels.style('opacity', d => {
+        if (k > 2) return 1;
+        if (k > 1.2) return d.count >= maxCount * 0.3 ? 1 : 0;
+        if (k > 0.8) return d.count >= maxCount * 0.6 ? 1 : 0;
+        return 0;
+      });
+    }
+
+    simulation.on('tick', () => {
+      link
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y);
+      node
+        .attr('cx', d => d.x)
+        .attr('cy', d => d.y);
+      labels
+        .attr('x', d => d.x)
+        .attr('y', d => d.y);
+    });
+
+    function dragstart(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x; d.fy = d.y;
+    }
+    function dragged(event, d) {
+      d.fx = event.x; d.fy = event.y;
+    }
+    function dragend(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+      d.fx = null; d.fy = null;
+    }
+
+    // Search
+    const searchInput = document.getElementById('search');
+    const listItems = document.querySelectorAll('#page-list li');
+
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value.toLowerCase();
+      listItems.forEach(li => {
+        const text = li.textContent.toLowerCase();
+        li.style.display = text.includes(query) ? '' : 'none';
+      });
+    });
+  })();
+  </script>
+</body>
+</html>

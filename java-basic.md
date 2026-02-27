@@ -1,1 +1,0 @@
-- [\[Java](http://blog.hazard.kr/archives/778) 제네릭의 비애\]

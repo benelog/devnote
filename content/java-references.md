@@ -1,0 +1,55 @@
+[Plugging memory leaks with soft
+references](http://www-128.ibm.com/developerworks/java/library/j-jtp01246.html)
+
+[자바의 레퍼런스 클래스 사용
+가이드라인](http://whiteship.tistory.com/1638)
+
+``` java
+WeakReference<User> ref = new WeakReference<User>(new User());
+User user = ref.get();
+```
+
+[Java Reference와 GC](http://d2.naver.com/helloworld/329631)
+
+- Weak은 GC될 때마다 회수. LRU cache에 유리.
+- Soft는 사용빈도 등을 감안하여서 GC여부가 결정. 메모리 사용량이
+  늘어나고, 결과적으로 GC를 더 자주 일어나게 함.
+- `-XX:SoftRefLRUPolicyMSPerMB=<N>` 옵션으로 조정가능.
+- Phantom은 반드시 ReferecneQueue를 사용해야.
+- PhantomReference를 쓰면 객체가 finalize된 이후에 사용자 코드가 관여할
+  수 있다.
+
+Strong \> Soft \> Weak \> Phantom
+
+## Related
+- [[effective-java]]
+- [[java-annotation]]
+- [[java-basic]]
+- [[java-basic-summary]]
+- [[java-bytecode]]
+- [[java-concurrency]]
+- [[java-date]]
+- [[java-dto]]
+- [[java-ee-pattern]]
+- [[java-encoding]]
+- [[java-external-process]]
+- [[java-fast-boot]]
+- [[java-fiber]]
+- [[java-functional-library]]
+- [[java-gc]]
+- [[java-json-parser]]
+- [[java-lambda]]
+- [[java-memory-model]]
+- [[java-multiline-string]]
+- [[java-native-memory]]
+- [[java-performance]]
+- [[java-process-call]]
+- [[java-profiling]]
+- [[java-puzzler]]
+- [[java-security]]
+- [[java-string]]
+- [[java-thread-dump]]
+- [[java-tips]]
+- [[java-web-framework]]
+- [[jvm]]
+- [[openjdk]]

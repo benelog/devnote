@@ -1,0 +1,183 @@
+- [The Ideological Battle for Memory
+  Management](https://dev.to/rafacalderon/the-ideological-battle-for-memory-management-4226)
+  - (요약) [메모리 관리에 대한 이념적
+    전투](https://www.fullstackfamily.com/news/2980)
+- <http://elbenshira.com/blog/the-end-of-dynamic-languages/>
+  - <https://news.ycombinator.com/item?id=10614573>
+- ["Type Systems - The Good, Bad and Ugly" by Paul Snively and Amanda
+  Laucher ](https://www.youtube.com/watch?v=SWTWkYbcWU0)
+
+<http://rosettacode.org/> Subroutines, coroutines, fibers, threads and
+continuations : <http://blog.dahlia.kr/post/18100264586>
+
+[Programming Languages: Application and
+Interpretation](http://skyul.tistory.com/257)
+
+<http://hyperpolyglot.org/scripting>
+
+An empirical comparison of C, C++, Java, Perl, Python, Rexx, and Tcl for
+a search/string-processing program
+
+[http://page.mi.fu-berlin.de/%7Eprechelt/Biblio/jccpprtTR.pdf](http://page.mi.fu-berlin.de/~prechelt/Biblio/jccpprtTR.pdf)
+
+<http://doi.ieeecomputersociety.org/10.1109/2.876288>
+
+<http://page.mi.fu-berlin.de/prechelt/Biblio/jccpprt_computer2000.pdf>
+
+<http://www.codinghorror.com/blog/2005/08/are-all-programming-languages-the-same.html>
+
+<http://barnesc.blogspot.com/2006/05/programming-language-productivity.html>
+
+<http://whitepapers.zdnet.com/abstract.aspx?docid=889263>
+
+**Benchmarking Software-Development Productivity**
+
+<http://portal.acm.org/citation.cfm?id=626091>
+
+# 언어 성능비교
+
+<http://blog.dhananjaynene.com/2008/07/performance-comparison-c-java-python-ruby-jython-jruby-groovy/>
+
+<http://www.research.ibm.com/trl/people/mich/pub/200809_icws2008wsperf.pdf>
+
+<http://ateji.blogspot.com/2010/09/java-for-high-performance-computing.html>
+
+[프로그래밍 언어 성능 측정](http://skyul.tistory.com/299)
+
+[An empirical comparison of C, C++, Java, Perl, Python, Rexx, and Tclfor
+a search/string-processing
+program](http://page.mi.fu-berlin.de/prechelt/Biblio/jccpprtTR.pdf)
+
+[Ruby, Io, PHP, Python, Lua, Java, Haskell, and Plain C Fractal
+Benchmark](http://www.timestretch.com/FractalBenchmark.html)
+
+[Ruby와 Javascript 성능비교](http://codian.net/wp/archives/428)
+
+<http://memeagora.blogspot.com/2006/12/polyglot-programming.html>
+
+<http://ateji.blogspot.com/2010/09/java-for-high-performance-computing.html>
+
+[나를 만든
+언어](http://www.ibm.com/developerworks/kr/library/dwclm/20080819/)
+
+<http://www.infoq.com/presentations/Pattern-Language-Parallel-Programming>
+
+# Typing
+
+[정적 타이핑과 동적 타이핑](http://skyul.tistory.com/268)
+
+[Crossing borders: Typing strategies beyond the Java
+model](http://www.ibm.com/developerworks/java/library/j-cb05236.html)
+
+# Concurency and parallelism
+
+[Concurrent와 Parallel의 차이](http://minjang.egloos.com/2517211)
+
+[Concurrency and Parallelism 2](http://skyul.tistory.com/269)
+
+[Concurrency와 Parallelism](http://decoder.tistory.com/516)
+
+# functional programming
+
+[해커를 위한 최고의 언어](http://agile.egloos.com/2633261)
+
+<http://stackoverflow.com/questions/327955/does-functional-programming-replace-gof-design-patterns>
+
+[\[dW Review](http://blog.doortts.com/134) 함수형 언어로 가는 길
+(상편)\]
+
+[Functional Programming Creeps into Job
+Specs](http://skyul.tistory.com/315)
+
+<http://pchiusano.blogspot.com/2010/09/four-stages-of-functional-programming.html?utm_source=twitterfeed&utm_medium=twitter>
+
+<http://sleeplessinfremont.wordpress.com/2010/06/16/functional-programming-with-google-collection-api-now-guava/>
+
+# 통계
+
+[통계 및 데이터 분석용 언어 R](http://skyul.tistory.com/272)
+
+<http://skyul.tistory.com/272>
+
+# Interface 비교
+
+[인정있는 인터페이스(Humane Interface)](http://www.younghoe.info/15)
+
+[간결함을 지향하는 인터페이스(Minimal
+Interface)](http://younghoe.info/16)
+
+# Erlang
+
+[Crossing borders: Concurrent programming with
+Erlang](http://www.ibm.com/developerworks/java/library/j-cb04186.html)
+
+[Yaws와 ErlyWeb을 이용한 얼랭 웹 개발, Part 1: Yaws와
+얼랭](http://www.ibm.com/developerworks/kr/library/opendw/20080520/)
+
+["얼랭(Erlang) 웹 프로그래밍" 요약](http://thinkr.egloos.com/1979412)
+
+[erlang 을 이용해서, fault_torelant 하게 시스템을 변경하는
+데모를](http://parkpd.egloos.com/1780470)
+
+홈페이지 : <http://erlang.org/> Tutorial :
+<http://www.trapexit.org/Category:HowTo> CookBook :
+<http://www.trapexit.org/Category:CookBook>
+
+[In Defense of
+Erlang](http://www.theserverside.com/discussions/thread.tss?thread_id=61573)
+
+# OCaml
+
+[OCaml 프로그램 최적화](http://skyul.tistory.com/303)
+
+[OCaml 죽이기](http://skyul.tistory.com/301)
+
+[Memoization](http://skyul.tistory.com/306)
+
+[Developing Applications
+With](http://caml.inria.fr/pub/docs/oreilly-book/html/)
+
+# Scala
+
+[Scala](http://skyul.tistory.com/284)
+
+[Scala에서 Parital Application](http://skyul.tistory.com/285)
+
+[Scala 이상한 점.](http://skyul.tistory.com/288)
+
+<http://skyul.tistory.com/267>
+
+[Twitter에서 Scala 사용](http://mkseo.pe.kr/blog/?p=1904)
+
+<http://skyul.tistory.com/335>
+
+<http://www.ibm.com/developerworks/kr/library/tutorial/wa-aj-comet/index.html>
+
+<http://corund.egloos.com/2389541>
+
+<http://days2010.scala-lang.org/node/136>
+
+    http://www.ibm.com/developerworks/kr/library/j-scala01228.html[바쁜 자바 프로그래머를 위한 스칼라 입문: 객체 지향론자를 위한 함수 프로그래밍]
+
+# Lisp
+
+[scheme 시작하기](http://neocode.egloos.com/1745777)
+
+# D언어
+
+[SWT의 D 언어 포트 DWT](http://corund.egloos.com/2325570)
+
+# 역사
+
+<http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html>
+
+Basic
+
+<http://www.qb64.net/>
+
+## Related
+- [[golang]]
+- [[groovy]]
+- [[kotlin]]
+- [[python]]
+- [[scala]]

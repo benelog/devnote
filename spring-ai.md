@@ -1,1 +1,0 @@
-<https://news.hada.io/topic?id=22518>

@@ -1,2 +1,0 @@
-- <https://github.com/advantageous/qbit>
-- <http://sparkjava.com/>

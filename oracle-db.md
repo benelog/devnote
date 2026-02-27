@@ -1,8 +1,0 @@
-# 자주 쓰는 쿼리
-
-``` sql
-SELECT nullable
-  FROM all_tab_cols
- WHERE table_name = UPPER('테이블명')
-   AND column_name = UPPER('컬럼명')
-```

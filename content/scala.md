@@ -1,0 +1,29 @@
+IDE와 Maven 설정 : <http://javacan.tistory.com/192>
+
+- <http://www.infoq.com/articles/scala_and_spring>
+- <http://www.infoq.com/presentations/Absorbing-Scala-in-the-Java-Ecosystem>
+- [scala에서 Lazy Evaluation - by-name
+  Parameter](http://corund.egloos.com/2390237)
+- <http://jim-mcbeath.blogspot.com/2010/12/scala-pros-and-cons.html#web-sites>
+
+# Lift
+
+- <http://www.parleys.com/#id=1582&sl=3&st=5>
+
+# SBT
+
+- [SBT로 Scala 빌드하기](http://blog.outsider.ne.kr/565)
+- [SBT로 JUnit 테스트 실행하기](http://blog.outsider.ne.kr/567)
+
+## Related
+- [[clojure]]
+- [[functional-programming]]
+- [[golang]]
+- [[groovy]]
+- [[haskell]]
+- [[java-functional-library]]
+- [[java-lambda]]
+- [[kotlin]]
+- [[language-compare]]
+- [[persistent-data-structure]]
+- [[python]]
