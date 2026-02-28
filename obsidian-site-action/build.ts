@@ -6,6 +6,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, copyFileSync, existsSync } from 'fs';
 import { resolve, join, basename, extname } from 'path';
 import { fileURLToPath } from 'url';
+import { parse as parseYaml } from 'yaml';
 
 import { buildGraph, buildBacklinks } from './graph.js';
 import { buildPage, buildIndex } from './render.js';
@@ -19,18 +20,24 @@ export interface PageInfo {
   content: string;
 }
 
+export interface GitHubConfig {
+  'repository-url': string;
+  'content-branch'?: string;
+}
+
 export interface SiteConfig {
   title: string;
   subtitle: string;
   lang: string;
-  output: string;
+  'output-directory': string;
+  gitHub?: GitHubConfig;
 }
 
 function loadConfig(source: string): SiteConfig {
-  const config: SiteConfig = { title: basename(source), subtitle: '', lang: 'en', output: 'public' };
-  const configPath = join(source, 'site.json');
+  const config: SiteConfig = { title: basename(source), subtitle: '', lang: 'en', 'output-directory': 'public' };
+  const configPath = join(source, 'site.yaml');
   if (existsSync(configPath)) {
-    const data = JSON.parse(readFileSync(configPath, 'utf-8'));
+    const data = parseYaml(readFileSync(configPath, 'utf-8'));
     Object.assign(config, data);
   }
   return config;
@@ -74,9 +81,9 @@ function main(): void {
   const source = args.source;
   const config = loadConfig(source);
   if (args.output) {
-    config.output = args.output;
+    config['output-directory'] = args.output;
   }
-  const output = resolve(source, config.output);
+  const output = resolve(source, config['output-directory']);
 
   console.log(`Source: ${source}`);
   console.log(`Output: ${output}`);

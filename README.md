@@ -35,22 +35,20 @@ npm run build -- --output dist             # 출력 디렉토리 변경
 
 ### 설정
 
-`site.json`으로 사이트 메타데이터를 설정한다.
+`site.yaml`로 사이트 메타데이터를 설정한다.
 
-```json
-{
-  "title": "devnote",
-  "subtitle": "정상혁의 개발수첩",
-  "lang": "ko",
-  "output": "public"
-}
+```yaml
+title: devnote
+subtitle: 정상혁의 개발수첩
+lang: ko
+output-directory: public
 ```
 
 ## 구조
 
 ```
 content/*.md                        # Obsidian 노트 (플랫 구조)
-site.json                           # 사이트 설정
+site.yaml                           # 사이트 설정
 obsidian-site-action/                # 빌드 도구
   build.ts                          # 빌드 스크립트 (진입점)
   render.ts                         # HTML 렌더링

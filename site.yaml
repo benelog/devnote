@@ -1,0 +1,7 @@
+title: Devnote
+subtitle: Benelog의 개발수첩
+lang: ko
+output-directory: public
+gitHub:
+  repository-url: https://github.com/benelog/devnote
+  content-branch: main

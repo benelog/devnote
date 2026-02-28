@@ -8,7 +8,8 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "marked": "^15.0.0"
+    "marked": "^15.0.0",
+    "yaml": "^2.8.2"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
