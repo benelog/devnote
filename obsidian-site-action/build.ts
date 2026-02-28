@@ -29,12 +29,13 @@ export interface SiteConfig {
   title: string;
   subtitle: string;
   lang: string;
+  'content-directory': string;
   'output-directory': string;
   gitHub?: GitHubConfig;
 }
 
 function loadConfig(source: string): SiteConfig {
-  const config: SiteConfig = { title: basename(source), subtitle: '', lang: 'en', 'output-directory': 'public' };
+  const config: SiteConfig = { title: basename(source), subtitle: '', lang: 'en', 'content-directory': 'content', 'output-directory': 'public' };
   const configPath = join(source, 'site.yaml');
   if (existsSync(configPath)) {
     const data = parseYaml(readFileSync(configPath, 'utf-8'));
@@ -43,8 +44,8 @@ function loadConfig(source: string): SiteConfig {
   return config;
 }
 
-function scanVault(source: string): Map<string, PageInfo> {
-  const contentDir = join(source, 'content');
+function scanVault(source: string, contentDirectory: string): Map<string, PageInfo> {
+  const contentDir = join(source, contentDirectory);
   const scanDir = existsSync(contentDir) ? contentDir : source;
   const pages = new Map<string, PageInfo>();
 
@@ -93,7 +94,7 @@ function main(): void {
   const indexTemplate = readFileSync(join(TOOL_DIR, 'layouts', 'index.html'), 'utf-8');
 
   // Scan vault
-  const pages = scanVault(source);
+  const pages = scanVault(source, config['content-directory']);
   console.log(`Found ${pages.size} pages`);
 
   // Build graph and backlinks

@@ -62,10 +62,10 @@ export function renderBacklinks(stem: string, backlinks: Map<string, string[]>, 
   return '<section class="backlinks"><h2>Backlinks</h2><ul>' + items.join('\n') + '</ul></section>';
 }
 
-export function renderEditLink(stem: string, gitHub?: GitHubConfig): string {
+export function renderEditLink(stem: string, contentDirectory: string, gitHub?: GitHubConfig): string {
   if (!gitHub?.['repository-url']) return '';
   const branch = gitHub['content-branch'] || 'main';
-  const url = `${gitHub['repository-url']}/edit/${branch}/content/${stem}.md`;
+  const url = `${gitHub['repository-url']}/edit/${branch}/${contentDirectory}/${stem}.md`;
   return `<a href="${url}" class="edit-link" target="_blank" rel="noopener noreferrer">Edit</a>`;
 }
 
@@ -89,7 +89,7 @@ export function buildPage(
   const relatedHtml = renderRelated(wikilinks, pages);
   const backlinksHtml = renderBacklinks(stem, backlinks, pages);
 
-  const editLinkHtml = renderEditLink(stem, config.gitHub);
+  const editLinkHtml = renderEditLink(stem, config['content-directory'], config.gitHub);
 
   return template
     .replaceAll('{title}', title)
