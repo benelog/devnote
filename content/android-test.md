@@ -275,9 +275,3 @@ ActivityInstrumentationTestCase : depreciated.
 </div>
 
 ## Related
-- [[android-dependency-injection]]
-- [[android-http-client]]
-- [[android-security]]
-- [[android-thread]]
-- [[android-tips]]
-- [[android-tools]]

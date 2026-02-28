@@ -11,8 +11,5 @@
 - <https://github.com/townsfolk/gradle-release>
 
 ## Related
-- [[ant]]
-- [[build-etc]]
 - [[dsl]]
 - [[groovy]]
-- [[maven]]

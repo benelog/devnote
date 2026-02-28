@@ -16,7 +16,6 @@
 - <https://tomcat.apache.org/tomcat-8.0-doc/config/http.html#Connector_Comparison>
 
 ## Related
-- [[async]]
 - [[async-jdbc]]
 - [[java-concurrency]]
 - [[java-fiber]]

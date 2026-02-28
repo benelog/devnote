@@ -67,5 +67,3 @@ Webalizer
 Emulator : <http://blog.mrpol.nl/2010/01/14/network-emulator-toolkit/>
 
 ## Related
-- [[front-architecture]]
-- [[front-optimization]]

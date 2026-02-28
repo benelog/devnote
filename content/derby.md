@@ -16,12 +16,6 @@
 [Derby의 유용한 기능](http://pupustory.tistory.com/139)
 
 ## Related
-- [[db-lock]]
-- [[db-normalization]]
-- [[db-schema-tools]]
-- [[db-transation]]
 - [[jdbc]]
 - [[jdbc-url]]
-- [[mysql]]
 - [[no-sql]]
-- [[oracle-db]]

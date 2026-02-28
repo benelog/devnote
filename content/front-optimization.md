@@ -8,5 +8,3 @@
   점…](http://b.mytears.org/2010/09/2272)
 
 ## Related
-- [[front-architecture]]
-- [[front-performance]]

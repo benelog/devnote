@@ -101,5 +101,5 @@
 - [[junit]]
 - [[mock]]
 - [[tdd]]
-- [[tdd-quote]]
-- [[test]]
+- [[test-quote]]
+

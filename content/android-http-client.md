@@ -115,9 +115,3 @@ Webview를 쓸때도 적용이 될 수 있어야할 듯. 확인
 ||
 
 ## Related
-- [[android-dependency-injection]]
-- [[android-security]]
-- [[android-test]]
-- [[android-thread]]
-- [[android-tips]]
-- [[android-tools]]

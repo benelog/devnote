@@ -8,12 +8,6 @@ SELECT nullable
 ```
 
 ## Related
-- [[db-lock]]
-- [[db-normalization]]
-- [[db-schema-tools]]
-- [[db-transation]]
-- [[derby]]
 - [[jdbc]]
 - [[jdbc-url]]
-- [[mysql]]
 - [[no-sql]]

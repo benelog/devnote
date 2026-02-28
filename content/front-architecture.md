@@ -4,5 +4,3 @@
 안내서](http://blog.weirdx.io/redux%EB%A1%9C%EC%9D%98-%EC%B9%B4%ED%88%B0-%EC%95%88%EB%82%B4%EC%84%9C/)
 
 ## Related
-- [[front-optimization]]
-- [[front-performance]]

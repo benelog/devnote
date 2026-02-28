@@ -54,6 +54,6 @@ Code Pro Anlytix Pro
 - [[junit]]
 - [[mock]]
 - [[tdd]]
-- [[tdd-quote]]
+- [[test-quote]]
 - [[test]]
 - [[test-framework]]

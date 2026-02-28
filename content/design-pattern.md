@@ -713,7 +713,6 @@ Last updated 2026-02-28 04:33:58 +0900
 ## Related
 - [[architecture]]
 - [[architecture-cases]]
-- [[design]]
 - [[domain-driven-design]]
 - [[effective-java]]
 - [[object-oriented]]

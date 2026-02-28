@@ -9,8 +9,5 @@
 <http://archive.cert.uni-stuttgart.de/bugtraq/2002/10/msg00421.html>
 
 ## Related
-- [[java-security]]
 - [[oauth]]
-- [[security]]
 - [[spring-security]]
-- [[sql-injection]]

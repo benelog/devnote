@@ -36,5 +36,4 @@ Standalone vs Domain :
 
 ## Related
 - [[jetty]]
-- [[servlet]]
 - [[tomcat]]

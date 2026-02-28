@@ -190,9 +190,3 @@ i(…​); public static \* d(…​); public static \* v(…​); }﻿
 <http://www.android-decompiler.com/blog/2013/04/02/a-look-inside-dexguard/>
 
 ## Related
-- [[android-dependency-injection]]
-- [[android-http-client]]
-- [[android-security]]
-- [[android-test]]
-- [[android-thread]]
-- [[android-tips]]

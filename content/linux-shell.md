@@ -76,10 +76,3 @@ Cluster](https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-h
 </div>
 
 ## Related
-- [[linux-desktop]]
-- [[linux-dist]]
-- [[linux-kernel]]
-- [[linux-memory]]
-- [[linux-network]]
-- [[linux-process]]
-- [[linux-tips]]

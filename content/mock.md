@@ -138,6 +138,5 @@ way of decoupling.
 - [[code-coverage]]
 - [[junit]]
 - [[tdd]]
-- [[tdd-quote]]
-- [[test]]
+- [[test-quote]]
 - [[test-framework]]

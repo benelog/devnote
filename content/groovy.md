@@ -7,9 +7,4 @@
 
 ## Related
 - [[dsl]]
-- [[golang]]
 - [[gradle]]
-- [[kotlin]]
-- [[language-compare]]
-- [[python]]
-- [[scala]]

@@ -30,8 +30,6 @@
 
 ## Related
 - [[functional-programming]]
-- [[haskell]]
 - [[java-functional-library]]
 - [[java-lambda]]
 - [[persistent-data-structure]]
-- [[scala]]

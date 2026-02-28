@@ -51,7 +51,3 @@
 <http://old.nabble.com/Slow-performance-with-Struts2-td18092204.html>
 
 ## Related
-- [[java-web-framework]]
-- [[play-framework]]
-- [[spring-mvc]]
-- [[vert-x]]

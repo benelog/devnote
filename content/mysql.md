@@ -260,12 +260,6 @@ verifyCursorPosition을 default값인 true로 둘 경우 아래와 같은 에러
     750-753쪽
 
 ## Related
-- [[db-lock]]
-- [[db-normalization]]
-- [[db-schema-tools]]
-- [[db-transation]]
-- [[derby]]
 - [[jdbc]]
 - [[jdbc-url]]
 - [[no-sql]]
-- [[oracle-db]]

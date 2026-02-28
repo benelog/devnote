@@ -167,9 +167,3 @@ UI cataloghttp://www.androidviews.net/\[<http://www.androidviews.net/>\]
 - <http://stackoverflow.com/questions/12731211/pass-cookies-from-httpurlconnection-java-net-cookiemanager-to-webview-android>
 
 ## Related
-- [[android-dependency-injection]]
-- [[android-http-client]]
-- [[android-security]]
-- [[android-test]]
-- [[android-thread]]
-- [[android-tools]]

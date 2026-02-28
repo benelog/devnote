@@ -194,7 +194,6 @@
     Batch, Argo Workflow
 
 ## Related
-- [[architecture]]
 - [[design]]
 - [[design-pattern]]
 - [[domain-driven-design]]

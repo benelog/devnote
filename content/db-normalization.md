@@ -70,12 +70,6 @@ DB내 데이터의 불일치 위험을 최소화
 - <http://force44.blog.me/130100972038>
 
 ## Related
-- [[db-lock]]
-- [[db-schema-tools]]
-- [[db-transation]]
-- [[derby]]
 - [[jdbc]]
 - [[jdbc-url]]
-- [[mysql]]
 - [[no-sql]]
-- [[oracle-db]]

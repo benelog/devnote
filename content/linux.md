@@ -1,0 +1,10 @@
+## Children
+- [[linux-desktop]]
+- [[linux-dist]]
+- [[linux-kernel]]
+- [[linux-memory]]
+- [[linux-network]]
+- [[linux-process]]
+- [[linux-shell]]
+- [[linux-tips]]
+- [[wget]]

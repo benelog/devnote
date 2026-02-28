@@ -10,10 +10,3 @@
 - <https://www.reddit.com/r/archlinux/comments/fp557l/how_to_remove_manually_compiled_kernel/?rdt=64142>
 
 ## Related
-- [[linux-desktop]]
-- [[linux-dist]]
-- [[linux-memory]]
-- [[linux-network]]
-- [[linux-process]]
-- [[linux-shell]]
-- [[linux-tips]]

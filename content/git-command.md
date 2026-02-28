@@ -335,7 +335,6 @@ glt clean -fd : 추적하지 않는 파일과 디렉토리 삭제
   - hard reset은 커밋, 스테이지, 워킹트리의 내용이 모두 같아짐
 
 ## Related
-- [[git]]
 - [[git-tools]]
 - [[github]]
 - [[vcs]]

@@ -83,8 +83,6 @@ Cloud](http://www.cs.ucsd.edu/~dlogothetis/docs/mortar_vldb08.pdf)
 
 ## Related
 - [[aws]]
-- [[cloud-deployment]]
-- [[cloud-news]]
 - [[docker]]
 - [[k8s]]
 - [[paas]]

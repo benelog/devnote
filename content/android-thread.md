@@ -35,9 +35,3 @@ Looper](http://blog.naver.com/PostView.nhn?blogId=huewu&logNo=110115454542)
 <http://logc.at/2011/11/08/the-hidden-pitfalls-of-asynctask/>
 
 ## Related
-- [[android-dependency-injection]]
-- [[android-http-client]]
-- [[android-security]]
-- [[android-test]]
-- [[android-tips]]
-- [[android-tools]]

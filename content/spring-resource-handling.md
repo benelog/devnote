@@ -76,18 +76,3 @@ spring.resources.static-locations 로 수정 가능
 전략](http://kwon37xi.egloos.com/4735742)
 
 ## Related
-- [[spring-ai]]
-- [[spring-batch]]
-- [[spring-boot]]
-- [[spring-changes]]
-- [[spring-cloud]]
-- [[spring-data-jdbc]]
-- [[spring-db]]
-- [[spring-hostname]]
-- [[spring-integration]]
-- [[spring-mvc]]
-- [[spring-properties]]
-- [[spring-security]]
-- [[spring-shell]]
-- [[spring-tips]]
-- [[toby-spring]]

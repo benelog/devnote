@@ -22,9 +22,6 @@
 - <https://addyosmani.com/resources/essentialjsdesignpatterns/book/>
 
 ## Related
-- [[javascript-dom]]
-- [[javascript-module]]
-- [[javascript-trend]]
 - [[jquery]]
 - [[nashorn]]
 - [[node-js]]

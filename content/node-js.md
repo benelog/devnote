@@ -23,8 +23,4 @@
   - Domain으로 처리할수도 있으나 Deprecated 될수 있다.
 
 ## Related
-- [[javascript-basic]]
-- [[javascript-dom]]
-- [[javascript-module]]
-- [[javascript-trend]]
 - [[jquery]]

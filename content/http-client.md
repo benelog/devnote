@@ -66,7 +66,6 @@
 <https://github.com/OpenFeign/feign>
 
 ## Related
-- [[http]]
 - [[http-cache]]
 - [[http-server]]
 - [[http2]]

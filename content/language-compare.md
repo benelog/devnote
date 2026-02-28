@@ -176,8 +176,3 @@ Basic
 <http://www.qb64.net/>
 
 ## Related
-- [[golang]]
-- [[groovy]]
-- [[kotlin]]
-- [[python]]
-- [[scala]]

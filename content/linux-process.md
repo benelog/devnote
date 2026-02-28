@@ -35,10 +35,3 @@ kill %\[작업번호\]
 killlall -signal 프로세스명
 
 ## Related
-- [[linux-desktop]]
-- [[linux-dist]]
-- [[linux-kernel]]
-- [[linux-memory]]
-- [[linux-network]]
-- [[linux-shell]]
-- [[linux-tips]]

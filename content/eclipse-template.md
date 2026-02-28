@@ -34,5 +34,3 @@ LoggerFactory.getLogger(\${primary_type_name}.class);
 \${:import('org.mockito.runners.MockitoJUnitRunner')}@RunWith(MockitoJUnitRunner.class)
 
 ## Related
-- [[eclipse-plugins]]
-- [[eclipse-shortcuts]]

@@ -5,10 +5,3 @@
 - [메모리 재할당과 커널 파라미터](https://brunch.co.kr/@alden/14)
 
 ## Related
-- [[linux-desktop]]
-- [[linux-dist]]
-- [[linux-kernel]]
-- [[linux-network]]
-- [[linux-process]]
-- [[linux-shell]]
-- [[linux-tips]]

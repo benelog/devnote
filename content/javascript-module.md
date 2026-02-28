@@ -8,8 +8,5 @@
   관리](https://github.com/nhnent/fe.javascript/wiki/%EC%9D%98%EC%A1%B4%EC%84%B1-%EA%B4%80%EB%A6%AC)
 
 ## Related
-- [[javascript-basic]]
-- [[javascript-dom]]
-- [[javascript-trend]]
 - [[jquery]]
 - [[node-js]]

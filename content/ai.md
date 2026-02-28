@@ -14,8 +14,10 @@
 - <https://github.com/modu-ai/smarter-prompt>
 - <https://petite-peacock-6e6.notion.site/AI-1f9b7b6880c480148190cbaf071eb2f8>
 
-## Related
+## Children
 - [[ai-coding]]
 - [[ai-framework]]
+
+## Related
 - [[gpt]]
 - [[spring-ai]]

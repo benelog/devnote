@@ -224,14 +224,15 @@ of statements exceeded 에러 발생
 - [\[DB](http://blog.openframework.or.kr/10) 가벼운 SQL 인터페이스..\]
 - <http://java.dzone.com/articles/lightweight-sql-interfaces-jav>
 
+## Children
+- [[jdbc-url]]
+
 ## Related
 - [[db-lock]]
 - [[db-normalization]]
 - [[db-schema-tools]]
 - [[db-transation]]
 - [[derby]]
-- [[jdbc-url]]
-- [[jpa]]
 - [[mysql]]
 - [[no-sql]]
 - [[oracle-db]]

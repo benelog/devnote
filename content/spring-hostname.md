@@ -57,18 +57,3 @@ SPel이 잘 먹는지는 다음와 같이 테스트 할 수 있습니다.
 > return InetAddress.getLocalHost(); }
 
 ## Related
-- [[spring-ai]]
-- [[spring-batch]]
-- [[spring-boot]]
-- [[spring-changes]]
-- [[spring-cloud]]
-- [[spring-data-jdbc]]
-- [[spring-db]]
-- [[spring-integration]]
-- [[spring-mvc]]
-- [[spring-properties]]
-- [[spring-resource-handling]]
-- [[spring-security]]
-- [[spring-shell]]
-- [[spring-tips]]
-- [[toby-spring]]

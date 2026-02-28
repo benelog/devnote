@@ -97,7 +97,7 @@
       .data(data.nodes)
       .join('text')
       .text(d => d.title)
-      .attr('font-size', 10)
+      .attr('font-size', d => 8 + (d.count / maxCount) * 8)
       .attr('dx', d => nodeRadius(d) + 2)
       .attr('dy', 3)
       .style('pointer-events', 'none')

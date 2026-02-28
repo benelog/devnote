@@ -12,8 +12,3 @@
 - <https://kvision.io/>
 
 ## Related
-- [[golang]]
-- [[groovy]]
-- [[language-compare]]
-- [[python]]
-- [[scala]]

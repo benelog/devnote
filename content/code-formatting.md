@@ -2,5 +2,4 @@
   newline?](https://stackoverflow.com/a/729795)
 
 ## Related
-- [[code-review]]
 - [[static-analysis]]

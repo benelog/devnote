@@ -73,6 +73,5 @@ Tour](http://junit.sourceforge.net/doc/cookstour/cookstour.htm)
 - [[code-coverage]]
 - [[mock]]
 - [[tdd]]
-- [[tdd-quote]]
-- [[test]]
+- [[test-quote]]
 - [[test-framework]]

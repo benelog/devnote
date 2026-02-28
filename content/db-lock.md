@@ -38,12 +38,6 @@ each transaction is waiting to acqure a lock on data that the other
 transaction has locked.
 
 ## Related
-- [[db-normalization]]
-- [[db-schema-tools]]
-- [[db-transation]]
-- [[derby]]
 - [[jdbc]]
 - [[jdbc-url]]
-- [[mysql]]
 - [[no-sql]]
-- [[oracle-db]]

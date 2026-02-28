@@ -32,7 +32,6 @@
 - [[db-schema-tools]]
 - [[db-transation]]
 - [[derby]]
-- [[jdbc]]
 - [[mysql]]
 - [[no-sql]]
 - [[oracle-db]]

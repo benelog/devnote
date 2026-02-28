@@ -29,6 +29,3 @@ Ivy](http://www.ibm.com/developerworks/java/library/j-ap05068/index.html)
 build.xml](http://gleamynode.net/articles/2234/ant2ide-ide-project-file-generation-from-ant-buildxml)
 
 ## Related
-- [[build-etc]]
-- [[gradle]]
-- [[maven]]

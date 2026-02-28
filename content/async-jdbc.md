@@ -2,7 +2,6 @@
 - <https://github.com/r2dbc>
 
 ## Related
-- [[async]]
 - [[async-server]]
 - [[java-concurrency]]
 - [[java-fiber]]

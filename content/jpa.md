@@ -100,7 +100,6 @@
 - <http://nonrepeatable.blogspot.com/2010/02/using-database-views-in-hibernate.html>
 
 ## Related
-- [[jdbc]]
 - [[orm]]
 - [[spring-data-jdbc]]
 - [[spring-db]]

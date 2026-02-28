@@ -49,9 +49,3 @@ href="http://www.techspot.com/news/53165-google-patches-master-key-android-flaw-
 </table>
 
 ## Related
-- [[android-dependency-injection]]
-- [[android-http-client]]
-- [[android-test]]
-- [[android-thread]]
-- [[android-tips]]
-- [[android-tools]]

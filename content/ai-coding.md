@@ -200,7 +200,6 @@
 - <https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation>
 
 ## Related
-- [[ai]]
 - [[ai-framework]]
 - [[gpt]]
 - [[spring-ai]]

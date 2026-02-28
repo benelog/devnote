@@ -7,10 +7,3 @@
 - <http://www.damnsmalllinux.org/>
 
 ## Related
-- [[linux-desktop]]
-- [[linux-kernel]]
-- [[linux-memory]]
-- [[linux-network]]
-- [[linux-process]]
-- [[linux-shell]]
-- [[linux-tips]]

@@ -29,18 +29,3 @@
 - <https://picocli.info/>
 
 ## Related
-- [[spring-ai]]
-- [[spring-batch]]
-- [[spring-boot]]
-- [[spring-changes]]
-- [[spring-cloud]]
-- [[spring-data-jdbc]]
-- [[spring-db]]
-- [[spring-hostname]]
-- [[spring-integration]]
-- [[spring-mvc]]
-- [[spring-properties]]
-- [[spring-resource-handling]]
-- [[spring-security]]
-- [[spring-tips]]
-- [[toby-spring]]

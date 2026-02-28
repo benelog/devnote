@@ -266,8 +266,3 @@ Test driven development: empirical body of evidence
 
 ## Related
 - [[code-coverage]]
-- [[junit]]
-- [[mock]]
-- [[tdd-quote]]
-- [[test]]
-- [[test-framework]]

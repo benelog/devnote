@@ -14,7 +14,3 @@ Static 멤버변수인데도 요청사이에 공유되지 않도록 Thread local
 <https://github.com/playframework/play/blob/master/framework/src/play/mvc/Controller.java#L61>
 
 ## Related
-- [[java-web-framework]]
-- [[spring-mvc]]
-- [[struts2]]
-- [[vert-x]]

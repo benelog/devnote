@@ -210,18 +210,3 @@ RequestMappingHandlerAdapter에서 supportInternal 메소드 변화
 - <http://blog.springsource.org/2013/05/22/spring-framework-4-0-m1-websocket-support/>
 
 ## Related
-- [[spring-ai]]
-- [[spring-batch]]
-- [[spring-boot]]
-- [[spring-cloud]]
-- [[spring-data-jdbc]]
-- [[spring-db]]
-- [[spring-hostname]]
-- [[spring-integration]]
-- [[spring-mvc]]
-- [[spring-properties]]
-- [[spring-resource-handling]]
-- [[spring-security]]
-- [[spring-shell]]
-- [[spring-tips]]
-- [[toby-spring]]

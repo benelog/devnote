@@ -47,7 +47,6 @@
 
 ## Related
 - [[apache-httpd]]
-- [[http]]
 - [[http-cache]]
 - [[http-client]]
 - [[http2]]

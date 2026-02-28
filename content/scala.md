@@ -16,14 +16,7 @@ IDE와 Maven 설정 : <http://javacan.tistory.com/192>
 - [SBT로 JUnit 테스트 실행하기](http://blog.outsider.ne.kr/567)
 
 ## Related
-- [[clojure]]
 - [[functional-programming]]
-- [[golang]]
-- [[groovy]]
-- [[haskell]]
 - [[java-functional-library]]
 - [[java-lambda]]
-- [[kotlin]]
-- [[language-compare]]
 - [[persistent-data-structure]]
-- [[python]]

@@ -113,36 +113,7 @@ Example](http://java.sun.com/developer/technicalArticles/Networking/HotSpot/inli
 
 <http://daniel.mitterdorfer.name/talks/2015/jvm-deep-dive-ljug/>
 
-## Related
-- [[effective-java]]
+## Children
 - [[graal-vm]]
-- [[java-annotation]]
-- [[java-basic]]
-- [[java-basic-summary]]
-- [[java-bytecode]]
-- [[java-concurrency]]
-- [[java-date]]
-- [[java-dto]]
-- [[java-ee-pattern]]
-- [[java-encoding]]
-- [[java-external-process]]
-- [[java-fast-boot]]
-- [[java-fiber]]
-- [[java-functional-library]]
-- [[java-gc]]
-- [[java-json-parser]]
-- [[java-lambda]]
-- [[java-memory-model]]
-- [[java-multiline-string]]
-- [[java-native-memory]]
-- [[java-performance]]
-- [[java-process-call]]
-- [[java-profiling]]
-- [[java-puzzler]]
-- [[java-references]]
-- [[java-security]]
-- [[java-string]]
-- [[java-thread-dump]]
-- [[java-tips]]
-- [[java-web-framework]]
-- [[openjdk]]
+
+## Related

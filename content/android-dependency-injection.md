@@ -87,11 +87,5 @@ ever seen
 - 2009년 10월 29일 1.0 발표이후 update 안 됨.
 
 ## Related
-- [[android-http-client]]
-- [[android-security]]
-- [[android-test]]
-- [[android-thread]]
-- [[android-tips]]
-- [[android-tools]]
 - [[dependency-injection]]
 - [[spring-boot]]

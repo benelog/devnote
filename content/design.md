@@ -10,9 +10,11 @@ Reeves\[http://www.talk-with-hani.com/archives/1196\[어썸한 디자인이
   <http://blog.needlworks.org/ko/entry/Windows%EC%99%80-Linux-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Textcube>
 - <http://www.moolenaar.net/habits.html>
 
+## Children
+- [[design-pattern]]
+
 ## Related
 - [[architecture]]
 - [[architecture-cases]]
-- [[design-pattern]]
 - [[domain-driven-design]]
 - [[scalability]]

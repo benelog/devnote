@@ -113,18 +113,3 @@
   out!](https://spring.io/blog/2025/07/23/spring-batch-6)
 
 ## Related
-- [[spring-ai]]
-- [[spring-boot]]
-- [[spring-changes]]
-- [[spring-cloud]]
-- [[spring-data-jdbc]]
-- [[spring-db]]
-- [[spring-hostname]]
-- [[spring-integration]]
-- [[spring-mvc]]
-- [[spring-properties]]
-- [[spring-resource-handling]]
-- [[spring-security]]
-- [[spring-shell]]
-- [[spring-tips]]
-- [[toby-spring]]

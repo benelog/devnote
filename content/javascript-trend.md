@@ -2,8 +2,5 @@
   JavaScript in 2015\]
 
 ## Related
-- [[javascript-basic]]
-- [[javascript-dom]]
-- [[javascript-module]]
 - [[jquery]]
 - [[node-js]]

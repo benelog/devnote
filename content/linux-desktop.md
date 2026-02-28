@@ -62,10 +62,3 @@ blacklist 선언은 alsa-base.conf, blacklist.conf 둘 중에 한 곳만 하면 
 듯
 
 ## Related
-- [[linux-dist]]
-- [[linux-kernel]]
-- [[linux-memory]]
-- [[linux-network]]
-- [[linux-process]]
-- [[linux-shell]]
-- [[linux-tips]]

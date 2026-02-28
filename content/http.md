@@ -24,7 +24,7 @@
 
 - <http://appcrawler.com/wordpress/2016/12/19/simulating-a-connection-reset-in-java/>
 
-## Related
+## Children
 - [[http-cache]]
 - [[http-client]]
 - [[http-server]]

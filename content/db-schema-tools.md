@@ -31,12 +31,6 @@ re-specify all configuration if this is the case
 - <http://mojo.codehaus.org/sql-maven-plugin/examples/execute.html>
 
 ## Related
-- [[db-lock]]
-- [[db-normalization]]
-- [[db-transation]]
-- [[derby]]
 - [[jdbc]]
 - [[jdbc-url]]
-- [[mysql]]
 - [[no-sql]]
-- [[oracle-db]]

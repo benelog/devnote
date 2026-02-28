@@ -62,5 +62,4 @@ Graal VM으로 어플리케이션을 실행할때 옵션을 붙이면 reflection
 - [[java-memory-model]]
 - [[java-native-memory]]
 - [[java-profiling]]
-- [[jvm]]
 - [[openjdk]]

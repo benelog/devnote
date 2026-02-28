@@ -8,5 +8,4 @@
 
 ## Related
 - [[jboss]]
-- [[servlet]]
 - [[tomcat]]

@@ -128,8 +128,10 @@
 
 - <https://nering.dev/2016/git-submodules-vs-subtrees/>
 
-## Related
+## Children
 - [[git-command]]
 - [[git-tools]]
+
+## Related
 - [[github]]
 - [[vcs]]

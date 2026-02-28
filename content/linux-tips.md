@@ -28,10 +28,3 @@ gulim.tcc -microsoft-gulim-medium-r-normal–0-0-0-0-p-0-iso10646-1
 참고 )
 
 ## Related
-- [[linux-desktop]]
-- [[linux-dist]]
-- [[linux-kernel]]
-- [[linux-memory]]
-- [[linux-network]]
-- [[linux-process]]
-- [[linux-shell]]

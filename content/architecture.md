@@ -102,8 +102,10 @@ Component as a whole to other client Component instances.
 
 # 오픈소스 아키텍처 : <http://www.aosabook.org/en/>
 
-## Related
+## Children
 - [[architecture-cases]]
+
+## Related
 - [[platform-choice]]
 - [[design]]
 - [[design-pattern]]

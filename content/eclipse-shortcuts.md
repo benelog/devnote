@@ -66,5 +66,3 @@
 - Ctrl+F2 : 프로그램 종료
 
 ## Related
-- [[eclipse-plugins]]
-- [[eclipse-template]]

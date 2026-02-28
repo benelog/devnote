@@ -45,10 +45,13 @@
 
 - <http://www.youtube.com/view_play_list?p=3592C3CFE011E214>
 
-## Related
-- [[code-coverage]]
+## Children
 - [[junit]]
 - [[mock]]
 - [[tdd]]
-- [[tdd-quote]]
 - [[test-framework]]
+- [[test-quote]]
+- [[ui-test]]
+
+## Related
+- [[code-coverage]]

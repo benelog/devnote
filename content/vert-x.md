@@ -4,7 +4,3 @@
 - <http://blog.andrewvc.com/vertx-node-on-ropes>
 
 ## Related
-- [[java-web-framework]]
-- [[play-framework]]
-- [[spring-mvc]]
-- [[struts2]]

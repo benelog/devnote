@@ -25,9 +25,7 @@ Haskell](http://www.ibm.com/developerworks/java/library/j-cb07186.html)
 <http://wiki.kldp.org/wiki.php/YetAnotherHaskellTutorial#s-4.5.3>
 
 ## Related
-- [[clojure]]
 - [[functional-programming]]
 - [[java-functional-library]]
 - [[java-lambda]]
 - [[persistent-data-structure]]
-- [[scala]]

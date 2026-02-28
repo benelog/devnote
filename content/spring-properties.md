@@ -69,18 +69,3 @@ filesystem과 classpath에서 동시에찾는 설정
 ```
 
 ## Related
-- [[spring-ai]]
-- [[spring-batch]]
-- [[spring-boot]]
-- [[spring-changes]]
-- [[spring-cloud]]
-- [[spring-data-jdbc]]
-- [[spring-db]]
-- [[spring-hostname]]
-- [[spring-integration]]
-- [[spring-mvc]]
-- [[spring-resource-handling]]
-- [[spring-security]]
-- [[spring-shell]]
-- [[spring-tips]]
-- [[toby-spring]]

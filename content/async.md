@@ -5,9 +5,11 @@
     - EAP (Event-based Asynchronous Pattern)
     - TAP (Task-based Asynchronous Pattern). async/wait
 
-## Related
+## Children
 - [[async-jdbc]]
 - [[async-server]]
+
+## Related
 - [[event-driven]]
 - [[java-concurrency]]
 - [[java-fiber]]

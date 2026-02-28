@@ -53,8 +53,6 @@ PaaS다”](http://www.bloter.net/archives/114238)
 
 ## Related
 - [[aws]]
-- [[cloud-computing]]
-- [[cloud-deployment]]
 - [[docker]]
 - [[k8s]]
 - [[paas]]

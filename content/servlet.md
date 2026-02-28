@@ -70,11 +70,13 @@ Comet <https://www.ibm.com/developerworks/library/wa-cometjava/>
 Tomcat의 BIO/NIO와 sync/Async Servlet과의 조합 :
 <https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!msg/ksug/cLTLVpYD6P4/NpYnZwRYk0QJ>
 
-## Related
-- [[api-design]]
+## Children
 - [[jboss]]
 - [[jetty]]
+- [[tomcat]]
+
+## Related
+- [[api-design]]
 - [[mvc]]
 - [[rest]]
 - [[spring-mvc]]
-- [[tomcat]]

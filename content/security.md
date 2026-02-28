@@ -134,10 +134,12 @@ Open ssl
 
 </div>
 
-## Related
+## Children
 - [[java-security]]
+- [[sql-injection]]
+- [[xml-injection]]
+
+## Related
 - [[jdbc]]
 - [[oauth]]
 - [[spring-security]]
-- [[sql-injection]]
-- [[xml-injection]]

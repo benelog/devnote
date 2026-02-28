@@ -30,9 +30,6 @@ having 1=1부터 시작해서 group by 절에 컬럼명을 하나씩 넣어서 �
 Mysql의 load_file 등 DBMS dependent 한게 있다.
 
 ## Related
-- [[java-security]]
 - [[jdbc]]
 - [[oauth]]
-- [[security]]
 - [[spring-security]]
-- [[xml-injection]]

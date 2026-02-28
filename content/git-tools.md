@@ -43,7 +43,6 @@ Windows의 탐색기에서 Git을 사용할 수 있도록 도와주는 툴로서
 update site : <http://download.eclipse.org/egit/updates>
 
 ## Related
-- [[git]]
 - [[git-command]]
 - [[github]]
 - [[vcs]]

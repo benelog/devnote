@@ -5,8 +5,6 @@
 
 ## Related
 - [[aws]]
-- [[cloud-computing]]
-- [[cloud-news]]
 - [[continous-deployments]]
 - [[docker]]
 - [[k8s]]

@@ -44,5 +44,4 @@ Writing](http://www.artima.com/weblogs/viewpost.jsp?thread=255898)
 [소스 코드 리뷰와 짝 프로그래밍](http://javajigi.tistory.com/228)
 
 ## Related
-- [[code-formatting]]
 - [[static-analysis]]
