@@ -66,8 +66,6 @@ waitFor는 무한대기 될 수도 있다…​
 
     그런데 위의 코드를 Runtime.exec("javac")를 실행시키는 코드로 바꾸어보면, 이 호출은 영원히 끝나지 않게 됩니다.
 
-[When Runtime.exec()
-won’t](http://www.javaworld.com/javaworld/jw-12-2000/jw-1229-traps.html?page=1)
 : : javaworld에 올라온 고전이자 최고의 글
 
 - You cannot obtain an exit status from an external process until it has

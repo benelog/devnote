@@ -1,7 +1,6 @@
 - [성능이 좋다고 하는 웹서버인 nginx 홈페이지와 위키…​ 그리고 Tomcat과의
   연동Server/nginx](http://www.tuning-java.com/194)
 - <http://www.javajigi.net/pages/viewpage.action?pageId=257327108>
-- [Open Source SSL Acceleration](http://www.o3magazine.com/4/a/0/2.html)
 
 # URL rewrite
 

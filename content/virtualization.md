@@ -29,22 +29,12 @@
 
 자율컴퓨팅(?) )Autonomic Computing)
 
-[데스크톱에도 가상화 바람
-분다](http://www.bloter.net/_news/8df44f71ba8f7a3c)
-
-[가상화의 종류](http://skyul.tistory.com/311)
-
 [가상화의 유형](http://rinapc.com/164)
-
-[그리드 컴퓨팅과 가상화](http://gomufan.tistory.com/354)
 
 [기술을 감추는 미학 ‘가상화’, 오픈소스가
 앞당긴다](http://itviewpoint.com/62136)
 
 <http://news.naver.com/main/read.nhn?mode=LSD&sid1=105&mid=sec&oid=092&aid=0001940892>
-
-[MS, 가상화 시장 공략
-나섰다](http://www.bloter.net/_news/8df450f0adc8b9d6)
 
 [고객에게 가상화를
 묻다](http://news.naver.com/main/read.nhn?mode=LSD&sid1=105&mid=sec&oid=092&aid=0001941816)

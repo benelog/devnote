@@ -12,10 +12,7 @@
 
 <div class="paragraph">
 
-<a href="http://www.sciviews.org/_rgui/"
-class="bare">http://www.sciviews.org/_rgui/</a>http://www.sciviews.org/\_rgui/\[<a href="http://www.sciviews.org/_rgui/"
-class="bare">http://www.sciviews.org/_rgui/</a>\] : R package용 java GUI
-관련 사이트
+R package용 java GUI 관련 사이트
 
 </div>
 
@@ -53,13 +50,6 @@ Graph gallery
 <div class="paragraph">
 
 <http://www.floss4science.com/the-r-graphic-gallery/>
-
-</div>
-
-<div class="paragraph">
-
-<http://addictedtor.free.fr/graphiques/>
-[http://www.sr.bham.ac.uk/ajrs/R/r-gallery.html](http://www.sr.bham.ac.uk/%3Csub%3Eajrs/R/r-gallery.html)
 
 </div>
 

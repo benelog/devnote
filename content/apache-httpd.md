@@ -110,7 +110,7 @@ apachectl graceful
 
 - [Apache 2.2 + PHP 5.2.7 + Tomcat 6.0 연동하기
   (톰캣편)](http://net4all.egloos.com/2164189)
-- <http://tomcat.apache.org/connectors-doc/generic_howto/quick.html>
+
 - [\[mod_jk](http://kwon37xi.egloos.com/1761178) Apache 2 + Tomcat 5.0 +
   mod_jk 1.2 on Linux 연동\] (권남)
 - [\[Tomcat Apache 연동](http://www.tuning-java.com/185) 톰캣과 아파치
@@ -292,7 +292,6 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 <div class="ulist">
 
-- [http://people.apache.org/sctemme/ApconUS2007/scalingup.pdf](http://people.apache.org/%3Csub%3Esctemme/ApconUS2007/scalingup.pdf)
 - [Apache MaxClients와 Tomcat의 Full
   GC](http://helloworld.naver.com/helloworld/132178) : apche의
   maxClient값과 Tomcat의 maxThread, AJP의 backlog값을 결정할 때 고려할
@@ -314,9 +313,7 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 <div class="paragraph">
 
-Ubuntu 배포판 : <a
-href="http://blog.naver.com/PostView.nhn?blogId=nimbusob&amp;logNo=179889399"
-class="bare">http://blog.naver.com/PostView.nhn?blogId=nimbusob&amp;logNo=179889399</a>
+Ubuntu 배포판 :
 
 </div>
 

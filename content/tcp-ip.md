@@ -91,8 +91,6 @@ syn queue: 3-way handshake 중인 connection 이 대기
 - [tcp_tw_reuse와 tcp_tw_recycle](https://brunch.co.kr/@alden/3) :
   tw_use는 outing 트래픽에 대해 로컬 포트가 모자랄 경우, TW 상태에 있는
   소켓을 재사용할 수 있게 해줍니다.
-- <http://kikiho.tistory.com/entry/Linux-TIMEWAIT-State-%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC>
-- <https://www.joinc.co.kr/w/Site/Network_Programing/Documents/Time_Wait>
 
 ### Congestion Control
 

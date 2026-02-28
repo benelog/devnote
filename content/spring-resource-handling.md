@@ -20,7 +20,6 @@
 ### 이전 방식
 
 - <https://github.com/spring-io/sagan/blob/master/sagan-client/build.gradle>
-- <https://github.com/spring-io/sagan/blob/master/sagan-client/gulpfile.js>
 
 ## sagan-site
 
@@ -36,7 +35,6 @@
       // See sagan.ClientResourcesConfig
       "-DSAGAN_HOME=${rootProject.rootDir}"
     ]
-- <https://github.com/spring-io/sagan/blob/master/sagan-site/src/main/java/sagan/MvcConfig.java>
 
 <!-- -->
 
@@ -56,7 +54,7 @@
           }
       }
     }
-- <https://github.com/spring-io/sagan/blob/master/sagan-common/src/main/java/sagan/SaganApplication.java>
+
   - Profile이 특별히 없으면 DEFAULT 프로파일 할당
 
 # Spring boot의 디폴트 동작
@@ -64,7 +62,6 @@
 \*.jar의 static 폴더에 있는 자원을 자동으로 등록
 
 - <https://spring.io/blog/2013/12/19/serving-static-web-content-with-spring-boot>
-- <https://github.com/spring-projects/spring-boot/blob/master/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.java>
 
 spring.resources.static-locations 로 수정 가능
 

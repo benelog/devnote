@@ -25,8 +25,6 @@ expression 사용하지 않기\]
 [\[웹 사이트 속도 향상 베스트 프랙티스 9](http://whiteship.me/2483) DNS
 룩업 줄이기\]
 
-<http://engdic.daum.net/dicen/contents.do?query1=ED00866730>
-
 [Best Practices for Speeding Up Your Web
 Site](http://developer.yahoo.com/performance/rules.html)
 
@@ -35,9 +33,6 @@ Site](http://developer.yahoo.com/performance/rules.html)
 
 [Best Practices for Speeding Up Your Web
 Site](http://developer.yahoo.com/performance/rules.html)
-
-[성능을 위한 초간단 HTTP 304 Not Modified 구현
-방법](http://greatkim91.tistory.com/118)
 
 <http://www.facebook.com/notes/facebook-engineering/bigpipe-pipelining-web-pages-for-high-performance/389414033919>
 
@@ -60,7 +55,7 @@ Webalizer
 
 이미지 Metadata, format, Compression rate 점검
 
-<http://regex.info/exif.cgi>?
+?
 
 <http://tools.phinf.naver.net/tools.html>
 

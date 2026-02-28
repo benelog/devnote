@@ -125,8 +125,8 @@ Class가 잡고 있는 Old Gen 영역이 제대로 확보된다.
 # Monitoring
 
 [Garbage Collection 모니터링
-방법](http://helloworld.naver.com/helloworld/6043)http://5bpa.blog.me/130149643330\[<http://5bpa.blog.me/130149643330>\][GC
-Viewer](http://hermestop.tistory.com/68)jstat -gcutil \<pid\> \<report
+방법](http://helloworld.naver.com/helloworld/6043)http://5bpa.blog.me/130149643330\[<http://5bpa.blog.me/130149643330>\]GC
+Viewerjstat -gcutil \<pid\> \<report
 interval\>
 
 ## GClog
@@ -292,7 +292,7 @@ garbage collection when necessary.
 
 - [\[GC](http://www.tuning-java.com/260) Java GC Tuning 방법 (자바
   메모리 튜닝)\]
-- [재미있는 GC성능 사례](http://ukja.tistory.com/51)
+
 - [GC 관련 Java 애플리케이션 성능과 확장성
   향상시키기](http://blog.naver.com/94eun/100004595476)
 - [JVM 튜닝](http://bcho.tistory.com/entry/JVM-%ED%8A%9C%EB%8B%9D)

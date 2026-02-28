@@ -6,8 +6,6 @@ Toolskeytool -genkey -alias keyAlias -keyalg RSA -keypass pass0101
 
 <http://www.owasp.org/index.php/WebScarab_Getting_Started>
 
-[Smart iframe attack](http://mkseo.pe.kr/blog/?p=1743)
-
 [First Line of Defense for Web
 Applications..](http://madchick.tistory.com/17)
 

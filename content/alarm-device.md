@@ -1,11 +1,11 @@
-<http://www.pragmaticautomation.com/>
+
 
 X10모듈:
 <http://x10.com,http://www.theprescotts.com/software/firecracker>
 
-라바램프 : <http://www.pragmaticprogrammer.com/pa/pa.html>
+라바램프 :
 
-오비언트 오브 : <http://blogs.msdn.com/mswanson/articls/16958.aspx>
+오비언트 오브 :
 
 www.ambientdevices.com
 

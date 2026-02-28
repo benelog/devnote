@@ -7,7 +7,7 @@
   만들었을까?](http://www.slideshare.net/jeokrang/facebook-react-55649927?ref=http://d2.naver.com/)
 - <http://webframeworks.kr/tutorials/react/es2015-react/>
 - <http://www.slideshare.net/jisuyoun/frontend-es6-reactjs>
-- <https://facebook.github.io/react/docs/tutorial.html>
+
 - [React.js 실서비스
   적용기](http://slides.com/roto/react-js-live-service#/)
 - <https://spoqa.github.io/2015/09/09/react-guide-01.html>

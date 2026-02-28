@@ -7,7 +7,6 @@
 - 메뉴얼 :
   javascript:void(0);\[htt://docs.spring.io/spring-shell/docs/current/reference/htmlsingle/\]
 - 예제 :
-  <https://github.com/spring-projects/spring-shell/tree/master/samples/helloworld>
 
 # 사용 프로젝트
 
@@ -17,10 +16,8 @@
 - Spring rest shell
 - <https://github.com/spring-projects/rest-shell/blob/master/src/main/java/org/springframework/data/rest/shell/commands/AuthCommands.java>
 - Spring boot의 유사클래스
-- <https://github.com/spring-projects/spring-boot/blob/master/spring-boot-cli/src/main/java/org/springframework/boot/cli/command/shell/ShellCommand.java>
+
   : JLine 이용\* \*
-  <https://github.com/spring-projects/spring-boot/blob/master/spring-boot-cli/src/main/java/org/springframework/boot/cli/SpringCli.java>
-- <https://github.com/spring-projects/spring-boot/blob/master/spring-boot-cli/src/main/java/org/springframework/boot/cli/Command.java>
 
 # 참고 프로젝트
 

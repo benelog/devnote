@@ -1,7 +1,7 @@
 # 알고리즘 시각화 사이트
 
 - <https://workshape.github.io/visual-graph-algorithms/>
-- <https://algorithm-visualizer.org/>
+
 - <https://visualgo.net/>
 - <http://algo-visualizer.jasonpark.me/>
 - <https://illustrated-algorithms.now.sh/>
@@ -11,7 +11,7 @@
 - <http://bigocheatsheet.com/>
 - <https://medium.com/omarelgabrys-blog/algorithms-data-structures-series-85ec94eb8aff#.ro8tu132u>
 - <https://medium.mybridge.co/algorithm-top-10-articles-in-september-8a0e6afb0807#.dma71wobl>
-- <http://www.cse.ucsd.edu/users/dasgupta/mcgrawhill/>
+
 - <http://david.tribble.com/text/goto.html#part-1>
 - <http://openframework.or.kr/JSPWiki/Wiki.jsp?page=Basic>
 - <http://www.cs.princeton.edu/introcs/40algorithms/>
@@ -48,12 +48,12 @@
 # Hashing, 암호화
 
 [MD5, SHA, 다이제스트, 솔트,
-이터레이션](http://whiteship.me/?p=13111)http://mkseo.pe.kr/blog/?p=2394\[MODERN
-PASSWORD HASHING ALGORITHMS\][CityHash](http://mkseo.pe.kr/blog/?p=2327)
+이터레이션](http://whiteship.me/?p=13111)
+PASSWORD HASHING ALGORITHMS\]CityHash
 Salt : 단방향 해쉬함수에서 다이제스트를 생성할 때 추가되는 바이트 단위의
 임의의 문자열
 
 # 재귀
 
-- 꼬리 재귀 : <http://golee07.tistory.com/364> 메서드 파라미터에 값을
+- 꼬리 재귀 :  메서드 파라미터에 값을
   축적시키는 방식..

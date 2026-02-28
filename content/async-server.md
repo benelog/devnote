@@ -10,7 +10,7 @@
   - 28 페이지에 NIO Connector 관련
 - <https://techblog.bozho.net/tomcats-default-connectors/>
   - <https://github.com/Glamdring/bozho-benchmarks/tree/master/nonblocking>
-- <https://blog.eveoh.nl/2012/04/some-notes-on-tomcat-connector-performance/>
+
 - <http://www.tecbar.net/optimize-tomcat-performance/>
 - <http://tomcat.10.x6.nabble.com/Advantage-of-using-HTTP-NIO-Connector-tp2058749p2058752.html>
 - <https://tomcat.apache.org/tomcat-8.0-doc/config/http.html#Connector_Comparison>

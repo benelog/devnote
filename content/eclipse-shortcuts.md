@@ -39,7 +39,7 @@
 
 - Ctrl + Shift + m : 자동 임포트
 - Ctrl + Shift + o : 임포트 자동 정리
-- [마우스 없이 Getter/Setter 추가하기](http://chanwook.tistory.com/554)
+
   - Alt+Shift+S+R → alt+g → alt+s → enter 또는
   - Alt+Shift+S+R+ I → enter
 - Ctrl + Shift + f : 코드 포맷팅

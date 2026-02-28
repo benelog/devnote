@@ -3,13 +3,6 @@
 [Mockito를 이용한
 MockTestJava](http://javacan.tistory.com/entry/MocktestUsingMockito)
 
-[Mock 라이브러리 - Mockito](http://chanwook.tistory.com/664)
-
-[상태 기반 테스트란?](http://whiteship.tistory.com/1741)
-
-[expect → run → verify 스타일(ex. Easymock)
-바이바이](http://whiteship.tistory.com/1738)
-
 [MockitoVSEasyMock](http://code.google.com/p/mockito/wiki/MockitoVSEasyMock)
 
 [is there a difference between asking and
@@ -24,8 +17,6 @@ telling?](http://monkeyisland.pl/2008/04/26/asking-and-telling/)
 
 <http://blog.frankel.ch/mockito-spy-method-and-spring>
 
-<http://blog.frankel.ch/tech/dev/java/two-different-mocking-approaches>
-
 # Mock 프레임웍비교
 
 *[easymock vs jmock](http://blog.naver.com/iamteri/150021253494)*
@@ -34,30 +25,21 @@ telling?](http://monkeyisland.pl/2008/04/26/asking-and-telling/)
 
 # jmock
 
-- <http://www.jmock.org/> [Using JMock with
-  TDD](http://www.theserverside.com/tt/articles/content/JMockTestDrivenDev/article.html)
+- <http://www.jmock.org/> Using JMock with
+  TDD
 
 # Easymock
 
-[EasyMock으로 클래스의 Mock 객체
-만들기](http://whiteship.tistory.com/1448)http://openframework.or.kr/framework_reference/easymock/2.3/Documentation_ko.html\[\]
+EasyMock으로 클래스의 Mock 객체
+만들기http://openframework.or.kr/framework_reference/easymock/2.3/Documentation_ko.html\[\]
 
 [EasyMock 2.3
 기본문서](http://openframework.or.kr/framework_reference/easymock/2.3/Documentation_ko.html)
 
-[Easy Mock 2 시작하기](http://younghoe.info/101)
+*easymock을 이용한 Spring MVC Form 컨트롤러 요청 처리 테스트의
+개선*
 
-[Mock Object Testing With EasyMock
-2](http://www.realsolve.co.uk/site/tech/easymock.php)
-
-*[easymock을 이용한 Spring MVC Form 컨트롤러 요청 처리 테스트의
-개선](http://younghoe.info/109)*
-
-*[EasyMock(old)을 활용한 협업 테스트](http://younghoe.info/780)*
-
-[EasyMock 1.2 API 개선 1차 시도](http://younghoe.info/803)
-
-<http://whiteship.tistory.com/tag/EasyMock>
+*EasyMock(old)을 활용한 협업 테스트*
 
 <http://bcho.tistory.com/entry/EasyMock%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8>
 
@@ -102,8 +84,6 @@ build 환경, runtime 환경설정을 수정할 필요가 없음.
 
 ## Test double
 
-[테스트 전용 객체(Test Double)](http://younghoe.info/25)
-
 <http://martinfowler.com/bliki/TestDouble.html>
 
 <http://xunitpatterns.com/Test%20Double.html>
@@ -114,20 +94,12 @@ Mock Object 적용에 대한 FAQ : <http://www.mockobjects.com/Faq.html>
 
 <http://martinfowler.com/bliki/TestDouble.html>
 
-[테스트 전용 객체(Test Double)](http://younghoe.info/25)
-
-[expect → run → verify 스타일(ex. Easymock)
-바이바이](http://whiteship.tistory.com/1738)
-
 [Mocks Aren’t
 Stubs](http://martinfowler.com/articles/mocksArentStubs.html)
 
 state verification \<→ behavior veryfication
 
 <http://www.sizovpoint.com/2009/03/java-mock-frameworks-comparison.html>
-
-[Mock 객체가 단위테스트를 컨텍스트와 분리하는일만 하는 것은
-아니다.](http://pragmaticstory.com/1080)
 
 <http://blog.objectmentor.com/articles/2010/01/23/mocking-mocking-and-testing-outcomes>
 

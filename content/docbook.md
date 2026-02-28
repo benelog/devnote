@@ -1,10 +1,8 @@
-<http://www.joinc.co.kr/modules/moniwiki/wiki.php/article/docbook_howto>
+
 
 <http://wiki.kldp.org/KoreanDoc/html/Using_Docbook-KLDP/>
 
 <https://src.springframework.org/svn/spring-batch/trunk/src/site/docbook/reference/repeat.xml>
-
-<http://www.vineetmanohar.com/2010/02/maven-docbook-for-beginners/>
 
 # Linux 설치
 

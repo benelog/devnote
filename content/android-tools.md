@@ -113,8 +113,6 @@ adb devices
 
 <http://gtko.springnote.com/pages/4471143>
 
-<http://koreawolf.tistory.com/237>
-
 용량부족할때
 
 emulator.exe -avd test2 -partition-size 204

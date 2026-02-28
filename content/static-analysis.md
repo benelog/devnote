@@ -191,12 +191,6 @@ Coverity) or security vulnerability analysis (Klocwork, or Fortify).
 
 <div class="sectionbody">
 
-<div class="paragraph">
-
-[www.kclee.de/clements/java/javancss/](http://www.kclee.de/clements/java/javancss/)
-
-</div>
-
 </div>
 
 </div>
@@ -236,19 +230,7 @@ Coverity) or security vulnerability analysis (Klocwork, or Fortify).
 
 <div class="paragraph">
 
-[PMD로 코드리뷰 자동으로 수행하기](http://moai.tistory.com/541)
-
-</div>
-
-<div class="paragraph">
-
 PMD Design Ruls : <http://pmd.sourceforge.net/rules/design.html>
-
-</div>
-
-<div class="paragraph">
-
-[PMD 이클립스 플러그인 사용법](http://blog.empas.com/seeiris/14381547)
 
 </div>
 

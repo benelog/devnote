@@ -11,8 +11,6 @@
 
 # Javascript
 
-- <https://facebook.github.io/immutable-js/>
-
 ## Related
 - [[clojure]]
 - [[functional-programming]]

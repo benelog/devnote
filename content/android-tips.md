@@ -12,8 +12,6 @@
 Strict mode 사용 :
 <http://dev.kthcorp.com/2012/01/31/android-strict-mode-howto/>
 
-[안드로이드_응용프로그램의_반응속도_향상을_위한_메모리_관리_기법.pdf](http://mmlab.sogang.ac.kr/Publication/Domestic_Journals/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C_%EC%9D%91%EC%9A%A9%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%98_%EB%B0%98%EC%9D%91%EC%86%8D%EB%8F%84_%ED%96%A5%EC%83%81%EC%9D%84_%EC%9C%84%ED%95%9C_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B4%80%EB%A6%AC_%EA%B8%B0%EB%B2%95.pdf)
-
 <http://dubroy.com/memory_management_for_android_apps.pdf>
 
 [안드로이드에서 아파치 xml-rpc
@@ -148,8 +146,6 @@ Android UI가 버벅이는 이유 : <http://eggy.egloos.com/3776976>
 안드로이드 그래픽에 대한 진실들 : <http://eggy.egloos.com/3776975>
 
 # 주의할점
-
-<http://www.doubleencore.com/2013/06/context/>
 
 - 똑같이 Context로 보여도 Activity, Application 등 실제로는 다양한
   객체다

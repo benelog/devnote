@@ -22,8 +22,6 @@
 
 # Javascript MVC
 
-- <https://engineering.shopify.com/17489056-rebuilding-the-shopify-admin-improving-developer-productivity-by-deleting-28-000-lines-of-javascript>
-
 # Typescript 도입
 
 - [우리가 Typescript를 선택한

@@ -60,4 +60,3 @@ Cache : <https://gist.github.com/givenjazz/5626084>
 - [http://ogrelab.ikratko.com/android-volley-examples-samples-and-demos/](http://www.kpbird.com/2013/05/volley-easy-fast-networking-for-android.html)
 - <https://github.com/ogrebgr/android_volley_examples>\*
   <http://www.kpbird.com/2013/05/volley-easy-fast-networking-for-android.html>
-- <http://kvandroidapp.blogspot.kr/2013/05/example-using-volley-google-framework.html>

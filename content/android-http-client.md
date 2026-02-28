@@ -1,6 +1,6 @@
 # Pattern
 
-<http://www.google.com/events/io/2010/sessions/developing-RESTful-android-apps.html>\<ul\>\<li
+\<ul\>\<li
 style="list-style: disc outside url("bullet.gif");"\>Activity안에서
 RestClient를 구현하지 마라.\</li\>\<li style="list-style: disc outside
 url("bullet.gif");"\>Long runinng operations는 Service에서
@@ -28,7 +28,7 @@ Bugs
 [Issue 2939: The chunked HTTT input stream must hurry the underlying
 stream](http://code.google.com/p/android/issues/detail?id=2939)
 
-### [AndroidHttpClient.java](https://github.com/android/platform_frameworks_base/blob/master/core/java/android/net/http/AndroidHttpClient.java)
+### AndroidHttpClient.java
 
     main 쓰레드에서 못 돌도록
 

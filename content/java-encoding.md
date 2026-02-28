@@ -1,7 +1,5 @@
 [Java 한글 FAQ](http://blog.naver.com/dusttin/7928977)
 
-[자바메일 첨부파일 한글문제](http://blog.empas.com/do1231/2196697)
-
 [\[자바](http://blog.openframework.or.kr/97) 인코딩\]
 
 [자바에서 한글 처리 문제 - 아직도냐…​](http://corund.egloos.com/2192664)

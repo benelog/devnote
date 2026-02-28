@@ -76,7 +76,7 @@
 # JSR 352
 
 - JSR-352 소개 :
-  <http://www.planetjones.co.uk/blog/25-05-2013/introducing-jsr-352-java-batch-ee-7.html>
+
 - Spring batch 3.0의 JSR-352 관련 스펙들 :
   <https://jira.springsource.org/issues/?jql=labels%20%3D%20JSR-352>
 - 포럼에 관련 질문 :

@@ -9,16 +9,11 @@
 - <http://cqrsjourney.github.io/>
 - [Cutting Edge - Beyond CRUD: Commands, Events and
   Bus](https://msdn.microsoft.com/en-us/magazine/mt767692.aspx)
-- <https://github.com/gyuwon/SimpleCQRS>
-- [Azure를 이용한 Join 없는 글로벌 분산 시스템
-  설계하기](https://onedrive.live.com/view.aspx?resid=B1E53179A4EBCCB1!32444&ithint=file%2cpptx&app=PowerPoint&authkey=!AF5vYzWyHAGxcCs)
-- <https://github.com/gyuwon/SimpleCQRS>
 
 # EventSourcing
 
 - <https://justhackem.wordpress.com/2017/02/05/introducing-event-sourcing/>
 - <http://martinfowler.com/eaaDev/EventSourcing.html>
-- <http://cqrs.nu/Faq/event-sourcing>
 
 ## Kafka 활용
 

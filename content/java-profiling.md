@@ -3,7 +3,7 @@
 - <http://jiprof.sourceforge.net/>http://code.google.com/p/oktech-profiler/\[<http://code.google.com/p/oktech-profiler/>\]
 - <http://www.manageability.org/blog/stuff/open-source-profilers-for-java>
 - <http://www.ibm.com/developerworks/java/library/j-5things7.html>
-- [유용한 자바툴 - jps, jmap, jhat](http://tinywolf.tistory.com/103)
+
 - <http://www.ibm.com/developerworks/kr/library/j-5things7.html>
 
 <http://www.ibm.com/developerworks/kr/library/j-5things8.html>
@@ -31,7 +31,7 @@
   툴](http://www.tuning-java.com/248)
 - [VisualVM](http://blog.openframework.or.kr/91)
 - [VisualVM 플러그인 이야기](http://blog.openframework.or.kr/92)
-- [JavaTool](http://tinywolf.tistory.com/105) 유용한 자바툴 -
+- JavaTool 유용한 자바툴 -
   jvisualvm\]
 - [Troubleshooting application performance with
   VisualVM](http://www.skill-guru.com/blog/2010/11/11/troubleshooting-application-performance-with-visualvm/)
@@ -64,8 +64,6 @@ cent os에서 정의된 tmpwatch에서 지운다.
 /etc/cron.daily/tmpwatch
 
 # JConsole
-
-<http://tinywolf.tistory.com/104>
 
 # Heap Analyzer
 
@@ -179,7 +177,7 @@ jmap -histo:live \<pid\>
 
 <http://code.google.com/p/oktech-profiler/>
 
-Monkey Wrench <http://www.gorillalogic.com/monkeywrench>
+Monkey Wrench
 
 # Your kit
 
@@ -222,8 +220,6 @@ OS나 시스템S/W는 H/W나 다른 하위 S/W 리소스를 Warping하여
 # Spring insight
 
 <http://www.infoq.com/interviews/travis-springinsight>
-
-<http://static.springsource.com/projects/tc-server/2.0/devedition/html/ch04s04.html>
 
 # Byteman
 

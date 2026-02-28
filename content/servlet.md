@@ -7,7 +7,7 @@ JAVA 웹프로그래머의 기본
 javascript:void(0);\[[http://youngrok.com/wiki/wiki.php/%C0%DA%B9%D9%C0%A5%C7%C1%B7%CE%B1%D7%B7%A1%B8%D3%C](http://youngrok.com/wiki/wiki.php/%C0%DA%B9%D9%C0%A5%C7%C1%B7%CE%B1%D7%B7%A1%B8%D3%C)
 0%C7%B1%E2%BA%BB\]
 
-한스의 10가지 jsp tip <http://blog.naver.com/favome/60002068479>
+한스의 10가지 jsp tip
 
 GET, POST, MULTI-PART <http://blog.naver.com/essbihan/100005665540>
 
@@ -16,8 +16,6 @@ GET, POST, MULTI-PART <http://blog.naver.com/essbihan/100005665540>
 <http://blog.naver.com/parkjinhang/120004186612>
 
 JSP 2.0에서 변한것
-
-<http://kr.geocities.com/kwon37xi/jsp20/WhatsNewJSP20-1.html>
 
 JSP 서블릿 한글문제
 
@@ -33,7 +31,7 @@ blob으로 저장된 이미지 파일을 웹에 입출력
 
     Generating Images with JSPs and Servlets : http://today.java.net/pub/a/today/2004/04/22/images.html[http://today.java.net/pub/a/today/2004/04/22/images.html]
 
-filter 사용예 : <http://siyeon.com/servlet/ReferenceView/1376>
+filter 사용예 :
 
 [WAR 파일](http://blog.naver.com/alucard99/35593101)
 
@@ -61,7 +59,6 @@ AsyncServlet
 <http://www.nurkiewicz.com/2011/03/tenfold-increase-in-server-throughput.html>
 <https://github.com/nurkiewicz/token-bucket/blob/master/src/main/java/com/blogspot/nurkiewicz/download/DownloadServletHandler.java>
 
-<http://www.oracle.com/au/products/database/asynchronous-servlets-088344.html>
 <https://dzone.com/articles/limited-usefulness>
 <http://javacan.tistory.com/201>
 

@@ -83,15 +83,14 @@ Component as a whole to other client Component instances.
   구현](http://www.ibm.com/developerworks/kr/library/ar-enterarch3/)
 - [전사적 아키텍처의 핵심, Part 4: 전사적 아키텍처
   테스트](http://www.ibm.com/developerworks/kr/library/ar-enterarch4/)
-- [아키텍처에 대한 좋은 글 메모](http://younghoe.info/1260)
-- Simplex architecture : <http://www.sei.cmu.edu/simplex>
+
+- Simplex architecture :
 
 # Architecture pattern
 
 - <https://docs.microsoft.com/ko-kr/azure/architecture/patterns/anti-corruption-layer>
 - <http://en.wikipedia.org/wiki/Architectural_pattern_%28computer_science%29>
-- <http://wi.wu-wien.ac.at/home/uzdun/publications/ArchPatterns.pdf>
-- <http://softwarearchitecturezen.blogspot.com/2010/08/10-things-i-should-have-learned-in-it.html>
+
 - 4+1 View :
   <http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf>
 

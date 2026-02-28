@@ -30,8 +30,6 @@ wget <ftp://user:password@benelog.net/file.out>
 
 ## Ftps 키 발급
 
-<http://docs.oracle.com/cd/E19159-01/820-4605/ablrb/index.htmlkeytool>
-
 -genkey -alias keyAlias -keyalg RSA -keypass pass0101 -storepass
 pass0101 -keystore ftpkeystore.jks
 

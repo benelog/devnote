@@ -73,7 +73,7 @@ Patterns](http://www.objectmentor.com/resources/articles/Principles_and_Patterns
 
 <div class="content">
 
-    http://www.oracle.com/technology//sample_code/tech/java/ejb_corba/vsm/htdocs/vsmpatterns.html[Design Patterns in the VSM]
+     Patterns in the VSM]
 
 </div>
 
@@ -231,7 +231,6 @@ Simple Factory가 Factory Pattern은 아니다.
 <div class="paragraph">
 
 더블 디스패치 :
-[http://home.postech.ac.kr/skyul/visitor_and_dynamic_dispatch/visitor_and_dynamic_dispatch.html](http://home.postech.ac.kr/%3Csub%3Eskyul/visitor_and_dynamic_dispatch/visitor_and_dynamic_dispatch.html)
 
 </div>
 
@@ -683,12 +682,6 @@ class="bare">http://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programmin
 <div class="paragraph">
 
 <http://david.heinemeierhansson.com/2012/dependency-injection-is-not-a-virtue.html>
-
-</div>
-
-<div class="paragraph">
-
-<http://grantammons.me/2013/01/06/dependency-injection-is-not-a-bad-guy/>
 
 </div>
 

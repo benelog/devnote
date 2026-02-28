@@ -5,8 +5,6 @@ alt="regular_expressions_cheat_sheet.png" />
 
 # 학습
 
-- <https://github.com/zeeshanu/learn-regex/blob/master/README-ko.md>
-
 # 도움사이트
 
 - Java : <http://www.regexplanet.com/advanced/java/index.html>

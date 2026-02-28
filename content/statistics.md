@@ -1,5 +1,3 @@
-[READING : ON CHOMSKY AND THE TWO CULTURES OF STATISTICAL
-LEARNING](http://mkseo.pe.kr/blog/?p=2354)
 
 [Back to the Future: Lisp as a Base for a Statistical Computing
 System](http://lambda-the-ultimate.org/node/3726)
@@ -13,11 +11,6 @@ System](http://lambda-the-ultimate.org/node/3726)
 [An Introduction to Data Mining](http://www.saedsayad.com/)
 
 [Mining of Massive Datasets](http://i.stanford.edu/~ullman/mmds.html)
-
-[BOOK ON MINING MASSIVE DATASETS](http://mkseo.pe.kr/blog/?p=2404)
-
-[웹 분석과 데이터 마이닝을 위한 확률적
-자료구조](http://mkseo.pe.kr/blog/?p=2561)
 
 # SPSS - Java API
 

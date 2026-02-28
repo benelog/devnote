@@ -44,8 +44,6 @@ branch coverage - is every conditional branch tested at least once?
 
 [\[eclemma](http://openframework.or.kr/blog/?p=369) Java Code Coverage\]
 
-[Test Driven Development 전도 일지 2](http://younghoe.info/784)
-
 Code Pro Anlytix Pro
 
 <http://www.instantiations.com/codepro/analytix/server/index.html>

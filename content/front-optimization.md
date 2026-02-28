@@ -4,7 +4,4 @@
 
 # App cache
 
-- [HTML5 App cache 적용시 주의해야할
-  점…](http://b.mytears.org/2010/09/2272)
-
 ## Related

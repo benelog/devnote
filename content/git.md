@@ -5,15 +5,14 @@
 - <http://eclipsesource.com/blogs/2010/06/22/git-support-eclipse-helios-feature-2/>
 - [GIT is inconsistent](http://r6.ca/blog/20110416T204742Z.html)
 - <http://www.youtube.com/watch?v=4XpnKHJAok8>
-- GIT 주요개념 : <http://whiteship.tistory.com/2185>
+- GIT 주요개념 :
 - <http://whiteship.me/2185>
 - [JGit 설치](http://whiteship.me/2181)
 - [GIT config](http://whiteship.me/2189)
-- <http://video.google.com/videoplay?docid=-3999952944619245780&q=Git&total=14242&start=0&num=10&so=0&type=search&plindex=3>
-- <http://video.google.com/videoplay?docid=-2199332044603874737>
+
 - <http://git.or.cz/gitwiki/EclipsePlugin>
 - <http://git.or.cz/gitwiki/EclipsePluginScreenshots>
-- [JGit로 push 성공 기념샷.](http://whiteship.tistory.com/2228)
+
 - [Kenai - Git 을 지원하는 오픈 소스 프로젝트 호스팅
   서비스](http://kwon37xi.egloos.com/4114325)
 - [rm -cached](http://whiteship.me/?p=12920)
@@ -52,7 +51,6 @@
 # 명령어 정리
 
 - [Git 명령어 정리](http://blog.outsider.ne.kr/572)
-- [기트(git) 주요 명령어](http://whiteship.tistory.com/2188)
 
 # Tips
 
@@ -60,19 +58,18 @@
   분리하기](https://blog.outsider.ne.kr/1249)
 - [Git에서 명령어에 별칭(Alias)
   사용하기](http://blog.outsider.ne.kr/571)
-- [25-tips-for-intermediate-git-users](http://andyjeffries.co.uk/articles/25-tips-for-intermediate-git-users)
+
 - [bash 프롬프트에 Git와 Mercurial의 branch를
   표시하기](http://blog.outsider.ne.kr/616)
 - [GIT을 이용한 릴리즈 노트](http://www.ologist.co.kr/1024)
-- <http://insanehong.kr/post/debuging-with-git/>
+
 - [jgitflow를-사용하여-javamaven-프로젝트-릴리즈를-쉽게하는-법](http://softwaregeeks.org/2013/07/03/jgitflow%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-javamaven-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%A5%BC-%EC%89%BD%EA%B2%8C%ED%95%98%EB%8A%94-%EB%B2%95/)
-- <http://blog.lckymn.com/2013/03/11/git-push-to-pull-from-both-github-and-bitbucket/>
+
 - [git diff 에서 변경된 부분을 더 명확하게 보는
   방법](http://blog.outsider.ne.kr/1011)
 
 ## Branch
 
-- [Git - branch 개념정리](http://binggrec.tistory.com/118)
 - [GIT branch 사용](http://kdsoo.com/1262)
 - <http://nvie.com/posts/a-successful-git-branching-model/>
 - [git에서 원격저장소에 branch와 tag를
@@ -103,12 +100,10 @@
 
 # Github
 
-- [Github에 pull, push하기](http://whiteship.tistory.com/2192)
 - <http://dogfeet.github.com/articles/2012/how-to-github.html>
 
 # Workflow
 
-- <https://about.gitlab.com/2014/09/29/gitlab-flow/>
 - <https://www.atlassian.com/blog/archives/simple-git-workflow-simple>
 - <http://endoflineblog.com/gitflow-considered-harmful>
 - <https://georgestocker.com/2020/03/04/please-stop-recommending-git-flow/>

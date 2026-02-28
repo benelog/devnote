@@ -1,7 +1,7 @@
 - [The Ideological Battle for Memory
   Management](https://dev.to/rafacalderon/the-ideological-battle-for-memory-management-4226)
-  - (요약) [메모리 관리에 대한 이념적
-    전투](https://www.fullstackfamily.com/news/2980)
+  - (요약) 메모리 관리에 대한 이념적
+    전투
 - <http://elbenshira.com/blog/the-end-of-dynamic-languages/>
   - <https://news.ycombinator.com/item?id=10614573>
 - ["Type Systems - The Good, Bad and Ugly" by Paul Snively and Amanda
@@ -9,9 +9,6 @@
 
 <http://rosettacode.org/> Subroutines, coroutines, fibers, threads and
 continuations : <http://blog.dahlia.kr/post/18100264586>
-
-[Programming Languages: Application and
-Interpretation](http://skyul.tistory.com/257)
 
 <http://hyperpolyglot.org/scripting>
 
@@ -42,14 +39,9 @@ a search/string-processing program
 
 <http://ateji.blogspot.com/2010/09/java-for-high-performance-computing.html>
 
-[프로그래밍 언어 성능 측정](http://skyul.tistory.com/299)
-
 [An empirical comparison of C, C++, Java, Perl, Python, Rexx, and Tclfor
 a search/string-processing
 program](http://page.mi.fu-berlin.de/prechelt/Biblio/jccpprtTR.pdf)
-
-[Ruby, Io, PHP, Python, Lua, Java, Haskell, and Plain C Fractal
-Benchmark](http://www.timestretch.com/FractalBenchmark.html)
 
 [Ruby와 Javascript 성능비교](http://codian.net/wp/archives/428)
 
@@ -64,18 +56,12 @@ Benchmark](http://www.timestretch.com/FractalBenchmark.html)
 
 # Typing
 
-[정적 타이핑과 동적 타이핑](http://skyul.tistory.com/268)
-
 [Crossing borders: Typing strategies beyond the Java
 model](http://www.ibm.com/developerworks/java/library/j-cb05236.html)
 
 # Concurency and parallelism
 
 [Concurrent와 Parallel의 차이](http://minjang.egloos.com/2517211)
-
-[Concurrency and Parallelism 2](http://skyul.tistory.com/269)
-
-[Concurrency와 Parallelism](http://decoder.tistory.com/516)
 
 # functional programming
 
@@ -86,25 +72,15 @@ model](http://www.ibm.com/developerworks/java/library/j-cb05236.html)
 [\[dW Review](http://blog.doortts.com/134) 함수형 언어로 가는 길
 (상편)\]
 
-[Functional Programming Creeps into Job
-Specs](http://skyul.tistory.com/315)
-
 <http://pchiusano.blogspot.com/2010/09/four-stages-of-functional-programming.html?utm_source=twitterfeed&utm_medium=twitter>
 
 <http://sleeplessinfremont.wordpress.com/2010/06/16/functional-programming-with-google-collection-api-now-guava/>
 
 # 통계
 
-[통계 및 데이터 분석용 언어 R](http://skyul.tistory.com/272)
-
-<http://skyul.tistory.com/272>
-
 # Interface 비교
 
 [인정있는 인터페이스(Humane Interface)](http://www.younghoe.info/15)
-
-[간결함을 지향하는 인터페이스(Minimal
-Interface)](http://younghoe.info/16)
 
 # Erlang
 
@@ -128,28 +104,10 @@ Erlang](http://www.theserverside.com/discussions/thread.tss?thread_id=61573)
 
 # OCaml
 
-[OCaml 프로그램 최적화](http://skyul.tistory.com/303)
-
-[OCaml 죽이기](http://skyul.tistory.com/301)
-
-[Memoization](http://skyul.tistory.com/306)
-
 [Developing Applications
 With](http://caml.inria.fr/pub/docs/oreilly-book/html/)
 
 # Scala
-
-[Scala](http://skyul.tistory.com/284)
-
-[Scala에서 Parital Application](http://skyul.tistory.com/285)
-
-[Scala 이상한 점.](http://skyul.tistory.com/288)
-
-<http://skyul.tistory.com/267>
-
-[Twitter에서 Scala 사용](http://mkseo.pe.kr/blog/?p=1904)
-
-<http://skyul.tistory.com/335>
 
 <http://www.ibm.com/developerworks/kr/library/tutorial/wa-aj-comet/index.html>
 

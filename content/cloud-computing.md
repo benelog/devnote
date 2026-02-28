@@ -4,11 +4,6 @@
 
 [cloud computing에 대한 정의](http://www.jaso.co.kr/257)
 
-[클라우드 서비스의 효과를 함축해서 보여주는
-그림](http://younghoe.info/1291)
-
-<http://www.xoriant.com/blog/cloud-computing-for-isvs/architecture-considerations-for-software-products-on-cloud.html>
-
 기획자를 위한 클라우드 설명 :
 <http://www.slideshare.net/tebica/ss-12788099>
 
@@ -28,8 +23,6 @@ Grid computing 과의 차이
 
 클라우드 컴퓨팅은 애클리케이션의 병렬처리 특성과 무관하게 가상화된
 컴퓨팅 자원을 제공하는 기술.
-
-<http://highscalability.com/how-i-learned-stop-worrying-and-love-using-lot-disk-space-scale>
 
 [오픈 소스 클라우드
 분석](http://www.ibm.com/developerworks/kr/library/os-cloud-anatomy/index.html)
@@ -76,8 +69,6 @@ Cloud](http://www.cs.ucsd.edu/~dlogothetis/docs/mortar_vldb08.pdf)
 * <http://developer.ucloudbiz.olleh.com/blog/cloudstack/RVM-/>
 
 ## Bigdata
-
-<http://www.bloter.net/archives/90508>
 
 <http://channy.creation.net/blog/882>
 

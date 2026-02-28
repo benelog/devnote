@@ -25,18 +25,17 @@
 - [JPA 참고
   자료](http://www.javajigi.net/pages/viewpage.action?pageId=278757380)
 - <http://blog.frankel.ch/hibernate-hard-facts-part-6>
-- [백기선님의 Hibernate 관련
-  자료](http://whiteship.tistory.com/category/Hibernate)
+
 - [Hibernate와 OSAF 스크린캐스트](http://toby.epril.com/?p=374)
-- [JPA @Transient](http://whiteship.tistory.com/1169)
+
 - [Hibernate without Database
   Bottlenecks](http://www.infoq.com/vendorcontent/show.action?vcr=262)
-- <http://www.realsolve.co.uk/site/tech/orm-performance.php>
+
 - [@Repository를 쓴다면 하이버네이트 예외 변환기 직접 만들 필요
   없습니다.](http://whiteship.me/2043)
-- [Hibernate 기초 학습\[45](http://chanwook.tistory.com/396) Batch
+- Hibernate 기초 학습\[45 Batch
   Basic\]
-- [Hibernate 기초 학습\[46](http://chanwook.tistory.com/710) n+1 select
+- Hibernate 기초 학습\[46 n+1 select
   문제의 대안이 되는 Batch size\]
 - <http://hibernate.org/hib_docs/v3/reference/en/html/performance.html>
 - [하이버네이트 매핑파일 was기동시 로딩시간이
@@ -44,18 +43,18 @@
 - [액티브 레코드 vs
   하이버네이트](http://blog.naver.com/scroco?Redirect=Log&logNo=50008520295)
 - [스프링 2.5 환경에서 하이버네이트 사용하기](http://whiteship.me/2140)
-- <http://igooo.org/tc/entry/Dont-repeat-the-DAOHibernate>
+
 - [\[하이버네이트](http://whiteship.me/2312)롹킹과 성능 사이에 서다.\]
 - [Hibernate에서 Annotation으로 Java Enum 과 MySQL의 enum
   매핑](http://kwon37xi.egloos.com/4213045)
 - <http://www.javaworld.com/javaworld/jw-08-2008/jw-08-hibernate-annotations.html>
-- [\[하이버네이트](http://whiteship.tistory.com/2445) 컬럼 타입은 어떻게
+- \[하이버네이트 컬럼 타입은 어떻게
   명시하는게 좋을까?\]
 - [\[OSAF 테스트 가이드 초안](http://whiteship.me/2362) DAO 통합
   테스트\]
-- [\[하이버네이트](http://whiteship.tistory.com/2372) 2차 캐싱
+- \[하이버네이트 2차 캐싱
   적용하기\]
-- [\[하이버네이트](http://whiteship.tistory.com/2373) 1 + 2N select 문제
+- \[하이버네이트 1 + 2N select 문제
   해결하기\]
 - [\[하이버네이트 N+1 Select](http://whiteship.me/?p=12934) 문제 상황
   재현\]
@@ -67,7 +66,7 @@
   Fetching으로 해결하기\]
 - [\[하이버네이트 N+1 Select](http://whiteship.me/?p=12997) Runtime
   Eager Fetching으로 해결하기\]
-- [\[하이버네이트](http://whiteship.tistory.com/2376) 쿼리를 수정할
+- \[하이버네이트 쿼리를 수정할
   것이냐 모델을 수정할 것이냐…​\]
 - [검색및 페이지 처리 구현하기](http://whiteship.me/2681)
 - [\[하이버네이트](http://whiteship.me/?p=12700) 계층 구조당 테이블
@@ -91,12 +90,10 @@
 
 # OpenSessionInView
 
-- [OSIV 사용시 주의 할 것](http://whiteship.tistory.com/1636)
 - [Spring - Open Session In View](https://kingbbode.tistory.com/27)
 
 # View
 
-- <https://forum.hibernate.org/viewtopic.php?t=985811>
 - <http://nonrepeatable.blogspot.com/2010/02/using-database-views-in-hibernate.html>
 
 ## Related

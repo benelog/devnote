@@ -2,9 +2,6 @@
 
 # nohup
 
-[nohup 으로 실행시 , 로그파일 안남게 하는
-방법](http://blog.empas.com/flazma/26071407)
-
 nohup \[command\] 1\> dev/null 2\>&1 &
 
 nohup boot.sh 1\>/dev/null 2\>&1 &

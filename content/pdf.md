@@ -1,3 +1,3 @@
 # 편집
 
-- PDFsam : <http://whiteship.tistory.com/1720>
+- PDFsam :

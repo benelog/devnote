@@ -20,7 +20,7 @@ Infographics](http://www.youthedesigner.com/2012/08/26/free-tools-to-create-visu
 <http://www.slideshare.net/deview/2-hello-world-hello-worldraphael> :
 rachae.js로 차트 그린 이야기
 
-<http://www.jqplot.com/> : <https://github.com/importre/chromead> 에서
+<http://www.jqplot.com/> :  에서
 사용
 
 # 웹에서 그림 편집기

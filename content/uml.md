@@ -1,6 +1,3 @@
-[Use Case Modeling In Theory](http://chanwook.tistory.com/571)
-
-[UML의 한계, 그리고 CBD 방법론자의 생존 방안](http://younghoe.info/832)
 
 마소기사 : 가능성과 확장성을 품고 등장한 UML 2.0
 
@@ -69,8 +66,6 @@ Uml뿐만 아니라 회로도 등 다양한 형식 지원
 <http://www.devcurry.com/2010/06/free-open-source-uml-tools.html>http://www.graphviz.org/Download..php\[\]
 
 <http://www.objectaid.com/class-diagram>
-
-<http://www.architexa.com/index_1.php>
 
 === Web
 

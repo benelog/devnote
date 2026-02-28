@@ -52,12 +52,12 @@ Framework](http://blog.outsider.ne.kr/632)
 - [구글의 머트리얼 디자인 가이드 함께
   보기](http://blog.rightbrain.co.kr/?p=3019)
 - <https://www.polymer-project.org/>
-  - <http://netil.github.io/slides/webcomponent/*>
+
     <https://material.angularjs.org/>
 - [http://www.materialpalette.com](http://www.materialpalette.com/)
 - <http://material.cmiscm.com/>
 - Bootstrap theme
-  - <http://bootswatch.com/paper/>
+
   - <https://fezvrasta.github.io/bootstrap-material-design/>
 - <http://materializecss.com>
 - <http://tutorialzine.com/2015/07/comparing-bootstrap-with-mdl/>

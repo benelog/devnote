@@ -24,8 +24,6 @@
 
 <http://berlinbrowndev.blogspot.com/2009/07/jvm-notebook-basic-clojure-java-and-jvm.html>
 
-<http://jvmnotebook.googlecode.com/files/clojure_jvm_performance.pdf>
-
 <http://stackoverflow.com/questions/1506728/on-performance-and-java-interoperability-clojure-vs-scala>
 
 ## Related

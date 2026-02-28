@@ -25,13 +25,12 @@ Standalone vs Domain :
 
 ## Mode cluster 연동
 
-[﻿JBoss. 이젠 mod_cluster를 이용하여 Apache 웹서버와 연동하자.
-1](http://joss.tistory.com/entry/JBoss-%EC%9D%B4%EC%A0%A0-modcluster%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-Apache-%EC%9B%B9%EC%84%9C%EB%B2%84%EC%99%80-%EC%97%B0%EB%8F%99%ED%95%98%EC%9E%90)http://joss.tistory.com/entry/JBoss-%EC%9D%B4%EC%A0%A0-modcluster%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-Apache-%EC%9B%B9%EC%84%9C%EB%B2%84%EC%99%80-%EC%97%B0%EB%8F%99%ED%95%98%EC%9E%90-2\[JBoss.
+﻿JBoss. 이젠 mod_cluster를 이용하여 Apache 웹서버와 연동하자.
+1-2\[JBoss.
 이젠 mod_cluster를 이용하여 Apache 웹서버와 연동하자. 2\]
 
 # Session clutering
 
-<http://novaculite.tistory.com/36>
 <http://www.jboss.org/dms/AS7/as7webinar/AS7-clustering-webinar.pdf>
 
 ## Related

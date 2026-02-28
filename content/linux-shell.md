@@ -12,7 +12,7 @@
 
 \$(cd `dirname $0` && pwd)
 
-<http://www.electrictoolbox.com/bash-script-directory/> 참조
+ 참조
 
 CD:
 <http://www.ibm.com/developerworks/kr/aix/library/au-directorytree/index.html>
@@ -34,7 +34,6 @@ grep "sysinfo.html" \*\|awk '{print \$1}'
     find /. -name "*" -print -exec grep "benelog" {} \;
 
     find /. -name "*" -print | wc -l
-
 
     # sub directory안의 파일 내용 중에 문자열 대체하기
     find ./ -type f -exec sed -i -e 's/assets-cdn.github.com/github.githubassets.com/g' {} \;

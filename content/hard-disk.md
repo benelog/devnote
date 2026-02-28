@@ -1,5 +1,4 @@
 Failure Trends in a large disk drive population :
-<http://static.googleusercontent.com/external_content/untrusted_dlcp/labs.google.com/ko//papers/disk_failures.pdf>
 
 # SMART
 

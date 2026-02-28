@@ -13,7 +13,6 @@ Commerce, 2002)
 <http://korea.gnu.org/people/chsong/copyleft/open_source.pdf> “할로윈
 문서 : 마이크로소프트의 오픈 소스 공동체에 대한 내부 보고서”
 (프로그램세계 99.2월호, 최준호)
-[http://www.kr.freebsd.org/cjh/freetime/oss/halloween](http://www.kr.freebsd.org/%3Csub%3Ecjh/freetime/oss/halloween)
 
 </div>
 

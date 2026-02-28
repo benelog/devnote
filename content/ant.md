@@ -8,12 +8,6 @@
 [1900개가 넘는 java컴파일시 ant의
 설정](http://blog.naver.com/pluggers/150003316374)
 
-[Ant 라이브러리 관리](http://whiteship.tistory.com/1204)
-
-[Ant 빌드로 테스트 실행하기](http://whiteship.tistory.com/1352)
-
-[Make ANT Easy with Eclipse(번역)](http://chanwook.tistory.com/422)
-
 [Automation for the people: Manage dependencies with
 Ivy](http://www.ibm.com/developerworks/java/library/j-ap05068/index.html)
 

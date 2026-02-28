@@ -4,15 +4,10 @@
 [10.4.4. The ENUM
 Type](http://dev.mysql.com/doc/refman/5.0/en/enum.html)
 
-[10 great articles for optimizing MySQL
-queries](http://phpimpact.wordpress.com/2008/06/12/10-great-articles-for-optimizing-mysql-queries/)
 [MySQL
 Replication](http://lastmind.net/blog/2008/05/mysql-replication.html)
 
     SELECT LAST_INSERT_ID()
-
-[프로세스 강제 종료
-시키기](http://breakpoint.tistory.com/tag/processlist)
 
 [10.2. Numeric
 Types](http://dev.mysql.com/doc/refman/5.0/en/numeric-types.html)
@@ -30,18 +25,14 @@ DATE_FORMAT(now(),'%Y%m%d%H%i%s')
 [MySQL 쿼리 실시간 모니터링 및
 저장하기](http://truefeel.tistory.com/125)
 
-<http://bret.appspot.com/entry/how-friendfeed-uses-mysql>
-
 [프랜드피드는 어떻게 MySQL을 사용해서 스키마 없는 데이터를 저장하나"
 요약](http://colus.egloos.com/5104902)
-
-[Mysql5.1 설치 및 한글설정](http://yunsunghan.tistory.com/456)
 
 # Update
 
 <http://dev.mysql.com/doc/refman/5.0/en/update.html>
 
-<http://www.electrictoolbox.com/article/mysql/cross-table-update/>http://www.electrictoolbox.com/article/mysql/cross-table-update/\[<http://www.electrictoolbox.com/article/mysql/cross-table-update/>\]
+\[\]
 
 # GUI tool
 
@@ -103,7 +94,7 @@ select \* from mysql.userselect \* from mysql.dbselect version()select
 
 ## performance
 
-## <http://venublog.com/2007/11/07/load-data-infile-performance/> : 옵션 조정해서 비교하는 사례
+##  : 옵션 조정해서 비교하는 사례
 
 <http://www.mysqlperformanceblog.com/2008/07/03/how-to-load-large-files-safely-into-innodb-with-load-data-infile/>
 : perl script이용 chunk 사이즈
@@ -111,7 +102,6 @@ select \* from mysql.userselect \* from mysql.dbselect version()select
 : Php에서 load data in file의 성능비교 insert 성능 :
 <http://dev.mysql.com/doc/refman/5.1/en/insert-speed.html>http://kvz.io/blog/2009/03/31/improve-mysql-insert-performance/\[<http://kvz.io/blog/2009/03/31/improve-mysql-insert-performance/>\]
 insert delayed : (myisam에서만 가능)
-<http://chapter31.com/2008/05/22/insert-delayed-with-mysql/>
 
 ## JDBC에 속성포함 예제
 

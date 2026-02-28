@@ -3,7 +3,6 @@
 
 # currying
 
-- <http://skyul.tistory.com/328>
 - 여러 개 인자를 받는 함수를 1개의 인자를 받는 여러 함수로 변화시키는
   것을 커링이라고 부른다.
 - <http://beyond.daesan.com/articles/2007/02/24/ruby-functional-programming-2>

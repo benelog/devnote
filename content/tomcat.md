@@ -38,7 +38,7 @@
   - 앞 단에 Apache Httpd 제거
 
   </div>
-- [Tomcat Performance Tuning](http://www.solutionhacker.com/?p=147)
+
 - <http://www.tomcatexpert.com/blog/2010/03/24/myth-or-truth-one-should-always-use-apache-httpd-front-apache-tomcat-improve-perform>
 
 </div>
@@ -65,12 +65,6 @@ tomcat 6에서는 EL 관련 라이브러리를 두가지를 사용
 
 </div>
 
-<div class="paragraph">
-
-<http://apache.mirror.cdnetworks.com/tomcat/tomcat-6/v6.0.26/RELEASE-NOTES>
-
-</div>
-
 <div class="ulist">
 
 - el-api.jar (EL 2.1 API)
@@ -82,8 +76,8 @@ tomcat 6에서는 EL 관련 라이브러리를 두가지를 사용
 
 그 반면 tomcat 5.5에서는 apache commons에 있는 EL을 사용 \*
 <http://apache.tt.co.kr/tomcat/tomcat-5/v5.5.29/RELEASE-NOTES> \* <a
-href="https://www.safaribooksonline.com/library/view/Tomcat:+The+Definitive+Guide,+2nd+Edition/9780596101060/ch04.html#benchmark_results_for_serving_small_tex"
-class="bare">https://www.safaribooksonline.com/library/view/Tomcat:+The+Definitive+Guide,+2nd+Edition/9780596101060/ch04.html#benchmark_results_for_serving_small_tex</a>
+href=",+2nd+Edition/9780596101060/ch04.html#benchmark_results_for_serving_small_tex"
+class="bare">,+2nd+Edition/9780596101060/ch04.html#benchmark_results_for_serving_small_tex</a>
 
 </div>
 
@@ -103,9 +97,7 @@ class="bare">https://www.safaribooksonline.com/library/view/Tomcat:+The+Definiti
   보자.](http://blog.naver.com/eclipse4j.do?Redirect=Log&logNo=120004176433)
 - [tomcat 5.5.9 에 admin 설치
   하기](http://blog.naver.com/hdyu12?Redirect=Log&logNo=10001167934)
-- [Tomcat
-  Admin](http://blog.naver.com/whitesky39?Redirect=Log&logNo=60017446373)
-- [Tomcat admin 활성화하기](http://exoth.com/blog/219)
+
 - [Tomcat 서버 설치 및 환경
   세팅](http://wiki.javajigi.net/pages/viewpage.action?pageId=381)
 - [Tomcat 설정파일 server.xml
@@ -130,11 +122,9 @@ class="bare">https://www.safaribooksonline.com/library/view/Tomcat:+The+Definiti
 - [Tomcat 5.5에서 context
   설정](http://blog.naver.com/dulposooil/140047520131)
 - <http://blog.naver.com/soulooso/60035921997>
-- [Tomcat 5.5 서버에 호스트 설정하기 :: Host Configuration on Tomcat
-  5.5](http://www.yunsobi.com/tt/subby/274)
+
 - [단일 Tomcat 서버에서 가상 호스트 설정법과 각 호스트별 Manager 기능
   설정](http://okjsp.pe.kr/seq/91825)
-- [tomcat reloadable](http://blog.naver.com/1b20/38447383)
 
 </div>
 
@@ -168,10 +158,10 @@ class="bare">https://www.safaribooksonline.com/library/view/Tomcat:+The+Definiti
 <div class="ulist">
 
 - <http://java.dzone.com/articles/mark-thomas-apache-tomcat-7>
-- <http://svn.apache.org/repos/asf/tomcat/tc7.0.x/tags/>
+
 - <http://java.dzone.com/articles/memory-leak-protection-tomcat>
 - [\[톰캣](http://whiteship.me/2599) 톰켓 7의 메모리 누수 방지\]
-- <http://svn.apache.org/repos/asf/tomcat/tc7.0.x/tags/>
+
 - <http://tomcat.apache.org/tomcat-6.0-doc/aio.html>
 - <http://www.tomcatexpert.com/blog/2011/01/26/cross-site-scripting-xss-prevention-tomcat-7>
 

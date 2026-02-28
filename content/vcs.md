@@ -18,9 +18,7 @@
 <http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/> :
 GIT은 맥가이버, Mercurial은 제임스 본드
 
-<http://altdevblogaday.org/2011/03/09/its-time-to-stop-using-subversion/>
-
-Subversion re-education : <http://surpreem.com/archives/51>
+Subversion re-education :
 
 ## Children
 - [[git]]

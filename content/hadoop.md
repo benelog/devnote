@@ -10,27 +10,11 @@
 
 [Hadoop을 이용하지 않는 Map&Reduce](http://www.jaso.co.kr/260)
 
-[MapReduce, Hadoop 관련 링크](http://decoder.tistory.com/543)
-
 [Enterprise 시장에서의 mapreduce](http://www.jaso.co.kr/283)
-
-[http://wikis.sun.com/download/attachments/38208497/Hadoop-Primer.pdf](http://younghoe.info/952)
-
-[Hadoop의 map task 스케줄링](http://blog.naver.com/smiler82/30039332654)
-
-[Hadoop and
-Neptune](http://moai.tistory.com/attachment/4998bdb2caf789Y.pptx)
-
-[Hadoop 관련 프로젝트 정리](http://mixellaneous.tistory.com/620)
-
-<http://hadoop.apache.org/core/docs/r0.15.2/quickstart.html>
 
 <http://www.jco.or.kr/conference/data/10th/Merlin-1.zip>
 
 [Hadoop DB](http://www.jaso.co.kr/368)
-
-[A Comparison of Approaches to Large-Scale Data Analysis: MapReduce vs.
-DBMS Benchmarks](http://database.cs.brown.edu/sigmod09/)
 
 [RDBMS, Hadoop, Neptune](http://www.jaso.co.kr/364)
 
@@ -66,7 +50,7 @@ HDFS filesystem uses
 
 - [HBase](http://en.wikipedia.org/wiki/HBase) -
   [BigTable](http://en.wikipedia.org/wiki/BigTable)-model database.
-- <http://wiki.apache.org/hadoop/Hive> : data warehouse infrastructure
+-  : data warehouse infrastructure
   built on top of [Hadoop](http://wiki.apache.org/hadoop/). SQL-like
   query language, called QL, that HBase는 HDFS를 기반으로 하는 또 하나의
   흥미로운 애플리케이션으로 Google BigTable과 비슷한 고성능 데이터베이스
@@ -75,33 +59,16 @@ HDFS filesystem uses
 
 ## Eclipse plugin
 
-<http://combible.tistory.com/39>
-
 <http://www.alphaworks.ibm.com/tech/mapreducetools/>
 
 ## 주요개념
 
-<http://labs.google.com/papers/mapreduce.html> 논문
-
-<http://wiki.apache.org/hadoop/HadoopMapReduce>
-
-[구글의 MapReduce의 간략한 이해](http://ypshin.com/2690309)
-
-[Hadoop의 map task 스케줄링](http://blog.naver.com/smiler82/30039332654)
-
-<http://hadoop.apache.org/core/docs/r0.19.1/mapred_tutorial.html>
-
-<http://hadoop.apache.org/core/docs/r0.19.1/hdfs_design.html>
+ 논문
 
 [하둡 분산 파일 시스템: 구조와 설계(The Hadoop Distributed File System:
 Architecture and Design)](http://virgo81.tistory.com/46)
 
     Linux에 mount
-
-[Sqoop: A database import tool for
-Hadoop](http://mixellaneous.tistory.com/676)
-
-<http://combible.tistory.com/52>
 
 [hadoop을 linux 파일시스템으로 mount](http://www.jaso.co.kr/100)
 

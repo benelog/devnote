@@ -9,11 +9,9 @@
 - Facebook geographic distributed architecture :
   <http://bcho.tistory.com/416>
 - <http://www.infoq.com/presentations/Scale-at-Facebook>
-- <http://royal.pingdom.com/2010/06/18/the-software-behind-facebook/>
 
 # Tumblr
 
-- <http://rainblue.kr/1045>
 - [Tumblr Architecture - 15 Billion Page Views a Month and Harder to
   Scale than
   Twitter](http://ti.nhncorp.com/CS/cs.jsp?tsd=2012-02-21&tsu=http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html)

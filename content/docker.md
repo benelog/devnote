@@ -44,9 +44,6 @@
 
 ## Docker + Virgo
 
-- <http://eclipsesource.com/blogs/2013/07/03/automated-installation-of-virgo-with-docker/>
-- <http://eclipsesource.com/blogs/2013/10/25/continuous-deployment-with-docker-and-virgo/>
-
 # Java in container
 
 - <https://aboullaite.me/speed-up-your-java-application-images-build-with-buildkit/>
@@ -55,7 +52,7 @@
   - <https://spring.io/guides/topicals/spring-boot-docker>
   - <https://perfectacle.github.io/2019/04/16/spring-boot-docker-image-optimization/>
   - <https://medium.com/@gaemi/spring-boot-%EA%B3%BC-docker-with-jib-657d32a6b1f0>
-  - <http://thediscoblog.com/blog/2014/06/13/docker-containers-with-gradle-in-4-steps/>
+
 - <https://www.youtube.com/watch?v=qKqqQcjheAg>
 
 'Connection to the Docker daemon at '/var/run/docker.sock' failed with

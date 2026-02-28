@@ -27,7 +27,6 @@
 
 # Webserver 띄우기
 
-- <https://scotch.io/tutorials/a-quick-guide-to-using-livereload-with-gulp>
 - <http://code.tutsplus.com/tutorials/gulp-as-a-development-web-server—​cms-20903>
 
 # Bower + live reload

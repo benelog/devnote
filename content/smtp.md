@@ -5,8 +5,8 @@
   - <http://nilhcem.com/FakeSMTP/> : Desktop UI
 - 라이브러리형
   - <https://greenmail-mail-test.github.io/greenmail/>
-    - <https://memorynotfound.com/spring-mail-integration-testing-junit-greenmail-example/>
+
       참고
   - <https://github.com/voodoodyne/subethasmtp>
-    - <http://www.javatronic.fr/articles/2014/02/15/a_smtp_server_in_java_for_unit_test.html>
+
   - <https://github.com/kirviq/dumbster>

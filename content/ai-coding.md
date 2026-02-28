@@ -151,8 +151,8 @@
 - youtube.com/watch?si=fp9Uqlc_n8bCv1Nq&v=K2rVBIb-KWE&feature=youtu.be\[25년
   현재 어떤 CLI툴을 써야하는지 말씀드리겠습니다\] (박진형 님)
 - <https://opencode.ai/>
-- (Vive) [Git Worktree를 즐겁게 만드는 CLI 도구를
-  만들었습니다](https://www.fullstackfamily.com/news/3341)
+- (Vive) Git Worktree를 즐겁게 만드는 CLI 도구를
+  만들었습니다
 - [Vibe Kanban: OpenCode + Claude Code 동시에? AI 코딩 에이전트
   오케스트레이션](https://fornewchallenge.tistory.com/entry/%F0%9F%9A%80-Vibe-Kanban-OpenCode-Claude-Code-%EB%8F%99%EC%8B%9C%EC%97%90-AI-%EC%BD%94%EB%94%A9-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%98%A4%EC%BC%80%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98)
 

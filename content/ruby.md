@@ -11,7 +11,7 @@
 
 루비퀴즈 : <http://www.rubyquiz.com/>
 
-루비기본문법 : <http://docs.google.com/View?docid=ajb44wcvmjj8_2fg33f2>
+루비기본문법 :
 
 [MF Bliki: Groovy or
 JRuby](http://martinfowler.com/bliki/GroovyOrJRuby.html)
@@ -26,8 +26,6 @@ Developmenthttp://network.hanb.co.kr/view.php?bi_id=1458\[
 
 [Fixtures in Ruby Unit
 Tests](http://push.cx/2007/fixtures-in-ruby-unit-tests)
-
-[UltraEditor로 루비 개발환경 설정하기](http://moai.tistory.com/454)
 
 [컨퍼런스 발표를 마치고](http://pds8.egloos.com/pds/200803/19/44/pt.pdf)
 
@@ -80,8 +78,6 @@ Heroku](http://lastmind.net/blog/2009/02/learning-rails-heroku.html)
 
 <http://toby.epril.com/?p=722>
 
-[Static Type Inference for Ruby](http://skyul.tistory.com/264)
-
 ## Rake
 
 [Rake를 사용해 보고](http://corund.egloos.com/84815)
@@ -93,8 +89,6 @@ Heroku](http://lastmind.net/blog/2009/02/learning-rails-heroku.html)
 ## Migration
 
 ruby script/generate migration add_price_column
-
-<http://lambert.tistory.com/142>
 
 rake db:migrate
 

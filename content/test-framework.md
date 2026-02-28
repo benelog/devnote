@@ -1,13 +1,9 @@
 [테스트 자동화
 도구들](http://bcho.tistory.com/entry/%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%8F%99%ED%99%94-%EB%8F%84%EA%B5%AC%EB%93%A4)
 
-[The unit testing gap](http://rc3.org/2007/01/the-unit-testin.php)
-
 <http://www.unitils.org/summary.html>
 
 *test automation frameworks.pdf*
-
-[테스트 자동화는 왜 실패하는가 ?](http://moai.tistory.com/644)
 
 [테스팅 프레임워크는 직접 만들어 써보자](http://toby.epril.com/?p=424)
 
@@ -17,12 +13,9 @@
 
 ## Junit 기반의 성능테스트
 
-- <http://www.clarkware.com/software/JUnitPerf.html>
   <http://labs.carrotsearch.com/junit-benchmarks-tutorial.html>
 
 <http://code.google.com/p/junitbench/>
-
-<http://databene.org/contiperf.html>
 
 ## Nunit
 
@@ -39,10 +32,9 @@
 - <http://www.dallaway.com/acad/dbunit.html>
 - <http://dbunit.sourceforge.net/>
   - <http://dbunit.sourceforge.net/faq.html#extract>
-- [\[JAVA](http://kekedie.tistory.com/96) DBUnit 엑셀파일(.xls) import &
+- \[JAVA DBUnit 엑셀파일(.xls) import &
   export\]
-- [DbUnit](http://whiteship.tistory.com/403)
-- [DbUnit 사용하기](http://whiteship.tistory.com/407)
+
 - [DBUnit의 사용](http://blog.naver.com/ecshoons/60000381502)
 - [\[회사일](http://whiteship.me/2677) DAO 테스트 만들기\]
 
@@ -60,12 +52,6 @@
 ## AgitarOne
 
 - <http://www.agitar.com/>
-- [JUnit 테스트 코드 생성 도구 AgitarOne -
-  소개](http://moai.tistory.com/445)
-- [JUnit 테스트 코드 생성 도구 AgitarOne - 설치 및
-  실행](http://moai.tistory.com/446)
-- [JUnit 테스트 코드 생성 도구 AgitarOne - 테스트 코드
-  생성하기](http://moai.tistory.com/447)
 
 ## JTest
 
@@ -74,8 +60,6 @@
 <http://fitness.org/>
 
 # 더 많은 테스트 지원 소프트웨어들
-
-<http://www.xprogramming.com/software.htm>
 
 <http://www.testingfaqs.org/t-unit.html>
 

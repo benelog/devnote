@@ -24,25 +24,21 @@
 - [http:///www.infoq.com/news/2007/09/eric-evans-domain-driven-design](http://www.infoq.com/news/2007/09/eric-evans-domain-driven-design)
 - [박성철님의 DDD 산책
   발표](http://www.slideshare.net/gyumee/ddd-10067384)
-- [DDD: putting the model to
-  work](http://www.infoq.com/presentations/model-to-work-evans;jsessionid=598EEE33567DCD3CDD6A2D35EA48A71C)
+
 - [나도 DDD 하고싶어 모델링
   적용기](http://truthiness.pe.kr/blog/archives/323)
 - [DDD에서 말하는 Ubiquitous Langauge가 어려운
   이유](http://toby.epril.com/?p=356)
-- [Services](http://whiteship.tistory.com/1323)
-- [Modules](http://whiteship.tistory.com/1325)
-- [Factories](http://whiteship.tistory.com/1341)https://blog.appkr.dev/work-n-play/learn-n-think/ddd-hexagonal/
-- [DDD 인덱스 페이지](http://younghoe.info/747)
-- [DDD 입문에 좋은 글](http://whiteship.tistory.com/2267)
+
+- Factorieshttps://blog.appkr.dev/work-n-play/learn-n-think/ddd-hexagonal/
+
 - [도메인 로직과 SQL](http://gyumee.egloos.com/1783716) (원문 : [Domain
   Logic and SQL](http://martinfowler.com/articles/dblogic.html) )
 - [고객과 개발자를 아우르는 하나의 언어 도메인이 주도하는
   개발](http://www.zdnet.co.kr/builder/dev/web/0,39031700,39170212,00.htm)
-- [JSSpec을 이용한 행동 주도 개발 BDD(Behavior Driven
-  Development)](http://www.zdnet.co.kr/builder/dev/web/0%2C39031700%2C39170216%2C00.htm)
+
 - [\[DDD](http://whiteship.me/2268) Whiteship’s DDD 아키텍처\]
-- [데이터 주도 설계 대 책임 주도 설계](http://younghoe.info/1076)
+
 - 빈약한 Domain Object :
   [http://martinfowler.com.bliki.AnemicDomainModel.html](http://martinfowler.com.bliki.anemicdomainmodel.html/)
 - [DDD (Domain Driven Design) - Context Continuous
@@ -57,12 +53,10 @@
 
 # Sculptor
 
-<http://www.theserverside.com/tt/articles/content/ProductivityWithSculptor/article.html>
-
 ## Sample
 
 - <http://dddsample.sourceforge.net/>
-- <http://dddstepbystep.com/>
+
 - <http://debasishg.blogspot.com/2006/12/domain-driven-design-service-injection_12.html>
 
 # 연재

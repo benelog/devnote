@@ -35,28 +35,17 @@ Workplace](http://bobbyryu.blogspot.com/2008/03/collanos-workplace.html)
 [Mylyn 2.0, Part 2: 자동화 된 콘텍스트
 관리](http://www.ibm.com/developerworks/kr/library/j-mylyn2/index.html)
 
-[Video: Using Mylyn with
-JIRA](http://blogs.atlassian.com/developer/2007/12/vidoe_using_mylyn_with_jira.html)
-
 [ALPages
 Customization](http://bcho.tistory.com/entry/ALPages-Customization)
 
 [AL Pages 인스톨
 가이드](http://bcho.tistory.com/entry/AL-Pages-%EC%9D%B8%EC%8A%A4%ED%86%A8-%EA%B0%80%EC%9D%B4%EB%93%9C)
 
-[Confluence 개인용은 공짜.](http://whiteship.tistory.com/1289)
-
 # Jira
 
-[Tomcat 6, MySQL에 JIRA(WAR/EAR 버전)
-설치하기](http://whiteship.tistory.com/1514)
-
 # Trac
-
-[Trac On Windows](http://traconwindows.wordpress.com/)
 
 <http://sourceforge.net/projects/traconwindows/>
 
 # RedMine
 
-[RedMine 기본설치](http://twiny.tistory.com/1671)

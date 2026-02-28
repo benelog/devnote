@@ -7,8 +7,8 @@
 
 ## 국외
 
-- <http://www.pcworld.com/businesscenter/article/146048/mass_sql_injection_attack_targets_chinese_web_sites.html>\[
-- <http://www.pcworld.com/businesscenter/article/146048/mass_sql_injection_attack_targets_chinese_web_sites.html>\]
+- \[
+- \]
 - <http://www.technewsworld.com/story/Mass-SQL-Attack-a-Wake-Up-Call-for-Developers-62783.html?welcome=1209498513&welcome=1210717878>
 - <http://www.theregister.co.uk/2008/05/21/china_sql_injection_attack/>
 - <http://erratasec.blogspot.com/2007/08/sidejacking-with-hamster_05.html>
@@ -17,7 +17,7 @@
 
 - <http://blog.naver.com/PostView.nhn?blogId=mkgk888&logNo=150090912890>
 - <http://sqlninja.sourceforge.net/>
-- <https://addons.mozilla.org/en-US/firefox/addon/sql-inject-me> :
+-  :
   firefox 12이후 안 됨
 
 # 기법

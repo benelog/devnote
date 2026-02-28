@@ -1,7 +1,5 @@
 # Spring 3.0
 
-- [Live from SpringOne 2008: Collected bits about Spring
-  3.0](http://www.springify.com/archives/15)
 - [Spring 3.0 (1) 프로젝트 구조와 빌드 시스템의
   변화](http://toby.epril.com/?p=557)
 - [Spring 3.0 (2) R-518 스프링의 새 모듈 OXM(Object/XML
@@ -17,18 +15,17 @@
   분석](http://toby.epril.com/?p=618)
 - [Spring 3.0 (11) Aspects 모듈의 선택 라이브러리
   분석](http://toby.epril.com/?p=620)
-- [로든 존슨 감독의 인터뷰 시청](http://chanwook.tistory.com/758)
+
 - [Petclinic을 통해 스프링 3.0 주요기능
   살펴보기](http://whiteship.me/2151)
 - [OpenSprout Nexus 이용하여 스프링 3.0 라이브러리
   추가하기](http://whiteship.me/2190)
 - <http://www.opensprout.org:9060/browse/OSAF/osaf/trunk>
-- [Spring 2.5 on the Way to 3.0 - 유겐
-  휄러](http://whiteship.tistory.com/1966)
+
 - [What’s new in Spring 3.0?](http://whiteship.me/2199)
 - [\[스프링 3.0](http://whiteship.me/2423) @Valid 이론\]
 - [\[스프링 3.0](http://whiteship.me/2424) @Valid 실습\]
-- [스프링 3.0](http://whiteship.tistory.com/2397) 애노테이션 기반
+- 스프링 3.0 애노테이션 기반
   스케줄링\]
 
 ## Spring and Java EE5

@@ -5,8 +5,6 @@
 
 <http://today.java.net/pub/a/today/2008/04/10/source-code-analysis-using-java-6-compiler-apis.html>
 
-<http://blogs.steeplesoft.com/2012/07/annotation-processing-the-new-way/>
-
 <http://turbomanage.wordpress.com/2012/09/28/annotation-processor-android-eclipse/>
 
 <http://blog.xebia.com/2009/07/21/testing-annotation-processors/>
@@ -35,7 +33,6 @@
 Getter/Setter생성, toString 같은 뻔한 코드를 Annotation으로 대체해서 쓸
 수 있는, 유명한 라이브러리입니다.
 EclipseAnnotationsEclipseAnnotationHandlerJavacAnnotationHandler
-<https://github.com/rzwitserloot/lombok/blob/master/src/core/lombok/eclipse/handlers/HandleGetter.javahttps://github.com/rzwitserloot/lombok/blob/master/src/core/lombok/javac/handlers/HandleGetter.java>
 
 ## Android Annotations
 
@@ -48,8 +45,7 @@ EclipseAnnotationsEclipseAnnotationHandlerJavacAnnotationHandler
 
 AbstractQuerydslProcessorcom.mysema.query.apt.jpa.JPAAnnotationProcessor
 
-[EclipseCompilationTest.java](https://github.com/mysema/querydsl/blob/master/querydsl-apt/src/test/java/com/mysema/query/apt/EclipseCompilationTest.java)
-[http://blog.mysema.com/2010/10/using-querydsl-in-eclipse.html\>\<https://github.com/mysema/querydsl/blob/master/querydsl-apt/src/main/java/com/mysema/query/apt/AbstractQuerydslProcessor.java\>\<https://github.com/mysema/querydsl/blob/master/querydsl-apt/src/main/java/com/mysema/query/apt/jpa/JPAAnnotationProcessor.java](http://blog.mysema.com/2010/10/using-querydsl-in-eclipse.html><https://github.com/mysema/querydsl/blob/master/querydsl-apt/src/main/java/com/mysema/query/apt/AbstractQuerydslProcessor.java><https://github.com/mysema/querydsl/blob/master/querydsl-apt/src/main/java/com/mysema/query/apt/jpa/JPAAnnotationProcessor.java)
+[http://blog.mysema.com/2010/10/using-querydsl-in-eclipse.html\>\\<https://github.com/mysema/querydsl/blob/master/querydsl-apt/src/main/java/com/mysema/query/apt/jpa/JPAAnnotationProcessor.java](http://blog.mysema.com/2010/10/using-querydsl-in-eclipse.html><https://github.com/mysema/querydsl/blob/master/querydsl-apt/src/main/java/com/mysema/query/apt/jpa/JPAAnnotationProcessor.java)
 
 조언 <https://plus.google.com/102717421433762219474/posts/FQcboWtVazV>
 Hi ! Answering from my G Nexus, please excuse typos :-) Refresh problem
@@ -89,9 +85,9 @@ information on this page too :
 This is an extra project I had to set up, mainly to handle dependencies
 (Couldn’t figure out how to have Eclipse deps mechanism talking to
 Maven) :
-<https://github.com/excilys/androidannotations/tree/develop/androidannotations-dependencies>
+
 And of course there’s also the main project :
-<https://github.com/excilys/androidannotations/tree/develop/AndroidAnnotations/androidannotations>
+
 "I made the API a library because it includes some of the ORM runtime,
 as well." ⇒ It could still be a simple JAR, right ? It seems to me that
 the main advantage of library projects is to allow sharing of android

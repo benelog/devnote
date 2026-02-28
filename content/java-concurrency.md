@@ -5,7 +5,6 @@
 
 # Concurrency 개념
 
-- [Parallelism and Concurrency 1](http://skyul.tistory.com/263)
 - <http://minjang.egloos.com/2517211>
 - <http://tutorials.jenkov.com/java-concurrency/index.html>
 - Double check idiom
@@ -80,7 +79,6 @@ volatile 필드가 어떻게 동작하는지도 명확하게 명세하고 있지
 # Mac
 
 - <http://geek.starbean.net/?p=193>
-- <https://forums.oracle.com/forums/thread.jspa?threadID=1526499&tstart=750>
 
 ``` java
 public static String getMessageDigest(Mac mac, String message) {
@@ -111,7 +109,7 @@ public static String getMessageDigest(Mac mac, String message) {
 # Fork & Join
 
 - <http://whiteship.me/?p=13100>
-- <http://mkseo.pe.kr/blog/?p=2465>
+
 - <http://www.slideshare.net/knight1128/jdk-7-4forkjoin>
 
 # AkkA

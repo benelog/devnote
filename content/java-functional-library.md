@@ -16,8 +16,6 @@ convert = Guava의 transform
 
 # Bolt
 
-<https://bitbucket.org/stepancheg/bolts/wiki/Home>
-
 # Lambda J
 
 <https://code.google.com/p/lambdaj/>

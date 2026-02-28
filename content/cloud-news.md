@@ -1,5 +1,3 @@
-[아마존이 이야기하는 클라우드의 5대
-조건](http://www.bloter.net/archives/107022)
 
 [세계 IT시장은 지금 클라우드 컴퓨팅
 열풍](http://news.naver.com/main/read.nhn?mode=LSD&sid1=105&mid=sec&oid=092&aid=0001941847)
@@ -16,8 +14,6 @@
 
 [MS 'S+S’와 구글 SaaS는 어떻게
 다른가](http://news.naver.com/main/read.nhn?mode=LSD&aid=0001960508&oid=138&mid=sec&sid1=105)
-
-<http://www.nia.or.kr/Extra/Module/Common/Lib/Attach/DownLoad.aspx?Seq=18268>
 
 [클라우드 컴퓨팅 기술
 동향](http://www.itfind.or.kr/WZIN/jugidong/1433/file37183-143303.pdf)
@@ -48,8 +44,6 @@
 
 [레드햇, PaaS 업체 마카라 인수…​MS·VM웨어와
 승부](http://news.naver.com/main/read.nhn?mode=LSD&aid=0000005657&oid=293&mid=sec&sid1=105)
-[지금은 춘추전국 시대…“내가
-PaaS다”](http://www.bloter.net/archives/114238)
 
 ## Related
 - [[aws]]

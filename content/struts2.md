@@ -28,19 +28,12 @@
         </package>
     </xwork>
 
-[xwork.xml에서 하나의 action에 default method설정하는
-법](http://babtingdev.tistory.com/category/Framework/webwork)
-
 [웹프레임워크(webwork, struts2.0)에서 Action 테스트를 위한
 코딩방법Developer](http://www.ologist.co.kr/tag/Adapt%20Parameter)
 
 # Rest plugin
 
-<http://cwiki.apache.org/S2PLUGINS/rest-plugin.html>
-
 # Model Driven
-
-<http://www.vaannila.com/struts-2/struts-2-example/struts-2-model-driven-action-example-1.html>
 
 <http://www.ologist.co.kr/575>
 

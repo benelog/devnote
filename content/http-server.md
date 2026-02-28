@@ -32,8 +32,6 @@
 - <http://openframework.or.kr/Wiki.jsp?page=Jeysey_start1>
 - [Java에서 RESTful 웹 서비스
   구현하기](http://blog.sdnkorea.com/blog/471)
-- [Spring + Jersey + Dozer 예제](http://yunsunghan.tistory.com/546)
-- [Jersey + XML 호출 예제 테스트](http://yunsunghan.tistory.com/547)
 
 # Metro
 

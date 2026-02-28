@@ -76,7 +76,7 @@ cue as to what state you wish to mutate from within a Lambda expression.
 - Eclipsecon 2004의 'The Road To Lambda' :
   <https://www.eclipsecon.org/na2014/sites/default/files/slides/2014-03-18%20The%20Road%20To%20Lambda.pdf>
 - Devox 2013의 Invoke Dyamic 관련 발표 :
-  <http://www.parleys.com/play/517af3a5e4b0736a5fa66a20/chapter0/about>
+
   <https://cdn.parleys.com/p/517af3a5e4b0736a5fa66a20/517ab55a1e8fa_1366996277881.pdf>
 
 <http://cr.openjdk.java.net/~briangoetz/lambda/lambda-translation.html>

@@ -1,4 +1,4 @@
-단축키 표 : <http://blog.insightbook.co.kr/post/872>
+단축키 표 :
 
 # 환경설정
 
@@ -81,8 +81,6 @@ vim - block fold/unfold 기능 써보기
 <http://doc.kldp.org/wiki.php/VimFold>
 
 C프로그래머를 위한 vim사용
-
-<http://www.joinc.co.kr/modules/moniwiki/wiki.php/Site/Vim/Documents/VimHowToForCProg/index.html>
 
 [vi 입문 — 컨닝 페이퍼
 이용하기](http://www.ibm.com/developerworks/kr/library/tutorial/l-vi/?S_TACT=105AGX55&S_CMP=EDU)

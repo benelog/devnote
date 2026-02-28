@@ -7,8 +7,6 @@
 
 # Java SDK
 
-<https://github.com/eclipse/egit-github/tree/master/org.eclipse.egit.github.core>
-
 ``` java
 package com.example;
 

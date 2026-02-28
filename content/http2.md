@@ -4,7 +4,7 @@
   - <https://www.httpvshttps.com/>
   - <https://www.tunetheweb.com/performance-test/>
 - <https://http2.github.io/faq>
-- <https://bagder.gitbooks.io/http2-explained/en/>
+
   - <https://github.com/bagder/http2-explained/tree/master/ko>
 - <https://blog.cloudflare.com/http-2-for-web-developers/>
 - <https://www.nginx.com/blog/7-tips-for-faster-http2-performance/>

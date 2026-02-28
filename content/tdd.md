@@ -5,13 +5,7 @@
 [JUnit Test Infected: Programmers Love Writing
 Tests](http://junit.sourceforge.net/doc/testinfected/testing.htm)
 
-[테스트 주도 개발이란](http://alankang.tistory.com/102)
-
-[단위 테스트에 대한 의식조사 결과](http://moai.tistory.com/725)
-
 [알면서 왜 안할까? TDD](http://toby.epril.com/?p=500)
-
-[테스트 수준은 개발 수준을 드러낸다](http://jooyunghan.da.to/tt/jhan/42)
 
 [학습테스트(Learning Test)를 이용해서
 공부하기](http://toby.epril.com/?p=419)
@@ -30,13 +24,7 @@ Code](http://www.infoq.com/presentations/10-Ways-to-Better-Code-Neal-Ford)
 [How do you convince your boss to
 TDD](http://misko.hevery.com/2009/05/16/how-do-you-convince-your-boss-to-tdd/)
 
-[프로젝트, 팀내에 테스트 문화 만들기](http://javajigi.tistory.com/227)
-
 <http://blog.objectmentor.com/articles/2007/09/20/continuous-testing-explained>
-
-<http://blog.james-carr.org/2006/11/03/tdd-anti-patterns/>
-
-<http://www.junitmax.com/WhereToTest.html>
 
 <http://www.diebuster.com/?p=924>
 
@@ -69,7 +57,6 @@ code,](http://www.threeriversinstitute.org/blog/?p=579) [TDD는 코드에
 
 # 논쟁
 
-- [복식부기와 TDD (바뀌는 글)](http://younghoe.info/1225)
 - [동상이몽 – TDD](http://toby.epril.com/?p=917)
 - [Joel의 TDD(Kent Beck), SOLID(Robert Martin) 공격과
   논쟁](http://toby.epril.com/?p=680)
@@ -124,15 +111,11 @@ I don’t keep score how many people do TDD.
 
 <https://sites.google.com/site/unclebobconsultingllc/the-truth-about-bdd>
 
-<http://behaviour-driven.org/Implmentations>
-
 [BDD는 또 뭐야](http://okjsp.tistory.com/1165643346)
 
 [코드 품질 향상을 위해: 행위 주도 개발의 모험
 (한글)](http://www-128.ibm.com/developerworks/kr/library/j-cq09187/)
 
-[\[DDD
-⑤](http://www.zdnet.co.kr/builder/dev/web/0%2C39031700%2C39170216%2C00.htm)
 BDD(Behavior Driven Development)\]
 
 <http://dannorth.net/introducing-bdd>
@@ -141,18 +124,12 @@ BDD(Behavior Driven Development)\]
 
 <http://skillsmatter.com/podcast/agile-testing/using-cucumber-for-bdd-and-agile-acceptance-testing>
 
-[TDD에 대한 조금 다른 생각](http://oddpoet.net/archives/242)
-
 Given, When, Then
-
-<http://www.jroller.com/perryn/entry/given_when_then_and_how>
 
 ## 테스트를 위한 디자인
 
 [TDD Design Starter Kit - Static Methods and Singletons May Be
 Harmful](http://codebetter.com/blogs/jeremy.miller/pages/129545.aspx)
-
-[Static is Evil](http://www.jroller.com/cyrille/date/20050414)
 
 [HowToWriteHardToTestCode.pdf](https://docs.google.com/fileview?id=0B7z6S2TvsDWSYWQ1NGEwOTctYTEwOS00ZTUwLWE2Y2QtZjEwMmE2OTQzNjVh&hl=en)
 
@@ -169,14 +146,8 @@ Injection](http://misko.hevery.com/2008/11/11/clean-code-talks-dependency-inject
 
 <http://www.objectmentor.com/resources/articles/TestableJava.pdf>
 
-[All hands on
-testing](https://docs.google.com/present/view?id=d449gch_2603sf622cs)
-
 [Guide: Writing Testable
 Code](http://misko.hevery.com/code-reviewers-guide/)
-
-[application code에서 new operator의 사용은 테스트의
-적이다.](http://javajigi.tistory.com/187)
 
 <http://deathbycode.blogspot.com/2010/11/do-i-really-need-singleton.html>
 
@@ -247,8 +218,7 @@ Slow Test - 공용 Fixture setup
 - <http://portal.acm.org/citation.cfm?id=1070618.1070834>
 - <http://www.computer.org/portal/web/csdl/abs/trans/ts/2005/03/e0226abs.htm>
 - <http://neverindoubtnet.blogspot.com/2008/01/on-effectiveness-of-tdd.html>
-- <http://weblogs.asp.net/rosherove/archive/2008/01/25/research-finds-tdd-boosts-developer-productivity.aspx>
-- <http://haacked.com/archive/2008/01/22/research-supports-the-effectiveness-of-tdd.aspx>
+
   Realizing quality improvement through test driven development: results
   and experiences of four industrial
 

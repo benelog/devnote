@@ -1,4 +1,3 @@
-[URL에 사용되는 특수문자 \#!](http://mkseo.pe.kr/blog/?p=2269)
 
 # Http Header
 

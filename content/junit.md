@@ -5,10 +5,6 @@
 [JUnit 4 in 60
 Seconds](http://www.cavdar.net/2008/07/21/junit-4-in-60-seconds/)
 
-[JUnit 4.4에 추가된 assertThat()](http://whiteship.tistory.com/1739)
-
-[JUnit 4.4에 추가된 Assumetion](http://whiteship.tistory.com/1740)
-
 [JUnit @Rule TemporaryFolder 사용하기](http://whiteship.me/2421)
 
 [JUnitMax Core가 포함된 JUnit 4.6 릴리스](http://toby.epril.com/?p=732)
@@ -28,18 +24,10 @@ Seconds](http://www.cavdar.net/2008/07/21/junit-4-in-60-seconds/)
 [Junit 을 이용한 효율적인 단위 테스트
 전략](http://www.javajigi.net/pages/viewpage.action?pageId=278)
 
-[JUnit best
-practices](http://www.javaworld.com/javaworld/jw-12-2000/jw-1221-junit.html?page=1)
-
-[JUnit 3.8에서 JUnit 4, TestNG 활용으로](http://younghoe.info/110)
-
 [assertThat()으로 null 여부 확인하기](http://whiteship.me/1799)
 
 [Subverting Java Access Protection for Unit
 Testing](http://www.onjava.com/pub/a/onjava/2003/11/12/reflection.html)
-
-[Eclipse 3.4에서 메써드 단위로 Junit 테스트
-실행하기](http://javajigi.tistory.com/192)
 
 <http://www.martinfowler.com/bliki/JunitNewInstance.html>
 
@@ -62,9 +50,6 @@ Tour](http://junit.sourceforge.net/doc/cookstour/cookstour.htm)
 
 [Working with temporary files in JUnit
 4.7](http://weblogs.java.net/blog/johnsmart/archive/2009/09/29/working-temporary-files-junit-47)
-
-[JUnit 테스트코드를 단일 클래스 로더에서 실행하는
-방법](http://pragmaticstory.com/1060)
 
 [Infinitest
 사용하기](http://blog.openframework.or.kr/attachment/cfile25.uf@1925141F4A7F6B417CD6DE.pdf)

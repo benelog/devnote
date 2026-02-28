@@ -31,7 +31,6 @@
 # iced-tea-web
 
 - <https://blog.adoptopenjdk.net/2018/10/using-icedtea-web-browser-plug-in-with-adoptopenjdk>
-- <http://icedtea.classpath.org/hg/>
 
 # 사례
 

@@ -10,10 +10,6 @@
 
 # JSR 305
 
-- [JSR 305 Annotations for Software Defect
-  Detection](http://skyul.tistory.com/65)
-- <http://skyul.tistory.com/68>
-
 # Annotation processor 활용
 
 - <https://rapt.dev.java.net/nonav/>

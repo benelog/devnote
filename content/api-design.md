@@ -3,7 +3,6 @@ How to Design a Good API & Why it matters - Joshua Bloch
 <http://www.infoq.com/presentations/effective-api-design> (Javapolis
 2005)
 
-<http://video.google.com/videoplay?docid=-3733345136856180693>
 (google에서 강연)
 
 [Joshua Bloch: Bumper-Sticker API
@@ -20,8 +19,6 @@ If you program, you are an API designer.
 Useful modules tent to get reused.
 
 Thinking in terms of APIs impoves code quality.
-
-<http://younghoe.info/632>
 
 Characteristics of a Good API
 
@@ -103,12 +100,6 @@ FAQ](http://java.sun.com/j2se/1.5.0/docs/guide/collections/designfaq.html#14)
 [JSRs aren’t appropriate for
 classlibraries](http://publicobject.com/2007/09/jsrs-arent-appropriate-for.html)
 
-[JSRs aren’t appropriate for classlibraries 를
-읽고](http://younghoe.info/632)
-
-[Cactus API design
-rules](http://jakarta.apache.org/cactus/participating/apis.html)
-
 [Java API Design
 Guidelines](http://www.artima.com/forums/flat.jsp?forum=106&thread=142428)
 
@@ -122,8 +113,6 @@ javascript:void(0);\[<http://www.codeproject.com/KB/java/aQuicklookatAPIDesign.a
     http://wiki.apidesign.org/[http://wiki.apidesign.org]
 
 ## Static
-
-<http://www.jroller.com/cyrille/date/20050414>
 
 ## 응집도와 결합도
 

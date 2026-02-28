@@ -1,12 +1,4 @@
-[리팩터링 정의](http://whiteship.tistory.com/1187)
 
-[성능 최적화가 리팩터링인가?](http://whiteship.tistory.com/1183)
-
-[발견하지 못한 버그를 수정하는 것은
-리팩터링인가?](http://whiteship.tistory.com/1186)
-
-[선언된 순서를 변경하는 것은
-리팩터링인가?](http://whiteship.tistory.com/1188)
 
 <http://www.refactormycode.com/>
 

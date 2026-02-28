@@ -29,12 +29,9 @@ href="https://plus.google.com/101901704178116997887/posts/7E776UaLJVf">김용옥
 Master key 취약점 설명</a>&lt;/li&gt;&lt;li style="list-style: disc
 outside url("bullet.gif");"&gt;<a
 href="http://venturebeat.com/2013/07/03/massive-android-flaw-allows-hackers-to-take-over-and-control-99-of-android-devices/">http://venturebeat.com/2013/07/03/massive-android-flaw-allows-hackers-to-take-over-and-control-99-of-android-devices/</a>&lt;/li&gt;&lt;/ul&gt;
-Verify Hamful apps 기능 : <a
-href="https://support.google.com/accounts/answer/2812853">https://support.google.com/accounts/answer/2812853</a></p>
-<p>MasterKeys Check Installer : <a
-href="https://play.google.com/store/apps/details?id=com.alanjeon.blueboxcheck">https://play.google.com/store/apps/details?id=com.alanjeon.blueboxcheck</a></p>
-<p><a
-href="https://play.google.com/store/apps/details?id=com.alanjeon.blueboxcheck">https://play.google.com/store/apps/details?id=com.alanjeon.blueboxcheck</a></p>
+Verify Hamful apps 기능 : </p>
+<p>MasterKeys Check Installer : </p>
+
 <p>소스 : <a
 href="https://github.com/skyisle/MasterKeysCheckInstaller">https://github.com/skyisle/MasterKeysCheckInstaller</a></p>
 <p>Patch 제공</p>

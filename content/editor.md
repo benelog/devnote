@@ -1,7 +1,7 @@
 # Rich editor
 
 - <https://yabwe.github.io/medium-editor/> : 미디엄 스타일
-- <https://facebook.github.io/draft-js/> : Rich Text Editor Framework
+-  : Rich Text Editor Framework
   for React
 
 # Markdown Editor

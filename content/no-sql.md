@@ -28,8 +28,6 @@ Big Data 세계로의 입문 :
 
 <http://horicky.blogspot.com/2009/11/nosql-patterns.html>
 
-<http://www.internetnews.com/dev-news/article.php/3869936/NoSQL+Supporters+Challenge+Relational+Databases.htm>
-
 <https://www.ibm.com/developerworks/kr/library/j-javadev2-8/index.html>
 
 <http://www.infoq.com/articles/nosql-in-the-enterprise>
@@ -49,8 +47,6 @@ NoSQL](http://www.ibm.com/developerworks/kr/library/j-javadev2-8/)
 
 [분산데이타 베이스 Cassandra vs HBase 에 대한 짧은
 의견](http://bcho.tistory.com/441)
-
-[Cassandra 싱글모드 예제](http://yunsunghan.tistory.com/505)
 
 적용사례
 

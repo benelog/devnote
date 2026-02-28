@@ -28,9 +28,9 @@
 - <http://code.google.com/p/caliper/>
 - <http://labs.carrotsearch.com/junit-benchmarks-tutorial.html>
   - Junit 기반. H2DB로 결과 저장. 그래프 그려줌.
-- <http://www.clarkware.com/software/JUnitPerf.html>
+
 - <http://code.google.com/p/junitbench/>
-- <http://databene.org/contiperf.html>
+
 - <http://code.google.com/p/caliper/>
 - Apache benchmark : <http://httpd.apache.org/docs/2.2/programs/ab.html>
 - <http://gatling-tool.org/>
@@ -45,7 +45,7 @@
   Test(2)](http://network.hanb.co.kr/view.php?bi_id=1521)
 - [Jmeter를 사용한 Stress
   Test(3)](http://network.hanb.co.kr/view.php?bi_id=1522)
-- <http://blog.empas.com/ahnyounghoe/list.html?c=1411683>
+
 - [사람을 위한 자동화: 전혀 귀찮지 않은 로드
   테스팅](http://www.ibm.com/developerworks/kr/library/j-ap04088/index.html?ca=drs-kr)
   ([Automation for the people: Hands-off load
@@ -63,7 +63,7 @@
 - <http://code.google.com/p/grinderstone/> (grinder를 Eclipse 내 에서)
 - <http://sourceforge.net/projects/webflange/> (continuous testing),
 - <http://wiki.hudson-ci.org/display/HUDSON/Grinder+Plugin>
-- <http://www.cdjdn.com/downloads/performancetesting-grinder.pdf>
+
 - <http://grinder.sourceforge.net/>
 
 ## Locust

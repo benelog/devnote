@@ -23,8 +23,6 @@ Modules](http://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf)
 
 <http://portal.acm.org/citation.cfm?id=1005943>
 
-[SW 공학백서를 읽어보시나요](http://moai.tistory.com/882)
-
 - [정보방열기 사용방법 : 프로젝트
   마무리하기](http://www.talk-with-hani.com/archives/723)
 - [정보방열기 사용방법 : 프로젝트
@@ -34,10 +32,10 @@ Modules](http://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf)
 - [방법론이 현장에서 잘 적용되지 못하는
   원인](http://blog.naver.com/parnx/140102830216)
 - 설계 :
-  [http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm\[http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm](http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm[http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm)\]
+  http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm\[http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm\]
 - 기타방법론
   :http://gettingreal.37signals.com/GR_kor.php\[<http://gettingreal.37signals.com/GR_kor.php>\]
-- Hard code 컬럼 : <http://blogs.msdn.com/eric_brechner/>
+- Hard code 컬럼 :
 
 <table>
 <colgroup>
@@ -145,7 +143,6 @@ Maintenance Programmers. Englewood Cliffs, NH: Prentice-Hall
 
 # 요구분석 기법
 
-- [사용자 인터뷰를 할 때 주의할 점들](http://alankang.tistory.com/147)
 - [유스케이스나 사용자스토리 크기 기준](http://cavin.egloos.com/4869054)
 
 유스케이스 모델링 → 웹화면 프로토타이핑→ 요구사항명세화 → 시스템화 범위

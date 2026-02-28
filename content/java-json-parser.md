@@ -11,8 +11,6 @@
 안드로이드 단말에서도 Jackson의 실행시간의 Gson에 비해 56%에 불과했던
 비교 사례
 
-<http://martinadamek.com/2011/02/04/json-parsers-performance-on-android-with-warmup-and-multiple-iterations/>
-
 Jackson의 Streamming API 사용
 
 <https://github.com/martinadamek/json-android-compare/blob/master/src/com/martinadamek/jsonandroid/JacksonJson.java>
@@ -26,8 +24,6 @@ Jackson의 Streamming API 사용
 # Jackson 사용팁
 
 - <http://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion>
-- [@JsonProperty 를 이용한 접근 제어 - 응답값에 포함하지
-  않기](http://eglowc.tistory.com/28)
 
 ## Related
 - [[rest]]

@@ -33,8 +33,8 @@ What is web 2.0 <http://news.zdnet.com/2036-2_22-6103931.html>
 
     __SOA가_바꿔놓을_세상.pdf__
 
-[세상을 바꾸는 크고 작은 웹 2.0/크라우드소싱
-서비스들](http://www.bloter.net/_news/8df446934d53e4bf).
+세상을 바꾸는 크고 작은 웹 2.0/크라우드소싱
+서비스들.
 
 [웹2.0 시대의 불편한
 진실](http://www.zdnet.co.kr/itbiz/column/anchor/scyoon/0,39030409,39168722,00.htm)

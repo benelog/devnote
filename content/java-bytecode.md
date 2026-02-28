@@ -23,7 +23,7 @@ CGLIB 가 사용 ( CGLIB is a higher abstraction than ASM. )
 
 - [ASM 개요](http://whiteship.me/2624)
 - [ASM 클래스 만들기](http://whiteship.me/2625)
-- ASM의 Visitor패턴 : <http://whiteship.tistory.com/2617>
+- ASM의 Visitor패턴 :
 
 ## BCEL
 

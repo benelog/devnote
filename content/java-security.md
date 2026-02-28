@@ -38,8 +38,6 @@ primary="'\u0023rt.exit(1)')(\u0023rtu003d@java.lang.Runtime@getRuntime("></span
 ### 관련 Commit
 
 2010/ 6/20
-<https://github.com/apache/struts2/commit/0c367776762b25c567b415ac4c2b0e48042cf34f>
-<https://github.com/apache/struts2/commit/3008f2609e59c9aba7ead68c7be6fdcb075520f6>
 
 <http://sebug.net/exploit/19954/>
 
@@ -58,7 +56,6 @@ Strict DMI mode
 ### 관련 commit
 
 2012/12/24 :
-<https://github.com/apache/struts2/commit/41f90ae39d0783f64641726e7e6b4741663c04bd>
 
 ## s2-009 , CVE-2011-3923
 
@@ -83,7 +80,6 @@ CVE-2010-1870..
 ### 관련 commit
 
 2012/01/19 :
-<https://github.com/apache/struts2/commit/2c1eb6bb57f90db7287fc3ed0086793d0a43fe9e>
 
 ## Related
 - [[oauth]]

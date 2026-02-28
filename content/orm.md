@@ -4,15 +4,11 @@
 
 # 기술비교
 
-- [Hibernate VS JPA](http://whiteship.tistory.com/1522)
-- [iBatis vs
-  Hiberate](http://blog.empas.com/naruma/read.html?a=10376482)
 - <http://db.apache.org/jdo/jdo_v_jpa.html>
 - [iBATIS, Hibernate, and JPA: Which is right for
   you?](http://www.javaworld.com/javaworld/jw-07-2008/jw-07-orm-comparison.html)
 - [Hibernate, iBATIS 그리고 JPA중.. 당신의
   선택은.?](http://blog.openframework.or.kr/50)
-- [관심이 가는 Data Access 라이브러리](http://younghoe.info/901)
 
 # JPA
 

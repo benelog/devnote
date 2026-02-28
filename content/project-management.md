@@ -1,8 +1,6 @@
 [사이냅소프트 회사문화 소개 - " 회고
 "](http://synap.tistory.com/entry/2008315-%ED%9A%8C%EA%B3%A0)
 
-[프로젝트 예측을 잘하기 위한 10가지 방법](http://moai.tistory.com/488)
-
 [37signals의 일하는
 방법](http://www.nmindplus.com/2008/04/14/37signals-work/)
 

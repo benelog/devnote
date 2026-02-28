@@ -4,11 +4,7 @@ numbers around 65,535
 
 <http://www.joelonsoftware.com/items/2007/09/26b.html>
 
-<http://blogs.msdn.com/excel/archive/2007/09/25/calculation-issue-update.aspx>
-
 # Excel service
-
-<http://blogs.msdn.com/excel/archive/2005/11/08/490502.aspx>
 
 # Excel tips
 
@@ -16,8 +12,6 @@ numbers around 65,535
 나타내기](http://www.bizforms.co.kr/corporation/excel/contents/contents4/contents4_18.asp)
 
 # 엑셀VBA 강좌
-
-<http://www.iexceller.com/Contents%28VBPart4%29.htm>
 
     141781_faceids.zip[faceids.zip]
 

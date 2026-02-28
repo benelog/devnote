@@ -48,16 +48,10 @@ WebTest](http://webtest.canoo.com/webtest/manual/WebTestHome.html)
 
 <http://barcamp.tistory.com/tag/Selenium>
 
-[\[ Selenium
-](http://jeen.tistory.com/entry/Selenium-%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%90%EB%8F%99%ED%99%94%EC%99%80%EB%8A%94-%EB%B3%84-%EC%83%81%EA%B4%80%EC%97%86%EB%8A%94-%EC%9E%91%EC%97%85%EC%9D%84-%EC%9C%84%ED%95%B4)
 웹서비스 테스트 자동화와는 별 상관없는 작업을 위해…​\]
 
-[\[ Selenium
-](http://jeen.tistory.com/entry/Selenium-Selenium-RC-%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90-I)
 Selenium RC 를 사용해보자. I\]
 
-[\[ Selenium
-](http://jeen.tistory.com/entry/Selenium-Selenium-RC-%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90-II)
 Selenium RC 를 사용해보자. II\]
 
 [Selenium을 이용한 테스트
@@ -70,11 +64,6 @@ Selenium RC 를 사용해보자. II\]
 테스트](http://www.ibm.com/developerworks/kr/library/wa-testweb/index.html)
 
 ## Watij
-
-[Selenium vs Watir](http://javajigi.tistory.com/120)
-
-[Watij를 이용하여 Javascript Alert Dialog Closing
-방법](http://javajigi.tistory.com/139)
 
 [WebDriver와 PageObject 패턴](http://toby.epril.com/?p=752)
 

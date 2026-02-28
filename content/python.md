@@ -4,25 +4,6 @@
 
 <div id="content">
 
-<div class="paragraph">
-
-[파이썬 구현들](http://skyul.tistory.com/309)
-
-</div>
-
-<div class="paragraph">
-
-[파이썬은 멀티코어 줘도 쓰잘데기가 없나요?"에 대한 파이썬 2.6의
-대답](http://openlook.org/blog/2008/06/28/python-multiprocessing/)
-
-</div>
-
-<div class="paragraph">
-
-[파이썬 바인딩](http://skyul.tistory.com/266)
-
-</div>
-
 <div class="literalblock">
 
 <div class="content">
@@ -61,7 +42,7 @@
 
 <div class="paragraph">
 
-<http://learnpythonthehardway.org/book/>http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2008/\[<a
+<http://learnpythonthehardway.org/book/>
 href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2008/"
 class="bare">http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2008/</a>\]<http://stackoverflow.com/questions/3088/best-ways-to-teach-a-beginner-to-program>
 
@@ -81,7 +62,6 @@ class="bare">http://ocw.mit.edu/courses/electrical-engineering-and-computer-scie
 
 <http://www.pylonsproject.org/>http://flask.pocoo.org/\[<a href="http://flask.pocoo.org/"
 class="bare">http://flask.pocoo.org/</a>\]
-<http://elixir.ematia.de/trac/wiki>
 
 </div>
 

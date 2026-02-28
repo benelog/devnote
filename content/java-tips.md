@@ -11,9 +11,6 @@
 
 # Java7
 
-[Java7
-Webcast](http://www.oracle.com/us/corporate/events/java7/index.html)
-
 ttp://www.oracle.com/technetwork/java/javase/jdk7-relnotes-418459.html
 
 File watch

@@ -1,4 +1,3 @@
-[Apache Derby 초~간단 설정](http://chanwook.tistory.com/565)
 
 [\[Derby](http://blog.naver.com/phrack/80051132752) Embeded Driver로 SQL
 실행하기\]

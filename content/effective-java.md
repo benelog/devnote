@@ -8,9 +8,6 @@
 
 - [Effective Java Reloaded, JavaOne Conference
   2006](http://developers.sun.com/learning/javaoneonline/2006/coreplatform/TS-1512.pdf)
-- [Effective Java Reloaded -
-  2008](http://javapolis.libsyn.com/index.php?post_id=380974)
-- [http://cs.gmu.edu/pammann/619/ppt/Bloch10.ppt](http://cs.gmu.edu/%3Csub%3Epammann/619/ppt/Bloch10.ppt)
 
 </div>
 

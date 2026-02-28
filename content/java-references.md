@@ -1,9 +1,6 @@
 [Plugging memory leaks with soft
 references](http://www-128.ibm.com/developerworks/java/library/j-jtp01246.html)
 
-[자바의 레퍼런스 클래스 사용
-가이드라인](http://whiteship.tistory.com/1638)
-
 ``` java
 WeakReference<User> ref = new WeakReference<User>(new User());
 User user = ref.get();

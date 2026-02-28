@@ -16,12 +16,6 @@
 
 <div class="paragraph">
 
-<http://jazoon.com/download/presentations/4840.pdf>
-
-</div>
-
-<div class="paragraph">
-
 <http://www.sonatype.com/people/2009/04/how-to-convert-from-ant-to-maven-in-5-minutes/>
 
 </div>
@@ -38,12 +32,6 @@
 
 </div>
 
-<div class="paragraph">
-
-<http://www.sonatype.com/MavenTheDefinitiveGuide.zip>
-
-</div>
-
 </div>
 
 <div class="sect3">
@@ -57,10 +45,7 @@
   생성, 빌드, 레포팅, 배포\]
 - [아파치 메이븐 2 시작하기
   (한글)](http://www.ibm.com/developerworks/kr/library/tutorial/j-mavenv2/section8.html)
-- [Maven Getting Started Guide(1)](http://seoeun25.tistory.com/355)
-- [Maven Getting Started Guide(2)](http://seoeun25.tistory.com/358)
-- [Maven Getting Started Guide(3)](http://seoeun25.tistory.com/359)
-- <http://maven.apache.org/ref/2.0.8/maven-model/maven.html>
+
 - [Maven 설치하기](http://blog.naver.com/phrack/80051134315)
 - [An introduction to Maven
   2](http://www.javaworld.com/javaworld/jw-12-2005/jw-1205-maven.html)
@@ -75,13 +60,7 @@
 
 <div class="paragraph">
 
-[\[Maven](http://moai.tistory.com/474)으로 프로젝트 빌드하기 (maven1)\]
-
-</div>
-
-<div class="paragraph">
-
-[Maven 용어 2 (POM)](http://whiteship.tistory.com/1268)
+\[Maven으로 프로젝트 빌드하기 (maven1)\]
 
 </div>
 
@@ -161,9 +140,6 @@ Super pom
 
 <div class="ulist">
 
-- [Profile](http://whiteship.tistory.com/1295)
-- [Plugin](http://whiteship.tistory.com/1290)
-
 </div>
 
 </div>
@@ -174,18 +150,8 @@ Super pom
 
 <div class="ulist">
 
-- [Maven 용어 1 (Plugin, Goal,
-  Phase)](http://whiteship.tistory.com/1265)
-- [**Maven** 강좌 7 - **Maven**을 이용하여 Appfuse 프로젝트
-  생성하기](http://javajigi.tistory.com/95)
 - [\[Maven](http://blog.naver.com/phrack/80051232261)Option\]
 - [메이븐 상식: 기본 페이스(phase)](http://whiteship.me/2235)
-- [Commit comment template](http://whiteship.tistory.com/1588)
-- <a href="http://whiteship.tistory.com/1595"
-  class="bare">http://whiteship.tistory.com/1595</a>
-- <a
-  href="http://msinterdev.org/blog/entry/Eclipse-Maven2-toolsjar-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0?TSSESSIONmsinterdevorgblog=46ef6ae21901697c556d92d05477786d"
-  class="bare">http://msinterdev.org/blog/entry/Eclipse-Maven2-toolsjar-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0?TSSESSIONmsinterdevorgblog=46ef6ae21901697c556d92d05477786d</a>
 
 </div>
 
@@ -200,16 +166,12 @@ Super pom
 - [Maven Dependency의 scope의 의미](http://homo-ware.tistory.com/43)
 - [maven2 transitive
   dependency](http://blog.naver.com/iamteri/150030254660)
-- [Managed Depedency 네 녀석의 정체를 드디어
-  알았다.](http://whiteship.tistory.com/1597)
-- [\[Maven](http://whiteship.tistory.com/1512)을 쓴다고 해서 종속성을
+
+- \[Maven을 쓴다고 해서 종속성을
   안중에서 Out 시킬 수 있느냐?\]
-- [exclusion을 하까마까](http://whiteship.tistory.com/1763) "가장
+- exclusion을 하까마까 "가장
   가까운" 의존성을 사용하게 됩니다
-- [기본적인 managed dependency
-  사용법](http://whiteship.tistory.com/1600)
-- [Managed Depedency 네 녀석의 정체를 드디어
-  알았다.](http://whiteship.tistory.com/1597)
+
 - [Maven의 version range를 사용할 때 주의할
   점](http://toby.epril.com/?p=610)
 - mvn versions:display-dependency-updates : 상위 버전 보여주기
@@ -226,9 +188,6 @@ Super pom
 
 <div class="ulist">
 
-- [mvn site](http://whiteship.tistory.com/1273)
-- [Site Generation](http://whiteship.tistory.com/1300)
-
 </div>
 
 </div>
@@ -241,7 +200,7 @@ Super pom
 
 - [Maven의 default directory layout
   변경하기](http://toby.epril.com/?p=414)
-- [Maven의 webapp directory 변경하기](http://arawn.tistory.com/37)
+
 - <http://maven.apache.org/plugins/maven-war-plugin/war-mojo.html#warSourceDirectory>
 
 </div>
@@ -257,23 +216,20 @@ Super pom
 - <http://maven.apache.org/plugins/>
 - <http://maven.apache.org/plugins/maven-jar-plugin/>
 - <http://maven.apache.org/plugins/maven-assembly-plugin/> :
-  [Assemblies](http://whiteship.tistory.com/1304)
+  Assemblies
 - <http://mojo.codehaus.org/exec-maven-plugin/java-mojo.html>
 - <http://mojo.codehaus.org/exec-maven-plugin/usage.html>
 - [maven-dependency-plugin](http://maven.apache.org/plugins/maven-dependency-plugin/index.html)
   : [Maven 프로젝트 의존성 파일들 패키징하기](http://whiteship.me/1984)
-- <a href="http://dgkim84.tistory.com/101"
-  class="bare">http://dgkim84.tistory.com/101</a>
+
 - <a
   href="http://mojo.codehaus.org/javancss-maven-plugin/http://maven-plugins.sourceforge.net/maven-javancss-plugin/http://emma.sourceforge.net/maven-emma-plugin/http://maven.apache.org/guides/development/guide-testing-development-plugins.html"
   class="bare">http://mojo.codehaus.org/javancss-maven-plugin/http://maven-plugins.sourceforge.net/maven-javancss-plugin/http://emma.sourceforge.net/maven-emma-plugin/http://maven.apache.org/guides/development/guide-testing-development-plugins.html</a>
-- <a href="http://dgkim84.tistory.com/101"
-  class="bare">http://dgkim84.tistory.com/101</a>
+
 - <http://mojo.codehaus.org/javancss-maven-plugin/>
 - <http://maven-plugins.sourceforge.net/maven-javancss-plugin/>
 - <http://emma.sourceforge.net/maven-emma-plugin/>
 - <http://maven.apache.org/guides/development/guide-testing-development-plugins.html>
-- <http://maven.apache.org/plugin-developers/cookbook/attach-source-javadoc-artifacts.html>
 
 </div>
 
@@ -373,24 +329,6 @@ Resource Filter encoding 설정
 
 <div class="paragraph">
 
-[maven archetype 만들기](http://arawn.tistory.com/38)
-
-</div>
-
-<div class="paragraph">
-
-<http://www.sonatype.com/books/mvnref-book/reference/archetype-sect-third-party.html>
-
-</div>
-
-<div class="paragraph">
-
-<http://www.sonatype.com/books/mvnref-book/reference/archtype-sect-generate.html>
-
-</div>
-
-<div class="paragraph">
-
 mvn install:install-file -Dfile=C:\aa.jar -DgroupId=aa -DartifactId=aa
 -Dversion=1.0 -Dpackaging=jar
 
@@ -413,34 +351,6 @@ mvn archetype:generate
 <div class="sect3">
 
 #### Maven - Eclipse
-
-<div class="paragraph">
-
-[Maven 강좌 5 - Maven 기반의 Eclipse 프로젝트 생성 및
-활용](http://javajigi.tistory.com/91)
-
-</div>
-
-<div class="paragraph">
-
-[Eclipse-Maven2-tools.jar 문제
-해결](http://msinterdev.org/blog/entry/Eclipse-Maven2-toolsjar-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0?TSSESSIONmsinterdevorgblog=46ef6ae21901697c556d92d05477786d)
-
-</div>
-
-<div class="paragraph">
-
-[Maven으로 이클립스 프로젝트 만들기 - Screen
-Cast](http://whiteship.tistory.com/1595)
-
-</div>
-
-<div class="paragraph">
-
-[MAVEN을 사용하세요. 코딩이
-편해집니다.](http://whiteship.tistory.com/1646)
-
-</div>
 
 <div class="literalblock">
 
@@ -514,12 +424,6 @@ resources](http://cmaki.blogspot.com/2007/10/getting-maven-and-eclipse-to-work.h
 
 <div class="paragraph">
 
-<http://www.nabble.com/JavaNCSS-Maven-Plugin-td15224237.html>
-
-</div>
-
-<div class="paragraph">
-
 [Maven resource filtering with Maven Integration for
 Eclipse](http://swik.net/Eclipse/Euxx/Maven+resource+filtering+with+Maven+Integration+for+Eclipse/b2w9e)
 
@@ -569,12 +473,6 @@ Eclipse](http://swik.net/Eclipse/Euxx/Maven+resource+filtering+with+Maven+Integr
 
 [메이븐 프로젝트에서 단위/통합 테스트 어설프게
 구분하기](http://whiteship.me/2233)
-
-</div>
-
-<div class="paragraph">
-
-[http://igooo.org/tc/entry/Maven-Test-수행하기](http://igooo.org/tc/entry/Maven-Test-%EC%88%98%ED%96%89%ED%95%98%EA%B8%B0)
 
 </div>
 
@@ -635,12 +533,6 @@ export MAVEN_OPTS=-XX:MaxPermSize=256m
 
 <div class="paragraph">
 
-<http://www.filsa.net/2008/02/11/maven-and-the-method-does-not-override-a-method-from-its-superclass-error/>
-
-</div>
-
-<div class="paragraph">
-
 Version 인식문제
 
 </div>
@@ -677,12 +569,6 @@ Version 인식문제
 
 <div class="paragraph">
 
-<http://repository.sonatype.org/>
-
-</div>
-
-<div class="paragraph">
-
 === Repository
 
 </div>
@@ -690,40 +576,6 @@ Version 인식문제
 <div class="paragraph">
 
 [Nexus Maven Repository 1.0 출시](http://toby.epril.com/?p=420)
-
-</div>
-
-<div class="paragraph">
-
-[Maven 용어 3 (Repository)](http://whiteship.tistory.com/1269)
-
-</div>
-
-<div class="paragraph">
-
-[Maven 강좌 4 - Maven을 이용하여 Dependency 라이브러리 관리
-방법](http://javajigi.tistory.com/87)
-
-</div>
-
-<div class="paragraph">
-
-[Maven 강좌 6 - Artifactory를 이용하여 Maven Repository
-세팅하기](http://javajigi.tistory.com/92)
-
-</div>
-
-<div class="paragraph">
-
-[Eclipse-Maven2-tools.jar 문제
-해결](http://msinterdev.org/blog/entry/Eclipse-Maven2-toolsjar-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0?TSSESSIONmsinterdevorgblog=46ef6ae21901697c556d92d05477786d)
-
-</div>
-
-<div class="paragraph">
-
-[Setting Up Maven
-Repository](http://www.theserverside.com/tt/articles/article.tss?l=SettingUpMavenRepository)
 
 </div>
 
@@ -953,21 +805,13 @@ class="bare">https://github.com/apache/tomcat-maven-plugin</a>
 
 <div class="paragraph">
 
-<http://wiki.eclipse.org/M2E_plugin_execution_not_covered>
-
-</div>
-
-<div class="paragraph">
-
 ===== m2 Eclipse
 
 </div>
 
 <div class="paragraph">
 
-update site : <http://m2eclipse.sonatype.org/update/>, \<font
-color="#0000ff"\><a href="http://download.eclipse.org/technology/m2e/releases%3C/font%3E"
-class="bare">http://download.eclipse.org/technology/m2e/releases&lt;/font&gt;</a>;
+update site : <http://m2eclipse.sonatype.org/update/>, <http://download.eclipse.org/technology/m2e/releases>
 
 </div>
 
@@ -975,19 +819,6 @@ class="bare">http://download.eclipse.org/technology/m2e/releases&lt;/font&gt;</a
 
 [Maven Integration for Eclipse](http://m2eclipse.codehaus.org/) (M2
 Eclipse):
-
-</div>
-
-<div class="paragraph">
-
-[pom.xml에 종속성 추가하기](http://whiteship.tistory.com/1602)
-
-</div>
-
-<div class="paragraph">
-
-[Introduction to
-m2eclipse](http://www.theserverside.com/tt/articles/article.tss?l=Introductiontom2eclipse)
 
 </div>
 
@@ -1007,25 +838,6 @@ resources](http://cmaki.blogspot.com/2007/10/getting-maven-and-eclipse-to-work.h
 <div class="paragraph">
 
 ===== Q4e
-
-</div>
-
-<div class="paragraph">
-
-[q4e](http://q4e.googlecode.com/svn/trunk/updatesite)
-
-</div>
-
-<div class="paragraph">
-
-[Q4E 플러그인 사용기 1](http://whiteship.tistory.com/1604)
-
-</div>
-
-<div class="paragraph">
-
-[이클립스용 Maven 플러그인 Q4EMaven 플러그인
-Q4E](http://whiteship.tistory.com/1601)
 
 </div>
 

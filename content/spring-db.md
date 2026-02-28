@@ -7,9 +7,6 @@ jndi lookup
 Server를 위한 Spring 애플리케이션 개발하기 — Part 2
 (한글)](http://www.ibm.com/developerworks/kr/library/0604_patil/0604_patil2.html)
 
-[Add Some Spring to Your Oracle JDBC
-Access](http://www.oracle.com/technology/pub/articles/marx_spring.html?_template=/ocom/print)
-
 [Dynamic DataSource
 Routing](http://blog.springsource.com/2007/01/23/dynamic-datasource-routing/)
 
@@ -75,17 +72,8 @@ Annocation 기반
 
 [스프링 트랜잭션 주의할 것](http://whiteship.me/2143)
 
-[Propagation behavior](http://whiteship.tistory.com/703)
-
-[Isolation levels](http://whiteship.tistory.com/704)
-
-[SIA 6장 트랜잭션 관리 발표자료](http://whiteship.tistory.com/1266)
-
 [Spring Transaction Management 선언적 트랜젝션
 관리](http://gerions.egloos.com/4529457)
-
-[ejb transaction attribute와 spring transactional propagation rules
-비교](http://blog.empas.com/okks1367/15280905)
 
 # JOTM
 

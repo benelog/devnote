@@ -1,4 +1,3 @@
-- <http://bonsaiden.github.io/JavaScript-Garden/ko/>
 
 # 가이드
 

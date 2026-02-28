@@ -2,11 +2,11 @@
 : AsyncTask 장점 소개 runOneUiThread
 
 잘못된 Thread에서 호출되면 CalledFromWrongThreadException ANR
-<http://developer.android.com/training/articles/perf-anr.html>http://aroundck.tistory.com/223\[ANR
+<http://developer.android.com/training/articles/perf-anr.html>
 이란?\]<http://aroundck.tistory.com/entry/android%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%9D%91%EB%8B%B5%EC%84%B1%EC%9D%84-%EA%B3%A0%EB%A0%A4%ED%95%9C-%EC%84%A4%EA%B3%84-ANR-%EC%9D%84-%ED%94%BC%ED%95%98%EB%8A%94-%EC%84%A4%EA%B3%84>
 
-[Android In-Sync: Handling Concurrent Tasks In Google
-Android](http://brainflush.wordpress.com/2009/04/08/android-in-sync-handling-concurrent-tasks-in-google-android/)implements
+Android In-Sync: Handling Concurrent Tasks In Google
+Androidimplements
 TaskListener, Task.getOrCreate(). Droid-fu의 BetterAsyncTask : AsyncTask
 중에 rotate 작업등으로 원래의 Activity가 바뀌어도 새로운 instance를
 찾아서 연결해 줌.

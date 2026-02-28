@@ -26,18 +26,16 @@
   class="bare">https://velog.io/@codemcd/RESTREpresentational-State-Transfer-hgk2muj4l2</a>
 - <a href="http://slides.com/eungjun/rest#/"
   class="bare">http://slides.com/eungjun/rest#/</a>
-- [REST API Quick
-  Tips](http://www.restapitutorial.com/lessons/restquicktips.html)
+
 - [REST 아키텍처를 훌륭하게 적용하기 위한 몇 가지 디자인
   팁](https://www.theteams.kr/teams/371/post/64313)
-- [APIGee의 Web API
-  Design](https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf)
+
 - [Architectural Styles and the Design of Network-based Software
   Architectures by Roy Thomas
   Fielding](http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 - [리처드슨 REST 성숙도 모델
   (원문)](http://martinfowler.com/articles/richardsonMaturityModel.html),
-  [리처드슨 REST 성숙도 모델 (번역)](http://jinson.tistory.com/190)
+  리처드슨 REST 성숙도 모델 (번역)
 - <a href="http://meetup.toast.com/posts/92"
   class="bare">http://meetup.toast.com/posts/92</a>
 - <a
@@ -90,18 +88,6 @@
 
 <div class="paragraph">
 
-[REST revisited](http://younghoe.info/1352)
-
-</div>
-
-<div class="paragraph">
-
-[http://www.ics.uci.edu/fielding/pubs/dissertation/top.htm](http://www.ics.uci.edu/%3Csub%3Efielding/pubs/dissertation/top.htm)
-
-</div>
-
-<div class="paragraph">
-
 **Everything about REST web services - What and How**
 
 </div>
@@ -130,20 +116,6 @@
 
 [RESTful한 웹 서비스
 만들기](http://www.ibm.com/developerworks/kr/library/tutorial/j-rest/index.html)
-
-</div>
-
-<div class="paragraph">
-
-[Open Resource. Open Web이 꾸는 Plaza의
-꿈](http://humbleprogrammer.net/blog/?p=264)
-
-</div>
-
-<div class="paragraph">
-
-[REST , 데이터와 데이터가 가장 간단하게 대화하는
-방식](http://humbleprogrammer.net/blog/?p=304)
 
 </div>
 
@@ -198,14 +170,7 @@ class="bare">http://javacan.tistory.com/entry/ConvertServerObjectToDWRJsonObject
 
 <div class="paragraph">
 
-[\[dw Review](http://doortts.tistory.com/145) REST 서비스\]
-
-</div>
-
-<div class="paragraph">
-
-[한국 IBM DeveloperWorks에서 REST
-학습하기](http://ahnyounghoe.tistory.com/1392)
+\[dw Review REST 서비스\]
 
 </div>
 

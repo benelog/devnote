@@ -25,8 +25,7 @@
   - Evictor 스레드
     역할http://devyongsik.tistory.com/509\[<http://devyongsik.tistory.com/509>\]
 - <http://java-source.net/open-source/connection-pools>
-- [dbcp와 c3p0 커넥션 풀 유지하기 :: 2009/02/17
-  18:09](http://www.java2go.net/blog/117)
+
 - [c3p0 - JDBC3 Connection and Statement
   Pooling](http://tom.tharrisx.homedns.org/javalib/c3p0-0.8.4.5/doc/)
 
@@ -70,8 +69,7 @@ invoked:
 ### testOnBorrow
 
 - [http://geroros.hajima.net/entry/iBatis에서-커낵션-에러-날](http://geroros.hajima.net/entry/iBatis%EC%97%90%EC%84%9C-%EC%BB%A4%EB%82%B5%EC%85%98-%EC%97%90%EB%9F%AC-%EB%82%A0)-때
-- [mysql "Communications link failure"
-  문제](http://twopairs.tistory.com/67)
+
 - [장시간 미사용된 DBCP 커넥션의 단절현상](http://blog.ajkuhn.com/33)
 
 ### removeAbandoned
@@ -146,7 +144,6 @@ getNumActive() &gt; getMaxActive() - 3)</p>
 
 ### 성능비교
 
-- <http://javatech.org/2007/11/c3p0-vs-dbcp-the-straight-dope/>
 - JDBC SQL 구문에 클라이언트 정보 남기기 :
   <http://kwon37xi.egloos.com/4860051>
 
@@ -174,7 +171,6 @@ of statements exceeded 에러 발생
 ### 각종 DBMS JDBC 드라이버 셋팅법 정리
 
 - <http://blog.naver.com/jeany4u/20003041849>
-- <http://blog.naver.com/sj1g/80010958766>
 
 ### 에러 관련
 
@@ -198,7 +194,7 @@ of statements exceeded 에러 발생
 
 - <http://bleujin.tistory.com/152>
 - <http://dev.mysql.com/doc/refman/5.1/en/connector-j-reference-implementation-notes.html>
-- <http://deadlock.tistory.com/273>
+
 - [http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html#setFetchSize(int)](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html#setFetchSize%28int%29)
 - <http://www.databasesandlife.com/reading-row-by-row-into-java-from-mysql/>
 - <http://blog.naver.com/PostView.nhn?blogId=kang594&logNo=40515882&parentCategoryNo=8&viewDate=&currentPage=1&listtype=0>

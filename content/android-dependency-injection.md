@@ -49,8 +49,6 @@ ever seen
 - Intelli J에서 안 되는 사람도 있음. Itelli J 내부의 Annotation
   processing 처리방식이 Eclipse하고 다른듯.
 - IntelliJ문제 참조
-- <http://www.jayway.com/2012/08/31/making-androidannotations-work-with-intellij-idea>
-- [http://blogs.jetbrains.com/idea/2009/11/userfriendly-annotation-processing-support-jpa-20-metamodel/﻿](http://blogs.jetbrains.com/idea/2009/11/userfriendly-annotation-processing-support-jpa-20-metamodel/%EF%BB%BF)
 
 # [Dagger](https://github.com/square/dagger)
 

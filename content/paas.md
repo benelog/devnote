@@ -75,7 +75,6 @@ vSphere, OpenStack, AWS, MicroCloud 다 가능.. Juju + Cloudfoundry :
 
 ## Docker + Cloud foundry
 
-- <http://www.activestate.com/blog/2014/04/docker-and-cloud-foundry>
   - Decker : DEA의 API를 구현
   - Stackato
   - Diego : DEA대체
@@ -90,7 +89,6 @@ vSphere, OpenStack, AWS, MicroCloud 다 가능.. Juju + Cloudfoundry :
 
 ### Diego
 
-- <http://www.activestate.com/blog/2014/09/cloud-foundry-diego-explained-onsi-fakhouri>
 - <http://thenewstack.io/docker-on-diego-cloud-foundrys-new-elastic-runtime/>
 
 ## AppScale

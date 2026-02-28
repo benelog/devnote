@@ -1,5 +1,5 @@
-<https://www.owasp.org/index.php/XML_External_Entity_%28XXE%29_Processing>
-<https://www.owasp.org/index.php/Testing_for_XML_Injection_%28OWASP-DV-008%29>
+
+
 <http://www.securityfocus.com/archive/1/528177/30/0/threaded>
 
 <http://www.gopivotal.com/security/cve-2013-4152>

@@ -3,8 +3,6 @@ Gradle vs Maven vs BuildR :
 
 # Buildr
 
-[메이븐을 대체할 것인가~ Buildr](http://whiteship.tistory.com/1716)
-
 <http://incubator.apache.org/buildr/index.html>
 
 # Ivy

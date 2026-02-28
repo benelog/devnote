@@ -36,7 +36,6 @@ filesystem과 classpath에서 동시에찾는 설정
 ``` xml
 <bean id="server" class="java.net.InetAddress" factory-method="getLocalHost"/>
 
-
 <bean id="persistentMessageStore"  class="org.springframework.integration.jdbc.JdbcMessageStore">
     <property name="tablePrefix" value="channel_" />
     <property name="region" value="#{server.name}" />

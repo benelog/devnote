@@ -1,7 +1,5 @@
 <http://www.ibm.com/developerworks/aix/library/au-endianc/index.html?ca=drs>
 
-[C언어 최적화 관련](http://decoder.tistory.com/529)
-
 [Program Library HOWTO](http://neocode.egloos.com/1910217)
 
 [printf vs. cout (수정 및 추가)](http://minjang.egloos.com/1934885)
@@ -13,8 +11,6 @@
 
 [Machine이 32bit인지 64bit인지
 구분하기](http://alones.byus.net/moniwiki/wiki.php/c_cpp_tips_32_64?action=show)
-
-[20가지 C++ 팁](http://decoder.tistory.com/547)
 
 # Malloc
 

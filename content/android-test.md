@@ -27,7 +27,7 @@ test/android.test.InstrumentationTestRunner
 
 카카오톡 임유진 님 ( <eugenelgm@gmail.com> )의 발표
 
-- 발표자료 : <http://goo.gl/1WyAz>
+- 발표자료 :
 - 예제코드 : <https://github.com/eugenelgm/AndroidForTest> [
   ](https://github.com/eugenelgm/AndroidForTest)
 
@@ -97,8 +97,6 @@ Instrumentation mInstr = this.getInstrumentation();
 [Android JUnit vs JUnit 4](http://dreamjr.springnote.com/pages/4628249)
 
 <http://d.android.com/resources/tutorials/testing/activity_test.html>
-
-<http://jeungun.wordpress.com/2010/02/28/a-hint-of-dependency-injection-in-android-or-not/>
 
 `final` `EditText edittext = (EditText) findViewById(R.id.edittext);`
 
@@ -255,9 +253,6 @@ ActivityInstrumentationTestCase : depreciated.
 - Roboguice + Borachio 예제 프로젝트
   <https://github.com/jaley/borachio-warehouse>
 - Android + ScalaMock 예제 설명
-- <http://www.paulbutcher.com/2011/03/mock-objects-on-android-with-borachio-part-1/>
-- <http://www.paulbutcher.com/2011/03/mock-objects-on-android-with-borachio-part-2/>
-- <http://www.paulbutcher.com/2011/03/mock-objects-on-android-with-borachio-part-3/>
 
 === [RoboSpec](https://github.com/jbrechtel/robospecs)
 
