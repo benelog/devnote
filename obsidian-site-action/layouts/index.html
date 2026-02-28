@@ -59,10 +59,14 @@
     const nodeRadius = d => 3 + (d.count / maxCount) * 10;
     const nodeColor = d3.scaleSequential(d3.interpolateBlues).domain([0, maxCount]);
 
+    const size = Math.min(width, height);
+
     const simulation = d3.forceSimulation(data.nodes)
-      .force('link', d3.forceLink(data.links).id(d => d.id).distance(60))
-      .force('charge', d3.forceManyBody().strength(-80))
-      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('link', d3.forceLink(data.links).id(d => d.id).distance(40))
+      .force('charge', d3.forceManyBody().strength(-40))
+      .force('x', d3.forceX(width / 2).strength(0.1))
+      .force('y', d3.forceY(height / 2).strength(0.1))
+      .force('radial', d3.forceRadial(size * 0.3, width / 2, height / 2).strength(0.15))
       .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 2));
 
     const link = g.append('g')
