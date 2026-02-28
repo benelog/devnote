@@ -131,7 +131,7 @@
 ## Children
 - [[git-command]]
 - [[git-tools]]
+- [[github]]
 
 ## Related
-- [[github]]
 - [[vcs]]

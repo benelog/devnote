@@ -22,8 +22,10 @@ GIT은 맥가이버, Mercurial은 제임스 본드
 
 Subversion re-education : <http://surpreem.com/archives/51>
 
-## Related
+## Children
 - [[git]]
+
+## Related
 - [[git-command]]
 - [[git-tools]]
 - [[github]]

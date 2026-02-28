@@ -48,6 +48,7 @@
 ## Children
 - [[junit]]
 - [[mock]]
+- [[performance-test]]
 - [[tdd]]
 - [[test-framework]]
 - [[test-quote]]

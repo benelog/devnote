@@ -1,4 +1,5 @@
 ## Children
+- [[docker]]
 - [[linux-desktop]]
 - [[linux-dist]]
 - [[linux-kernel]]
@@ -7,4 +8,5 @@
 - [[linux-process]]
 - [[linux-shell]]
 - [[linux-tips]]
+- [[ssh]]
 - [[wget]]

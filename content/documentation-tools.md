@@ -122,7 +122,7 @@ surge.sh로 배포
 - Postach.io
 - Pattern
 
-## Related
+## Children
 - [[asciidoc]]
 - [[docbook]]
 - [[documentation-cases]]
