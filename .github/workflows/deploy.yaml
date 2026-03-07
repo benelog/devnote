@@ -16,20 +16,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v6.0.2
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: obsidian-site-action/package-lock.json
-      - name: Install dependencies
-        run: npm ci
-        working-directory: obsidian-site-action
-      - name: Build
-        run: npm run build -- --source ..
-        working-directory: obsidian-site-action
+      - uses: actions/checkout@v4
+      - uses: benelog/obsidian-site@v1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
