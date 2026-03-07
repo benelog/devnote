@@ -17,6 +17,7 @@
 ## Children
 - [[ai-coding]]
 - [[ai-framework]]
+- [[ocr]]
 
 ## Related
 - [[gpt]]
