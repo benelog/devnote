@@ -46,6 +46,9 @@
 - [바이브 코딩에는 컨텍스트 엔지니어링이
   필요하다](https://blogbyash.com/translation/vibe-coding-needs-context-engineering/)
 
+## Code Review
+* https://www.latent.space/p/reviews-dead
+
 ## 연구 리포트
 
 - [Anthropic 2026 Agentic Coding Trends
