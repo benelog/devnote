@@ -67,8 +67,6 @@
 
 - [Cursor Max mode로 대형 코드 베이스 다루기](https://devway.tistory.com/70)
 
-## Claude Code
-
 
 ## MCP
 * [MCP is DEAD](https://www.youtube.com/watch?v=JZW2W5rwsD4) (Youtube)
@@ -84,7 +82,4 @@
 ## Children
 * [[ai-coding-productivity]]
 * [[claude-code]]
-## Related
-- [[ai-framework]]
-- [[gpt]]
-- [[spring-ai]]
+* [[agent-skills]]

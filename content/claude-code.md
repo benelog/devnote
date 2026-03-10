@@ -1,6 +1,6 @@
 - [Claude ‘구독형’ 요금제가 API보다 최대 36배 저렴한 이유와 ‘Max 5x’가 진짜 최적 구간인 이유](https://news.hada.io/topic?id=26256&)
 - [Claude Code 창시자 Boris Cherny가 Claude Code를 사용하는 방법](https://news.hada.io/topic?id=25570)
-  - [Claude Code 오픈소스 창시자의 Claude 사용법](https://www.notion.so/grumatic/Claude-Code-Claude-2dd0586bce7480eb8f0cc5a07d5dd7ae)
+* [Claude Code 오픈소스 창시자의 Claude 사용법](https://www.notion.so/grumatic/Claude-Code-Claude-2dd0586bce7480eb8f0cc5a07d5dd7ae)
 - <https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/>
 - <https://www.anthropic.com/engineering/claude-code-best-practices>
 - <https://github.com/seeyoung/claude-multi-ai-collab> : Gemini + Codex를 동시에 활용하는 CLI 스킬
