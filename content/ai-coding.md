@@ -50,7 +50,10 @@
 * https://www.latent.space/p/reviews-dead
 
 ## 연구 리포트
-
+- [Faros.ai의 조사](https://www.faros.ai/blog/ai-software-engineering) (10,000명 이상 개발자, 1,255개 팀 대상)에 따르면 AI 도입률이 높은 팀에서 뚜렷한 패턴
+    - 완료 태스크 수 21% 증가
+    - 머지되는 PR 수 98% 증가
+    - PR 리뷰 소요 시간 91% 증가
 - [Anthropic 2026 Agentic Coding Trends
   Report](https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026)
   : 개발자가 AI에 "완전히 위임" 가능하다고 느끼는 작업은 전체의 0~20%에
