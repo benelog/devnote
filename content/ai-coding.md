@@ -186,12 +186,11 @@
 - [Claude Cowork - 엔터프라이즈 AI 에이전트의 새로운
   장](https://drive.google.com/file/d/1qfZtTLXQHBeLR_qD3glgmD8LIIe4Akzl/view)
 
-### Skills
+## MCP
+* [MCP is DEAD](https://www.youtube.com/watch?v=JZW2W5rwsD4) (Youtube)
+* [MCP is dead. Long live the CLI]https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
 
-- [Claude Skills는 굉장하다, MCP보다 더 큰
-  혁신일지도](https://news.hada.io/topic?id=23734)
-
-# Open 스펙
+## Open 스펙
 
 - <https://agentskills.io/>
   - [agentskills.io/
