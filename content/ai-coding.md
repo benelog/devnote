@@ -194,7 +194,7 @@
 
 ## MCP
 * [MCP is DEAD](https://www.youtube.com/watch?v=JZW2W5rwsD4) (Youtube)
-* [MCP is dead. Long live the CLI]https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
+* [MCP is dead. Long live the CLI](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
 
 ## Open 스펙
 
