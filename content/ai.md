@@ -1,7 +1,6 @@
 - <https://deep-learning-drizzle.github.io/>
 - <https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web>
-- [LLM 자체 호스팅, 현실과 한계
-  총정리](https://digitalbourgeois.tistory.com/m/1623)
+- [LLM 자체 호스팅, 현실과 한계 총정리](https://digitalbourgeois.tistory.com/m/1623)
 - <https://aws.amazon.com/ko/bedrock/>
 - <https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web>
 

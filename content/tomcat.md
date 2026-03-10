@@ -19,20 +19,15 @@
 
 <div class="ulist">
 
-- <a href="https://www.slideshare.net/Paganel/tomcatx-performancetuning"
-  class="bare">https://www.slideshare.net/Paganel/tomcatx-performancetuning</a>
-- <a
-  href="https://medium.com/netflix-techblog/tuning-tomcat-for-a-high-throughput-fail-fast-system-e4d7b2fc163f"
-  class="bare">https://medium.com/netflix-techblog/tuning-tomcat-for-a-high-throughput-fail-fast-system-e4d7b2fc163f</a>
+- <a href="https://www.slideshare.net/Paganel/tomcatx-performancetuning" class="bare">https://www.slideshare.net/Paganel/tomcatx-performancetuning</a>
+- <a href="https://medium.com/netflix-techblog/tuning-tomcat-for-a-high-throughput-fail-fast-system-e4d7b2fc163f" class="bare">https://medium.com/netflix-techblog/tuning-tomcat-for-a-high-throughput-fail-fast-system-e4d7b2fc163f</a>
 
   <div class="ulist">
   - acceptCount 에 대해 자세히 설명
   - 28 페이지에 NIO Connector 관련
 
   </div>
-- <a
-  href="https://medium.com/netflix-techblog/tuning-tomcat-for-a-high-throughput-fail-fast-system-e4d7b2fc163f"
-  class="bare">https://medium.com/netflix-techblog/tuning-tomcat-for-a-high-throughput-fail-fast-system-e4d7b2fc163f</a>
+- <a href="https://medium.com/netflix-techblog/tuning-tomcat-for-a-high-throughput-fail-fast-system-e4d7b2fc163f" class="bare">https://medium.com/netflix-techblog/tuning-tomcat-for-a-high-throughput-fail-fast-system-e4d7b2fc163f</a>
 
   <div class="ulist">
   - 앞 단에 Apache Httpd 제거
@@ -93,15 +88,11 @@ class="bare">,+2nd+Edition/9780596101060/ch04.html#benchmark_results_for_serving
 
 <div class="ulist">
 
-- [Tomcat 4/5.x 의 Administration tool을
-  보자.](http://blog.naver.com/eclipse4j.do?Redirect=Log&logNo=120004176433)
-- [tomcat 5.5.9 에 admin 설치
-  하기](http://blog.naver.com/hdyu12?Redirect=Log&logNo=10001167934)
+- [Tomcat 4/5.x 의 Administration tool을 보자.](http://blog.naver.com/eclipse4j.do?Redirect=Log&logNo=120004176433)
+- [tomcat 5.5.9 에 admin 설치 하기](http://blog.naver.com/hdyu12?Redirect=Log&logNo=10001167934)
 
-- [Tomcat 서버 설치 및 환경
-  세팅](http://wiki.javajigi.net/pages/viewpage.action?pageId=381)
-- [Tomcat 설정파일 server.xml
-  주석](http://blog.naver.com/harurun?Redirect=Log&logNo=120060048679)
+- [Tomcat 서버 설치 및 환경 세팅](http://wiki.javajigi.net/pages/viewpage.action?pageId=381)
+- [Tomcat 설정파일 server.xml 주석](http://blog.naver.com/harurun?Redirect=Log&logNo=120060048679)
 
 </div>
 
@@ -117,14 +108,11 @@ class="bare">,+2nd+Edition/9780596101060/ch04.html#benchmark_results_for_serving
 
 <div class="ulist">
 
-- [Tomcat에서 Context.xml을 이용한 자카르타 DBCP
-  설정](http://blog.naver.com/innoc99/140052476110)
-- [Tomcat 5.5에서 context
-  설정](http://blog.naver.com/dulposooil/140047520131)
+- [Tomcat에서 Context.xml을 이용한 자카르타 DBCP 설정](http://blog.naver.com/innoc99/140052476110)
+- [Tomcat 5.5에서 context 설정](http://blog.naver.com/dulposooil/140047520131)
 - <http://blog.naver.com/soulooso/60035921997>
 
-- [단일 Tomcat 서버에서 가상 호스트 설정법과 각 호스트별 Manager 기능
-  설정](http://okjsp.pe.kr/seq/91825)
+- [단일 Tomcat 서버에서 가상 호스트 설정법과 각 호스트별 Manager 기능 설정](http://okjsp.pe.kr/seq/91825)
 
 </div>
 
@@ -134,12 +122,9 @@ class="bare">,+2nd+Edition/9780596101060/ch04.html#benchmark_results_for_serving
 
 <div class="ulist">
 
-- [\[jconsole](http://www.tuning-java.com/171) JConsoled을 사용해서
-  Tomcat 5.5 모니터링 하기\]
-- <a href="http://www.lambdaprobe.org/d/index.htm"
-  class="bare">http://www.lambdaprobe.org/d/index.htm</a>
-- [Memory leaks where the classloader cannot be garbage
-  collected](http://opensource.atlassian.com/confluence/spring/pages/viewpage.action?pageId=2669)
+- [\[jconsole](http://www.tuning-java.com/171) JConsoled을 사용해서 Tomcat 5.5 모니터링 하기\]
+- <a href="http://www.lambdaprobe.org/d/index.htm" class="bare">http://www.lambdaprobe.org/d/index.htm</a>
+- [Memory leaks where the classloader cannot be garbage collected](http://opensource.atlassian.com/confluence/spring/pages/viewpage.action?pageId=2669)
 
 </div>
 
@@ -232,12 +217,8 @@ class="bare">,+2nd+Edition/9780596101060/ch04.html#benchmark_results_for_serving
 
 <div class="ulist">
 
-- <a
-  href="http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%%3Ca%20href="
-  mailto:3c4f155cdc.8050804@apache.org"="">3C4F155CDC.8050804@apache.org</a>%3E"\>http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%<3C4F155CDC.8050804@apache.org>%3E
-- <a
-  href="http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%%3Ca%20href="
-  mailto:3c4f155ce2.3060301@apache.org"="">3C4F155CE2.3060301@apache.org</a>%3E"\>http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%<3C4F155CE2.3060301@apache.org>%3E
+- <a href="http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%%3Ca%20href=" mailto:3c4f155cdc.8050804@apache.org"="">3C4F155CDC.8050804@apache.org</a>%3E"\>http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%<3C4F155CDC.8050804@apache.org>%3E
+- <a href="http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%%3Ca%20href=" mailto:3c4f155ce2.3060301@apache.org"="">3C4F155CE2.3060301@apache.org</a>%3E"\>http://mail-archives.apache.org/mod_mbox/www-announce/201201.mbox/%<3C4F155CE2.3060301@apache.org>%3E
 
 </div>
 
@@ -318,17 +299,11 @@ class="bare">https://github.com/apache/tomcat-maven-plugin</a>
 
 <div class="ulist">
 
-- [Local 개발환경에서 WAS를 띄우는 여러가지
-  방법](http://blog.benelog.net/2879657)
-- [eclipse에 embedded tomcat
-  연결](http://www.slipp.net/wiki/pages/viewpage.action?pageId=16711743)
-  (박재성)
-- [IDE에서 embedded tomcat을 직접 실행할 때 발생하는 에러
-  해결](http://www.slipp.net/questions/208)
-- [WTP 버리고 embedded tomcat
-  활용하자](http://www.slipp.net/questions/209)
-- [UI 테스트에 Embeded Tomcat을 사용한
-  사례](https://github.com/benelog/tomcat-bed) (정상혁)
+- [Local 개발환경에서 WAS를 띄우는 여러가지 방법](http://blog.benelog.net/2879657)
+- [eclipse에 embedded tomcat 연결](http://www.slipp.net/wiki/pages/viewpage.action?pageId=16711743) (박재성)
+- [IDE에서 embedded tomcat을 직접 실행할 때 발생하는 에러 해결](http://www.slipp.net/questions/208)
+- [WTP 버리고 embedded tomcat 활용하자](http://www.slipp.net/questions/209)
+- [UI 테스트에 Embeded Tomcat을 사용한 사례](https://github.com/benelog/tomcat-bed) (정상혁)
 
   <div class="ulist">
   - [WebApplicationServer.java](https://github.com/benelog/tomcat-bed/blob/master/tomcat-bed-test/src/test/java/net/benelog/tomcatbed/WebApplicationServer.java)

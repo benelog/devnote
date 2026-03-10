@@ -3,10 +3,8 @@
 - <http://www.zentus.com/sqlitejdbc/> : Original
 - <http://www.xerial.org/trac/Xerial/wiki/SQLiteJDBC> : 개선판
 - Class : org.sqlite.JDBC
-- url :
-  jdbc:sqlite:F:/data/com.astroframe.seoulbus/databases/station.sqlite
-- multithread에서 쓰면 안되요 :
-  <http://stackoverflow.com/questions/5117248/spring-sqlite-in-multi-threaded-application>
+- url : jdbc:sqlite:F:/data/com.astroframe.seoulbus/databases/station.sqlite
+- multithread에서 쓰면 안되요 : <http://stackoverflow.com/questions/5117248/spring-sqlite-in-multi-threaded-application>
 
 ``` xml
 <dependency>

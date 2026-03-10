@@ -1,12 +1,8 @@
 - <http://www.onjava.com/pub/a/onjava/2004/04/21/declarative.html>
-- [1부 \| 개발자를 위한 끝없는 경쟁 자바 vs 닷넷의 메타데이터
-  활용](http://www.zdnet.co.kr/builder/dev/java/0,39031622,39163226,00.htm)
-- [2부 \| 개발 생산성 향상을 위한 자바EE5의 어노테이션
-  활용](http://www.zdnet.co.kr/builder/dev/java/0,39031622,39163225,00.htm)
-- [3부 \| 형이상학적 메타데이터 활용을 위한 어노테이션 인
-  액션](http://www.zdnet.co.kr/builder/dev/java/0,39031622,39163224,00.htm)
-- [5부 \| 자바 어노테이션의 진화 오픈소스와
-  어노테이션](http://www.zdnet.co.kr/builder/dev/java/0,39031622,39163222,00.htm)
+- [1부 \| 개발자를 위한 끝없는 경쟁 자바 vs 닷넷의 메타데이터 활용](http://www.zdnet.co.kr/builder/dev/java/0,39031622,39163226,00.htm)
+- [2부 \| 개발 생산성 향상을 위한 자바EE5의 어노테이션 활용](http://www.zdnet.co.kr/builder/dev/java/0,39031622,39163225,00.htm)
+- [3부 \| 형이상학적 메타데이터 활용을 위한 어노테이션 인 액션](http://www.zdnet.co.kr/builder/dev/java/0,39031622,39163224,00.htm)
+- [5부 \| 자바 어노테이션의 진화 오픈소스와 어노테이션](http://www.zdnet.co.kr/builder/dev/java/0,39031622,39163222,00.htm)
 
 # JSR 305
 

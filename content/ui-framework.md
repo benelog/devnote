@@ -14,8 +14,7 @@
 ## Side bar
 
 - <http://www.jqueryscript.net/menu/Creating-Collapsible-Bootstrap-Sidebars-with-jQuery-CSS.html>
-  - demo :
-    <http://www.jqueryscript.net/demo/Creating-Collapsible-Bootstrap-Sidebars-with-jQuery-CSS/>
+  - demo : <http://www.jqueryscript.net/demo/Creating-Collapsible-Bootstrap-Sidebars-with-jQuery-CSS/>
 - <http://bootsnipp.com/snippets/featured/nav-sidebar-with-toggle-button>
 - <http://jsfiddle.net/mark47/x8S2q/>
 - <http://codepen.io/goodywebs/pen/ouhiH/>
@@ -49,8 +48,7 @@ Framework](http://blog.outsider.ne.kr/632)
 
 # Material Design
 
-- [구글의 머트리얼 디자인 가이드 함께
-  보기](http://blog.rightbrain.co.kr/?p=3019)
+- [구글의 머트리얼 디자인 가이드 함께 보기](http://blog.rightbrain.co.kr/?p=3019)
 - <https://www.polymer-project.org/>
 
     <https://material.angularjs.org/>

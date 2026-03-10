@@ -1,14 +1,10 @@
 - <http://www.popit.kr/cqrs-eventsourcing/>
 - <https://justhackem.wordpress.com/2016/09/17/what-is-cqrs/>
-- [CQRS 처음
-  도입하기](https://youngjaekim.wordpress.com/2016/09/12/%EC%B5%9C%EC%8B%A0-%EA%B8%B0%EC%88%A0-cqrs-%EC%B2%98%EC%9D%8C-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0/)
-- [QRS Documents by Greg
-  Young](https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf)
-- [Cutting Edge - Building an Historical
-  CRUD](https://msdn.microsoft.com/magazine/mt703431)
+- [CQRS 처음 도입하기](https://youngjaekim.wordpress.com/2016/09/12/%EC%B5%9C%EC%8B%A0-%EA%B8%B0%EC%88%A0-cqrs-%EC%B2%98%EC%9D%8C-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0/)
+- [QRS Documents by Greg Young](https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf)
+- [Cutting Edge - Building an Historical CRUD](https://msdn.microsoft.com/magazine/mt703431)
 - <http://cqrsjourney.github.io/>
-- [Cutting Edge - Beyond CRUD: Commands, Events and
-  Bus](https://msdn.microsoft.com/en-us/magazine/mt767692.aspx)
+- [Cutting Edge - Beyond CRUD: Commands, Events and Bus](https://msdn.microsoft.com/en-us/magazine/mt767692.aspx)
 
 # EventSourcing
 

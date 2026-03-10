@@ -26,8 +26,7 @@ IT조직들](http://www.zdnet.co.kr/itbiz/column/anchor/yscho/0,39044217,3917247
 
 # Agile
 
-- [Principles behind the Agile
-  Manifesto](https://agilemanifesto.org/principles.html)
+- [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)
 - [Atlassian의 애자일 문서](https://www.atlassian.com/agile)
 
 # 추정

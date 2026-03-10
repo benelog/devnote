@@ -50,14 +50,12 @@ Effective Java 2nd Edition에서는 스레드 안정성을 다음 4자리 분류
   - 예) ConcurrentHashMap
 - 조건부 Thread-safe
   - 어떤 메소드는 외부에서 sync가 필요한 클래스입니다.
-  - 예) Collections.synchronizedList로 받은 List의 iterator는
-    ConcurrentModificationException을 발생시킬수 있습니다.
+  - 예) Collections.synchronizedList로 받은 List의 iterator는 ConcurrentModificationException을 발생시킬수 있습니다.
 - Not Thread-safe
   - 외부에서 synchronized를 해야 함
   - 예) HashMap, ArrayList
 - Thread-hostile
-  - 외부에서 synchronized를 해도 멀티쓰레드에서는 못 쓰는 클래스입니다.
-    다행히 Java에는 거의 없습니다.
+  - 외부에서 synchronized를 해도 멀티쓰레드에서는 못 쓰는 클래스입니다. 다행히 Java에는 거의 없습니다.
   - 예) System.runFinalizersOnExit
 
 저렇게 잘 구분해서 Javadoc 문서의 제일 앞에 설명을 해준다면 좋겠지만,
@@ -117,8 +115,7 @@ annotation](http://jcip.net/annotations/doc/net/jcip/annotations/package-summary
 'Java concurrent in practice' 책에서 제안된 스레드 안정성을 표시하는
 기법입니다.아래 4개의 종류의 애노테이션을 제공합니다.
 
-- @GuardedBy : 해당 객체가 어떤 Lock으로 보호되고 있는지 표시. 필드에
-  메소드에 사용 가능
+- @GuardedBy : 해당 객체가 어떤 Lock으로 보호되고 있는지 표시. 필드에 메소드에 사용 가능
 - @Immutable : 불변객체
 - @NotThreadSafe : 스레드 안전하지 않음
 - @ThreadSafe : 스레드 안전함
@@ -168,10 +165,7 @@ alt="DefaultHttpClient" />
 @Immutable을 인식합니다. 버전 2.0부터 JCIP라는 버그 패턴으로 등록이 되어
 있습니다. 아래 페이지에서 확인할 수 있습니다.
 
-- <http://findbugs.sourceforge.net/bugDescriptions.html#JCIP_FIELD_ISNT_FINAL_IN_IMMUTABLE_CLASS>
-  [Findbugs Eclipse
-  plugin](http://findbugs.sourceforge.net/manual/eclipse.html)를
-  설치하면 보다 편하게 FindBugs가 주는 경고를 확인할 수 있습니다..
+- <http://findbugs.sourceforge.net/bugDescriptions.html#JCIP_FIELD_ISNT_FINAL_IN_IMMUTABLE_CLASS> [Findbugs Eclipse plugin](http://findbugs.sourceforge.net/manual/eclipse.html)를 설치하면 보다 편하게 FindBugs가 주는 경고를 확인할 수 있습니다..
 
 만약 아래와 같이 @Immutable로 선언된 클래스에 final이 아닌 필드가 있다면
 
@@ -205,8 +199,7 @@ alt="findbugs에서 Immutable 경고" />
 
 Findbugs의 자세한 설명방법은 아래 포스트를 참고하시기 바랍니다.
 
-- [FindBugs + Eclipse + Maven2 +
-  Hudson](http://blog.benelog.net/2079841)
+- [FindBugs + Eclipse + Maven2 + Hudson](http://blog.benelog.net/2079841)
 
 # 정리
 

@@ -1,8 +1,7 @@
 # Rich editor
 
 - <https://yabwe.github.io/medium-editor/> : 미디엄 스타일
--  : Rich Text Editor Framework
-  for React
+-  : Rich Text Editor Framework for React
 
 # Markdown Editor
 

@@ -1,5 +1,4 @@
-- [Java8 람다 관련 스펙
-  정리](http://homoefficio.github.io/2017/02/19/Java8-%EB%9E%8C%EB%8B%A4-%EA%B4%80%EB%A0%A8-%EC%8A%A4%ED%8E%99-%EC%A0%95%EB%A6%AC/)
+- [Java8 람다 관련 스펙 정리](http://homoefficio.github.io/2017/02/19/Java8-%EB%9E%8C%EB%8B%A4-%EA%B4%80%EB%A0%A8-%EC%8A%A4%ED%8E%99-%EC%A0%95%EB%A6%AC/)
 - <http://blog.hartveld.com/2013/03/jdk-8-13-interface-default-method.html>
 - <http://blog.hartveld.com/2013/03/jdk-8-23-lambda-expressions.html>
 - <http://blog.hartveld.com/2013/03/jdk-8-33-stream-api.html>
@@ -73,8 +72,7 @@ I don’t mind at all if it’s outright impossible or if you have to
 somehow annotate (I shouldn’t say annotate but), to place some syntactic
 cue as to what state you wish to mutate from within a Lambda expression.
 
-- Eclipsecon 2004의 'The Road To Lambda' :
-  <https://www.eclipsecon.org/na2014/sites/default/files/slides/2014-03-18%20The%20Road%20To%20Lambda.pdf>
+- Eclipsecon 2004의 'The Road To Lambda' : <https://www.eclipsecon.org/na2014/sites/default/files/slides/2014-03-18%20The%20Road%20To%20Lambda.pdf>
 - Devox 2013의 Invoke Dyamic 관련 발표 :
 
   <https://cdn.parleys.com/p/517af3a5e4b0736a5fa66a20/517ab55a1e8fa_1366996277881.pdf>

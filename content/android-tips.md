@@ -1,13 +1,11 @@
 # Test framework
 
 - [Vogar](https://code.google.com/p/vogar/wiki/Examples)
-- [Caliper on
-  Android](https://code.google.com/p/caliper/wiki/CaliperOnAndroid)
+- [Caliper on Android](https://code.google.com/p/caliper/wiki/CaliperOnAndroid)
 
 # 최적화 기법
 
-- ConvertView Adaptor의 getView에서 convertView 파라미터가 null일때만
-  inflate ViewWrapper : findByView를 매번 사용하지 않도록
+- ConvertView Adaptor의 getView에서 convertView 파라미터가 null일때만 inflate ViewWrapper : findByView를 매번 사용하지 않도록
 
 Strict mode 사용 :
 <http://dev.kthcorp.com/2012/01/31/android-strict-mode-howto/>
@@ -139,20 +137,16 @@ fork된 프로세스로 실행. System Service Zygote로 최초로 fork되는
 
 Android UI가 버벅이는 이유 : <http://eggy.egloos.com/3776976>
 
-- iOS와 비교하면 UI처리에 대한 우선권이 높지 않다. UI 렌더링이 앱와 같이
-  메인 쓰레드에서 이루어진다 UI 렌더링이 보통우선권이다
+- iOS와 비교하면 UI처리에 대한 우선권이 높지 않다. UI 렌더링이 앱와 같이 메인 쓰레드에서 이루어진다 UI 렌더링이 보통우선권이다
 - 데스크탑 VM같은 달빅이 좋지는 못하다.
 
 안드로이드 그래픽에 대한 진실들 : <http://eggy.egloos.com/3776975>
 
 # 주의할점
 
-- 똑같이 Context로 보여도 Activity, Application 등 실제로는 다양한
-  객체다
-- singleton에서 context를 보유할때 Application을 얻도록 해라.. 안그러면
-  메모리릭 등에 취약하다
-- UI를 다룰 때는 Activity인 context를 이용해라. 안 그러면 의도한 동작이
-  안 일어난다..
+- 똑같이 Context로 보여도 Activity, Application 등 실제로는 다양한 객체다
+- singleton에서 context를 보유할때 Application을 얻도록 해라.. 안그러면 메모리릭 등에 취약하다
+- UI를 다룰 때는 Activity인 context를 이용해라. 안 그러면 의도한 동작이 안 일어난다..
 
 UI cataloghttp://www.androidviews.net/\[<http://www.androidviews.net/>\]
 

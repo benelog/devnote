@@ -6,8 +6,7 @@
 
 # Trace
 
-- [대규모 분산 시스템 추적 플랫폼,
-  Pinpoint](https://d2.naver.com/helloworld/1194202)
+- [대규모 분산 시스템 추적 플랫폼, Pinpoint](https://d2.naver.com/helloworld/1194202)
 
 ## Related
 - [[infra-monitoring]]

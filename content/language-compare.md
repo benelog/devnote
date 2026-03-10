@@ -1,11 +1,8 @@
-- [The Ideological Battle for Memory
-  Management](https://dev.to/rafacalderon/the-ideological-battle-for-memory-management-4226)
-  - (요약) 메모리 관리에 대한 이념적
-    전투
+- [The Ideological Battle for Memory Management](https://dev.to/rafacalderon/the-ideological-battle-for-memory-management-4226)
+  - (요약) 메모리 관리에 대한 이념적 전투
 - <http://elbenshira.com/blog/the-end-of-dynamic-languages/>
   - <https://news.ycombinator.com/item?id=10614573>
-- ["Type Systems - The Good, Bad and Ugly" by Paul Snively and Amanda
-  Laucher ](https://www.youtube.com/watch?v=SWTWkYbcWU0)
+- ["Type Systems - The Good, Bad and Ugly" by Paul Snively and Amanda Laucher ](https://www.youtube.com/watch?v=SWTWkYbcWU0)
 
 <http://rosettacode.org/> Subroutines, coroutines, fibers, threads and
 continuations : <http://blog.dahlia.kr/post/18100264586>

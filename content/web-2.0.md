@@ -1,21 +1,12 @@
-- [Web 2.0이란 무엇인가
-  (1)](http://network.hanbitbook.co.kr/view.php?bi_id=1141)
-- [Web 2.0이란 무엇인가
-  (2)](http://network.hanbitbook.co.kr/view.php?bi_id=1148)
-- [Web 2.0이란 무엇인가
-  (3)](http://network.hanbitbook.co.kr/view.php?bi_id=1152)
-- [Web 2.0과
-  NGWeb](http://blog.webservices.or.kr/hollobit/archives/000907.html)
-- [장님 시맨틱 코끼리 떠들기
-  ?](http://blog.webservices.or.kr/hollobit/archives/001063.html)
-- ["웹 2.0은 사람 그
-  자체"](http://wired.daum.net/technology/article00430.shtm)
-- [시맨틱웹과 웹2.0의
-  차이는?](http://www.dal.co.kr/blog/2005/11/20051103_semantic_web_0203_web20.html)
-- [웹2.0에서 바로 본 새로운
-  세계](http://www.zdnet.co.kr/itbiz/column/anchor/scyoon/0,39030409,39140448,00.htm)
-- [비판적으로 바라본 web 2.0 - "웹2.0은
-  없다"](http://blog.webservices.or.kr/hollobit/archives/001217.html)
+- [Web 2.0이란 무엇인가 (1)](http://network.hanbitbook.co.kr/view.php?bi_id=1141)
+- [Web 2.0이란 무엇인가 (2)](http://network.hanbitbook.co.kr/view.php?bi_id=1148)
+- [Web 2.0이란 무엇인가 (3)](http://network.hanbitbook.co.kr/view.php?bi_id=1152)
+- [Web 2.0과 NGWeb](http://blog.webservices.or.kr/hollobit/archives/000907.html)
+- [장님 시맨틱 코끼리 떠들기 ?](http://blog.webservices.or.kr/hollobit/archives/001063.html)
+- ["웹 2.0은 사람 그 자체"](http://wired.daum.net/technology/article00430.shtm)
+- [시맨틱웹과 웹2.0의 차이는?](http://www.dal.co.kr/blog/2005/11/20051103_semantic_web_0203_web20.html)
+- [웹2.0에서 바로 본 새로운 세계](http://www.zdnet.co.kr/itbiz/column/anchor/scyoon/0,39030409,39140448,00.htm)
+- [비판적으로 바라본 web 2.0 - "웹2.0은 없다"](http://blog.webservices.or.kr/hollobit/archives/001217.html)
 - [웹2.0은 회귀본능이다](http://channy.creation.net/blog/?p=201)
 
 What is web 2.0 <http://news.zdnet.com/2036-2_22-6103931.html>

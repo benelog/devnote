@@ -7,8 +7,7 @@
 - <http://toby.epril.com/?p=153> \*
 - 참고자료
 - <http://blog.naver.com/jadin1?Redirect=Log&logNo=70018383230>
-- 대표적 API
-  <http://httpunit.sourceforge.net/doc/api/com/meterware/httpunit/WebResponse.html>
+- 대표적 API <http://httpunit.sourceforge.net/doc/api/com/meterware/httpunit/WebResponse.html>
 
 ## HTMLUnit
 
@@ -24,10 +23,8 @@
 - <http://jwebunit.sourceforge.net/>
 - Junit + HttpUnit의 테스트코드를 더욱 간결하게 만들어서 제공
 - 참고자료
-- Junit + HTMLUnit vs jwebUnit 코드비교 :
-  <http://jwebunit.sourceforge.net/2.x/jwebunit-htmlunit-plugin/index.html>
-- [jWebUnit 프레임웍으로 웹 애플리케이션 테스트를
-  간단하게!](http://blog.naver.com/minhan_nemo?Redirect=Log&logNo=40015688498)
+- Junit + HTMLUnit vs jwebUnit 코드비교 : <http://jwebunit.sourceforge.net/2.x/jwebunit-htmlunit-plugin/index.html>
+- [jWebUnit 프레임웍으로 웹 애플리케이션 테스트를 간단하게!](http://blog.naver.com/minhan_nemo?Redirect=Log&logNo=40015688498)
 
 public class HttpUnitTest { public static void main(String\[\] args) {
 try { WebConversation wc = new WebConversation(); WebRequest request =
@@ -85,8 +82,7 @@ Selenium RC 를 사용해보자. II\]
 
 - <http://jakarta.apache.org/cactus/>
 - <http://jakarta.apache-korea.org/cactus/>
-- [Cactus를 이용한 효율적인 테스트
-  전략](http://wiki.javajigi.net/pages/viewpage.action?pageId=279)
+- [Cactus를 이용한 효율적인 테스트 전략](http://wiki.javajigi.net/pages/viewpage.action?pageId=279)
 
 ## Cargo
 
@@ -120,9 +116,6 @@ Selenium RC 를 사용해보자. II\]
 
 # 사례
 
-- [Selenium과 Cucumber를 활용해 웹 테스트 자동화하기
-  1](http://www.slipp.net/wiki/pages/viewpage.action?pageId=1736714)
-- [Selenium과 Cucumber를 활용해 웹 테스트 자동화하기 2 - Feature별
-  실행](http://www.slipp.net/wiki/pages/viewpage.action?pageId=1736718)
-- [Selenium과 Cucumber를 활용해 웹 테스트 자동화하기 3 - 브라우저
-  재사용](http://www.slipp.net/wiki/pages/viewpage.action?pageId=1736723)
+- [Selenium과 Cucumber를 활용해 웹 테스트 자동화하기 1](http://www.slipp.net/wiki/pages/viewpage.action?pageId=1736714)
+- [Selenium과 Cucumber를 활용해 웹 테스트 자동화하기 2 - Feature별 실행](http://www.slipp.net/wiki/pages/viewpage.action?pageId=1736718)
+- [Selenium과 Cucumber를 활용해 웹 테스트 자동화하기 3 - 브라우저 재사용](http://www.slipp.net/wiki/pages/viewpage.action?pageId=1736723)

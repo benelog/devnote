@@ -1,8 +1,7 @@
 # Performance
 
 - <https://wiki.eclipse.org/Jetty/Howto/High_Load>
-  - Jetty 7,8에서는 Thread pool에서 사용하는 BlockingQueue 구현체를 직접
-    설정할수 있도록 되어 있었음
+  - Jetty 7,8에서는 Thread pool에서 사용하는 BlockingQueue 구현체를 직접 설정할수 있도록 되어 있었음
 - <http://www.eclipse.org/jetty/documentation/current/limit-load.html>
   - Jetty 9에서는 maxConnections, acceptingInLowResources 등으로 Control
 

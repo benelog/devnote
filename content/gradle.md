@@ -1,8 +1,7 @@
 - <http://kwonnam.pe.kr/wiki/gradle>
 - <https://github.com/kwon37xi/gradle-tutorial>
 - <https://github.com/ihoneymon/rocking-the-gradle>
-- [손권남님이 느낀 Maven이 Gradle보다 좋았던
-  점](http://kwonnam.pe.kr/wiki/gradle/from_maven)
+- [손권남님이 느낀 Maven이 Gradle보다 좋았던 점](http://kwonnam.pe.kr/wiki/gradle/from_maven)
 
 # Publising
 

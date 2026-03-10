@@ -10,18 +10,10 @@
 참조하시기 바랍니다. 3.1.4, 3,2.1에서는 이 Bug가 fix되었습니다. 스프링의
 이슈트랙커에 아래와 같이 등록되어 있습니다.
 
-- \[SPR-9896: ResourcePropertySource cannot load JDK 5 properties
-  xml\](<https://jira.springsource.org/browse/SPR-9896>)
-- \[Spring 3.0 (59) 프로퍼티 파일 이용하기 - placeholder vs
-  SpEL\](<http://toby.epril.com/?p=968)-> \[Inside Spring (5)
-  PropertyPlaceholderConfigurer를 @Bean으로 정의해서는 안되는
-  이유\](<http://toby.epril.com/?p=964>)
-- 스프링 3.1 (7) 프로퍼티 소스 추상화와
-  PropertySourcePlaceholderConfigurer\](<http://toby.epril.com/?p=1191)->
-  \[스프링 3.1 (4) Static @Bean
-  메소드\](<http://toby.epril.com/?p=1177>)
-- [Spring Environment Profiles 활성화
-  전략](http://arawn.github.com/blog/2012/12/04/spring-environment-profiles-initialization/)
+- \[SPR-9896: ResourcePropertySource cannot load JDK 5 properties xml\](<https://jira.springsource.org/browse/SPR-9896>)
+- \[Spring 3.0 (59) 프로퍼티 파일 이용하기 - placeholder vs SpEL\](<http://toby.epril.com/?p=968)-> \[Inside Spring (5) PropertyPlaceholderConfigurer를 @Bean으로 정의해서는 안되는 이유\](<http://toby.epril.com/?p=964>)
+- 스프링 3.1 (7) 프로퍼티 소스 추상화와 PropertySourcePlaceholderConfigurer\](<http://toby.epril.com/?p=1191)-> \[스프링 3.1 (4) Static @Bean 메소드\](<http://toby.epril.com/?p=1177>)
+- [Spring Environment Profiles 활성화 전략](http://arawn.github.com/blog/2012/12/04/spring-environment-profiles-initialization/)
 
 filesystem과 classpath에서 동시에찾는 설정
 

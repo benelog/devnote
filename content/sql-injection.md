@@ -17,8 +17,7 @@
 
 - <http://blog.naver.com/PostView.nhn?blogId=mkgk888&logNo=150090912890>
 - <http://sqlninja.sourceforge.net/>
--  :
-  firefox 12이후 안 됨
+-  : firefox 12이후 안 됨
 
 # 기법
 

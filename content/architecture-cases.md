@@ -6,27 +6,18 @@
 
 # Facebook
 
-- Facebook geographic distributed architecture :
-  <http://bcho.tistory.com/416>
+- Facebook geographic distributed architecture : <http://bcho.tistory.com/416>
 - <http://www.infoq.com/presentations/Scale-at-Facebook>
 
 # Tumblr
 
-- [Tumblr Architecture - 15 Billion Page Views a Month and Harder to
-  Scale than
-  Twitter](http://ti.nhncorp.com/CS/cs.jsp?tsd=2012-02-21&tsu=http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html)
-  High Scalability
-- [How Tumblr went from wee to
-  webscale](http://ti.nhncorp.com/CS/cs.jsp?tsd=2012-02-22&tsu=http://gigaom.com/cloud/how-tumblr-went-from-wee-to-webscale/)
-  Gigaom
-- [Tumblr가 가진 기술과 개발
-  문화](http://www.mimul.com/pebble/default/2012/09/14/1347604822256.html)
+- [Tumblr Architecture - 15 Billion Page Views a Month and Harder to Scale than Twitter](http://ti.nhncorp.com/CS/cs.jsp?tsd=2012-02-21&tsu=http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html) High Scalability
+- [How Tumblr went from wee to webscale](http://ti.nhncorp.com/CS/cs.jsp?tsd=2012-02-22&tsu=http://gigaom.com/cloud/how-tumblr-went-from-wee-to-webscale/) Gigaom
+- [Tumblr가 가진 기술과 개발 문화](http://www.mimul.com/pebble/default/2012/09/14/1347604822256.html)
 
 # Evernote
 
-- <http://highscalability.com/blog/2011/5/23/evernote-architecture-9-million-users-and-150-million-reques.html>
-  \*
-  [http://www.mimul.com/pebble/default/2012/03/02/1330664364631.html](http://blog.evernote.com/tech/2011/05/17/architectural-digest/#http://www.mimul.com/pebble/default/2012/03/02/1330664364631.html)
+- <http://highscalability.com/blog/2011/5/23/evernote-architecture-9-million-users-and-150-million-reques.html> \* [http://www.mimul.com/pebble/default/2012/03/02/1330664364631.html](http://blog.evernote.com/tech/2011/05/17/architectural-digest/#http://www.mimul.com/pebble/default/2012/03/02/1330664364631.html)
 
 # Netfix
 
@@ -57,40 +48,28 @@
 
 # 광군제 참여 업체
 
-- [개발자가 바라본 중국 쇼핑 축제
-  쐉쓰이(광군제)](https://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%94%EB%9D%BC%EB%B3%B8-%EC%A4%91%EA%B5%AD-%EC%87%BC%ED%95%91-%EC%B6%95%EC%A0%9C-%EA%B4%91%EA%B5%B0%EC%A0%9C/)
-- [내 멋대로 구현한 이벤트
-  드리븐](https://www.popit.kr/%EB%82%B4-%EB%A9%8B%EB%8C%80%EB%A1%9C-%EA%B5%AC%ED%98%84%ED%95%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%93%9C%EB%A6%AC%EB%B8%90/)
-- [대용량 환경에서 그럭저럭 돌아가는 서비스
-  만들기](https://www.popit.kr/%EB%8C%80%EC%9A%A9%EB%9F%89-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EA%B7%B8%EB%9F%AD%EC%A0%80%EB%9F%AD-%EB%8F%8C%EC%95%84%EA%B0%80%EB%8A%94-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0/)
+- [개발자가 바라본 중국 쇼핑 축제 쐉쓰이(광군제)](https://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%94%EB%9D%BC%EB%B3%B8-%EC%A4%91%EA%B5%AD-%EC%87%BC%ED%95%91-%EC%B6%95%EC%A0%9C-%EA%B4%91%EA%B5%B0%EC%A0%9C/)
+- [내 멋대로 구현한 이벤트 드리븐](https://www.popit.kr/%EB%82%B4-%EB%A9%8B%EB%8C%80%EB%A1%9C-%EA%B5%AC%ED%98%84%ED%95%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%93%9C%EB%A6%AC%EB%B8%90/)
+- [대용량 환경에서 그럭저럭 돌아가는 서비스 만들기](https://www.popit.kr/%EB%8C%80%EC%9A%A9%EB%9F%89-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EA%B7%B8%EB%9F%AD%EC%A0%80%EB%9F%AD-%EB%8F%8C%EC%95%84%EA%B0%80%EB%8A%94-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0/)
 
 # 쿠팡
 
-- [쿠팡의 MSA Part
-  1](https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-94678fe9eb61)
-- [쿠팡의 MSA Part
-  2](https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-a31fc2d5a572)
-- [Spring Camp 2018 - MSA 세션
-  참관기](https://medium.com/coupang-tech/spring-camp-2018-msa-%EC%84%B8%EC%85%98-%EC%B0%B8%EA%B4%80%EA%B8%B0-8862b61c4f5)
+- [쿠팡의 MSA Part 1](https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-94678fe9eb61)
+- [쿠팡의 MSA Part 2](https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-a31fc2d5a572)
+- [Spring Camp 2018 - MSA 세션 참관기](https://medium.com/coupang-tech/spring-camp-2018-msa-%EC%84%B8%EC%85%98-%EC%B0%B8%EA%B4%80%EA%B8%B0-8862b61c4f5)
 
 # 11번가
 
 - <https://www.slideshare.net/balladofgale/spring-camp-2018-11-spring-cloud-msa-1>
-- [스케일 아웃없이 순간 급증하는 주문처리하기(Microservice with
-  Kafka)](https://deview.kr/2019/schedule/305) (DEVIEW 2019, 김태경 님)
+- [스케일 아웃없이 순간 급증하는 주문처리하기(Microservice with Kafka)](https://deview.kr/2019/schedule/305) (DEVIEW 2019, 김태경 님)
 
 # 우아한 형제들
 
-- [Springcamp 2018:이벤트 기반 분산 시스템을 향한
-  여정](https://www.slideshare.net/arawnkr/ss-94475606)
-- [점진적인 레거시 웹 애플리케이션 개선
-  과정](https://www.slideshare.net/arawnkr/ss-115339631)
-- [배민 API GATEWAY - spring cloud zuul
-  적용기](http://woowabros.github.io/r&d/2017/06/13/apigateway.html)
-- [Hystrix! API Gateway를
-  도와줘!](http://woowabros.github.io/experience/2017/08/21/hystrix-tunning.html)
-- [잘 키운 모노리스 하나 열 마이크로서비스 안
-  부럽다](https://www.slideshare.net/arawnkr/ss-195979955)
+- [Springcamp 2018:이벤트 기반 분산 시스템을 향한 여정](https://www.slideshare.net/arawnkr/ss-94475606)
+- [점진적인 레거시 웹 애플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
+- [배민 API GATEWAY - spring cloud zuul 적용기](http://woowabros.github.io/r&d/2017/06/13/apigateway.html)
+- [Hystrix! API Gateway를 도와줘!](http://woowabros.github.io/experience/2017/08/21/hystrix-tunning.html)
+- [잘 키운 모노리스 하나 열 마이크로서비스 안 부럽다](https://www.slideshare.net/arawnkr/ss-195979955)
 
 ## [대규모 트랜잭션을 처리하는 배민 주문시스템 규모에 따른 진화](https://www.youtube.com/watch?v=704qQs6KoUk)
 
@@ -126,8 +105,7 @@
       - 전사 차원의 이벤트 규약 정리. (생성/접수/배달완료/취소)
   - \(2018\) 리뷰
   - \(2019\) 광고 + 가게
-    - 신규 사업모델을 반영하면서 시스템 구조 개편(사업과 기술조직을 다
-      만족시키는 방향)
+    - 신규 사업모델을 반영하면서 시스템 구조 개편(사업과 기술조직을 다 만족시키는 방향)
     - CQRS 로 전사 아키첵처를 재구성
       - 가게노출시스템(READ 관점), 광고리스팅, 검색 시스템
     - 조직구조에서도 Command과 Query를 분리
@@ -141,41 +119,31 @@
 - 2017 대장애의 시대
   - 하루 주문수 20만 돌파
   - 주말에도 장애나고 해서 개발자/CTO 모두다 괴로워함.
-  - 배민 장애나면 사람들이 요기오 → 배달통으로 순서로 주문시도하는데,
-    차례대로 죽어버림.
+  - 배민 장애나면 사람들이 요기오 → 배달통으로 순서로 주문시도하는데, 차례대로 죽어버림.
 - 2018에 안정성을 최우선의 가치로 선언. 돈버는 과제보다 우선 시.
 - CQRS, Event
   - Query 시스템은 비동기 nonblocking 기술 많이 사용 (Spring WebFlux)
   - Zero payload 방식
-    - 이벤트에 가게 ID만을 보내고 consumer에서 HTTP API를 호출하여
-      필요한 데이터를 얻어옴.
-    - 테이블이 수십개라 모든 데이터를 다 메시지에 넣어서 보내는 방법은
-      현실적이지 않았음.
+    - 이벤트에 가게 ID만을 보내고 consumer에서 HTTP API를 호출하여 필요한 데이터를 얻어옴.
+    - 테이블이 수십개라 모든 데이터를 다 메시지에 넣어서 보내는 방법은 현실적이지 않았음.
   - 데이터 저장
-    - 최소 데이터 보관 원칙 : 각 시스템은 필요한 최소한의 데이터만 보관.
-      데이터는 논리적인 의존관계를 만듦
+    - 최소 데이터 보관 원칙 : 각 시스템은 필요한 최소한의 데이터만 보관. 데이터는 논리적인 의존관계를 만듦
     - CQRS의 역할에 따라서 저장소 솔류션 선택
       - Command 시스템은 안정성이 높은 RDB
-      - Query 시스템는 성능이 좋은 NoSql류도 도입 (DynamoDB, MongoDB,
-        Redis, ES)
+      - Query 시스템는 성능이 좋은 NoSql류도 도입 (DynamoDB, MongoDB, Redis, ES)
 - 데이터동기화
-  - 장애 대비 : 메시징큐 장애시에 대비해서 전체 데이터를 sync하는 5분
-    배치가 있음.
+  - 장애 대비 : 메시징큐 장애시에 대비해서 전체 데이터를 sync하는 5분 배치가 있음.
   - 데이터 validation 등을 위해 API를 호출해야하는 경우의 정책 보완.
-    - API 실패나 일관성이 맞지 않는 데이터에도 가급적 주문은
-      이루어지도록 기획과 논의
-    - 예) 사장님이 음식 메뉴이름을 바꾸었을때 이전 이름으로라도 주문은
-      되는 것이 낫다.
+    - API 실패나 일관성이 맞지 않는 데이터에도 가급적 주문은 이루어지도록 기획과 논의
+    - 예) 사장님이 음식 메뉴이름을 바꾸었을때 이전 이름으로라도 주문은 되는 것이 낫다.
 
 뉴스기사로도 [배민은 서비스 장애를 어떻게
 없앴나](https://byline.network/2020/12/17-108/) 에 소개
 
 # 네이버
 
-- [네이버 메인 페이지의 트래픽
-  처리](https://d2.naver.com/helloworld/6070967)
-- [스마트스토어센터 Oracle에서 MySQL로의 무중단
-  전환기](https://d2.naver.com/helloworld/6512234)
+- [네이버 메인 페이지의 트래픽 처리](https://d2.naver.com/helloworld/6070967)
+- [스마트스토어센터 Oracle에서 MySQL로의 무중단 전환기](https://d2.naver.com/helloworld/6512234)
 
 # 뱅크 샐러드
 
@@ -183,13 +151,10 @@
 
 # 무신사
 
-- [“이번 달도 밤샘 정산입니다.” — 정산 시스템은 왜 필요했을까
-  (설계편)](https://techblog.musinsa.com/22732a4a607f)
-- [“이번 달도 밤샘 정산입니다.” — 정산 시스템은 어떻게 만들었을까
-  (실전편)](https://techblog.musinsa.com/74d8a5d22ba1)
+- [“이번 달도 밤샘 정산입니다.” — 정산 시스템은 왜 필요했을까 (설계편)](https://techblog.musinsa.com/22732a4a607f)
+- [“이번 달도 밤샘 정산입니다.” — 정산 시스템은 어떻게 만들었을까 (실전편)](https://techblog.musinsa.com/74d8a5d22ba1)
   - 이벤트 기반 처리 영역 : 정산의 ‘원천 데이터’를 책임지는 영역. Kafka
-  - 배치 기반 처리 영역 : 정산의 ‘확정’과 ‘마감’을 책임지는 영역. Spring
-    Batch, Argo Workflow
+  - 배치 기반 처리 영역 : 정산의 ‘확정’과 ‘마감’을 책임지는 영역. Spring Batch, Argo Workflow
 
 ## Related
 - [[design]]

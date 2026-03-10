@@ -2,12 +2,10 @@
 
 - Little’s law by John D. C. Little in 1961
   - Number of concurrent user = TPS \* avg. response time
-  - Concurrency = TPS \* Avg. Response time or Concurrency = TPS \* Max.
-    Response time
+  - Concurrency = TPS \* Avg. Response time or Concurrency = TPS \* Max. Response time
   - 수용가능한 동시 사용자 = 가상사용자 \* Think Time / 평균응답속도T
   - Tomcat MaxThreads = Concurrency \* (100% + buffer %)
-- [Performance anxiety by Joshua
-  Bloch](https://dzone.com/articles/joshua-bloch-performance)
+- [Performance anxiety by Joshua Bloch](https://dzone.com/articles/joshua-bloch-performance)
   - abstraction gap 때문에 성능은 직접 측정해야 알 수 있다
   - In java, run VM 30 times to get meaningful data.
   - <http://dl.acm.org/citation.cfm?id=1297033>
@@ -37,24 +35,15 @@
 
 ## Jmeter
 
-- [Apache JMeter를 이용한 WebSphere 퍼포먼스
-  테스트](http://www.ibm.com/developerworks/kr/library/os-jmeter/)
-- [Jmeter를 사용한 Stress
-  Test(1)](http://network.hanb.co.kr/view.php?bi_id=1520)
-- [Jmeter를 사용한 Stress
-  Test(2)](http://network.hanb.co.kr/view.php?bi_id=1521)
-- [Jmeter를 사용한 Stress
-  Test(3)](http://network.hanb.co.kr/view.php?bi_id=1522)
+- [Apache JMeter를 이용한 WebSphere 퍼포먼스 테스트](http://www.ibm.com/developerworks/kr/library/os-jmeter/)
+- [Jmeter를 사용한 Stress Test(1)](http://network.hanb.co.kr/view.php?bi_id=1520)
+- [Jmeter를 사용한 Stress Test(2)](http://network.hanb.co.kr/view.php?bi_id=1521)
+- [Jmeter를 사용한 Stress Test(3)](http://network.hanb.co.kr/view.php?bi_id=1522)
 
-- [사람을 위한 자동화: 전혀 귀찮지 않은 로드
-  테스팅](http://www.ibm.com/developerworks/kr/library/j-ap04088/index.html?ca=drs-kr)
-  ([Automation for the people: Hands-off load
-  testing](http://www.ibm.com/developerworks/java/library/j-ap04088/) )
-- [Hands-off Load Testing with JMeter and
-  Ant](http://www.infoq.com/news/2008/04/JMeter-Ant-CI)
+- [사람을 위한 자동화: 전혀 귀찮지 않은 로드 테스팅](http://www.ibm.com/developerworks/kr/library/j-ap04088/index.html?ca=drs-kr) ([Automation for the people: Hands-off load testing](http://www.ibm.com/developerworks/java/library/j-ap04088/) )
+- [Hands-off Load Testing with JMeter and Ant](http://www.infoq.com/news/2008/04/JMeter-Ant-CI)
 - [\[리뷰](http://blog.openframework.or.kr/49) 프로파일러 비교\]
-- [실용적인
-  성능테스팅](http://www.wikibook.kr:8180/JSPWiki/Data/TWA_14.pdf)
+- [실용적인 성능테스팅](http://www.wikibook.kr:8180/JSPWiki/Data/TWA_14.pdf)
 
 ## Grinder
 

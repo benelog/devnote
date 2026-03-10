@@ -330,8 +330,7 @@ glt clean -fd : 추적하지 않는 파일과 디렉토리 삭제
 - `.git/refs/heads` : 각 branch별 디렉토리가 생김
   - 브랜치는 commit의 참조일 뿐이다.
   - `` git branch -d`는 `.git/refs/heads `` 아래에 있는 파일을 삭제
-  - 체크아웃은 '해당 브랜치를 HERAD로 이동사키고 스테이지와 워킹트리를
-    HEAD가 가르키는 커밋과 동일한 내용으로 변경'
+  - 체크아웃은 '해당 브랜치를 HERAD로 이동사키고 스테이지와 워킹트리를 HEAD가 가르키는 커밋과 동일한 내용으로 변경'
   - hard reset은 커밋, 스테이지, 워킹트리의 내용이 모두 같아짐
 
 ## Related

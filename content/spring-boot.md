@@ -4,10 +4,8 @@
 
 # 예제
 
-- Java로 helloworld 찍기 :
-  <https://gist.github.com/benelog/d320305ec724384bb0c5>
-- 소개 자료 :
-  <http://www.slideshare.net/sungyongjung/springcamp2014springboot>
+- Java로 helloworld 찍기 : <https://gist.github.com/benelog/d320305ec724384bb0c5>
+- 소개 자료 : <http://www.slideshare.net/sungyongjung/springcamp2014springboot>
 - Groovy 예제 코드 :
 
 - Batch 에제 :
@@ -17,13 +15,11 @@
 - DataSource 지원 클래스 :
 
 - <https://github.com/bungubbang/springcamp2014-boot>
-- thin-war만들기 :
-  <https://github.com/bungubbang/springcamp2014-boot-war>
+- thin-war만들기 : <https://github.com/bungubbang/springcamp2014-boot-war>
 
 # Monitoring
 
-- [Spring boot 모니터링(Prometheus, Grafana,
-  docker)](https://velog.io/@roycewon/Spring-boot-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81Prometheus-Grafana-docker)
+- [Spring boot 모니터링(Prometheus, Grafana, docker)](https://velog.io/@roycewon/Spring-boot-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81Prometheus-Grafana-docker)
 - <https://docs.spring.io/spring-boot/reference/actuator/metrics.html>
 
 # Toby의 스프링 부트

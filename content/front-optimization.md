@@ -1,6 +1,5 @@
 - [메이븐을 이용한 정적 파일 배포](http://d2.naver.com/helloworld/1242)
-- [샵N에서 정적 자원 파일을 관리하는
-  방법](http://d2.naver.com/helloworld/53617)
+- [샵N에서 정적 자원 파일을 관리하는 방법](http://d2.naver.com/helloworld/53617)
 
 # App cache
 

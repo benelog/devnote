@@ -2,8 +2,7 @@
 - [카카오스토리 팀의 코드 리뷰 도입 사례](http://tech.kakao.com/2016/02/04/code-review/)
 - [thoughtbot의 코드 리뷰 가이드](http://haruair.com/blog/3116)
 
-- <http://www.infoq.com/presentations/code-organization-large-projects>
-  : Code Organization Guidelines for Large Code Bases - 유겐  휄러
+- <http://www.infoq.com/presentations/code-organization-large-projects> : Code Organization Guidelines for Large Code Bases - 유겐  휄러
 - [Ten Commandments of Egoless  Programming](http://articles.techrepublic.com.com/5100-22-1045782.html)
 - <http://en.wikipedia.org/wiki/Fagan_inspection>
 - [code review 조사 자료](http://swprocess.egloos.com/2462137)

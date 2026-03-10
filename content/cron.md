@@ -26,8 +26,7 @@
 
 # DST
 
-- [Pacific Time Zone (PT) vs Pacific Satndard Zone (PST) vs Pacific
-  Daylight Zone (PDT)](https://m.blog.naver.com/elviz1/221649940876)
+- [Pacific Time Zone (PT) vs Pacific Satndard Zone (PST) vs Pacific Daylight Zone (PDT)](https://m.blog.naver.com/elviz1/221649940876)
 - [서머타임과 배치작업](https://meetup.nhncloud.com/posts/232)
 
 ## Related

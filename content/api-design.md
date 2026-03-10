@@ -56,8 +56,7 @@ constants)
 
 - Name should be largely self-expalnatory
 - avoid cryptic abbreviation
-- Be consistent-same word means same thing. API must coexist peacefully
-  with platform.
+- Be consistent-same word means same thing. API must coexist peacefully with platform.
 
       Minimize mutabillity
 

@@ -2,15 +2,12 @@
 - <http://www.slideshare.net/modestjude/docker-in-deview-2013>
 - <https://github.com/google/lmctfy>
 - <https://speakerdeck.com/jbeda/containers-at-scale>
-- LXC and Android :
-  <http://www.linuxplumbersconf.org/2013/ocw/proposals/975>
+- LXC and Android : <http://www.linuxplumbersconf.org/2013/ocw/proposals/975>
 - <https://github.com/newrelic/centurion>
 - <http://signup.resin.io/>
 - <https://github.com/shipyard/shipyard>
-- Docker 관련 간단 사용후기:
-  <http://yisangwook.tumblr.com/post/89030483989/docker-misconceptions>
-- Docker로 NodeJS 배포:
-  <http://blog.abhinav.ca/blog/2014/06/17/develop-a-nodejs-app-with-docker/>
+- Docker 관련 간단 사용후기: <http://yisangwook.tumblr.com/post/89030483989/docker-misconceptions>
+- Docker로 NodeJS 배포: <http://blog.abhinav.ca/blog/2014/06/17/develop-a-nodejs-app-with-docker/>
 - <http://www.informationweek.com/cloud/platform-as-a-service/docker-container-system-works-with-all-linuxes/d/d-id/1112830>
 - <https://docs.docker.com/articles/using_supervisord/>
 
@@ -20,8 +17,7 @@
 
 # 명령어
 
-- Add와 Copy :
-  <https://nickjanetakis.com/blog/docker-tip-2-the-difference-between-copy-and-add-in-a-dockerile>
+- Add와 Copy : <https://nickjanetakis.com/blog/docker-tip-2-the-difference-between-copy-and-add-in-a-dockerile>
 - <https://codefresh.io/docker-tutorial/not-ignore-dockerignore-2/>
 - `docker run -it -p 80:8080 --entrypoint bash [image]`
 

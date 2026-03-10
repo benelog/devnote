@@ -1,14 +1,11 @@
-- [Object-relational impedance
-  mismatch](http://en.wikipedia.org/wiki/Object-Relational_impedance_mismatch)
+- [Object-relational impedance mismatch](http://en.wikipedia.org/wiki/Object-Relational_impedance_mismatch)
 - <http://martinfowler.com/eaaCatalog/activeRecord.html>
 
 # 기술비교
 
 - <http://db.apache.org/jdo/jdo_v_jpa.html>
-- [iBATIS, Hibernate, and JPA: Which is right for
-  you?](http://www.javaworld.com/javaworld/jw-07-2008/jw-07-orm-comparison.html)
-- [Hibernate, iBATIS 그리고 JPA중.. 당신의
-  선택은.?](http://blog.openframework.or.kr/50)
+- [iBATIS, Hibernate, and JPA: Which is right for you?](http://www.javaworld.com/javaworld/jw-07-2008/jw-07-orm-comparison.html)
+- [Hibernate, iBATIS 그리고 JPA중.. 당신의 선택은.?](http://blog.openframework.or.kr/50)
 
 # JPA
 

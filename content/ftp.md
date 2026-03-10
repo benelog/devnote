@@ -18,8 +18,7 @@ wget <ftp://user:password@benelog.net/file.out>
 
 ## SFTP vs FTPS
 
-- SFTP : SSH File Transfer Protocol. SSH Key 사용 . 1 port. firewell
-  friendly
+- SFTP : SSH File Transfer Protocol. SSH Key 사용 . 1 port. firewell friendly
 - FPTS = FTP over SSL
 
 <http://www.codeguru.com/csharp/.net/net_general/internet/article.php/c14329/FTPS-vs-SFTP-What-to-Choose.htm>

@@ -3,8 +3,7 @@
 - <https://github.com/bclozel/spring-resource-handling/blob/master/client/pom.xml>
 - <https://github.com/bclozel/spring-resource-handling/blob/master/client/package.json>
 - <https://github.com/bclozel/spring-resource-handling/blob/master/client/gulpfile.js>
-- <https://github.com/bclozel/spring-resource-handling/blob/master/server/src/main/java/org/springframework/samples/resources/WebConfig.java>
-  개발모드 일때는 src 아래의 폴더를 바로 봄.
+- <https://github.com/bclozel/spring-resource-handling/blob/master/server/src/main/java/org/springframework/samples/resources/WebConfig.java> 개발모드 일때는 src 아래의 폴더를 바로 봄.
 
 ``` java
     String location = devMode ? "file:///" + getProjectRootRequired() + "/client/src/" : "classpath:static/";
@@ -14,8 +13,7 @@
 
 ## sagan-client
 
-- <https://github.com/spring-io/sagan/commit/4a7d4aedf68e1927dc246a5c6cd4c5aa6576d0bd>
-  에서 spring-boot의 기본 전략 사용하는것으로 수정
+- <https://github.com/spring-io/sagan/commit/4a7d4aedf68e1927dc246a5c6cd4c5aa6576d0bd> 에서 spring-boot의 기본 전략 사용하는것으로 수정
 
 ### 이전 방식
 

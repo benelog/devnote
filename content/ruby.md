@@ -69,10 +69,8 @@ Heroku](http://lastmind.net/blog/2009/02/learning-rails-heroku.html)
 
 # Ruby on rails
 
-- [“Rails 이제 안 써” 를
-  읽고](http://yisangwook.tumblr.com/post/145910847954/ruby-rails-solnic)
-- <http://thinkr.egloos.com/796564> : 웹 2.0과 루비 온 레일즈(Ruby on
-  Rails)
+- [“Rails 이제 안 써” 를 읽고](http://yisangwook.tumblr.com/post/145910847954/ruby-rails-solnic)
+- <http://thinkr.egloos.com/796564> : 웹 2.0과 루비 온 레일즈(Ruby on Rails)
 
 ## typing
 

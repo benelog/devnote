@@ -1,6 +1,4 @@
-- [개발자들이 흔히 실수하는 SQL
-  7가지](http://www.slideshare.net/redrebel/20140510-34551078)에 소개된
-  기법
+- [개발자들이 흔히 실수하는 SQL 7가지](http://www.slideshare.net/redrebel/20140510-34551078)에 소개된 기법
   - 의도적인 Full scan 유도
   - 0보다 큰지 확인만할때 Exsits 사용
   - 내림차순 인덱스

@@ -64,15 +64,13 @@ ACL (Access Control List)
 
 /etc/securetty 파일의 tty1, tty2와 vc/1, vc/2 이외의 값은 주석 처리
 
-- /etc/securetty 파일의 설정을 변경하여 시스템에 접근 가능한 터미널에
-  수를 제한하기 위한 조치
+- /etc/securetty 파일의 설정을 변경하여 시스템에 접근 가능한 터미널에 수를 제한하기 위한 조치
 
   1.  /etc/profile의 ‘TMOUT’를 32400으로 설정
 - root 사용자의 idle time 설정을 변경하여 자동 로그아웃하기 위한 설정임.
 
   1.  SSH(포트 22번)는 IP접근 제어
-- iptables에 ssh 접근제어 룰 추가 또는 /etc/hosts.allow, /etc/hosts.deny
-  파일에 접근 제어할 IP 추가
+- iptables에 ssh 접근제어 룰 추가 또는 /etc/hosts.allow, /etc/hosts.deny 파일에 접근 제어할 IP 추가
 
        시스템 보안 영역 & 네트워크 보안 영역
       A. /etc/issue 파일 내용을 삭제

@@ -48,14 +48,8 @@ System](http://en.wikipedia.org/wiki/GoogleFS) (GFS) papers.
 
 HDFS filesystem uses
 
-- [HBase](http://en.wikipedia.org/wiki/HBase) -
-  [BigTable](http://en.wikipedia.org/wiki/BigTable)-model database.
--  : data warehouse infrastructure
-  built on top of [Hadoop](http://wiki.apache.org/hadoop/). SQL-like
-  query language, called QL, that HBase는 HDFS를 기반으로 하는 또 하나의
-  흥미로운 애플리케이션으로 Google BigTable과 비슷한 고성능 데이터베이스
-  시스템이다. 일반적인 파일 처리 대신 HBase는 데이터베이스 테이블을 입력
-  및 출력 양식으로 사용하여 MapReduce 처리를 수행한다.
+- [HBase](http://en.wikipedia.org/wiki/HBase) - [BigTable](http://en.wikipedia.org/wiki/BigTable)-model database.
+-  : data warehouse infrastructure built on top of [Hadoop](http://wiki.apache.org/hadoop/). SQL-like query language, called QL, that HBase는 HDFS를 기반으로 하는 또 하나의 흥미로운 애플리케이션으로 Google BigTable과 비슷한 고성능 데이터베이스 시스템이다. 일반적인 파일 처리 대신 HBase는 데이터베이스 테이블을 입력 및 출력 양식으로 사용하여 MapReduce 처리를 수행한다.
 
 ## Eclipse plugin
 

@@ -1,37 +1,26 @@
 # Spring 3.0
 
-- [Spring 3.0 (1) 프로젝트 구조와 빌드 시스템의
-  변화](http://toby.epril.com/?p=557)
-- [Spring 3.0 (2) R-518 스프링의 새 모듈 OXM(Object/XML
-  Mapping)](http://toby.epril.com/?p=561)
-- [Spring 3.0 (3) R-543 Portlet Mocks, MVC
-  등등](http://toby.epril.com/?p=573)
-- [Spring 3.0 (4) - Maven에서 Spring 3.0 최신버전
-  사용하기](http://toby.epril.com/?p=576)
+- [Spring 3.0 (1) 프로젝트 구조와 빌드 시스템의 변화](http://toby.epril.com/?p=557)
+- [Spring 3.0 (2) R-518 스프링의 새 모듈 OXM(Object/XML Mapping)](http://toby.epril.com/?p=561)
+- [Spring 3.0 (3) R-543 Portlet Mocks, MVC 등등](http://toby.epril.com/?p=573)
+- [Spring 3.0 (4) - Maven에서 Spring 3.0 최신버전 사용하기](http://toby.epril.com/?p=576)
 - [Spring3.0 (5) - 스프링 모듈의 의존관계](http://toby.epril.com/?p=598)
-- [Spring 3.0 (8) Core 모듈의 선택 라이브러리
-  분석](http://toby.epril.com/?p=614)
-- [Spring 3.0 (10) AOP 모듈의 선택 라이브러리
-  분석](http://toby.epril.com/?p=618)
-- [Spring 3.0 (11) Aspects 모듈의 선택 라이브러리
-  분석](http://toby.epril.com/?p=620)
+- [Spring 3.0 (8) Core 모듈의 선택 라이브러리 분석](http://toby.epril.com/?p=614)
+- [Spring 3.0 (10) AOP 모듈의 선택 라이브러리 분석](http://toby.epril.com/?p=618)
+- [Spring 3.0 (11) Aspects 모듈의 선택 라이브러리 분석](http://toby.epril.com/?p=620)
 
-- [Petclinic을 통해 스프링 3.0 주요기능
-  살펴보기](http://whiteship.me/2151)
-- [OpenSprout Nexus 이용하여 스프링 3.0 라이브러리
-  추가하기](http://whiteship.me/2190)
+- [Petclinic을 통해 스프링 3.0 주요기능 살펴보기](http://whiteship.me/2151)
+- [OpenSprout Nexus 이용하여 스프링 3.0 라이브러리 추가하기](http://whiteship.me/2190)
 - <http://www.opensprout.org:9060/browse/OSAF/osaf/trunk>
 
 - [What’s new in Spring 3.0?](http://whiteship.me/2199)
 - [\[스프링 3.0](http://whiteship.me/2423) @Valid 이론\]
 - [\[스프링 3.0](http://whiteship.me/2424) @Valid 실습\]
-- 스프링 3.0 애노테이션 기반
-  스케줄링\]
+- 스프링 3.0 애노테이션 기반 스케줄링\]
 
 ## Spring and Java EE5
 
-- [Spring and Java EE
-  6](http://www.infoq.com/presentations/Spring-and-Java-EE-6-Jurgen-Holler)
+- [Spring and Java EE 6](http://www.infoq.com/presentations/Spring-and-Java-EE-6-Jurgen-Holler)
 
 Spring on J2EE 1.3
 
@@ -69,12 +58,9 @@ WebArgumentResolver와 HandlerInterceptor 모두
 \<mvc:annotation-driven/\>에 의해 등록되는 MVC기반 클래스들이 아래와
 같이 바뀌었기 때문인데요,
 
-- HandlerMapping : DefaultAnnotationHandlerMapping →
-  RequestMappingHadlerMapping
-- HadlerAdaptor : AnnotationMethodHandlerAdapter →
-  RequestMappingHandlerAdapter
-- HandlerExceptionResolver : AnnotationMethodHandlerExceptionResolver →
-  ExceptionHandlerExceptionResolver
+- HandlerMapping : DefaultAnnotationHandlerMapping → RequestMappingHadlerMapping
+- HadlerAdaptor : AnnotationMethodHandlerAdapter → RequestMappingHandlerAdapter
+- HandlerExceptionResolver : AnnotationMethodHandlerExceptionResolver → ExceptionHandlerExceptionResolver
 
       <mvc:annotation-driven/>을 선언 안 했을 때는 기본 사용 클래스는 변함이 없으므로 기존의 하위 호환성이 유지됩니다.
 
@@ -155,24 +141,16 @@ NanumGothic, 맑은 고딕, AppleGothic, 돋움"\>Spring 3.1.0 ~ 3.1.3
 ## Toby님의 Spring 3.1 분석 자료
 
 - [스프링 3.1 (1) JavaConfig의 위험성](http://toby.epril.com/?p=1168)
-- [스프링 3.1 (2) HandlerInterceptor의
-  적용순서](http://toby.epril.com/?p=1172)
+- [스프링 3.1 (2) HandlerInterceptor의 적용순서](http://toby.epril.com/?p=1172)
 - [스프링 3.1 (3) @Enable~](http://toby.epril.com/?p=1174)
 - [스프링 3.1 (4) Static @Bean 메소드](http://toby.epril.com/?p=1177)
-- [스프링 3.1 (5) @Enable\*을 이용한 설정 재활용 기법 세미나 동영상 &
-  자료](http://toby.epril.com/?p=1179)
-- [스프링 3.1 (6) web.xml의 활성 프로파일
-  설정](http://toby.epril.com/?p=1188)
-- [스프링 3.1 (7) 프로퍼티 소스 추상화와
-  PropertySourcePlaceholderConfigurer](http://toby.epril.com/?p=1191)
-- [스프링 3.1 (8) web.xml 없는 스프링
-  개발](http://toby.epril.com/?p=1205)
-- [스프링 3.1 (9) 애노테이션은 상속되지
-  않는다?](http://toby.epril.com/?p=1207)
-- [스프링 3.1 (10) 심심풀이 @RequestMapping 요청 조건
-  퀴즈](http://toby.epril.com/?p=1210)
-- [스프링 3.1 (11) 심심풀이 @RequestMapping 요청 조건 퀴즈
-  풀이](http://toby.epril.com/?p=1212)
+- [스프링 3.1 (5) @Enable\*을 이용한 설정 재활용 기법 세미나 동영상 & 자료](http://toby.epril.com/?p=1179)
+- [스프링 3.1 (6) web.xml의 활성 프로파일 설정](http://toby.epril.com/?p=1188)
+- [스프링 3.1 (7) 프로퍼티 소스 추상화와 PropertySourcePlaceholderConfigurer](http://toby.epril.com/?p=1191)
+- [스프링 3.1 (8) web.xml 없는 스프링 개발](http://toby.epril.com/?p=1205)
+- [스프링 3.1 (9) 애노테이션은 상속되지 않는다?](http://toby.epril.com/?p=1207)
+- [스프링 3.1 (10) 심심풀이 @RequestMapping 요청 조건 퀴즈](http://toby.epril.com/?p=1210)
+- [스프링 3.1 (11) 심심풀이 @RequestMapping 요청 조건 퀴즈 풀이](http://toby.epril.com/?p=1212)
 
 # Spring 3.2
 

@@ -23,18 +23,12 @@ Modules](http://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf)
 
 <http://portal.acm.org/citation.cfm?id=1005943>
 
-- [정보방열기 사용방법 : 프로젝트
-  마무리하기](http://www.talk-with-hani.com/archives/723)
-- [정보방열기 사용방법 : 프로젝트
-  마무리하기2](http://www.talk-with-hani.com/archives/734)
-- [프로세스가
-  중요한가?](http://www.ibm.com/developerworks/kr/library/aug06/pollice/):
-- [방법론이 현장에서 잘 적용되지 못하는
-  원인](http://blog.naver.com/parnx/140102830216)
-- 설계 :
-  http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm\[http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm\]
-- 기타방법론
-  :http://gettingreal.37signals.com/GR_kor.php\[<http://gettingreal.37signals.com/GR_kor.php>\]
+- [정보방열기 사용방법 : 프로젝트 마무리하기](http://www.talk-with-hani.com/archives/723)
+- [정보방열기 사용방법 : 프로젝트 마무리하기2](http://www.talk-with-hani.com/archives/734)
+- [프로세스가 중요한가?](http://www.ibm.com/developerworks/kr/library/aug06/pollice/):
+- [방법론이 현장에서 잘 적용되지 못하는 원인](http://blog.naver.com/parnx/140102830216)
+- 설계 : http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm\[http://www.bleading-edge.com/Publications/CJournal/Cpjour2.htm\]
+- 기타방법론 :http://gettingreal.37signals.com/GR_kor.php\[<http://gettingreal.37signals.com/GR_kor.php>\]
 - Hard code 컬럼 :
 
 <table>
@@ -99,8 +93,7 @@ component도출:
 - 독립적으로 존재할 수 있는 것이 CORE
 - core인 경우만 그에 대응되는 interface class가 도출될 수 있다.
 - package는 업무흐름간 연관이 있는 것은 같은 package로 묶을 수 있다.
-- 여러 core에서 공통적으로 연관이 지어진 것은 독립적인 component로
-  때어낼 수 있다.
+- 여러 core에서 공통적으로 연관이 지어진 것은 독립적인 component로 때어낼 수 있다.
 
 모듈내부의 응집도는 강하게, 모듈간의 결합도는 낮게
 

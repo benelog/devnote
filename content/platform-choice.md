@@ -12,8 +12,7 @@
   - <http://www.hemju.com/2014/06/why-lingohub-is-switching-from-ruby-on-rails-to-java-spring-mvc/>
   - <https://disqus.com/home/discussion/hemju/why_lingohub_is_switching_from_ruby_on_rails_to_java_spring_mvc/>
 - <https://www.wired.com/2013/09/the-second-coming-of-java/>
-- [왜 우리는 Go와 TypeScript를
-  선택했는가](https://medium.com/daangn/%EC%99%9C-%EC%9A%B0%EB%A6%AC%EB%8A%94-go%EC%99%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%96%88%EB%8A%94%EA%B0%80-3c08a4cf7ca8)
+- [왜 우리는 Go와 TypeScript를 선택했는가](https://medium.com/daangn/%EC%99%9C-%EC%9A%B0%EB%A6%AC%EB%8A%94-go%EC%99%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%96%88%EB%8A%94%EA%B0%80-3c08a4cf7ca8)
 
 # Python 에서 전환
 
@@ -24,9 +23,7 @@
 
 # Typescript 도입
 
-- [우리가 Typescript를 선택한
-  이유](https://medium.com/@constell99/%EC%9A%B0%EB%A6%AC%EA%B0%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-b0a423654f1e)
-  : Reddit이 선택한 이유
+- [우리가 Typescript를 선택한 이유](https://medium.com/@constell99/%EC%9A%B0%EB%A6%AC%EA%B0%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-b0a423654f1e) : Reddit이 선택한 이유
 
 # Kotlin 전환
 

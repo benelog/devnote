@@ -21,5 +21,4 @@
   - <https://github.com/vinibiavatti1/TuiCss>
   - <https://github.com/kristopolous/BOOTSTRA.386>
     - Hugo Theme : <https:///gitlab.com/maxlefou/hugo.386>
-      - fork : <https://github.com/honux77/hugo.386k> ( hugo.386 +
-        둥근모글꼴 등)
+      - fork : <https://github.com/honux77/hugo.386k> ( hugo.386 + 둥근모글꼴 등)

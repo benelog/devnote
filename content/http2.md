@@ -24,8 +24,7 @@
 - <https://www.nginx.com/blog/http2-module-nginx/>
 - <https://http2.pro/doc/Nginx>
 - <https://serverfault.com/questions/765258/use-http-2-0-between-nginx-reverse-proxy-and-backend-webserver>
-- Cloudflare에서는 자체 NGinx 모듈로 server push를 제공하고 있는 것으로
-  추정됨
+- Cloudflare에서는 자체 NGinx 모듈로 server push를 제공하고 있는 것으로 추정됨
   - <https://blog.cloudflare.com/announcing-support-for-http-2-server-push-2/>
   - <https://community.centminmod.com/threads/nginx-support-for-http-2-server-push.7149/>
 

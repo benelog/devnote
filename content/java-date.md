@@ -1,11 +1,9 @@
-- [Calendar클래스(GregorianCalendar)를 이용한 달력
-  출력하기](http://blog.naver.com/aspdotnet/140002583711)
+- [Calendar클래스(GregorianCalendar)를 이용한 달력 출력하기](http://blog.naver.com/aspdotnet/140002583711)
 
 # Library
 
 - <http://joda-time.sourceforge.net/>
-- <http://timeandmoney.sourceforge.net/> : 에릭에반스와 켄트백이 만든
-  돈과 시간 관련 라이브러리
+- <http://timeandmoney.sourceforge.net/> : 에릭에반스와 켄트백이 만든 돈과 시간 관련 라이브러리
 - <http://www.date4j.net/>
 - <http://calendardate.sourceforge.net/>
 

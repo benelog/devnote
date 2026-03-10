@@ -5,10 +5,8 @@
 
 # [adoptopenjdk](https://adoptopenjdk.net/support.html)
 
-- JDK11을 2022년까지 지원할 예정 (
-  <https://adoptopenjdk.net/support.html>)
-- regression test 사례 :
-  <https://github.com/AdoptOpenJDK/openjdk-tests/issues/345>
+- JDK11을 2022년까지 지원할 예정 ( <https://adoptopenjdk.net/support.html>)
+- regression test 사례 : <https://github.com/AdoptOpenJDK/openjdk-tests/issues/345>
 - JavaFX 포함 : <https://github.com/AdoptOpenJDK/TSC/issues/27>
 - iced-tea web 포함 : <https://github.com/AdoptOpenJDK/TSC/issues/41>
 
@@ -24,9 +22,7 @@
 
 - jdk8에도 jdk11의 caert를 사용
   - <https://github.com/AdoptOpenJDK/openjdk-build/pull/688/commits/79a1da7174c1c048db4f284b1d590b7345d89abf>
-- mozila nss의
-  [certdata.txt](https://hg.mozilla.org/mozilla-central/log/tip/security/nss/lib/ckfw/builtins/certdata.txt)
-  를 활용하는 방법 : <https://www.petefreitag.com/item/830.cfm>
+- mozila nss의 [certdata.txt](https://hg.mozilla.org/mozilla-central/log/tip/security/nss/lib/ckfw/builtins/certdata.txt) 를 활용하는 방법 : <https://www.petefreitag.com/item/830.cfm>
 
 # iced-tea-web
 

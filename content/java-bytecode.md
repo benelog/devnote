@@ -1,8 +1,7 @@
 - <https://www.infoq.com/minibooks/emag-java-agents-bytecode>
 - <http://spring.io/blog/2014/11/09/springone2gx-2014-replay-living-in-the-matrix-with-bytecode-manipulation>
   - <http://www.slideshare.net/SpringCentral/bytecode-spring2gx2014>
-- [스프링캠프 2016 : BCI(BYTE CODE INSTRUMET) 기술 소개 및 활용
-  방안](https://www.youtube.com/watch?v=CgFY39zk5r8)
+- [스프링캠프 2016 : BCI(BYTE CODE INSTRUMET) 기술 소개 및 활용 방안](https://www.youtube.com/watch?v=CgFY39zk5r8)
 
 # 예제
 
@@ -12,8 +11,7 @@
 
 # BCI (Bytecode Instrumentation)
 
-- [Power of bytecode instrumentation in
-  java](http://architecture-guru.textcube.com/48)
+- [Power of bytecode instrumentation in java](http://architecture-guru.textcube.com/48)
 
 # Library
 
@@ -27,8 +25,7 @@ CGLIB 가 사용 ( CGLIB is a higher abstraction than ASM. )
 
 ## BCEL
 
-- Findbugs, AspectJ, Spring의 CGLIB→ Javassit migration
-  :https://jira.springsource.org/browse/SPR-8190
+- Findbugs, AspectJ, Spring의 CGLIB→ Javassit migration :https://jira.springsource.org/browse/SPR-8190
 
 ## SERP
 
@@ -41,25 +38,18 @@ CGLIB 가 사용 ( CGLIB is a higher abstraction than ASM. )
 ## 비교
 
 - <http://www.java-opensource.com/open-source/bytecode-libraries.html>
-- BCEL vs ASM :
-  <http://blog.naver.com/PostView.nhn?blogId=junsu60&logNo=80123035668>
+- BCEL vs ASM : <http://blog.naver.com/PostView.nhn?blogId=junsu60&logNo=80123035668>
 
 # Framework 의존성
 
-- Hibenate의 Javassist → Bytebuddy :
-  <https://github.com/hibernate/hibernate-orm/pull/1622>
+- Hibenate의 Javassist → Bytebuddy : <https://github.com/hibernate/hibernate-orm/pull/1622>
 - Spring의 관련 이슈
-  - [Support for ByteBuddy as an alternative to CGLIB
-    \[SPR-8190](https://github.com/spring-projects/spring-framework/issues/12840)\]
+  - [Support for ByteBuddy as an alternative to CGLIB \[SPR-8190](https://github.com/spring-projects/spring-framework/issues/12840)\]
     - 2011년 처음 생성
     - 2012.10.17 기준으로는 제목이 'Migrate from CGLIB to Javassist'
-    - 2022.09.08 기준으로는 제목이 'Support for ByteBuddy as an
-      alternative to CGLIB', 6.x backlog로 마일스톤이 기록
-  - <https://github.com/spring-projects/spring-framework/issues/7964>
-    (2007년)
-    - 'Cglib appears to be a poorly maintained and dying project. It
-      would be nice to replace it with a more actively maintained
-      project like javaassist for library dependency reasons.'
+    - 2022.09.08 기준으로는 제목이 'Support for ByteBuddy as an alternative to CGLIB', 6.x backlog로 마일스톤이 기록
+  - <https://github.com/spring-projects/spring-framework/issues/7964> (2007년)
+    - 'Cglib appears to be a poorly maintained and dying project. It would be nice to replace it with a more actively maintained project like javaassist for library dependency reasons.'
 
 ## Related
 - [[graal-vm]]

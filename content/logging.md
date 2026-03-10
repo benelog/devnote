@@ -1,7 +1,6 @@
 - <https://blogs.apache.org/foundation/entry/apache_logging_services_project_announces>
 
-- (배민 기술블로그)[로그 및 SQL 진입점 정보 추가
-  여정](https://techblog.woowahan.com/13429/)
+- (배민 기술블로그)[로그 및 SQL 진입점 정보 추가 여정](https://techblog.woowahan.com/13429/)
 
 ## Related
 - [[infra-monitoring]]

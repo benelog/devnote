@@ -25,8 +25,7 @@ telling?](http://monkeyisland.pl/2008/04/26/asking-and-telling/)
 
 # jmock
 
-- <http://www.jmock.org/> Using JMock with
-  TDD
+- <http://www.jmock.org/> Using JMock with TDD
 
 # Easymock
 
@@ -69,8 +68,7 @@ build 환경, runtime 환경설정을 수정할 필요가 없음.
 
 - <http://jsmock.sourceforge.net/>
 - 참고자료
-- TDD and Javascript with JsMock :
-  <http://ajaxian.com/archives/tdd-and-javascript-with-jsmock>
+- TDD and Javascript with JsMock : <http://ajaxian.com/archives/tdd-and-javascript-with-jsmock>
 
 # mock FtpServer
 

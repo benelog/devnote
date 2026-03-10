@@ -6,8 +6,7 @@
 
 <div class="ulist">
 
-- [Effective Java Reloaded, JavaOne Conference
-  2006](http://developers.sun.com/learning/javaoneonline/2006/coreplatform/TS-1512.pdf)
+- [Effective Java Reloaded, JavaOne Conference 2006](http://developers.sun.com/learning/javaoneonline/2006/coreplatform/TS-1512.pdf)
 
 </div>
 

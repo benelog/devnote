@@ -1,18 +1,13 @@
-- [Java Garbage Collection
-  (이상민)](http://helloworld.naver.com/helloworld/helloworld/1329)
-  - Young 영역 → Minor gc, Old 영역 → Major GC. Perm 영역 GC도 Major
-    GC에 포함
+- [Java Garbage Collection (이상민)](http://helloworld.naver.com/helloworld/helloworld/1329)
+  - Young 영역 → Minor gc, Old 영역 → Major GC. Perm 영역 GC도 Major GC에 포함
   - Old → Young 참조는 card table 사용
   - Young 영역은 Eden, Survivor 로 나눔
-- [Garbage Collection
-  튜닝](http://helloworld.naver.com/helloworld/37111)
+- [Garbage Collection 튜닝](http://helloworld.naver.com/helloworld/37111)
   - Old 영역으로 넘어가는 객체의 수 최소화하기, Full GC 실행시간 줄이기
 - [the-impact-of-garbage-collection-on-java-performance/](http://apmblog.compuware.com/2011/03/24/the-impact-of-garbage-collection-on-java-performance/)
 - [how-garbage-collection-differs-in-the-three-big-jvms/](http://apmblog.compuware.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms/)
-- [Java Garbage Collection
-  Basics](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
-- [Java SE 7: Reviewing JVM Performance Command Line
-  Tools](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/JavaJCMD/index.html)
+- [Java Garbage Collection Basics](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
+- [Java SE 7: Reviewing JVM Performance Command Line Tools](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/JavaJCMD/index.html)
 - <https://www.azul.com/resources/azul-technology/azul-c4-garbage-collector/>
 
 default GC 찾기 : java -XX:+PrintCommandLineFlags -version
@@ -27,12 +22,8 @@ default GC 찾기 : java -XX:+PrintCommandLineFlags -version
   - Tenured\* Method area
 - Pergem
   - <http://netframework.tistory.com/entry/Java8-PermGen%EC%97%90%EC%84%9C-Metaspace%EB%A1%9C>
-- Minor GC : Young의 Eden에 객체가 최초로 할당되는데, 객체가 계속
-  할당되면 참조되는 객체(Live Object)들은 Survivor1이나 Survivor2로
-  옮겨지고, 더 이상 참조되지 않는 객체들은 삭제됩니다.
-- Full GC 혹은 Major GC : Minor GC의 결과로 충분히 오랫동안 참조된
-  객체들은 Old로 승격(Promotion) . Old의 메모리가 충분하지 않으면
-  Old에서 더 이상 참조되지 않는 객체를 삭제해서 공간을 확보해야 함.
+- Minor GC : Young의 Eden에 객체가 최초로 할당되는데, 객체가 계속 할당되면 참조되는 객체(Live Object)들은 Survivor1이나 Survivor2로 옮겨지고, 더 이상 참조되지 않는 객체들은 삭제됩니다.
+- Full GC 혹은 Major GC : Minor GC의 결과로 충분히 오랫동안 참조된 객체들은 Old로 승격(Promotion) . Old의 메모리가 충분하지 않으면 Old에서 더 이상 참조되지 않는 객체를 삭제해서 공간을 확보해야 함.
 
 # Garbarge Collector 방식
 
@@ -55,20 +46,15 @@ Pararrel Old GC(Parral Compacting GC)
 
     작업스레드와 병행하여 GC관련 정보를 수집해 둠. 특정 CPU를 GC를 위해 할당한 후에 사용중인 객체를 프로그램 수행과 동시에 파악함  지속적으로 GC를 위한 작업을 수행하므로 CPU는 더 많이 사용하지만, Full GC 시간이 줄어드는 장점이 있음. 일명 Low latency GC. 그러나 Concurrent mode failure가 발생하면 다른 Parallel GC보다 느리다.
 - -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC
-- -XX:+UseParNewGC : CMS Collector를 사용하는 경우에 한해서, Young에
-  대해서 Parallel Collection을 수행할 지의 여부를 지정함
-- -XX:+CMSParallelRemarkEnabled : -XX:+UseParNewGC와 같이 사용할 때
-  Remark Phase의 Pause Time을 좀 더 줄이기 위해서 사용하는 옵션임
+- -XX:+UseParNewGC : CMS Collector를 사용하는 경우에 한해서, Young에 대해서 Parallel Collection을 수행할 지의 여부를 지정함
+- -XX:+CMSParallelRemarkEnabled : -XX:+UseParNewGC와 같이 사용할 때 Remark Phase의 Pause Time을 좀 더 줄이기 위해서 사용하는 옵션임
 - -XX:+UseConcMarkSweepGC : CMS Collector를 사용할 지의 여부를 지정함
 
 -XX:PermSize=256m -XX:MaxPermSize=256m -Xms1024m -Xmx1024m -server
 -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC
 
-- Promotion Failure : Promotion Failure는 New의 객체가 Old로 승격될 때
-  Old에 할당 가능한 공간이 없는 현상.
-- Concurrent Mode Failure : GC 작업이 수행되는 중에 New의 객체가 Old로
-  승격되면서 Old에 할당 가능한 공간이 없는 현상. 이때는 강제로 Stop The
-  World GC를 수행해서 공간을 확보함.
+- Promotion Failure : Promotion Failure는 New의 객체가 Old로 승격될 때 Old에 할당 가능한 공간이 없는 현상.
+- Concurrent Mode Failure : GC 작업이 수행되는 중에 New의 객체가 Old로 승격되면서 Old에 할당 가능한 공간이 없는 현상. 이때는 강제로 Stop The World GC를 수행해서 공간을 확보함.
 
 <https://blog.codecentric.de/en/2013/10/useful-jvm-flags-part-7-cms-collector/>
 
@@ -111,16 +97,13 @@ Class가 잡고 있는 Old Gen 영역이 제대로 확보된다.
 
 ## G1
 
-- [자바의 CMS(Concurrent Mark & Sweep)을 대체할
-  G1](http://www.tuning-java.com/272)
+- [자바의 CMS(Concurrent Mark & Sweep)을 대체할 G1](http://www.tuning-java.com/272)
 - [G1GC Collector성능과 튜닝](http://bcho.tistory.com/303)
-- [Sun’s Garbage First Collector Largely Eliminates Low Latency/High
-  Throughput Tradeoff](http://www.infoq.com/news/2009/04/g1)
+- [Sun’s Garbage First Collector Largely Eliminates Low Latency/High Throughput Tradeoff](http://www.infoq.com/news/2009/04/g1)
 - DisableExplicitGC
 - <http://logonjava.blogspot.com/2010/07/java-distributed-gc-and.html>
 - <https://logonjava.blogspot.com/2015/08/java-g1-gc-full-gc.html>
-- [Getting Started with the G1 Garbage
-  Collector](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/G1GettingStarted/index.html)
+- [Getting Started with the G1 Garbage Collector](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/G1GettingStarted/index.html)
 
 # Monitoring
 
@@ -138,12 +121,8 @@ interval\>
 
 Java6_24Java7_2부터는 gc log roate를 지원
 
-- [Java 6 Update
-  34](http://www.oracle.com/technetwork/java/javase/2col/6u34-bugfixes-1733379.html)
-- [Java 7 Update
-  2](http://www.oracle.com/technetwork/java/javase/7u2-relnotes-1394228.html)
-  (but there is no reference to it in these release notes) There are
-  three new JVM flags that can be used to enable and configure it:
+- [Java 6 Update 34](http://www.oracle.com/technetwork/java/javase/2col/6u34-bugfixes-1733379.html)
+- [Java 7 Update 2](http://www.oracle.com/technetwork/java/javase/7u2-relnotes-1394228.html) (but there is no reference to it in these release notes) There are three new JVM flags that can be used to enable and configure it:
 
 -XX:+UseGCLogFileRotation
 
@@ -290,15 +269,12 @@ garbage collection when necessary.
 
 ## 노하우
 
-- [\[GC](http://www.tuning-java.com/260) Java GC Tuning 방법 (자바
-  메모리 튜닝)\]
+- [\[GC](http://www.tuning-java.com/260) Java GC Tuning 방법 (자바 메모리 튜닝)\]
 
-- [GC 관련 Java 애플리케이션 성능과 확장성
-  향상시키기](http://blog.naver.com/94eun/100004595476)
+- [GC 관련 Java 애플리케이션 성능과 확장성 향상시키기](http://blog.naver.com/94eun/100004595476)
 - [JVM 튜닝](http://bcho.tistory.com/entry/JVM-%ED%8A%9C%EB%8B%9D)
 - <http://java.dzone.com/articles/how-tame-java-gc-pauses>
-- [Apache MaxClients와 Tomcat의 Full
-  GC](http://helloworld.naver.com/helloworld/132178)
+- [Apache MaxClients와 Tomcat의 Full GC](http://helloworld.naver.com/helloworld/132178)
 
 # Memory leak
 
@@ -319,8 +295,7 @@ Variable](http://blog.naver.com/parnx/140054010739)
 - -XX:SurvivorRatio : Eden 영역과 Survivor 영역의 비율
 - -XX:MaxTenuringThreshold
   - <https://sourcevirtues.com/2013/03/29/never-set-gc-parameter-maxtenuringthreshold-greater-than-15/>
-- [\<font
-  color="#0000ff"\>http://java.sun.com/javase/technologies/hotspot/vmoptions.jsp\</font\>](http://java.sun.com/javase/technologies/hotspot/vmoptions.jsp)
+- [\<font color="#0000ff"\>http://java.sun.com/javase/technologies/hotspot/vmoptions.jsp\</font\>](http://java.sun.com/javase/technologies/hotspot/vmoptions.jsp)
 - <http://blogs.sun.com/watt/resource/jvm-options-list.html> : 튜닝 참고
 - <http://bcho.tistory.com/entry/XXPretenureSizeThreshold>
 - [JVM 옵션 중 PermSize 관련](http://www.jaso.co.kr/162)
@@ -328,8 +303,7 @@ Variable](http://blog.naver.com/parnx/140054010739)
 - <http://wiki.ex-em.com/index.php/JVM_Options>
 - <http://java.sun.com/docs/hotspot/gc5.0/gc_tuning_5.html>
 - <http://java.sun.com/performance/reference/whitepapers/tuning.html>
-- [\<font color="#0000ff" face="'맑은 고딕'"
-  size="2"\>http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf\</font\>](http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf)
+- [\<font color="#0000ff" face="'맑은 고딕'" size="2"\>http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf\</font\>](http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf)
 
 ## 자주쓰는 option
 

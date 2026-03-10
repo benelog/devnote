@@ -1,5 +1,4 @@
-- [Java를 위한, Java에 의한
-  도구들](https://www.slideshare.net/NHNFORWARD/2018-java-java)
+- [Java를 위한, Java에 의한 도구들](https://www.slideshare.net/NHNFORWARD/2018-java-java)
 - <http://jiprof.sourceforge.net/>http://code.google.com/p/oktech-profiler/\[<http://code.google.com/p/oktech-profiler/>\]
 - <http://www.manageability.org/blog/stuff/open-source-profilers-for-java>
 - <http://www.ibm.com/developerworks/java/library/j-5things7.html>
@@ -20,21 +19,17 @@
 
 - <http://kenai.com/projects/btrace/pages/Home>
 - <http://eggboy.egloos.com/1866372>
-- <http://piotrnowicki.com/2012/05/btrace-a-simple-way-to-instrument-running-java-applications/>
-  <http://www.javacodegeeks.com/2012/06/introduction-to-btrace-for-java.html>
+- <http://piotrnowicki.com/2012/05/btrace-a-simple-way-to-instrument-running-java-applications/> <http://www.javacodegeeks.com/2012/06/introduction-to-btrace-for-java.html>
 - <http://d2.naver.com/helloworld/9042309>
 - <https://kenai.com/projects/btrace/sources/hg/content/samples/JdbcQueries.java>
 
 # Visual VM
 
-- [Java Visual VM JDK에 포함된 무료 프로파일링
-  툴](http://www.tuning-java.com/248)
+- [Java Visual VM JDK에 포함된 무료 프로파일링 툴](http://www.tuning-java.com/248)
 - [VisualVM](http://blog.openframework.or.kr/91)
 - [VisualVM 플러그인 이야기](http://blog.openframework.or.kr/92)
-- JavaTool 유용한 자바툴 -
-  jvisualvm\]
-- [Troubleshooting application performance with
-  VisualVM](http://www.skill-guru.com/blog/2010/11/11/troubleshooting-application-performance-with-visualvm/)
+- JavaTool 유용한 자바툴 - jvisualvm\]
+- [Troubleshooting application performance with VisualVM](http://www.skill-guru.com/blog/2010/11/11/troubleshooting-application-performance-with-visualvm/)
 
 # Hprof (Heap And CPU Profiling Agent)
 
@@ -73,8 +68,7 @@ cent os에서 정의된 tmpwatch에서 지운다.
 - <https://heaphero.io/>
 - <https://www.jxray.com/>
 - <https://hat.dev.java.net/>
-- [\[Heap Dump](http://www.tuning-java.com/259) 자바 힙 덤프(java heap
-  dump) 분석기 - Eclipse Memory Analyzer\]
+- [\[Heap Dump](http://www.tuning-java.com/259) 자바 힙 덤프(java heap dump) 분석기 - Eclipse Memory Analyzer\]
 - GC 상태 그래프 : <http://www.alphaworks.ibm.com/tech/pmat>
 - MAT : <http://www.eclipse.org/mat/>
 - MAT + IBM Heap analyzer : <http://web-dev.tistory.com/623>

@@ -2,10 +2,8 @@
 
 # 문법설명
 
-- 마크다운의 링크문법:
-  <http://blog.dahlia.pe.kr/articles/2008/03/01/link-syntax-of-markdown>
-- GFM :
-  <https://githubengineering.com/a-formal-spec-for-github-markdown/>
+- 마크다운의 링크문법: <http://blog.dahlia.pe.kr/articles/2008/03/01/link-syntax-of-markdown>
+- GFM : <https://githubengineering.com/a-formal-spec-for-github-markdown/>
 
 # 스펙
 

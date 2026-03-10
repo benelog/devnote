@@ -1,7 +1,5 @@
-- [TCP/IP 네트워크 스택
-  이해하기](http://helloworld.naver.com/helloworld/textyle/47667)
-- [Transmission Control
-  Protocol(TCP)](http://neocode.egloos.com/1939688)
+- [TCP/IP 네트워크 스택 이해하기](http://helloworld.naver.com/helloworld/textyle/47667)
+- [Transmission Control Protocol(TCP)](http://neocode.egloos.com/1939688)
 - [TCP에 관한 정리 (1)](http://neocode.egloos.com/1940628)
 - [MAC 주소를 속이는 방법](http://monac.egloos.com/1990631)
 
@@ -46,12 +44,9 @@ CLOSE_WAIT는 timeout이 나지 않는다.
 
 ## Linux tuning
 
-- [리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 -
-  1편](http://meetup.toast.com/posts/53)
-- [리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 -
-  2편](http://meetup.toast.com/posts/54)
-- [리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 -
-  3편](http://meetup.toast.com/posts/55)
+- [리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 - 1편](http://meetup.toast.com/posts/53)
+- [리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 - 2편](http://meetup.toast.com/posts/54)
+- [리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 - 3편](http://meetup.toast.com/posts/55)
 
 ### TCP buffer size
 
@@ -65,12 +60,10 @@ CLOSE_WAIT는 timeout이 나지 않는다.
 syn queue: 3-way handshake 중인 connection 이 대기
 
 - net.core.somaxconn
-  - size of the connection listening queue, socket당 listen queue 최대
-    크기
+  - size of the connection listening queue, socket당 listen queue 최대 크기
   - default 128
   - /etc/sysctl.conf 파일에 `net.core.somaxconn =1024`
-- net.core.netdev_max_backlog : 들어온 패킷이 프로세서에서 처리되기까지
-  대기하는 queue
+- net.core.netdev_max_backlog : 들어온 패킷이 프로세서에서 처리되기까지 대기하는 queue
 - net.ipv4.tcp_max_syn_backlog : 전체 listen queue 최대 크기
 - Apache 설정에 `ListenBacklog 1024`
 
@@ -88,9 +81,7 @@ syn queue: 3-way handshake 중인 connection 이 대기
 
     sysctl -w net.ipv4.ip_local_port_range="1024 65535"
     sysctl -w net.ipv4.tcp_tw_recycle=1
-- [tcp_tw_reuse와 tcp_tw_recycle](https://brunch.co.kr/@alden/3) :
-  tw_use는 outing 트래픽에 대해 로컬 포트가 모자랄 경우, TW 상태에 있는
-  소켓을 재사용할 수 있게 해줍니다.
+- [tcp_tw_reuse와 tcp_tw_recycle](https://brunch.co.kr/@alden/3) : tw_use는 outing 트래픽에 대해 로컬 포트가 모자랄 경우, TW 상태에 있는 소켓을 재사용할 수 있게 해줍니다.
 
 ### Congestion Control
 

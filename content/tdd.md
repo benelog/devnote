@@ -58,8 +58,7 @@ code,](http://www.threeriversinstitute.org/blog/?p=579) [TDD는 코드에
 # 논쟁
 
 - [동상이몽 – TDD](http://toby.epril.com/?p=917)
-- [Joel의 TDD(Kent Beck), SOLID(Robert Martin) 공격과
-  논쟁](http://toby.epril.com/?p=680)
+- [Joel의 TDD(Kent Beck), SOLID(Robert Martin) 공격과 논쟁](http://toby.epril.com/?p=680)
 - <http://blogs.msdn.com/b/cashto/archive/2009/03/31/it-s-ok-not-to-write-unit-tests.aspx>
 - <http://blog.cleancoder.com/uncle-bob/2016/11/10/TDD-Doesnt-work.html>
 
@@ -193,8 +192,7 @@ Smells](http://www.youtube.com/watch?v=Pq6LHFM4JvE)
 24페이지
 
 - 3.6 Example
-  - Use Better Assertion- Custom assert- Replace Conditional Logic with
-    Guard Assertion
+  - Use Better Assertion- Custom assert- Replace Conditional Logic with Guard Assertion
 - 3.12 Transaction Rollback Teardown
 - 3.17 생성부 분리 Distinct Generated Values Creation Method
 

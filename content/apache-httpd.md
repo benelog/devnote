@@ -108,13 +108,10 @@ apachectl graceful
 
 <div class="ulist">
 
-- [Apache 2.2 + PHP 5.2.7 + Tomcat 6.0 연동하기
-  (톰캣편)](http://net4all.egloos.com/2164189)
+- [Apache 2.2 + PHP 5.2.7 + Tomcat 6.0 연동하기 (톰캣편)](http://net4all.egloos.com/2164189)
 
-- [\[mod_jk](http://kwon37xi.egloos.com/1761178) Apache 2 + Tomcat 5.0 +
-  mod_jk 1.2 on Linux 연동\] (권남)
-- [\[Tomcat Apache 연동](http://www.tuning-java.com/185) 톰캣과 아파치
-  연동(JDK 1.6 + Apache 2.2 + Tomcat 6.0)Tools/WAS\] (Tunning-java)
+- [\[mod_jk](http://kwon37xi.egloos.com/1761178) Apache 2 + Tomcat 5.0 + mod_jk 1.2 on Linux 연동\] (권남)
+- [\[Tomcat Apache 연동](http://www.tuning-java.com/185) 톰캣과 아파치 연동(JDK 1.6 + Apache 2.2 + Tomcat 6.0)Tools/WAS\] (Tunning-java)
 
 </div>
 
@@ -126,8 +123,7 @@ apachectl graceful
 
 <div class="ulist">
 
-- [\[tomcat](http://blog.openframework.or.kr/74) Apache, Tomcat
-  연동하기\]
+- [\[tomcat](http://blog.openframework.or.kr/74) Apache, Tomcat 연동하기\]
 - <http://blog.naver.com/cycle98?Redirect=Log&logNo=140003166006>
 - <http://blog.naver.com/eosdeath?Redirect=Log&logNo=140032477546>
 
@@ -237,11 +233,9 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 <div class="ulist">
 
-- [Apache 403 Forbidden Error and
-  Solution](http://www.cyberciti.biz/faq/apache-403-forbidden-error-and-solution/)
+- [Apache 403 Forbidden Error and Solution](http://www.cyberciti.biz/faq/apache-403-forbidden-error-and-solution/)
 - <http://yamazsw.egloos.com/2230872>
-- 에러 .htaccess :
-  `.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable`
+- 에러 .htaccess : `.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable`
 
 </div>
 
@@ -257,8 +251,7 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 <div class="ulist">
 
-- [Image 펌질을
-  막아보자](http://blog.daum.net/superman2up/8676327?srchid=BR1http%3A%2F%2Fblog.daum.net%2Fsuperman2up%2F8676327)
+- [Image 펌질을 막아보자](http://blog.daum.net/superman2up/8676327?srchid=BR1http%3A%2F%2Fblog.daum.net%2Fsuperman2up%2F8676327)
 
 </div>
 
@@ -274,8 +267,7 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 <div class="ulist">
 
-- [URL
-  Rewriting](http://www.yourhtmlsource.com/sitemanagement/urlrewriting.html)
+- [URL Rewriting](http://www.yourhtmlsource.com/sitemanagement/urlrewriting.html)
 - [ETag 제거](http://dragonpapa.pe.kr/130033975559)
 
 </div>
@@ -292,12 +284,8 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 <div class="ulist">
 
-- [Apache MaxClients와 Tomcat의 Full
-  GC](http://helloworld.naver.com/helloworld/132178) : apche의
-  maxClient값과 Tomcat의 maxThread, AJP의 backlog값을 결정할 때 고려할
-  사안
-- <http://blog.naver.com/PostView.nhn?blogId=sugyoo&logNo=20119924250> :
-  Worker vs prefork
+- [Apache MaxClients와 Tomcat의 Full GC](http://helloworld.naver.com/helloworld/132178) : apche의 maxClient값과 Tomcat의 maxThread, AJP의 backlog값을 결정할 때 고려할 사안
+- <http://blog.naver.com/PostView.nhn?blogId=sugyoo&logNo=20119924250> : Worker vs prefork
 
 </div>
 

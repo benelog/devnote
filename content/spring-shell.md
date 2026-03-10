@@ -4,8 +4,7 @@
 
 # helloworld
 
-- 메뉴얼 :
-  javascript:void(0);\[htt://docs.spring.io/spring-shell/docs/current/reference/htmlsingle/\]
+- 메뉴얼 : javascript:void(0);\[htt://docs.spring.io/spring-shell/docs/current/reference/htmlsingle/\]
 - 예제 :
 
 # 사용 프로젝트

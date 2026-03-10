@@ -1,6 +1,5 @@
 - [.git-blame-ignore-revs](https://gist.github.com/kateinoigakukun/b0bc920e587851bfffa98b9e279175f2)
-- [Git의 Staging Area는 어떤 점이
-  유용한가](http://npcode.com/blog/archives/736)
+- [Git의 Staging Area는 어떤 점이 유용한가](http://npcode.com/blog/archives/736)
 - <http://gun.io/blog/how-to-github-fork-branch-and-pull-request/>
 - <http://eclipsesource.com/blogs/2010/06/22/git-support-eclipse-helios-feature-2/>
 - [GIT is inconsistent](http://r6.ca/blog/20110416T204742Z.html)
@@ -13,12 +12,9 @@
 - <http://git.or.cz/gitwiki/EclipsePlugin>
 - <http://git.or.cz/gitwiki/EclipsePluginScreenshots>
 
-- [Kenai - Git 을 지원하는 오픈 소스 프로젝트 호스팅
-  서비스](http://kwon37xi.egloos.com/4114325)
+- [Kenai - Git 을 지원하는 오픈 소스 프로젝트 호스팅 서비스](http://kwon37xi.egloos.com/4114325)
 - [rm -cached](http://whiteship.me/?p=12920)
-- [git HEAD, index, working directory 이해하기 - A Tale of Three Trees
-  발표자료를 보고 - See more at: \*
-  http://ohyecloudy.com/pnotes/archives/1949#sthash.b4dj9MAn.dpuf](http://ohyecloudy.com/pnotes/archives/1949)
+- [git HEAD, index, working directory 이해하기 - A Tale of Three Trees 발표자료를 보고 - See more at: \* http://ohyecloudy.com/pnotes/archives/1949#sthash.b4dj9MAn.dpuf](http://ohyecloudy.com/pnotes/archives/1949)
 
 # 입문
 
@@ -38,15 +34,13 @@
 
 # Git LFS
 
-- \[<https://news.hada.io/topic?id=22546>\]Git에서 대용량 파일의 미래는
-  Git 자체임
+- \[<https://news.hada.io/topic?id=22546>\]Git에서 대용량 파일의 미래는 Git 자체임
 
 # Git- SVN
 
 - [Subversion 사용자를 위한 Git 소개](http://toby.epril.com/?p=703)
 - [Git - SVN Crash Course](http://git.or.cz/course/svn.html)
-- [\[Git](http://whiteship.me/?p=12771) SVN 사용자를 위한 Git 가이드 1.
-  시작\]
+- [\[Git](http://whiteship.me/?p=12771) SVN 사용자를 위한 Git 가이드 1. 시작\]
 
 # 명령어 정리
 
@@ -54,44 +48,33 @@
 
 # Tips
 
-- [git filter-branch로 저장소
-  분리하기](https://blog.outsider.ne.kr/1249)
-- [Git에서 명령어에 별칭(Alias)
-  사용하기](http://blog.outsider.ne.kr/571)
+- [git filter-branch로 저장소 분리하기](https://blog.outsider.ne.kr/1249)
+- [Git에서 명령어에 별칭(Alias) 사용하기](http://blog.outsider.ne.kr/571)
 
-- [bash 프롬프트에 Git와 Mercurial의 branch를
-  표시하기](http://blog.outsider.ne.kr/616)
+- [bash 프롬프트에 Git와 Mercurial의 branch를 표시하기](http://blog.outsider.ne.kr/616)
 - [GIT을 이용한 릴리즈 노트](http://www.ologist.co.kr/1024)
 
 - [jgitflow를-사용하여-javamaven-프로젝트-릴리즈를-쉽게하는-법](http://softwaregeeks.org/2013/07/03/jgitflow%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-javamaven-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A6%B4%EB%A6%AC%EC%A6%88%EB%A5%BC-%EC%89%BD%EA%B2%8C%ED%95%98%EB%8A%94-%EB%B2%95/)
 
-- [git diff 에서 변경된 부분을 더 명확하게 보는
-  방법](http://blog.outsider.ne.kr/1011)
+- [git diff 에서 변경된 부분을 더 명확하게 보는 방법](http://blog.outsider.ne.kr/1011)
 
 ## Branch
 
 - [GIT branch 사용](http://kdsoo.com/1262)
 - <http://nvie.com/posts/a-successful-git-branching-model/>
-- [git에서 원격저장소에 branch와 tag를
-  push하기](http://blog.outsider.ne.kr/644)
-- [Git에서 이전에 사용한 브랜치로
-  체크아웃하기](http://blog.outsider.ne.kr/914)
+- [git에서 원격저장소에 branch와 tag를 push하기](http://blog.outsider.ne.kr/644)
+- [Git에서 이전에 사용한 브랜치로 체크아웃하기](http://blog.outsider.ne.kr/914)
 
 ## Rebase
 
 - [git의 merge와 rebase 비교하기](http://blog.outsider.ne.kr/666)
-- [git에서 특정 commit에 들어간 수정 파일을 다른 commit으로 옮기는
-  방법](http://blog.doortts.com/285)
-- [Git: Rebase는 언제 어떻게 해야
-  할까?](http://dogfeet.github.com/articles/2012/git-merge-rebase.html)
-- [포크 따서 작업하다 원본이랑 싱크 맞춰서
-  보내기](http://whiteship.me/?p=13740)
+- [git에서 특정 commit에 들어간 수정 파일을 다른 commit으로 옮기는 방법](http://blog.doortts.com/285)
+- [Git: Rebase는 언제 어떻게 해야 할까?](http://dogfeet.github.com/articles/2012/git-merge-rebase.html)
+- [포크 따서 작업하다 원본이랑 싱크 맞춰서 보내기](http://whiteship.me/?p=13740)
 - <http://git-scm.com/book/ko/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0>
-- [히스토리
-  단장하기](http://git-scm.com/book/ko/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0)
+- [히스토리 단장하기](http://git-scm.com/book/ko/Git-%EB%8F%84%EA%B5%AC-%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-%EB%8B%A8%EC%9E%A5%ED%95%98%EA%B8%B0)
 - <http://blog.springsource.com/2010/12/21/git-and-social-coding-how-to-merge-without-fear/>
-- [Getting Started with Git Rebase –onto for Specific
-  Commits](https://tanzu.vmware.com/content/tech-guides/getting-started-with-git-rebase-onto-for-specific-commits)
+- [Getting Started with Git Rebase –onto for Specific Commits](https://tanzu.vmware.com/content/tech-guides/getting-started-with-git-rebase-onto-for-specific-commits)
 
 # CI integration
 
@@ -112,8 +95,7 @@
 # Commmit message
 
 - [github에서 자주 쓰이는 영어](https://tagilog.tistory.com/588)
-- [좋은 git commit 메시지를 위한 영어
-  사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
+- [좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
 - <https://chris.beams.io/posts/git-commit/>
 - <https://github.com/git/git/blob/master/Documentation/SubmittingPatches>
 - <https://www.slideshare.net/TarinGamberini/commit-messages-goodpractices>

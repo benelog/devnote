@@ -11,18 +11,14 @@
 # Apache HttpClient, HtpComponent
 
 - <http://fuyun.org/2009/09/connection-close-in-httpclient/>
-  - SimpleHttpConnectionManager를 쓰면 releaseConnection을 호출해도 바로
-    닫지 않는다.
+  - SimpleHttpConnectionManager를 쓰면 releaseConnection을 호출해도 바로 닫지 않는다.
   - Peer가 FIN보내면 이쪽에서 닫기 전까지 CLOSE_WAIT 상태
   - 확실하게 close하려면 connetionManager를 shutdown 시켜야 한다.
   - CLOSE_WAIT는 timeout이 나지 않는다.
   - GC가 일어나면 CLOSE_WAIT상태의 socket이 닫힌다.
-  - SimpleHttpConnectionManager(boolean alwaysClose).를 통해서도 해결
-    가능
-- <https://issues.apache.org/jira/browse/HTTPCLIENT-1234> :
-  javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
-- [PoolingHttpClientConnectionManager 를 xml기반 Spring bean으로
-  등록하기.](http://www.yunsobi.com/blog/i/entry/660)
+  - SimpleHttpConnectionManager(boolean alwaysClose).를 통해서도 해결 가능
+- <https://issues.apache.org/jira/browse/HTTPCLIENT-1234> : javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+- [PoolingHttpClientConnectionManager 를 xml기반 Spring bean으로 등록하기.](http://www.yunsobi.com/blog/i/entry/660)
 - <https://github.com/spring-projects/spring-social/issues/176#issuecomment-217548884>
 
 # https
@@ -44,22 +40,14 @@
 
 - <http://rucaus.egloos.com/2372401>
 - <https://docs.oracle.com/javase/7/docs/api/java/net/StandardSocketOptions.html#SO_LINGER>
-- SO_LINGER OFF (디폴트): socket.close()는 즉시 리턴, OS는 소켓 버퍼에
-  있는 데이터를 모두 보내고 나서 FIN 전송하여 4-way handshake shutdown
-  후 소켓 회수
-- SO_LINGER ON, LINGER 시간은 0: socket.close()는 즉시 리턴, OS는 소켓
-  버퍼에 있는 데이터 모두 버리고, RST 전송하고 소켓도 바로 회수
-- SO_LINGER ON, LINGER 시간이 0보다 큼: socket.close()는 소켓 버퍼에
-  있는 데이터를 모두 보내고 나서 리턴, LINGER 시간까지 다 못 보내면
-  에러를 리턴, 연결 종료는 FIN 전송하여 4-way handshake shutdown 후 소켓
-  회수
+- SO_LINGER OFF (디폴트): socket.close()는 즉시 리턴, OS는 소켓 버퍼에 있는 데이터를 모두 보내고 나서 FIN 전송하여 4-way handshake shutdown 후 소켓 회수
+- SO_LINGER ON, LINGER 시간은 0: socket.close()는 즉시 리턴, OS는 소켓 버퍼에 있는 데이터 모두 버리고, RST 전송하고 소켓도 바로 회수
+- SO_LINGER ON, LINGER 시간이 0보다 큼: socket.close()는 소켓 버퍼에 있는 데이터를 모두 보내고 나서 리턴, LINGER 시간까지 다 못 보내면 에러를 리턴, 연결 종료는 FIN 전송하여 4-way handshake shutdown 후 소켓 회수
 
 # JDK URL Connection
 
-- [자바로 구현하는 Web-to-web 프로그래밍, Part
-  1](http://javacan.tistory.com/entry/35)
-- [자바로 구현하는 Web-to-web 프로그래밍, Part
-  2](http://javacan.tistory.com/entry/42)
+- [자바로 구현하는 Web-to-web 프로그래밍, Part 1](http://javacan.tistory.com/entry/35)
+- [자바로 구현하는 Web-to-web 프로그래밍, Part 2](http://javacan.tistory.com/entry/42)
 
 # Feign
 

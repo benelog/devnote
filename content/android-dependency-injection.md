@@ -13,8 +13,7 @@ ever seen
 # [Robo-guice](http://code.google.com/p/roboguice/)
 
 - Cafe 앱에서 사용
-- AOP 미지원 : RoboGuice depends on the version of Guice without
-  AOP.(Android does not support runtime bytecode generation.)
+- AOP 미지원 : RoboGuice depends on the version of Guice without AOP.(Android does not support runtime bytecode generation.)
 
 ## 장점
 
@@ -23,8 +22,7 @@ ever seen
 
 ## 단점
 
-- 상위클래스 상속. RoboApplication.addApplicationModules,
-  AbstractAndroidModule,configure안에서 DI관계 설정
+- 상위클래스 상속. RoboApplication.addApplicationModules, AbstractAndroidModule,configure안에서 DI관계 설정
 - Service객체의 주입하는 간단한 DI를 위해서 코드가 많이 들어간다.
 - Runtime 용량이 커서 부담.
 - 문서화 부실
@@ -35,8 +33,7 @@ ever seen
 
 # [Android Annotations](http://androidannotations.org/)
 
-- the goal of the project is specifically to help reduce the amount of
-  boilerplate code in Android projects
+- the goal of the project is specifically to help reduce the amount of boilerplate code in Android projects
 
 ## 장점
 
@@ -46,8 +43,7 @@ ever seen
 ## 단점
 
 - 클래스명 끝에 "\_"가 자동으로 붙음. xml선언시 이를 고려해야 함
-- Intelli J에서 안 되는 사람도 있음. Itelli J 내부의 Annotation
-  processing 처리방식이 Eclipse하고 다른듯.
+- Intelli J에서 안 되는 사람도 있음. Itelli J 내부의 Annotation processing 처리방식이 Eclipse하고 다른듯.
 - IntelliJ문제 참조
 
 # [Dagger](https://github.com/square/dagger)
@@ -58,8 +54,7 @@ ever seen
 - <http://square.github.com/dagger/>
 - <http://www.infoq.com/news/2012/10/dagger>
 - <http://www.infoq.com/presentations/Dagger>
-- Guice와 비교해서, Dagger has a more minimal profile and it is clearly
-  developed with Android in mind
+- Guice와 비교해서, Dagger has a more minimal profile and it is clearly developed with Android in mind
 - incomplete bindings을 compile time에 제거
 - Dagger does not support method injection.
 
@@ -75,13 +70,11 @@ ever seen
 - Annotation processing 사용
 - 상위 클래스 상속없이 @Activity, @Service, @BroadcastReceiver 활용
 - 0.1.2로 아직 초기인듯
-- Transfuse moves the declaration of Manifest metadata to the component
-  class level. 특이한데, 이를 다들 선호할까?
+- Transfuse moves the declaration of Manifest metadata to the component class level. 특이한데, 이를 다들 선호할까?
 
 # [Yasdic](http://code.google.com/p/yasdic/)
 
-- Android전용은 아니나 작은 DI 프레임워크라서 Android에서도 쓸만하다고
-  추천됨.
+- Android전용은 아니나 작은 DI 프레임워크라서 Android에서도 쓸만하다고 추천됨.
 - 2009년 10월 29일 1.0 발표이후 update 안 됨.
 
 ## Related

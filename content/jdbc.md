@@ -16,18 +16,13 @@
 
 # Connection pool
 
-- [iBatis와 DBCP
-  바로알기](http://www.imaso.co.kr/?doc=bbs/gnuboard.php&bo_table=article&wr_id=40288)
-  - iBatis는 JDBC 3.0이전에도 내부적으로 statement cache를 함. 그러나
-    ibatis session level의 cache이기 때문에 Driver level cache보다
-    효율이 떨어짐
+- [iBatis와 DBCP 바로알기](http://www.imaso.co.kr/?doc=bbs/gnuboard.php&bo_table=article&wr_id=40288)
+  - iBatis는 JDBC 3.0이전에도 내부적으로 statement cache를 함. 그러나 ibatis session level의 cache이기 때문에 Driver level cache보다 효율이 떨어짐
   - evictor 스레드가 실행될 때는 timeBetweenEviction RunMillis \> 0
-  - Evictor 스레드
-    역할http://devyongsik.tistory.com/509\[<http://devyongsik.tistory.com/509>\]
+  - Evictor 스레드 역할http://devyongsik.tistory.com/509\[<http://devyongsik.tistory.com/509>\]
 - <http://java-source.net/open-source/connection-pools>
 
-- [c3p0 - JDBC3 Connection and Statement
-  Pooling](http://tom.tharrisx.homedns.org/javalib/c3p0-0.8.4.5/doc/)
+- [c3p0 - JDBC3 Connection and Statement Pooling](http://tom.tharrisx.homedns.org/javalib/c3p0-0.8.4.5/doc/)
 
 ## 모니터링
 
@@ -144,29 +139,21 @@ getNumActive() &gt; getMaxActive() - 3)</p>
 
 ### 성능비교
 
-- JDBC SQL 구문에 클라이언트 정보 남기기 :
-  <http://kwon37xi.egloos.com/4860051>
+- JDBC SQL 구문에 클라이언트 정보 남기기 : <http://kwon37xi.egloos.com/4860051>
 
 ### JDBC API 사용법
 
-- [서블렛 + JDBC 연동시 코딩 고려사항
-  -제1탄-](http://www.javaservice.net/~java/bbs/read.cgi?m=devtip&b=servlet&c=r_p&n=968185187&k=JDBC&d=tb)
-- [서블렛 + JDBC 연동시 코딩 고려사항
-  -제2탄-](http://www.javaservice.net/~java/bbs/read.cgi?m=devtip&b=servlet&c=r_p&n=968522077)
-- [서블렛 + JDBC 연동시 코딩 고려사항
-  4](http://www03.zdnet.co.kr/news/enterprise/0,39031021,10048177,00.htm)
-- [서블렛 + JDBC 연동시 코딩 고려사항
-  5](http://www03.zdnet.co.kr/news/enterprise/0,39031021,10048192,00.htm)
-- [서블렛 + JDBC 연동시 코딩 고려사항
-  6](http://www.zdnet.co.kr/builder/dev/java/0,39031622,10048223,00.htm)
+- [서블렛 + JDBC 연동시 코딩 고려사항 -제1탄-](http://www.javaservice.net/~java/bbs/read.cgi?m=devtip&b=servlet&c=r_p&n=968185187&k=JDBC&d=tb)
+- [서블렛 + JDBC 연동시 코딩 고려사항 -제2탄-](http://www.javaservice.net/~java/bbs/read.cgi?m=devtip&b=servlet&c=r_p&n=968522077)
+- [서블렛 + JDBC 연동시 코딩 고려사항 4](http://www03.zdnet.co.kr/news/enterprise/0,39031021,10048177,00.htm)
+- [서블렛 + JDBC 연동시 코딩 고려사항 5](http://www03.zdnet.co.kr/news/enterprise/0,39031021,10048192,00.htm)
+- [서블렛 + JDBC 연동시 코딩 고려사항 6](http://www.zdnet.co.kr/builder/dev/java/0,39031622,10048223,00.htm)
 
 Statment를 안 가지면 maximum open cursor exceed ! 에러나 Limit on number
 of statements exceeded 에러 발생
 
-- [Top Ten Oracle JDBC
-  Tips](http://www.onjava.com/pub/a/onjava/2001/12/19/oraclejdbc.html)
-- JDBC 드라이버의 4가지 타입 :
-  <http://www.onjava.com/pub/a/onjava/excerpt/javaentnut_2/index1.html>
+- [Top Ten Oracle JDBC Tips](http://www.onjava.com/pub/a/onjava/2001/12/19/oraclejdbc.html)
+- JDBC 드라이버의 4가지 타입 : <http://www.onjava.com/pub/a/onjava/excerpt/javaentnut_2/index1.html>
 
 ### 각종 DBMS JDBC 드라이버 셋팅법 정리
 
@@ -174,21 +161,16 @@ of statements exceeded 에러 발생
 
 ### 에러 관련
 
-- [Oracle
-  Protocol-violation](http://www.javaservice.net/~java/bbs/data/jdbc/1031683974+/Protocol_Violation.doc)
-- [ORA-01000: maximum open cursors exceeded
-  조사](http://www.jakartaproject.com/board-read.do?boardId=dbtip&boardNo=116424143325438&command=READ&page=1&categoryId=-1)
-- [ResultSet 의 close 메소드를 finally 에서 반드시 부르지 않아도 되는
-  이유](http://sayjava.egloos.com/3628406#8145310)
-- [JDBC 중복할당에 의한 WAS행(Hang)현상
-  추적하기](http://www.javaservice.net/~java/bbs/read.cgi?m=apm&b=jscfaq&c=r_p&n=1130485838)
+- [Oracle Protocol-violation](http://www.javaservice.net/~java/bbs/data/jdbc/1031683974+/Protocol_Violation.doc)
+- [ORA-01000: maximum open cursors exceeded 조사](http://www.jakartaproject.com/board-read.do?boardId=dbtip&boardNo=116424143325438&command=READ&page=1&categoryId=-1)
+- [ResultSet 의 close 메소드를 finally 에서 반드시 부르지 않아도 되는 이유](http://sayjava.egloos.com/3628406#8145310)
+- [JDBC 중복할당에 의한 WAS행(Hang)현상 추적하기](http://www.javaservice.net/~java/bbs/read.cgi?m=apm&b=jscfaq&c=r_p&n=1130485838)
 
 # Mysql
 
 - <https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-configuration-properties.html>
 - <https://kwonnam.pe.kr/wiki/database/mysql/jdbc>
-  - MySQL에서는 `useServerPrepStmts=true` 를써야 Server side cache
-    활성화됨 (default false)
+  - MySQL에서는 `useServerPrepStmts=true` 를써야 Server side cache 활성화됨 (default false)
 
 # Fetch size
 
@@ -198,8 +180,7 @@ of statements exceeded 에러 발생
 - [http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html#setFetchSize(int)](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html#setFetchSize%28int%29)
 - <http://www.databasesandlife.com/reading-row-by-row-into-java-from-mysql/>
 - <http://blog.naver.com/PostView.nhn?blogId=kang594&logNo=40515882&parentCategoryNo=8&viewDate=&currentPage=1&listtype=0>
-- connector 버전 5.0.2이상에서는 useCursorFetch가 먹음 :
-  <http://wiki.gxtechnical.com/commwiki/servlet/hwiki?Client+and+server+cursors+-+using+MySQL>
+- connector 버전 5.0.2이상에서는 useCursorFetch가 먹음 : <http://wiki.gxtechnical.com/commwiki/servlet/hwiki?Client+and+server+cursors+-+using+MySQL>
 
 ## autoreconnect=true
 
@@ -211,8 +192,7 @@ of statements exceeded 에러 발생
 
 # BLOB image 관련
 
-- [JSP나 서블릿에서 이미지 출력에
-  관해서…​](http://javaservice.net/~java/bbs/read.cgi?m=devtip&b=servlet&c=r_p&n=1092807454&p=1&s=t)
+- [JSP나 서블릿에서 이미지 출력에 관해서…​](http://javaservice.net/~java/bbs/read.cgi?m=devtip&b=servlet&c=r_p&n=1092807454&p=1&s=t)
 - <http://blog.naver.com/yacjae/100020395789>
 
 # 기타

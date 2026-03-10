@@ -1,53 +1,38 @@
-- [도메인 주도 설계의
-  본질](https://www.slideshare.net/baejjae93/ss-27536729)
-- [DDD
-  Lite@Spring](https://www.slideshare.net/NHNFORWARD/nhnforward2019-6)
+- [도메인 주도 설계의 본질](https://www.slideshare.net/baejjae93/ss-27536729)
+- [DDD Lite@Spring](https://www.slideshare.net/NHNFORWARD/nhnforward2019-6)
 - <https://www.infoq.com/presentations/microservices-ddd-bounded-contexts/>
 - <https://github.com/kgrzybek/modular-monolith-with-ddd>
 - <http://scabl.blogspot.com/p/advancing-enterprise-ddd.html>
-- [Effective Aggregate Design Part I: Modeling a Single
-  Aggregate](https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf)
-- [Effective Aggregate Design Part II : Making Aggregates Work
-  Together](https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_2.pdf)
-- [Effective Aggregate Design Part III : Gaining Insight Through
-  Discovery](https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_3.pdf)
+- [Effective Aggregate Design Part I: Modeling a Single Aggregate](https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_1.pdf)
+- [Effective Aggregate Design Part II : Making Aggregates Work Together](https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_2.pdf)
+- [Effective Aggregate Design Part III : Gaining Insight Through Discovery](https://dddcommunity.org/wp-content/uploads/files/pdf_articles/Vernon_2011_3.pdf)
 - [에그리게잇-하나에-리파지토리-하나](https://www.popit.kr/에그리게잇-하나에-리파지토리-하나/)
-- [DDD(Domain Driven Design)
-  소개](http://msdn.microsoft.com/ko-kr/magazine/dd419654.aspx)
+- [DDD(Domain Driven Design) 소개](http://msdn.microsoft.com/ko-kr/magazine/dd419654.aspx)
 - <http://www.infoq.com/minibooks/domain-driven-design-quickly>
 - <http://www.infoq.com/news/2006/12/domain-driven-design>
 - <http://www.infoq.com/news/2007/09/eric-evans-domain-driven-design>
 - <http://www.infoq.com/articles/ddd-in-practice>
 - <http://www.infoq.com/presentations/design-strategic-eric-evans>
-- [Domain Driven Design and Development In
-  Practice](http://www.infoq.com/articles/ddd-in-practice)
+- [Domain Driven Design and Development In Practice](http://www.infoq.com/articles/ddd-in-practice)
 - [http:///www.infoq.com/news/2007/09/eric-evans-domain-driven-design](http://www.infoq.com/news/2007/09/eric-evans-domain-driven-design)
-- [박성철님의 DDD 산책
-  발표](http://www.slideshare.net/gyumee/ddd-10067384)
+- [박성철님의 DDD 산책 발표](http://www.slideshare.net/gyumee/ddd-10067384)
 
-- [나도 DDD 하고싶어 모델링
-  적용기](http://truthiness.pe.kr/blog/archives/323)
-- [DDD에서 말하는 Ubiquitous Langauge가 어려운
-  이유](http://toby.epril.com/?p=356)
+- [나도 DDD 하고싶어 모델링 적용기](http://truthiness.pe.kr/blog/archives/323)
+- [DDD에서 말하는 Ubiquitous Langauge가 어려운 이유](http://toby.epril.com/?p=356)
 
 - Factorieshttps://blog.appkr.dev/work-n-play/learn-n-think/ddd-hexagonal/
 
-- [도메인 로직과 SQL](http://gyumee.egloos.com/1783716) (원문 : [Domain
-  Logic and SQL](http://martinfowler.com/articles/dblogic.html) )
-- [고객과 개발자를 아우르는 하나의 언어 도메인이 주도하는
-  개발](http://www.zdnet.co.kr/builder/dev/web/0,39031700,39170212,00.htm)
+- [도메인 로직과 SQL](http://gyumee.egloos.com/1783716) (원문 : [Domain Logic and SQL](http://martinfowler.com/articles/dblogic.html) )
+- [고객과 개발자를 아우르는 하나의 언어 도메인이 주도하는 개발](http://www.zdnet.co.kr/builder/dev/web/0,39031700,39170212,00.htm)
 
 - [\[DDD](http://whiteship.me/2268) Whiteship’s DDD 아키텍처\]
 
-- 빈약한 Domain Object :
-  [http://martinfowler.com.bliki.AnemicDomainModel.html](http://martinfowler.com.bliki.anemicdomainmodel.html/)
-- [DDD (Domain Driven Design) - Context Continuous
-  Integration](http://bcho.tistory.com/356)
+- 빈약한 Domain Object : [http://martinfowler.com.bliki.AnemicDomainModel.html](http://martinfowler.com.bliki.anemicdomainmodel.html/)
+- [DDD (Domain Driven Design) - Context Continuous Integration](http://bcho.tistory.com/356)
 - [Domain Driven Design - Modeling](http://bcho.tistory.com/360)
 - [DDD vs Repository](http://aeternum.egloos.com/1160846)
 - <http://pds17.egloos.com/pds/201003/31/18/Domain-Driven_Design_Essence.pdf>
-- [좋은 도메인 모델은 어떻게 만들 수 있을까? 10가지 최고의
-  충고.](http://smack.kr/372)
+- [좋은 도메인 모델은 어떻게 만들 수 있을까? 10가지 최고의 충고.](http://smack.kr/372)
 - [Domain-Driven Design Essence](http://aeternum.egloos.com/2422827)
 - [Rich Domain Model](http://aeternum.egloos.com/2628475)
 
@@ -61,77 +46,43 @@
 
 # 연재
 
-- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN
-  1부](http://aeternum.egloos.com/1747170)
-- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN
-  2부](http://aeternum.egloos.com/1832181)
-- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN
-  3부](http://aeternum.egloos.com/1891121)
-- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN
-  4부](http://aeternum.egloos.com/1899296)
-- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN
-  5부](http://aeternum.egloos.com/1912820)
-- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN
-  6부](http://aeternum.egloos.com/1960629)
-- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN
-  7부](http://aeternum.egloos.com/1960629)
-- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게
-  1부](http://aeternum.egloos.com/1984703)
-- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게
-  2부](http://aeternum.egloos.com/1986866)
-- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게
-  3부](http://aeternum.egloos.com/2150438)
-- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게
-  4부](http://aeternum.egloos.com/2195758)
-- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게
-  5부](http://aeternum.egloos.com/2312162)
-- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게
-  6부](http://aeternum.egloos.com/2322024)
-- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게
-  7부](http://aeternum.egloos.com/2333979)
-- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보
-  1부](http://aeternum.egloos.com/2363367)
-- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보
-  2부](http://aeternum.egloos.com/2374119)
-- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보
-  3부](http://aeternum.egloos.com/2382119)
-- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보
-  4부](http://aeternum.egloos.com/2382485)
-- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보
-  5부](http://aeternum.egloos.com/2388357)
-- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보
-  6부](http://aeternum.egloos.com/2402082)
-- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보
-  7부](http://aeternum.egloos.com/2405638)
-- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보
-  8부](http://aeternum.egloos.com/2420521)
-- [유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서
-  1부](http://aeternum.egloos.com/2473500)
-- [유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서
-  2부](http://aeternum.egloos.com/2483783)
-- [유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서
-  3부](http://aeternum.egloos.com/2486549)
-- [유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서
-  4부](http://aeternum.egloos.com/2490834)
-- [유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서
-  5부](http://aeternum.egloos.com/2492445)
-- [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴
-  1부](http://aeternum.egloos.com/2493642)
-- [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴
-  2부](http://aeternum.egloos.com/2497570)
-- [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴
-  3부](http://aeternum.egloos.com/2503382)
-- [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴
-  4부](http://aeternum.egloos.com/2508743)
-- [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴
-  5부\[完](http://aeternum.egloos.com/2511360)\]
+- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 1부](http://aeternum.egloos.com/1747170)
+- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 2부](http://aeternum.egloos.com/1832181)
+- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 3부](http://aeternum.egloos.com/1891121)
+- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 4부](http://aeternum.egloos.com/1899296)
+- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 5부](http://aeternum.egloos.com/1912820)
+- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 6부](http://aeternum.egloos.com/1960629)
+- [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 7부](http://aeternum.egloos.com/1960629)
+- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 1부](http://aeternum.egloos.com/1984703)
+- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 2부](http://aeternum.egloos.com/1986866)
+- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 3부](http://aeternum.egloos.com/2150438)
+- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 4부](http://aeternum.egloos.com/2195758)
+- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 5부](http://aeternum.egloos.com/2312162)
+- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 6부](http://aeternum.egloos.com/2322024)
+- [유연한 설계를 위한 패턴과 원리 - 2.의도를 명확하게 7부](http://aeternum.egloos.com/2333979)
+- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 1부](http://aeternum.egloos.com/2363367)
+- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 2부](http://aeternum.egloos.com/2374119)
+- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 3부](http://aeternum.egloos.com/2382119)
+- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 4부](http://aeternum.egloos.com/2382485)
+- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 5부](http://aeternum.egloos.com/2388357)
+- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 6부](http://aeternum.egloos.com/2402082)
+- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 7부](http://aeternum.egloos.com/2405638)
+- [유연한 설계를 위한 패턴과 원리 - 3.리팩토링을 통한 진보 8부](http://aeternum.egloos.com/2420521)
+- [유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 1부](http://aeternum.egloos.com/2473500)
+- [유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 2부](http://aeternum.egloos.com/2483783)
+- [유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 3부](http://aeternum.egloos.com/2486549)
+- [유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 4부](http://aeternum.egloos.com/2490834)
+- [유연한 설계를 위한 패턴과 원리 - 4.잃어버린 시간을 찾아서 5부](http://aeternum.egloos.com/2492445)
+- [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 1부](http://aeternum.egloos.com/2493642)
+- [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 2부](http://aeternum.egloos.com/2497570)
+- [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 3부](http://aeternum.egloos.com/2503382)
+- [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 4부](http://aeternum.egloos.com/2508743)
+- [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 5부\[完](http://aeternum.egloos.com/2511360)\]
 
 # 구현 사례
 
-- [트랜잭션은 도메인 모델이
-  아니다](https://blog.gangnamunni.com/post/isolate-transaction-from-domain-model)
-- [내가 경험한 DDD,
-  Hexagonal](https://blog.appkr.dev/work-n-play/learn-n-think/ddd-hexagonal/)
+- [트랜잭션은 도메인 모델이 아니다](https://blog.gangnamunni.com/post/isolate-transaction-from-domain-model)
+- [내가 경험한 DDD, Hexagonal](https://blog.appkr.dev/work-n-play/learn-n-think/ddd-hexagonal/)
 
 ## Related
 - [[architecture]]

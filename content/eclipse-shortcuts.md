@@ -1,7 +1,6 @@
 - <https://shortcutworld.com/en/Eclipse/win/all>
 - <https://shortcutworld.com/en/Eclipse/win/all>
-- [Eclipse 사용시 알아두면 좋은 유용한 단축키
-  모음](http://wiki.javajigi.net/pages/viewpage.action?pageId=155)
+- [Eclipse 사용시 알아두면 좋은 유용한 단축키 모음](http://wiki.javajigi.net/pages/viewpage.action?pageId=155)
 - [eclipse ctrl+3](http://okjsp.tistory.com/1165643186)
 - 선택 커서 변환 (Alt+Shift+A)
 - Code Assist (CTRL + Space)
@@ -18,8 +17,7 @@
 - Remove Block Comment : Ctrl + Shift + \\
 - Comment : Alt + Shift + J
 - 기본 View창은 너무 작다. Ctrl + m 키를 눌러 전체화면으로 본다.
-- 현재 라인 위에 빈 라인 삽입하고 편집하기 : -↑ , End, Enter를 누르는
-  복잡한 과정을 Ctrl + Shift + Enter로 해결한다.
+- 현재 라인 위에 빈 라인 삽입하고 편집하기 : -↑ , End, Enter를 누르는 복잡한 과정을 Ctrl + Shift + Enter로 해결한다.
 - 자동완성기능 Alt + /
 - Local 변수 추출 : Alt + Shift + L
 - Ctrl + , : 찾기나, TASK항목 이동
@@ -27,8 +25,7 @@
 - Ctrl + F6 : Editor 선택
 - Ctrl + F7 : View 선택
 - Ctrl + F8 : Perspectieve 선택
-- Ctrl + 1 : QuickFix 실행 Ctrl + Shift + space : 입력 파라미터 정보
-  보여줌
+- Ctrl + 1 : QuickFix 실행 Ctrl + Shift + space : 입력 파라미터 정보 보여줌
 
 # 소스코드 사이 이동
 

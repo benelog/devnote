@@ -1,31 +1,21 @@
 # 사례
 
-- [Spring Batch 애플리케이션 성능 향상을 위한 주요 팁 / 제2회 Kakao Tech
-  Meet](https://tech.kakao.com/2023/08/01/techmeet-spring-batch/)
+- [Spring Batch 애플리케이션 성능 향상을 위한 주요 팁 / 제2회 Kakao Tech Meet](https://tech.kakao.com/2023/08/01/techmeet-spring-batch/)
   - Writer에서 다건을 병렬처리, UPDATE 몰아서 하기, batchUpdate 활용
   - <https://cheese10yun.github.io/spring-batch-update-performance/>
-- [Batch Performance 극한으로 끌어올리기: 1억 건 데이터 처리를 위한 노력
-  / if(kakao)2022](https://www.youtube.com/watch?v=L9K0l65wMbQ)
+- [Batch Performance 극한으로 끌어올리기: 1억 건 데이터 처리를 위한 노력 / if(kakao)2022](https://www.youtube.com/watch?v=L9K0l65wMbQ)
   - Read
-    - MySQL에서 limit, offset 지정방식의 페이징쿼리는 건수가 늘어갈 때
-      뒤로 갈수록 느려진다.
-    - Cursor 조회로도 대량 데이터 조회 가능. 단 JpaCurSorItemReader는
-      사용하지 말것
+    - MySQL에서 limit, offset 지정방식의 페이징쿼리는 건수가 늘어갈 때 뒤로 갈수록 느려진다.
+    - Cursor 조회로도 대량 데이터 조회 가능. 단 JpaCurSorItemReader는 사용하지 말것
   - Aggregation
-    - MySQL에서 group by query 대신 Redis로 집계.command pipeline 을
-      활용하면 원격 호출 횟수를 최적화 할 수 있음.
+    - MySQL에서 group by query 대신 Redis로 집계.command pipeline 을 활용하면 원격 호출 횟수를 최적화 할 수 있음.
   - Write
     - JDBC batchUpdate를 유도할 것
     - JPA는 성능최적화 관점에서 배치와 잘 맞지 않음
   - 배치 구동 환경
-    - Spring Cloud Data Flow \* K82를 용해서 batch 스케쥴링,
-      오케스트레이션, 모니터링을 하고 있음.
-- [오픈 소스를 활용한 게임 배치 플랫폼 개선
-  사례](https://www.slideshare.net/slideshow/ss-39145002/39145002)(NC
-  소프트)
-- [오픈소스를 활용한 Batch 처리 플랫폼
-  공유](https://www.slideshare.net/slideshow/batch-8508863/8508863) (NHN
-  김용환 님, 2011 JCO 발표)
+    - Spring Cloud Data Flow \* K82를 용해서 batch 스케쥴링, 오케스트레이션, 모니터링을 하고 있음.
+- [오픈 소스를 활용한 게임 배치 플랫폼 개선 사례](https://www.slideshare.net/slideshow/ss-39145002/39145002)(NC 소프트)
+- [오픈소스를 활용한 Batch 처리 플랫폼 공유](https://www.slideshare.net/slideshow/batch-8508863/8508863) (NHN 김용환 님, 2011 JCO 발표)
 
 # 예제
 
@@ -37,18 +27,12 @@
 
 <http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-comparison-to-xml/>
 
-- [Part 1 : A comparison to
-  XML](http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-comparison-to-xml/)
-- [Part 2 : JobParameters, ExecutionContext and StepScope
-  ](http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-2-jobparameters-executioncontext-and-stepscope/)
-- [Part 3 : Profiles and
-  environments\</font\>](http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-3-profiles-and-environments/)
-- [Part 4 : Job
-  inheritance](http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-4-job-inheritance/)
-- [Part 5 : Modular
-  configurations](http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-5-modular-configurations/)
-- [Part 6 : Partitioning and Multi-threaded
-  Step](http://blog.codecentric.de/en/2013/07/spring-batch-2-2-javaconfig-part-6-partitioning-and-multi-threaded-step/)
+- [Part 1 : A comparison to XML](http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-comparison-to-xml/)
+- [Part 2 : JobParameters, ExecutionContext and StepScope ](http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-2-jobparameters-executioncontext-and-stepscope/)
+- [Part 3 : Profiles and environments\</font\>](http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-3-profiles-and-environments/)
+- [Part 4 : Job inheritance](http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-4-job-inheritance/)
+- [Part 5 : Modular configurations](http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-5-modular-configurations/)
+- [Part 6 : Partitioning and Multi-threaded Step](http://blog.codecentric.de/en/2013/07/spring-batch-2-2-javaconfig-part-6-partitioning-and-multi-threaded-step/)
 
 # Transaction
 
@@ -68,8 +52,7 @@
 ## Spring Batch Metric
 
 - <https://www.devkuma.com/docs/prometheus/spring-batch/>
-- <https://velog.io/@roycewon/Spring-boot-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81Prometheus-Grafana-docker>
-  해보기
+- <https://velog.io/@roycewon/Spring-boot-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81Prometheus-Grafana-docker> 해보기
 - <https://grafana.com/grafana/dashboards/19004-spring-boot-statistics/>
 - <https://github.com/spring-projects/spring-batch/blob/45b3c5ef93642f5fbd46302a38e24cd303927bb8/spring-batch-core/src/test/java/org/springframework/batch/core/observability/ObservabilitySampleStepTests.java>
 
@@ -77,22 +60,17 @@
 
 - JSR-352 소개 :
 
-- Spring batch 3.0의 JSR-352 관련 스펙들 :
-  <https://jira.springsource.org/issues/?jql=labels%20%3D%20JSR-352>
-- 포럼에 관련 질문 :
-  <http://forum.springsource.org/showthread.php?138022-Spring-Batch-and-JSR352>
-- JSR-352와 Spring batch의 차이점 :
-  <http://blog.codecentric.de/en/2013/07/spring-batch-and-jsr-352-batch-applications-for-the-java-platform-differences/>
+- Spring batch 3.0의 JSR-352 관련 스펙들 : <https://jira.springsource.org/issues/?jql=labels%20%3D%20JSR-352>
+- 포럼에 관련 질문 : <http://forum.springsource.org/showthread.php?138022-Spring-Batch-and-JSR352>
+- JSR-352와 Spring batch의 차이점 : <http://blog.codecentric.de/en/2013/07/spring-batch-and-jsr-352-batch-applications-for-the-java-platform-differences/>
 - <http://blog.springsource.org/2013/08/23/spring-batch-3-0-milestone-1-released/>
 - <https://github.com/mminella/jsr352-springbatch-and-you>
 - <https://blog.codecentric.de/en/2013/11/batch-processing-java-enterprise-edition-jsr-352-jee7-spring-batch/>
 
 # 핵심 commit
 
-- retry 별도 프로젝트 분리 :
-  <https://github.com/SpringSource/spring-batch/commit/e827990f08c04122538d4ec17b0e90b8aa7ed577>
-- non-identifying job parameters
-  <https://github.com/spring-projects/spring-batch/commit/557515df45c0f596588418d53c3f2bae3781c1c3>
+- retry 별도 프로젝트 분리 : <https://github.com/SpringSource/spring-batch/commit/e827990f08c04122538d4ec17b0e90b8aa7ed577>
+- non-identifying job parameters <https://github.com/spring-projects/spring-batch/commit/557515df45c0f596588418d53c3f2bae3781c1c3>
 
 ## Spring Batch 6.0 개선
 
@@ -100,16 +78,12 @@
   - <https://github.com/spring-projects/spring-batch/issues/4718>
   - <https://github.com/spring-projects/spring-batch/commit/f7fcfaa4fdb1f762a3bc16c30750d646dc52a6ed>
   - <https://stackoverflow.com/questions/79482719/how-to-remove-h2-dependency-from-spring-batch-5/79492398#79492398>
-- \[Make transaction manager optional in Tasklet and Chunk-Oriented
-  steps\](<https://github.com/spring-projects/spring-batch/commit/76a65501f75fd0115d05d3dd6c90d085a8d8d110>)
+- \[Make transaction manager optional in Tasklet and Chunk-Oriented steps\](<https://github.com/spring-projects/spring-batch/commit/76a65501f75fd0115d05d3dd6c90d085a8d8d110>)
 
 # Spring Batch 6.0
 
-- [Spring Batch 6.0 Migration
-  Guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-6.0-Migration-Guide)
-- (2025-08-20) [Spring Batch 6.0.0-M2 available
-  now](https://spring.io/blog/2025/08/20/spring-batch-6)
-- (2025-07-23) [Spring Batch 6.0.0-M1 is
-  out!](https://spring.io/blog/2025/07/23/spring-batch-6)
+- [Spring Batch 6.0 Migration Guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-6.0-Migration-Guide)
+- (2025-08-20) [Spring Batch 6.0.0-M2 available now](https://spring.io/blog/2025/08/20/spring-batch-6)
+- (2025-07-23) [Spring Batch 6.0.0-M1 is out!](https://spring.io/blog/2025/07/23/spring-batch-6)
 
 ## Related

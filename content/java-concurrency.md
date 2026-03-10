@@ -1,7 +1,5 @@
-- [왜 Thread의 stop 메소드는 deprecated
-  되었을까?](http://www.tuning-java.com/410)
-- [Java8 Stream의 parallel
-  처리](http://www.popit.kr/java8-stream%EC%9D%98-parallel-%EC%B2%98%EB%A6%AC/)
+- [왜 Thread의 stop 메소드는 deprecated 되었을까?](http://www.tuning-java.com/410)
+- [Java8 Stream의 parallel 처리](http://www.popit.kr/java8-stream%EC%9D%98-parallel-%EC%B2%98%EB%A6%AC/)
 
 # Concurrency 개념
 
@@ -13,13 +11,10 @@
   - <http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html>
   - <http://findbugs.sourceforge.net/bugDescriptions.html#DC_DOUBLECHECK>
 - [static initializer](http://blog.naver.com/parnx/140054010993)
-- [Java Concurrency: Executor와
-  Callable/FutureJava](http://javacan.tistory.com/entry/134)
-- [CommonJ의 Work Manager API
-  활용](http://javacan.tistory.com/entry/135)
+- [Java Concurrency: Executor와 Callable/FutureJava](http://javacan.tistory.com/entry/134)
+- [CommonJ의 Work Manager API 활용](http://javacan.tistory.com/entry/135)
 - <http://www.thinkingparallel.com/2007/07/31/10-ways-to-reduce-lock-contention-in-threaded-programs/>
-- HashMap의 무한루프 :
-  <http://mailinator.blogspot.com/2009/06/beautiful-race-condition.html>
+- HashMap의 무한루프 : <http://mailinator.blogspot.com/2009/06/beautiful-race-condition.html>
 
 # Volatile
 
@@ -55,26 +50,20 @@ volatile 필드가 어떻게 동작하는지도 명확하게 명세하고 있지
 
 # Virtual Thread
 
-- [Virtual Thread의 기본 개념
-  이해하기](https://d2.naver.com/helloworld/1203723)
+- [Virtual Thread의 기본 개념 이해하기](https://d2.naver.com/helloworld/1203723)
   - Java JNI 메서드의 호출 원리
-  - Vitual Thread가 Platform Thread에 mount, unmount하는 라이프싸이클
-    설명
+  - Vitual Thread가 Platform Thread에 mount, unmount하는 라이프싸이클 설명
   - Virtual Thread pinning
 - JDK 24이후로는 synchronized block에서 pinnng문제가 해결됨
   - <https://openjdk.org/jeps/491>
   - <https://www.infoq.com/news/2024/11/java-evolves-tackle-pinning/>
   - <https://mikemybytes.com/2025/04/09/java24-thread-pinning-revisited/>
-- [Virtual Thread 어디까지 보고
-  오셨어요?](https://www.youtube.com/watch?v=AuBHv8NOca4)
-  - 플랫폼 스레드는 커널 모드 진입 및 CPU 캐시 재로딩 등 부가 비용이
-    크지만, 버추얼 스레드는 이를 피해 빠른 스케줄링·스위칭이 가능
+- [Virtual Thread 어디까지 보고 오셨어요?](https://www.youtube.com/watch?v=AuBHv8NOca4)
+  - 플랫폼 스레드는 커널 모드 진입 및 CPU 캐시 재로딩 등 부가 비용이 크지만, 버추얼 스레드는 이를 피해 빠른 스케줄링·스위칭이 가능
   - VitualThread는 Continuation과 실행할 Runnable을 가진 인스턴스
-    - Continuation을 활용해 함수의 실행 중단/재개(코루틴 유사)를
-      애플리케이션 힙에 스택 프레임을 저장·복원함으로써 구현
+    - Continuation을 활용해 함수의 실행 중단/재개(코루틴 유사)를 애플리케이션 힙에 스택 프레임을 저장·복원함으로써 구현
     - park(), unpark()을 통해 실행 중단과 재계
-  - JDK는 Vitual Thread 효율성을 위해 소켓 주요 구현을 네이티브→자바
-    코드로 이동하거나 논블로킹 소켓 이용.
+  - JDK는 Vitual Thread 효율성을 위해 소켓 주요 구현을 네이티브→자바 코드로 이동하거나 논블로킹 소켓 이용.
 
 # Mac
 

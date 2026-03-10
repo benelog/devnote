@@ -28,8 +28,7 @@ test/android.test.InstrumentationTestRunner
 카카오톡 임유진 님 ( <eugenelgm@gmail.com> )의 발표
 
 - 발표자료 :
-- 예제코드 : <https://github.com/eugenelgm/AndroidForTest> [
-  ](https://github.com/eugenelgm/AndroidForTest)
+- 예제코드 : <https://github.com/eugenelgm/AndroidForTest> [ ](https://github.com/eugenelgm/AndroidForTest)
 
 ## 추천자료
 
@@ -224,10 +223,8 @@ ActivityInstrumentationTestCase : depreciated.
 === [RoboElectric](http://pivotal.github.com/robolectric/)
 
 - Davik 대신 JVM에서 테스트. 강추
-- [h\<font
-  color="#003f5c"\>ttp://sdudzin.blogspot.kr/2011/01/easy-unit-testing-for-android.html\</font\>](http://sdudzin.blogspot.kr/2011/01/easy-unit-testing-for-android.html)
-- 활용 사례 :
-  <http://msbaek.tumblr.com/post/45892265696/robolectric-android-tdd>
+- [h\<font color="#003f5c"\>ttp://sdudzin.blogspot.kr/2011/01/easy-unit-testing-for-android.html\</font\>](http://sdudzin.blogspot.kr/2011/01/easy-unit-testing-for-android.html)
+- 활용 사례 : <http://msbaek.tumblr.com/post/45892265696/robolectric-android-tdd>
 
 === [Android Mock](https://code.google.com/p/android-mock/)
 
@@ -248,23 +245,17 @@ ActivityInstrumentationTestCase : depreciated.
 === [ScalaMock](http://scalamock.org/)
 
 - 전에는 Borachio
-- Mockito가 이제 Android 지원하므로 더 이상 나는 지원안한다고 쿨하게
-  밝힘.
-- Roboguice + Borachio 예제 프로젝트
-  <https://github.com/jaley/borachio-warehouse>
+- Mockito가 이제 Android 지원하므로 더 이상 나는 지원안한다고 쿨하게 밝힘.
+- Roboguice + Borachio 예제 프로젝트 <https://github.com/jaley/borachio-warehouse>
 - Android + ScalaMock 예제 설명
 
 === [RoboSpec](https://github.com/jbrechtel/robospecs)
 
-- Scala. Robolectric + Specs2
-  Mockitohttps://code.google.com/p/mockito/issues/detail?id=308Android에서
-  Mockito에러페이지 :
-  <https://code.google.com/p/mockito/issues/detail?id=57>
+- Scala. Robolectric + Specs2 Mockitohttps://code.google.com/p/mockito/issues/detail?id=308Android에서 Mockito에러페이지 : <https://code.google.com/p/mockito/issues/detail?id=57>
 
 == PowerMock
 
-- PowerMock 사용 시도 :
-  <https://sites.google.com/site/androiddevtesting/>
+- PowerMock 사용 시도 : <https://sites.google.com/site/androiddevtesting/>
 - <http://sdudzin.blogspot.kr/2011/01/easy-unit-testing-for-android.html>
 
 </div>

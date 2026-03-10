@@ -95,8 +95,7 @@ DB적인 DB샤딩때 쓰는 DataSource routing (
 
 # Best effort
 
-- [Distributed transactions in Spring, with and without
-  XA](http://www.javaworld.com/javaworld/jw-01-2009/jw-01-spring-transactions.html)
+- [Distributed transactions in Spring, with and without XA](http://www.javaworld.com/javaworld/jw-01-2009/jw-01-spring-transactions.html)
 - <https://gist.github.com/anair-it/f92ac33bd6ac5d260961022dd06110f2>
 - <https://jira.springsource.org/browse/SPR-3844>
 

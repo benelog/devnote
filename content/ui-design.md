@@ -1,6 +1,5 @@
 
-- [How to Web2.0 디자인
-  가이드](http://blog.saver.pe.kr/entry/How-to-Web20-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B0%80%EC%9D%B4%EB%93%9C)
+- [How to Web2.0 디자인 가이드](http://blog.saver.pe.kr/entry/How-to-Web20-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B0%80%EC%9D%B4%EB%93%9C)
 - [Ten Steps to Personas](http://www.hceye.org/HCInsight-Nielsen.htm)
 
 <http://ui-patterns.com/>
@@ -11,8 +10,7 @@
 - <http://www.evolus.vn/Pencil/Home.html>
 - <https://gomockingbird.com/>
 - <http://creately.com/> : Web. web component 풍부
-- <http://marketplace.eclipse.org/content/wireframesketcher#.UQbifx1SjBk>
-  : Eclipse plugin
+- <http://marketplace.eclipse.org/content/wireframesketcher#.UQbifx1SjBk> : Eclipse plugin
 - <http://sneakpeekit.com/>
 - <https://www.lucidchart.com/>
 - <https://ovenapp.io/>

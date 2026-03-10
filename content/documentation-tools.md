@@ -21,12 +21,9 @@
 - <https://themes.gohugo.io/hugo_theme_adam_eve/>
 - <https://themes.gohugo.io/themes/hugo-book/>
 - Obsidian과 연동
-  - <https://github.com/jackyzha0/quartz> : 검색, wiki 스타일의 링크
-    지원, 백링크, 그래프 지원
-  - <https://github.com/jackyzha0/hugo-obsidian/> : 위의 Quartz 활용한
-    GitHub Acion
-  - <https://github.com/64bitpandas/amethyst> ( hugo-obsidian +
-    hugo-book 테마)
+  - <https://github.com/jackyzha0/quartz> : 검색, wiki 스타일의 링크 지원, 백링크, 그래프 지원
+  - <https://github.com/jackyzha0/hugo-obsidian/> : 위의 Quartz 활용한 GitHub Acion
+  - <https://github.com/64bitpandas/amethyst> ( hugo-obsidian + hugo-book 테마)
 
 ### GitHub Actions 빌드/배포
 
@@ -70,8 +67,7 @@ GitHub pages로 배포
 </div>
 
 - <https://github.com/peaceiris/actions-gh-pages> 참조
-- <https://github.com/JamesIves/github-pages-deploy-action> 도 비슷한
-  action
+- <https://github.com/JamesIves/github-pages-deploy-action> 도 비슷한 action
 
 <div class="formalpara">
 

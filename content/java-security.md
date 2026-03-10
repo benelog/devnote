@@ -15,12 +15,9 @@ primary="\\.\\w+)|(\\[\\d+\\])|(\\(\\d+\\"></span>\\.\\w+)\|(\\\[\\d+\\\])\|(\\(
 
 <http://struts.apache.org/development/2.x/docs/s2-005.html>
 
-- 2010년 5월31일날 보고.
-  :http://securityreason.com/exploitalert/8435\[<http://securityreason.com/exploitalert/8435>\]
-- 2010년 6월 20일날 소스 고침:
-  <http://svn.apache.org/viewvc?view=revision&revision=956389>
-- 2010년 8월16일에 release된 2.2.1에 포함 :
-  <http://struts.apache.org/2.2.1/docs/version-notes-221.html>
+- 2010년 5월31일날 보고. :http://securityreason.com/exploitalert/8435\[<http://securityreason.com/exploitalert/8435>\]
+- 2010년 6월 20일날 소스 고침: <http://svn.apache.org/viewvc?view=revision&revision=956389>
+- 2010년 8월16일에 release된 2.2.1에 포함 : <http://struts.apache.org/2.2.1/docs/version-notes-221.html>
 
 <http://blog.o0o.nu/2010/07/cve-2010-1870-struts2xwork-remote.html> 참고
 
