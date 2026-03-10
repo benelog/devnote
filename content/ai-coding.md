@@ -46,76 +46,13 @@
 - [바이브 코딩에는 컨텍스트 엔지니어링이
   필요하다](https://blogbyash.com/translation/vibe-coding-needs-context-engineering/)
 
+
 ## Code Review
 * https://www.latent.space/p/reviews-dead
 
-## 연구 리포트
-- [Faros.ai의 조사](https://www.faros.ai/blog/ai-software-engineering) (10,000명 이상 개발자, 1,255개 팀 대상)에 따르면 AI 도입률이 높은 팀에서 뚜렷한 패턴
-    - 완료 태스크 수 21% 증가
-    - 머지되는 PR 수 98% 증가
-    - PR 리뷰 소요 시간 91% 증가
-- [Anthropic 2026 Agentic Coding Trends
-  Report](https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026)
-  : 개발자가 AI에 "완전히 위임" 가능하다고 느끼는 작업은 전체의 0~20%에
-  불과하며, 감독 없는 완전 자동화는 아직 현실적이지 않다.
-- [Google DORA 2024 Report](https://dora.dev/dora-report-2024) : AI 도입
-  초기(2024년)에는 배포 처리량이 오히려 악화되었고, AI 활용 증가가 배포
-  불안정성을 높이는 부작용이 나타났다.
-- [Google DORA 2025 Report](https://dora.dev/research/2025/dora-report/)
-  : 1년 만에 배포 처리량·제품 성과가 반전되어 긍정적으로 바뀌었지만,
-  배포 불안정성·번아웃·업무 마찰은 여전히 해소되지 않은 채로 남아 있다.
-- [Daniotti et al., Science (16만 명, 3,000만 커밋
-  분석)](https://www.science.org/doi/10.1126/science.adz9311) : 미국 내
-  AI 생성 Python 코드 비율이 2022년 5%에서 2024년 29%로 급증했지만 실제
-  생산성 향상은 평균 3.6%에 그쳤고, 효과는 숙련 개발자에게만 집중되었다.
-- [Faros AI Report](https://www.faros.ai/blog/ai-software-engineering) :
-  AI 도입 팀에서 PR 머지가 98% 증가했지만 코드 리뷰 시간도 91% 늘어나,
-  개인 산출량 증가가 조직 차원의 검증 부담 증가로 이어졌다.
-- [METR 2025 RCT
-  연구](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
-  : AI 도구를 사용한 숙련 개발자가 실험 결과로는 19% 느려졌음에도
-  본인들은 20% 빨라졌다고 느껴, 체감 생산성과 실제 생산성 사이에 큰
-  괴리가 존재함을 보여준다.
-- [Stack Overflow 2025 Developer Survey (AI
-  편)](https://survey.stackoverflow.co/2025/ai) : AI 도구가 생산성에
-  긍정적 영향을 줬다고 답한 개발자는 52%에 불과하고, AI 도구에 대한
-  호감도도 전년 대비 70%대에서 60%로 하락했다.
-- <https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report>
-  - [요약 영상](https://www.youtube.com/watch?v=3xo8HslAQRY)
-  - AI가 만든 코드는 1.7배 더 많은 문제를 발생시킴
-  - 가드레일 없는 가속은 위험하다
-  - 안전하게 사용하기 위해서는 프로젝트의 문맥(Context)을 이해하는
-    프롬프트 활용, 엄격한 코드 리뷰 프로세스, 보안 스캐닝 강화가 필수적
-- <https://www.actuia.com/en/news/a-metr-study-reveals-that-ai-slows-down-experienced-developers/>
-- <https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report?hl=en>
-  - 2025년 9월 Google DORA 조직의 조사 결과
-- <https://www.gitclear.com/research/ai_tool_impact_on_developer_productive_output_from_2022_to_2025>
-  - In 2025, the average developer checked in 75% more code than they
-    did in 2022
-- [Measuring AI Ability to Complete Long
-  Tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)
-  - AI의 시간 지평(Time Horizon)이 7개월마다 두 배로 증가한다.
-  - 비판 의견 :
-    <https://medium.com/@AIchats/are-ai-time-horizon-doubling-every-seven-months-e337162eec83>
-- <https://www.darkreading.com/application-security/ai-generated-code-leading-expanded-technical-security-debt>
-- <https://jellyfish.co/blog/with-copilot-engineers-get-15-more-capacity-without-additional-headcount/>
-  - Ticket 해결 속도가 15% 향상
-- [AI가 개발자 생산성에 미치는 영향 - 스탠포드
-  연구](https://news.hada.io/topic?id=22248)
-  - [같은 자료에 대한
-    요약](https://www.linkedin.com/posts/kurt-lee-70010391_does-ai-actually-boost-developer-productivity-activity-7354024167538659329-Ndov/)
-  - AI를 쓰면 전체 코드 생산성은 30~40% 늘어남. 하지만 "Rework" 가
-    15~25% 증가, 결과적으로 실제 생산성 증가는 15~20% 수준.
-- [AI가 오픈소스 개발자를 느리게 만든다. Peter Naur가 그 이유를 알려줄
-  수 있다](https://news.hada.io/topic?id=21996)
-  - [AI착시와 평균의 함정을 피한 슈퍼 개인의 통찰: AI 도구로 생산성 38%
-    향상시킨 개발자의
-    비밀](https://www.facebook.com/seunghwan.lee.9003888/posts/pfbid06AdDqN1kbTSCUbwvBfSzyfs1Hy54msEWzeKBj7LmygKY4zQxASuMLHLdNGjXZRegl)
-
 # 적용 사례
 
-- [Beyond Vibe Coding to Agentic Coding: 카카오의 AI 협업 개발
-  실험](https://tech.kakao.com/posts/711)
+- [Beyond Vibe Coding to Agentic Coding: 카카오의 AI 협업 개발  실험](https://tech.kakao.com/posts/711)
 - <https://toss.tech/article/toss-frontend-ai-docs>
 - <https://vercel.com/blog/becoming-an-ai-engineering-company>
   - <https://v0.dev/>
@@ -157,8 +94,7 @@
 - youtube.com/watch?si=fp9Uqlc_n8bCv1Nq&v=K2rVBIb-KWE&feature=youtu.be\[25년
   현재 어떤 CLI툴을 써야하는지 말씀드리겠습니다\] (박진형 님)
 - <https://opencode.ai/>
-- (Vive) Git Worktree를 즐겁게 만드는 CLI 도구를
-  만들었습니다
+- (Vive) Git Worktree를 즐겁게 만드는 CLI 도구를  만들었습니다
 - [Vibe Kanban: OpenCode + Claude Code 동시에? AI 코딩 에이전트
   오케스트레이션](https://fornewchallenge.tistory.com/entry/%F0%9F%9A%80-Vibe-Kanban-OpenCode-Claude-Code-%EB%8F%99%EC%8B%9C%EC%97%90-AI-%EC%BD%94%EB%94%A9-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%98%A4%EC%BC%80%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98)
 
@@ -173,24 +109,6 @@
 
 ## Claude Code
 
-- [Claude ‘구독형’ 요금제가 API보다 최대 36배 저렴한 이유와 ‘Max 5x’가
-  진짜 최적 구간인 이유](https://news.hada.io/topic?id=26256&)
-- [Claude Code 창시자 Boris Cherny가 Claude Code를 사용하는
-  방법](https://news.hada.io/topic?id=25570)
-  - [Claude Code 오픈소스 창시자의 Claude
-    사용법](https://www.notion.so/grumatic/Claude-Code-Claude-2dd0586bce7480eb8f0cc5a07d5dd7ae)
-- <https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/>
-- <https://www.anthropic.com/engineering/claude-code-best-practices>
-- <https://github.com/seeyoung/claude-multi-ai-collab> : Gemini +
-  Codex를 동시에 활용하는 CLI 스킬
-- <https://github.com/affaan-m/everything-claude-code>
-  - [Everything Claude Code - 해커톤 우승자의 AI 개발 팀
-    레시피](https://roboco.io/posts/everything-claude-code-distilled/)
-- <https://github.com/OthmanAdi/planning-with-files>
-- [Claude Code에서 GLM 4.7 사용하기 - MoAI-ADK로 쉽게
-  설정](https://goos.kim/ko/blog/claude-code-glm-47-moai-adk-setup-guide)
-- [Claude Cowork - 엔터프라이즈 AI 에이전트의 새로운
-  장](https://drive.google.com/file/d/1qfZtTLXQHBeLR_qD3glgmD8LIIe4Akzl/view)
 
 ## MCP
 * [MCP is DEAD](https://www.youtube.com/watch?v=JZW2W5rwsD4) (Youtube)
@@ -204,6 +122,9 @@
 - <https://agents.md/>
 - <https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation>
 
+## Children
+* [[ai-coding-productivity]]
+* [[claude-code]]
 ## Related
 - [[ai-framework]]
 - [[gpt]]
