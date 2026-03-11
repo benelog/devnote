@@ -1,25 +1,10 @@
 # 개관
-- [잇따른 장애 후, Amazon이 AI 지원 코드 변경에 시니어 엔지니어 승인 의무화](https://news.hada.io/topic?id=27395)
-    - https://arstechnica.com/ai/2026/03/after-outages-amazon-to-make-senior-engineers-sign-off-on-ai-assisted-changes/
-- <https://naver-connect-foundation.gitbook.io/boostcamp/expert-insight/ai>
-  - AI 코딩 도구의 패러다임 전환: vibe coding과 agentic engineering의 등장으로 개발 방식이 '정도의 차이’가 아닌 '종류의 차이’로 변화했으며, 개발자는 코드를 직접 짜는 대신 에이전트를 조율·감독하는 역할로 이동하고 있다.
-  - 개인 생산성은 향상됐지만 조직 문제는 미해결: DORA 2025 보고서에 따르면 AI 도입으로 개인 효과성과 배포 처리량은 개선됐지만, 배포 불안정성·번아웃·업무 마찰은 오히려 해소되지 않아 AI의 혜택이 조직 전체에 고르게 닿지 못하고 있다.
-  - 경험과 훈련은 상호보완적: AI 결과물을 올바르게 평가하려면 도메인 경험이 필수적이지만, 경험만으로는 부족하며 프롬프트 작성법·컨텍스트 설계 등 새로운 AI 활용 스킬을 의도적으로 훈련해야 한다.
-  - 조직 시스템 자체의 변화가 핵심: AI의 진정한 가치는 개인의 생산성 향상을 넘어 개발 파이프라인·프로세스·문화를 조직 차원에서 함께 바꿀 때 발휘되며, 주니어 개발자가 경험을 쌓을 환경을 보존하는 것도 조직의 중요한 과제다.
-  - 판단력의 층위가 올라갈 뿐, 사람의 역할은 사라지지 않는다: 코드 작성이 자동화되더라도 무엇을 만들지, 어떤 시나리오를 검증할지 설계하는 깊은 판단은 여전히 사람의 몫이며, 그 판단을 팀 전체가 공유하는 것이 AI 시대 개발자의 진정한 경쟁력이다.
-- ["AI가 짠 코드, 저도 다 모릅니다" 넷플릭스 개발자의 고백](https://eopla.net/magazines/38577)
-  - 쉬운 길을 택할 때마다, 지금 당장의 속도와 함께 나중에 올 복잡성을 쌓는 거예요.
-  - "컨텍스트 압축"이라고 불러요. "컨텍스트 엔지니어링"이나 "스펙 기반 개발"이라고 불러도 되지만 이름은 중요하지 않아요.
-  - 코드가 "돌아간다"는 것만으로는 부족해요. 테스트를 통과하는 코드랑 프로덕션에서 버티는 코드는 달라요. 오늘 작동하는 시스템이랑 나중에 다른 사람이 유지보수할 수 있는 시스템도 다르고요.
-  - 그 감각은 경험에서 와요. 제가 위험한 구조를 알아보는 건, 새벽 3시에 그거 때문에 장애 대응 해본 적이 있어서예요.
-  - 이제 우리는 무한한 코드 생성으로 위기에 직면하고 있어요.
-  - 성공하는 개발자들은 코드를 가장 많이 생성하는 사람이 아닐 거예요.자신이 뭘 만들고 있는지 이해하고, 경계를 볼 수 있고, 잘못된 문제를 풀고 있다는 걸 알아채는 사람일 거예요.
 - <https://martinfowler.com/articles/2025-nature-abstraction.html>
-- [웹 개발이 다시 재미있어졌다](https://news.hada.io/topic?id=25574)
+- [바이브 코딩에는 컨텍스트 엔지니어링이 필요하다](https://blogbyash.com/translation/vibe-coding-needs-context-engineering/)
 - <https://tidyfirst.substack.com/p/augmented-coding-beyond-the-vibes>
 - [AI-Driven Development Lifecycle (AI-DLC) Method Definition](https://prod.d13rzhkk8cj2z0.amplifyapp.com/)
 - [AI로 개발을 어떻게 가속화하는가](https://drive.google.com/file/d/1SJ7-1YXo4r4pkHDuMdKLR9NtgbUsSRoZ/view) (하용호 님)
-- [바이브 코딩에는 컨텍스트 엔지니어링이 필요하다](https://blogbyash.com/translation/vibe-coding-needs-context-engineering/)
+- [웹 개발이 다시 재미있어졌다](https://news.hada.io/topic?id=25574)
 
 
 ## Code Review
@@ -81,5 +66,6 @@
 
 ## Children
 * [[ai-coding-productivity]]
+* [[ai-gent-role]]
 * [[claude-code]]
 * [[agent-skills]]
