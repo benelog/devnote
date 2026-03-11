@@ -1,5 +1,6 @@
 # 개관
-
+-[잇따른 장애 후, Amazon이 AI 지원 코드 변경에 시니어 엔지니어 승인 의무화](https://news.hada.io/topic?id=27395)
+     - https://arstechnica.com/ai/2026/03/after-outages-amazon-to-make-senior-engineers-sign-off-on-ai-assisted-changes/
 - <https://naver-connect-foundation.gitbook.io/boostcamp/expert-insight/ai>
   - AI 코딩 도구의 패러다임 전환: vibe coding과 agentic engineering의 등장으로 개발 방식이 '정도의 차이’가 아닌 '종류의 차이’로 변화했으며, 개발자는 코드를 직접 짜는 대신 에이전트를 조율·감독하는 역할로 이동하고 있다.
   - 개인 생산성은 향상됐지만 조직 문제는 미해결: DORA 2025 보고서에 따르면 AI 도입으로 개인 효과성과 배포 처리량은 개선됐지만, 배포 불안정성·번아웃·업무 마찰은 오히려 해소되지 않아 AI의 혜택이 조직 전체에 고르게 닿지 못하고 있다.
@@ -54,9 +55,8 @@
 # 도구
 
 - <https://github.com/block/goose>
-- youtube.com/watch?si=fp9Uqlc_n8bCv1Nq&v=K2rVBIb-KWE&feature=youtu.be\[25년 현재 어떤 CLI툴을 써야하는지 말씀드리겠습니다\] (박진형 님)
+- [25년 현재 어떤 CLI툴을 써야하는지 말씀드리겠습니다](https://youtube.com/watch?si=fp9Uqlc_n8bCv1Nq&v=K2rVBIb-KWE) (박진형 님)
 - <https://opencode.ai/>
-- (Vive) Git Worktree를 즐겁게 만드는 CLI 도구를  만들었습니다
 - [Vibe Kanban: OpenCode + Claude Code 동시에? AI 코딩 에이전트 오케스트레이션](https://fornewchallenge.tistory.com/entry/%F0%9F%9A%80-Vibe-Kanban-OpenCode-Claude-Code-%EB%8F%99%EC%8B%9C%EC%97%90-AI-%EC%BD%94%EB%94%A9-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%98%A4%EC%BC%80%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98)
 
 ## GitHub Copilot
