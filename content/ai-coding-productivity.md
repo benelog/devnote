@@ -1,13 +1,13 @@
 ## 연구 리포트
-- [Faros.ai의 조사](https://www.faros.ai/blog/ai-software-engineering) (10,000명 이상 개발자, 1,255개 팀 대상)에 따르면 AI 도입률이 높은 팀에서 뚜렷한 패턴
-    - 완료 태스크 수 21% 증가
-    - 머지되는 PR 수 98% 증가
-    - PR 리뷰 소요 시간 91% 증가
 - [Anthropic 2026 Agentic Coding Trends Report](https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026) : 개발자가 AI에 "완전히 위임" 가능하다고 느끼는 작업은 전체의 0~20%에 불과하며, 감독 없는 완전 자동화는 아직 현실적이지 않다.
 - [Google DORA 2024 Report](https://dora.dev/dora-report-2024) : AI 도입 초기(2024년)에는 배포 처리량이 오히려 악화되었고, AI 활용 증가가 배포 불안정성을 높이는 부작용이 나타났다.
 - [Google DORA 2025 Report](https://dora.dev/research/2025/dora-report/) : 1년 만에 배포 처리량·제품 성과가 반전되어 긍정적으로 바뀌었지만, 배포 불안정성·번아웃·업무 마찰은 여전히 해소되지 않은 채로 남아 있다.
 - [Daniotti et al., Science (16만 명, 3,000만 커밋 분석)](https://www.science.org/doi/10.1126/science.adz9311) : 미국 내 AI 생성 Python 코드 비율이 2022년 5%에서 2024년 29%로 급증했지만 실제 생산성 향상은 평균 3.6%에 그쳤고, 효과는 숙련 개발자에게만 집중되었다.
-- [Faros AI Report](https://www.faros.ai/blog/ai-software-engineering) : AI 도입 팀에서 PR 머지가 98% 증가했지만 코드 리뷰 시간도 91% 늘어나, 개인 산출량 증가가 조직 차원의 검증 부담 증가로 이어졌다.
+- [Faros.ai의 조사](https://www.faros.ai/blog/ai-software-engineering) (10,000명 이상 개발자, 1,255개 팀 대상)에 따르면 AI 도입률이 높은 팀에서 뚜렷한 패턴
+    - 완료 태스크 수 21% 증가
+    - 머지되는 PR 수 98% 증가
+    - PR 리뷰 소요 시간 91% 증가
+    - 개인 산출량 증가가 조직 차원의 검증 부담 증가로 이어졌다.
 - [METR 2025 RCT 연구](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) : AI 도구를 사용한 숙련 개발자가 실험 결과로는 19% 느려졌음에도 본인들은 20% 빨라졌다고 느껴, 체감 생산성과 실제 생산성 사이에 큰 괴리가 존재함을 보여준다.
 - [Stack Overflow 2025 Developer Survey (AI 편)](https://survey.stackoverflow.co/2025/ai) : AI 도구가 생산성에 긍정적 영향을 줬다고 답한 개발자는 52%에 불과하고, AI 도구에 대한 호감도도 전년 대비 70%대에서 60%로 하락했다.
 - <https://www.coderabbit.ai/blog/state-of-ai-vs-human-code-generation-report>
