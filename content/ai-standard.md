@@ -12,12 +12,14 @@
 
 **Safetensors**가 핵심이다. 텐서의 이름(key)과 shape, dtype, 바이너리 데이터를 단순한 헤더+바이너리 구조로 저장하므로, 어떤 프레임워크든 쉽게 읽을 수 있다.
 
+다국어 지원 능력도 이 가중치 안에 들어 있다. 학습 시 Common Crawl, Wikipedia 등에서 수집한 수십~수백 개 언어의 텍스트 패턴이 신경망 파라미터 전체에 걸쳐 **분산 표현(distributed representation)**으로 인코딩된다. "한국어 사전" 같은 별도 파일이 있는 게 아니라, embedding layer와 attention/FFN layer의 수치 값들에 각 언어의 문법·어휘·의미가 녹아들어 있는 것이다. 그래서 특정 언어만 빼거나 넣는 것이 쉽지 않다.
+
 ## 2. 모델 아키텍처 규약 — Transformers 라이브러리의 역할
 
 허깅페이스 `transformers` 라이브러리가 사실상의 표준 역할을 한다.
 
 - **`config.json`** — 모델 구조 정의 (`model_type`, `hidden_size`, `num_attention_heads` 등)
-- **`tokenizer.json` / `tokenizer_config.json`** — 토크나이저 정의
+- **`tokenizer.json` / `tokenizer_config.json`** — 토크나이저 정의. BPE 등의 알고리즘으로 다국어 텍스트를 토큰으로 분리하는 vocabulary(보통 32K~150K 토큰)를 담고 있다. 한국어 "안녕하세요"도, 영어 "hello"도 이 vocabulary의 토큰 조합으로 표현된다.
 - **`generation_config.json`** — 생성 파라미터
 
 ```json
