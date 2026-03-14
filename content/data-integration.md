@@ -1,6 +1,6 @@
-# Apache Flink
+## Apache Flink
 
-## 구조
+### 구조
 
 - JobManager
   - 사용자의 플링크 잡(Flink job)을 요청받고 분산 환경에서 실행할 수 있는 실행 그래프(Execution graph)로 변환
@@ -14,7 +14,7 @@
   - SourceReader : 태스크 매니저에 존재하며, 잡 매니저에게 스플릿을 요청하고 할당받은 스플릿을 기반으로 외부 시스템에서 데이터를 읽어옴
 - CheckPoint : 플링크 잡의 상태(State)를 사용자가 정의한 저장소에 주기적으로 저장하는 기능
 
-## 사례
+### 사례
 
 - 카카오 사례
   - [아파치 플링크와 CDC의 만남. 플링크 CDC 맛보기](https://tech.kakao.com/posts/632)
@@ -23,7 +23,7 @@
   - [대용량 데이터베이스 동기화를 위한 최적의 CDC 시스템 구축기 / if(kakaoAI)2024](https://www.youtube.com/watch?v=PeNHKxadNos)
 - [6개월 만에 연간 수십조를 처리하는 DB CDC 복제 도구 무중단/무장애 교체하기](https://d2.naver.com/helloworld/6388660)
 
-# Migration 사례
+## Migration 사례
 
 - <https://stripe.com/blog/online-migrations>
   - 1\. Dual writing

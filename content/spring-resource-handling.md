@@ -1,4 +1,4 @@
-# Spring resource handling 예제프로젝트
+## Spring resource handling 예제프로젝트
 
 - <https://github.com/bclozel/spring-resource-handling/blob/master/client/pom.xml>
 - <https://github.com/bclozel/spring-resource-handling/blob/master/client/package.json>
@@ -9,17 +9,17 @@
     String location = devMode ? "file:///" + getProjectRootRequired() + "/client/src/" : "classpath:static/";
 ```
 
-# sagan의 빌드 파일
+## sagan의 빌드 파일
 
-## sagan-client
+### sagan-client
 
 - <https://github.com/spring-io/sagan/commit/4a7d4aedf68e1927dc246a5c6cd4c5aa6576d0bd> 에서 spring-boot의 기본 전략 사용하는것으로 수정
 
-### 이전 방식
+#### 이전 방식
 
 - <https://github.com/spring-io/sagan/blob/master/sagan-client/build.gradle>
 
-## sagan-site
+### sagan-site
 
 - <https://github.com/spring-io/sagan/blob/master/sagan-site/build.gradle>
 - `compile project(':sagan-client')`로 의존성 선언
@@ -55,7 +55,7 @@
 
   - Profile이 특별히 없으면 DEFAULT 프로파일 할당
 
-# Spring boot의 디폴트 동작
+## Spring boot의 디폴트 동작
 
 \*.jar의 static 폴더에 있는 자원을 자동으로 등록
 
@@ -65,7 +65,7 @@ spring.resources.static-locations 로 수정 가능
 
     spring.resources.static-locations=classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/ # Locations of static resources.
 
-# Cache 전략
+## Cache 전략
 
 [웹의 정적 리소스의 버전 명시를 통한 캐시
 전략](http://kwon37xi.egloos.com/4735742)

@@ -1,4 +1,4 @@
-# 한글 깨질 때
+## 한글 깨질 때
 
 \${JAVA_HOME}/jre/lib/fonts 에 폰트 파일 복사 후, fonts.dir 파일을 수정
 
@@ -7,7 +7,7 @@ NanumGothic.ttf -b&h-nanumgothic-medium-r-normal–0-0-0-0-p-0-iso8859-9
 NanumGothicBold.ttf -b&h-nanumgothic-bold-r-normal–0-0-0-0-p-0-iso8859-9
 gulim.tcc -microsoft-gulim-medium-r-normal–0-0-0-0-p-0-iso10646-1
 
-# Java 설치
+## Java 설치
 
     sudo add-apt-repository ppa:webupd8team/java
     sudo apt-get update
@@ -16,7 +16,7 @@ gulim.tcc -microsoft-gulim-medium-r-normal–0-0-0-0-p-0-iso10646-1
 
     http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
 
-# Lan 안 될때
+## Lan 안 될때
 
     cd /etc/NetworkManager/system-connections
     sudo vi my_wlan

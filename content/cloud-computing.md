@@ -1,4 +1,4 @@
-## 정의
+### 정의
 
 <http://blog.naver.com/PostView.nhn?blogId=parnx&logNo=140115268447>
 
@@ -34,12 +34,12 @@ Grid computing 과의 차이
 [정부 기관에서의 클라우드
 컴퓨팅](http://www.ibm.com/developerworks/kr/industry/library/ind-govcloud/index.html)
 
-## 논문
+### 논문
 
 [AdHoc Data Processing in the
 Cloud](http://www.cs.ucsd.edu/~dlogothetis/docs/mortar_vldb08.pdf)
 
-## Amazon
+### Amazon
 
 [\[Cloud](http://www.javapattern.info/265) Amazon 살짝 살펴보기\]
 
@@ -55,20 +55,20 @@ Cloud](http://www.cs.ucsd.edu/~dlogothetis/docs/mortar_vldb08.pdf)
 [Amazon 클라우드에 Linux 애플리케이션 마이그레이션하기, Part 1: 초기
 마이그레이션](https://www.ibm.com/developerworks/kr/library/l-migrate2cloud-1/index.html)
 
-## Oracle
+### Oracle
 
 * [Coherence](http://ej5811.blog.me/80095452275)
 
-## Iaas 도구
+### Iaas 도구
 * 오픈 소스 클라우드 분석 IaaS(Infrastructure as a Service)를 위한 빌딩 블록 :
 <http://www.ibm.com/developerworks/kr/library/os-cloud-anatomy/index.html>
 * <http://www.infoq.com/news/2011/05/apachelibcloud>
 
-## 국내사례
+### 국내사례
 * <http://dev.paran.com/2012/05/08/cloudstack-kth-developer-cloud/>
 * <http://developer.ucloudbiz.olleh.com/blog/cloudstack/RVM-/>
 
-## Bigdata
+### Bigdata
 
 <http://channy.creation.net/blog/882>
 

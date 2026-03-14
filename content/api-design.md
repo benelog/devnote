@@ -33,7 +33,7 @@ Characteristics of a Good API
 
 심지어 가장 뛰어난 디자이너도 실수를 한다.
 
-# General Principle
+## General Principle
 
 - API should do one thing and do it well
 - functionality should be easy to explain
@@ -80,7 +80,7 @@ Fail fast-report errors as soon as possible after they occur.
 
 Compile time is best. static typing, generics.
 
-# Articles
+## Articles
 
 <http://www.se-radio.net/podcast/2009-08/episode-143-api-design-jim-des-rivieres>
 
@@ -111,13 +111,13 @@ javascript:void(0);\[<http://www.codeproject.com/KB/java/aQuicklookatAPIDesign.a
 
     http://wiki.apidesign.org/[http://wiki.apidesign.org]
 
-## Static
+### Static
 
-## 응집도와 결합도
+### 응집도와 결합도
 
 <http://www.threeriversinstitute.org/blog/?p=104>
 
-## 사이트
+### 사이트
 
 <http://wiki.apidesign.org/wiki/APIDesignPatterns>
 

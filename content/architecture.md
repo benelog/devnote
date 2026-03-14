@@ -3,7 +3,7 @@
 - <https://www.educative.io/prepare-for-interview/system-design>
 - [\[마틴 파울러](https://www.youtube.com/watch?v=4E1BHTvhB7Y) 소프트웨어 아키텍쳐의 중요성 (한글 자막)\]
 
-## 용어
+### 용어
 
 UML에서 정의한 컴포넌트의 정의 (참고자료 : UML 1.3 Specification, OMG)
 
@@ -17,7 +17,7 @@ which represent services implemented by the elements resident in the
 Component. These services define behavior offered by instances of the
 Component as a whole to other client Component instances.
 
-## MSA
+### MSA
 
 - <https://medium.com/@madhukaudantha/microservice-architecture-and-design-patterns-for-microservices-e0e5013fd58a>
 - <https://particular.net/blog/goodbye-microservices-hello-right-sized-services>
@@ -34,22 +34,22 @@ Component as a whole to other client Component instances.
 - <https://allegro.tech/2016/03/Managing-Frontend-in-the-microservices-architecture.html>
 - <https://blog.bernd-ruecker.com/3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them-3f27a442cd07>
 
-## Transactional out box ( Store and forward)
+### Transactional out box ( Store and forward)
 
 - [MSA에서 메시징 트랜잭션 처리하기](https://www.popit.kr/msa%ec%97%90%ec%84%9c-%eb%a9%94%ec%8b%9c%ec%a7%95-%ed%8a%b8%eb%9e%9c%ec%9e%ad%ec%85%98-%ec%b2%98%eb%a6%ac%ed%95%98%ea%b8%b0/)
 
-## Events
+### Events
 
 - <https://www.infoq.com/articles/events-workflow-automation>
 
-## TCC
+### TCC
 
 - <https://www.codota.com/code/java/methods/org.bytesoft.compensable.Compensable/%3Cinit%3E>
 - <https://github.com/liuyangming/ByteTCC>
 - <https://github.com/apache/servicecomb-pack>
   - <https://github.com/apache/servicecomb-pack/blob/133a2fa7247b2ba00a380762a38369849390560e/integration-tests/pack-tests/src/test/java/org/apache/servicecomb/pack/integration/tests/resttemplate/GreetingService.java#L38>
 
-## 아키텍트의 역할
+### 아키텍트의 역할
 
 - Meet the achitect <http://www.youtube.com/watch?v=Df4RnVl03Es&eurl=http%3A%2F%2Fbobbyryu%2Eblogspot%2Ecom%2F2007%2F05%2Fit%2Ehtml>
 - [아키텍처 건전성](http://www.ibm.com/developerworks/kr/library/j-ap07107/index.html)
@@ -57,7 +57,7 @@ Component as a whole to other client Component instances.
 - 프로토타입을 위한 <http://napkinlaf.sourceforge.net/>
 - [코더](https://sangminpark.blog/2021/05/11/%EC%BD%94%EB%8D%94/amp/)
 
-## 혁신적 설계와 창발적 아키텍처
+### 혁신적 설계와 창발적 아키텍처
 
 - SLAP(Single Level of Abstraction Principle)에 대해 논의
 - 역설적으로 확장성을 위해 추가한 수많은 메커니즘이 프로젝트의 초기 릴리스를 위험에 빠트린다. 왜냐하면 복잡도가 높아지면서 프로젝트에 소요되는 시간과 비용이 증가하기 때문이다.
@@ -71,18 +71,18 @@ Component as a whole to other client Component instances.
 
 - Simplex architecture :
 
-## Architecture pattern
+### Architecture pattern
 
 - <https://docs.microsoft.com/ko-kr/azure/architecture/patterns/anti-corruption-layer>
 - <http://en.wikipedia.org/wiki/Architectural_pattern_%28computer_science%29>
 
 - 4+1 View : <http://www3.software.ibm.com/ibmdl/pub/software/rational/web/whitepapers/2003/Pbk4p1.pdf>
 
-## Module
+### Module
 
 - [멀티모듈 설계 이야기 with Spring, Gradle](http://woowabros.github.io/study/2019/07/01/multi-module.html)
 
-## 오픈소스 아키텍처 : <http://www.aosabook.org/en/>
+### 오픈소스 아키텍처 : <http://www.aosabook.org/en/>
 
 ## Children
 - [[architecture-cases]]

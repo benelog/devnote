@@ -1,4 +1,4 @@
-# [cron-expression-descriptor](https://github.com/voidburn/cron-expression-descriptor) 활용 예제
+## [cron-expression-descriptor](https://github.com/voidburn/cron-expression-descriptor) 활용 예제
 
 ``` java
   private static void logCronDescription(String cron) {
@@ -24,7 +24,7 @@
 
 </div>
 
-# DST
+## DST
 
 - [Pacific Time Zone (PT) vs Pacific Satndard Zone (PST) vs Pacific Daylight Zone (PDT)](https://m.blog.naver.com/elviz1/221649940876)
 - [서머타임과 배치작업](https://meetup.nhncloud.com/posts/232)

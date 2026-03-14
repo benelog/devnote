@@ -5,7 +5,7 @@
 - <https://github.com/sourcelair/xterm.js>
 - <http://terminal.jcubic.pl/>
 
-# Linux shell
+## Linux shell
 
 - <http://bellard.org/jslinux/>
 - <https://github.com/chjj/tty.js/>

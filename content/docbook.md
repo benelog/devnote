@@ -4,7 +4,7 @@
 
 <https://src.springframework.org/svn/spring-batch/trunk/src/site/docbook/reference/repeat.xml>
 
-# Linux 설치
+## Linux 설치
 
 sudo apt-get install sgmltools-lite
 
@@ -21,13 +21,13 @@ sudo apt-get install jade
 xsltproc stylesheet/dbk-html-chunk.xsl
 computer/git/git_beginner_story.xml
 
-# Slide
+## Slide
 
 <http://docbook.sourceforge.net/release/slides/current/doc/>
 
 <http://docbook.sourceforge.net/release/slides/>
 
-# 변환도구
+## 변환도구
 
 <http://open.comsultia.com/docbook2odf/>http://www.artofsolving.com/opensource/jodconverter\[<http://www.artofsolving.com/opensource/jodconverter>\]
 

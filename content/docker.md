@@ -11,36 +11,36 @@
 - <http://www.informationweek.com/cloud/platform-as-a-service/docker-container-system-works-with-all-linuxes/d/d-id/1112830>
 - <https://docs.docker.com/articles/using_supervisord/>
 
-# 도구
+## 도구
 
 - <https://github.com/wagoodman/dive> : 이미지 레이어 확인
 
-# 명령어
+## 명령어
 
 - Add와 Copy : <https://nickjanetakis.com/blog/docker-tip-2-the-difference-between-copy-and-add-in-a-dockerile>
 - <https://codefresh.io/docker-tutorial/not-ignore-dockerignore-2/>
 - `docker run -it -p 80:8080 --entrypoint bash [image]`
 
-# Plugins
+## Plugins
 
-## Maven plugin
+### Maven plugin
 
 - <https://github.com/etux/docker-maven-plugin>
 - <https://github.com/bibryam/docker-maven-plugin>
 - <http://www.javacodegeeks.com/2014/04/a-docker-maven-plugin-for-integration-testing.html>
 
-## Gradle Plugin
+### Gradle Plugin
 
 - <https://github.com/Transmode/gradle-docker>
 - <https://github.com/bmuschko/gradle-docker-plugin>
 
-## Jenkins plugin
+### Jenkins plugin
 
 - <https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin>
 
-## Docker + Virgo
+### Docker + Virgo
 
-# Java in container
+## Java in container
 
 - <https://aboullaite.me/speed-up-your-java-application-images-build-with-buildkit/>
 - Docker로 Spring Boot 배포
@@ -58,7 +58,7 @@ and accessible' 에러가 나올 때
     sudo chmod 666 /var/run/docker.sock
     systemctl restart docker.service
 
-# Cloud deploy
+## Cloud deploy
 
 - AWS Elastic Container Service
 - Azure App Service

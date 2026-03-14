@@ -1,13 +1,13 @@
 - [Calendar클래스(GregorianCalendar)를 이용한 달력 출력하기](http://blog.naver.com/aspdotnet/140002583711)
 
-# Library
+## Library
 
 - <http://joda-time.sourceforge.net/>
 - <http://timeandmoney.sourceforge.net/> : 에릭에반스와 켄트백이 만든 돈과 시간 관련 라이브러리
 - <http://www.date4j.net/>
 - <http://calendardate.sourceforge.net/>
 
-# 예제
+## 예제
 
 <div class="formalpara">
 
@@ -146,12 +146,12 @@ public void dateTest() throws Exception {
 
 </div>
 
-# Timezone update
+## Timezone update
 
 - <http://java.sun.com/javase/tzupdater_README.html>
 - <http://java.sun.com/javase/timezones/>
 
-# 현재 Date문제점
+## 현재 Date문제점
 
 <http://www.wolkje.net/2010/01/06/java-date-and-time-api-and-jsr-310/>
 <http://blog.joda.org/2007/01/announcing-jsr-310-date-and-time-api_2753.html>
@@ -161,7 +161,7 @@ public void dateTest() throws Exception {
 <https://github.com/ThreeTen/threeten>
 <https://jcp.org/aboutJava/communityprocess/edr/jsr310/guide-0.7.html>
 
-# JSR 310
+## JSR 310
 
 - <http://www.infoq.com/news/2010/03/jsr-310>
 

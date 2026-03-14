@@ -1,4 +1,4 @@
-# 사례
+## 사례
 
 - [Spring Batch 애플리케이션 성능 향상을 위한 주요 팁 / 제2회 Kakao Tech Meet](https://tech.kakao.com/2023/08/01/techmeet-spring-batch/)
   - Writer에서 다건을 병렬처리, UPDATE 몰아서 하기, batchUpdate 활용
@@ -17,13 +17,13 @@
 - [오픈 소스를 활용한 게임 배치 플랫폼 개선 사례](https://www.slideshare.net/slideshow/ss-39145002/39145002)(NC 소프트)
 - [오픈소스를 활용한 Batch 처리 플랫폼 공유](https://www.slideshare.net/slideshow/batch-8508863/8508863) (NHN 김용환 님, 2011 JCO 발표)
 
-# 예제
+## 예제
 
 - <https://github.com/mminella/Pro-Spring-Batch-source-code>
 - <https://github.com/mminella/Spring-Batch-Talk>
 - <https://github.com/mminella/Spring-Batch-Talk-2.0>
 
-# JavaConfig
+## JavaConfig
 
 <http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-1-a-comparison-to-xml/>
 
@@ -34,29 +34,29 @@
 - [Part 5 : Modular configurations](http://blog.codecentric.de/en/2013/06/spring-batch-2-2-javaconfig-part-5-modular-configurations/)
 - [Part 6 : Partitioning and Multi-threaded Step](http://blog.codecentric.de/en/2013/07/spring-batch-2-2-javaconfig-part-6-partitioning-and-multi-threaded-step/)
 
-# Transaction
+## Transaction
 
 - <https://blog.codecentric.de/en/2012/03/transactions-in-spring-batch-part-1-the-basics/>
 - <https://blog.codecentric.de/en/2012/03/transactions-in-spring-batch-part-2-restart-cursor-based-reading-and-listeners/>
 - <https://blog.codecentric.de/en/2012/03/transactions-in-spring-batch-part-3-skip-and-retry/>
 
-# Architecture
+## Architecture
 
 - <https://blog.codecentric.de/en/2014/11/enterprise-java-batch-best-practice-architecture/>
 
-# Monitoring
+## Monitoring
 
 - <https://blog.codecentric.de/en/2013/04/monitoring-spring-batch-with-appdynamics/>
 - <https://trifork.nl/blog/spring-boot-observability-spring-batch-jobs/>
 
-## Spring Batch Metric
+### Spring Batch Metric
 
 - <https://www.devkuma.com/docs/prometheus/spring-batch/>
 - <https://velog.io/@roycewon/Spring-boot-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81Prometheus-Grafana-docker> 해보기
 - <https://grafana.com/grafana/dashboards/19004-spring-boot-statistics/>
 - <https://github.com/spring-projects/spring-batch/blob/45b3c5ef93642f5fbd46302a38e24cd303927bb8/spring-batch-core/src/test/java/org/springframework/batch/core/observability/ObservabilitySampleStepTests.java>
 
-# JSR 352
+## JSR 352
 
 - JSR-352 소개 :
 
@@ -67,12 +67,12 @@
 - <https://github.com/mminella/jsr352-springbatch-and-you>
 - <https://blog.codecentric.de/en/2013/11/batch-processing-java-enterprise-edition-jsr-352-jee7-spring-batch/>
 
-# 핵심 commit
+## 핵심 commit
 
 - retry 별도 프로젝트 분리 : <https://github.com/SpringSource/spring-batch/commit/e827990f08c04122538d4ec17b0e90b8aa7ed577>
 - non-identifying job parameters <https://github.com/spring-projects/spring-batch/commit/557515df45c0f596588418d53c3f2bae3781c1c3>
 
-## Spring Batch 6.0 개선
+### Spring Batch 6.0 개선
 
 - RDB가 아닌 JobRepository 설정 편의성 개선
   - <https://github.com/spring-projects/spring-batch/issues/4718>
@@ -80,7 +80,7 @@
   - <https://stackoverflow.com/questions/79482719/how-to-remove-h2-dependency-from-spring-batch-5/79492398#79492398>
 - \[Make transaction manager optional in Tasklet and Chunk-Oriented steps\](<https://github.com/spring-projects/spring-batch/commit/76a65501f75fd0115d05d3dd6c90d085a8d8d110>)
 
-# Spring Batch 6.0
+## Spring Batch 6.0
 
 - [Spring Batch 6.0 Migration Guide](https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-6.0-Migration-Guide)
 - (2025-08-20) [Spring Batch 6.0.0-M2 available now](https://spring.io/blog/2025/08/20/spring-batch-6)

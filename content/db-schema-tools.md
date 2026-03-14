@@ -1,8 +1,8 @@
-# flyway
+## flyway
 
 - <http://code.google.com/p/flyway/>
 
-# Liquibase
+## Liquibase
 
 - <http://www.liquibase.org/> : DB 리팩토링 툴
 - <http://geekdani.wordpress.com/2012/09/09/liquibase-database-change-management-tool/>
@@ -12,20 +12,20 @@ WARNING 12. 12. 6 오후 1:40:liquibase: modifyDataType will lose primary
 key/autoincrement/not null settings for mysql. Use \<sql\> and
 re-specify all configuration if this is the case
 
-## JPA
+### JPA
 
 - <http://stackoverflow.com/questions/36549359/liquibase-generate-changelog-from-jpa-entities>
 - <http://stackoverflow.com/questions/27877154/liquibase-and-jpa-annotated-entities>
 
-# c5
+## c5
 
 - <http://code.google.com/p/c5-db-migration/>
 
-# Db unit
+## Db unit
 
 - <http://mojo.codehaus.org/dbunit-maven-plugin/>
 
-# Sql plugin
+## Sql plugin
 
 - <http://mojo.codehaus.org/sql-maven-plugin/>
 - <http://mojo.codehaus.org/sql-maven-plugin/examples/execute.html>

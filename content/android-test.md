@@ -4,7 +4,7 @@
 
 <http://developer.android.com/guide/developing/building/building-cmdline.html>
 
-# Instrumentation 의미
+## Instrumentation 의미
 
 <http://markmail.org/message/q77wqlmjsu5ffztf>
 
@@ -12,7 +12,7 @@
 
 <http://dtmilano.blogspot.com/2011/08/linuxcon-2011-north-america.html>
 
-# 테스트 실행
+## 테스트 실행
 
 전체: adb shell am instrument -w
 com.example.aatg.myfirstproject.test/android.test.InstrumentationTestRunner
@@ -23,14 +23,14 @@ com.example.aatg.myfirstproject.
 
 test/android.test.InstrumentationTestRunner
 
-## 사례
+### 사례
 
 카카오톡 임유진 님 ( <eugenelgm@gmail.com> )의 발표
 
 - 발표자료 :
 - 예제코드 : <https://github.com/eugenelgm/AndroidForTest> [ ](https://github.com/eugenelgm/AndroidForTest)
 
-## 추천자료
+### 추천자료
 
 <http://www.slideshare.net/dtmilano/testing-on-android>
 
@@ -62,7 +62,7 @@ Instrumentation mInstr = this.getInstrumentation();
     intent.setData(Uri.parse("http://www.google.com/[http://www.google.com]"));
     startActivity(intent);
 
-## 기본 메뉴얼
+### 기본 메뉴얼
 
 [이클립스에서 안드로이드 JUnit Test 프로젝트
 생성](http://www.androidpub.com/39606)
@@ -113,7 +113,7 @@ Instrumentation mInstr = this.getInstrumentation();
 
 <http://mobile.dzone.com/news/unit-and-functional-testing>
 
-## mock 응용
+### mock 응용
 
 <http://stuffikeepforgettinghowtodo.blogspot.com/2008/12/android-mockito.html>
 
@@ -121,7 +121,7 @@ Instrumentation mInstr = this.getInstrumentation();
 
 <http://stuffikeepforgettinghowtodo.blogspot.com/2008/12/android-mockito.html>
 
-## Junit 하위 클래스
+### Junit 하위 클래스
 
 <http://d.android.com/reference/android/test/package-summary.html>
 

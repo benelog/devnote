@@ -1,10 +1,10 @@
 - <https://grafana.com/observability-survey/2024/>
 
-# Concept
+## Concept
 
 - <https://www.splunk.com/en_us/blog/learn/melt-metrics-events-logs-traces.html>
 
-# Trace
+## Trace
 
 - [대규모 분산 시스템 추적 플랫폼, Pinpoint](https://d2.naver.com/helloworld/1194202)
 

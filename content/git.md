@@ -16,37 +16,37 @@
 - [rm -cached](http://whiteship.me/?p=12920)
 - [git HEAD, index, working directory 이해하기 - A Tale of Three Trees 발표자료를 보고 - See more at: \* http://ohyecloudy.com/pnotes/archives/1949#sthash.b4dj9MAn.dpuf](http://ohyecloudy.com/pnotes/archives/1949)
 
-# 입문
+## 입문
 
 - <https://backlogtool.com/git-guide/kr/>
 - <https://try.github.io>
 
-# 종합 가이드
+## 종합 가이드
 
 - <http://progit.org/book/>
 - <http://book.git-scm.com/index.html>
 - <http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide>
 - <http://learnbranch.urigit.com/>
 
-# 다른 도구와의 비교
+## 다른 도구와의 비교
 
 <http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/>
 
-# Git LFS
+## Git LFS
 
 - \[<https://news.hada.io/topic?id=22546>\]Git에서 대용량 파일의 미래는 Git 자체임
 
-# Git- SVN
+## Git- SVN
 
 - [Subversion 사용자를 위한 Git 소개](http://toby.epril.com/?p=703)
 - [Git - SVN Crash Course](http://git.or.cz/course/svn.html)
 - [\[Git](http://whiteship.me/?p=12771) SVN 사용자를 위한 Git 가이드 1. 시작\]
 
-# 명령어 정리
+## 명령어 정리
 
 - [Git 명령어 정리](http://blog.outsider.ne.kr/572)
 
-# Tips
+## Tips
 
 - [git filter-branch로 저장소 분리하기](https://blog.outsider.ne.kr/1249)
 - [Git에서 명령어에 별칭(Alias) 사용하기](http://blog.outsider.ne.kr/571)
@@ -58,14 +58,14 @@
 
 - [git diff 에서 변경된 부분을 더 명확하게 보는 방법](http://blog.outsider.ne.kr/1011)
 
-## Branch
+### Branch
 
 - [GIT branch 사용](http://kdsoo.com/1262)
 - <http://nvie.com/posts/a-successful-git-branching-model/>
 - [git에서 원격저장소에 branch와 tag를 push하기](http://blog.outsider.ne.kr/644)
 - [Git에서 이전에 사용한 브랜치로 체크아웃하기](http://blog.outsider.ne.kr/914)
 
-## Rebase
+### Rebase
 
 - [git의 merge와 rebase 비교하기](http://blog.outsider.ne.kr/666)
 - [git에서 특정 commit에 들어간 수정 파일을 다른 commit으로 옮기는 방법](http://blog.doortts.com/285)
@@ -76,23 +76,23 @@
 - <http://blog.springsource.com/2010/12/21/git-and-social-coding-how-to-merge-without-fear/>
 - [Getting Started with Git Rebase –onto for Specific Commits](https://tanzu.vmware.com/content/tech-guides/getting-started-with-git-rebase-onto-for-specific-commits)
 
-# CI integration
+## CI integration
 
 - <http://www.infoq.com/articles/Gerrit-jenkins-hudson>
 - <http://alblue.bandlem.com/2011/02/someday.html>
 
-# Github
+## Github
 
 - <http://dogfeet.github.com/articles/2012/how-to-github.html>
 
-# Workflow
+## Workflow
 
 - <https://www.atlassian.com/blog/archives/simple-git-workflow-simple>
 - <http://endoflineblog.com/gitflow-considered-harmful>
 - <https://georgestocker.com/2020/03/04/please-stop-recommending-git-flow/>
 - <https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf>
 
-# Commmit message
+## Commmit message
 
 - [github에서 자주 쓰이는 영어](https://tagilog.tistory.com/588)
 - [좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
@@ -101,7 +101,7 @@
 - <https://www.slideshare.net/TarinGamberini/commit-messages-goodpractices>
 - <https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-git-commit-guidelines>
 
-# Subtree
+## Subtree
 
 - <https://nering.dev/2016/git-submodules-vs-subtrees/>
 

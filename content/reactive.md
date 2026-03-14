@@ -1,11 +1,11 @@
 - <http://reactivex.io/>
 
-# Java9
+## Java9
 
 - <https://www.infoq.com/presentations/java9-reactive-programming>
 - <https://github.com/reactive-streams/reactive-streams-jvm>
 
-# Spring
+## Spring
 
 - <https://spring.io/blog/2016/04/19/understanding-reactive-types>
 - <https://spring.io/blog/2016/06/07/notes-on-reactive-programming-part-i-the-reactive-landscape>

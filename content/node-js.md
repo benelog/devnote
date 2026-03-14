@@ -1,16 +1,16 @@
-# 기초 설명
+## 기초 설명
 
 - [Node.js 내가 쓰기로 선택한 이유.](https://vinebrancho.wordpress.com/2014/03/24/node-js-%EB%82%B4%EA%B0%80-%EC%93%B0%EA%B8%B0%EB%A1%9C-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0/)
 
-# 활용 사례
+## 활용 사례
 
 - [스마트폰 앱 백엔드 서비스 개발을 위한 node.js 실전가이드](http://readme.skplanet.com/wp-content/uploads/Tech_Planet_2013_baek.pdf)
 
-# Database
+## Database
 
 - MS-SQL : <http://cretz.github.io/node-tds/>
 
-# 예외 처리
+## 예외 처리
 
 - [try/catch는 모든 에러를 잡을수 있을까?](http://programmingsummaries.tistory.com/375)
   - 비동기 에러는 잡기 힘들다. 특히 3rd party 모듈에서 적절한 예외처리가 되어 있지 않은 경우

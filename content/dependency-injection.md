@@ -4,7 +4,7 @@
 - DL (Dependency Lookup) : 저장소에 의하여 관리되고 있는 객체를 개발자들이 직접 Lookujp하여 사용하는 것.(=Dependency Pull )
 - <http://misko.hevery.com/2010/05/26/do-it-yourself-dependency-injection/>
 
-# IoC
+## IoC
 
 - <http://martinfowler.com/bliki/InversionOfControl.html>
 
@@ -15,7 +15,7 @@ Inversion of Control is too generic a term, and thus people find it
 confusing. As a result with a lot of discussion with various IoC
 advocates we settled on the name Dependency Injection
 
-# Interface progamming
+## Interface progamming
 
 - <http://toby.epril.com/?p=285>
 - 인터페이스 프로그램밍과 Spring IoC/DI : <http://blog.naver.com/scroco/50015115209>

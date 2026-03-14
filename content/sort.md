@@ -13,11 +13,11 @@ Tim sort : <http://en.wikipedia.org/wiki/Timsort>
 
 <https://github.com/TheAlgorithms/Java>
 
-# 동영상
+## 동영상
 
 ttp://www.youtube.com/watch?v=ywWBy6J5gz8
 
-## Java merge sort
+### Java merge sort
 
 - <http://www.cowtowncoder.com/blog/archives/2011/12/entry_465.html>
 - <https://github.com/cowtowncoder/java-merge-sort>

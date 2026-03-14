@@ -6,13 +6,13 @@ System](http://lambda-the-ultimate.org/node/3726)
 
 <http://www.greenteapress.com/>
 
-# Data mining
+## Data mining
 
 [An Introduction to Data Mining](http://www.saedsayad.com/)
 
 [Mining of Massive Datasets](http://i.stanford.edu/~ullman/mmds.html)
 
-# SPSS - Java API
+## SPSS - Java API
 
 <http://spss.pmstation.com/docs/spssr/api/index.html>http://spss.pmstation.com/docs/spssr/api/index.html\[<http://spss.pmstation.com/docs/spssr/api/index.html>\]
 : 읽기
@@ -28,11 +28,11 @@ System](http://lambda-the-ultimate.org/node/3726)
 
 서버당 400\$ 정도 <http://spss.pmstation.com/spssw_price.jsp>
 
-# Apache commons Math
+## Apache commons Math
 
 <http://commons.apache.org/math/userguide/stat.html>
 
-# 몬티홀 문제
+## 몬티홀 문제
 
 <http://navercast.naver.com/contents.nhn?rid=22&contents_id=2426>
 

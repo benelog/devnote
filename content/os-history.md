@@ -1,4 +1,4 @@
-# Linux
+## Linux
 
 - <https://joone.net/2018/09/27/26-리눅스-이야기-리누스-토발즈의-어린시절/>
 - <https://joone.net/2018/10/22/27-리눅스-이야기-나만의-터미널-프로그램/>
@@ -6,6 +6,6 @@
 - <http://www.ddanzi.com/ddanziNews/200047221>
 - <https://github.com/zavg/linux-0.01>
 
-# Unix
+## Unix
 
 - <http://www.ddanzi.com/ddanziNews/92939697>

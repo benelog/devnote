@@ -36,15 +36,15 @@
 - [Domain-Driven Design Essence](http://aeternum.egloos.com/2422827)
 - [Rich Domain Model](http://aeternum.egloos.com/2628475)
 
-# Sculptor
+## Sculptor
 
-## Sample
+### Sample
 
 - <http://dddsample.sourceforge.net/>
 
 - <http://debasishg.blogspot.com/2006/12/domain-driven-design-service-injection_12.html>
 
-# 연재
+## 연재
 
 - [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 1부](http://aeternum.egloos.com/1747170)
 - [유연한 설계를 위한 패턴과 원리 - 1.시간, 돈, 그리고 GENERIC SUBDOMAIN 2부](http://aeternum.egloos.com/1832181)
@@ -79,7 +79,7 @@
 - [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 4부](http://aeternum.egloos.com/2508743)
 - [유연한 설계를 위한 패턴과 원리 - 5.시간, 돈, 그리고 분석 패턴 5부\[完](http://aeternum.egloos.com/2511360)\]
 
-# 구현 사례
+## 구현 사례
 
 - [트랜잭션은 도메인 모델이 아니다](https://blog.gangnamunni.com/post/isolate-transaction-from-domain-model)
 - [내가 경험한 DDD, Hexagonal](https://blog.appkr.dev/work-n-play/learn-n-think/ddd-hexagonal/)

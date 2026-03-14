@@ -4,14 +4,14 @@
 - [3부 \| 형이상학적 메타데이터 활용을 위한 어노테이션 인 액션](http://www.zdnet.co.kr/builder/dev/java/0,39031622,39163224,00.htm)
 - [5부 \| 자바 어노테이션의 진화 오픈소스와 어노테이션](http://www.zdnet.co.kr/builder/dev/java/0,39031622,39163222,00.htm)
 
-# JSR 305
+## JSR 305
 
-# Annotation processor 활용
+## Annotation processor 활용
 
 - <https://rapt.dev.java.net/nonav/>
 - <http://projectlombok.org/>
 
-# 타언어 참고
+## 타언어 참고
 
 Object C <http://blog.airensoft.com/42?category=7>
 

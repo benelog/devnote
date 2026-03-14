@@ -1,17 +1,17 @@
-# Excel bug
+## Excel bug
 
 numbers around 65,535
 
 <http://www.joelonsoftware.com/items/2007/09/26b.html>
 
-# Excel service
+## Excel service
 
-# Excel tips
+## Excel tips
 
 [현재의 날짜, 시간
 나타내기](http://www.bizforms.co.kr/corporation/excel/contents/contents4/contents4_18.asp)
 
-# 엑셀VBA 강좌
+## 엑셀VBA 강좌
 
     141781_faceids.zip[faceids.zip]
 

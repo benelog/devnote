@@ -12,13 +12,13 @@
 
 <div class="sect1">
 
-## 주목할만한 Item
+### 주목할만한 Item
 
 <div class="sectionbody">
 
 <div class="sect2">
 
-### Item 8: hashCode 재정의
+#### Item 8: hashCode 재정의
 
 <div class="paragraph">
 
@@ -30,7 +30,7 @@ equals(null)일 때 true가 발생할 가능성은 없음.
 
 <div class="sect2">
 
-### Item 38: Adhere to generally accepted naming conventions
+#### Item 38: Adhere to generally accepted naming conventions
 
 <div class="paragraph">
 
@@ -54,7 +54,7 @@ Naming convention :
 
 <div class="sect1">
 
-## 서평
+### 서평
 
 <div class="sectionbody">
 
@@ -71,7 +71,7 @@ Naming convention :
 
 <div class="sect1">
 
-## 인터뷰
+### 인터뷰
 
 <div class="sectionbody">
 

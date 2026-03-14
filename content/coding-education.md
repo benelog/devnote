@@ -1,4 +1,4 @@
-# 어린이 코딩 교육
+## 어린이 코딩 교육
 
 [스크래치 VS 엔트리](https://prezi.com/lock1kguxctl/vs/)
 
@@ -12,20 +12,20 @@
 
 소스 코드 <http://info.scratch.mit.edu/Source_Code>
 
-## 컨텐츠
+### 컨텐츠
 
 - <https://code.org/>
 - <http://www.playsw.or.kr/>
 
-## 특강
+### 특강
 
 - <http://on.ted.com/MResnick>
 
-# 기초 강좌
+## 기초 강좌
 
 - <https://tryhelloworld.co.kr>
 
-# 추천 코스
+## 추천 코스
 
 - [기초 튼튼 코드 튼튼 다 함께 프로그래밍](http://www.yes24.com/24/goods/27097257?scode=032&OzSrank=1)
 - <https://codecombat.com/>

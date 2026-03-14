@@ -1,18 +1,18 @@
-# Apache commons Logging
+## Apache commons Logging
 
 \${:import('org.apache.commons.logging.Log','org.apache.commons.logging.LogFactory')}
 
 private static final Log log =
 LogFactory.getLog(\${primary_type_name}.class);
 
-# Sl4fj
+## Sl4fj
 
 \${:import('org.slf4j.Logger','org.slf4j.LoggerFactory')}
 
 private final Logger log =
 LoggerFactory.getLogger(\${primary_type_name}.class);
 
-# Test 메소드 추가
+## Test 메소드 추가
 
 @\${testType:newType(org.junit.Test)} public void \${specDescription}()
 {
@@ -20,16 +20,16 @@ LoggerFactory.getLogger(\${primary_type_name}.class);
 \${staticImport:importStatic('org.junit.Assert.**',
 'org.mockito.BDDMockito.**', 'org.hamcrest.CoreMatchers.\*')} }
 
-# Test 라이브러리 import
+## Test 라이브러리 import
 
 \${is1:importStatic('org.hamcrest.CoreMatchers.**')}\${is2:importStatic('org.junit.Assert.**')}\${is5:importStatic('org.mockito.BDDMockito.\*')}
 
-# Spring TestRunner
+## Spring TestRunner
 
 \${:import('org.junit.runner.RunWith','org.springframework.test.context.ContextConfiguration','org.springframework.test.context.junit4.SpringJUnit4ClassRunner')}@RunWith(SpringJUnit4ClassRunner.class)@ContextConfiguration(locations
 = { "/applicationContext.xml"})
 
-# Mockito Test Runner
+## Mockito Test Runner
 
 \${:import('org.mockito.runners.MockitoJUnitRunner')}@RunWith(MockitoJUnitRunner.class)
 

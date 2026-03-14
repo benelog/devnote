@@ -7,7 +7,7 @@
 [Java 언어를 이용한 유니코드 서로게이트
 프로그래밍](http://www.ibm.com/developerworks/kr/library/j-unicode/index.html)
 
-# encoding 확인
+## encoding 확인
 
     System.out.println("user.language:" + System.getProperty("user.language"));
     System.out.println("user.region:" +  System.getProperty("user.region"));
@@ -22,7 +22,7 @@
     String enc = new java.io.OutputStreamWriter(System.out).getEncoding();
     System.out.println("default encoding = " + enc);
 
-# 잘못된 Encoding 테스트
+## 잘못된 Encoding 테스트
 
     Charset utf8 = Charset.forName("UTF-8");
 

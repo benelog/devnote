@@ -1,11 +1,11 @@
-# Graphic card
+## Graphic card
 
 <https://medium.com/@peterpang_84917/personal-experience-of-installing-ubuntu-18-04-lts-on-xps-15-9570-3e53b6cfeefe>
 
     sudo prime-select intel
     sudo reboot
 
-# Sound
+## Sound
 
 - <https://askubuntu.com/questions/1515538/fixing-no-sound-dummy-output-issue-in-ubuntu-24-04>
 - <https://askubuntu.com/questions/1406646/ubuntu-22-04-audio-output-not-working-dummy-audio>

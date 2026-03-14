@@ -1,4 +1,4 @@
-# Event bus
+## Event bus
 
 - <http://code.google.com/p/guava-libraries/wiki/EventBusExplained>
 - <http://camel.apache.org/guava-eventbus.html>

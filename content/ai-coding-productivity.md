@@ -1,4 +1,4 @@
-## 연구 리포트
+### 연구 리포트
 - [Anthropic 2026 Agentic Coding Trends Report](https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026) : 개발자가 AI에 "완전히 위임" 가능하다고 느끼는 작업은 전체의 0~20%에 불과하며, 감독 없는 완전 자동화는 아직 현실적이지 않다.
 - [Google DORA 2025 Report](https://dora.dev/research/2025/dora-report/) : 1년 만에 배포 처리량·제품 성과가 반전되어 긍정적으로 바뀌었지만, 배포 불안정성·번아웃·업무 마찰은 여전히 해소되지 않은 채로 남아 있다.
   - <https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report?hl=en>

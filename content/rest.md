@@ -35,13 +35,13 @@
 
 <div class="sect1">
 
-## Documentation
+### Documentation
 
 <div class="sectionbody">
 
 <div class="sect2">
 
-### Spring RestDocs
+#### Spring RestDocs
 
 <div class="ulist">
 

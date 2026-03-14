@@ -1,4 +1,4 @@
-# visualization library
+## visualization library
 
 총정리: <http://selection.datavisualization.ch/>
 
@@ -23,7 +23,7 @@ rachae.js로 차트 그린 이야기
 <http://www.jqplot.com/> :  에서
 사용
 
-# 웹에서 그림 편집기
+## 웹에서 그림 편집기
 
 <http://www.gliffy.com/>
 
@@ -47,17 +47,17 @@ Image2Html](http://www.choboweb.com/268)
 
 <http://www.hairtry.jp/>
 
-## Graphic 기술
+### Graphic 기술
 
 <http://graphite.wikidot.com/>
 
 <http://gnuplot.sourceforge.net/>
 
-# 샘플 이미지 생성
+## 샘플 이미지 생성
 
 <http://net.tutsplus.com/articles/web-roundups/the-top-8-placeholders-for-web-designers/>
 
-# Diagram 도구
+## Diagram 도구
 
 <http://meesoft.logicnet.dk/>
 
@@ -67,7 +67,7 @@ Image2Html](http://www.choboweb.com/268)
 
 <http://www.omnigroup.com/products/omnigraffle> :맥만 되는듯
 
-## Alice
+### Alice
 
 <http://www.alice.org/>
 

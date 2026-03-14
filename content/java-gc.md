@@ -12,7 +12,7 @@
 
 default GC 찾기 : java -XX:+PrintCommandLineFlags -version
 
-# 영역 구분
+## 영역 구분
 
 - Young Generation
   - eden
@@ -25,16 +25,16 @@ default GC 찾기 : java -XX:+PrintCommandLineFlags -version
 - Minor GC : Young의 Eden에 객체가 최초로 할당되는데, 객체가 계속 할당되면 참조되는 객체(Live Object)들은 Survivor1이나 Survivor2로 옮겨지고, 더 이상 참조되지 않는 객체들은 삭제됩니다.
 - Full GC 혹은 Major GC : Minor GC의 결과로 충분히 오랫동안 참조된 객체들은 Old로 승격(Promotion) . Old의 메모리가 충분하지 않으면 Old에서 더 이상 참조되지 않는 객체를 삭제해서 공간을 확보해야 함.
 
-# Garbarge Collector 방식
+## Garbarge Collector 방식
 
 <http://wiki.ex-em.com/index.php/Garbage_Collector>
 
 - Parallel Collector : (Throughput) 위주
 - CMS : 응답시간 개선(Low Pause) 위주
 
-## Serial GC
+### Serial GC
 
-## Pararrel GC
+### Pararrel GC
 
 스레드의 작업을 멈춘 후에는 모든 CPU들이 협력하여 GC를 수행.이 옵션을
 사용할 경우에는 CPU는 적게 소모하지만, Full GC를 수행할 때 많은 시간이
@@ -42,7 +42,7 @@ default GC 찾기 : java -XX:+PrintCommandLineFlags -version
 
 Pararrel Old GC(Parral Compacting GC)
 
-## Concurrent Mark And Sweep
+### Concurrent Mark And Sweep
 
     작업스레드와 병행하여 GC관련 정보를 수집해 둠. 특정 CPU를 GC를 위해 할당한 후에 사용중인 객체를 프로그램 수행과 동시에 파악함  지속적으로 GC를 위한 작업을 수행하므로 CPU는 더 많이 사용하지만, Full GC 시간이 줄어드는 장점이 있음. 일명 Low latency GC. 그러나 Concurrent mode failure가 발생하면 다른 Parallel GC보다 느리다.
 - -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseConcMarkSweepGC
@@ -58,7 +58,7 @@ Pararrel Old GC(Parral Compacting GC)
 
 <https://blog.codecentric.de/en/2013/10/useful-jvm-flags-part-7-cms-collector/>
 
-### CMS gc의 시작 타이밍 더 빠르게하기
+#### CMS gc의 시작 타이밍 더 빠르게하기
 
 cms full gc (concurrent mode fail, promotion fail) 를 개선하기 위해서
 cms gc가 시작되는 메모리 사용량은 90%가 기본값. 더 적은 한계값을 적용
@@ -95,7 +95,7 @@ XX:+UseCMSInitiatingOccupancyOnly으로 설정해도 RMI때 Full GC
 이 경우, Minor GC마다 Perm Gen 영역을 GC하므로 Unloading되어야 할
 Class가 잡고 있는 Old Gen 영역이 제대로 확보된다.
 
-## G1
+### G1
 
 - [자바의 CMS(Concurrent Mark & Sweep)을 대체할 G1](http://www.tuning-java.com/272)
 - [G1GC Collector성능과 튜닝](http://bcho.tistory.com/303)
@@ -105,14 +105,14 @@ Class가 잡고 있는 Old Gen 영역이 제대로 확보된다.
 - <https://logonjava.blogspot.com/2015/08/java-g1-gc-full-gc.html>
 - [Getting Started with the G1 Garbage Collector](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/G1GettingStarted/index.html)
 
-# Monitoring
+## Monitoring
 
 [Garbage Collection 모니터링
 방법](http://helloworld.naver.com/helloworld/6043)http://5bpa.blog.me/130149643330\[<http://5bpa.blog.me/130149643330>\]GC
 Viewerjstat -gcutil \<pid\> \<report
 interval\>
 
-## GClog
+### GClog
 
 -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xverbosegc:file=stdout
 -XX:+PrintGCDetails -Xloggc:/home1/irteam/apps/bloc/logs/gc.log
@@ -141,7 +141,7 @@ default will be set to 512K.
 -XX:NumberOfGClogFiles=5 -XX:GCLogFileSize=256M 참고옵션:
 -XX:+PrintHeapAtGC
 
-### Log rotation 테스트
+#### Log rotation 테스트
 
 java -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps
 -Xloggc:./gc-was1.log -XX:+UseGCLogFileRotation
@@ -160,7 +160,7 @@ java -verbose:gc -XX:PermSize=256m -XX:MaxPermSize=100m -Xms100m
 
 분석도구 사무라이 : <http://yusuke.homeip.net/samurai/en/index.html>
 
-## 종합 설정 사례
+### 종합 설정 사례
 
 CATALINA_OPTS="-server -Xms1024m -Xmx1024m -XX:+UseParNewGC
 -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -verbose:gc
@@ -182,7 +182,7 @@ CATALINA_OPTS="-server -Xms1024m -Xmx1024m -XX:+UseG1GC -verbose:gc
 -XX:-CMSConcurrentMTEnabled -XX:CMSInitiatingOccupancyFraction=70
 -XX:+CMSParallelRemarkEnabled -XX:+UseCMSInitiatingOccupancyOnly
 
-# 사례
+## 사례
 
 <http://www.slideshare.net/aszegedi/everything-i-ever-learned-about-jvm-performance-tuning-twitter>http://prezi.com/lzofqasgefim/java-garbage-collection-and-heap-analysis/\[<http://prezi.com/lzofqasgefim/java-garbage-collection-and-heap-analysis/>\]
 
@@ -267,7 +267,7 @@ garbage collection when necessary.
 
 -XX:+UseConcMarkSweepGC
 
-## 노하우
+### 노하우
 
 - [\[GC](http://www.tuning-java.com/260) Java GC Tuning 방법 (자바 메모리 튜닝)\]
 
@@ -276,18 +276,18 @@ garbage collection when necessary.
 - <http://java.dzone.com/articles/how-tame-java-gc-pauses>
 - [Apache MaxClients와 Tomcat의 Full GC](http://helloworld.naver.com/helloworld/132178)
 
-# Memory leak
+## Memory leak
 
 - <http://opensource.atlassian.com/confluence/spring/pages/viewpage.action?pageId=2669>
 - <http://www.infoq.com/presentations/Diagnosing-Memory-Leaks>
 - <http://blogs.sun.com/fkieviet/entry/classloader_leaks_the_dreaded_java>
 
-## Static
+### Static
 
 [Java의 가비지 콜렉션 & Static
 Variable](http://blog.naver.com/parnx/140054010739)
 
-# VM options
+## VM options
 
 - -XX:NewRatio : New영역과 Old 영역의 비율
   - -XX:NewRatio=2
@@ -305,7 +305,7 @@ Variable](http://blog.naver.com/parnx/140054010739)
 - <http://java.sun.com/performance/reference/whitepapers/tuning.html>
 - [\<font color="#0000ff" face="'맑은 고딕'" size="2"\>http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf\</font\>](http://java.sun.com/j2se/reference/whitepapers/memorymanagement_whitepaper.pdf)
 
-## 자주쓰는 option
+### 자주쓰는 option
 
 - -XX:PermSize=128m -XX:MaxPermSize=256m
 - -XX:+CMSClassUnloadingEnabled : 쓰지 않는 클래스 정보 unloading

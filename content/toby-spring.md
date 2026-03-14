@@ -1,4 +1,4 @@
-# 동영상
+## 동영상
 
 [오브젝트와 의존관계 그리고 스프링 3 1부
 ](https://www.youtube.com/watch?v=SZydc3BS—​s)
@@ -26,12 +26,12 @@
 [\[백기선의 토스3 코딩](https://www.youtube.com/watch?v=Li6KY6xTkC8) 2장
 테스트 1/3\]
 
-# 기사
+## 기사
 
 - [테스트와 스프링](https://www.ibm.com/developerworks/mydeveloperworks/blogs/9e635b49-09e9-4c23-8999-a4d461aeace2/entry/277?lang=ko)
 - [템플릿과 스프링](https://www.ibm.com/developerworks/mydeveloperworks/blogs/9e635b49-09e9-4c23-8999-a4d461aeace2/entry/288?lang=en)
 
-# 백기선님
+## 백기선님
 
 - [백기선의 스프링 3.0 교육 자료 ](http://whiteship.me/?p=13794)
 - [\[토비의 스프링 3](http://whiteship.me/2725) 2차 완독 후기\]
@@ -39,7 +39,7 @@
 - [템플릿-콜백 패턴으로 Try-Catch-Finally 블럭을 무찌르자.](http://whiteship.me/2753)
 - ['스프링 3.0 이해와 선택' 강의 후기](http://whiteship.me/2759)
 
-# 권남님
+## 권남님
 
 - <http://kwon37xi.egloos.com/4630733>
 

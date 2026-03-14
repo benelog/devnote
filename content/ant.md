@@ -11,13 +11,13 @@
 [Automation for the people: Manage dependencies with
 Ivy](http://www.ibm.com/developerworks/java/library/j-ap05068/index.html)
 
-# Ant 관련 문서화
+## Ant 관련 문서화
 
 [http://antdoc.free.fr](http://antdoc.free.fr/)
 
 [http://vizant.sourceforge.net](http://vizant.sourceforge.net/)
 
-# Ant2IDE
+## Ant2IDE
 
 [Ant2IDE - IDE project file generation from Ant
 build.xml](http://gleamynode.net/articles/2234/ant2ide-ide-project-file-generation-from-ant-buildxml)

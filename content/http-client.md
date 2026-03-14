@@ -1,6 +1,6 @@
 <http://www.baeldung.com/httpclient-ssl> : SSLContext 설정 방법
 
-# Spring RestTemplate
+## Spring RestTemplate
 
 - <https://hellokoding.com/spring-resttemplate-error-handling/>
 - <http://blog.springsource.com/2009/03/27/rest-in-spring-3-resttemplate/>
@@ -8,7 +8,7 @@
 - <http://dlinsin.blogspot.com/2009/11/playing-with-spring-resttemplate.html>
 - <https://multifrontgarden.tistory.com/249> : keep-alive 관련 테스트
 
-# Apache HttpClient, HtpComponent
+## Apache HttpClient, HtpComponent
 
 - <http://fuyun.org/2009/09/connection-close-in-httpclient/>
   - SimpleHttpConnectionManager를 쓰면 releaseConnection을 호출해도 바로 닫지 않는다.
@@ -21,12 +21,12 @@
 - [PoolingHttpClientConnectionManager 를 xml기반 Spring bean으로 등록하기.](http://www.yunsobi.com/blog/i/entry/660)
 - <https://github.com/spring-projects/spring-social/issues/176#issuecomment-217548884>
 
-# https
+## https
 
 - <http://javaskeleton.blogspot.fr/2010/07/avoiding-peer-not-authenticated-with.html>
 - <http://blog.nerdability.com/2013/01/tech-how-to-fix-sslpeerunverifiedexcept.html>
 
-## locate cacerts
+### locate cacerts
 
 - Djavax.net.ssl.trustStore=/tmp/cacerts
 - -Djavax.net.debug=ssl\`\`\*
@@ -36,7 +36,7 @@
 - <http://javarevisited.blogspot.kr/2012/03/add-list-certficates-java-keystore.html>
 - <http://javarevisited.blogspot.kr/2012/03/add-list-certficates-java-keystore.html>
 
-# SO_LINGER 옵션
+## SO_LINGER 옵션
 
 - <http://rucaus.egloos.com/2372401>
 - <https://docs.oracle.com/javase/7/docs/api/java/net/StandardSocketOptions.html#SO_LINGER>
@@ -44,12 +44,12 @@
 - SO_LINGER ON, LINGER 시간은 0: socket.close()는 즉시 리턴, OS는 소켓 버퍼에 있는 데이터 모두 버리고, RST 전송하고 소켓도 바로 회수
 - SO_LINGER ON, LINGER 시간이 0보다 큼: socket.close()는 소켓 버퍼에 있는 데이터를 모두 보내고 나서 리턴, LINGER 시간까지 다 못 보내면 에러를 리턴, 연결 종료는 FIN 전송하여 4-way handshake shutdown 후 소켓 회수
 
-# JDK URL Connection
+## JDK URL Connection
 
 - [자바로 구현하는 Web-to-web 프로그래밍, Part 1](http://javacan.tistory.com/entry/35)
 - [자바로 구현하는 Web-to-web 프로그래밍, Part 2](http://javacan.tistory.com/entry/42)
 
-# Feign
+## Feign
 
 <https://github.com/OpenFeign/feign>
 

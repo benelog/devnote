@@ -28,7 +28,7 @@ a search/string-processing program
 
 <http://portal.acm.org/citation.cfm?id=626091>
 
-# 언어 성능비교
+## 언어 성능비교
 
 <http://blog.dhananjaynene.com/2008/07/performance-comparison-c-java-python-ruby-jython-jruby-groovy/>
 
@@ -51,16 +51,16 @@ program](http://page.mi.fu-berlin.de/prechelt/Biblio/jccpprtTR.pdf)
 
 <http://www.infoq.com/presentations/Pattern-Language-Parallel-Programming>
 
-# Typing
+## Typing
 
 [Crossing borders: Typing strategies beyond the Java
 model](http://www.ibm.com/developerworks/java/library/j-cb05236.html)
 
-# Concurency and parallelism
+## Concurency and parallelism
 
 [Concurrent와 Parallel의 차이](http://minjang.egloos.com/2517211)
 
-# functional programming
+## functional programming
 
 [해커를 위한 최고의 언어](http://agile.egloos.com/2633261)
 
@@ -73,13 +73,13 @@ model](http://www.ibm.com/developerworks/java/library/j-cb05236.html)
 
 <http://sleeplessinfremont.wordpress.com/2010/06/16/functional-programming-with-google-collection-api-now-guava/>
 
-# 통계
+## 통계
 
-# Interface 비교
+## Interface 비교
 
 [인정있는 인터페이스(Humane Interface)](http://www.younghoe.info/15)
 
-# Erlang
+## Erlang
 
 [Crossing borders: Concurrent programming with
 Erlang](http://www.ibm.com/developerworks/java/library/j-cb04186.html)
@@ -99,12 +99,12 @@ Erlang](http://www.ibm.com/developerworks/java/library/j-cb04186.html)
 [In Defense of
 Erlang](http://www.theserverside.com/discussions/thread.tss?thread_id=61573)
 
-# OCaml
+## OCaml
 
 [Developing Applications
 With](http://caml.inria.fr/pub/docs/oreilly-book/html/)
 
-# Scala
+## Scala
 
 <http://www.ibm.com/developerworks/kr/library/tutorial/wa-aj-comet/index.html>
 
@@ -114,15 +114,15 @@ With](http://caml.inria.fr/pub/docs/oreilly-book/html/)
 
     http://www.ibm.com/developerworks/kr/library/j-scala01228.html[바쁜 자바 프로그래머를 위한 스칼라 입문: 객체 지향론자를 위한 함수 프로그래밍]
 
-# Lisp
+## Lisp
 
 [scheme 시작하기](http://neocode.egloos.com/1745777)
 
-# D언어
+## D언어
 
 [SWT의 D 언어 포트 DWT](http://corund.egloos.com/2325570)
 
-# 역사
+## 역사
 
 <http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html>
 

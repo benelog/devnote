@@ -67,41 +67,41 @@ Heroku](http://lastmind.net/blog/2009/02/learning-rails-heroku.html)
 
 <http://railslab.newrelic.com/>
 
-# Ruby on rails
+## Ruby on rails
 
 - [“Rails 이제 안 써” 를 읽고](http://yisangwook.tumblr.com/post/145910847954/ruby-rails-solnic)
 - <http://thinkr.egloos.com/796564> : 웹 2.0과 루비 온 레일즈(Ruby on Rails)
 
-## typing
+### typing
 
 <http://toby.epril.com/?p=722>
 
-## Rake
+### Rake
 
 [Rake를 사용해 보고](http://corund.egloos.com/84815)
 
-# Sinatra
+## Sinatra
 
 <http://www.sinatrarb.com/>
 
-## Migration
+### Migration
 
 ruby script/generate migration add_price_column
 
 rake db:migrate
 
-# Scalability / Performance
+## Scalability / Performance
 
 - <https://medium.com/@WesleyDavis/multi-threading-in-ruby-1c075f4c7410>
 - <https://medium.com/@franzejr/ruby-3-mri-and-gil-a302577c6634>
 - <http://www.madebymarket.com/blog/dev/ruby-web-benchmark-report.html>
 
-# Server
+## Server
 
 - <https://www.engineyard.com/articles/rails-server>
 - <http://blog.scoutapp.com/articles/2017/02/10/which-ruby-app-server-is-right-for-you>
 
-# Event machine
+## Event machine
 
 - <https://github.com/igrigorik/em-http-request>
 - <https://github.com/bcg/em-mongo>

@@ -1,4 +1,4 @@
-# 방법
+## 방법
 
 <http://blog.art-of-coding.eu/executing-operating-system-commands-from-java/>
 
@@ -77,7 +77,7 @@ waitFor는 무한대기 될 수도 있다…​
 - <http://alvinalexander.com/java/java-exec-processbuilder-process-2>
 - <http://alvinalexander.com/java/java-exec-processbuilder-process-3>
 
-## 참고할만한 구현체
+### 참고할만한 구현체
 
 - 분산처리 프레임워크 [JPPF](http://sourceforge.net/projects/jppf-project/)의 [ProcessWrapper](http://jppf-project.cvs.sourceforge.net/viewvc/jppf-project/node/src/java/org/jppf/process/ProcessWrapper.java?revision=1.2&view=markup)
 - Alvin Alexander가 [Java exec - execute system processes with Java ProcessBuilder and Process](http://alvinalexander.com/java/java-exec-processbuilder-process-1) 글에 공유한 소스
@@ -112,12 +112,12 @@ waitFor는 무한대기 될 수도 있다…​
        }
       }
 
-# 부모 프로세스의 메모리 복제
+## 부모 프로세스의 메모리 복제
 
 [외부 프로그램을 실행할 때 JVM에서는 무슨
 일이?](http://blog.naver.com/naverdev?Redirect=Log&logNo=120113620117)
 
-# Apache Exec
+## Apache Exec
 
 <http://commons.apache.org/exec>
 

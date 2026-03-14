@@ -1,4 +1,4 @@
-# String.intern()
+## String.intern()
 
 - <http://java-performance.info/string-intern-in-java-6-7-8/>
   - JDK6 : Perm 영역. OOM 위험

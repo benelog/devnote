@@ -55,7 +55,7 @@ Graph gallery
 
 <div class="sect2">
 
-### 그래프 그리기
+#### 그래프 그리기
 
 <div class="paragraph">
 
@@ -87,7 +87,7 @@ Graph gallery
 
 <div class="sect2">
 
-### 함수
+#### 함수
 
 <div class="ulist">
 

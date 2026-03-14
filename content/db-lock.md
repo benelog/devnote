@@ -1,25 +1,25 @@
-# Locking
+## Locking
 
 An automatic mechanism tht isolates data to prevent conflicting
 modifications.
 
-# Type of locks
+## Type of locks
 
-## Shared Locks
+### Shared Locks
 
 Used for satements that read data(selects)
 
 Other processes can read the data (put shared locks on the data), but no
 process can alter the data.(put exclusive lock on the data)
 
-## Exclusive Locks
+### Exclusive Locks
 
 Used for statements that change data(inserts, updates, deletes)
 
 No other processes can read the data (put shared locks on the data) or
 alter the data(put exclusvie locks on the page)
 
-## Update Locks
+### Update Locks
 
 Used for operations that may or may not change the data (updates,
 deletes)
@@ -31,7 +31,7 @@ lock finds data that needs to be modified, the update lock is promoted
 to an exclusive lock. If the operation does not find data that needs to
 be modified, the pdate lock is released when the scan is complete.
 
-## Deadlocks
+### Deadlocks
 
 Deadlocks occur when two or more transactions have locks on data, and
 each transaction is waiting to acqure a lock on data that the other

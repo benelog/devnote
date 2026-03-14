@@ -21,7 +21,7 @@ filesystem과 classpath에서 동시에찾는 설정
 <context:property-placeholder location="file:config.properties, classpath:config.properties" ignore-resource-not-found="true"/>
 ```
 
-# Spel
+## Spel
 
 @Value("#{server.hostName}")
 
@@ -35,7 +35,7 @@ filesystem과 classpath에서 동시에찾는 설정
 </bean>
 ```
 
-# PropertyEditor
+## PropertyEditor
 
 ``` xml
 <bean id="dateEditor"  class="org.springframework.beans.propertyeditors.CustomDateEditor">

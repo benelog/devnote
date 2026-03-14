@@ -1,4 +1,4 @@
-# Static site generator
+## Static site generator
 
 - <https://orchid.run/>
 - <https://antora.org/>
@@ -12,9 +12,9 @@
 - <https://nakkaya.com/>
 - <https://github.com/sysgears/grain>
 
-## Hugo
+### Hugo
 
-### 추천 템플릿
+#### 추천 템플릿
 
 - <https://geekdocs.de/>
 - <https://adityatelange.github.io/hugo-PaperMod/>
@@ -25,7 +25,7 @@
   - <https://github.com/jackyzha0/hugo-obsidian/> : 위의 Quartz 활용한 GitHub Acion
   - <https://github.com/64bitpandas/amethyst> ( hugo-obsidian + hugo-book 테마)
 
-### GitHub Actions 빌드/배포
+#### GitHub Actions 빌드/배포
 
 <div class="formalpara">
 
@@ -89,16 +89,16 @@ surge.sh로 배포
 
 </div>
 
-## 연동 CMS
+### 연동 CMS
 
 - <https://decapcms.org/>
 - <https://tina.io/>
 
-# 협업
+## 협업
 
 - <http://www.corilla.com/>
 
-# CMS솔류션
+## CMS솔류션
 
 - WordPress
 - Blogger

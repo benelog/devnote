@@ -3,9 +3,9 @@
 alt="regular_expressions_cheat_sheet.png" />
 </figure>
 
-# 학습
+## 학습
 
-# 도움사이트
+## 도움사이트
 
 - Java : <http://www.regexplanet.com/advanced/java/index.html>
 - JavaScript : <https://regexr.com/>
@@ -17,7 +17,7 @@ alt="regular_expressions_cheat_sheet.png" />
 - [초보 개발자 코드 트레이닝, Part 5: 정규 표현식](http://www.ibm.com/developerworks/kr/library/s_issue/20080729/)
 - [자바 정규 표현식 구현](http://www.slipp.net/wiki/pages/viewpage.action?pageId=950361) : 집 전화번호, 휴대폰 번호 검사 예제
 
-# 예제
+## 예제
 
 - style 태그 제거: `style=\"[^\"]*\"`
 - slug 로 시작하는 라인 :\`^(Slug)(.\*)\n\`

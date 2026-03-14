@@ -1,4 +1,4 @@
-# Sqlite
+## Sqlite
 
 - <http://www.zentus.com/sqlitejdbc/> : Original
 - <http://www.xerial.org/trac/Xerial/wiki/SQLiteJDBC> : 개선판
@@ -14,7 +14,7 @@
 </dependency>
 ```
 
-# HSQL
+## HSQL
 
 - Driver : org.hsqldb.jdbcDriver
   - Datasource : org.hsqldb.jdbc.jdbcDataSource

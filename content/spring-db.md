@@ -13,11 +13,11 @@ Routing](http://blog.springsource.com/2007/01/23/dynamic-datasource-routing/)
 [여러개의 DB에 선택적으로
 커넥션하기](http://hilldan.springnote.com/pages/1394856)
 
-# SQLExceptionTranslator
+## SQLExceptionTranslator
 
 <http://pietrowski.info/2008/09/how-to-extend-sqlerrorcodesfactory/>
 
-# TX 선언
+## TX 선언
 
 ``` xml
 <tx:advice id="txAdvice">
@@ -66,7 +66,7 @@ Annocation 기반
   </property>
 ```
 
-# 스프링 트랜잭션 관련 링크
+## 스프링 트랜잭션 관련 링크
 
 [Spring에서 트랜잭션 관리](http://openframework.or.kr/blog/?p=324)
 
@@ -75,14 +75,14 @@ Annocation 기반
 [Spring Transaction Management 선언적 트랜젝션
 관리](http://gerions.egloos.com/4529457)
 
-# JOTM
+## JOTM
 
 [spring 에서 JOTM 를 이용한 분산데이터베이스 transaction
 처리](http://sslee05.egloos.com/4970203)
 
 [JOTM을 이용한 트랜잭션 처리](http://javacan.tistory.com/entry/129)
 
-# Sharding
+## Sharding
 
 DB적인 DB샤딩때 쓰는 DataSource routing (
 <http://dev.anyframejava.org/docs/anyframe/plugin/optional/routingdatasource/1.0.0/reference/htmlsingle/routingdatasource.html>
@@ -93,7 +93,7 @@ DB적인 DB샤딩때 쓰는 DataSource routing (
 
 [AbstractRoutingDataSource](https://github.com/spring-projects/spring-framework/blob/master/spring-jdbc/src/main/java/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.java)
 
-# Best effort
+## Best effort
 
 - [Distributed transactions in Spring, with and without XA](http://www.javaworld.com/javaworld/jw-01-2009/jw-01-spring-transactions.html)
 - <https://gist.github.com/anair-it/f92ac33bd6ac5d260961022dd06110f2>

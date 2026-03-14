@@ -1,4 +1,4 @@
-# Spring 3.0
+## Spring 3.0
 
 - [Spring 3.0 (1) 프로젝트 구조와 빌드 시스템의 변화](http://toby.epril.com/?p=557)
 - [Spring 3.0 (2) R-518 스프링의 새 모듈 OXM(Object/XML Mapping)](http://toby.epril.com/?p=561)
@@ -18,7 +18,7 @@
 - [\[스프링 3.0](http://whiteship.me/2424) @Valid 실습\]
 - 스프링 3.0 애노테이션 기반 스케줄링\]
 
-## Spring and Java EE5
+### Spring and Java EE5
 
 - [Spring and Java EE 6](http://www.infoq.com/presentations/Spring-and-Java-EE-6-Jurgen-Holler)
 
@@ -38,7 +38,7 @@ more than just a d3eployment platform with system service
 
 user-lvel component model
 
-# Spring 3.1
+## Spring 3.1
 
 - <http://static.springsource.org/spring-framework/docs/3.1.x/spring-framework-reference/html/new-in-3.1.html>
 - <http://static.springsource.org/spring-framework/docs/3.1.x/spring-framework-reference/html/migration-3.1.html>
@@ -126,7 +126,7 @@ NanumGothic, 맑은 고딕, AppleGothic, 돋움"\>Spring 3.1.0 ~ 3.1.3
 버전에서는 Properties XML 선언과 관련된 버그가 있으니 유의해야
 합니다.\</font\>
 
-## 스프링소스 블로그의 관련 자료
+### 스프링소스 블로그의 관련 자료
 
 - <http://blog.springsource.org/2011/02/11/spring-framework-3-1-m1-released/>
 - <http://blog.springsource.org/2011/02/14/spring-3-1-m1-introducing-profile/>
@@ -138,7 +138,7 @@ NanumGothic, 맑은 고딕, AppleGothic, 돋움"\>Spring 3.1.0 ~ 3.1.3
 - <http://blog.springsource.org/2011/12/13/spring-framework-3-1-goes-ga/>
 - <http://blog.springsource.org/2012/04/06/migrating-to-spring-3-1-and-hibernate-4-1/>
 
-## Toby님의 Spring 3.1 분석 자료
+### Toby님의 Spring 3.1 분석 자료
 
 - [스프링 3.1 (1) JavaConfig의 위험성](http://toby.epril.com/?p=1168)
 - [스프링 3.1 (2) HandlerInterceptor의 적용순서](http://toby.epril.com/?p=1172)
@@ -152,7 +152,7 @@ NanumGothic, 맑은 고딕, AppleGothic, 돋움"\>Spring 3.1.0 ~ 3.1.3
 - [스프링 3.1 (10) 심심풀이 @RequestMapping 요청 조건 퀴즈](http://toby.epril.com/?p=1210)
 - [스프링 3.1 (11) 심심풀이 @RequestMapping 요청 조건 퀴즈 풀이](http://toby.epril.com/?p=1212)
 
-# Spring 3.2
+## Spring 3.2
 
 <http://static.springsource.org/spring-framework/docs/3.2.x/spring-framework-reference/html/new-in-3.2.html>
 <http://static.springsource.org/spring-framework/docs/3.2.0.RELEASE/spring-framework-reference/html/migration-3.2.html>
@@ -165,7 +165,7 @@ JDIFF :
 
 <http://blog.springsource.org/2012/05/10/spring-mvc-3-2-preview-making-a-controller-method-asynchronous/>
 
-## 스프링소스 블로그의 관련 자료
+### 스프링소스 블로그의 관련 자료
 
 - <http://blog.springsource.org/2012/05/06/spring-mvc-3-2-preview-introducing-servlet-3-async-support/>
 - <http://blog.springsource.org/2012/05/08/spring-mvc-3-2-preview-techniques-for-real-time-updates/>
@@ -179,7 +179,7 @@ RequestMappingHandlerAdapter에서 supportInternal 메소드 변화
 
 <https://github.com/SpringSource/spring-framework/commit/acc75aa4b898a34dce42748df5b54624f8b3e9f2>
 
-# Spring 4.0
+## Spring 4.0
 
 - <http://blog.springsource.org/2013/05/21/spring-framework-4-0-m1-3-2-3-available/>
 - <http://blog.springsource.org/2013/05/22/spring-framework-4-0-m1-websocket-support/>

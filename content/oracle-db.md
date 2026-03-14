@@ -1,4 +1,4 @@
-# 자주 쓰는 쿼리
+## 자주 쓰는 쿼리
 
 ``` sql
 SELECT nullable

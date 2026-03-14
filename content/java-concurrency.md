@@ -1,7 +1,7 @@
 - [왜 Thread의 stop 메소드는 deprecated 되었을까?](http://www.tuning-java.com/410)
 - [Java8 Stream의 parallel 처리](http://www.popit.kr/java8-stream%EC%9D%98-parallel-%EC%B2%98%EB%A6%AC/)
 
-# Concurrency 개념
+## Concurrency 개념
 
 - <http://minjang.egloos.com/2517211>
 - <http://tutorials.jenkov.com/java-concurrency/index.html>
@@ -16,7 +16,7 @@
 - <http://www.thinkingparallel.com/2007/07/31/10-ways-to-reduce-lock-contention-in-threaded-programs/>
 - HashMap의 무한루프 : <http://mailinator.blogspot.com/2009/06/beautiful-race-condition.html>
 
-# Volatile
+## Volatile
 
 voltile에 대한 Effective Java 1Ed 시절 설명
 
@@ -44,11 +44,11 @@ volatile 필드가 어떻게 동작하는지도 명확하게 명세하고 있지
 어디서나 쓸 수 있다는 자바의 기본 철학을 생각한다면 아직까지 volatile
 필드를 쓰기에는 무리가 있다.
 
-# Thread Local
+## Thread Local
 
 - <http://javacan.tistory.com/entry/ThreadLocalUsage>
 
-# Virtual Thread
+## Virtual Thread
 
 - [Virtual Thread의 기본 개념 이해하기](https://d2.naver.com/helloworld/1203723)
   - Java JNI 메서드의 호출 원리
@@ -65,7 +65,7 @@ volatile 필드가 어떻게 동작하는지도 명확하게 명세하고 있지
     - park(), unpark()을 통해 실행 중단과 재계
   - JDK는 Vitual Thread 효율성을 위해 소켓 주요 구현을 네이티브→자바 코드로 이동하거나 논블로킹 소켓 이용.
 
-# Mac
+## Mac
 
 - <http://geek.starbean.net/?p=193>
 
@@ -82,26 +82,26 @@ public static String getMessageDigest(Mac mac, String message) {
 }
 ```
 
-# race condition in java.util
+## race condition in java.util
 
 - <http://mailinator.blogspot.com/2009/06/beautiful-race-condition.html>
 - <http://lightbody.net/blog/2005/07/hashmapget_can_cause_an_infini.html>
 
-# Non blocking alorithm
+## Non blocking alorithm
 
 - <http://www.ibm.com/developerworks/java/library/j-jtp04186/>
 
-# Queue
+## Queue
 
 - <http://www.javacodegeeks.com/2010/09/java-best-practices-queue-battle-and.html>
 
-# Fork & Join
+## Fork & Join
 
 - <http://whiteship.me/?p=13100>
 
 - <http://www.slideshare.net/knight1128/jdk-7-4forkjoin>
 
-# AkkA
+## AkkA
 
 [Akka 첫 번째, Akka를 이용한 Concurrent 프로그래밍
 시작하기](http://javacan.tistory.com/169)

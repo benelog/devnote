@@ -1,13 +1,13 @@
 [왜 함수형 프로그래밍이 중요한가 — John Hughes
 1989](https://medium.com/@jooyunghan/%EC%99%9C-%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4-%EC%A4%91%EC%9A%94%ED%95%9C%EA%B0%80-john-hughes-1989-f6a1074a055b#.o6mqwonfy)
 
-# currying
+## currying
 
 - 여러 개 인자를 받는 함수를 1개의 인자를 받는 여러 함수로 변화시키는 것을 커링이라고 부른다.
 - <http://beyond.daesan.com/articles/2007/02/24/ruby-functional-programming-2> : Ruby 사례
 - <http://nundefined.tistory.com/22> : javascript 사례
 
-# closure
+## closure
 
 <http://aeternum.egloos.com/tag/%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98>
 이처럼 함수가 실행되는 시점에 동적으로 유효 범위가 결정되지 않고 함수가

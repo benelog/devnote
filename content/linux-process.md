@@ -1,6 +1,6 @@
 [프로세스 관리(kill, nohup…​)](http://tong.nate.com/wlstjs/21051594)
 
-# nohup
+## nohup
 
 nohup \[command\] 1\> dev/null 2\>&1 &
 
@@ -11,7 +11,7 @@ nohup boot.sh \>/dev/null &
 [nohup 안 쓰고 프로세스 계속
 실행](http://blog.daum.net/itnewsplus/5011099)
 
-# kiill
+## kiill
 
 시그널번호 시그널이름
 

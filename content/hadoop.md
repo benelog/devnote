@@ -28,16 +28,16 @@
 생성하기, Part 1: Apache Hadoop을 사용하여 기존 데이터
 처리하기](http://www.ibm.com/developerworks/kr/library/wa-dojohadoop1/index.html)
 
-# Hadoop 업체 제휴 상황
+## Hadoop 업체 제휴 상황
 
 <http://kimws.wordpress.com/2012/02/01/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%86%94%EB%A3%A8%EC%85%98-%EC%97%85%EC%B2%B4-%EA%B4%80%EA%B3%84%EC%99%80-%ED%95%98%EB%91%A1%EA%B8%B0%EC%88%A0%EA%B8%B0%EB%B0%98%EC%9D%98-%EC%8A%A4%ED%83%80/>
 
-# 예제
+## 예제
 
 [Hadoop을 이용한 Apache Log
 분석](http://mimul.com/pebble/default/2011/11/05/1320482173560.html)
 
-# Hadoop 간단 요약
+## Hadoop 간단 요약
 
 내부적으로 분산 병렬 처리를 지원하고 사용자에게 모든 처리과정을 추상화한
 인터페이스를 제공한다.
@@ -51,11 +51,11 @@ HDFS filesystem uses
 - [HBase](http://en.wikipedia.org/wiki/HBase) - [BigTable](http://en.wikipedia.org/wiki/BigTable)-model database.
 -  : data warehouse infrastructure built on top of [Hadoop](http://wiki.apache.org/hadoop/). SQL-like query language, called QL, that HBase는 HDFS를 기반으로 하는 또 하나의 흥미로운 애플리케이션으로 Google BigTable과 비슷한 고성능 데이터베이스 시스템이다. 일반적인 파일 처리 대신 HBase는 데이터베이스 테이블을 입력 및 출력 양식으로 사용하여 MapReduce 처리를 수행한다.
 
-## Eclipse plugin
+### Eclipse plugin
 
 <http://www.alphaworks.ibm.com/tech/mapreducetools/>
 
-## 주요개념
+### 주요개념
 
  논문
 
@@ -66,7 +66,7 @@ Architecture and Design)](http://virgo81.tistory.com/46)
 
 [hadoop을 linux 파일시스템으로 mount](http://www.jaso.co.kr/100)
 
-## FTP
+### FTP
 
 [hadoop을 이용한 ftp server](http://www.gruter.co.kr/213)
 
@@ -74,7 +74,7 @@ Architecture and Design)](http://virgo81.tistory.com/46)
 
     https://sites.google.com/a/iponweb.net/hadoop/Home/hdfs-over-ftp[https://sites.google.com/a/iponweb.net/hadoop/Home/hdfs-over-ftp]
 
-## Stream 얻기
+### Stream 얻기
 
 Path
 
@@ -82,7 +82,7 @@ FileSystem
 
 Configuration
 
-## Hadoop command
+### Hadoop command
 
 hadoop fs -ls
 
@@ -90,7 +90,7 @@ bin/hadoop jar sims-batch.jar sims.batch.WriteTest
 
 <http://www.mail-archive.com/core-user@hadoop.apache.org/msg07497.html>
 
-## Database Inout
+### Database Inout
 
 <http://developer.yahoo.net/blogs/hadoop/DBInputFormat.ppt>
 
@@ -126,7 +126,7 @@ public int run(String[] arg0) throws Exception {
   JobClient.runJob(conf); return 0; }
 ```
 
-# Hadoop DB
+## Hadoop DB
 
 <http://www.greenplum.com/>
 
@@ -134,13 +134,13 @@ public int run(String[] arg0) throws Exception {
 
 <http://db.cs.yale.edu/hadoopdb/hadoopdb.html>
 
-# ZooKeeper
+## ZooKeeper
 
 [zookeeper 살짝엿보기](http://www.jaso.co.kr/338)
 
 [zookeeper 사용하기](http://www.jaso.co.kr/348)
 
-# Hadoop + ETL
+## Hadoop + ETL
 
 <http://www.slideshare.net/ydn/4-integration-patternshadoopsummit2010>
 

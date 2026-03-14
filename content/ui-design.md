@@ -4,7 +4,7 @@
 
 <http://ui-patterns.com/>
 
-# Prototyping tools
+## Prototyping tools
 
 - <http://balsamiq.com/products/mockups>
 - <http://www.evolus.vn/Pencil/Home.html>
@@ -15,6 +15,6 @@
 - <https://www.lucidchart.com/>
 - <https://ovenapp.io/>
 
-## 비교분석
+### 비교분석
 
 - <http://story.pxd.co.kr/1069>

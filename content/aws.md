@@ -1,14 +1,14 @@
-# S3
+## S3
 
 jets3t
 :http://jets3t.s3.amazonaws.com/downloads.html\[<http://jets3t.s3.amazonaws.com/downloads.html>\]s3md
 : <http://s3tools.org/s3cmd>
 
-## AMI
+### AMI
 
 이미지 목록 : <https://aws.amazon.com/amis/>
 
-# EC2
+## EC2
 
 [AWS 인스턴스 성능 분석](http://blog.daum.net/_blog/BlogTypeView.do?blogid=0cBn9&articleno=2&categoryId=5&regdt=20120803125355#ajax_history_home)
 ```
@@ -22,25 +22,25 @@ us-east-1aec2-describe-volumesec2-attach-volumeec2-detach-volume
 e2-create-snapshotec2-describe-snapshops
 ```
 
-# RDS
+## RDS
 
 <http://aws.amazon.com/ko/rds/>http://aws.amazon.com/ko/running_databases/\[<http://aws.amazon.com/ko/running_databases/>\]<http://aws.amazon.com/ko/rds/faqs>
 
-## SQS
+### SQS
 
 <http://www.ibm.com/developerworks/kr/library/j-javadev2-17/index.html>
 
-## ELB
+### ELB
 
 [아마존(AWS)이 ELB 에 고정 공인IP 를 제공하지 않는
 이유?](http://blog.daum.net/_blog/BlogTypeView.do?blogid=0cBn9&articleno=3&categoryId=5&regdt=20120803142824#ajax_history_home)http://blog.daum.net/\_blog/BlogTypeView.do?blogid=0cBn9&articleno=21&categoryId=5&regdt=20120910122524#ajax_history_home\[AWS의
 ELB와 Netflix의 신작(?) Eureka\]
 
-## EIP
+### EIP
 
 [AWS의 EIP(Elastic IP) 가격 정책과 동작 원리](http://blog.daum.net/_blog/BlogTypeView.do?blogid=0cBn9&articleno=19&_bloghome_menu=recentthumb#ajax_history_home)
 
-## VPC
+### VPC
 
 * [아마존 VPC(Virtual Private Cloud) 구성](http://blog.daum.net/_blog/BlogTypeView.do?blogid=0cBn9&articleno=18&categoryId=5&regdt=20120821113335#ajax_history_home)
 * http://architects.dzone.com/articles/aws-vpc-networking-beginners

@@ -1,4 +1,4 @@
-# Coverage 개념
+## Coverage 개념
 
 <http://www.javaranch.com/journal/2004/01/IntroToCodeCoverage.html>
 
@@ -12,9 +12,9 @@ Decision coverage = Branch Coverage
 
 branch coverage - is every conditional branch tested at least once?
 
-# Code Coverage 측정 도구
+## Code Coverage 측정 도구
 
-## Cobertura
+### Cobertura
 
 - <http://cobertura.sourceforge.net/>
 
@@ -31,12 +31,12 @@ branch coverage - is every conditional branch tested at least once?
 </plugin>
 ```
 
-## Clover
+### Clover
 
 - <http://www.atlassian.com/software/clover/>
 - <http://www.cenqua.com/clover/> 상용
 
-## emma
+### emma
 
 <http://emma.sourceforge.net/>
 

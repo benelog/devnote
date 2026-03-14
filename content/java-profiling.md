@@ -15,7 +15,7 @@
 
 <https://alibaba.github.io/arthas/en/>
 
-# Btrace
+## Btrace
 
 - <http://kenai.com/projects/btrace/pages/Home>
 - <http://eggboy.egloos.com/1866372>
@@ -23,7 +23,7 @@
 - <http://d2.naver.com/helloworld/9042309>
 - <https://kenai.com/projects/btrace/sources/hg/content/samples/JdbcQueries.java>
 
-# Visual VM
+## Visual VM
 
 - [Java Visual VM JDK에 포함된 무료 프로파일링 툴](http://www.tuning-java.com/248)
 - [VisualVM](http://blog.openframework.or.kr/91)
@@ -31,7 +31,7 @@
 - JavaTool 유용한 자바툴 - jvisualvm\]
 - [Troubleshooting application performance with VisualVM](http://www.skill-guru.com/blog/2010/11/11/troubleshooting-application-performance-with-visualvm/)
 
-# Hprof (Heap And CPU Profiling Agent)
+## Hprof (Heap And CPU Profiling Agent)
 
 - <http://java.sun.com/developer/technicalArticles/Programming/HPROF.html>
 - <http://wiki.ex-em.com/index.php/HProf>
@@ -47,7 +47,7 @@
 java -agentlib:hprof=heap=dump,format=b,file=heapdump.hprof,doe=n
 HoldMemory
 
-# Jstat
+## Jstat
 
 jstat -gcutil
 
@@ -58,9 +58,9 @@ cent os에서 정의된 tmpwatch에서 지운다.
 
 /etc/cron.daily/tmpwatch
 
-# JConsole
+## JConsole
 
-# Heap Analyzer
+## Heap Analyzer
 
 - [http://www-1.ibm.com/support/docview.wss?https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/https://heaphero.io/uid=swg27006624&aid=1](http://www-1.ibm.com/support/docview.wss?uid=swg27006624&aid=1)
 - <http://jensor.sourceforge.net/>
@@ -73,7 +73,7 @@ cent os에서 정의된 tmpwatch에서 지운다.
 - MAT : <http://www.eclipse.org/mat/>
 - MAT + IBM Heap analyzer : <http://web-dev.tistory.com/623>
 
-# Thread dump
+## Thread dump
 
 <http://yusuke.homeip.net/samurai/en/index.html>
 
@@ -102,7 +102,7 @@ ps -mo pid,lwp,stime,time,pcpu -p javapid
 - Python\> print hex(6860)
 - Bash\> echo "obase=16;6860" \| bc
 
-# Headump option
+## Headump option
 
 -XX:+HeapDumpOnOutOfMemoryError
 
@@ -110,43 +110,28 @@ ps -mo pid,lwp,stime,time,pcpu -p javapid
 
 -XX:OnError="gcore%p"
 
-# Jmap
-
-<div class="formalpara">
-
-<div class="title">
+## Jmap
 
 덤프파일생성
 
-</div>
+```
+jmap -dump:format=b,file=dump.hprofpid
 
-    jmap -dump:format=b,file=dump.hprofpid
+jmap -dump:live,format=b,file=<fileName> <pid>
 
-    jmap -dump:live,format=b,file=<fileName> <pid>
-
-    jmap -dump:format=b,file=jvm.hprof  jvm.core  /jdk/bin/java
-
-</div>
-
-<div class="formalpara">
-
-<div class="title">
+jmap -dump:format=b,file=jvm.hprof  jvm.core  /jdk/bin/java
+```
 
 Heap histogram 뽑기. 반복해서 뽑아보고 증가가 큰 객체를 보는 방법도
 유용하다
 
-</div>
 
     jmap -histo:live
 
-</div>
 
-# Jhat
+## Jhat
 
-jhat \<dumpFileName\>
-
-[\<font
-color="#0066cc"\>http://blogs.atlassian.com/2013/03/so-you-want-your-jvms-heap/\</font\>](http://blogs.atlassian.com/2013/03/so-you-want-your-jvms-heap/)
+* http://blogs.atlassian.com/2013/03/so-you-want-your-jvms-heap/\</font\>](http://blogs.atlassian.com/2013/03/so-you-want-your-jvms-heap/)
 
     gdb --pid=[pid]
 
@@ -158,30 +143,30 @@ color="#0066cc"\>http://blogs.atlassian.com/2013/03/so-you-want-your-jvms-heap/\
 
 jmap -histo:live \<pid\>
 
-# JRat
+## JRat
 
 <http://jrat.sourceforge.net/>
 
-# JIP
+## JIP
 
 <http://jiprof.sourceforge.net/>
 <http://www.ibm.com/developerworks/java/library/j-jip/>
 
-# oktech-profiler
+## oktech-profiler
 
 <http://code.google.com/p/oktech-profiler/>
 
 Monkey Wrench
 
-# Your kit
+## Your kit
 
 <http://www.yourkit.com/>
 
-# Java allocation instrumenter
+## Java allocation instrumenter
 
 <http://code.google.com/p/java-allocation-instrumenter/>
 
-# APM
+## APM
 
 <http://www.javaperformancetuning.com/articles/apm1b.shtml>
 
@@ -205,31 +190,28 @@ OS나 시스템S/W는 H/W나 다른 하위 S/W 리소스를 Warping하여
 
 외부리소스를 사용하는 클래스/메소드 연계지점
 
-# Jenifer
+## Jenifer
 
 [Jennifer 4.0 사용기](http://blog.openframework.or.kr/82)
 
 <http://blog.naver.com/firebats?Redirect=Log&logNo=30039537369&vid=0>
 
-# Spring insight
+## Spring insight
 
 <http://www.infoq.com/interviews/travis-springinsight>
 
-# Byteman
+## Byteman
 
 <http://www.jboss.org/byteman/>
 
-# Gglowroot
+## Gglowroot
 
 <https://glowroot.org/>
 
-# jvmtop
+## jvmtop
 
 <https://github.com/patric-r/jvmtop>
 
-# heapster
+## heapster
 
 운영환경에서 힙메모리 프로파일링 <https://github.com/mariusae/heapster>
-
-## Related
-- [[graal-vm]]

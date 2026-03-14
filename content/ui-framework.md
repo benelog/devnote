@@ -2,16 +2,16 @@
 - <http://msdn.microsoft.com/en-us/library/cc288325(v=vs.85).aspx>
 - <http://www.jetbrains.org/ring-ui/index.html>
 
-# Activo
+## Activo
 
 <http://dmfrancisco.github.com/activo/>
 
-# Bootstrap
+## Bootstrap
 
 - [Bootstrap from twitter](http://helloworld.naver.com/helloworld/67876)
 - <http://tutorialzine.com/2015/06/12-time-saving-bootstrap-examples/>
 
-## Side bar
+### Side bar
 
 - <http://www.jqueryscript.net/menu/Creating-Collapsible-Bootstrap-Sidebars-with-jQuery-CSS.html>
   - demo : <http://www.jqueryscript.net/demo/Creating-Collapsible-Bootstrap-Sidebars-with-jQuery-CSS/>
@@ -19,34 +19,34 @@
 - <http://jsfiddle.net/mark47/x8S2q/>
 - <http://codepen.io/goodywebs/pen/ouhiH/>
 
-## Email client
+### Email client
 
 - <http://www.bootply.com/XXmcPas41w#>
 
-## 테마 제공 사이트
+### 테마 제공 사이트
 
 <http://bootswatch.com/>http://wrapbootstrap.com/\[<http://wrapbootstrap.com/>\]<http://stylebootstrap.info/>
 
-## UI layout 잡기
+### UI layout 잡기
 
 - <http://www.layoutit.com>
 - <https://jetstrap.com/>
 - <http://bootsnipp.com/forms>
 
-# XE Icon
+## XE Icon
 
 <http://contest.xpressengine.com/templates/xe_icon/index.html>
 
-# Foundation
+## Foundation
 
 <http://foundation.zurb.com/>
 
-# Blueprint
+## Blueprint
 
 [Blueprint - 쉽게 Grid 레이아웃을 잡을수 있는 CSS
 Framework](http://blog.outsider.ne.kr/632)
 
-# Material Design
+## Material Design
 
 - [구글의 머트리얼 디자인 가이드 함께 보기](http://blog.rightbrain.co.kr/?p=3019)
 - <https://www.polymer-project.org/>

@@ -45,7 +45,7 @@ Distribute
 
 <http://fusesource.com/products/enterprise-servicemix4/>
 
-# OSGi Server
+## OSGi Server
 
 Apache Felix,
 
@@ -53,7 +53,7 @@ Knopflerish,
 
 Equinox
 
-# OSGI console 명령어
+## OSGI console 명령어
 
 ss(short status)
 
@@ -63,7 +63,7 @@ refresh
 
 disconnect
 
-# 배포
+## 배포
 
 [스프링 슬라이스(Spring Slice)](http://whiteship.me/2296)
 

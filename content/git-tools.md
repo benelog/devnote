@@ -1,4 +1,4 @@
-# windows
+## windows
 
 <http://code.google.com/p/msysgit/downloads/list>
 
@@ -8,37 +8,37 @@ primary="new-object net.webclient).DownloadString('https://chocolatey.org/instal
 net.webclient).DownloadString('https://chocolatey.org/install.ps1'" &&
 SET PATH=%PATH%;%systemdrive%\chocolatey\bincinst git
 
-## tortoiseGit
+### tortoiseGit
 
 Windows의 탐색기에서 Git을 사용할 수 있도록 도와주는 툴로서 Git이 미리
 설치되어 있어야
 
 <https://code.google.com/p/tortoisegit/wiki/Download>
 
-## gitextensions
+### gitextensions
 
     https://code.google.com/p/gitextensions/[https://code.google.com/p/gitextensions/]
      Visual Studio에 연동이 가능
 
-# Linux
+## Linux
 
-## qGit
+### qGit
 
      http://sourceforge.net/projects/qgit/[http://sourceforge.net/projects/qgit/]
     Action Builder라는 개념으로 작업 등록 가능
 
-# 범용
+## 범용
 
-## smartgit
+### smartgit
 
      http://www.syntevo.com/smartgithg/index.html[http://www.syntevo.com/smartgithg/index.html]
     별도의 외부 프로그램 설치 없이 3 Way Merge가 가능
 
-## SourceTree (Windows or Mac)
+### SourceTree (Windows or Mac)
 
     http://www.sourcetreeapp.com/[http://www.sourcetreeapp.com/]
 
-## Eclipse egit plugin
+### Eclipse egit plugin
 
 update site : <http://download.eclipse.org/egit/updates>
 

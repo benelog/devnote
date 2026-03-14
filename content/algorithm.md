@@ -1,11 +1,11 @@
-## 알고리즘 시각화 사이트
+### 알고리즘 시각화 사이트
 
 - <https://workshape.github.io/visual-graph-algorithms/>
 - <https://visualgo.net/>
 - <http://algo-visualizer.jasonpark.me/>
 - <https://illustrated-algorithms.now.sh/>
 
-## 정리
+### 정리
 
 - <http://bigocheatsheet.com/>
 - <https://medium.com/omarelgabrys-blog/algorithms-data-structures-series-85ec94eb8aff#.ro8tu132u>
@@ -17,20 +17,20 @@
 - 마소: 다시 도전하는 자료구조와 알고리즘
 - [토끼와 거북이 알고리즘](http://minjang.egloos.com/1687021)
 
-## SICP
+### SICP
 
 - [SICP를 공부하는 방법](http://blog.insightbook.co.kr/51)
 - <http://mitpress.mit.edu/sicp/>
 - <http://www.swiss.ai.mit.edu/classes/6.001/abelson-sussman-lectures/>
 
-## 자료구조
+### 자료구조
 
 - <http://www.brpreiss.com/>
 - <http://www.datastructures.info/>
 - <http://www.informatics.susx.ac.uk/courses/dats/notes/pdf/notes.pdf>
 - <http://www.informatics.susx.ac.uk/courses/dats/notes/html/notes.html>
 
-## Skiplst
+### Skiplst
 
 - 이진 검색 트리보다 빠르다.
 - RB Tree보다 리벨런싱 부담이 적다.
@@ -42,7 +42,7 @@
   - <http://www.slideshare.net/jongwookkim/skip-list>
   - <http://en.literateprograms.org/Skip_list_(Java>)
 
-## Hashing, 암호화
+### Hashing, 암호화
 
 [MD5, SHA, 다이제스트, 솔트,
 이터레이션](http://whiteship.me/?p=13111)
@@ -50,7 +50,7 @@ PASSWORD HASHING ALGORITHMS\]CityHash
 Salt : 단방향 해쉬함수에서 다이제스트를 생성할 때 추가되는 바이트 단위의
 임의의 문자열
 
-## 재귀
+### 재귀
 
 - 꼬리 재귀 :  메서드 파라미터에 값을 축적시키는 방식..
 

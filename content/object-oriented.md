@@ -5,11 +5,11 @@
   - [OOP 설계의 5대 원칙, S.O.L.I.D.](http://parkpd.egloos.com/3339098)
   - [기본 OO 원칙 몇 가지 SRP, DIP, OCP](http://javacan.tistory.com/197)
 
-# SRP
+## SRP
 
 <http://arload.wordpress.com/2012/01/30/single-responsibility-princinple/>
 
-# 객체지향적 글쓰기
+## 객체지향적 글쓰기
 
 <http://mckdh.net/179>
 

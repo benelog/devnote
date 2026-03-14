@@ -16,32 +16,32 @@
 \]<http://turbomanage.wordpress.com/2012/09/28/annotation-processor-android-eclipse/>
 (Android에서 활용. Freemarker사용한점이 독측)
 
-# Maven + Eclipse integration
+## Maven + Eclipse integration
 
 <https://community.jboss.org/en/tools/blog/2012/05/20/annotation-processing-support-in-m2e-or-m2e-apt-100-is-out>
 
-# Tips
+## Tips
 
 <https://code.google.com/p/acris/wiki/AnnotationProcessing_DebuggingEclipse>환경설정과
 테스트 :
 <https://github.com/excilys/androidannotations/wiki/InstallingEnvironment>
 
-# 활용 사례
+## 활용 사례
 
-## Lombok
+### Lombok
 
 Getter/Setter생성, toString 같은 뻔한 코드를 Annotation으로 대체해서 쓸
 수 있는, 유명한 라이브러리입니다.
 EclipseAnnotationsEclipseAnnotationHandlerJavacAnnotationHandler
 
-## Android Annotations
+### Android Annotations
 
 안드로이드에서 자주 쓰는 메소드 호출을 Annotation으로 대체할 수 있는
 라이브러라입니다.예를 들면 Activity.findViewById메소드를에 대항하는
 @ViewById라는 Annotation이 있습니다.
 <https://github.com/excilys/androidannotations/wiki/Building-Project-Maven-Eclipse>
 
-## QueryDSL
+### QueryDSL
 
 AbstractQuerydslProcessorcom.mysema.query.apt.jpa.JPAAnnotationProcessor
 

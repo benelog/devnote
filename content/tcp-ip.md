@@ -3,7 +3,7 @@
 - [TCP에 관한 정리 (1)](http://neocode.egloos.com/1940628)
 - [MAC 주소를 속이는 방법](http://monac.egloos.com/1990631)
 
-# TCP 특징
+## TCP 특징
 
 - 신뢰성
 - 연결지향
@@ -12,11 +12,11 @@
 - 양반향 통신
 - 혼잡제어
 
-## Handshaking
+### Handshaking
 
 <https://mindnet.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-22%ED%8E%B8-TCP-3-WayHandshake-4-WayHandshake>
 
-### 연결
+#### 연결
 
 1.  (Client → Server) SYN
 
@@ -24,7 +24,7 @@
 
 3.  (Client → Server) ACK
 
-### Close
+#### Close
 
 1.  (Client → Server) FIN
 
@@ -42,20 +42,20 @@ CLOSE_WAIT는 timeout이 나지 않는다.
 [CLOSE_WAIT & TIME_WAIT 최종
 분석](http://tech.kakao.com/2016/04/21/closewait-timewait)
 
-## Linux tuning
+### Linux tuning
 
 - [리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 - 1편](http://meetup.toast.com/posts/53)
 - [리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 - 2편](http://meetup.toast.com/posts/54)
 - [리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기 - 3편](http://meetup.toast.com/posts/55)
 
-### TCP buffer size
+#### TCP buffer size
 
     sysctl -w net.core.rmem_max=16777216
     sysctl -w net.core.wmem_max=16777216
     sysctl -w net.ipv4.tcp_rmem="4096 87380 16777216"
     sysctl -w net.ipv4.tcp_wmem="4096 16384 16777216"
 
-### Queue size
+#### Queue size
 
 syn queue: 3-way handshake 중인 connection 이 대기
 
@@ -77,22 +77,22 @@ syn queue: 3-way handshake 중인 connection 이 대기
 /etc/sysctl.conf 를 수정하면 재부팅해도 동일하게 적용됨.
 `sudo /sbin/sysctl -p /etc/sysctl.conf` 로 반영
 
-### Ports
+#### Ports
 
     sysctl -w net.ipv4.ip_local_port_range="1024 65535"
     sysctl -w net.ipv4.tcp_tw_recycle=1
 - [tcp_tw_reuse와 tcp_tw_recycle](https://brunch.co.kr/@alden/3) : tw_use는 outing 트래픽에 대해 로컬 포트가 모자랄 경우, TW 상태에 있는 소켓을 재사용할 수 있게 해줍니다.
 
-### Congestion Control
+#### Congestion Control
 
     sysctl net.ipv4.tcp_available_congestion_control
     sysctl -w net.ipv4.tcp_congestion_control=cubic
 
-### File Descriptors
+#### File Descriptors
 
 `/etc/security/limits.conf`
 
-## Monitoring
+### Monitoring
 
     netstat -n -t | grep 'TIME_WAIT'
 

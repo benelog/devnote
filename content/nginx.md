@@ -1,11 +1,11 @@
 - [성능이 좋다고 하는 웹서버인 nginx 홈페이지와 위키…​ 그리고 Tomcat과의 연동Server/nginx](http://www.tuning-java.com/194)
 - <http://www.javajigi.net/pages/viewpage.action?pageId=257327108>
 
-# URL rewrite
+## URL rewrite
 
 <https://www.nginx.com/blog/creating-nginx-rewrite-rules/>
 
-# Service
+## Service
 
 service nginx force-reload
 
@@ -21,11 +21,11 @@ service nginx status
 
 service nginx stop
 
-# Disable auto start
+## Disable auto start
 
 sudo update-rc.d -f nginx disable
 
-# 설정
+## 설정
 
 - <http://bong8nim.com/post/programming/etc/nginx-config-manual/>
 - <https://www.linode.com/docs/web-servers/nginx/configure-nginx-for-optimized-performance>

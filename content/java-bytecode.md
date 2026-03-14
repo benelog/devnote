@@ -3,19 +3,19 @@
   - <http://www.slideshare.net/SpringCentral/bytecode-spring2gx2014>
 - [스프링캠프 2016 : BCI(BYTE CODE INSTRUMET) 기술 소개 및 활용 방안](https://www.youtube.com/watch?v=CgFY39zk5r8)
 
-# 예제
+## 예제
 
 - <https://github.com/spring-projects/spring-framework/blob/master/spring-context/src/main/java/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java>
 - <https://github.com/spring-projects/spring-framework/blob/master/spring-core/src/main/java/org/springframework/core/type/classreading/SimpleMetadataReader.java>
 - <https://github.com/spring-projects/spring-framework/commit/c16f18a5fd659f34d6290b5f2cffe54534b7592a>
 
-# BCI (Bytecode Instrumentation)
+## BCI (Bytecode Instrumentation)
 
 - [Power of bytecode instrumentation in java](http://architecture-guru.textcube.com/48)
 
-# Library
+## Library
 
-## ASM
+### ASM
 
 CGLIB 가 사용 ( CGLIB is a higher abstraction than ASM. )
 
@@ -23,24 +23,24 @@ CGLIB 가 사용 ( CGLIB is a higher abstraction than ASM. )
 - [ASM 클래스 만들기](http://whiteship.me/2625)
 - ASM의 Visitor패턴 :
 
-## BCEL
+### BCEL
 
 - Findbugs, AspectJ, Spring의 CGLIB→ Javassit migration :https://jira.springsource.org/browse/SPR-8190
 
-## SERP
+### SERP
 
 - <http://serp.sourceforge.net/>
 
-## Javassist
+### Javassist
 
 - <https://github.com/jboss-javassist/javassist>
 
-## 비교
+### 비교
 
 - <http://www.java-opensource.com/open-source/bytecode-libraries.html>
 - BCEL vs ASM : <http://blog.naver.com/PostView.nhn?blogId=junsu60&logNo=80123035668>
 
-# Framework 의존성
+## Framework 의존성
 
 - Hibenate의 Javassist → Bytebuddy : <https://github.com/hibernate/hibernate-orm/pull/1622>
 - Spring의 관련 이슈

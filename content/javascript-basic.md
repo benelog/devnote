@@ -1,20 +1,20 @@
 
-# 가이드
+## 가이드
 
 - [NHN Entertainment FE coding convention](https://github.com/nhnent/fe.javascript/wiki/%EC%BD%94%EB%94%A9-%EC%BB%A8%EB%B2%A4%EC%85%98)
 - <https://github.com/tipjs/javascript-style-guide>
 - <http://javascript.crockford.com/code.html>
 - <https://developer.mozilla.org/ko/docs/A_re-introduction_to_JavaScript>
 
-# Tips
+## Tips
 
 - [‘제다이급’ 자바스크립트 고수들이 전하는 6가지 개발팁](http://www.itworld.co.kr/news/84870)
 
-# Promise
+## Promise
 
 - <http://www.html5rocks.com/ko/tutorials/es6/promises/>
 
-# Pattern
+## Pattern
 
 - <https://addyosmani.com/resources/essentialjsdesignpatterns/book/>
 

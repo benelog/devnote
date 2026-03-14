@@ -28,17 +28,17 @@ DATE_FORMAT(now(),'%Y%m%d%H%i%s')
 [프랜드피드는 어떻게 MySQL을 사용해서 스키마 없는 데이터를 저장하나"
 요약](http://colus.egloos.com/5104902)
 
-# Update
+## Update
 
 <http://dev.mysql.com/doc/refman/5.0/en/update.html>
 
 \[\]
 
-# GUI tool
+## GUI tool
 
 <http://dev.mysql.com/downloads/gui-tools/5.0.html>
 
-# 날짜
+## 날짜
 
 DAYOFWEEK(date)
 
@@ -55,7 +55,7 @@ DATE_FORMAT(date_add(cast(gijun_ymd as date), interval
 
 <http://jeongsam.net/112>
 
-# Index
+## Index
 
 show index from tb_fund_chart_weekly
 
@@ -63,38 +63,38 @@ alter table 테이블명 add index 인덱스명 (칼럼명);
 
 CREATE INDEX \<인덱스명\> ON \<테이블명\> ( 칼럼명1, 칼럼명2, …​ );
 
-# Cache
+## Cache
 
 <http://dev.mysql.com/doc/refman/5.1/en/ha-memcached-interfaces-mysqludf.html>http://dev.mysql.com/doc/refman/5.1/en/ha-memcached-interfaces-mysqludf.html\[<http://dev.mysql.com/doc/refman/5.1/en/ha-memcached-interfaces-mysqludf.html>\]
 
 <http://planet.mysql.com/entry/?id=26207>
 
-## mysql jdbc
+### mysql jdbc
 
 **socketTimeout=60000&connectTimeout=60000**
 
-# Innodb vs Myisam
+## Innodb vs Myisam
 
 <http://dev.kthcorp.com/2011/06/17/why-we-need-to-use-innodb-on-mysql-vs-myisam-comparison/>
 
-# Meta table
+## Meta table
 
 select \* from mysql.userselect \* from mysql.dbselect version()select
 \* from mysql.general_logshow variables like 'log_output'
 
-# replication delay
+## replication delay
 
 <http://www.mysqlperformanceblog.com/2011/07/29/reasons-for-mysql-replication-lag/>
 
-# load data infile
+## load data infile
 
-## options
+### options
 
 <http://dev.mysql.com/doc/refman/5.1/en/load-data.html>http://dev.mysql.com/doc/refman/5.1/en/mysqlimport.html\[<http://dev.mysql.com/doc/refman/5.1/en/mysqlimport.html>\]
 
-## performance
+### performance
 
-##  : 옵션 조정해서 비교하는 사례
+###  : 옵션 조정해서 비교하는 사례
 
 <http://www.mysqlperformanceblog.com/2008/07/03/how-to-load-large-files-safely-into-innodb-with-load-data-infile/>
 : perl script이용 chunk 사이즈
@@ -103,7 +103,7 @@ select \* from mysql.userselect \* from mysql.dbselect version()select
 <http://dev.mysql.com/doc/refman/5.1/en/insert-speed.html>http://kvz.io/blog/2009/03/31/improve-mysql-insert-performance/\[<http://kvz.io/blog/2009/03/31/improve-mysql-insert-performance/>\]
 insert delayed : (myisam에서만 가능)
 
-## JDBC에 속성포함 예제
+### JDBC에 속성포함 예제
 
 jdbc:mysql://127.0.0.1/test?logger=com.mysql.jdbc.log.Slf4JLogger&logSlowQueries=true&slowQueryThresholdMillis=1500&dumpQueriesOnException=true&explainSlowQueries=true&connectTimeout=1000&socketTimeout=2000
 
@@ -121,9 +121,9 @@ Column not found 에러 :
 
 AsciiDoc
 
-# 대용량데이터 처리를 위한 MySQL 최적화
+## 대용량데이터 처리를 위한 MySQL 최적화
 
-## "useServerPrepStmt=true" 옵션
+### "useServerPrepStmt=true" 옵션
 
 - MySQL 서버에서 preparedStatement 를 파싱한 정보를 재활용하도록 유도하는 옵션
 - MySQL Connector/J에서 useServerPrepStmt 옵션의 기본값은 false
@@ -141,7 +141,7 @@ AsciiDoc
   - <https://vladmihalcea.com/mysql-jdbc-statement-caching/>
   - <https://tech.kakaopay.com/post/how-preparedstatement-works-in-our-apps/>
 
-## 쓰기 성능 높이기 ( rewriteBatchedStatements=true 옵션)
+### 쓰기 성능 높이기 ( rewriteBatchedStatements=true 옵션)
 
 - batchUpdate 쿼리를 합쳐서 성능을 높여줌 (multi-row insert)
   - dump & restore에도 활용됨
@@ -160,14 +160,14 @@ AsciiDoc
   - <https://camel-context.tistory.com/81>
   - <https://dev.mysql.com/doc/relnotes/connector-j/en/news-8-0-29.html>
 
-## 대용량 데이터 조회를 위한 옵션 파라미터
+### 대용량 데이터 조회를 위한 옵션 파라미터
 
 디폴트옵션들로는 MySQL에서는 JdbcCursorItemReader를 써도 OOM 날 수도
 있음. 이를 위한 방법은 디폴트 옵션일때 사용되는 클라이언트사이드 커서는
 모든 결과를 다 다운로드함. 이를 해결하기 위해 ResultSet Streaming, 서버
 커서 사용할수 있음.
 
-### ResultSet Streaming
+#### ResultSet Streaming
 
 많은 건의 데이터를 한번에 받지 않고 Streaming으로 흘러보내면서 받는 방법
 아래와 같이 Statement를 만들어야함.
@@ -209,7 +209,7 @@ verifyCursorPosition을 default값인 true로 둘 경우 아래와 같은 에러
 
     peration not allowed for a result set of type ResultSet.TYPE_FORWARD_ONLY.; nested exception is java.sql.SQLException: Operation not allowed for a result set of type ResultSet.TYPE_FORWARD_ONLY.
 
-### 서버 커서
+#### 서버 커서
 
 - MySQL 서버쪽에서 쿼리 결과를 담는 임시테이블을 만듬.
 - JDBC URL에 "useCursorFetch=true" 옵션으로 가능해짐

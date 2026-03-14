@@ -24,7 +24,7 @@ Big Data 세계로의 입문 :
 
 <http://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/>
 
-# Nosql
+## Nosql
 
 <http://horicky.blogspot.com/2009/11/nosql-patterns.html>
 
@@ -41,7 +41,7 @@ NoSQL](http://www.ibm.com/developerworks/kr/library/j-javadev2-8/)
 
 <http://www.infoq.com/articles/nosql-in-the-enterprise>
 
-# Casandra
+## Casandra
 
 [Introduction of Cassandra](http://bcho.tistory.com/440)
 
@@ -56,7 +56,7 @@ NoSQL](http://www.ibm.com/developerworks/kr/library/j-javadev2-8/)
 [Mysql 대체
 움직임](http://radar.ndsl.kr/tre_View.do?ct=TREND&clk=&lp=TM&cn=GTB2010030088&gotoPage=1&clcd=J)
 
-# Mongo DB
+## Mongo DB
 
 [MongoDB 소개 팀내 발표
 자료](http://javacan.tistory.com/entry/MongoDB-%EC%86%8C%EA%B0%9C-%ED%8C%80%EB%82%B4-%EB%B0%9C%ED%91%9C-%EC%9E%90%EB%A3%8C)
@@ -65,13 +65,13 @@ NoSQL](http://www.ibm.com/developerworks/kr/library/j-javadev2-8/)
 
 [MongoDB + Morphia Project](http://blog.doortts.com/178)
 
-# No sql news
+## No sql news
 
 <http://itmanagement.earthweb.com/datbus/article.php/3870116/Digg-Moves-From-MySQL-to-NoSQL.htm>
 
 <http://research.microsoft.com/en-us/people/sriram/raghuramakrishnan.pdf>
 
-# Gemstone
+## Gemstone
 
 <http://jagslog.blogspot.com/2010/05/springsourcevmware-acquires-gemstone.html>
 
@@ -79,19 +79,19 @@ NoSQL](http://www.ibm.com/developerworks/kr/library/j-javadev2-8/)
 
     http://www.gemstone.com/news/2010/07/08/gemfires-data-aware-execution-service-achieves-groundbreaking-performance-on-recent-stac-benchmark/[http://www.gemstone.com/news/2010/07/08/gemfires-data-aware-execution-service-achieves-groundbreaking-performance-on-recent-stac-benchmark/]
 
-# Flock db
+## Flock db
 
 <http://engineering.twitter.com/2010/05/introducing-flockdb.html>
 
-# Redis
+## Redis
 
 <http://antirez.com/post/autocomplete-with-redis.html>
 
-# DB slayer
+## DB slayer
 
 <http://code.nytimes.com/projects/dbslayer>
 
-# CAP 이론
+## CAP 이론
 
 <http://cacm.acm.org/blogs/blog-cacm/83396-errors-in-database-systems-eventual-consistency-and-the-cap-theorem/fulltext>
 
@@ -101,7 +101,7 @@ NoSQL](http://www.ibm.com/developerworks/kr/library/j-javadev2-8/)
 
 <http://eincs.net/2013/07/misleading-and-truth-of-cap-theorem/>
 
-# Mysql Clouster
+## Mysql Clouster
 
 [http://xeround.com](http://xeround.com/)
 

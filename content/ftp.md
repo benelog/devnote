@@ -1,10 +1,10 @@
-# Active 모드와 Passive 모드
+## Active 모드와 Passive 모드
 
 <http://blog.naver.com/geeksblog/20028104462>
 
 <http://wearekorean.co.kr/zbxe/400>
 
-## Command로 접근
+### Command로 접근
 
 <http://linux.byexamples.com/archives/320/using-curl-to-access-ftp-server/>
 
@@ -16,7 +16,7 @@ curl -T test.py ftps://benelog.net:2121 -u user:password -k
 
 wget <ftp://user:password@benelog.net/file.out>
 
-## SFTP vs FTPS
+### SFTP vs FTPS
 
 - SFTP : SSH File Transfer Protocol. SSH Key 사용 . 1 port. firewell friendly
 - FPTS = FTP over SSL
@@ -27,12 +27,12 @@ wget <ftp://user:password@benelog.net/file.out>
 
     With FTPS the control session is always encrypted, but the data session might not be. Why is this? Because with the control session encrypted the authentication is protected and you always want this (normal ftp uses clear text).
 
-## Ftps 키 발급
+### Ftps 키 발급
 
 -genkey -alias keyAlias -keyalg RSA -keypass pass0101 -storepass
 pass0101 -keystore ftpkeystore.jks
 
-# Command
+## Command
 
 ascii : 전송모드를 ASCII모드로 설정한다.(ascii또는 as)
 

@@ -1,9 +1,9 @@
-# PSD 활용 사례
+## PSD 활용 사례
 
 - 웹에서 보기 : <https://github.com/hawkthorne/hawkthorne-server-lua/blob/ac50b30e50f9e20f7b6926432d19719c96f0d5af/psds/jeff.psd>
 - 변경 내력 : <https://github.com/hawkthorne/hawkthorne-server-lua/commit/ac50b30e50f9e20f7b6926432d19719c96f0d5af#diff-1edae442c937d30cd61fe474d48ee585>
 
-# Java SDK
+## Java SDK
 
 ``` java
 package com.example;
@@ -29,7 +29,7 @@ public class GithubClientTest {
 }
 ```
 
-# Jenkins plugin
+## Jenkins plugin
 
 - <https://github.com/jenkinsci/ghprb-plugin>
 - <https://github.com/jenkinsci/github-pr-coverage-status-plugin>

@@ -3,7 +3,7 @@
 
 <http://iam.guillaume.bort.fr/post/558830013/why-there-is-no-servlets-in-play>
 
-# Play 특이한점
+## Play 특이한점
 
 정상적인 처리에도 Return 값 대신 Exception을 날림:
 

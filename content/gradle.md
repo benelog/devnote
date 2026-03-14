@@ -3,7 +3,7 @@
 - <https://github.com/ihoneymon/rocking-the-gradle>
 - [손권남님이 느낀 Maven이 Gradle보다 좋았던 점](http://kwonnam.pe.kr/wiki/gradle/from_maven)
 
-# Publising
+## Publising
 
 - <http://chris.banes.me/2013/08/27/pushing-aars-to-maven-central/>
 - <https://github.com/chrisbanes/gradle-mvn-push>

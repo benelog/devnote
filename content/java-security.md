@@ -1,6 +1,6 @@
 <https://github.com/kantega/notsoserial>
 
-# Struts2
+## Struts2
 
 참고 : OGNL 명세
 www.ognl.org/2.6.9/Documentation/html/LanguageGuide/expressionEvaluation.html
@@ -11,7 +11,7 @@ www.ognl.org/2.6.9/Documentation/html/LanguageGuide/expressionEvaluation.html
 "\\w+<span class="indexterm"
 primary="\\.\\w+)|(\\[\\d+\\])|(\\(\\d+\\"></span>\\.\\w+)\|(\\\[\\d+\\\])\|(\\(\\d+\\\|(\\\['\\w+'\\\])\|(\\('\\w+'\\)))**";
 
-## s2-005, CVE-2010-1870
+### s2-005, CVE-2010-1870
 
 <http://struts.apache.org/development/2.x/docs/s2-005.html>
 
@@ -32,13 +32,13 @@ primary="'\u0023rt.exit(1)')(\u0023rtu003d@java.lang.Runtime@getRuntime("></span
 
 \u0023 = '#'
 
-### 관련 Commit
+#### 관련 Commit
 
 2010/ 6/20
 
 <http://sebug.net/exploit/19954/>
 
-## s2-008
+### s2-008
 
 <http://struts.apache.org/development/2.x/docs/s2-008.html>
 
@@ -50,11 +50,11 @@ primary="'\u0023rt.exit(1)')(\u0023rtu003d@java.lang.Runtime@getRuntime("></span
 
 Strict DMI mode
 
-### 관련 commit
+#### 관련 commit
 
 2012/12/24 :
 
-## s2-009 , CVE-2011-3923
+### s2-009 , CVE-2011-3923
 
 <http://struts.apache.org/development/2.x/docs/s2-009.html>
 
@@ -74,7 +74,7 @@ CVE-2010-1870..
 <http://packetstormsecurity.com/files/120908/struts_code_exec_parameters.rb.txt>
 관련포럼: <http://seclists.org/bugtraq/2012/Aug/135>
 
-### 관련 commit
+#### 관련 commit
 
 2012/01/19 :
 

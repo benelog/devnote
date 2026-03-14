@@ -1,9 +1,9 @@
-# Test framework
+## Test framework
 
 - [Vogar](https://code.google.com/p/vogar/wiki/Examples)
 - [Caliper on Android](https://code.google.com/p/caliper/wiki/CaliperOnAndroid)
 
-# 최적화 기법
+## 최적화 기법
 
 - ConvertView Adaptor의 getView에서 convertView 파라미터가 null일때만 inflate ViewWrapper : findByView를 매번 사용하지 않도록
 
@@ -20,7 +20,7 @@ Strict mode 사용 :
 [안드로이드 설계코드 노하우 및
 개발방법](http://www.hanb.co.kr/network/view.html?bi_id=1694)
 
-# 기초
+## 기초
 
 용어
 
@@ -54,12 +54,12 @@ stop : 완벽하게 다른 Activity로 가려진 상태
 - visible lifetime : onStart → onStop
 - foreground lifetime : onResume(), onPause() \*
 
-## 이미지
+### 이미지
 
 [\[팁](http://javacan.tistory.com/243) 안드로이드 이미지 크기 구하기 및
 변경하기\] : BitmapFactory.decodeFile 을 이용
 
-## Intent
+### Intent
 
 <http://developer.android.com/guide/appendix/g-app-intents.html>
 
@@ -68,7 +68,7 @@ Key event
 [\[팁](http://javacan.tistory.com/235) 안드로이드에서 백버튼 두 번 눌러
 종료하기\]
 
-## Cache
+### Cache
 
 [안드로이드에서 파일 캐시 구현하기](http://javacan.tistory.com/237)
 
@@ -81,7 +81,7 @@ face="dotum"\> AsyncExecutor 활용 \</font\>
 [안드로이드에서 URL 이미지를 ImageView에
 보여주기](http://javacan.tistory.com/240)
 
-## Android binding
+### Android binding
 
 designed to separate the activity from working directly on the user
 interfaces.
@@ -96,9 +96,9 @@ use RoboGuice and Binding together in the same application
 Where I think Binding really shines is in larger business applications
 that have data entry and validation requirements
 
-## Multi language
+### Multi language
 
-### PHP for android
+#### PHP for android
 
 <http://phpforandroid.net/screencast>
 
@@ -106,20 +106,20 @@ that have data entry and validation requirements
 
 <http://www.appcelerator.com/products/titanium-mobile-application-development/>
 
-## Android inside
+### Android inside
 
-### \<font size="2"\> the Dalvik VM is based on a subset of the Apache Harmony project for its core class library.\</font\>
+#### \<font size="2"\> the Dalvik VM is based on a subset of the Apache Harmony project for its core class library.\</font\>
 
 \<font size="2"\> \</font\>
 
-### Bind
+#### Bind
 
 안드로이드 프로세스의 통신 메커니즘 :
 <http://helloworld.naver.com/helloworld/47656>
 
 Bind는 안드로이드 자체의 IPC 메커니즘.
 
-### 안드로이드의 시스템 서비스(메모리, 스피커, 위치정보, 카메라)등도 결국 다른 프로세스다.
+#### 안드로이드의 시스템 서비스(메모리, 스피커, 위치정보, 카메라)등도 결국 다른 프로세스다.
 
 다른 프로세스와의 통신에 쓰이는게 Binder. IPC를 사용하지 않았다.
 커널메모리를 참조해서 메모리 복사의 오버헤드가 적다. Linux 커널에 포함
@@ -127,13 +127,13 @@ Bind는 안드로이드 자체의 IPC 메커니즘.
 
 ContextManager 가 부팅시에 바인더를 위한 핸들정보를 등록한다.
 
-### Zygote
+#### Zygote
 
 앱의 로딩 시간을 단축시키기 위한 프로세스. Java기반의 앱은 Zygote를 통해
 fork된 프로세스로 실행. System Service Zygote로 최초로 fork되는
 안드로이드 애플리케이션 프로세스. ActivityManager, LocationManager 등
 
-# UI 성능 문제
+## UI 성능 문제
 
 Android UI가 버벅이는 이유 : <http://eggy.egloos.com/3776976>
 
@@ -142,7 +142,7 @@ Android UI가 버벅이는 이유 : <http://eggy.egloos.com/3776976>
 
 안드로이드 그래픽에 대한 진실들 : <http://eggy.egloos.com/3776975>
 
-# 주의할점
+## 주의할점
 
 - 똑같이 Context로 보여도 Activity, Application 등 실제로는 다양한 객체다
 - singleton에서 context를 보유할때 Application을 얻도록 해라.. 안그러면 메모리릭 등에 취약하다
@@ -150,7 +150,7 @@ Android UI가 버벅이는 이유 : <http://eggy.egloos.com/3776976>
 
 UI cataloghttp://www.androidviews.net/\[<http://www.androidviews.net/>\]
 
-# CookieManager
+## CookieManager
 
 - <http://stackoverflow.com/questions/11224454/android-share-session-between-webview-and-httpclient>
 - <http://stackoverflow.com/questions/18057624/two-way-sync-for-cookies-between-httpurlconnection-java-net-cookiemanager-and>

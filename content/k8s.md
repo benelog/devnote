@@ -7,11 +7,11 @@
 - [대규모 Kubernetes 클러스터 구축기](https://engineering.linecorp.com/ko/blog/building-large-kubernetes-cluster/)
 - <https://gokube.io/media/Diving-Deep-Into-Kubernetes-Networking.pdf>
 
-# Warmup
+## Warmup
 
 - <https://engineering.linecorp.com/ko/blog/apply-warm-up-in-spring-boot-and-kubernetes>
 
-# Scheduling
+## Scheduling
 
 - <https://github.com/kubernetes-retired/kube-batch>
 - <https://github.com/volcano-sh/volcano>

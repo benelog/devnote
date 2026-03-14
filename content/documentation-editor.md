@@ -1,8 +1,8 @@
-## Rich editor
+### Rich editor
 
 - <https://yabwe.github.io/medium-editor/> : 미디엄 스타일
 
-## Markdown Editor
+### Markdown Editor
 
 - <http://vuejs.org/examples/>
 - <http://www.codingdrama.com/bootstrap-markdown/>

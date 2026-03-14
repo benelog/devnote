@@ -1,6 +1,6 @@
-# 성능 비교자료
+## 성능 비교자료
 
-## Jackson이 우세한 자료
+### Jackson이 우세한 자료
 
 <http://code.google.com/p/thrift-protobuf-compare/wiki/Benchmarking>
 
@@ -17,11 +17,11 @@ Jackson의 Streamming API 사용
 
 <http://www.cowtowncoder.com/blog/archives/2009/09/entry_326.html>
 
-## Gson이 우세한 자료
+### Gson이 우세한 자료
 
 <http://geek.amindstretched.com/2012/07/gson-vs-jackson-which-library-is-faster.html>
 
-# Jackson 사용팁
+## Jackson 사용팁
 
 - <http://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion>
 

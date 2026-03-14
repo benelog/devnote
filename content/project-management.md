@@ -24,12 +24,12 @@ IT조직들](http://www.zdnet.co.kr/itbiz/column/anchor/yscho/0,39044217,3917247
 [차세대 IT 프로젝트 '실패’에서
 배운다](http://www.ciobiz.co.kr/news/articleView.html?idxno=975)
 
-# Agile
+## Agile
 
 - [Principles behind the Agile Manifesto](https://agilemanifesto.org/principles.html)
 - [Atlassian의 애자일 문서](https://www.atlassian.com/agile)
 
-# 추정
+## 추정
 
 - <https://www.brightball.com/articles/story-points-are-pointless-measure-queues>
 

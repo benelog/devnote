@@ -12,7 +12,7 @@
 [Machine이 32bit인지 64bit인지
 구분하기](http://alones.byus.net/moniwiki/wiki.php/c_cpp_tips_32_64?action=show)
 
-# Malloc
+## Malloc
 
 [멀티 쓰레드 환경에서 Memory
 Allocator](http://www.mimul.com/pebble/default/2011/05/15/1305469792430.html)

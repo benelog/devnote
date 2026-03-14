@@ -1,6 +1,6 @@
-# Web page test
+## Web page test
 
-## HTTPUnit
+### HTTPUnit
 
 - [http://httpunit.sourceforge.net](http://httpunit.sourceforge.net/)
 - HTMLUnit과 유사. Http요청과 반응을 사용.
@@ -9,7 +9,7 @@
 - <http://blog.naver.com/jadin1?Redirect=Log&logNo=70018383230>
 - 대표적 API <http://httpunit.sourceforge.net/doc/api/com/meterware/httpunit/WebResponse.html>
 
-## HTMLUnit
+### HTMLUnit
 
 - <http://htmlunit.sourceforge.net/> \*
 - 웹브라우저를 시뮬레이트
@@ -18,7 +18,7 @@
 - <http://htmlunit.sourceforge.net/apidocs/com/gargoylesoftware/htmlunit/CookieManager.html>
 - <http://htmlunit.sourceforge.net/apidocs/com/gargoylesoftware/htmlunit/html/HtmlPage.html>
 
-## jwebunit
+### jwebunit
 
 - <http://jwebunit.sourceforge.net/>
 - Junit + HttpUnit의 테스트코드를 더욱 간결하게 만들어서 제공
@@ -36,7 +36,7 @@ response = httpunitLink.click(); System.out.println("Test successful
 !!"); } catch (Exception e) { System.err.println("Exception: " + e); } }
 }
 
-## Selenium
+### Selenium
 
 - <http://www.openqa.org/selenium/> MockStrutsTestCase
 
@@ -60,11 +60,11 @@ Selenium RC 를 사용해보자. II\]
 [Selenium RC를 이용한 웹 애플리케이션
 테스트](http://www.ibm.com/developerworks/kr/library/wa-testweb/index.html)
 
-## Watij
+### Watij
 
 [WebDriver와 PageObject 패턴](http://toby.epril.com/?p=752)
 
-## Web driver
+### Web driver
 
 [WebDriver와 PageObject 패턴](http://toby.epril.com/?p=752)
 
@@ -78,13 +78,13 @@ Selenium RC 를 사용해보자. II\]
 
 [webdriver - NextSteps](http://whiteship.me/2225)
 
-## Cacus
+### Cacus
 
 - <http://jakarta.apache.org/cactus/>
 - <http://jakarta.apache-korea.org/cactus/>
 - [Cactus를 이용한 효율적인 테스트 전략](http://wiki.javajigi.net/pages/viewpage.action?pageId=279)
 
-## Cargo
+### Cargo
 
 <http://cargo.codehaus.org/>
 
@@ -92,12 +92,12 @@ Selenium RC 를 사용해보자. II\]
 
 [Cargo의 TomcatManager](http://whiteship.me/2229)
 
-## FIT
+### FIT
 
 [웹 테스트 프레임워크(WebTUnit) 사용 시나리오 1. 웹 테스트 + 테스트
 클래스 단위 데이터 관리](http://fit.c2.com/)
 
-## 기타
+### 기타
 
 [웹 통합 테스트 프레임워크 개발 중](http://whiteship.me/2236)
 
@@ -114,7 +114,7 @@ Selenium RC 를 사용해보자. II\]
 
 [WebTUnit 1.0 M1 배포합니다.](http://whiteship.me/2245)
 
-# 사례
+## 사례
 
 - [Selenium과 Cucumber를 활용해 웹 테스트 자동화하기 1](http://www.slipp.net/wiki/pages/viewpage.action?pageId=1736714)
 - [Selenium과 Cucumber를 활용해 웹 테스트 자동화하기 2 - Feature별 실행](http://www.slipp.net/wiki/pages/viewpage.action?pageId=1736718)

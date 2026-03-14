@@ -2,7 +2,7 @@
 
 <http://thecleancoder.blogspot.com/2010/08/why-clojure.html>
 
-# 기초
+## 기초
 
 [Clojure 프로그래밍
 언어](http://www.ibm.com/developerworks/kr/library/os-eclipse-clojure/)
@@ -20,7 +20,7 @@
 [Clojure와
 동시성](http://www.ibm.com/developerworks/kr/library/wa-clojure/index.html)
 
-# 성능비교
+## 성능비교
 
 <http://berlinbrowndev.blogspot.com/2009/07/jvm-notebook-basic-clojure-java-and-jvm.html>
 

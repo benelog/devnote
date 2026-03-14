@@ -86,7 +86,7 @@ Modules](http://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf)
 </tbody>
 </table>
 
-# CBD
+## CBD
 
 component도출:
 
@@ -97,28 +97,28 @@ component도출:
 
 모듈내부의 응집도는 강하게, 모듈간의 결합도는 낮게
 
-# 정보공학방법론
+## 정보공학방법론
 
 - Entity Relation Diagram
 - 기능/프로세스 분해도
 
-# 구조적 방법론
+## 구조적 방법론
 
 - Data Flow Diagram
 - 외부입출력, 처리, 자료저장소, 자료흐름
 - 자료사전(Data Dictionary)
 - 소단위 명세서
 
-# 생산성 차이
+## 생산성 차이
 
 <http://forums.construx.com/blogs/stevemcc/archive/2008/03/27/productivity-variations-among-software-developers-and-teams-the-origin-of-quot-10x-quot.aspx>
 
-## 소프트웨어 컨플릭트 2.0 디버깅 , P68페이지
+### 소프트웨어 컨플릭트 2.0 디버깅 , P68페이지
 
 - 생산성 : 어떤 사람들은 다른 사람들보다 5배나 우수하다
 - 디버깅 : 어떤 사람들은 다른 사람들보다 28배나 우수하다.
 
-# 추정
+## 추정
 
 추정을 전혀 하지 않은 프로젝트가 생산성 측면에서 가장 성공적이었고, 그
 다음은 기술자들이 추정을 수행한 프로젝트, 관리자가 추정을 한 프로젝트는
@@ -134,7 +134,7 @@ Maintenance Programmers. Englewood Cliffs, NH: Prentice-Hall
 
 [카드와 수신호](http://agile.egloos.com/4930312)
 
-# 요구분석 기법
+## 요구분석 기법
 
 - [유스케이스나 사용자스토리 크기 기준](http://cavin.egloos.com/4869054)
 

@@ -1,6 +1,6 @@
 - <https://softwaremill.com/kafka-visualisation/>
 
-# 고승범 님 자료
+## 고승범 님 자료
 
 - <https://www.popit.kr/author/peter5236>
 - <https://www.slideshare.net/ifkakao/ss-113145591>

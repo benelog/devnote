@@ -1,15 +1,15 @@
 데이터 변경을 요청하면 이전 버전을 보존
 
-# Scala
+## Scala
 
 - <http://stackoverflow.com/questions/3107151/persistent-data-structures-in-scala>
 
-# Java
+## Java
 
 - <http://pcollections.org/>
 - <https://github.com/andrewoma/dexx>
 
-# Javascript
+## Javascript
 
 ## Related
 - [[clojure]]

@@ -1,4 +1,4 @@
-# Pattern
+## Pattern
 
 \<ul\>\<li
 style="list-style: disc outside url("bullet.gif");"\>Activity안에서
@@ -9,14 +9,14 @@ url("bullet.gif");"\>Persist early, Persist often\</li\>\<li
 style="list-style: disc outside url("bullet.gif");"\>Service,
 ContentProvider, SyncAdaptor 등을 활용하는 3가지 패턴 권장\</li\>\</ul\>
 
-# 기본 클래스
+## 기본 클래스
 
-## [AndroidHttpClient](https://developer.android.com/reference/android/net/http/AndroidHttpClient.html)
+### [AndroidHttpClient](https://developer.android.com/reference/android/net/http/AndroidHttpClient.html)
 
 implementation of the Apache DefaultHttpClient that is configured with
 reasonable default settings
 
-## [HttpUrlConnection](http://developer.android.com/reference/java/net/HttpURLConnection.html)
+### [HttpUrlConnection](http://developer.android.com/reference/java/net/HttpURLConnection.html)
 
 By default, this implementation of HttpURLConnection requests that
 servers use gzip compression.
@@ -28,7 +28,7 @@ Bugs
 [Issue 2939: The chunked HTTT input stream must hurry the underlying
 stream](http://code.google.com/p/android/issues/detail?id=2939)
 
-### AndroidHttpClient.java
+#### AndroidHttpClient.java
 
     main 쓰레드에서 못 돌도록
 
@@ -41,15 +41,15 @@ style="list-style: disc outside url("bullet.gif");"\>redirect :
 false\</li\>\<li style="list-style: disc outside
 url("bullet.gif");"\>ThreadSafeClientConnManager 사용 \</li\>\</ul\>
 
-### [HttpResponseCache](https://developer.android.com/reference/android/net/http/HttpResponseCache.html)
+#### [HttpResponseCache](https://developer.android.com/reference/android/net/http/HttpResponseCache.html)
 
 Http 표준 스펙에 의해 Cache
 
 <http://android-developers.blogspot.kr/2011/09/androids-http-clients.html>
 
-# Frameworks
+## Frameworks
 
-## [Spring Android](http://www.springsource.org/spring-android)
+### [Spring Android](http://www.springsource.org/spring-android)
 
 \<ul\>\<li style="list-style: disc outside url("bullet.gif");"\>
 <http://www.infoq.com/presentations/Native-Android-Development-Practices>
@@ -69,9 +69,9 @@ style="list-style: disc outside url("bullet.gif");"\>Gson등 Android에
 
 질문 PoolingClientConnectionManager은 Spring의 언제부터 들어갔는가?
 
-## [google-http-java-client](https://code.google.com/p/google-http-java-client/)
+### [google-http-java-client](https://code.google.com/p/google-http-java-client/)
 
-## [Retrofit](https://github.com/square/retrofit)
+### [Retrofit](https://github.com/square/retrofit)
 
 \<ul\>\<li style="list-style: disc outside
 url("bullet.gif");"\>Squre에서 쓰이고 있는걸 공개\</li\>\<li
@@ -80,17 +80,17 @@ Android annotations와 비슷한 형태 (interface에 Annotation으로 REST 호�
 정도 기술)\</li\>\<li style="list-style: disc outside
 url("bullet.gif");"\>Async에 대한 처리가 다소 편한듯.\</li\>\</ul\>
 
-## [Android Asunchronous Http Client](http://loopj.com/android-async-http/)
+### [Android Asunchronous Http Client](http://loopj.com/android-async-http/)
 
-## [Http request](https://github.com/kevinsawicki/http-request)
+### [Http request](https://github.com/kevinsawicki/http-request)
 
 \<ul\>\<li style="list-style: disc outside url("bullet.gif");"\>The
 single goal of this library is to improve the usability of the
 HttpURLConnection class.\</li\>\</ul\>
 
-## [DataDroid](https://github.com/foxykeep/DataDroid)
+### [DataDroid](https://github.com/foxykeep/DataDroid)
 
-## [HttpResponseCache](https://github.com/candrews/HttpResponseCache)
+### [HttpResponseCache](https://github.com/candrews/HttpResponseCache)
 
 \<ul\>\<li style="list-style: disc outside
 url("bullet.gif");"\>ICS이후의
@@ -107,7 +107,7 @@ url("bullet.gif");"\>Javascript 파일 같은 자원의 Cache가 이득이 있�
 Webview를 쓸때도 적용이 될 수 있어야할 듯. 확인
 필요\</li\>\</ul\>\</li\>\</ul\>
 
-## OKHttp
+### OKHttp
 
 <http://square.github.io/okhttp/>
 

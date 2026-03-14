@@ -1,69 +1,69 @@
 모음 : <https://gist.github.com/ragingwind/5840075>
 
-# Twitter
+## Twitter
 
 - <http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster>
 
-# Facebook
+## Facebook
 
 - Facebook geographic distributed architecture : <http://bcho.tistory.com/416>
 - <http://www.infoq.com/presentations/Scale-at-Facebook>
 
-# Tumblr
+## Tumblr
 
 - [Tumblr Architecture - 15 Billion Page Views a Month and Harder to Scale than Twitter](http://ti.nhncorp.com/CS/cs.jsp?tsd=2012-02-21&tsu=http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html) High Scalability
 - [How Tumblr went from wee to webscale](http://ti.nhncorp.com/CS/cs.jsp?tsd=2012-02-22&tsu=http://gigaom.com/cloud/how-tumblr-went-from-wee-to-webscale/) Gigaom
 - [Tumblr가 가진 기술과 개발 문화](http://www.mimul.com/pebble/default/2012/09/14/1347604822256.html)
 
-# Evernote
+## Evernote
 
 - <http://highscalability.com/blog/2011/5/23/evernote-architecture-9-million-users-and-150-million-reques.html> \* [http://www.mimul.com/pebble/default/2012/03/02/1330664364631.html](http://blog.evernote.com/tech/2011/05/17/architectural-digest/#http://www.mimul.com/pebble/default/2012/03/02/1330664364631.html)
 
-# Netfix
+## Netfix
 
 <http://www.mimul.com/pebble/default/2012/09/06/1346890689112.html>
 
-# Soundcloud
+## Soundcloud
 
 - <http://backstage.soundcloud.com/evolution-of-soundclouds-architecture/>
 - <http://www.looah.com/article/view/1652>
 
-# Stackoverflow
+## Stackoverflow
 
 <http://yisangwook.tumblr.com/post/73202754212/stackoverflow-com>
 
-# AOL
+## AOL
 
 - <http://highscalability.com/blog/2014/2/17/how-the-aolcom-architecture-evolved-to-99999-availability-8.html>
 
-# Whatsapp
+## Whatsapp
 
 <http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html>
 
-# Line
+## Line
 
 - <http://helloworld.naver.com/helloworld/809802>
 - <http://helloworld.naver.com/helloworld/551588>
 - <https://engineering.linecorp.com/en/blog/line-storage-storing-billions-of-rows-in-sharded-redis-and-hbase/>
 
-# 광군제 참여 업체
+## 광군제 참여 업체
 
 - [개발자가 바라본 중국 쇼핑 축제 쐉쓰이(광군제)](https://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%94%EB%9D%BC%EB%B3%B8-%EC%A4%91%EA%B5%AD-%EC%87%BC%ED%95%91-%EC%B6%95%EC%A0%9C-%EA%B4%91%EA%B5%B0%EC%A0%9C/)
 - [내 멋대로 구현한 이벤트 드리븐](https://www.popit.kr/%EB%82%B4-%EB%A9%8B%EB%8C%80%EB%A1%9C-%EA%B5%AC%ED%98%84%ED%95%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%93%9C%EB%A6%AC%EB%B8%90/)
 - [대용량 환경에서 그럭저럭 돌아가는 서비스 만들기](https://www.popit.kr/%EB%8C%80%EC%9A%A9%EB%9F%89-%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-%EA%B7%B8%EB%9F%AD%EC%A0%80%EB%9F%AD-%EB%8F%8C%EC%95%84%EA%B0%80%EB%8A%94-%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%A7%8C%EB%93%A4%EA%B8%B0/)
 
-# 쿠팡
+## 쿠팡
 
 - [쿠팡의 MSA Part 1](https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-94678fe9eb61)
 - [쿠팡의 MSA Part 2](https://medium.com/coupang-tech/%ED%96%89%EB%B3%B5%EC%9D%84-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%9A%B0%EB%A6%AC%EC%9D%98-%EC%97%AC%EC%A0%95-a31fc2d5a572)
 - [Spring Camp 2018 - MSA 세션 참관기](https://medium.com/coupang-tech/spring-camp-2018-msa-%EC%84%B8%EC%85%98-%EC%B0%B8%EA%B4%80%EA%B8%B0-8862b61c4f5)
 
-# 11번가
+## 11번가
 
 - <https://www.slideshare.net/balladofgale/spring-camp-2018-11-spring-cloud-msa-1>
 - [스케일 아웃없이 순간 급증하는 주문처리하기(Microservice with Kafka)](https://deview.kr/2019/schedule/305) (DEVIEW 2019, 김태경 님)
 
-# 우아한 형제들
+## 우아한 형제들
 
 - [Springcamp 2018:이벤트 기반 분산 시스템을 향한 여정](https://www.slideshare.net/arawnkr/ss-94475606)
 - [점진적인 레거시 웹 애플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
@@ -71,7 +71,7 @@
 - [Hystrix! API Gateway를 도와줘!](http://woowabros.github.io/experience/2017/08/21/hystrix-tunning.html)
 - [잘 키운 모노리스 하나 열 마이크로서비스 안 부럽다](https://www.slideshare.net/arawnkr/ss-195979955)
 
-## [대규모 트랜잭션을 처리하는 배민 주문시스템 규모에 따른 진화](https://www.youtube.com/watch?v=704qQs6KoUk)
+### [대규모 트랜잭션을 처리하는 배민 주문시스템 규모에 따른 진화](https://www.youtube.com/watch?v=704qQs6KoUk)
 
 1.  단일DB로 인한 전체 장애 → 단일DB를 여러 저장소로 분리
     (주문/주문중계/가계 등)
@@ -84,7 +84,7 @@
 4.  규칙성 없는 이벤트 발행으로 인한 복잡도 증가, 이벤트 유실 → 이벤트
     로직을 단일 어플리케이션에서 처리, transactional outbox 적용
 
-## [배달의민족 마이크로서비스 여행기](https://www.youtube.com/watch?v=BnS6343GTkY&feature=emb_imp_woyt)
+### [배달의민족 마이크로서비스 여행기](https://www.youtube.com/watch?v=BnS6343GTkY&feature=emb_imp_woyt)
 
 - Netflix가 MSA로 가는데 7년이 걸렸다고 함
 - 거대 DB에서 분리한 시스템 순서
@@ -140,16 +140,16 @@
 뉴스기사로도 [배민은 서비스 장애를 어떻게
 없앴나](https://byline.network/2020/12/17-108/) 에 소개
 
-# 네이버
+## 네이버
 
 - [네이버 메인 페이지의 트래픽 처리](https://d2.naver.com/helloworld/6070967)
 - [스마트스토어센터 Oracle에서 MySQL로의 무중단 전환기](https://d2.naver.com/helloworld/6512234)
 
-# 뱅크 샐러드
+## 뱅크 샐러드
 
 - <https://blog.banksalad.com/tech/how-banksalald-decomposes-legacy-services/>
 
-# 무신사
+## 무신사
 
 - [“이번 달도 밤샘 정산입니다.” — 정산 시스템은 왜 필요했을까 (설계편)](https://techblog.musinsa.com/22732a4a607f)
 - [“이번 달도 밤샘 정산입니다.” — 정산 시스템은 어떻게 만들었을까 (실전편)](https://techblog.musinsa.com/74d8a5d22ba1)

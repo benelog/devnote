@@ -55,19 +55,19 @@ code,](http://www.threeriversinstitute.org/blog/?p=579) [TDD는 코드에
 
 테스트를 통한 설계 진행 및 개선에 관한 추가 정보
 
-# 논쟁
+## 논쟁
 
 - [동상이몽 – TDD](http://toby.epril.com/?p=917)
 - [Joel의 TDD(Kent Beck), SOLID(Robert Martin) 공격과 논쟁](http://toby.epril.com/?p=680)
 - <http://blogs.msdn.com/b/cashto/archive/2009/03/31/it-s-ok-not-to-write-unit-tests.aspx>
 - <http://blog.cleancoder.com/uncle-bob/2016/11/10/TDD-Doesnt-work.html>
 
-# 적용사례
+## 적용사례
 
 [KGC2007 - 'UnitTest, TDD in Games' 발표
 자료입니다.](http://parkpd.egloos.com/1666157)
 
-# 시연
+## 시연
 
 <http://www.xper.org/LineReaderTdd/>
 
@@ -76,7 +76,7 @@ Beck](http://vimeo.com/10789674)
 
 <http://blog.objectmentor.com/articles/2010/04/14/c-tdd-videos-you-asked-for-them>
 
-## Kent Beck Interview
+### Kent Beck Interview
 
 19분
 
@@ -98,15 +98,15 @@ experiences as well.
 
 I don’t keep score how many people do TDD.
 
-# Pattern
+## Pattern
 
 [Simplicators](http://www.natpryce.com/articles/000785.html)
 
-# Coverage
+## Coverage
 
 <http://michaelfeathers.typepad.com/michael_feathers_blog/2010/12/coverage-in-production-learning-from-your-live-code.html>
 
-# BDD
+## BDD
 
 <https://sites.google.com/site/unclebobconsultingllc/the-truth-about-bdd>
 
@@ -125,7 +125,7 @@ BDD(Behavior Driven Development)\]
 
 Given, When, Then
 
-## 테스트를 위한 디자인
+### 테스트를 위한 디자인
 
 [TDD Design Starter Kit - Static Methods and Singletons May Be
 Harmful](http://codebetter.com/blogs/jeremy.miller/pages/129545.aspx)
@@ -150,7 +150,7 @@ Code](http://misko.hevery.com/code-reviewers-guide/)
 
 <http://deathbycode.blogspot.com/2010/11/do-i-really-need-singleton.html>
 
-# 기법
+## 기법
 
 그리고 private 메소드의 테스트 부분에서 생각이 나는 것이 있어서 언급을
 드리면요, 대부분 private메소드가 public을 먼저 작성하다가 메소드가
@@ -185,7 +185,7 @@ private 메소드라면 혹시 상속한 클래스나 같은 패키지 내에서
 [Automated Testing Patterns and
 Smells](http://www.youtube.com/watch?v=Pq6LHFM4JvE)
 
-## XUnit test patterns
+### XUnit test patterns
 
 - <http://parkpd.egloos.com/3174139>
 
@@ -210,7 +210,7 @@ Slow Test - 공용 Fixture setup
 - [단위 테스트 질문 2](http://parkpd.egloos.com/3394408)
 - [단위 테스트 질문 3](http://parkpd.egloos.com/3395808)
 
-# 관련논문
+## 관련논문
 
     On the Effectiveness of the Test-First Approach to Programming
 - <http://portal.acm.org/citation.cfm?id=1070618.1070834>
@@ -228,7 +228,7 @@ Test driven development: empirical body of evidence
 
 <http://blogs.microsoft.co.il/blogs/dhelper/archive/2009/02/23/presentation-from-net-software-architects-user-group.aspx>
 
-# Lodon school vs Chicago school
+## Lodon school vs Chicago school
 
 - <http://softwareengineering.stackexchange.com/questions/123627/what-are-the-london-and-chicago-schools-of-tdd>
 

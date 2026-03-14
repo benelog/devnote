@@ -23,12 +23,12 @@ Message.what + case문 대신에 Message.obj 에 command객체 전달 [유지보
 
 <http://www.slideshare.net/fullscreen/andersgoransson/efficient-android-threading>
 
-# Looper
+## Looper
 
 [안드로이드 Handler 이야기 - Handler 와
 Looper](http://blog.naver.com/PostView.nhn?blogId=huewu&logNo=110115454542)
 
-# AsyncTask 문제점/대안
+## AsyncTask 문제점/대안
 
 <http://stackoverflow.com/questions/3357477/is-asynctask-really-conceptually-flawed-or-am-i-just-missing-something>
 <http://code.google.com/p/roboguice/wiki/RoboAsyncTask>

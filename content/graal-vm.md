@@ -49,7 +49,7 @@ Graal VM으로 어플리케이션을 실행할때 옵션을 붙이면 reflection
 경우에 따라서는 AOT와 JIT를 오가거나 빌드 타임에 AOT 컴파일러를 위한
 정보 수집을 위한 실행 단계가 포함하는 시도등을 할 수 있을듯하다.
 
-# Spring 관련 commit
+## Spring 관련 commit
 
 - <https://github.com/spring-projects/spring-framework/commit/2d05f2ed47d62a4f23421fe8d6046e239ecdfb09#diff-aa41501d699cef8e011c54ed4e203797>
 - <https://github.com/spring-projects/spring-framework/commit/e8034f2f967ec61a9f5393ec3f93c1d8e373f155#diff-aa41501d699cef8e011c54ed4e203797>

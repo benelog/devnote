@@ -1,4 +1,4 @@
-# 버전관리 시스템의 종류 :
+## 버전관리 시스템의 종류 :
 
 <http://en.wikipedia.org/wiki/List_of_revision_control_software>
 
@@ -11,7 +11,7 @@
 시각화
 :http://code.google.com/p/gource/\[<http://code.google.com/p/gource/>\]
 
-# DVCS
+## DVCS
 
 <http://wiki.javajigi.net/display/IDE/Distributed+Version+Control>
 

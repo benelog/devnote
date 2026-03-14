@@ -1,5 +1,4 @@
-[Plugging memory leaks with soft
-references](http://www-128.ibm.com/developerworks/java/library/j-jtp01246.html)
+[Plugging memory leaks with soft references](http://www-128.ibm.com/developerworks/java/library/j-jtp01246.html)
 
 ``` java
 WeakReference<User> ref = new WeakReference<User>(new User());
@@ -15,5 +14,3 @@ User user = ref.get();
 - PhantomReference를 쓰면 객체가 finalize된 이후에 사용자 코드가 관여할 수 있다.
 
 Strong \> Soft \> Weak \> Phantom
-
-## Related

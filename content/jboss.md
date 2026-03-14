@@ -1,13 +1,13 @@
 Standalone vs Domain :
 <https://docs.jboss.org/author/display/AS71/Operating+modes>
 
-# start & stop
+## start & stop
 
-## standalone
+### standalone
 
-## domain
+### domain
 
-# HA
+## HA
 
 <div class="formalpara">
 
@@ -23,13 +23,13 @@ Standalone vs Domain :
 
 </div>
 
-## Mode cluster 연동
+### Mode cluster 연동
 
 ﻿JBoss. 이젠 mod_cluster를 이용하여 Apache 웹서버와 연동하자.
 1-2\[JBoss.
 이젠 mod_cluster를 이용하여 Apache 웹서버와 연동하자. 2\]
 
-# Session clutering
+## Session clutering
 
 <http://www.jboss.org/dms/AS7/as7webinar/AS7-clustering-webinar.pdf>
 

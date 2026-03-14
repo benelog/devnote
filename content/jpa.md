@@ -6,12 +6,12 @@
 - [AWS RDS와 Spring Cloud + JPA 시작하기](https://greencrayon00.wordpress.com/2015/10/16/aws-rds%EC%99%80-spring-cloud-jpa-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/)
 - [AridPOJOs: Active Record스타일의 Dynamic Finder지원 GenericDao](http://toby.epril.com/?p=322)
 
-# Native query
+## Native query
 
 - [JPA Native Query 사용시 DTO로 매핑 하기](https://medium.com/@SlackBeck/jpa-native-query-%EC%82%AC%EC%9A%A9%EC%8B%9C-dto%EB%A1%9C-%EB%A7%A4%ED%95%91-%ED%95%98%EA%B8%B0-64625780c758)
 - [Spring Data JPA - Native Query](https://www.logicbig.com/tutorials/spring-framework/spring-data/native-query.html)
 
-# Hibernate
+## Hibernate
 
 - [\[메이븐](http://whiteship.me/2451) 하이버네이트 플러그인\]
 - <http://code.google.com/p/hibernate-memcached/>
@@ -52,17 +52,17 @@
 - [\[하이버네이트 성능 튜닝](http://whiteship.me/?p=12930) 패칭 전략\]
 - [Hibernate 프록시 객체의 this 리턴 주의](http://javacan.tistory.com/212)
 
-# Test
+## Test
 
 - <http://livingtao.blogspot.com/2007/08/unit-testing-with-junit-spring-and.html>
 - <http://livingtao.blogspot.com/2007/07/achieve-automatic-transaction-rollback.html>
 - [\[Debug](http://kwon37xi.egloos.com/3944496) Hibernate, dbutils, HSQLDB, Maven 삽질 몇 가지\]
 
-# OpenSessionInView
+## OpenSessionInView
 
 - [Spring - Open Session In View](https://kingbbode.tistory.com/27)
 
-# View
+## View
 
 - <http://nonrepeatable.blogspot.com/2010/02/using-database-views-in-hibernate.html>
 

@@ -13,13 +13,13 @@
   - <https://community.akamai.com/groups/korea-user-group/blog/2016/10/14/http2-checker-coding>
 - <https://geekflare.com/http2-implementation-apache-nginx/>
 
-# Apache httpd
+## Apache httpd
 
 - <https://httpd.apache.org/docs/2.4/howto/http2.html>
 - <https://httpd.apache.org/docs/2.4/mod/mod_http2.html>
 - <https://httpd.apache.org/docs/trunk/mod/mod_proxy_http2.html>
 
-# Nginx
+## Nginx
 
 - <https://www.nginx.com/blog/http2-module-nginx/>
 - <https://http2.pro/doc/Nginx>
@@ -53,7 +53,7 @@ and there is no such limit when talking to your own backends. Moreover,
 things may even become worse when using HTTP/2 to backends, due to
 single TCP connection being used instead of multiple ones.
 
-# Java support
+## Java support
 
 - 추천하는 방식 : <https://youtu.be/QpLtBftqM04?t=2056>
 - <https://vanwilgenburg.wordpress.com/2017/01/10/haproxy-with-undertow-and-tomcat-in-spring-boot/>
@@ -62,19 +62,19 @@ single TCP connection being used instead of multiple ones.
 - <https://github.com/bclozel/http2-experiments>
 - <https://blogs.oracle.com/theaquarium/http2-and-server-push>
 
-## Servlet 4.0 support
+### Servlet 4.0 support
 
 - <https://github.com/bclozel/http2-experiments/commit/5559e0f06617e4d2861b8d661b5c9283e43ee884#diff-ac70a73e96ba95cc3fa3b043de1ade7c>
 
-# nghttpx
+## nghttpx
 
 <https://nghttp2.org/documentation/nghttpx-howto.html>
 
-# Server push
+## Server push
 
 - <https://www.smashingmagazine.com/2017/04/guide-http2-server-push/>
 
-# curl
+## curl
 
 curl --http2 -v d2.naver.com
 

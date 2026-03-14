@@ -7,19 +7,19 @@
 - <http://en.wikipedia.org/wiki/Fagan_inspection>
 - [code review 조사 자료](http://swprocess.egloos.com/2462137)
 
-# Egoless Programming
+## Egoless Programming
 
 * [Egoless Programming](http://lastmind.net/blog/2008/01/egoless-programming.html)
 * <http://www.codinghorror.com/blog/archives/000584.html>
 * <http://xrath.com/2009/09/egoless-programming-restarted/>
 
-# 코드 쓰기
+## 코드 쓰기
 
 [Writing Software is Like …​Writing](http://www.artima.com/weblogs/viewpost.jsp?thread=255898)
 
-# 도구
+## 도구
 
-# 지속적인 Chapter 7 메모
+## 지속적인 Chapter 7 메모
 
 - fault finding을 넘어선 협업
 - 적은 오류

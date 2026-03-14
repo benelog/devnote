@@ -1,4 +1,4 @@
-# Tag 분류
+## Tag 분류
 
 - [Block level elements](https://developer.mozilla.org/ko/docs/HTML/Block-level_elements) vs [Inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements)
 - 성격에 따른 분류

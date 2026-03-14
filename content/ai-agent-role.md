@@ -1,4 +1,4 @@
-## 변화에 대한 견해
+### 변화에 대한 견해
 * [Building world-class engineering teams in the age of AI - The Pragmatic Summit](https://www.youtube.com/watch?v=fYh1CWadxDM)
     * 참석자 Thomas Dohmke(Entire 공동창업자 겸 CEO, 전 GitHub CEO)와 Rajeev Rajan(Atlassian CTO)
     * Atlassian의 생산성 개선 수치
@@ -29,7 +29,7 @@
 
 > (하용호 님) 가장 중요한 건 PO(Product Owner) 마인드입니다. 모든 멤버가 “이 제품이 어떤 가치를 전달해야 하는가”를 고민해야 합니다. 그리고 극도로 명확한 커뮤니케이션 능력이 필요합니다
 
-### Anthropic
+#### Anthropic
 * [Building Claude Code with Boris Cherny](https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny)
 * [The Anthropic Hive Mind](https://steve-yegge.medium.com/the-anthropic-hive-mind-d01f768f3d7b)
     * Anthropic은 전통적 사일로/계층 구조가 아닌 *바이브 기반 즉흥적 협업*으로 운영됨

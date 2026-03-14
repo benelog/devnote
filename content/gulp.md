@@ -1,11 +1,11 @@
-# 소개
+## 소개
 
 - <http://www.slideshare.net/meadunhansa/gulp-48608642?ref=http://arahansa.com/frontboard/9>
 - <https://github.com/arahansa/learn_gulp>
 
-# HTML 처리
+## HTML 처리
 
-## 문자열 교체, 삭제
+### 문자열 교체, 삭제
 
 - <https://www.npmjs.com/package/gulp-processhtml>
   - CSS, JS 교체에 특화된 표현식 제공
@@ -17,7 +17,7 @@
   - gulp의 변수로 css, js 목록을 선언해서 html에 주입
 - <https://www.npmjs.com/package/gulp-html-replace>
 
-## include
+### include
 
 - <https://www.npmjs.com/package/gulp-file-include>
   - @@include 표현식 사용
@@ -25,11 +25,11 @@
   - \<include/\> 태그사용
 - <https://www.npmjs.com/package/gulp-htmlincluder>
 
-# Webserver 띄우기
+## Webserver 띄우기
 
 - <http://code.tutsplus.com/tutorials/gulp-as-a-development-web-server—​cms-20903>
 
-# Bower + live reload
+## Bower + live reload
 
 <https://gist.github.com/ktmud/9384509>
 

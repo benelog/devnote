@@ -5,7 +5,7 @@
 - <http://www.infoq.com/presentations/lambda-invokedynamic>
 - <http://blog.jooq.org/2014/04/04/java-8-friday-the-dark-side-of-java-8/>
 
-# Joshua Bloch의 인터뷰
+## Joshua Bloch의 인터뷰
 
     http://blog.jooq.org/2014/04/04/java-8-friday-the-dark-side-of-java-8/
 
@@ -90,7 +90,7 @@ JVM 실행 옵션에 -Djdk.internal.lambda.dumpProxyClasses를 주고 람다식�
 AOP에 응용 :
 <http://www.slideshare.net/antoinesd/invoke-dynamite-with-invoke-dynamic>
 
-# 람다의 제네릭
+## 람다의 제네릭
 
 자바에서 익명 클래스와 람다는 비슷하게 동작하지만, 런타인에 타입 인자를
 참조할 수 있는지에 대해서는 차이가 있다.

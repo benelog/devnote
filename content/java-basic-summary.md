@@ -13,7 +13,7 @@
 - 멤버변수는 자동으로 초기화 된다.
 - boolean의 초기값은 false, 그 외 변수의 초기값은 0이나 null값으로 생각하면 된다.
 
-# 객체지향 관련 개념, 문법
+## 객체지향 관련 개념, 문법
 
 - 객체지향 프로그래밍의 3대 특징은 캡슐화(encapsulation), 상속(inheritance), 다형성(polymorphism)
 - 완전캡슐화(Full encapsulation, tight encapsulation)은 오브젝트에 포함되어 있는 변수는 외부에서 직접 접근하지 못하게 하고, 이변수와 연관된 메소드를 만들어 메소드를 통해서만 변수에 접근할 수 있게 하는 것이다. 변수는 private, 메소드는 public으로 선언한다.
@@ -32,7 +32,7 @@
 메서드가 호출된다. 이때는 하위클래스에만 정의되어 있고 상위클래스에는
 없는 메소드는 호출할 수 없다.
 
-# 생성자
+## 생성자
 
 - 생성자는 리턴값을 지정하지 않는다.
 - 생성자 정의시 this()나 super()를 통해 상위 혹은 같은 클래스의 다른 상속자를 호출 할때는 생성자의 첫문장에서만 가능하다. 다른 메서드 안에서는 this()생성자를 호출할 수 없다.
@@ -40,7 +40,7 @@
 - 상위 클래스를 상속 받은 하위 클래스를 new 키워드로 실행할 때 하위 클래스의 생성자 내에서 상위클래스의 생성자를 명시적으로 호출하지 않을 시에는 하위 클래스의 생성자 내용이 실행되기 전에 상위 클래스의 디폴트 생성자, 즉 파라미터를 가지고 있지 않은 생성자를 먼저 실행된다.
 - 디폴트 생성자는 public Class();의 형태이다.
 
-# 오버로딩(Overloading)
+## 오버로딩(Overloading)
 
 - 오버로딩의 규칙은 다음과 같다. 1) 오버로딩하는 메소드들이 같은 클래스에 존재해야 한다.
 
@@ -50,7 +50,7 @@
 
 4\) 리턴형은 상관이 없다.
 
-# 오버라이딩(Overrideing)
+## 오버라이딩(Overrideing)
 
 - 오버라이딩의 규칙은 다음과 같다. 1) 상위클래스의 메소드 이름과 일치해야 한다.
 
@@ -63,7 +63,7 @@
 
 - 상위 클래스에서 final, static, private 접근제한자로 선언된 메소드는 재정의 할 수 없다.
 
-# inner class
+## inner class
 
 - static inner class, member inner class, local inner class, anonymous inner class 로 구분할 수 있다.
 - static inner class는 다른 클래스 내에 static 제한자로 선언된 클래스를 말한다. 클래스 내부에 선언되기는 하지만 top-level 클래스의 속성을 갖는다.
@@ -73,18 +73,18 @@
 - static inner class에서는 static으로 선언된 멤버들만 접근 할 수 있다.
 - member inner class와 anonymous inner class는 static member를 가질 수 없다.
 
-# 접근제한자
+## 접근제한자
 
 - class 앞에는 public, abstract, final 제한자 만이 올 수 있다.
 - public, protected, friendly(제한자 없음), private 순으로 공개성이 줄어든다고 할 수 있다.
 - interface 앞이나 interface 안의 method에 앞에는 public 또는 아무 것도 붙지 않는다.
 
-## public
+### public
 
 - 하나의 파일에는 하나의 public class만 존재할 수 있다.
 - 같은 클래스내의 다른 클래스, 다른 패키지나 상속관계가 없는 클래스에서도 접근 가능하다.
 
-## static
+### static
 
 - 메서드나 필드(멤버변수), 또는 내부클래스에 선언 된다.
 - 자동변수(지역변수)에는 선언될 수 없다.
@@ -93,23 +93,23 @@
 - 상위클래스에서 static이 아닌 메서드를 static으로 오버라이딩할 수도 없다.
 - static class,메서드 안에서 this키워드는 호출할 수 없다.
 
-## private
+### private
 
 - 메서드나 멤버변수, 또는 내부클래스에 선언 된다.
 - 상위클래스에서 private으로 선언된 메소드는 오버라이딩할 수 없다.
 - 같은 클래스 내 외는 참조 불가능하다. (상속 받은 클래스도 안 됨)
 
-## protected
+### protected
 
 - 메소드, 변수,내부 클래스에 선언될 수 있다.
 - 같은 패키지 또는, 다른 패키지라도 상속 받은 클래스에서 접근할 수 있다.
 
-## friendly(키워드 아님)
+### friendly(키워드 아님)
 
 아무것도 붙이지 않은 제한자로 friendly라는 키워드는 없다. 같은 패키지
 내의 클래스에서 접근할 수 있다.
 
-## abstract
+### abstract
 
 클래스, 메서드, 내부 클래스에 선언될 수 있다.
 
@@ -123,21 +123,21 @@ abstract 클래스를 상속받은 클래스가 abstract 메소드를 모두 오
 
 abstract로 선언된 메소드는 public 또는 protected로 선언되어야 한다.
 
-## final
+### final
 
 상위클래스에서 final로 선언된 메소드는 오버라이딩할 수 없다.
 
 final로 선언된 변수는 상수와 같다. (상수는 보통 static final로
 선언된다.)
 
-## 기타
+### 기타
 
 transient키워드는 object serialization에서 제외되는 변수 앞에 붙는다.
 
 native 키워드는 메서드 앞에만, volatile 키워드는 변수 앞에만 붙을 수
 있다.
 
-# Interface
+## Interface
 
 - implements 키워드를 통해서 하나 이상의 interface를 클래스에서 구현가능하다. 이는 extends 키워드를 이용한 상속과는 다르다.
 - interface간에도 extends를 이용한 상속이 가능하다.
@@ -146,7 +146,7 @@ native 키워드는 메서드 앞에만, volatile 키워드는 변수 앞에만 
 - instanceof 연산자 위에 interface가 오면 해당오브젝트가 그 interface 또는 그 하부 interface를 구현하고 있는지를 검사하는 논리식이 된다.
 - interface형의 변수에 이를 구현하고 있는 클래스의 객체를 할당하는 것이 가능하다. 예) InterceA a=new ClassA(); // class ClassA implements InterfaceA 일때
 
-# Package
+## Package
 
 - 컴파일시 javac -d . 파일명.java 로 디렉토리를 지정하면 패키지명의 디렉토리 밑에 class파일이 생성된다.
 - java 패키지명.파일명의 형식으로 해당디렉토리에 있는 패키지 속의 파일을 실행시킬 수 있다.
@@ -164,7 +164,7 @@ javac -classpath 파일명.jar 파일명.java
 3\) c:\j2sdk1.4.1_02\jre\lib\ext 디렉토리 밑에 jar파일을 복사하면 별도의
 classpath 지정없이 사용할 수 있다.
 
-# Exception handling
+## Exception handling
 
 - RuntimeException의 종류는 try-catch로 잡아주는 처리를 하지 않아도 에러메시지를 발생시키지 않는다.
 - try 블록에서 예외가 발생했을 경우, try 블록의 나머지 코드들은 실행되지 않고 해당 예외에 대한 catch 블록, finally 블록을 실행한다. 그 후 finally 이후의 코드들을 실행한다
@@ -175,7 +175,7 @@ classpath 지정없이 사용할 수 있다.
 - catch block에서 상위 exception이 중복 정의되고 그것이 앞에 있다면 뒤에서 catch할 exception이 처리되지 않거나 컴파일 에러가 발생한다.
 - method 정의 옆에 throws 키워드로 2개 이상의 exception을 지정하는 것도 가능하며, 내부에서 throw하는 exception들의 상위 exception을 지정하는 것도 가능하다.
 
-# Garbage Collection
+## Garbage Collection
 
 - System.gc(); 혹은 Runtime.getruntime.gc();에 의해서 요청할 수 있다.
 - 요청을 해도 JVM이 언제 받아들일지는 알 수 없고, 강제될 수 없다. 즉 가비지 콜렉션은 프로그래머에 의해 구현될 수 없다.
@@ -183,9 +183,9 @@ classpath 지정없이 사용할 수 있다.
 - 객체에 null이 할당되거나 객체를 더 이상 참조하지 않게 되었을 대 가비지 컬렉션의 대상이 된다.
 - 다른 참조변수도 참조하고 있는 객체는 가비지 컬렉션의 대상이 아니다.
 
-# java.lang
+## java.lang
 
-## Math
+### Math
 
 - java.lang.Math 클래스의 특징 1) Math 클래스는 final제한자로 선언되어 있어 상속을 받을 수 없다.
 
@@ -202,23 +202,23 @@ classpath 지정없이 사용할 수 있다.
 3\) Math.min(), Math.max()는 int,long,float, double형으로 오버로드 되어
 있다.
 
-## String
+### String
 
 - String의 생성에서 String s1="java"; 와 같이 대입해서 생성하면 new 키워드를 이용했을때와는 달리 이전에 생성된 같은 문자열을 가진 객체가 있을 때는 새로운 객체를 생성하지 않고 기존에 있던 객체를 참조하여 사용하게 된다.
 - StringBuffer의 객체와는 달리 생성된 객체의 내용이 변경되지 않는 불변성(immutability)를 가지고 있다.
 
-## StringBuffer
+### StringBuffer
 
 - StringBuffer 클래스는 equals()를 재정의하고 있지 않기 때문에 java.lang.Object 클래스의 equals()를 그대로 사용한다. 즉 “==”와 같이 비교되는 객체의 주소가 같으면 true를 리턴한다.
 - StringBuffer 객체는 ‘+’ 연산자가 적용되지 않는다.
 
-## Wrapper Class
+### Wrapper Class
 
 - int:Interger, char:Character 이고 나머지는 기본데이터형의 첫 문자를 대문자로 바꾼것과 같은 이름의 Wrapper 클래스를 가진다.
 - Charater 클래스만이 String형을 인자로 받는 생성자가 정의되어 있지 않다.
 - Boolean, Character 클래스는 Number클래스의 하위 클래스가 아니다.
 
-# Thread
+## Thread
 
 - 사용자 쓰레드(user thread)는 일반적으로 프로그램에서 만들어지는 main 메소드와 같은 쓰레드를 말한다.
 - 데몬 쓰레드(daemon thread)는 입출력처리, 가비지 컬렉션, 사용자 쓰레드의 요청 등을 처리하기 위해 자바 가상머신에서 제공하는 쓰레드이며, 사용자 쓰레드가 존재하지 않으면 자동으로 종료된다.

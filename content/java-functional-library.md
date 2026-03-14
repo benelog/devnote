@@ -1,4 +1,4 @@
-# 비교
+## 비교
 
 <http://stackoverflow.com/questions/3112448/getting-a-list-of-elements-from-an-arraylist>언어별
 비교 : <http://aeternum.egloos.com/2948571>
@@ -14,17 +14,17 @@ convert = Guava의 transform
 
 <http://cyrille.martraire.com/2010/11/a-touch-of-functional-style-in-plain-java-with-predicates-part-1/>
 
-# Bolt
+## Bolt
 
-# Lambda J
+## Lambda J
 
 <https://code.google.com/p/lambdaj/>
 
-# Guava
+## Guava
 
 <https://code.google.com/p/guava-libraries/>DefensiveThread-safeEfficient
 
-# FunctionalJava
+## FunctionalJava
 
 <http://functionaljava.org/>
 

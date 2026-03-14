@@ -27,12 +27,12 @@
 - Ctrl + F8 : Perspectieve 선택
 - Ctrl + 1 : QuickFix 실행 Ctrl + Shift + space : 입력 파라미터 정보 보여줌
 
-# 소스코드 사이 이동
+## 소스코드 사이 이동
 
 - Ctrl + , : 이전 warning 으로 이동
 - Ctrl + . : 다음 warning 으로 이동
 
-# 소스코드 생성, 정리
+## 소스코드 생성, 정리
 
 - Ctrl + Shift + m : 자동 임포트
 - Ctrl + Shift + o : 임포트 자동 정리
@@ -41,7 +41,7 @@
   - Alt+Shift+S+R+ I → enter
 - Ctrl + Shift + f : 코드 포맷팅
 
-# 리팩토링
+## 리팩토링
 
 - Alt+Shift+R : Rename
 - Alt+Shift+V : Move
@@ -50,7 +50,7 @@
 - Alt+Shift+L : Extract Local Variable
 - Alt+Shift+I : Inline
 
-# 실행 및 디버그
+## 실행 및 디버그
 
 - Ctrl+F11 : 실행
 - F11: 디버그

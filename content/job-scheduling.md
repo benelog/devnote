@@ -3,7 +3,7 @@ Scheduling](http://documents.bmc.com/products/documents/75/58/97558/97558.pdf)
 
 <http://www.gartner.com/it/products/mq/mq_ms.jsp>
 
-# IBM Tivoli Business Systems Manager
+## IBM Tivoli Business Systems Manager
 
 <http://www-01.ibm.com/software/tivoli/products/scheduler/>
 
@@ -32,7 +32,7 @@ single point of failure
 
 load balacing
 
-# Control M
+## Control M
 
 <http://www.bmc.com/products/products_services_detail/0,,0_0_0_2,00.html>
 
@@ -46,7 +46,7 @@ SSH, WMI
 
 Creates complex dependencies
 
-# PRO ETL
+## PRO ETL
 
 Pro sort
 

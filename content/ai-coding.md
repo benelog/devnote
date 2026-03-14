@@ -1,4 +1,4 @@
-# 개관
+## 개관
 - <https://martinfowler.com/articles/2025-nature-abstraction.html>
 - [바이브 코딩에는 컨텍스트 엔지니어링이 필요하다](https://blogbyash.com/translation/vibe-coding-needs-context-engineering/)
 - <https://tidyfirst.substack.com/p/augmented-coding-beyond-the-vibes>
@@ -7,17 +7,17 @@
 - [웹 개발이 다시 재미있어졌다](https://news.hada.io/topic?id=25574)
 
 
-## Code Review
+### Code Review
 * https://www.latent.space/p/reviews-dead
 
-# 적용 사례
+## 적용 사례
 
 - [Beyond Vibe Coding to Agentic Coding: 카카오의 AI 협업 개발  실험](https://tech.kakao.com/posts/711)
 - <https://toss.tech/article/toss-frontend-ai-docs>
 - <https://vercel.com/blog/becoming-an-ai-engineering-company>
   - <https://v0.dev/>
 
-## 대규모 코드 마이그레이션 작업
+### 대규모 코드 마이그레이션 작업
 
 - (Uber) [This Year in Uber’s AI-Driven Developer Productivity Revolution](https://dpe.org/sessions/ty-smith-adam-huda/this-year-in-ubers-ai-driven-developer-productivity-revolution/)
   - AI 도구 활용하여 Kotlin으로 적극 전환
@@ -37,27 +37,27 @@
   - 위의 3개 사례를 개한 종합 내용
   - AI도구를 써도 인간의 통찰, 리뷰, 검증이 필요하다는 문장으로 마무리
 
-# 도구
+## 도구
 
 - <https://github.com/block/goose>
 - [25년 현재 어떤 CLI툴을 써야하는지 말씀드리겠습니다](https://youtube.com/watch?si=fp9Uqlc_n8bCv1Nq&v=K2rVBIb-KWE) (박진형 님)
 - <https://opencode.ai/>
 - [Vibe Kanban: OpenCode + Claude Code 동시에? AI 코딩 에이전트 오케스트레이션](https://fornewchallenge.tistory.com/entry/%F0%9F%9A%80-Vibe-Kanban-OpenCode-Claude-Code-%EB%8F%99%EC%8B%9C%EC%97%90-AI-%EC%BD%94%EB%94%A9-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%98%A4%EC%BC%80%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98)
 
-## GitHub Copilot
+### GitHub Copilot
 
 - [코파일럿 ‘열일’하게 만들기](https://techblog.woowahan.com/21240/)
 
-## Cursor
+### Cursor
 
 - [Cursor Max mode로 대형 코드 베이스 다루기](https://devway.tistory.com/70)
 
 
-## MCP
+### MCP
 * [MCP is DEAD](https://www.youtube.com/watch?v=JZW2W5rwsD4) (Youtube)
 * [MCP is dead. Long live the CLI](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
 
-## Open 스펙
+### Open 스펙
 
 - <https://agentskills.io/>
   - [agentskills.io/ 소개](https://www.linkedin.com/feed/update/urn:li:activity:7408299241556606976/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7408299241556606976%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29)
