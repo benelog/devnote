@@ -16,6 +16,7 @@
 ## Children
 - [[ai-coding]]
 - [[ai-framework]]
+- [[ai-standard]]
 - [[ocr]]
 
 ## Related
