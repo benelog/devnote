@@ -1,3 +1,4 @@
+- [클로드 코드 토큰 녹는 분들, 이 6가지만 바꿔보세요](https://www.youtube.com/watch?v=gLZ1wJUADqk)
 - [Claude ‘구독형’ 요금제가 API보다 최대 36배 저렴한 이유와 ‘Max 5x’가 진짜 최적 구간인 이유](https://news.hada.io/topic?id=26256&)
 - [Claude Code 창시자 Boris Cherny가 Claude Code를 사용하는 방법](https://news.hada.io/topic?id=25570)
 * [Claude Code 오픈소스 창시자의 Claude 사용법](https://www.notion.so/grumatic/Claude-Code-Claude-2dd0586bce7480eb8f0cc5a07d5dd7ae)
