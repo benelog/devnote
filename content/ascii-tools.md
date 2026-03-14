@@ -1,10 +1,7 @@
 - <https://asciinema.org/>
 
-## Design
+## Draw
 - https://tui.studio/
-- 
-## Editor
-
 - <https://textik.com>
 - <http://asciiflow.com/>
 
