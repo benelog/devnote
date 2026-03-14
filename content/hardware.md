@@ -1,5 +1,5 @@
 
-## Chilren
+## Children
 * [[cpu]]
 * [[hard-disk]]
 * [[raid]]

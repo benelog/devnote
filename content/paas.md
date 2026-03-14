@@ -1,13 +1,11 @@
-# PaaS 비교
+## PaaS 비교
 
-[Java PaaS
-shootout](http://www.ibm.com/developerworks/library/j-paasshootout/) ,
-[Java Paas
-논쟁](https://www.ibm.com/developerworks/kr/library/j-paasshootout/index.html):
+[Java PaaS shootout](http://www.ibm.com/developerworks/library/j-paasshootout/) ,
+[Java Paas 논쟁](https://www.ibm.com/developerworks/kr/library/j-paasshootout/index.html):
 Google App Engine, Amazon Elastic Beanstalk, CloudBee를 비교
 
 <http://www.infoq.com/presentations/Java-in-the-Cloud-PaaS-Platform-in-Comparison>
-:
+
 
 <http://wso2.com/whitepapers/selecting-a-cloud-platform/>
 
@@ -73,7 +71,11 @@ vSphere, OpenStack, AWS, MicroCloud 다 가능.. Juju + Cloudfoundry :
 
 <http://www.slideshare.net/derekcollison/cloud-foundry-inside-the-machine>
 
-## Docker + Cloud foundry
+### IDE support
+
+<http://c9.io/site/blog/2012/04/cloud-foundry-and-cloud9/>
+
+### Docker + Cloud foundry
 
   - Decker : DEA의 API를 구현
   - Stackato
@@ -83,21 +85,10 @@ vSphere, OpenStack, AWS, MicroCloud 다 가능.. Juju + Cloudfoundry :
 
 - <http://www.cloudcredo.com/decker-docker-cloud-foundry/>
 
-### Stackato
-
-- <https://docs.stackato.com/>
-
 ### Diego
 
 - <http://thenewstack.io/docker-on-diego-cloud-foundrys-new-elastic-runtime/>
 
-## AppScale
-
-<http://www.ibm.com/developerworks/kr/library/os-cloud-virtual2/>
-
-### IDE support
-
-<http://c9.io/site/blog/2012/04/cloud-foundry-and-cloud9/>
 
 ## Related
 - [[aws]]
@@ -106,3 +97,6 @@ vSphere, OpenStack, AWS, MicroCloud 다 가능.. Juju + Cloudfoundry :
 - [[cloud-news]]
 - [[docker]]
 - [[k8s]]
+
+## Children
+* [[google-app-engine]]

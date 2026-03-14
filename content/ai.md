@@ -14,6 +14,7 @@
 - <https://petite-peacock-6e6.notion.site/AI-1f9b7b6880c480148190cbaf071eb2f8>
 
 ## Children
+- [[ai-gent-role]]
 - [[ai-coding]]
 - [[ai-framework]]
 - [[ai-standard]]

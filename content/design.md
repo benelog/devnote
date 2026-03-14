@@ -10,9 +10,8 @@ Reeves\[http://www.talk-with-hani.com/archives/1196\[어썸한 디자인이
 
 ## Children
 - [[design-pattern]]
+- [[uml]]
+- [[domain-driven-design]]
 
 ## Related
 - [[architecture]]
-- [[architecture-cases]]
-- [[domain-driven-design]]
-- [[scalability]]
