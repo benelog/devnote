@@ -32,3 +32,7 @@ IT조직들](http://www.zdnet.co.kr/itbiz/column/anchor/yscho/0,39044217,3917247
 # 추정
 
 - <https://www.brightball.com/articles/story-points-are-pointless-measure-queues>
+
+## Children
+- [[issue-tracker]]
+- [[planning]]

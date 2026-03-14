@@ -119,7 +119,12 @@ surge.sh로 배포
 - Pattern
 
 ## Children
+- [[ascii-tools]]
 - [[asciidoc]]
+- [[diagram]]
 - [[docbook]]
 - [[documentation-cases]]
+- [[excel]]
 - [[markdown]]
+- [[pdf]]
+- [[wiki]]

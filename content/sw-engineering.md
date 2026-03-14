@@ -144,3 +144,6 @@ Maintenance Programmers. Englewood Cliffs, NH: Prentice-Hall
 필름기법: FilmStrip
 
 StateChart Diagram
+
+## Children
+- [[project-management]]

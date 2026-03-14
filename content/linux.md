@@ -1,5 +1,6 @@
 ## Children
 - [[docker]]
+- [[hard-disk]]
 - [[linux-desktop]]
 - [[linux-dist]]
 - [[linux-kernel]]
@@ -9,4 +10,8 @@
 - [[linux-shell]]
 - [[linux-tips]]
 - [[ssh]]
+- [[vi]]
+- [[virtualization]]
+- [[web-shell]]
 - [[wget]]
+- [[windows-command]]

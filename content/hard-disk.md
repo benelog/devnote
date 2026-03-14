@@ -1,6 +1,6 @@
 Failure Trends in a large disk drive population :
 
-# SMART
+## SMART
 
 - drive’s self monitoring facility, <http://en.wikipedia.org/wiki/S.M.A.R.T>
 - scan errors, reallocation counts, offline reallocation counts, and probational counts
