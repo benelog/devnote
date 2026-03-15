@@ -18,7 +18,7 @@
   - 안전하게 사용하기 위해서는 프로젝트의 문맥(Context)을 이해하는 프롬프트 활용, 엄격한 코드 리뷰 프로세스, 보안 스캐닝 강화가 필수적
 - <https://www.gitclear.com/research/ai_tool_impact_on_developer_productive_output_from_2022_to_2025>
   - In 2025, the average developer checked in 75% more code than they did in 2022
-- (2025년) [AI가 개발자 생산성에 미치는 영향 - 스탠포드 연구](https://news.hada.io/topic?id=22248)
+- (2025년 7월) [AI가 개발자 생산성에 미치는 영향 - 스탠포드 연구](https://news.hada.io/topic?id=22248)
   - [같은 자료에 대한 요약](https://www.linkedin.com/posts/kurt-lee-70010391_does-ai-actually-boost-developer-productivity-activity-7354024167538659329-Ndov/)
   - 3년간, 600여 개 회사, 10만 명 이상의 소프트웨어 엔지니어, 십억 줄 이상의 코드, 수천만 건의 커밋 대상으로 측정.
   - 단순 커밋/PR 개수, 평균 작업 시간 변화 등은 실제 생산성을 왜곡할 수 있음.
