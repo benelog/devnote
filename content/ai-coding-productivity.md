@@ -1,4 +1,9 @@
-### 연구 리포트
+## 사례/연구
+- (2026년 2월) Atlassian의 생산성 개선 수치 ( [Building world-class engineering teams in the age of AI - The Pragmatic Summit](https://www.youtube.com/watch?v=fYh1CWadxDM))
+    - 엔지니어당 PR 수 89% 증가
+    - 이슈 사이클 타임 42% 감소
+    - 보안 취약점의 51%를 에이전트가 수정
+    - DORA 메트릭 전반의 개선
 - [Anthropic 2026 Agentic Coding Trends Report](https://claude.com/blog/eight-trends-defining-how-software-gets-built-in-2026) : 개발자가 AI에 "완전히 위임" 가능하다고 느끼는 작업은 전체의 0~20%에 불과하며, 감독 없는 완전 자동화는 아직 현실적이지 않다.
 - [Google DORA 2025 Report](https://dora.dev/research/2025/dora-report/) : 1년 만에 배포 처리량·제품 성과가 반전되어 긍정적으로 바뀌었지만, 배포 불안정성·번아웃·업무 마찰은 여전히 해소되지 않은 채로 남아 있다.
   - <https://cloud.google.com/blog/products/ai-machine-learning/announcing-the-2025-dora-report?hl=en>
@@ -6,7 +11,7 @@
   - <https://www.actuia.com/en/news/a-metr-study-reveals-that-ai-slows-down-experienced-developers/>
 - [Stack Overflow 2025 Developer Survey (AI 편)](https://survey.stackoverflow.co/2025/ai) : AI 도구가 생산성에 긍정적 영향을 줬다고 답한 개발자는 52%에 불과하고, AI 도구에 대한 호감도도 전년 대비 70%대에서 60%로 하락했다.
 - [Daniotti et al., Science (16만 명, 3,000만 커밋 분석)](https://www.science.org/doi/10.1126/science.adz9311) : 미국 내 AI 생성 Python 코드 비율이 2022년 5%에서 2024년 29%로 급증했지만 실제 생산성 향상은 평균 3.6%에 그쳤고, 효과는 숙련 개발자에게만 집중되었다.
-- <https://www.faros.ai/blog/ai-software-engineering> (10,000명 이상 개발자, 1,255개 팀 대상)
+- (2025년 7월)) [The AI Productivity Paradox Report 2025](https://www.faros.ai/blog/ai-software-engineering) (10,000명 이상 개발자, 1,255개 팀 대상)
     - 완료 태스크 수 21% 증가
     - 머지되는 PR 수 98% 증가
     - PR 리뷰 소요 시간 91% 증가
