@@ -14,7 +14,7 @@
 ## 토큰 최적화
 - [바이브 코딩의 토큰 관리 전략](https://roboco.io/posts/vibe-coding-token-management-strategy/)
 - [클로드 코드 토큰 녹는 분들, 이 6가지만 바꿔보세요](https://www.youtube.com/watch?v=gLZ1wJUADqk)
-- 기본 모델 설정 변경: 설정 파일에서 디폴트 모델을 sonnet으로 고정하여 나도 모르게 Opus가 실행되는 것을 방지합니다.
+    - 기본 모델 설정 변경: 설정 파일에서 디폴트 모델을 sonnet으로 고정하여 나도 모르게 Opus가 실행되는 것을 방지합니다.
     - Opus Plan 활용: 계획 단계에서는 Opus를 쓰고, 실행 단계에서는 자동으로 Sonnet으로 전환해주는 기능을 사용합니다.
     - 세션 초기화(Clear): 하나의 작업이 끝나면 /clear 명령어로 컨텍스트를 비워줍니다. (이전 대화가 필요하면 /rename 후 /resume 활용).
     - 확장된 사고(Thinking) 조절: 깊게 생각하는 기능은 출력 토큰으로 과금되므로, 간단한 수정 시에는 이 기능을 끄거나 예산을 낮춥니다.
