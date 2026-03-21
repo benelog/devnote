@@ -1,4 +1,5 @@
 ## 사례/연구
+- https://getdx.com/research/measuring-ai-code-assistants-and-agents/
 - [This CTO Says 93% of Developers Use AI, but Productivity Is Still 10%](https://shiftmag.dev/this-cto-says-93-of-developers-use-ai-but-productivity-is-still-10-8013/)
     - Looking at about 4.2 million developers between November 2025 and February 2026, AI-authored code now makes up 26.9% of all production code – up from 22% last quarter.
 - [Over Half of Google's Production Code Is Now AI-Generated 2026-01-12](https://roocode.com/blog/over-half-of-googles-production-code-is-now-aigenerated)
