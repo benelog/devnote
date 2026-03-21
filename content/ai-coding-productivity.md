@@ -1,5 +1,12 @@
 ## 사례/연구
 - https://getdx.com/research/measuring-ai-code-assistants-and-agents/
+    - 번역 : https://gemini.google.com/share/000116ad7bcd
+    * **측정의 3차원:** AI 도구의 효과는 조직의 도입 주기에 맞춰 **활용도, 영향력, 비용(및 거버넌스)**의 세 가지 기준으로 평가해야 합니다.
+    * **속도와 품질의 균형:** AI로 인한 단기적인 코딩 속도 향상이 장기적인 코드 유지보수성과 품질을 해치지 않도록 지속적으로 모니터링해야 합니다.
+    * **팀의 확장으로서의 AI:** AI 에이전트는 독립된 작업자가 아닌, 이를 지휘하고 관리하는 **개발자와 팀의 역량을 확장하는 도구**로 간주하여 성과를 측정해야 합니다.
+    * **현실적 목표와 역할 재정의:** 과장된 마케팅 수치에 휘둘리지 말고 현실적인 목표를 세우며, AI로 코드를 짜는 비기술 직군까지 포함해 '개발자'의 정의를 넓혀야 합니다.
+    * **인사 평가 활용 금지:** 지표 조작(Gaming)이나 팀의 신뢰 하락을 막기 위해 AI 관련 측정 지표를 **개인 성과 평가에 절대 활용해서는 안 됩니다.**
+    * **종합적인 접근:** AI 지표에만 매몰되지 말고, **전반적인 개발자 생산성 지표와 결합**하여 소통 부재 등 조직의 진짜 병목 현상을 종합적으로 파악해야 합니다.
 - [This CTO Says 93% of Developers Use AI, but Productivity Is Still 10%](https://shiftmag.dev/this-cto-says-93-of-developers-use-ai-but-productivity-is-still-10-8013/)
     - Looking at about 4.2 million developers between November 2025 and February 2026, AI-authored code now makes up 26.9% of all production code – up from 22% last quarter.
 - [Over Half of Google's Production Code Is Now AI-Generated 2026-01-12](https://roocode.com/blog/over-half-of-googles-production-code-is-now-aigenerated)
