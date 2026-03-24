@@ -12,6 +12,7 @@
 
 
 ## 토큰 최적화
+- [Claude Code Pricing: Optimize Your Token Usage & Costs](https://claudefa.st/blog/guide/development/usage-optimization)
 - [바이브 코딩의 토큰 관리 전략](https://roboco.io/posts/vibe-coding-token-management-strategy/)
 - [클로드 코드 토큰 녹는 분들, 이 6가지만 바꿔보세요](https://www.youtube.com/watch?v=gLZ1wJUADqk)
     - 기본 모델 설정 변경: 설정 파일에서 디폴트 모델을 sonnet으로 고정하여 나도 모르게 Opus가 실행되는 것을 방지합니다.
