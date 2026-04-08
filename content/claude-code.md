@@ -1,4 +1,4 @@
-- [Claude ‘구독형’ 요금제가 API보다 최대 36배 저렴한 이유와 ‘Max 5x’가 진짜 최적 구간인 이유](https://news.hada.io/topic?id=26256&)
+- [Claude ‘구독형’ 요금제가 API보다 최대 36배 저렴한 이유와 ‘Max 5x’가 진짜 최적 구간인 이유](https://news.hada.io/topic?id=26256)
 - [Claude Code 창시자 Boris Cherny가 Claude Code를 사용하는 방법](https://news.hada.io/topic?id=25570)
 * [Claude Code 오픈소스 창시자의 Claude 사용법](https://www.notion.so/grumatic/Claude-Code-Claude-2dd0586bce7480eb8f0cc5a07d5dd7ae)
 - <https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/>
@@ -12,6 +12,24 @@
 
 
 ## 토큰 최적화
+- [클로드 코드 3일간 소스코드 뜯어본 개발자가 찾은 토큰 틀어막기 TOP 7](https://www.youtube.com/watch?v=ZRyVSrFqvzI)
+    - auto-compact 전에 clear
+    - 한번에 다 시키기
+    - 끊지말고 몰아서 시키기
+    - 생각과 실행을 나누기 : 한 세션에서는 하나의 목표
+    - 안 쓰는 도구 끄기
+    - 정확한 지시 : 이 코드 개선해줘 -> @src/auth.ts 의 무엇무엇을 고쳐줘.
+- [Claude Code 토큰 사용량 90% 절감하는 3가지 실전 기법 (qmd, 3-에이전트)](https://www.youtube.com/watch?v=t55_Ys4q7Uo)
+    - .claudeignore 파일 추가
+    - CLAUDE.md 간결하게 유지. 200줄 이내. 상세 파일은 별로 파일로 분해
+    - 인덱싱
+        - 디폴트로는 Glob + Grep(키워드 검색)이라서 반복 탐색에는 토큰 낭비
+        - [qmd](https://news.hada.io/topic?id=26213) 활용
+    - 3 agent team : Architect, Builder, Reviwer
+    - 명확한 역할/범위/규칙
+- [Claude Code 비용 80% 절감하는 settings.json 3줄과 14만명이 쓰는 everything-claude-code 설정법](https://www.youtube.com/watch?v=4rN-UWKSmp0)
+    - 디폴트 SONNET 추천
+    - everything-claude-code의 skill 승격 기능
 - [Claude Code Pricing: Optimize Your Token Usage & Costs](https://claudefa.st/blog/guide/development/usage-optimization)
 - [바이브 코딩의 토큰 관리 전략](https://roboco.io/posts/vibe-coding-token-management-strategy/)
 - [클로드 코드 토큰 녹는 분들, 이 6가지만 바꿔보세요](https://www.youtube.com/watch?v=gLZ1wJUADqk)
