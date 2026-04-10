@@ -1,3 +1,4 @@
+- [앤트로픽의 하네스 유출은 코딩의 패러다임을 바꾸고 있다](https://aimatters.co.kr/ai-matters-column/40037/)
 - [Claude ‘구독형’ 요금제가 API보다 최대 36배 저렴한 이유와 ‘Max 5x’가 진짜 최적 구간인 이유](https://news.hada.io/topic?id=26256)
 - [Claude Code 창시자 Boris Cherny가 Claude Code를 사용하는 방법](https://news.hada.io/topic?id=25570)
 * [Claude Code 오픈소스 창시자의 Claude 사용법](https://www.notion.so/grumatic/Claude-Code-Claude-2dd0586bce7480eb8f0cc5a07d5dd7ae)
