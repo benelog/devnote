@@ -6,7 +6,6 @@
 - [AI로 개발을 어떻게 가속화하는가](https://drive.google.com/file/d/1SJ7-1YXo4r4pkHDuMdKLR9NtgbUsSRoZ/view) (하용호 님)
 - [웹 개발이 다시 재미있어졌다](https://news.hada.io/topic?id=25574)
 
-
 ### Code Review
 * https://www.latent.space/p/reviews-dead
 
@@ -52,10 +51,14 @@
 
 - [Cursor Max mode로 대형 코드 베이스 다루기](https://devway.tistory.com/70)
 
-
 ### MCP
 * [MCP is DEAD](https://www.youtube.com/watch?v=JZW2W5rwsD4) (Youtube)
 * [MCP is dead. Long live the CLI](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
+
+
+## Skill
+* https://www.productcompass.pm/p/pm-skills-marketplace-claude
+* [Claude Skills는 굉장하다, MCP보다 더 큰 혁신일지도](https://news.hada.io/topic?id=23734)
 
 ### Open 스펙
 
@@ -66,6 +69,5 @@
 
 ## Children
 * [[ai-coding-productivity]]
-* [[ai-gent-role]]
 * [[claude-code]]
-* [[agent-skills]]
+* [[ai-agent-harness]]

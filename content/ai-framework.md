@@ -2,6 +2,6 @@
   - <https://medium.com/@springrod/you-can-build-better-ai-agents-in-java-than-python-868eaf008493>
 
 ## Related
-- [[ai-coding]]
+- [[ai-coding-agent]]
 - [[gpt]]
 - [[spring-ai]]

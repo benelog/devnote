@@ -15,7 +15,7 @@
 
 ## Children
 - [[ai-gent-role]]
-- [[ai-coding]]
+- [[ai-coding-agent]]
 - [[ai-framework]]
 - [[ai-standard]]
 - [[ocr]]

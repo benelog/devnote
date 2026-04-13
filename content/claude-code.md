@@ -41,6 +41,3 @@
     - 구체적인 프롬프트 작성: "코드 개선해줘" 대신 "특정 파일의 특정 함수를 수정해줘"라고 명확히 지시하여 불필요한 파일 탐색을 줄입니다.
     - 메모리 관리: claude.md 파일은 500줄 이하로 유지하고, 상세한 지식은 필요할 때만 로드되는 **'스킬(Skill)'**로 분리합니다.
 
-## Harness
-* [같은 Opus인데 왜 결과가 다를까 — 하네스 엔지니어링이라는 답](https://www.fullstackfamily.com/@urstory/posts/14381)
-* [AI에게 게임을 만들게 하는 법 — 하네스 엔지니어링 실전 가이드]](https://www.fullstackfamily.com/@urstory/posts/14386)
