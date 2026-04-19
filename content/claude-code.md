@@ -6,6 +6,17 @@
 - <https://www.anthropic.com/engineering/claude-code-best-practices>
 - <https://github.com/OthmanAdi/planning-with-files>
 - [Claude Cowork - 엔터프라이즈 AI 에이전트의 새로운 장](https://drive.google.com/file/d/1qfZtTLXQHBeLR_qD3glgmD8LIIe4Akzl/view)
+- [modu-ai/cowork-plugins](https://github.com/modu-ai/cowork-plugins) : Claude Cowork 도메인 전문가 AI 마켓플레이스
+    - 비즈니스, 마케팅, 법률, 재무, HR, 운영 등 도메인별로 16개 플러그인과 64개 스킬을 묶어둔 오픈소스 모음
+    - 개발 외 업무 영역까지 Claude로 확장하는 레퍼런스로, `.claude/skills`에 바로 설치해 활용 가능
+    - 도메인 전문가 AI를 조립해 사내 업무에 접목하려는 팀의 출발점으로 쓰기 좋음
+- [클로드코드 잘 사용하기 - Youngdong Kim (LinkedIn)](https://www.linkedin.com/posts/youngdongkim_%ED%81%B4%EB%A1%9C%EB%93%9C%EC%BD%94%EB%93%9C-%EC%9E%98-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-activity-7447188897098522624-jtPO)
+    - 전사 세미나에서 진행한 "Claude Code 잘 사용하기" 1시간 분량 발표 공유
+    - 35개 댓글에 현업 개발자들의 추가 노하우와 피드백이 이어짐
+- [Claude Code 어썸한 GitHub 저장소들 (X)](https://x.com/i/status/2043719031849681379)
+    - Claude Code, Codex, Gemini CLI, Antigravity 등 에이전트 환경에 쓸 수 있는 저장소들을 정제해 정리
+    - 예: `Claude Mem`은 세션 간 지속적인 메모리를 제공해 코드베이스를 매번 다시 가르치지 않아도 됨
+    - 에이전트 코딩 환경을 꾸밀 때 참고할 만한 도구/레포 큐레이션
 
 ## Plugins
 - <https://github.com/affaan-m/everything-claude-code>
@@ -42,4 +53,12 @@
     - 확장된 사고(Thinking) 조절: 깊게 생각하는 기능은 출력 토큰으로 과금되므로, 간단한 수정 시에는 이 기능을 끄거나 예산을 낮춥니다.
     - 구체적인 프롬프트 작성: "코드 개선해줘" 대신 "특정 파일의 특정 함수를 수정해줘"라고 명확히 지시하여 불필요한 파일 탐색을 줄입니다.
     - 메모리 관리: claude.md 파일은 500줄 이하로 유지하고, 상세한 지식은 필요할 때만 로드되는 **'스킬(Skill)'**로 분리합니다.
+- [Claude 4.7 토크나이저 비용 측정 결과 | GeekNews](https://news.hada.io/topic?id=28641)
+    - Claude 4.7은 이전 버전보다 평균 1.3~1.45배 더 많은 토큰을 생성, 세션당 20~30% 비용 증가 발생
+    - 영어·코드 콘텐츠에서 토큰 증가가 두드러지고, CJK(한·중·일) 콘텐츠는 거의 변화 없음
+    - 더 세분화된 토큰화 덕에 명령어 준수도(Instruction Following)는 약 5%p 향상
+- [Opus 4.6과 Opus 4.7의 토큰 비용 계산기 | GeekNews](https://news.hada.io/topic?id=28672)
+    - 새 토크나이저 때문에 같은 프롬프트가 콘텐츠 유형별로 1.0~1.35배 더 많은 토큰으로 집계
+    - 실측에서 Opus 4.7은 Opus 4.6 대비 평균 요청 토큰·비용이 +37.4% 증가
+    - 요청을 바꾸지 않아도 비용이 늘어나므로, 사전에 비용 영향을 추정하는 데 활용 가능
 

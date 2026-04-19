@@ -49,3 +49,11 @@
 - <https://jellyfish.co/blog/with-copilot-engineers-get-15-more-capacity-without-additional-headcount/>
   - Ticket 해결 속도가 15% 향상
 - [Google DORA 2024 Report](https://dora.dev/dora-report-2024) : AI 도입 초기(2024년)에는 배포 처리량이 오히려 악화되었고, AI 활용 증가가 배포 불안정성을 높이는 부작용이 나타났다.
+- [AI 코딩 시대, 성장이 멈추는 개발자의 뇌에서 일어나는 일 | GeekNews](https://news.hada.io/topic?id=28653)
+    - AI를 잘 쓰는 핵심 역량은 출력물의 품질을 판단·교정하는 능력이며, AI에 의존할수록 오히려 이 능력이 약화되는 역설을 지적
+    - Bjork의 "바람직한 어려움" 이론에 따르면 쉽게 처리한 정보는 장기 기억에 남지 않음
+    - Roediger & Karpicke(2006) 연구에서 인출 연습 그룹의 일주일 후 기억 보존율이 반복 읽기 그룹보다 약 50% 높았음
+- [조직에 Claude Code를 설치한다고 AX가 되지 않는다](https://flowkater.io/posts/2026-03-15-ax-organization-transformation/)
+    - 코딩은 전체 개발 사이클의 약 43%에 불과해, 도구 설치만으로 전사 AI 전환(AX)이 일어나지 않음
+    - AX를 달성하려면 프로세스·협업 구조·의사결정 방식을 함께 재설계해야 한다는 주장
+    - 단순한 Claude Code 보급 캠페인이 아니라 생산성 병목을 식별하고 문화적 변화를 동반해야 함
