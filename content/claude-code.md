@@ -46,6 +46,12 @@
     - everything-claude-code의 skill 승격 기능
 - [Claude Code Pricing: Optimize Your Token Usage & Costs](https://claudefa.st/blog/guide/development/usage-optimization)
 - [바이브 코딩의 토큰 관리 전략](https://roboco.io/posts/vibe-coding-token-management-strategy/)
+- [클로드 코드 에이전트 팀 비용 50% 줄이는 4가지 비법!](https://www.youtube.com/watch?v=NIXTycy26hI)
+    - 팀원 vs 서브 에이전트 구분: 팀원은 새 세션으로 실행되며 모든 스킬/메모리/MCP를 자동 로드. 서브 에이전트는 격리 컨텍스트에서 필요한 스킬만 주입. 스킬이 많다면 서브 에이전트가 더 깔끔
+    - 계획 승인 모드(Plan Approval): 팀 생성 시 "변경 전 계획 승인을 받도록 해줘"를 붙여, 팀원이 플랜 모드로 시작해 리드 승인 후에만 구현하도록 함. 잘못된 방향으로 토큰 낭비 방지
+    - 모델 믹싱: 리드는 Opus, 실제 코드를 수정하는 팀원들은 Sonnet. "팀원 모두 Sonnet을 사용해" 한 줄로 비용 대폭 절감
+    - 훅(Hook) 자동 품질 게이트: Teammate Idle Hook으로 팀원 유휴 시 요약 보고 자동화, Task Completed Hook으로 결과물 부족 시 자동 재작업 지시
+    - 추가 팁: 팀원 간 소통이 필요 없으면 서브 에이전트로, 팀원은 3~5명 적정, 작업 끝난 팀원은 즉시 종료
 - [클로드 코드 토큰 녹는 분들, 이 6가지만 바꿔보세요](https://www.youtube.com/watch?v=gLZ1wJUADqk)
     - 기본 모델 설정 변경: 설정 파일에서 디폴트 모델을 sonnet으로 고정하여 나도 모르게 Opus가 실행되는 것을 방지합니다.
     - Opus Plan 활용: 계획 단계에서는 Opus를 쓰고, 실행 단계에서는 자동으로 Sonnet으로 전환해주는 기능을 사용합니다.
