@@ -44,6 +44,11 @@
 - [Claude Code 비용 80% 절감하는 settings.json 3줄과 14만명이 쓰는 everything-claude-code 설정법](https://www.youtube.com/watch?v=4rN-UWKSmp0)
     - 디폴트 SONNET 추천
     - everything-claude-code의 skill 승격 기능
+- [클로드 코드 공식 플러그인 4개로 토큰 절약 끝 (하네스 실무 포함)](https://www.youtube.com/watch?v=L94yAQR9VvA)
+    - Session Report: 토큰 사용량과 캐시 적중 여부를 HTML 리포트로 시각화해 누수 지점을 찾는 플러그인
+    - Claude MD Management: 비대해진 `CLAUDE.md`를 정리하고 기준별로 평가해 컨텍스트 낭비를 줄이는 플러그인
+    - Serena MCP: 코드 의미 기반 검색으로 반복적인 텍스트 검색 토큰을 줄이는 MCP 플러그인
+    - Hookify: 반복 실수를 훅으로 차단해 같은 오류로 인한 토큰 낭비를 막는 하네스 엔지니어링 플러그인
 - [Claude Code Pricing: Optimize Your Token Usage & Costs](https://claudefa.st/blog/guide/development/usage-optimization)
 - [바이브 코딩의 토큰 관리 전략](https://roboco.io/posts/vibe-coding-token-management-strategy/)
 - [클로드 코드 에이전트 팀 비용 50% 줄이는 4가지 비법!](https://www.youtube.com/watch?v=NIXTycy26hI)
