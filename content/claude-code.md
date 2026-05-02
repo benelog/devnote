@@ -57,6 +57,12 @@
     - 모델 믹싱: 리드는 Opus, 실제 코드를 수정하는 팀원들은 Sonnet. "팀원 모두 Sonnet을 사용해" 한 줄로 비용 대폭 절감
     - 훅(Hook) 자동 품질 게이트: Teammate Idle Hook으로 팀원 유휴 시 요약 보고 자동화, Task Completed Hook으로 결과물 부족 시 자동 재작업 지시
     - 추가 팁: 팀원 간 소통이 필요 없으면 서브 에이전트로, 팀원은 3~5명 적정, 작업 끝난 팀원은 즉시 종료
+- [Using Claude Code: session management and 1M context](https://claude.com/blog/using-claude-code-session-management-and-1m-context)
+    - 세션 한도 문제를 1M 컨텍스트 부족이 아니라 컨텍스트를 끊는 타이밍 문제로 설명
+    - 컨텍스트가 커질수록 토큰 비용이 지수적으로 늘고 Context Rot로 정확도도 떨어진다고 강조
+    - Continue, Rewind, Clear, Compact, Subagent를 상황별로 고르는 공식 5가지 분기점을 소개
+    - Rewind는 잘못된 방향으로 간 대화를 되돌려 불필요한 컨텍스트 누적을 막는 1순위 습관으로 제안
+    - auto-compaction을 기다리지 말고 힌트를 붙인 `/compact`나 Subagent로 중간 과정 토큰을 분리하라고 권장
 - [클로드 코드 토큰 녹는 분들, 이 6가지만 바꿔보세요](https://www.youtube.com/watch?v=gLZ1wJUADqk)
     - 기본 모델 설정 변경: 설정 파일에서 디폴트 모델을 sonnet으로 고정하여 나도 모르게 Opus가 실행되는 것을 방지합니다.
     - Opus Plan 활용: 계획 단계에서는 Opus를 쓰고, 실행 단계에서는 자동으로 Sonnet으로 전환해주는 기능을 사용합니다.
