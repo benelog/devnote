@@ -63,6 +63,12 @@
     - Continue, Rewind, Clear, Compact, Subagent를 상황별로 고르는 공식 5가지 분기점을 소개
     - Rewind는 잘못된 방향으로 간 대화를 되돌려 불필요한 컨텍스트 누적을 막는 1순위 습관으로 제안
     - auto-compaction을 기다리지 말고 힌트를 붙인 `/compact`나 Subagent로 중간 과정 토큰을 분리하라고 권장
+- [Claude 세션 간 Context Handoff: 맥락을 잃지 않는 4계층 전략](https://codex.epril.com/claude-session-context-handoff-4-layer-strategy)
+    - context rot, auto-compact 비대칭성, context amnesia를 동시에 푸는 4계층 핸드오프 전략 정리
+    - Tier 1은 `/rewind`로 실패 시도를 컨텍스트에서 지우고, `/compact`는 focus 지시 없이는 쓰지 않는 in-session 관리
+    - Tier 2 Document & Clear는 명령형 대신 상태 서술형으로 핸드오프 `.md`를 쓰고 `/clear` 후 새 세션에 검증 지시와 함께 이어붙이는 패턴
+    - Tier 3 영구 메모리는 `CLAUDE.md`엔 불변 규약만 두고, `.claude/reports/` registry로 50줄 인덱스만 main에 올린 뒤 필요한 리포트만 on-demand로 로드
+    - Tier 4 Cross-Session 조율은 spec/ADR/커밋 메시지를 핸드오프 매체로 활용하고, subagent를 쪼개기보다 main이 자기 복제본에 위임하는 Master-Clone 구조를 권장
 - [클로드 코드 토큰 녹는 분들, 이 6가지만 바꿔보세요](https://www.youtube.com/watch?v=gLZ1wJUADqk)
     - 기본 모델 설정 변경: 설정 파일에서 디폴트 모델을 sonnet으로 고정하여 나도 모르게 Opus가 실행되는 것을 방지합니다.
     - Opus Plan 활용: 계획 단계에서는 Opus를 쓰고, 실행 단계에서는 자동으로 Sonnet으로 전환해주는 기능을 사용합니다.

@@ -1,3 +1,5 @@
+## Harness
+
 * [스킬이 쏟아지는 시대, 내 하네스는 내가 만든다](https://news.hada.io/weekly/202615)
 * [같은 Opus인데 왜 결과가 다를까 — 하네스 엔지니어링이라는 답](https://www.fullstackfamily.com/@urstory/posts/14381)
 * [AI에게 게임을 만들게 하는 법 — 하네스 엔지니어링 실전 가이드]](https://www.fullstackfamily.com/@urstory/posts/14386)
@@ -11,3 +13,6 @@
     - "엔지니어링의 엄밀함은 사라지지 않는다 — 이동할 뿐이다"라는 관점으로 4년간의 패턴 진화를 정리
     - 단순 프롬프트 엔지니어링에서 하네스 중심 설계로 옮겨온 변곡점과 배경을 짚음
     - 에이전틱 시스템 설계 시 어떤 레이어에 엔지니어링 역량을 투입해야 하는지 지침 제공
+
+## Agent
+* https://github.com/lsdefine/GenericAgent
