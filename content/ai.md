@@ -19,6 +19,9 @@
 - <https://github.com/modu-ai/smarter-prompt>
 - <https://petite-peacock-6e6.notion.site/AI-1f9b7b6880c480148190cbaf071eb2f8>
 
+## 유용한 도구
+* https://github.com/epoko77-ai/im-not-ai
+
 ## Children
 - [[ai-gent-role]]
 - [[ai-coding-agent]]
