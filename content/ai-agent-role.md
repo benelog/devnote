@@ -44,6 +44,13 @@
 > (하용호 님) 가장 중요한 건 PO(Product Owner) 마인드입니다. 모든 멤버가 "이 제품이 어떤 가치를 전달해야 하는가"를 고민해야 합니다. 그리고 극도로 명확한 커뮤니케이션 능력이 필요합니다
 
 ### Anthropic
+* [Vibe coding in prod | Code w/ Claude](https://www.youtube.com/watch?v=fHWFF_pnqDk)
+    * Anthropic의 Code w/ Claude 행사에서 발표된 영상으로, Claude를 활용한 "vibe coding"을 프로덕션 맥락에서 다룬다.
+    * 발표자는 Anthropic Member of Technical Staff인 Erik Schulntz이며, 2025년 5월 22일 샌프란시스코 행사 발표다.
+    * AI 코딩 에이전트를 단순 자동완성 도구가 아니라 제품 개발 흐름 안에서 함께 일하는 실행 주체로 보는 관점을 보여준다.
+    * 제목처럼 프로덕션 코드에 AI를 쓰는 문제를 다루며, 사전 정의·실행 위임·리뷰·검증 같은 인간의 관리 역할이 중요해진다.
+    * 댓글 반응에서도 "프로덕션에서의 vibe coding"에 대한 기대와 우려가 함께 드러나며, 책임 있는 운영 방식이 핵심 쟁점이다.
+    * ai-agent-role 관점에서는 개발자의 역할이 코드 작성자에서 AI 작업을 설계·감독·검증하는 제품/엔지니어링 리드 쪽으로 이동하는 사례로 볼 수 있다.
 * [Building Claude Code with Boris Cherny](https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny)
 * [The Anthropic Hive Mind](https://steve-yegge.medium.com/the-anthropic-hive-mind-d01f768f3d7b)
     * Anthropic은 전통적 사일로/계층 구조가 아닌 *바이브 기반 즉흥적 협업*으로 운영됨
