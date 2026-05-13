@@ -16,3 +16,8 @@
 
 ## Agent
 * https://github.com/lsdefine/GenericAgent
+* [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
+    - Anthropic Applied AI 팀이 프롬프트 엔지니어링을 넘어, 추론 시점에 들어가는 전체 토큰 구성을 다루는 `context engineering` 관점을 정리
+    - 컨텍스트는 유한한 attention budget으로 보고, 원하는 행동을 이끌어내는 가장 작은 고신호 토큰 집합을 유지하는 것이 핵심 원칙
+    - 시스템 프롬프트, 도구, 예시, 메시지 히스토리를 모두 간결하지만 충분하게 설계하고, 런타임에는 파일 경로·쿼리·링크 같은 식별자로 필요한 정보만 just-in-time으로 가져오라고 제안
+    - 장기 작업에는 compaction, structured note-taking/agentic memory, sub-agent architecture를 과제 특성에 맞게 조합하는 전략을 소개
