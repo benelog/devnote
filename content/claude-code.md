@@ -23,6 +23,10 @@
   - [Everything Claude Code - 해커톤 우승자의 AI 개발 팀 레시피](https://roboco.io/posts/everything-claude-code-distilled/)
 - <https://github.com/seeyoung/claude-multi-ai-collab> : Gemini + Codex를 동시에 활용하는 CLI 스킬
 - [Claude Code에서 GLM 4.7 사용하기 - MoAI-ADK로 쉽게 설정](https://goos.kim/ko/blog/claude-code-glm-47-moai-adk-setup-guide)
+- [400시간 만에 알게 된 Claude Code의 진짜 핵심 도구 6개](https://www.youtube.com/watch?v=BZPaZzjLIOY)
+    - 400시간 사용 후 실제로 남은 6개 도구를 소개하며, 많이 설치하기보다 검증된 것만 남기라고 조언
+    - 핵심 도구: `superpowers`, `gstack`, `grill-me`, `improvement-architecture`, `codex:review`, `Vercel React Best Practices`
+    - GitHub 별점 조작과 프롬프트 인젝션 같은 큐레이션 위험을 언급하고, 검증된 스킬 큐레이션 사이트 `skills.ag`도 소개
 
 ## 비용 최적화
 - [Claude ‘구독형’ 요금제가 API보다 최대 36배 저렴한 이유와 ‘Max 5x’가 진짜 최적 구간인 이유](https://news.hada.io/topic?id=26256)
