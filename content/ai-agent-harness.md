@@ -21,3 +21,8 @@
     - 컨텍스트는 유한한 attention budget으로 보고, 원하는 행동을 이끌어내는 가장 작은 고신호 토큰 집합을 유지하는 것이 핵심 원칙
     - 시스템 프롬프트, 도구, 예시, 메시지 히스토리를 모두 간결하지만 충분하게 설계하고, 런타임에는 파일 경로·쿼리·링크 같은 식별자로 필요한 정보만 just-in-time으로 가져오라고 제안
     - 장기 작업에는 compaction, structured note-taking/agentic memory, sub-agent architecture를 과제 특성에 맞게 조합하는 전략을 소개
+* [The Secrets of Claude's Agent Platform From the Team Who Built It](https://www.youtube.com/watch?v=lLypHkIVLqc)
+    - Every의 AI & I 인터뷰로, Anthropic Claude Platform 제품·엔지니어링 리더가 Managed Agents 방향을 설명
+    - 목표와 예산만 주면 클라우드 컴퓨터 위 Claude를 실행·확장·관리하는 형태를 지향하며, 에이전트 제품의 운영 인프라 부담을 플랫폼이 맡는다는 관점
+    - 하네스와 모델이 하나의 단위로 가까워지는 흐름, 팀용 에이전트 형태, 장시간 실행 에이전트의 프로덕션 안정성 이슈를 다룸
+    - 법무팀의 마케팅 문구 리뷰 에이전트 사례, advisor/adversarial pair/swarm 같은 멀티 에이전트 오케스트레이션, outcome·budget 기반 성공 측정도 언급
