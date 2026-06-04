@@ -20,6 +20,11 @@
         * 이슈 사이클 타임 42% 감소
         * 보안 취약점의 51%를 에이전트가 수정
         * DORA 메트릭 전반의 개선
+* [A Practical Guide to Becoming an AI-Native Engineer](https://blog.bytebytego.com/p/a-practical-guide-to-becoming-an) (ByteByteGo, 2026.6.2)
+    * AI-native engineering을 코드 직접 작성보다 AI 에이전트를 지휘·검증하는 `orchestrator` 역할로 정의하고, vibe coding과 구분한다.
+    * 생산성 격차의 핵심을 context engineering, spec-driven development, critical verification, disciplined problem decomposition으로 설명한다.
+    * 무계획적인 대규모 autonomous run은 코드 churn·보안 구멍·기술부채를 키울 수 있어, 작은 범위와 촘촘한 human-in-the-loop 검증 체크포인트를 권장한다.
+    * Agentic Development Life Cycle에서는 계획·구현·테스트·리뷰 에이전트를 분리하고, 기능·품질·성능·보안·프라이버시 관점의 교차 검증 루프를 두는 방식을 제안한다.
 * [OpenAI: AI가 소프트웨어 개발 방식을 어떻게 재편하고 있는가](https://www.youtube.com/watch?v=Bo6Gtq3nMXc)
 * [2026 코딩 개발자 생존법 with 앤드류 응(AI의 스승)](https://www.youtube.com/watch?v=vENN6-d_3AQ)
 	* (원본) [Stanford CS230 | Autumn 2025 | Lecture 9: Career Advice in AI](https://www.youtube.com/@stanfordonline)
