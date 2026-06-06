@@ -16,6 +16,11 @@
 
 ## Agent
 * https://github.com/lsdefine/GenericAgent
+* [OpenCrabs — Open-Source Terminal AI Agent](https://opencrabs.com/)
+    - 터미널에 상주하는 오픈소스 AI 에이전트로, TUI/CLI뿐 아니라 Telegram, Discord, Slack, WhatsApp, Trello 같은 채널에서도 세션을 이어갈 수 있다고 소개
+    - Anthropic, OpenAI, Gemini, GitHub Copilot, OpenRouter, Ollama, LM Studio 등 다양한 모델·프로바이더와 연결되는 약 23MB 단일 바이너리 형태
+    - 파일 작업, bash, 웹 검색, 코드 실행, 브라우저 자동화, 이미지 생성, 로컬 STT/TTS, 서브에이전트 오케스트레이션 등 50개 이상의 내장 도구를 제공
+    - Mission Control, persistent memory, multi-agent/team orchestration, self-healing, RSI 기반 self-improving 기능을 내세워 개인용 터미널 하네스와 메신저 에이전트의 결합 사례로 볼 수 있음
 * [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
     - Anthropic Applied AI 팀이 프롬프트 엔지니어링을 넘어, 추론 시점에 들어가는 전체 토큰 구성을 다루는 `context engineering` 관점을 정리
     - 컨텍스트는 유한한 attention budget으로 보고, 원하는 행동을 이끌어내는 가장 작은 고신호 토큰 집합을 유지하는 것이 핵심 원칙
