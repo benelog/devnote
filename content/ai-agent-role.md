@@ -1,4 +1,10 @@
-## 변화에 대한 견해
+## 견해
+- <https://martinfowler.com/articles/2025-nature-abstraction.html>
+- [바이브 코딩에는 컨텍스트 엔지니어링이 필요하다](https://blogbyash.com/translation/vibe-coding-needs-context-engineering/)
+- <https://tidyfirst.substack.com/p/augmented-coding-beyond-the-vibes>
+- [AI-Driven Development Lifecycle (AI-DLC) Method Definition](https://prod.d13rzhkk8cj2z0.amplifyapp.com/)
+- [AI로 개발을 어떻게 가속화하는가](https://drive.google.com/file/d/1SJ7-1YXo4r4pkHDuMdKLR9NtgbUsSRoZ/view) (하용호 님)
+- [웹 개발이 다시 재미있어졌다](https://news.hada.io/topic?id=25574)
 * [잇따른 장애 후, Amazon이 AI 지원 코드 변경에 시니어 엔지니어 승인 의무화](https://news.hada.io/topic?id=27395)
     * https://arstechnica.com/ai/2026/03/after-outages-amazon-to-make-senior-engineers-sign-off-on-ai-assisted-changes/
 * ["AI가 짠 코드, 저도 다 모릅니다" 넷플릭스 개발자의 고백](https://eopla.net/magazines/38577)
@@ -72,3 +78,5 @@
     * "새로 들어온 사람이나 신입이 저보다 더 AGI 지향적인 방식으로 일하는 걸 볼 때가 있어요."
     * "재미있는 건 뭘 만들지 생각하는 것, 사용자와 대화하는 것, 큰 시스템을 고민하는 것, 미래를 생각하는 것, 팀원들과 협업하는 거예요. 이제 그걸 더 많이 할 수 있게 됐어요."
     * "앞으로 몇 년간 가장 보상받는 사람들은 AI 네이티브(AI-native)이면서 동시에 호기심이 많고, 여러 분야를 넘나드는 제너럴리스트일 거라고 생각해요. 단순히 AI 도구를 잘 쓰는 것만으로는 안 되고, 엔지니어링 너머의 더 넓은 문제를 볼 수 있어야 해요."
+### Code Review
+* https://www.latent.space/p/reviews-dead

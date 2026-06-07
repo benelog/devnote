@@ -2,6 +2,6 @@
 
 ## Related
 - [[ai]]
-- [[ai-coding-agent]]
+- [[ai-agent]]
 - [[ai-framework]]
 - [[gpt]]

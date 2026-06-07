@@ -18,6 +18,7 @@
     - 예: `Claude Mem`은 세션 간 지속적인 메모리를 제공해 코드베이스를 매번 다시 가르치지 않아도 됨
     - 에이전트 코딩 환경을 꾸밀 때 참고할 만한 도구/레포 큐레이션
 
+
 ## Plugins
 - <https://github.com/affaan-m/everything-claude-code>
   - [Everything Claude Code - 해커톤 우승자의 AI 개발 팀 레시피](https://roboco.io/posts/everything-claude-code-distilled/)
@@ -29,6 +30,11 @@
     - GitHub 별점 조작과 프롬프트 인젝션 같은 큐레이션 위험을 언급하고, 검증된 스킬 큐레이션 사이트 `skills.ag`도 소개
 
 ## 비용 최적화
+-  [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
+    - Anthropic Applied AI 팀이 프롬프트 엔지니어링을 넘어, 추론 시점에 들어가는 전체 토큰 구성을 다루는 `context engineering` 관점을 정리
+    - 컨텍스트는 유한한 attention budget으로 보고, 원하는 행동을 이끌어내는 가장 작은 고신호 토큰 집합을 유지하는 것이 핵심 원칙
+    - 시스템 프롬프트, 도구, 예시, 메시지 히스토리를 모두 간결하지만 충분하게 설계하고, 런타임에는 파일 경로·쿼리·링크 같은 식별자로 필요한 정보만 just-in-time으로 가져오라고 제안
+    - 장기 작업에는 compaction, structured note-taking/agentic memory, sub-agent architecture를 과제 특성에 맞게 조합하는 전략을 소개
 - [Claude ‘구독형’ 요금제가 API보다 최대 36배 저렴한 이유와 ‘Max 5x’가 진짜 최적 구간인 이유](https://news.hada.io/topic?id=26256)
 - [클로드 코드 3일간 소스코드 뜯어본 개발자가 찾은 토큰 틀어막기 TOP 7](https://www.youtube.com/watch?v=ZRyVSrFqvzI)
     - auto-compact 전에 clear
@@ -89,3 +95,9 @@
     - 실측에서 Opus 4.7은 Opus 4.6 대비 평균 요청 토큰·비용이 +37.4% 증가
     - 요청을 바꾸지 않아도 비용이 늘어나므로, 사전에 비용 영향을 추정하는 데 활용 가능
 
+## Agent platform
+* [The Secrets of Claude's Agent Platform From the Team Who Built It](https://www.youtube.com/watch?v=lLypHkIVLqc)
+    - Every의 AI & I 인터뷰로, Anthropic Claude Platform 제품·엔지니어링 리더가 Managed Agents 방향을 설명
+    - 목표와 예산만 주면 클라우드 컴퓨터 위 Claude를 실행·확장·관리하는 형태를 지향하며, 에이전트 제품의 운영 인프라 부담을 플랫폼이 맡는다는 관점
+    - 하네스와 모델이 하나의 단위로 가까워지는 흐름, 팀용 에이전트 형태, 장시간 실행 에이전트의 프로덕션 안정성 이슈를 다룸
+    - 법무팀의 마케팅 문구 리뷰 에이전트 사례, advisor/adversarial pair/swarm 같은 멀티 에이전트 오케스트레이션, outcome·budget 기반 성공 측정도 언급
