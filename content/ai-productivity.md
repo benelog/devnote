@@ -1,4 +1,10 @@
 ## 사례/연구
+- [Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools](https://www.nber.org/system/files/working_papers/w35275/w35275.pdf) (NBER Working Paper 35275, 2026.5)
+    - 10만 명 이상의 GitHub 개발자와 AI 사용 텔레메트리 데이터를 결합해 자동완성, 인터랙티브 코딩 에이전트, 자율 코딩 에이전트가 생산성에 미치는 효과를 비교한 연구
+    - AI 도구는 커밋 기준 누적 효과를 각각 40%, 140%, 180% 높였지만, 자율 코딩 에이전트의 180% 효과는 프로젝트 수 50%, 실제 릴리스 30%로 생산 단계가 내려갈수록 크게 약화됨
+    - AI와 인간 노력 사이의 대체탄력성을 0.25로 추정해, 강한 코딩 생산성 향상이 인간 병목과 보완성 때문에 최종 산출물로는 일부만 전이된다고 해석
+    - 4대 앱 마켓 분석에서도 신규 앱 수는 완만히 늘었지만 총 사용량 증가는 확인되지 않아, task-level 생산성 향상과 shipped/used software 사이의 간극을 보여줌
+    - DOI: <https://doi.org/10.3386/w35275>
 - https://getdx.com/research/measuring-ai-code-assistants-and-agents/
     - 번역 : https://gemini.google.com/share/000116ad7bcd
     * **측정의 3차원:** AI 도구의 효과는 조직의 도입 주기에 맞춰 **활용도, 영향력, 비용(및 거버넌스)**의 세 가지 기준으로 평가해야 합니다.
