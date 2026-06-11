@@ -15,6 +15,10 @@
     - extensions, skills, prompt templates, themes를 Pi packages로 묶어 npm이나 git으로 공유·설치할 수 있음
     - interactive, print/JSON, RPC, SDK 네 가지 모드를 제공해 TUI 사용부터 스크립트·외부 앱 임베딩까지 지원
     - AGENTS.md/SYSTEM.md, 커스텀 compaction, on-demand skills, dynamic context 등 컨텍스트 엔지니어링을 직접 제어할 수 있는 구조를 강조
+* [oh-my-pi](https://github.com/can1357/oh-my-pi)
+    - Pi에서 fork한 터미널용 AI 코딩 에이전트로, 해시 기반 편집과 모델별 튜닝된 하네스를 강조
+    - LSP/DAP, Python·Bun 코드 실행, 브라우저, 서브에이전트, GitHub 파일시스템, ACP 등을 기본 도구로 묶어 제공
+    - 40개 이상 프로바이더와 수백 개 모델 라우팅을 지원하고 `omp` CLI, SDK, RPC, ACP 진입점을 제공
 * https://github.com/lsdefine/GenericAgent
 * [OpenCrabs — Open-Source Terminal AI Agent](https://opencrabs.com/) 
 - <https://github.com/block/goose>
