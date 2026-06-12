@@ -15,8 +15,10 @@
 - Turbo Vision 비슷한 UI
   - CSS : <https://github.com/vinibiavatti1/TuiCss>
   - Go 구현 : <https://pkg.go.dev/github.com/vladimirmarkelov/clui>
-  - Java 구현 : <https://gitlab.com/AutumnMeowMeow/jexer>
-    - jexer를 활용한 Java IDE : <https://tjide.sourceforge.io/>
+  - Java 구현
+    - <https://codeberg.org/AutumnMeowMeow/jexer>
+        - jexer를 활용한 Java IDE : <https://tjide.sourceforge.io/>
+    - <https://github.com/crramirez/casciian>
 - PC 통신스러운 UI
   - <https://github.com/vinibiavatti1/TuiCss>
   - <https://github.com/kristopolous/BOOTSTRA.386>
