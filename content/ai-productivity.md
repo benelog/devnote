@@ -1,4 +1,9 @@
 ## 사례/연구
+- [Coding Is No Longer the Constraint: Scaling Developer Experience to Teams and Agents at Spotify](https://engineering.atspotify.com/2026/6/code-with-claude-coding-is-no-longer-the-constraint) (Spotify Engineering, 2026.6)
+    - Spotify 엔지니어의 99% 이상이 매주 AI 코딩 도구를 쓰고, 94%가 생산성 향상을 체감하며, PR 빈도는 76% 증가했다고 소개
+    - Fleet Management/Fleetshift로 250만 개 이상의 자동 유지보수 PR을 처리한 기반 위에, Claude Agent SDK 기반 백그라운드 코딩 에이전트 Honk를 Kubernetes에서 병렬 실행
+    - Backstage, Soundcheck, golden state, 표준 기술 스택 등 DevEx 투자가 사람뿐 아니라 에이전트의 코드 이해·수정 품질에도 직접적인 가드레일이 된다고 설명
+    - 코딩 속도가 올라가면서 새 병목은 구현 자체가 아니라 PR 리뷰, 자동 머지 범위, 우선순위와 의사결정으로 이동한다고 정리
 - [Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools](https://www.nber.org/system/files/working_papers/w35275/w35275.pdf) (NBER Working Paper 35275, 2026.5)
     - 10만 명 이상의 GitHub 개발자와 AI 사용 텔레메트리 데이터를 결합해 자동완성, 인터랙티브 코딩 에이전트, 자율 코딩 에이전트가 생산성에 미치는 효과를 비교한 연구
     - AI 도구는 커밋 기준 누적 효과를 각각 40%, 140%, 180% 높였지만, 자율 코딩 에이전트의 180% 효과는 프로젝트 수 50%, 실제 릴리스 30%로 생산 단계가 내려갈수록 크게 약화됨
