@@ -10,6 +10,10 @@
 
 - [OpenClaw — Personal AI Assistant](https://openclaw.ai/)
 * [Hermes Agent — The Agent That Grows With You](https://hermes-agent.nousresearch.com/) 
+* [MiMo Code](https://mimo.xiaomi.com/mimocode/start)
+    - Xiaomi의 개발자용 AI 코딩 에이전트 문서로, 코드베이스 이해·변경 계획·안전한 코드 편집·검토·디버깅을 지원한다고 소개
+    - 터미널, 데스크톱 앱, IDE 확장에서 같은 경험을 제공하며 Install & Launch, 모델 연결, 세션/컨텍스트, 작업 모드, 도구 사용을 문서화
+    - rules, skills, custom commands, MCP, custom tools, specialized agents, formatter, LSP 등 팀 워크플로에 맞춘 커스터마이징 항목을 제공
 * [Pi Coding Agent](https://pi.dev/)
     - 워크플로를 제품에 맞추기보다 하네스를 워크플로에 맞게 바꾸는 것을 지향하는 미니멀 에이전트 하네스
     - extensions, skills, prompt templates, themes를 Pi packages로 묶어 npm이나 git으로 공유·설치할 수 있음
