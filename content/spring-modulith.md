@@ -1,0 +1,1 @@
+* [MSA로의 여정에서 만난 Spring Modulith 체리픽 해본 후기 ](https://tech.kakaobank.com/posts/2507-legacy-to-modular-monolith-with-spring-modulith/)

@@ -8,6 +8,7 @@
 - [[spring-db]]
 - [[spring-hostname]]
 - [[spring-integration]]
+- [[spring-modulith]]
 - [[spring-mvc]]
 - [[spring-properties]]
 - [[spring-resource-handling]]
