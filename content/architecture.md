@@ -41,6 +41,7 @@ Component as a whole to other client Component instances.
 ### Events
 
 - <https://www.infoq.com/articles/events-workflow-automation>
+- [워크플로우 코드 왜 항상 복잡할까? - Temporal이 보여준 다른 방법 (SpringCamp 2026, 정승주)](https://github.com/springcamp/presentations/blob/main/SpringCamp-2026-Presentations/%5B%EC%A0%95%EC%8A%B9%EC%A3%BC%EB%8B%98%5D%20%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0%20%EC%BD%94%EB%93%9C%20%EC%99%9C%20%ED%95%AD%EC%83%81%20%EB%B3%B5%EC%9E%A1%ED%95%A0%EA%B9%8C_%20Temporal%EC%9D%B4%20%EB%B3%B4%EC%97%AC%EC%A4%80%20%EB%8B%A4%EB%A5%B8%20%EB%B0%A9%EB%B2%95.pdf)
 
 ### TCC
 

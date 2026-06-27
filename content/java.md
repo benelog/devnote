@@ -1,3 +1,4 @@
+- [Is Java Alive and Kicking? (SpringCamp 2026, 이희승)](https://github.com/springcamp/presentations/blob/main/SpringCamp-2026-Presentations/%5B%EC%9D%B4%ED%9D%AC%EC%8A%B9%EB%8B%98%5D%20Is%20Java%20Alive%20and%20Kicking_.pdf)
 ## Children
 - [[android]]
 - [[eclipse]]

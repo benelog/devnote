@@ -184,4 +184,8 @@ RequestMappingHandlerAdapter에서 supportInternal 메소드 변화
 - <http://blog.springsource.org/2013/05/21/spring-framework-4-0-m1-3-2-3-available/>
 - <http://blog.springsource.org/2013/05/22/spring-framework-4-0-m1-websocket-support/>
 
+## Spring I/O 2026
+
+- [변화하는 스프링, 떠오르는 AI, 그리고 우리의 준비 (SpringCamp 2026, 고동균·최상현)](https://github.com/springcamp/presentations/blob/main/SpringCamp-2026-Presentations/%5B%EA%B3%A0%EB%8F%99%EA%B7%A0%EB%8B%98%2C%20%EC%B5%9C%EC%83%81%ED%98%84%EB%8B%98%5D%20Spring%20I_O%202026%20-%20%EB%B3%80%ED%99%94%ED%95%98%EB%8A%94%20%EC%8A%A4%ED%94%84%EB%A7%81%2C%20%EB%96%A0%EC%98%A4%EB%A5%B4%EB%8A%94%20AI%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%9A%B0%EB%A6%AC%EC%9D%98%20%EC%A4%80%EB%B9%84.pptx)
+
 ## Related

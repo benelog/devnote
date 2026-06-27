@@ -5,6 +5,7 @@
 - <https://toss.tech/article/toss-frontend-ai-docs>
 - <https://vercel.com/blog/becoming-an-ai-engineering-company>
 - <https://v0.dev/>
+- [자율 에이전트를 활용한 AI 네이티브 자바 개발 (SpringCamp 2026, 최용호)](https://github.com/springcamp/presentations/blob/main/SpringCamp-2026-Presentations/%5B%EC%B5%9C%EC%9A%A9%ED%98%B8%EB%8B%98%5D%20%EC%9E%90%EC%9C%A8%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20AI%20%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94%20%EA%B0%9C%EB%B0%9C.pdf)
 
 ## 도구
 
