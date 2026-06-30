@@ -69,6 +69,31 @@
     - 코딩은 전체 개발 사이클의 약 43%에 불과해, 도구 설치만으로 전사 AI 전환(AX)이 일어나지 않음
     - AX를 달성하려면 프로세스·협업 구조·의사결정 방식을 함께 재설계해야 한다는 주장
     - 단순한 Claude Code 보급 캠페인이 아니라 생산성 병목을 식별하고 문화적 변화를 동반해야 함
+- [Scaling Code Reviews: Adapting to a Surge in AI-Generated Code](https://engineering.salesforce.com/scaling-code-reviews-adapting-to-a-surge-in-ai-generated-code/) (Salesforce Engineering, 2026.1)
+    - AI 코딩 도구 도입 후 코드량 약 30% 증가, PR이 일상적으로 20개 파일·1,000줄 변경을 초과하면서 'human-in-the-loop' 코드 리뷰 모델이 붕괴(fracture)
+    - 리뷰 용량이 제출 물량을 따라가지 못하면 리뷰 품질이 저하 → 핵심 과제가 '생산'에서 '검증'으로 이동
+    - 대응으로 코드 리뷰를 IDE·PR 앞단으로 당기는(left-shift) 내부 도구 Prizm 구축. 그룹화·권고·보안 점검을 포함한 전체 분석을 최대 5분 내 수행
+- [Cursor acquires code review startup Graphite](https://fortune.com/2025/12/19/cursor-ai-coding-startup-graphite-competition-heats-up/) (Fortune, 2025.12)
+    - AI 코딩 도구 선두주자 Cursor가 코드 리뷰 스타트업 Graphite를 2.9억 달러 이상에 인수
+    - '코드를 쓰는 회사가 코드를 검토하는 회사를 인수' → 시장의 초점이 생산에서 검증·리뷰로 이동하는 신호
+- [AI Copilot Code Quality: 2025 Data Suggests 4x Growth in Code Clones](https://www.gitclear.com/ai_assistant_code_quality_2025_research) (GitClear, 2025) ([원문 PDF](https://gitclear-public.s3.us-west-2.amazonaws.com/GitClear-AI-Copilot-Code-Quality-2025.pdf))
+    - 2억 1,100만 줄 분석. 2024년은 측정 이래 처음으로 '복사/붙여넣기' 코드(12.3%)가 '이동(리팩터링·재사용)' 코드(9.5%)를 추월한 해
+    - 리팩터링 신호인 '이동' 코드 비중이 2021년 25% → 2024년 10% 미만으로 붕괴, 5줄 이상 중복 블록은 한 해 만에 약 8배 증가
+    - (유의) 벤더 자체 발간이며 AI 도입 시기와 겹친 시계열 '상관'일 뿐 인과를 입증한 통제 실험은 아님
+- [2025 GenAI Code Security Report](https://www.veracode.com/blog/genai-code-security-report/) (Veracode, 2025)
+    - LLM 100여 종을 80여 개 과제로 테스트 → AI 생성 코드의 45%가 보안 테스트에 실패하고 OWASP Top 10 취약점을 도입
+    - 모델이 더 크거나 최신이어도 보안은 개선되지 않음(기능 정확도는 향상되나 보안 성능은 정체). Java가 72% 실패로 최악
+- [Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions](https://cacm.acm.org/research-highlights/asleep-at-the-keyboard-assessing-the-security-of-github-copilots-code-contributions/) (NYU, IEEE S&P 2022 / CACM)
+    - MITRE Top-25 CWE 기반 89개 시나리오에서 Copilot이 생성한 1,689개 프로그램 중 약 40%가 취약
+    - 버그·취약 예제를 포함한 오픈소스로 학습된 이상, 안전하지 않은 제안은 이상 현상이 아니라 예견된 결과라고 결론
+- [Security Weaknesses of Copilot-Generated Code in GitHub Projects](https://arxiv.org/abs/2310.02059) (ACM TOSEM, 2025)
+    - 실제 GitHub 프로젝트의 AI 생성 스니펫 분석 → Python 스니펫의 29.5%, JavaScript의 24.2%가 보안 약점(43개 CWE)의 영향을 받음
+- [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/abs/2211.03622) (Stanford, ACM CCS 2023)
+    - AI 어시스턴트를 사용한 참가자가 사용하지 않은 참가자보다 통계적으로 유의하게 덜 안전한 코드를 작성(5개 과제 중 4개에서 유의)
+    - 그러면서도 자신이 더 안전하게 짰다고 믿는 '잘못된 안도감(false sense of security)' 효과 → 사람의 자기검증만으로는 신뢰하기 어렵다는 시사점
+- [The AI Verification Bottleneck](https://srlabs.de/blog/ai-verification-bottleneck) (SRLabs, 2026.3)
+    - "보안은 텍스트 변환의 파이프라인이 아니라 검증의 파이프라인이며, 그 파이프라인은 인간 능력에 제약된다(human-limited)" → 병목이 발견·생산에서 검증으로 이동
+    - Sonar 개발자 설문(1,100여 명) 인용: AI 출력을 완전히 신뢰하지 않는 비율은 96%인데도 커밋 전 '항상' 검증하는 비율은 48%에 그침. 생성이 검증보다 빨리 확장되면 팀은 '위험 감소'가 아니라 '항목 마감'을 최적화하게 됨
 ### 대규모 코드 마이그레이션 작업
 
 - (Uber) [This Year in Uber’s AI-Driven Developer Productivity Revolution](https://dpe.org/sessions/ty-smith-adam-huda/this-year-in-ubers-ai-driven-developer-productivity-revolution/)
