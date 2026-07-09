@@ -31,6 +31,14 @@
     * 생산성 격차의 핵심을 context engineering, spec-driven development, critical verification, disciplined problem decomposition으로 설명한다.
     * 무계획적인 대규모 autonomous run은 코드 churn·보안 구멍·기술부채를 키울 수 있어, 작은 범위와 촘촘한 human-in-the-loop 검증 체크포인트를 권장한다.
     * Agentic Development Life Cycle에서는 계획·구현·테스트·리뷰 에이전트를 분리하고, 기능·품질·성능·보안·프라이버시 관점의 교차 검증 루프를 두는 방식을 제안한다.
+* [Y combinator - AI Native 용어집](https://www.facebook.com/choa.jung.2025/posts/pfbid0ik7WvkddwHoPuGG3ZhRPRMQxkHyXjnbQPGVB4RMByY7Z4eu6RkoGWhKt4NoWKmyjl) (Choa Jung, 2026.7.2)
+    * AI를 보조 도구가 아니라 조직 맥락과 워크플로우를 통합·제어하는 `Company OS`로 보는 YC식 AI Native 개념을 정리한다.
+    * Queryable Organization, Artifact-rich, Shared Organizational Brain, Diarization/Context Distillation 등 AI가 읽을 수 있는 조직 지식 구조를 핵심 기반으로 제시한다.
+    * Prompt Broadcasting, Skillify, Resolver, Humans at the Edge, DRI/IC 등 도구 도입을 넘어 조직 운영과 학습 방식까지 바꾸는 용어들을 묶어 설명한다.
+* [Go and boil the sea - 가서 바닷물을 끓이세요](https://www.facebook.com/choa.jung.2025/posts/pfbid022oSPTaBQqjexA3UytRV1FUB6QQhsaJ7JFmzAg3wBsppbRapPrdxHYTXDCmpJjvQel) (Choa Jung)
+    * Gary Tan의 AI Engineering World Fair 발표를 바탕으로, AI Native 기업이 AI를 단순 도우미가 아니라 `workforce`로 쓰며 1인당 생산성과 매출 구조를 바꾸고 있음을 강조한다.
+    * 스킬 파일을 직원, resolver table을 조직도, filing rule을 내부 프로세스, trigger eval을 성과 평가에 대응시키며 “마크다운으로 조직을 구축한다”는 관점을 제시한다.
+    * AI 에이전트의 성능은 회사/개인의 `working memory`에 어떤 지식을 올릴지 결정하는 회사 두뇌·사서·memory hygiene에 달려 있고, 좋은 작업은 일회성으로 끝내지 말고 `skillify`해야 한다고 설명한다.
 * [OpenAI: AI가 소프트웨어 개발 방식을 어떻게 재편하고 있는가](https://www.youtube.com/watch?v=Bo6Gtq3nMXc)
 * [2026 코딩 개발자 생존법 with 앤드류 응(AI의 스승)](https://www.youtube.com/watch?v=vENN6-d_3AQ)
 	* (원본) [Stanford CS230 | Autumn 2025 | Lecture 9: Career Advice in AI](https://www.youtube.com/@stanfordonline)
