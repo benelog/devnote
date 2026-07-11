@@ -19,6 +19,10 @@
     - <https://codeberg.org/AutumnMeowMeow/jexer>
         - jexer를 활용한 Java IDE : <https://tjide.sourceforge.io/>
     - <https://github.com/crramirez/casciian>
+    - [TUI4J](https://github.com/WilliamAGH/tui4j)
+      - Bubble Tea에서 영감을 받은 Java용 Terminal User Interface 프레임워크.
+      - Elm Architecture 스타일의 `Model.init()`, `update()`, `view()` 구조와 `Program` 실행 모델을 제공.
+      - Charmbracelet 생태계의 `bubbletea`, `bubbles`, `lipgloss` 등을 Java 패키지로 포팅하는 호환 모듈이 포함됨.
 - PC 통신스러운 UI
   - <https://github.com/vinibiavatti1/TuiCss>
   - <https://github.com/kristopolous/BOOTSTRA.386>
