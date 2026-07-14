@@ -26,19 +26,6 @@
     - 40개 이상 프로바이더와 수백 개 모델 라우팅을 지원하고 `omp` CLI, SDK, RPC, ACP 진입점을 제공
 * https://github.com/lsdefine/GenericAgent
 * [OpenCrabs — Open-Source Terminal AI Agent](https://opencrabs.com/) 
-
-### Terminal 기반 에이전트 도구
-
-* [BBARIT Terminal](https://bbarit.com/)
-    - AI agent, terminal, IDE, design, Office, embedded browser를 한 화면에 묶은 네이티브 AI workspace
-    - repo를 읽고 안전하게 수정·검사·수정 반복을 수행하는 BBARIT Agent와, developer/reviewer 터미널을 격리된 worktree에서 돌리는 Broker Agent를 제공
-* [Herdr](https://herdr.dev/)
-    - 여러 coding agent를 하나의 터미널에서 실행·상태 확인·재접속할 수 있는 agent multiplexer
-    - 각 agent를 실제 터미널에서 서버 프로세스로 유지하며 SSH나 휴대폰에서도 blocked/working/done 상태를 보고 이어서 지시할 수 있음
-* [Orca](https://github.com/stablyai/orca)
-    - Codex, Claude Code, OpenCode, Pi 같은 coding agent를 각자 isolated git worktree에서 나란히 실행·추적하는 ADE
-    - parallel worktrees, terminal splits, mobile companion, SSH worktrees로 여러 agent의 결과를 비교하고 선택해 병합하는 흐름을 지원
-
 - <https://github.com/block/goose>
 - [25년 현재 어떤 CLI툴을 써야하는지 말씀드리겠습니다](https://youtube.com/watch?si=fp9Uqlc_n8bCv1Nq&v=K2rVBIb-KWE) (박진형 님)
 - <https://opencode.ai/>
@@ -57,17 +44,27 @@
 * [MCP is dead. Long live the CLI](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
 
 
-## Skill
-* https://www.productcompass.pm/p/pm-skills-marketplace-claude
-* [Claude Skills는 굉장하다, MCP보다 더 큰 혁신일지도](https://news.hada.io/topic?id=23734)
+## Terminal 도구
 
-### Open 스펙
-
-- <https://agentskills.io/>
-  - [agentskills.io/ 소개](https://www.linkedin.com/feed/update/urn:li:activity:7408299241556606976/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7408299241556606976%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29)
+* [BBARIT Terminal](https://bbarit.com/)
+    - AI agent, terminal, IDE, design, Office, embedded browser를 한 화면에 묶은 네이티브 AI workspace
+    - repo를 읽고 안전하게 수정·검사·수정 반복을 수행하는 BBARIT Agent와, developer/reviewer 터미널을 격리된 worktree에서 돌리는 Broker Agent를 제공
+* [Herdr](https://herdr.dev/)
+    - 여러 coding agent를 하나의 터미널에서 실행·상태 확인·재접속할 수 있는 agent multiplexer
+    - 각 agent를 실제 터미널에서 서버 프로세스로 유지하며 SSH나 휴대폰에서도 blocked/working/done 상태를 보고 이어서 지시할 수 있음
+* [Orca](https://github.com/stablyai/orca)
+    - Codex, Claude Code, OpenCode, Pi 같은 coding agent를 각자 isolated git worktree에서 나란히 실행·추적하는 ADE
+    - parallel worktrees, terminal splits, mobile companion, SSH worktrees로 여러 agent의 결과를 비교하고 선택해 병합하는 흐름을 지원
+ 
+## Open 스펙
 - <https://agents.md/>
 - <https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation>
 
+### Skill
+* <https://agentskills.io/>
+  * [agentskills.io/ 소개](https://www.linkedin.com/feed/update/urn:li:activity:7408299241556606976/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7408299241556606976%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29)
+* https://www.productcompass.pm/p/pm-skills-marketplace-claude
+* [Claude Skills는 굉장하다, MCP보다 더 큰 혁신일지도](https://news.hada.io/topic?id=23734)
 
 ## Children
 * [[ai-productivity]]
