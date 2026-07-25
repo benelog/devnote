@@ -11,6 +11,7 @@
 - [[linux-tips]]
 - [[os-history]]
 - [[ssh]]
+- [[terminal-tools]]
 - [[vi]]
 - [[virtualization]]
 - [[web-shell]]
