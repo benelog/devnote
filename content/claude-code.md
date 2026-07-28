@@ -1,6 +1,11 @@
 * [Claude Code 완벽 가이드 by Toby](https://codex.epril.com/wiki/claude-code-complete-guide)
 - [앤트로픽의 하네스 유출은 코딩의 패러다임을 바꾸고 있다](https://aimatters.co.kr/ai-matters-column/40037/)
 - [Claude Code 창시자 Boris Cherny가 Claude Code를 사용하는 방법](https://news.hada.io/topic?id=25570)
+- [Claude Code로 대규모 코드 마이그레이션을 수행한 방법](https://news.hada.io/topic?id=31855)
+    - Anthropic 개발자들이 Claude Code와 동적 워크플로로 한 달 동안 수만~수십만 줄 규모의 패키지 10개를 이전한 사례 정리
+    - Bun의 Zig→Rust 이전은 2주 미만에 100만 줄을 생성하고, 병합 전 기존 테스트를 100% 통과한 사례로 소개
+    - 핵심은 생성된 코드를 직접 고치기보다 판정자·규칙집·의존성 지도·차이 목록·검증 루프를 개선해 재생성하는 방식
+    - 대규모 이전은 기존 코드와 테스트가 명세·판정자 역할을 하므로 병렬 에이전트 작업과 객관적 피드백 루프를 만들기 좋다고 설명
 * [Claude Code 오픈소스 창시자의 Claude 사용법](https://www.notion.so/grumatic/Claude-Code-Claude-2dd0586bce7480eb8f0cc5a07d5dd7ae)
 - [Anthropic 엔지니어의 Claude 내부 활용법 영상 소개 (X)](https://x.com/Rixhabh__/status/2074370543940510110)
     - X 메타데이터 기준으로, Anthropic 엔지니어가 내부에서 Claude를 어떻게 쓰는지 19분 분량으로 보여주는 영상 소개
