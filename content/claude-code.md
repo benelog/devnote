@@ -6,6 +6,11 @@
     - Bun의 Zig→Rust 이전은 2주 미만에 100만 줄을 생성하고, 병합 전 기존 테스트를 100% 통과한 사례로 소개
     - 핵심은 생성된 코드를 직접 고치기보다 판정자·규칙집·의존성 지도·차이 목록·검증 루프를 개선해 재생성하는 방식
     - 대규모 이전은 기존 코드와 테스트가 명세·판정자 역할을 하므로 병렬 에이전트 작업과 객관적 피드백 루프를 만들기 좋다고 설명
+- [Claude Code Migration Kit](https://github.com/anthropics/code-migration-kit-with-claude-code)
+    - Claude Code로 대규모 언어 마이그레이션을 수행하기 위한 프롬프트, 템플릿, 스크립트 모음
+    - 구조 보존형 마이그레이션을 기본 대상으로 하며, 기존 아키텍처와 데이터 구조는 유지하고 언어만 바꾸는 흐름에 맞춰져 있음
+    - feasibility 검토, judge/parity harness 준비, dependency map, rulebook, gap inventory, stress test, translation kickoff, survey build, parity 검증 단계를 제공
+    - companion reference code 성격의 저장소이며, 실제 Bun 100만 줄 Zig→Rust 포트 등에서 검토된 절차를 일반화한 재구성 자료라고 명시
 * [Claude Code 오픈소스 창시자의 Claude 사용법](https://www.notion.so/grumatic/Claude-Code-Claude-2dd0586bce7480eb8f0cc5a07d5dd7ae)
 - [Anthropic 엔지니어의 Claude 내부 활용법 영상 소개 (X)](https://x.com/Rixhabh__/status/2074370543940510110)
     - X 메타데이터 기준으로, Anthropic 엔지니어가 내부에서 Claude를 어떻게 쓰는지 19분 분량으로 보여주는 영상 소개
