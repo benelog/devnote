@@ -1,6 +1,11 @@
 * [Claude Code 완벽 가이드 by Toby](https://codex.epril.com/wiki/claude-code-complete-guide)
 - [앤트로픽의 하네스 유출은 코딩의 패러다임을 바꾸고 있다](https://aimatters.co.kr/ai-matters-column/40037/)
 - [Claude Code 창시자 Boris Cherny가 Claude Code를 사용하는 방법](https://news.hada.io/topic?id=25570)
+- [How building software is changing at Anthropic](https://newsletter.pragmaticengineer.com/p/inside-anthropic) (The Pragmatic Engineer, 2026.7.28)
+    - Anthropic 내부에서 Claude Platform, Bun/Claude Code, Applied AI 담당자들을 인터뷰해 AI가 소프트웨어 개발 방식을 어떻게 바꾸는지 정리한 글
+    - Claude Managed Agents는 복잡한 인프라 프로젝트라 AI 시대에도 충분한 설계와 계획이 필요했고, 출시까지 약 6개월이 걸린 사례로 소개
+    - Bun의 50만 줄 이상 Rust 재작성은 Fable과 약 16만5천 달러어치 토큰으로 11일 만에 진행되어, 대규모 언어 이전의 경제성이 달라졌다고 설명
+    - 구현 자체보다 검증·테스트·코드 리뷰의 비중이 커지고 AI가 이를 점점 더 담당하지만, 투피자팀·계획·PRD·컨텍스트 스위칭 같은 기본 문제는 여전히 남는다고 정리
 - [Claude Code로 대규모 코드 마이그레이션을 수행한 방법](https://news.hada.io/topic?id=31855)
     - Anthropic 개발자들이 Claude Code와 동적 워크플로로 한 달 동안 수만~수십만 줄 규모의 패키지 10개를 이전한 사례 정리
     - Bun의 Zig→Rust 이전은 2주 미만에 100만 줄을 생성하고, 병합 전 기존 테스트를 100% 통과한 사례로 소개
