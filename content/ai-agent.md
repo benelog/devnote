@@ -51,6 +51,11 @@
     - 모든 요청에 최고급 모델 비용을 지불하는 비효율과 AI 인프라 지출 증가가 개발 배경이며, 최근 내부적으로 토큰 사용량 제한과 지출 추적 플랫폼 구축도 공지했다고 설명
     - 스위치보드는 아직 초기 단계라 최종 구현은 불확실하지만, 내부 배포뿐 아니라 외부 조직 대상 공개도 검토 중이라고 정리
     - 메타가 대규모 AI 인프라 투자를 비용 절감과 AI 도구 시장의 새 수익원으로 연결하려는 움직임으로 해석
+- [GPT 5.6 luna 80% 비용 인하 성능 테스트(vs opus5, Gpt 5,6 sol)](https://www.linkedin.com/pulse/gpt-56-luna-80-%EB%B9%84%EC%9A%A9-%EC%9D%B8%ED%95%98-%EC%84%B1%EB%8A%A5-%ED%85%8C%EC%8A%A4%ED%8A%B8vs-opus5-sol-%EC%84%B1%EC%88%98-%EA%B9%80-cchgc)
+    - 같은 프롬프트로 3인칭 드래곤 보스전을 만들게 한 비교에서 Luna 186원·9분 8초, Sol 3,931원·9분 27초, Claude Opus 5 120,854원·1시간 37분으로 비용 차이가 크게 났다고 정리
+    - 공격 패턴, 선딜 신호, 구르기 무적, 2페이즈 전환, UI 같은 체크리스트는 세 모델 모두 통과했지만, 실제 플레이 품질은 Opus 5가 훨씬 몰입감 있었다고 평가
+    - 핵심 차이로 Opus 5는 브라우저를 열어 스크린샷과 조작으로 직접 검증한 반면 Luna/Sol은 기본 지시만으로는 코드 작성 후 완료 선언에 머물렀다고 분석
+    - 저렴한 모델을 쓸 때도 “직접 실행·검증하고 부족한 부분을 고쳐달라”는 명시적 지시를 붙이면 결과가 달라질 수 있으며, 모델 자체 성능뿐 아니라 Codex/Claude Code 같은 하네스 차이도 영향을 줄 수 있다고 본다
 
 ### MCP
 * [MCP is DEAD](https://www.youtube.com/watch?v=JZW2W5rwsD4) (Youtube)
@@ -68,6 +73,10 @@
 * [Orca](https://github.com/stablyai/orca)
     - Codex, Claude Code, OpenCode, Pi 같은 coding agent를 각자 isolated git worktree에서 나란히 실행·추적하는 ADE
     - parallel worktrees, terminal splits, mobile companion, SSH worktrees로 여러 agent의 결과를 비교하고 선택해 병합하는 흐름을 지원
+* [Crabbox — Run Any Repository Command in the Right Box](https://crabbox.sh/) (김옥현 님 공유)
+    - 로컬 편집 상태를 local container, cloud VM, SSH host, Windows/WSL2/macOS, managed sandbox 등 적절한 실행 환경으로 동기화해 명령을 실행하고 결과를 다시 스트리밍하는 CLI
+    - fast test loop, coding agent sandbox, cross-platform 실행, browser/desktop QA, parallel experiments, GPU workload 같은 작업별 provider 추천과 `crabbox doctor` 검증 흐름을 제공
+    - 작업 후 임대한 컨테이너나 sandbox를 정리하는 disposable execution 경로를 강조해, agent 하네스 선택과 실행 환경 격리·정리 보장을 분리해서 비교할 수 있게 한다
  
 ## Open 스펙
 - <https://agents.md/>
