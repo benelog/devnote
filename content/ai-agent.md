@@ -85,6 +85,11 @@
 ### Skill
 * <https://agentskills.io/>
   * [agentskills.io/ 소개](https://www.linkedin.com/feed/update/urn:li:activity:7408299241556606976/?updateEntityUrn=urn%3Ali%3Afs_updateV2%3A%28urn%3Ali%3Aactivity%3A7408299241556606976%2CFEED_DETAIL%2CEMPTY%2CDEFAULT%2Cfalse%29)
+* [Agent Skills](https://github.com/addyosmani/agent-skills)
+    - AI 코딩 에이전트가 개발 전 과정에서 일관되게 따를 수 있도록, 시니어 엔지니어의 워크플로·품질 게이트·베스트 프랙티스를 skill로 패키징한 저장소
+    - `/spec`, `/plan`, `/build`, `/test`, `/review`, `/webperf`, `/code-simplify`, `/ship` 8개 slash command가 개발 생명주기 단계별 skill을 자동 활성화
+    - `npx skills add addyosmani/agent-skills`로 24개 skill 전체를 설치하거나, `code-review-and-quality`, `interview-me`, `test-driven-development` 같은 개별 skill만 골라 설치 가능
+    - Claude Code, Cursor, Codex, Copilot, Cline 등 70개 이상 에이전트/IDE 환경을 대상으로 한 설치 경로와 네이티브 통합 문서를 제공
 * https://www.productcompass.pm/p/pm-skills-marketplace-claude
 * [Claude Skills는 굉장하다, MCP보다 더 큰 혁신일지도](https://news.hada.io/topic?id=23734)
 
