@@ -15,6 +15,13 @@
     - 2단 패널 구성에 `:` 커맨드, 매크로, 스크립팅을 지원해 커스터마이징 여지가 큼
     - Vim에 익숙한 사용자가 별도 학습 없이 쓸 수 있는 것이 장점
 
+## 파일 뷰어
+
+- [herdr-file-viewer](https://github.com/smarzban/herdr-file-viewer)
+    - `herdr` pane 안에서 동작하는 git-aware 읽기 전용 TUI 파일 뷰어
+    - 왼쪽에는 Git 상태가 반영된 디렉터리 트리, 오른쪽에는 변경 파일 diff·렌더링된 Markdown·문법 강조 코드 뷰를 파일에 맞춰 표시
+    - `glow`, `delta`, `bat` 같은 외부 렌더러를 활용하며, split/tab 열기와 fuzzy find, baseline 전환, `path:line` 복사 등을 지원
+
 ## 에디터
 
 - [helix](https://github.com/helix-editor/helix)
