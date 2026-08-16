@@ -16,6 +16,16 @@
     - 단기 컨텍스트는 원본 로그 → 단계 요약 → Mermaid 캔버스로 계층화하고, 장기 개인화는 Conversation → Atom → Scenario → Persona 피라미드로 구성한다고 설명
     - flat vector store나 단순 요약 대신 하위 계층의 근거를 보존하고 상위 계층의 구조화된 Markdown을 제공해 추적성과 디버깅 가능성을 강조
     - OpenClaw 연동 기준 토큰 사용량을 최대 61.38% 줄이고 WideSearch 성공률을 33%에서 50%로 높였다고 제시하며, Hermes·Claude Code·Codex 등 여러 에이전트와의 연동을 제공
+* [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent)
+    - 코딩 워크플로와 장기 자율 작업을 위한 오픈소스 코딩·리서치 에이전트로, Recursive Language Model(RLM)과 Continual Harness를 핵심 추상화로 제시
+    - persistent IPython을 기본 도구로 삼아 파일·셸·도구 호출·서브에이전트·컨텍스트 관리를 모두 코드로 다루는 programmatic agent 구조를 강조
+    - `rlm(...)`으로 실제 child agent를 병렬·백그라운드 실행하고, `/refine`으로 현재 작업 궤적을 검토해 보조 프롬프트·메모리·스킬 같은 harness state를 근거 기반으로 개선
+    - daemon 기반 세션 재접속, 자동 compaction, persistent goals, heartbeat, schedules, autonomous mode로 긴 작업이 터미널 세션을 넘어 계속 진행되도록 설계
+* [Semantica](https://github.com/semantica-agi/semantica)
+    - LLM·벡터스토어·에이전트 프레임워크 아래에서 동작하는 graph-native context/decision infrastructure로, 임베딩만 남기는 방식 대신 의미·결정·근거를 감사 가능하게 보존하는 것을 목표로 함
+    - 기업 데이터에서 Context Graph와 Knowledge Graph를 만들고 graph analytics, causal reasoning, ontology management, provenance tracking을 제공한다고 설명
+    - 그래프 구성·추론·provenance에 LLM이 필수는 아니며, RDF와 labeled property graph를 모두 지원하는 self-hostable·auditable 인프라를 지향
+    - 규제 산업처럼 “왜 그런 결정을 했는가”를 나중에 설명해야 하는 agentic system에서 decision intelligence와 end-to-end traceability를 제공하는 용도로 소개
 * [MiMo Code](https://mimo.xiaomi.com/mimocode/start)
     - Xiaomi의 개발자용 AI 코딩 에이전트 문서로, 코드베이스 이해·변경 계획·안전한 코드 편집·검토·디버깅을 지원한다고 소개
     - 터미널, 데스크톱 앱, IDE 확장에서 같은 경험을 제공하며 Install & Launch, 모델 연결, 세션/컨텍스트, 작업 모드, 도구 사용을 문서화
@@ -69,6 +79,11 @@
 
 ## Terminal 도구
 
+* [Cloudflare Computer](https://github.com/cloudflare/computer)
+    - Durable Object 안의 SQLite를 권위 있는 상태로 삼는 virtual filesystem과, `workspace.runtime.exec(source, { backend })` 단일 실행 표면을 제공하는 에이전트용 컴퓨터 환경
+    - Container backend는 SQLite 상태를 FUSE mount로 sandbox container에 투영해 Linux userland·실제 바이너리·네트워크를 제공하고, 변경 사항을 RPC로 다시 동기화
+    - Worker 기반 isolate shell과 isolate JavaScript backend도 제공해 컨테이너 없이 just-bash나 ECMAScript module을 Dynamic Worker에서 실행할 수 있음
+    - MCP 예제, Think agent 예제, runtime 비교 UI, Artifact·Assets 예제를 포함하지만 preview 단계라 API 안정성과 프로덕션 사용에는 주의가 필요
 * [BBARIT Terminal](https://bbarit.com/)
     - AI agent, terminal, IDE, design, Office, embedded browser를 한 화면에 묶은 네이티브 AI workspace
     - repo를 읽고 안전하게 수정·검사·수정 반복을 수행하는 BBARIT Agent와, developer/reviewer 터미널을 격리된 worktree에서 돌리는 Broker Agent를 제공
@@ -95,6 +110,11 @@
     - `/spec`, `/plan`, `/build`, `/test`, `/review`, `/webperf`, `/code-simplify`, `/ship` 8개 slash command가 개발 생명주기 단계별 skill을 자동 활성화
     - `npx skills add addyosmani/agent-skills`로 24개 skill 전체를 설치하거나, `code-review-and-quality`, `interview-me`, `test-driven-development` 같은 개별 skill만 골라 설치 가능
     - Claude Code, Cursor, Codex, Copilot, Cline 등 70개 이상 에이전트/IDE 환경을 대상으로 한 설치 경로와 네이티브 통합 문서를 제공
+* [Google Agent Skills](https://github.com/google/skills)
+    - Google 제품과 Google Cloud 기술을 위한 Agent Skills 모음으로, `npx skills add google/skills`로 저장소의 개별 skill을 선택 설치할 수 있음
+    - Google Cloud 시작·인증·온보딩, solution architecture, agentic analytics, data science workflow, bidirectional streaming, RAG, serverless app 같은 multi-product solution skill을 제공
+    - Agent Platform, BigQuery AI/ML, Gemini API, Live API, Model Garden, prompt management, RAG Engine, eval flywheel 등 AI/ML 관련 운영 skill을 포함
+    - GKE inference, cluster creation, networking, storage, reliability, productionize, troubleshooting 등 인프라 skill까지 포함해 클라우드 작업 절차를 에이전트 skill로 패키징하려는 방향을 보여줌
 * https://www.productcompass.pm/p/pm-skills-marketplace-claude
 * [Claude Skills는 굉장하다, MCP보다 더 큰 혁신일지도](https://news.hada.io/topic?id=23734)
 
