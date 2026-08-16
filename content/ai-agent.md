@@ -11,6 +11,11 @@
 
 - [OpenClaw — Personal AI Assistant](https://openclaw.ai/)
 * [Hermes Agent — The Agent That Grows With You](https://hermes-agent.nousresearch.com/) 
+* [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)
+    - AI 에이전트가 대화·문서·코드에서 Chat Memory, Skill, LLM-Wiki, Code-Graph 같은 재사용 가능한 팀 메모리 자산을 만들고 공유하도록 돕는 메모리 허브
+    - 단기 컨텍스트는 원본 로그 → 단계 요약 → Mermaid 캔버스로 계층화하고, 장기 개인화는 Conversation → Atom → Scenario → Persona 피라미드로 구성한다고 설명
+    - flat vector store나 단순 요약 대신 하위 계층의 근거를 보존하고 상위 계층의 구조화된 Markdown을 제공해 추적성과 디버깅 가능성을 강조
+    - OpenClaw 연동 기준 토큰 사용량을 최대 61.38% 줄이고 WideSearch 성공률을 33%에서 50%로 높였다고 제시하며, Hermes·Claude Code·Codex 등 여러 에이전트와의 연동을 제공
 * [MiMo Code](https://mimo.xiaomi.com/mimocode/start)
     - Xiaomi의 개발자용 AI 코딩 에이전트 문서로, 코드베이스 이해·변경 계획·안전한 코드 편집·검토·디버깅을 지원한다고 소개
     - 터미널, 데스크톱 앱, IDE 확장에서 같은 경험을 제공하며 Install & Launch, 모델 연결, 세션/컨텍스트, 작업 모드, 도구 사용을 문서화
