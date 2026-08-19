@@ -1,5 +1,9 @@
 - <https://github.com/ByteByteGoHq/system-design-101>
 - <https://github.com/donnemartin/system-design-primer#index-of-system-design-topics>
+- [System Design Interview - An Insider's Guide notes](https://github.com/liquidslr/system-design-notes)
+  - Alex Xu의 `System Design Interview - An Insider's Guide` 1권과 2권 2판 내용을 정리한 노트.
+  - 확장, 개략적 추정, 시스템 설계 인터뷰 프레임워크와 함께 rate limiter, consistent hashing, key-value store, URL shortener, web crawler, notification/news feed/chat 같은 사례를 장별로 정리.
+  - 각 장 외에도 rate limiting, consistent hashing, key-value store, chat, YouTube, Google Drive 등 주제별 추가 참고자료를 모아 둠.
 - <https://www.educative.io/prepare-for-interview/system-design>
 - [\[마틴 파울러](https://www.youtube.com/watch?v=4E1BHTvhB7Y) 소프트웨어 아키텍쳐의 중요성 (한글 자막)\]
 
