@@ -66,7 +66,10 @@
 
 - 서비스, 잡(Job), 빌드 파이프라인, 관리형 DB(addon)를 한 화면에서 다루는 PaaS. Dockerfile 빌드와 외부 레지스트리 이미지 pull을 모두 지원
 - BYOC(자체 클라우드 계정에 배포)도 가능해서, 무료로 시작했다가 규모가 커져도 같은 워크플로를 유지할 수 있음
-- 무료 티어로 서비스 2개 + 잡 2개 + addon 1개를 제공. 상시 무료 PaaS 중에서는 한도가 후한 편
+- 무료 티어로 서비스 2개 + 잡 2개 + addon 1개를 제공. 상시 무료 PaaS 중에서는 한도가 후한 편이고 컨테이너가 잠들지 않음(콜드스타트 없음)
+- **주의: 무료 프로젝트를 만들려 해도 결제수단 등록을 먼저 요구함.** "Developer Sandbox 사용 중에는 과금되지 않는다"고 안내하지만, 카드 없이는 리소스를 하나도 만들 수 없음. 여러 무료 티어 정리 글이 "카드 불필요"로 적어두고 있어 오해하기 쉬움 (2026-08 직접 확인)
+- 무료 프로젝트는 **1개**만 만들 수 있고, 그 안에 서비스 2개까지. 무료 컴퓨트 플랜은 `nf-compute-10`(0.1 vCPU shared, 256MB)
+- 무료로 쓸 수 있는 리전은 **us-central(Council Bluffs)** 과 **europe-west(London)** 뿐. asia-southeast(싱가포르) 등 나머지는 유료 전환 필요 — 아시아에서 쓰기엔 지연이 크다
 
 ### Hugging Face Spaces
 
@@ -122,7 +125,7 @@
 | [Render](https://render.com/docs/free) | 무료 플랜은 대체로 불필요 | Free web service: 512MB RAM, 0.1 CPU, workspace당 월 750 Free instance hours, 15분 idle 후 spin down. Free Postgres는 30일 제한 | 무료 web service, static site, 일부 datastore 가능. production 용도는 비추천. |
 | [Vercel](https://vercel.com/pricing) | Hobby 무료는 대체로 불필요 | Hobby: Edge Requests 1M/month, Fast Data Transfer 100GB/month, Functions 1M invocations/month, Active CPU 4 CPU-hours, Provisioned Memory 360 GB-hours | Hobby는 개인/비상업 용도 제약에 주의. Pro는 사용자당 월 $20 및 사용량 기반 과금. |
 | [Modal](https://modal.com/pricing) | 공식 가격 페이지상 카드 필수 문구는 확인 못함 | Starter: $30/month free credits, 3 workspace seats, 100 containers + 10 GPU concurrency, 제한된 Scheduled/Web Functions | 무료 크레딧 이후 사용량 기반 과금. |
-| [Northflank](https://northflank.com/pricing) | 불필요 | Free: 서비스 2개 + 잡 2개 + addon 1개 | Dockerfile 빌드와 이미지 pull 모두 지원. 상시 무료 중 한도가 넉넉한 편. |
+| [Northflank](https://northflank.com/pricing) | **필요(검증용)** | Free: 서비스 2개 + 잡 2개 + addon 1개 | Dockerfile 빌드와 이미지 pull 모두 지원. 리소스 생성 시 카드 등록을 요구함 — "You will not be charged for any usage while on the Developer Sandbox" 라고 안내하지만 등록 자체는 필수. 무료 리전은 us-central(아이오와)과 europe-west(런던) 뿐. |
 | [Hugging Face Spaces](https://huggingface.co/pricing) | 불필요 | CPU Basic(2 vCPU, 16GB RAM) 무료, 공개 Space 한정 | SDK를 docker로 지정하면 임의 Dockerfile 구동. 유휴 시 sleep, 영구 스토리지는 유료. |
 | [Back4app Containers](https://www.back4app.com/pricing) | 불필요 | 무료 컨테이너 1개(256MB 수준) | GitHub 연동 Docker 빌드/배포. 데모·토이 프로젝트용. |
 | [Azure Container Apps](https://azure.microsoft.com/pricing/details/container-apps/) | 필요 | 월 180,000 vCPU-seconds, 400,000 GiB-seconds, 2M requests 무료 grant | scale-to-zero 지원. Cloud Run과 성격이 유사. |
@@ -135,7 +138,7 @@
 ## Docker 이미지 무료 배포 선택 가이드
 
 - **트래픽이 적은 API/웹앱** → Google Cloud Run. OCI 이미지를 그대로 올릴 수 있고 scale-to-zero + 빠른 콜드스타트. 개인 프로젝트 규모면 무료 쿼터 안에서 끝나는 경우가 많음
-- **카드 등록 없이 바로 시작** → Render 또는 Northflank. Render는 15분 유휴 후 spin down(콜드스타트 30초~1분)이 있고, Northflank는 서비스 2개까지 무료
+- **카드 등록 없이 바로 시작** → Render 또는 Hugging Face Spaces. Northflank는 무료 티어라도 카드 등록을 요구하므로 이 조건에는 해당하지 않음
 - **콜드스타트 없이 상시 대기 + 넉넉한 스펙** → Oracle Cloud Always Free VM + Coolify/Dokploy
 - **AI 데모/사이드 프로젝트로 공개해도 무방** → Hugging Face Spaces (docker SDK)
 - 무료 티어 조건은 자주 바뀌므로(2026년만 해도 Koyeb·Fly.io가 변경됨) 가입 직전에 각 사 pricing 페이지를 재확인할 것
