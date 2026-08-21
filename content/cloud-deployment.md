@@ -33,6 +33,29 @@
 - 코드 푸시와 동시에 글로벌 CDN 배포, 가벼운 서버리스 API 자동 생성, 프리뷰 링크 제공 등 압도적인 프론트엔드 개발자 경험(DX)을 제공
 - 개인 프로젝트용 Hobby 무료 티어는 Edge Requests 1M/month, Fast Data Transfer 100GB/month 등 넉넉한 한도를 제공하며, 상업용이나 팀 단위로 넘어가면 1인당 월 $20의 Pro 플랜을 구독
 
+### Netlify (Go 런타임 종료 예정 주의)
+
+- Netlify Functions가 지원하는 언어는 TypeScript / JavaScript / **Go** 세 가지지만, Go만 유일하게 **Lambda 호환 모드**(`aws-lambda-go` 핸들러)로만 작성할 수 있음
+- 그런데 이 Lambda 호환 모드가 deprecated 상태이며, 공식 문서에 **2027년 7월 1일부로 해당 모드의 함수를 포함한 배포는 거부된다**고 명시돼 있음
+- 권장 이주 경로로 안내되는 `@netlify/aws-lambda-compat`은 npm 패키지(JS 전용)라서 **Go에는 이주 경로가 없음**. 즉 Netlify Functions + Go는 종료 시한이 박힌 스택
+- Netlify Blobs(내장 KV/blob 저장소)도 JS SDK 전용이라 Go 함수에서는 사용 불가
+- Netlify DB(Neon 기반 서버리스 Postgres, 2026년 4월 GA)는 **크레딧 기반 플랜 전용**. 구형 `Free (Legacy)` 플랜 팀은 쓸 수 없음. 이걸 쓰려고 신규 크레딧 기반 Free(월 300 크레딧 하드 캡)로 전환하면 같은 팀의 기존 정적 사이트들도 전부 같은 캡 아래로 들어가므로 주의
+- 결론: Netlify는 정적 사이트 + 도메인/DNS + 프록시 rewrite 용도로 두고, 서버 프로세스는 Cloud Run 같은 곳에 두는 조합이 안전함
+
+### Netlify 프록시 rewrite로 커스텀 도메인 붙이기
+
+정적 호스팅을 Netlify에 두고 있으면, 서브도메인 하나를 다른 곳에 띄운 컨테이너로 넘길 수 있음.
+
+```
+# _redirects
+/*  https://<app>-xxxxxxxx.asia-northeast3.run.app/:splat  200
+```
+
+- 상태 코드 `200`이 리다이렉트가 아니라 **rewrite(프록시)** 를 뜻함. 브라우저 주소창은 원래 도메인 그대로 유지됨
+- DNS와 TLS 인증서는 기존처럼 Netlify가 관리하고, 백엔드는 Cloud Run / Northflank / Render 등 아무 데나 둘 수 있음
+- Cloud Run에 커스텀 도메인을 직접 매핑하려면 도메인 매핑이나 로드밸런서 설정이 필요한데, 이 방식은 그 과정을 통째로 건너뜀
+- 비용은 Netlify 무료 플랜의 대역폭(월 100GB)만 소비함
+
 ### Modal
 
 - 복잡한 Docker 컨테이너나 CI/CD 설정 없이, Python 코드에 데코레이터만 달면 즉시 클라우드 자원을 할당받아 실행되는 AI 특화 서버리스 플랫폼
@@ -117,10 +140,34 @@
 - **AI 데모/사이드 프로젝트로 공개해도 무방** → Hugging Face Spaces (docker SDK)
 - 무료 티어 조건은 자주 바뀌므로(2026년만 해도 Koyeb·Fly.io가 변경됨) 가입 직전에 각 사 pricing 페이지를 재확인할 것
 
+
+## 서버리스/스케일-투-제로 앱용 무료 DB
+
+컨테이너가 0으로 줄었다가 요청마다 다시 뜨는 환경(Cloud Run, Lambda 등)에서는 DB 선택 기준이 달라짐.
+**커넥션 풀을 유지할 수 없다**는 게 핵심 제약이라, 요청 단위 HTTP로 붙는 DB가 유리함.
+
+| | Turso (libSQL) | Neon | Northflank addon | Back4app (BaaS) | Supabase |
+| --- | --- | --- | --- | --- | --- |
+| 정체 | 관리형 SQLite | 서버리스 Postgres | DB 컨테이너 (Postgres/MySQL/Mongo/Redis) | Parse + MongoDB | Postgres + PostgREST |
+| 접속 | **HTTPS 요청 단위** | TCP (pooler 경유) | TCP | REST / GraphQL만 | TCP + REST |
+| 무료 한도 | DB 100개 / 5GB / 월 5억 row read / 1천만 write | 0.5GB / 월 100 CU-h / 프로젝트 100개 | 무료 addon 1개 | 월 25,000 요청 / 250MB / 파일 1GB | 500MB |
+| 유휴 시 | 영향 없음 | 5분 후 scale-to-zero, 재개 시 지연 | 상시 가동 | - | **1주일 유휴 시 프로젝트 정지** |
+| 콜드스타트 궁합 | 최상 (맺을 커넥션이 없음) | 보통 (TCP+TLS 핸드셰이크 + 컴퓨트 재개) | 무관 (상시 가동) | 보통 | 나쁨 (정지 이슈) |
+| Go 궁합 | `libsql-client-go` — **순수 Go, CGO 불필요** | pgx | 표준 드라이버 | **Go SDK 없음**, HTTP 직접 호출 | pgx |
+
+- **Turso**: SQLite 파일 한 개 수준의 데이터를 다루는 개인 프로젝트에는 사실상 최적. 로컬 개발은 SQLite 파일(`modernc.org/sqlite`), 배포는 Turso로 같은 `database/sql` 코드가 그대로 돌아감. 벤더 종속도 낮음 — 결국 SQLite라서 어디로 옮겨도 따라옴
+  - `libsql://` 스킴은 웹소켓으로 붙으므로, 서버리스에서는 `https://` 로 바꿔 요청 단위 HTTP로 쓰는 편이 나음
+  - Turso가 권하는 `go-libsql`은 CGO가 필요해서 정적 바이너리 / distroless 이미지와 궁합이 나쁨. 순수 Go인 `libsql-client-go` 쪽을 쓸 것
+- **Northflank addon**: DB가 상시 가동이라 콜드스타트 개념 자체가 없음. 다만 무료 슬롯이 1개뿐이고, 무료 addon의 vCPU/RAM/스토리지 스펙은 가격 페이지에 공개돼 있지 않아 계정에서 직접 확인해야 함. 서비스 2개도 같이 무료라 **앱과 DB를 한 벤더에서 끝낼 수 있다**는 게 진짜 장점 (Cloud Run + 외부 DB 조합 자체의 대안)
+- **Back4app**: 컨테이너 호스팅과 BaaS는 별개 상품임에 주의. BaaS 무료는 월 25,000 요청 = 하루 830건이라 개인용으로는 아슬아슬하고, Go SDK가 없어서 Parse 객체 모델에 맞춰 REST를 직접 짜야 함. 테이블 하나짜리 앱에는 과한 종속
+- **Supabase**: 무료 플랜이 1주일 유휴 시 프로젝트를 정지시키므로, 가끔 들어가는 개인 앱에는 부적합
+
 ## Related
 - [[aws]]
+- [[db]]
 - [[continous-deployments]]
 - [[docker]]
+- [[golang]]
 - [[k8s]]
 - [[paas]]
 - [[server-automation]]
