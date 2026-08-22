@@ -16,6 +16,7 @@ Fly.io가 무료 할당을 폐지했으며, Netlify가 크레딧 기반 플랜�
 | [Back4app Containers](https://www.back4app.com/pricing/container-as-a-service) | 불필요 | 컨테이너 1개, 256MB RAM / 0.25 CPU | GitHub 연동 Dockerfile 빌드(Kaniko). 커스텀 도메인은 유료. **무료 임시 URL이 만료되면 배포가 파괴된다** — 상시 운영 불가 |
 | [Render](https://render.com/docs/free) | 대체로 불필요 | Free web service: 512MB RAM, 0.1 CPU, workspace당 월 750시간, 15분 idle 후 spin down | 복귀에 30초~1분. Free Postgres는 30일 제한 |
 | [Hugging Face Spaces](https://huggingface.co/pricing) | 불필요 | CPU Basic(2 vCPU, 16GB RAM), 공개 Space 한정 | SDK를 docker로 지정하면 임의 Dockerfile 구동. 유휴 시 sleep, 영구 스토리지는 유료 |
+| [Cloudflare Workers / Pages](https://developers.cloudflare.com/workers/platform/pricing/) | 불필요 | 요청 10만/일, 호출당 CPU 10ms, 정적 자산 요청은 무제한 무료 | 컨테이너가 아니라 V8 아이솔레이트. 콜드스타트·유휴 정지가 없다. 대신 번들 3MB(gzip), 메모리 128MB, 커넥션 풀 불가 |
 | [Google Cloud Run](https://cloud.google.com/run/pricing) | **필요** | 월 2M requests, 360,000 GiB-초, 180,000 vCPU-초 | 무료 한도만 써도 **열려 있는 결제 계정 연결이 필수**. 서울 리전(asia-northeast3) 있음 |
 | [Northflank](https://northflank.com/pricing) | **필요(검증용)** | 프로젝트 1개, 서비스 2개 + 잡 2개 + addon 1개 | 리소스 생성 시 카드 등록 요구. 무료 리전은 us-central·europe-west 뿐 |
 | [Azure Container Apps](https://azure.microsoft.com/pricing/details/container-apps/) | 필요 | 월 180,000 vCPU-초, 400,000 GiB-초, 2M requests | scale-to-zero 지원. Cloud Run과 성격 유사 |
@@ -27,7 +28,7 @@ Fly.io가 무료 할당을 폐지했으며, Netlify가 크레딧 기반 플랜�
 | [Modal](https://modal.com/pricing) | 확인 못함 | Starter: 월 $30 무료 크레딧 | 크레딧 소진 후 사용량 과금. AI 워크로드 특화 |
 | [ngrok](https://ngrok.com/pricing) | HTTP는 불필요 | $5 one-time credit, 최대 3 endpoints, 1GB transfer, 20k requests | 배포가 아니라 터널. TCP endpoint는 카드 검증 필요 |
 | [Coolify](https://coolify.io/pricing) | 불필요 | Self-hosted는 무료 forever | 도구 자체는 무료, 실행할 서버 비용은 별도. Coolify Cloud는 유료 |
-| [Cloudflare Containers](https://developers.cloudflare.com/containers/pricing/) | 필요 | **무료 티어 없음** | Workers Paid($5/월) 이상 필요. Worker 자체 무료 플랜과 혼동 주의 |
+| [Cloudflare Containers](https://developers.cloudflare.com/containers/pricing/) | 필요 | **무료 티어 없음** | Workers Paid($5/월) 필수. 그 안에 메모리 25 GiB-시 / CPU 375 vCPU-분 / 디스크 200 GB-시 포함. Worker 자체 무료 플랜과 혼동 주의 |
 | [Railway](https://railway.com/pricing) | 필요 | $5 one-time trial credit | 상시 무료 아님 |
 | [Fly.io](https://fly.io/docs/about/free-trial/) | 필요 | Free trial: VM 2시간 또는 7일 | 신규 조직 대상 무료 할당 폐지 |
 | [Koyeb](https://www.koyeb.com/docs/faqs/pricing) | 필요 | 기존 사용자만 유지 | 신규 가입자에게 무료 티어 미제공 |
@@ -35,9 +36,13 @@ Fly.io가 무료 할당을 폐지했으며, Netlify가 크레딧 기반 플랜�
 
 ### 선택 가이드
 
-- **카드 등록 없이 상시 가동되는 웹앱** → 현재로선 없다. Back4app Containers가 유일한 후보였지만
-  무료 플랜은 임시 URL이 만료되면서 배포가 통째로 파괴된다(아래 절). 카드 없이 가려면 유휴 시
-  잠드는 Render / Hugging Face Spaces 를 감수하는 수밖에 없다
+- **카드 등록 없이 상시 가동되는 웹앱** → **컨테이너를 그대로 올리는 방식으로는 없다.**
+  Back4app Containers가 유일한 후보였지만 무료 플랜은 임시 URL이 만료되면서 배포가 통째로
+  파괴된다(아래 절). 카드 없이 컨테이너를 고집하면 유휴 시 잠드는 Render / Hugging Face Spaces
+  를 감수하는 수밖에 없다
+- **런타임 제약을 받아들일 수 있다면** → Cloudflare Workers. 이 표에서 카드 없이 콜드스타트도
+  유휴 정지도 없는 유일한 항목이다. 대신 임의의 Docker 이미지가 아니라 V8 아이솔레이트 위에서
+  돌아야 하고, 호출당 CPU 10ms 안에 끝나야 한다
 - **카드 없이 잠깐 띄워 보여주는 데모** → Back4app Containers. 256MB/0.25 CPU 컨테이너 1개.
   커스텀 도메인이 유료지만 [Netlify 프록시 rewrite](#netlify-프록시-rewrite로-커스텀-도메인-붙이기)로 우회 가능
 - **결제 계정이 있고 지연이 중요** → Google Cloud Run. 서울 리전을 쓸 수 있어 국내에서 가장 빠르다
@@ -150,10 +155,69 @@ Fly.io가 무료 할당을 폐지했으며, Netlify가 크레딧 기반 플랜�
   Heroku 유사 경험(깃 푸시 배포, 도메인/TLS 자동화)을 비용 없이 구성 가능
 - 리전에 따라 무료 ARM 인스턴스 재고 확보가 어려울 수 있고, 유휴 자원 회수 정책에도 주의해야 함
 
+### Cloudflare Workers / Pages
+
+이 표의 다른 항목들과 층위가 다르다. VM도 컨테이너도 아니고 **V8 아이솔레이트**에 코드를 얹는 방식이라
+뜨고 지는 개념이 없다. 콜드스타트도 유휴 정지도 없는 대신 런타임이 좁다.
+
+- 무료: **요청 10만 건/일**, 호출당 **CPU 시간 10ms**. 카드 불필요.
+  실행 시간이 아니라 CPU 시간이라 외부 API 응답을 기다리는 시간은 세지 않는다 — 이 차이가 크다
+- **정적 자산 요청은 과금되지 않는다.** 문서 표현 그대로 "Requests to static assets are free and unlimited".
+  CSS·JS·이미지가 요청 수에서 빠지므로 10만/일은 실제로 훨씬 여유 있다
+- 유료 Workers Paid $5/월: 요청 1,000만/월 + CPU 3,000만 ms/월, 호출당 CPU 상한 30초(최대 5분)
+
+한도 (2026-08 기준):
+
+| | Free | Paid |
+| --- | --- | --- |
+| 번들 크기 (gzip 후) | 3MB | 10MB |
+| 아이솔레이트 메모리 | 128MB | 128MB |
+| 기동 시간 (전역 스코프 실행) | 1초 | 1초 |
+| 호출당 subrequest | 50 | 10,000 |
+
+**HTML을 직접 응답할 수 있다 — 즉 서버 사이드 렌더링이 된다.** `fetch` 핸들러가 `Response`를
+돌려주는 게 전부라, body에 HTML 문자열을 넣고 `content-type: text/html` 만 붙이면 브라우저가
+페이지로 렌더링한다. JSON을 주느냐 HTML을 주느냐는 헤더 차이일 뿐이다. DB에서 읽어 HTML을
+조립해 반환하는 구성이 그대로 성립한다(아래 chain.benelog.net 사례).
+문자열 조합이 가장 가볍고, React `renderToReadableStream` 같은 스트리밍 SSR도 Web Streams가 있어 돌아간다.
+
+**지원 언어가 JS만은 아니다.** V8이 WebAssembly도 실행하기 때문이다.
+
+- **JavaScript / TypeScript** — TS는 wrangler가 esbuild로 JS로 바꿔 올리는 것뿐이다. 런타임은 JS만 안다
+- **Rust** — `workers-rs` 크레이트로 1급 지원. WASM으로 컴파일되며 KV·D1 등 바인딩까지 Rust 타입으로 감싸져 있다
+- **Python** — **오픈 베타.** `python_workers` 호환성 플래그가 필요하고 FastAPI·Pydantic·Langchain 등
+  일부 패키지가 제공된다. 베타 상태라 도입 전 현재 문서를 다시 볼 것
+- **C / C++ / Go / Kotlin 등** — WASM으로 컴파일해서 얇은 JS 진입점이 호출하는 형태. 공식 문서가 인정하는 경로다
+- **Go 주의**: 표준 툴체인의 `GOOS=js GOARCH=wasm` 은 GC 런타임이 통째로 들어가 무료 한도인
+  gzip 3MB에 금방 부딪힌다. TinyGo가 현실적인 선택
+
+**제약 — 채택 여부를 가르는 것들.**
+
+- Node.js API가 기본으로 없다(`nodejs_compat` 플래그로 일부만). `fs`로 템플릿 파일을 읽는 식은
+  불가능하고 모든 자산이 번들에 문자열로 들어가야 한다
+- **요청 간 커넥션 풀을 유지할 수 없다.** 아래 Cloud DB 절의 제약과 정확히 같다 — 요청 단위 HTTP로
+  붙는 DB(Turso, DoltHub REST)와 궁합이 좋고, TCP 드라이버 기반 Postgres/MySQL은 Hyperdrive 같은
+  중계를 거치는 게 현실적이다
+- 문자열 SSR이면 **이스케이프를 직접 챙겨야 한다.** DB 값을 템플릿에 그대로 끼우면 XSS가 열린다
+- **커스텀 도메인에 Cloudflare 존이 필요하다.** Workers 커스텀 도메인은 그 도메인이 Cloudflare DNS에
+  올라와 있어야 붙는다. DNS를 다른 곳(Netlify 등)에 두고 있으면 **Cloudflare Pages** 를 쓰면 된다 —
+  Pages는 외부 서브도메인에 CNAME 하나로 붙는다
+
 ### Cloudflare Containers
 
 - Workers/Durable Objects와 같은 런타임에서 컨테이너를 띄우는 방식으로, Worker가 컨테이너 인스턴스의 라이프사이클을 제어함
-- 무료 플랜에서는 사용할 수 없고 Workers Paid($5/month) 이상이 필요. Worker 자체는 무료 플랜으로도 충분하다는 점과 구분해야 함
+- **무료 티어가 없다.** Workers Paid($5/월) 이상이 필요하고, Worker 자체는 무료 플랜으로도 충분하다는 점과 반드시 구분해야 한다
+- $5 플랜에 매달 포함되는 양 (2026-08 기준): 메모리 **25 GiB-시**, CPU **375 vCPU-분**, 디스크 **200 GB-시**.
+  초과분은 메모리 $0.0000025/GiB-초, CPU $0.000020/vCPU-초, 디스크 $0.00000007/GB-초
+- **실제로 돌아가는 10ms 단위로 과금된다.** 유휴 시 잠들므로 성격이 상시 가동이 아니다
+- 인스턴스 타입: `lite`(1/16 vCPU, 256MiB) / `basic`(1/4 vCPU, 1GiB) / `standard-1`~`standard-4`(최대 4 vCPU, 12GiB)
+- **포함량은 생각보다 작다.** 가장 작은 `lite` 기준으로 메모리(25 GiB-시 ÷ 0.25 GiB)와
+  CPU(375 vCPU-분 ÷ 1/16 vCPU)가 **똑같이 월 100시간**에서 소진된다. 하루 3시간 남짓이다.
+  상시 웹 서버용이 아니라 Worker가 필요할 때만 부르는 무거운 작업(브라우저 자동화, 빌드, 미디어 변환)에 맞는 물건
+- 이그레스는 리전별로 다르고 **한국은 $0.05/GB 로 북미·유럽($0.025/GB)의 두 배**다.
+  무료 포함량은 북미·유럽 1TB, 그 외 500GB
+- 임의의 언어·이미지를 돌리려면 이게 Cloudflare 스택에서 유일한 탈출구다. 다만 Worker가 아니라
+  **Worker가 앞단에서 호출하는 별개 실행 환경**이라 지연·과금 특성이 완전히 다르다
 
 ### DigitalOcean App Platform
 
@@ -336,6 +400,28 @@ til.benelog.net  →  Netlify rewrite(200)  →  Back4app Containers  →  Turso
 - 실측: `GET /` 210~480ms, `POST` 320~720ms. 콜드스타트 관측 안 됨 (URL이 살아 있는 동안)
 - 같은 목적으로 먼저 시도했다가 접은 것들 — Cloud Run(결제 계정 필수), Northflank(카드 필수),
   Netlify Functions(Go 런타임 2027-07-01 종료)
+
+### 실제 구성 예: chain.benelog.net
+
+TypeScript + HTMX로 만든 습관 기록 앱([benelog/habit-chain](https://github.com/benelog/habit-chain)).
+til.benelog.net 과 달리 **앱 서버 프로세스가 없다.** 컨테이너 대신 Worker 하나가 전부다.
+
+```
+chain.benelog.net  →  Cloudflare Pages (_worker.js)  →  DoltHub HTTP API
+  Netlify DNS의 CNAME       SSR + 정적 자산              요청 단위 HTTP, 커넥션 없음
+```
+
+- Worker가 DoltHub SQL API로 읽어 HTML 문자열을 만들어 반환한다. HTMX라 전체 페이지뿐 아니라
+  카드 하나짜리 **HTML 조각**도 응답으로 돌려주고 브라우저가 그 자리에 갈아끼운다
+- **Workers가 아니라 Pages를 쓴 이유는 DNS다.** `benelog.net` 이 Cloudflare 존이 아니라 Workers
+  커스텀 도메인을 붙일 수 없다. Pages는 외부 서브도메인에 CNAME 하나로 붙는다
+- Pages advanced mode: 빌드된 `_worker.js` 가 모든 요청을 먼저 받고, 모르는 경로만 `env.ASSETS` 로 넘긴다.
+  Worker + Static Assets 조합에서 필요한 `run_worker_first` 목록을 유지하지 않아도 된다
+- DB 주소와 토큰을 서버에 두지 않고 **사용자 설정에서 헤더로 받는다.** 배포물에 시크릿이 없다
+- 콜드스타트도 유휴 정지도 없고 카드도 필요 없다. 제약은 호출당 CPU 10ms인데,
+  DoltHub 응답을 기다리는 시간은 CPU 시간에 안 들어가서 이 구성에서는 걸리지 않는다
+- til.benelog.net 구성과의 대비: 그쪽은 **카드는 없지만 상시 운영이 안 되고**(임시 URL 만료),
+  이쪽은 **카드도 없고 상시 운영도 된다.** 대신 임의의 Go 바이너리를 못 올리고 런타임이 Worker로 고정된다
 
 ## Related
 - [[aws]]
