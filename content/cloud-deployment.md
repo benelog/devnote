@@ -281,7 +281,16 @@ DB 선택 기준이 달라진다. **커넥션 풀을 유지할 수 없다**는 �
 - **Auth·Storage·실시간까지 한 번에** → Supabase. 단 7일 유휴 정지가 개인 앱에는 치명적이라 주기적으로 깨워줘야 한다
 - **프론트엔드 주도 실시간 협업 앱** → InstantDB. 무료 프로젝트가 정지되지 않는 점이 강점
 - **데이터 자체의 변경 이력이 중요** → Dolt/DoltHub. 일반 CRUD 앱에는 과하다
-- **DB를 앱과 같은 리전에 두라.** 앱이 미국, DB가 도쿄면 쿼리마다 태평양을 건넌다
+- **DB를 앱과 같은 리전에 두라.** 앱이 미국, DB가 도쿄면 쿼리마다 태평양을 건넌다.
+  til.benelog.net 에서 DB만 오하이오 → 도쿄로 옮겨 같은 조건으로 재본 결과:
+
+  | Turso 그룹 위치 | 한국에서 `GET /` |
+  | --- | --- |
+  | `aws-us-east-2` (오하이오) | 197~220ms |
+  | `aws-ap-northeast-1` (도쿄) | **38~45ms** |
+
+  코드도 앱 위치도 그대로고 DB 리전만 바꿨는데 5배다. 페이지 한 장이 쿼리 한 번인 앱이라
+  DB 왕복이 응답 시간을 그대로 지배한다. **배포처 리전을 정하기 전에 DB 리전부터 맞출 것**
 
 ### Turso (libSQL)
 
@@ -299,6 +308,18 @@ SQLite를 서버로 올린 libSQL의 관리형 서비스. 이 노트의 [til.ben
   순수 Go인 [`libsql-client-go`](https://github.com/tursodatabase/libsql-client-go)를 쓸 것
 - 리전은 `turso group create <name> --location <id>` 로 지정한다.
   `aws-ap-northeast-1`(도쿄), `aws-us-east-2`(오하이오) 등. **앱이 뜨는 리전에 맞출 것**
+- **리전 이전은 그룹을 새로 만들어 옮기는 수밖에 없다.** 그룹의 primary 위치는 바꿀 수 없다.
+  무료(starter) 플랜 사용량 표시가 `groups 0/1` 이라 그룹을 하나 더 못 만들 것처럼 보이는데,
+  실제로는 두 번째 그룹이 만들어졌다 — 표시를 믿지 말고 시도해 볼 것. 이전 절차에서 겪은 것:
+
+  - `turso db create <새이름> --group <새그룹> --from-db <기존DB>` 는 **그룹이 다르면
+    `record not found`** 로 실패한다. 같은 그룹 안에서만 되는 듯하다
+  - `--from-dump <파일>` 은 DB만 만들어지고 **덤프가 적재되지 않은 채 exit 1** 이 났다.
+    빈 DB가 남으므로 성공했는지 반드시 `select count(*)` 로 확인할 것
+  - 결국 `turso db shell <새DB> < dump.sql` 로 밀어 넣는 게 확실했다.
+    `turso db shell <기존DB> .dump` 로 뜬 덤프가 그대로 들어가고 `sqlite_sequence` 와 인덱스도 따라온다
+  - 옮긴 뒤 양쪽에서 `group_concat` 해시를 떠서 대조하면 내용 동일성을 바이트 단위로 확인할 수 있다
+  - **새 DB에는 토큰을 새로 발급해야 한다.** 기존 토큰은 다른 DB 것이라 그대로는 안 쓰인다
 - **`turso db destroy` 후 재생성하면 이전에 발급한 토큰이 전부 무효가 된다.**
   `401 Unauthorized: invalid JWT token: can't be decoded with any of the existing keys` 가 나오면 이 경우다
 - 토큰을 환경변수에 붙여넣을 때 앞뒤에 `=` 나 공백이 섞이면
