@@ -13,7 +13,7 @@ Fly.io가 무료 할당을 폐지했으며, Netlify가 크레딧 기반 플랜�
 
 | 서비스 | 무료 시작 시 카드 | 무료 쿼터 / 한도 | 비고 |
 | --- | --- | --- | --- |
-| [Back4app Containers](https://www.back4app.com/pricing/container-as-a-service) | 불필요 | 컨테이너 1개, 256MB RAM / 0.25 CPU | GitHub 연동 Dockerfile 빌드(Kaniko). 커스텀 도메인은 유료. **무료 임시 URL이 만료되면 배포가 파괴된다** — 상시 운영 불가 |
+| [Back4app Containers](https://www.back4app.com/pricing/container-as-a-service) | 불필요 | 컨테이너 1개, 256MB RAM / 0.25 CPU | GitHub 연동 Dockerfile 빌드(Kaniko). 커스텀 도메인은 유료. **무료 임시 URL이 만료되면 삭제됨**. 상시 운영 불가 |
 | [Render](https://render.com/docs/free) | 대체로 불필요 | Free web service: 512MB RAM, 0.1 CPU, workspace당 월 750시간, 15분 idle 후 spin down | 복귀에 30초~1분. Free Postgres는 30일 제한 |
 | [Hugging Face Spaces](https://huggingface.co/pricing) | 불필요 | CPU Basic(2 vCPU, 16GB RAM), 공개 Space 한정 | SDK를 docker로 지정하면 임의 Dockerfile 구동. 유휴 시 sleep, 영구 스토리지는 유료 |
 | [Cloudflare Workers / Pages](https://developers.cloudflare.com/workers/platform/pricing/) | 불필요 | 요청 10만/일, 호출당 CPU 10ms, 정적 자산 요청은 무제한 무료 | 컨테이너가 아니라 V8 아이솔레이트. 콜드스타트·유휴 정지가 없다. 대신 번들 3MB(gzip), 메모리 128MB, 커넥션 풀 불가 |
