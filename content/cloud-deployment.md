@@ -58,6 +58,18 @@ Fly.io가 무료 할당을 폐지했으며, Netlify가 크레딧 기반 플랜�
 - `asia-northeast3`(서울) 리전이 있어 국내 사용자 기준 지연이 가장 짧다
 - **무료 한도만 쓰더라도 열려 있는 결제 계정 연결이 필수.** 결제 계정이 닫힌 상태면
   `billingEnabled: False` 로 API 활성화조차 되지 않는다 (2026-08 직접 확인)
+- **`gcloud run deploy --source .` 첫 배포가 `PERMISSION_DENIED` 로 죽는다.** Google이 기본
+  컴퓨트 서비스 계정의 빌드 권한을 걷어낸 뒤 새 프로젝트에서 나는 증상이다. 해결:
+
+  ```
+  gcloud projects add-iam-policy-binding <project> \
+    --member=serviceAccount:<projectNumber>-compute@developer.gserviceaccount.com \
+    --role=roles/cloudbuild.builds.builder
+  ```
+
+- **Google Frontend 가 정확히 `/healthz` 경로를 가로챈다.** 컨테이너까지 도달하지 않고
+  Google 브랜드 404 페이지가 돌아온다. `/healthz/`(슬래시 포함), `/health`, `/readyz` 는
+  그대로 통과하므로, 헬스 경로를 `/healthz` 로만 열어두면 모니터링이 조용히 실패한다
 
 ### Back4app Containers
 
@@ -403,6 +415,18 @@ SQLite를 서버로 올린 libSQL의 관리형 서비스. 이 노트의 [til.ben
 - 백엔드 주소가 바뀌면 이 한 줄만 고쳐서 다시 배포하면 된다. 다만 Back4app 무료는 **재배포마다**
   접미사가 바뀌므로 되살릴 때마다 이 줄을 고쳐야 한다
 - 비용은 Netlify 무료 플랜의 대역폭(월 100GB)만 소비한다
+- **대신 지연을 낸다. 이게 이 방식의 진짜 비용이다.** til.benelog.net 을 Cloud Run 서울
+  리전에 붙이고 한국에서 교차 측정한 값:
+
+  | 경로 | `GET /` | TCP 핸드셰이크 |
+  | --- | --- | --- |
+  | Cloud Run 직결 | 92~109ms | 5.5ms |
+  | Netlify rewrite 경유 | 328~384ms | 71ms |
+
+  Netlify의 가장 가까운 PoP가 71ms 거리라, 요청이 한국 → Netlify PoP → 서울로 두 번
+  건너간다. **서울 리전을 골라 얻은 이득을 프록시가 도로 까먹는다.** 커스텀 도메인이
+  유료라 어쩔 수 없는 경우에는 쓸 만하지만, 배포처가 도메인 매핑을 무료로 지원하면
+  그쪽을 쓰는 편이 낫다
 - Netlify에서 Domain management → 커스텀 도메인 추가 후 **Force HTTPS** 를 켜면 HTTP→HTTPS 301과 HSTS가 붙는다
 
 ### 실제 구성 예: til.benelog.net
@@ -410,17 +434,19 @@ SQLite를 서버로 올린 libSQL의 관리형 서비스. 이 노트의 [til.ben
 Go + HTMX로 만든 TIL 기록 앱([benelog/til](https://github.com/benelog/til))을 무료로만 올린 구성.
 
 ```
-til.benelog.net  →  Netlify rewrite(200)  →  Back4app Containers  →  Turso (aws-us-east-2)
-   도메인·TLS·HSTS          프록시              256MB / 0.25 CPU          libSQL over HTTPS
+til.benelog.net  →  Netlify rewrite(200)  →  Cloud Run (서울)  →  Turso (도쿄)
+   도메인·TLS·HSTS          프록시           asia-northeast3    aws-ap-northeast-1
 ```
 
-- 세 계층 전부 무료이고 **카드 등록이 필요한 곳이 없다**
-- 다만 **상시 운영은 안 된다.** Back4app 무료의 임시 URL이 만료되면 배포가 파괴되고, 되살리려면
-  Redeploy 후 바뀐 접미사를 `proxy/_redirects` 에 반영해야 한다. 영구 URL은 $5/월(0.5 CPU · 512MB)부터
-- 이미지는 distroless + CGO 없는 정적 Go 바이너리로 28MB. 256MB 컨테이너에 여유 있게 들어간다
-- 실측: `GET /` 210~480ms, `POST` 320~720ms. 콜드스타트 관측 안 됨 (URL이 살아 있는 동안)
-- 같은 목적으로 먼저 시도했다가 접은 것들 — Cloud Run(결제 계정 필수), Northflank(카드 필수),
+- 결제 계정 연결은 필요하지만 **사용량은 Cloud Run 무료 한도 안이라 실질 $0** 이다
+- 이미지는 distroless + CGO 없는 정적 Go 바이너리로 28MB
+- 실측(한국): Cloud Run 직결 `GET /` 92~109ms(서버 처리 39~48ms), til.benelog.net 경유 328~384ms.
+  차이는 전부 Netlify 프록시 홉이다
+- **먼저 Back4app Containers 무료 티어로 갔다가 접었다.** 카드는 필요 없었지만 임시 URL이
+  만료되면서 배포가 통째로 파괴됐다. 그 전에 접은 것들 — Northflank(카드 필수),
   Netlify Functions(Go 런타임 2027-07-01 종료)
+- 배포처를 Cloud Run → Northflank → Back4app → Cloud Run 으로 세 번 옮기는 동안
+  **DB 코드도 Dockerfile 도 한 줄도 안 바꿨다.** Turso + distroless Go 조합의 실질 이득
 
 ### 실제 구성 예: chain.benelog.net
 
