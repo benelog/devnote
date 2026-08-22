@@ -41,6 +41,11 @@
 ## Plugins
 - <https://github.com/affaan-m/everything-claude-code>
   - [Everything Claude Code - 해커톤 우승자의 AI 개발 팀 레시피](https://roboco.io/posts/everything-claude-code-distilled/)
+- [fluent-korean](https://github.com/snflkd/fluent-korean)
+    - Claude Code가 명확하고 자연스러운 한국어를 쓰도록 돕는 output-style 플러그인
+    - 깨진 조사·어미, 명사 나열식 문장, 어색한 번역투를 줄이고 의미 전달을 우선하는 한국어 응답 지침을 제공
+    - Claude Code에서는 `/plugin marketplace add snflkd/fluent-korean` 후 `/plugin install fluent-korean@fluent-korean`으로 설치하고, output-style에서 `fluent-korean` 또는 `fluent-korean-not-coding`을 선택해 사용
+    - 플러그인 md 파일의 지침 텍스트를 다른 Claude/LLM 환경의 개인 지침이나 프로젝트 지침에 붙여 활용할 수도 있음
 - <https://github.com/seeyoung/claude-multi-ai-collab> : Gemini + Codex를 동시에 활용하는 CLI 스킬
 - [Claude Code에서 GLM 4.7 사용하기 - MoAI-ADK로 쉽게 설정](https://goos.kim/ko/blog/claude-code-glm-47-moai-adk-setup-guide)
 - [400시간 만에 알게 된 Claude Code의 진짜 핵심 도구 6개](https://www.youtube.com/watch?v=BZPaZzjLIOY)
