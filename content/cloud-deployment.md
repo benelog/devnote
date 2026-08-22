@@ -13,7 +13,7 @@ Fly.io가 무료 할당을 폐지했으며, Netlify가 크레딧 기반 플랜�
 
 | 서비스 | 무료 시작 시 카드 | 무료 쿼터 / 한도 | 비고 |
 | --- | --- | --- | --- |
-| [Back4app Containers](https://www.back4app.com/pricing/container-as-a-service) | 불필요 | 컨테이너 1개, 256MB RAM / 0.25 CPU | GitHub 연동 Dockerfile 빌드(Kaniko). 커스텀 도메인은 유료. 카드 없이 상시 가동되는 몇 안 되는 선택지 |
+| [Back4app Containers](https://www.back4app.com/pricing/container-as-a-service) | 불필요 | 컨테이너 1개, 256MB RAM / 0.25 CPU | GitHub 연동 Dockerfile 빌드(Kaniko). 커스텀 도메인은 유료. **무료 임시 URL이 만료되면 배포가 파괴된다** — 상시 운영 불가 |
 | [Render](https://render.com/docs/free) | 대체로 불필요 | Free web service: 512MB RAM, 0.1 CPU, workspace당 월 750시간, 15분 idle 후 spin down | 복귀에 30초~1분. Free Postgres는 30일 제한 |
 | [Hugging Face Spaces](https://huggingface.co/pricing) | 불필요 | CPU Basic(2 vCPU, 16GB RAM), 공개 Space 한정 | SDK를 docker로 지정하면 임의 Dockerfile 구동. 유휴 시 sleep, 영구 스토리지는 유료 |
 | [Google Cloud Run](https://cloud.google.com/run/pricing) | **필요** | 월 2M requests, 360,000 GiB-초, 180,000 vCPU-초 | 무료 한도만 써도 **열려 있는 결제 계정 연결이 필수**. 서울 리전(asia-northeast3) 있음 |
@@ -35,7 +35,10 @@ Fly.io가 무료 할당을 폐지했으며, Netlify가 크레딧 기반 플랜�
 
 ### 선택 가이드
 
-- **카드 등록 없이 상시 가동되는 웹앱** → Back4app Containers. 256MB/0.25 CPU 컨테이너 1개.
+- **카드 등록 없이 상시 가동되는 웹앱** → 현재로선 없다. Back4app Containers가 유일한 후보였지만
+  무료 플랜은 임시 URL이 만료되면서 배포가 통째로 파괴된다(아래 절). 카드 없이 가려면 유휴 시
+  잠드는 Render / Hugging Face Spaces 를 감수하는 수밖에 없다
+- **카드 없이 잠깐 띄워 보여주는 데모** → Back4app Containers. 256MB/0.25 CPU 컨테이너 1개.
   커스텀 도메인이 유료지만 [Netlify 프록시 rewrite](#netlify-프록시-rewrite로-커스텀-도메인-붙이기)로 우회 가능
 - **결제 계정이 있고 지연이 중요** → Google Cloud Run. 서울 리전을 쓸 수 있어 국내에서 가장 빠르다
 - **카드 없이 시작하되 유휴 시 잠들어도 무방** → Render. 15분 후 spin down, 복귀에 30초~1분
@@ -57,8 +60,25 @@ Fly.io가 무료 할당을 폐지했으며, Netlify가 크레딧 기반 플랜�
 - 무료 티어는 컨테이너 1개, **256MB RAM / 0.25 CPU**, 공식 가격 페이지에 "no credit card required" 명시
 - 커스텀 도메인은 **유료 전용**(`Custom domains are only available on paid plans`). 무료로는 `<app>-<hash>.b4a.run` 서브도메인만
 - 대시보드에 "Temporary URL Active — URL is temporary and will be live for 60 minutes" 안내가 뜨는데
-  공식 문서에 설명이 없다. 65분 이상 감시했을 때는 같은 URL이 계속 살아 있었다 (추가 관찰 필요)
-- 실측(한국 → Back4app): `GET /` 210~480ms, 유휴 후에도 콜드스타트가 관측되지 않음
+  공식 문서에 설명이 없다. 안내대로 **만료되고, 만료되면 URL만 죽는 게 아니라 배포가 통째로 파괴된다.**
+  2026-08-22 배포 로그로 확인:
+
+  ```
+  2026-08-21T23:59:20Z  SYSTEM  DEPLOYMENT READY
+  2026-08-22T00:27:12Z  SYSTEM  The Back4app custom domain has expired for free plan
+  2026-08-22T00:27:12Z  SYSTEM  COOLING DOWN...
+  2026-08-22T00:28:12Z  SYSTEM  FINISHING CONTAINER...
+  2026-08-22T00:28:12Z  SYSTEM  DEPLOYMENT DESTROYED
+  ```
+
+- **만료 시점은 재현되지 않았다.** 위 사례는 READY 후 약 28분이고, 다른 때는 65분 이상 살아 있었다.
+  안내문의 60분은 보장이 아니라 상한에 가깝고 그보다 일찍 회수될 수 있다고 보는 편이 안전하다
+- **밖에서는 진단이 안 된다.** 만료된 `<app>-<hash>.b4a.run` 은 존재한 적 없는 서브도메인과
+  **헤더까지 똑같은** 응답을 준다 — CloudFront가 `404 not found`. 컨테이너 크래시(502/503)와 구별되지
+  않아서 앱이 죽은 건지 주소가 회수된 건지 알 수 없다. 대시보드 배포 로그를 봐야 한다
+- **재배포하면 접미사가 바뀐다.** `til-nsh62xv6` → `til-xu9uffq7`. Redeploy App 을 누르면 다시 살아나고
+  60분 안내가 새로 붙지만, 프록시나 북마크에 적어둔 주소는 매번 갱신해야 한다
+- 실측(한국 → Back4app): `GET /` 210~480ms, 유휴 후에도 콜드스타트가 관측되지 않음 (URL이 살아 있는 동안)
 - 컨테이너 stdout이 대시보드 Logs에 그대로 보여서 기동 실패 진단이 쉽다
 - BaaS(Parse) 상품과는 **별개 상품**이다. 아래 Cloud DB 절의 Back4app 항목과 혼동하지 말 것
 
@@ -295,7 +315,8 @@ SQLite를 서버로 올린 libSQL의 관리형 서비스. 이 노트의 [til.ben
 - 상태 코드 `200`이 리다이렉트가 아니라 **rewrite(프록시)** 를 뜻한다. 브라우저 주소창은 원래 도메인 그대로 유지된다
 - DNS와 TLS 인증서는 Netlify가 관리하고, 백엔드는 Cloud Run / Back4app / Render 등 아무 데나 둘 수 있다
 - Cloud Run에 커스텀 도메인을 직접 매핑하려면 도메인 매핑이나 로드밸런서 설정이 필요한데, 이 방식은 그 과정을 통째로 건너뛴다
-- 백엔드 주소가 바뀌면 이 한 줄만 고쳐서 다시 배포하면 된다
+- 백엔드 주소가 바뀌면 이 한 줄만 고쳐서 다시 배포하면 된다. 다만 Back4app 무료는 **재배포마다**
+  접미사가 바뀌므로 되살릴 때마다 이 줄을 고쳐야 한다
 - 비용은 Netlify 무료 플랜의 대역폭(월 100GB)만 소비한다
 - Netlify에서 Domain management → 커스텀 도메인 추가 후 **Force HTTPS** 를 켜면 HTTP→HTTPS 301과 HSTS가 붙는다
 
@@ -309,8 +330,10 @@ til.benelog.net  →  Netlify rewrite(200)  →  Back4app Containers  →  Turso
 ```
 
 - 세 계층 전부 무료이고 **카드 등록이 필요한 곳이 없다**
+- 다만 **상시 운영은 안 된다.** Back4app 무료의 임시 URL이 만료되면 배포가 파괴되고, 되살리려면
+  Redeploy 후 바뀐 접미사를 `proxy/_redirects` 에 반영해야 한다. 영구 URL은 $5/월(0.5 CPU · 512MB)부터
 - 이미지는 distroless + CGO 없는 정적 Go 바이너리로 28MB. 256MB 컨테이너에 여유 있게 들어간다
-- 실측: `GET /` 210~480ms, `POST` 320~720ms. 콜드스타트 관측 안 됨
+- 실측: `GET /` 210~480ms, `POST` 320~720ms. 콜드스타트 관측 안 됨 (URL이 살아 있는 동안)
 - 같은 목적으로 먼저 시도했다가 접은 것들 — Cloud Run(결제 계정 필수), Northflank(카드 필수),
   Netlify Functions(Go 런타임 2027-07-01 종료)
 
