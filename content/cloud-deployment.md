@@ -107,6 +107,14 @@ Fly.io가 무료 할당을 폐지했으며, Netlify가 크레딧 기반 플랜�
   하루에 몇 번 들어가는 개인 앱이면 거의 매번 그 1분을 기다리게 된다
 - 유료 인스턴스는 월 고정 요금제(최저 $7/월부터)
 
+### Railway
+
+- [Railway](https://railway.com/)는 웹앱, 서버, DB를 한 프로젝트 안에서 배포·연결·관찰하는 풀스택 PaaS
+- 저장소를 연결하면 코드에서 설정을 감지해 빌드·배포하고, PR preview와 여러 environment를 기본 워크플로로 제공
+- 배포 즉시 public endpoint, private networking, SSL, load balancing을 붙이고 HTTP/TCP/gRPC/WebSocket 프로토콜 감지를 자동화한다고 설명
+- 로그·메트릭·알림을 한 화면에 모아 별도 관측 도구 없이 운영 상태를 확인할 수 있게 하는 것이 강점
+- 가격은 [Free](https://railway.com/pricing)가 30일 $5 trial credit 뒤 월 $1부터 시작하는 구조라, **상시 무료 PaaS로 보기는 어렵다**
+
 ### Northflank
 
 - 서비스, 잡(Job), 빌드 파이프라인, 관리형 DB(addon)를 한 화면에서 다루는 PaaS. Dockerfile 빌드와 외부 레지스트리 이미지 pull을 모두 지원
