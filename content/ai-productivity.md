@@ -1,4 +1,9 @@
 ## 사례/연구
+- [There's no such thing as Just a Tool](https://deadsimpletech.com/blog/no-such-thing-as-just-a-tool) (deadSimpleTech, 2026.8.29)
+    - 기술을 "그저 도구"라고 부르면 도구가 사용자의 사고방식·행동 가능성·이데올로기를 바꾸는 효과를 논의 밖으로 밀어낸다고 비판
+    - 하이데거의 ready-to-hand 개념을 빌려, 잘 작동하는 도구일수록 의식의 배경으로 사라지지만 인간-도구 gestalt를 만들어 특정 행동과 관점을 더 자연스럽게 만든다고 설명
+    - React와 Vue를 비교하며 React는 JavaScript 개발자 중심의 팀 구성과 사고를, Vue는 HTML/CSS·디자인·접근성 전문가가 참여할 여지를 더 많이 만든다는 식으로 도구 선택이 협업 구조까지 바꾼다고 주장
+    - LLM도 유용한 결과를 낼 수는 있지만 장기 사용이 부주의와 slop을 자연스럽게 만들 수 있으므로, 도구의 affordance를 의식하고 보호 장치를 두는 책임이 필요하다고 정리
 - [Coding Is No Longer the Constraint: Scaling Developer Experience to Teams and Agents at Spotify](https://engineering.atspotify.com/2026/6/code-with-claude-coding-is-no-longer-the-constraint) (Spotify Engineering, 2026.6)
     - Spotify 엔지니어의 99% 이상이 매주 AI 코딩 도구를 쓰고, 94%가 생산성 향상을 체감하며, PR 빈도는 76% 증가했다고 소개
     - Fleet Management/Fleetshift로 250만 개 이상의 자동 유지보수 PR을 처리한 기반 위에, Claude Agent SDK 기반 백그라운드 코딩 에이전트 Honk를 Kubernetes에서 병렬 실행
