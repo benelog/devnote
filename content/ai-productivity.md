@@ -4,6 +4,12 @@
     - Fleet Management/Fleetshift로 250만 개 이상의 자동 유지보수 PR을 처리한 기반 위에, Claude Agent SDK 기반 백그라운드 코딩 에이전트 Honk를 Kubernetes에서 병렬 실행
     - Backstage, Soundcheck, golden state, 표준 기술 스택 등 DevEx 투자가 사람뿐 아니라 에이전트의 코드 이해·수정 품질에도 직접적인 가드레일이 된다고 설명
     - 코딩 속도가 올라가면서 PR 리뷰 대상도 76% 늘어났고, 새 병목은 구현 자체가 아니라 PR 리뷰, 자동 머지 범위, 우선순위와 의사결정으로 이동한다고 정리
+- [Uber Engineering: Software Factory와 AI 코딩 비용 최적화](https://x.com/UberEng/status/2093444169037762840) (Uber Engineering, 2026.8.28)
+    - Uber의 소프트웨어 개발 전 과정에 AI 도구가 내재화되어 PR의 70% 이상이 로컬/클라우드 에이전트에 귀속되고, 3,600개 이상의 agent skill과 하루 3만 회 이상의 skill 실행이 있었다고 공개
+    - 2026년 2월~8월 사이 agentic offering의 주간 활성 사용자는 7배, 주간 요청은 9.4배 늘었지만, 모델 라우팅·컨텍스트 절감·캐시 전략 등으로 총 AI 지출은 4월 이후 비교적 안정화되었다고 설명
+    - 비용을 adoption/engagement와 token·request·turn 단위의 최적화 항목으로 분해하고, real-work benchmark 기반 Pareto-efficient 모델 선택, subagent 기본 모델 조정, 400k 토큰 자동 compaction, reasoning effort Medium 기본값 등을 레버로 제시
+    - 1,000개 이상의 MCP 서버를 직접 세션에 로드하지 않고 CLI gateway와 tool search로 노출해 스키마 토큰 부담을 줄이고, 반복 polling 같은 chatty workflow는 code-mode skill로 묶어 토큰 사용량을 50~90% 이상 절감했다고 정리
+    - 2,400만 노드·8,000만 엣지 규모의 AI Context Graph, 상태줄 비용 카운터, session analysis dashboard, spend tier/nudge로 에이전트가 느리게 실패하며 낭비하는 비용을 줄이는 운영 체계를 소개
 - [Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools](https://www.nber.org/papers/w35275) (NBER Working Paper 35275, 2026.5) ([PDF](https://www.nber.org/system/files/working_papers/w35275/w35275.pdf))
     - 10만 명 이상의 GitHub 개발자와 AI 사용 텔레메트리 데이터를 결합해 자동완성, 인터랙티브 코딩 에이전트, 자율 코딩 에이전트가 생산성에 미치는 효과를 비교한 연구
     - AI 도구는 커밋 기준 누적 효과를 각각 40%, 140%, 180% 높였지만, 자율 코딩 에이전트의 180% 효과는 프로젝트 수 50%, 실제 릴리스 30%로 생산 단계가 내려갈수록 크게 약화됨
