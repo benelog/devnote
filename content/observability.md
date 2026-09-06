@@ -14,6 +14,10 @@
 
 - [OpenObserve](https://github.com/openobserve/openobserve)
   - logs, metrics, traces, RUM, session replay, SLO, LLM observability를 다루는 오픈소스 관측성 플랫폼. Datadog, Splunk, Elasticsearch 대안을 표방하며 단일 바이너리 배포와 낮은 저장 비용을 강조한다.
+- [Uptrace](https://github.com/uptrace/uptrace)
+  - OpenTelemetry traces, metrics, logs를 지원하는 오픈소스 APM 플랫폼. ClickHouse 기반 self-hosted 구성과 분산 추적, 성능 모니터링을 주요 용도로 한다.
+- [SigNoz](https://github.com/signoz/signoz)
+  - OpenTelemetry-native 오픈소스 관측성 플랫폼. logs, metrics, traces를 한 도구에서 다루며 APM, distributed tracing, log management, infra monitoring 기능을 제공한다.
 
 ## Related
 - [[infra-monitoring]]
