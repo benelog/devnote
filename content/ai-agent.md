@@ -16,6 +16,11 @@
     - 단기 컨텍스트는 원본 로그 → 단계 요약 → Mermaid 캔버스로 계층화하고, 장기 개인화는 Conversation → Atom → Scenario → Persona 피라미드로 구성한다고 설명
     - flat vector store나 단순 요약 대신 하위 계층의 근거를 보존하고 상위 계층의 구조화된 Markdown을 제공해 추적성과 디버깅 가능성을 강조
     - OpenClaw 연동 기준 토큰 사용량을 최대 61.38% 줄이고 WideSearch 성공률을 33%에서 50%로 높였다고 제시하며, Hermes·Claude Code·Codex 등 여러 에이전트와의 연동을 제공
+* [Graft](https://github.com/trailhq/Graft)
+    - Claude Code, Cursor, Codex, Gemini 같은 코딩 에이전트가 코드베이스별 맥락을 더 빨리 이해하도록 돕는 오픈소스 context layer
+    - Tree-sitter 기반 구조 그래프와 LLM 요약으로 `graft/` 폴더에 시스템·API·개념 단위 Markdown 노드를 만들고, 에이전트가 일반 파일처럼 열고 따라갈 수 있게 함
+    - `graft init`으로 에이전트 연동과 로컬 그래프 생성을 설정하며, 생성된 그래프는 커밋하지 않는 재생성 가능한 캐시로 두는 방식을 제안
+    - 벤치마크에서 Claude Code 기준 토큰·도구 호출·시간을 줄이고, SWE-bench Verified에서는 정답률 향상도 있었다고 주장
 * [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent)
     - 코딩 워크플로와 장기 자율 작업을 위한 오픈소스 코딩·리서치 에이전트로, Recursive Language Model(RLM)과 Continual Harness를 핵심 추상화로 제시
     - persistent IPython을 기본 도구로 삼아 파일·셸·도구 호출·서브에이전트·컨텍스트 관리를 모두 코드로 다루는 programmatic agent 구조를 강조
