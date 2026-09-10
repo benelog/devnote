@@ -61,6 +61,11 @@
 
 ### 모델 라우팅
 
+- [사내 LLM 요청을 한곳으로 모은 AI Gateway 구축기](https://tech.inflab.com/20260825-ai-gateway/) (인프랩, 2026.8.25)
+    - 30곳 넘는 LLM 사용처의 모델 선택, API 키 관리, 사용량 관측을 한곳에 모으기 위해 Envoy AI Gateway 기반 사내 라우팅 서비스를 구축한 사례
+    - LiteLLM Proxy, Portkey AI Gateway와 비교해 셀프호스팅 무료 플랜에서 예산/rate limit, OpenTelemetry 관측성, 비용 추적, 가드레일이 상용 플랜 뒤에 잠기지 않는 점을 Envoy 선택 이유로 설명
+    - 서비스 코드에는 `low`/`medium`/`high` 등급만 노출하고, 게이트웨이 설정에서 실제 모델과 우선순위 fallback을 관리해 모델 은퇴와 가격 변동 대응 비용을 낮춤
+    - 서비스명과 `X-Service-Feature` 헤더로 기능별 토큰·비용을 추적하고, 등급 라우팅과 사용량 가시화로 최고 월 대비 전체 LLM 비용을 약 78% 줄였다고 공유
 - [커서, AI 비용 60% 절감하는 '커서 라우터' 공개… "작업별 최적 모델 자동 배정"](https://www.aitimes.com/news/articleView.html?idxno=213097) (AI타임스, 2026.7.23)
     - Cursor Router는 60만 건 이상의 실제 사용자 요청 데이터를 학습한 AI 분류기로 작업 난이도·맥락·도메인을 분석해 적합한 모델을 자동 선택한다고 소개
     - 단순 작업은 비용 효율 모델로, UI 수정은 디자인 강점 모델로, 장기 추론 작업은 고성능 추론 모델로 보내는 방식
