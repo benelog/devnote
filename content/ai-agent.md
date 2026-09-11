@@ -10,6 +10,11 @@
 ## 도구
 
 - [OpenClaw — Personal AI Assistant](https://openclaw.ai/)
+* [ARTEMIS](https://github.com/google/artemis)
+    - 자연어 지시로 실제 Android 기기나 에뮬레이터를 조작해 테스트 워크플로와 일상 작업을 수행하는 모바일 자동화 에이전트
+    - UI element index를 우선 사용하고 좌표·시각 기반 탐색으로 보완해 커스텀 UI에서도 동작하도록 설계
+    - MCP 서버를 제공해 Antigravity, Claude Code, Codex, Windsurf 같은 AI IDE가 기기를 제어하고 Logcat·스크린샷을 수집할 수 있게 함
+    - AndroidWorld 벤치마크에서 100개 이상 멀티스텝 작업 기준 99%+ 완료율을 제시하며, Flash/Pro 실행 프로필과 히스토리 압축 구조를 제공
 * [Hermes Agent — The Agent That Grows With You](https://hermes-agent.nousresearch.com/) 
 * [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)
     - AI 에이전트가 대화·문서·코드에서 Chat Memory, Skill, LLM-Wiki, Code-Graph 같은 재사용 가능한 팀 메모리 자산을 만들고 공유하도록 돕는 메모리 허브
