@@ -10,6 +10,11 @@
 ## 도구
 
 - [OpenClaw — Personal AI Assistant](https://openclaw.ai/)
+* [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast)
+    - 동적으로 인덱싱한 브라우저 요소 테이블에서 작업(`CLICK`, `TYPE_TEXT`, `SELECT`, `WAIT` 등)과 대상 요소를 고르는 브라우저 에이전트
+    - 작업과 대상 선택을 한 TypeSafe 요청으로 묶고, `TYPE_TEXT`일 때만 작은 LLM이 텍스트를 생성해 기본 루프에서 스크린샷 없이 구조화된 상태로 빠르게 동작하도록 설계
+    - Google Flights에서 Zürich→London 검색을 7.1초에 완료한 데모와, 최적화 전 대비 median task time 25.0% 감소·TypeSafe 요청 22→17회 감소라는 제한적 비교 결과를 제시
+    - `uv sync` 후 `TYPESAFE_API_KEY`, `TEXT_MODEL_API_KEY`를 설정해 로컬 inspector나 Python 라이브러리로 실행하며, Chrome 연결은 Browser Harness를 사용
 * [ARTEMIS](https://github.com/google/artemis)
     - 자연어 지시로 실제 Android 기기나 에뮬레이터를 조작해 테스트 워크플로와 일상 작업을 수행하는 모바일 자동화 에이전트
     - UI element index를 우선 사용하고 좌표·시각 기반 탐색으로 보완해 커스텀 UI에서도 동작하도록 설계
