@@ -10,6 +10,11 @@
 ## 도구
 
 - [OpenClaw — Personal AI Assistant](https://openclaw.ai/)
+* [Stagehand](https://github.com/browserbase/stagehand)
+    - Browserbase가 만든 브라우저 에이전트용 SDK로, TypeScript·Python·Go에서 Playwright 기반 브라우저 자동화에 LLM의 `observe`, `act`, `extract` 추상화를 얹어 사용
+    - `observe()`는 실제 셀렉터를 찾아 자격 증명을 모델에 넘기지 않고 입력할 수 있게 하고, `act()`는 UI 변경에 어느 정도 self-healing되는 자연어 액션을 제공
+    - `extract()`는 Zod/Pydantic 스키마에 맞춰 구조화 데이터를 뽑아내며, 로그인 세션 유지와 구조화 추출을 결합한 웹 업무 자동화에 적합하다고 소개
+    - GitHub 설명 기준 Claude Code, Codex, Eve, Mastra 등 에이전트 환경에서 웹 상호작용과 데이터 추출을 돕는 SDK로 포지셔닝
 * [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast)
     - 동적으로 인덱싱한 브라우저 요소 테이블에서 작업(`CLICK`, `TYPE_TEXT`, `SELECT`, `WAIT` 등)과 대상 요소를 고르는 브라우저 에이전트
     - 작업과 대상 선택을 한 TypeSafe 요청으로 묶고, `TYPE_TEXT`일 때만 작은 LLM이 텍스트를 생성해 기본 루프에서 스크린샷 없이 구조화된 상태로 빠르게 동작하도록 설계

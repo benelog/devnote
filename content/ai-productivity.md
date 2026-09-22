@@ -30,6 +30,10 @@
     * **현실적 목표와 역할 재정의:** 과장된 마케팅 수치에 휘둘리지 말고 현실적인 목표를 세우며, AI로 코드를 짜는 비기술 직군까지 포함해 '개발자'의 정의를 넓혀야 합니다.
     * **인사 평가 활용 금지:** 지표 조작(Gaming)이나 팀의 신뢰 하락을 막기 위해 AI 관련 측정 지표를 **개인 성과 평가에 절대 활용해서는 안 됩니다.**
     * **종합적인 접근:** AI 지표에만 매몰되지 말고, **전반적인 개발자 생산성 지표와 결합**하여 소통 부재 등 조직의 진짜 병목 현상을 종합적으로 파악해야 합니다.
+- [AI in engineering: Q2 2026 benchmarks & research readout](https://www.youtube.com/watch?v=WILFeSGXwio) (DX, YouTube)
+    - DX가 2026년 2분기 기준 AI 엔지니어링 벤치마크와 연구 결과를 공유한 영상
+    - AI 코드 어시스턴트와 에이전트의 효과를 단일 생산성 수치가 아니라 활용도, 영향, 비용·거버넌스 관점에서 읽어야 한다는 위 DX 연구 메모와 함께 참고할 만함
+    - 영상 메타데이터만 확인되어 세부 수치와 주장은 별도 시청 후 보강 필요
 - [This CTO Says 93% of Developers Use AI, but Productivity Is Still 10%](https://shiftmag.dev/this-cto-says-93-of-developers-use-ai-but-productivity-is-still-10-8013/)
     - Looking at about 4.2 million developers between November 2025 and February 2026, AI-authored code now makes up 26.9% of all production code – up from 22% last quarter.
 - [Over Half of Google's Production Code Is Now AI-Generated 2026-01-12](https://roocode.com/blog/over-half-of-googles-production-code-is-now-aigenerated)
