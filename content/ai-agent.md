@@ -140,6 +140,10 @@
     - Google Cloud 시작·인증·온보딩, solution architecture, agentic analytics, data science workflow, bidirectional streaming, RAG, serverless app 같은 multi-product solution skill을 제공
     - Agent Platform, BigQuery AI/ML, Gemini API, Live API, Model Garden, prompt management, RAG Engine, eval flywheel 등 AI/ML 관련 운영 skill을 포함
     - GKE inference, cluster creation, networking, storage, reliability, productionize, troubleshooting 등 인프라 skill까지 포함해 클라우드 작업 절차를 에이전트 skill로 패키징하려는 방향을 보여줌
+* [Three.js Game Skills](https://github.com/majidmanzarpour/threejs-game-skills)
+    - Codex와 Claude Code에서 Three.js 브라우저 게임을 만들 때 쓰는 9개 agent skill 묶음으로, `threejs-game-director`가 gameplay, AAA 그래픽, UI, asset generation, audio, debug, QA/release skill을 라우팅
+    - `SKILL.md`, reference, helper script와 Vite + TypeScript + Three.js scaffold를 함께 제공하며, 생성 게임에는 seeded RNG와 deterministic test hook, Playwright smoke/visual regression/bot playtest 템플릿을 포함
+    - `npx skills add majidmanzarpour/threejs-game-skills --skill '*' -a codex -g -y` 또는 `-a claude-code`로 설치하며, 외부 API 키가 없으면 procedural/local asset 경로로 계속 진행한다고 설명
 * https://www.productcompass.pm/p/pm-skills-marketplace-claude
 * [Claude Skills는 굉장하다, MCP보다 더 큰 혁신일지도](https://news.hada.io/topic?id=23734)
 
