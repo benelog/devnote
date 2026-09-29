@@ -40,6 +40,8 @@ Patterns](http://www.objectmentor.com/resources/articles/Principles_and_Patterns
 
 ### GOF Patterns
 
+![GofPattenMap.gif](https://raw.githubusercontent.com/benelog/devnote/master/attachments/175127_GofPattenMap.gif)
+
 <div class="sectionbody">
 
 <div class="literalblock">
@@ -687,6 +689,10 @@ class="bare">http://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programmin
 
 </div>
 
+##### J2EE Patterns
+
+![j2eePatternMap.gif](https://raw.githubusercontent.com/benelog/devnote/master/attachments/175129_j2eePatternMap.gif)
+
 </div>
 
 </div>
@@ -708,6 +714,7 @@ Last updated 2026-02-28 04:33:58 +0900
 - [[architecture-cases]]
 - [[domain-driven-design]]
 - [[effective-java]]
+- [[java-ee-pattern]]
 - [[object-oriented]]
 - [[refactoring]]
 - [[scalability]]

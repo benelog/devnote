@@ -22,3 +22,29 @@ alt="regular_expressions_cheat_sheet.png" />
 - style 태그 제거: `style=\"[^\"]*\"`
 - slug 로 시작하는 라인 :\`^(Slug)(.\*)\n\`
 - Hugo를 위해 tag 형식 바꾸기 : `^(tags\: )(.*?)\n` → `tags:[$2]\n---\n\n`
+
+## Java 정규식
+- <http://java.sun.com/javase/6/docs/api/java/util/regex/Pattern.html>
+- [Java and Regular Expressions - Tutorial](http://www.vogella.de/articles/JavaRegularExpressions/article.html)
+
+### HTML추출
+```java
+Pattern p = Pattern.compile("\\<(\\/?)(\\w+)*([^<>]*)>");
+Matcher m = p.matcher(body);
+
+body = m.replaceAll("");
+
+String content = str.replaceAll("<(/)?([a-zA-Z]*)(\\s[a-zA-Z]*=[^>]*)?(\\s)*(/)?>", "");
+
+str.replaceAll("(?:<!.*?(?:--.*?--\\s*)*.*?>)|(?:<(?:[^>'\"]*|\".*?\"|'.*?')+>)","");
+```
+
+### 그림파일 추출
+```java
+String source = "<img src=\"
+String pattern = ")";
+Pattern p = Pattern.compile(pattern);
+Matcher m = p.matcher(source);
+System.out.println();
+while(m.find()) System.out.println(m.group());
+```

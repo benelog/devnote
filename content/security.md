@@ -130,6 +130,15 @@ Open ssl
 
 </div>
 
+## SQL Injection 사례
+- 국내: <http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=101&oid=008&aid=0002002908>
+- <http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=029&aid=0001951580>
+- <http://www.technewsworld.com/story/Mass-SQL-Attack-a-Wake-Up-Call-for-Developers-62783.html?welcome=1209498513&welcome=1210717878>
+- <http://www.theregister.co.uk/2008/05/21/china_sql_injection_attack/>
+
+## Hamster
+- <http://erratasec.blogspot.com/2007/08/sidejacking-with-hamster_05.html>
+
 ## Children
 - [[java-security]]
 - [[sql-injection]]

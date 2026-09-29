@@ -15,6 +15,16 @@
 - <http://tomcat.10.x6.nabble.com/Advantage-of-using-HTTP-NIO-Connector-tp2058749p2058752.html>
 - <https://tomcat.apache.org/tomcat-8.0-doc/config/http.html#Connector_Comparison>
 
+## Comet
+- Trend (오늘 500에러 발생 헐~) : <http://twitter.com/cometdaily>
+- DWR : <http://directwebremoting.org/dwr/index.html>
+- CometD : <http://cometd.org/>
+- Bayeux Protocol
+- Implementation of Bayeux protocol for jQuery
+
+## MINA
+- [MINA 튜토리얼 한글 번역본](http://cafe.naver.com/deve.cafe?iframe_url=/ArticleRead.nhn%3Farticleid=1583)
+
 ## Related
 - [[async-jdbc]]
 - [[java-concurrency]]

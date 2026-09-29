@@ -59,6 +59,11 @@ Pro sort
 
 Open frame batch
 
+## Spring task
+
+- <http://alexsotob.blogspot.com/2011/10/una-terra-promessa-un-mondo-diverso.html>
+
 ## Related
 - [[cron]]
 - [[quartz]]
+- [[spring]]

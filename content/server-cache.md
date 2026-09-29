@@ -28,3 +28,32 @@ ConcurrentLinkedHashmap은 유지보수모드인듯.. Spring 4.3에는 Caffein�
 PartitionHandler
 
 <http://blog.terracottatech.com/2008/03/tired_of_jargon_and_vendor_gob_1.html>
+
+## Java Cache
+
+### Cache
+
+- [\[J2EE Cache\] ehcache를 사용한 페이지 캐시](http://www.tuning-java.com/196)
+- [EHCache를 이용한 캐시 구현](http://javacan.tistory.com/entry/133)
+
+### Hazelcast
+
+- <http://www.hazelcast.com/>
+
+Memcached
+
+## Spring cache
+
+### memcached
+
+Spring에서 memcached 사용하기 (1) (iBatis)
+
+- <http://code.google.com/p/simple-spring-memcached/>
+- <http://www.slideshare.net/nelz9999/simple-spring-memcached>
+
+### EHCache
+
+- <http://code.google.com/p/ehcache-spring-annotations/wiki/UsingCacheable>
+
+## Related
+- [[spring]]

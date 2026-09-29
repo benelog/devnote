@@ -6,4 +6,7 @@
 - <http://stackoverflow.com/questions/348985/deadlock-on-synchronized-string-intern>
   - String.intern() is a native method
 
+## Java 문자열
+- <http://www.javacodegeeks.com/2010/11/java-best-practices-char-to-byte-and.html>
+
 ## Related

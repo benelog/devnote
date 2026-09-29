@@ -70,3 +70,14 @@ disconnect
 <http://groovy.codehaus.org/OSGi+and+Groovy>
 
 <http://www.turmoildrivendevelopment.com/2009/07/osgi-spring-dm-scala-groovy-java.html>
+
+## Spring DM
+- Eclipse에서 Felix 사용하기(스크린캐스트)
+
+### DM server
+- Load-time weaving
+- Classpath scanning
+- Thread context classloader management
+
+### Build
+- <http://www.gridshore.nl/2009/01/03/building-spring-dm-server-compliant-osgi-bundles-with-maven/>

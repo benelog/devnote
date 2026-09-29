@@ -13,6 +13,10 @@
 
 <http://mckdh.net/179>
 
+## Children
+
+- [[aop]]
+
 ## Related
 - [[design-pattern]]
 - [[effective-java]]

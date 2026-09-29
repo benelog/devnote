@@ -94,6 +94,7 @@ Component as a whole to other client Component instances.
 - [[design-pattern]]
 - [[scalability]]
 - [[cqrs]]
+- [[soa]]
 ## Related
 - [[platform-choice]]
 - [[design]]

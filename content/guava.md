@@ -6,5 +6,8 @@
 - <http://tomaszdziurko.pl/2012/01/google-guava-eventbus-easy-elegant-publisher-subscriber-cases/>
 - 성능비교 자료 : <http://codeblock.engio.net/?p=37>
 
+## Google Collections
+- <http://code.google.com/p/google-collections/>
+
 ## Related
 - [[java-functional-library]]

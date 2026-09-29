@@ -1,3 +1,10 @@
+## Data Integration
+
+- <http://en.wikipedia.org/wiki/Data_integration>
+  - Data integration is the process of combining data residing at different sources and providing the user with a unified view of these data
+
+폭넓은 의미에서의 EAI는 전체 시스템 통합을 의미한다. 즉 Presentation Layer간의 통합, Application 간의 통합, Data 간의 통합을 모두 포함한 개념이지만, 현재 일반적으로 사용하는 EAI는 Application 간의 통합을 지칭한다. (참고: Presentation Layer간의 통합은 Enterprise Portal, Data간의 통합은 Data Integration Solution 등을 통해서 이루어 진다.)
+
 ## Apache Flink
 
 ### 구조
@@ -33,6 +40,130 @@
 - <https://www.theguardian.com/info/2018/nov/30/bye-bye-mongo-hello-postgres>
   - MongoDB 에서 PostgreSQL로 전환
 
+## ETL
+
+- <http://www.manageability.org/blog/stuff/open-source-etl>
+- <http://blogs.ittoolbox.com/emergingtech/afletcher/archives/open-source-catalogue-etl-9191>
+- <http://swik.net/ETL+Java>
+- <http://scriptella.javaforge.com/>
+
+### KETL
+
+- <http://www.ketl.org/>
+
+XML, JDBC, and SOAP. LDAP, JMS
+
+XML파일 미지원. 문서화 다소 부족.
+
+### ETL integrator
+
+로그에 logkit사용...
+
+Open-ESB 프로젝트의 하위... SOA로 노출 서비스 노출..
+
+ETL Service Engine is a Java Business Integration (JSR-208) based Service Engine which can expose the ETL operations as web services and is part of OpenESB
+
+### Scriptella
+
+- [Load CSV data into a database (Scriptella ETL tool)](http://snippets.dzone.com/posts/show/3508)
+- [How to execute Scriptella ETL files](http://snippets.dzone.com/posts/show/4862)
+
+### Jitterbit
+
+- Training
+- Consulting
+- Mentorshiop
+- Support 만 유료
+
+중앙 메타데이터 저장공간
+
+Central metadata repository
+
+### Apatar
+
+특이한 점은 Flcikr Amazon Saleforce.com 등과 직접 된다는 점.
+
+매쉬업 data를 붓는 툴
+
+스케쥴러 제공
+
+### SSIS
+
+#### SOAP
+
+- <http://www.rickgaribay.net/archive/2006/12/21/Distributed-SQL-Server-Integration-Services.aspx>
+- <http://marcusrosen.blogspot.com/2008/04/sql-server-2005-integration-service.html>
+
+### Smook
+
+### CloverETL
+
+- <http://www.cloveretl.org/>
+
+CloverETL
+
+- FTP/SFTP/HTTP/HTTPS , JMS, LDAP, SOAP 지원
+- Graph-Node-Edge의 계층적 개념
+- JDBC layer를 통해 DB접근
+- 주요 DB에 대해서는 (Oracle, MS SQL< DB2, Infomix, Sybase, MySQL, PostrreSQL) Nativelly support
+- 기본 API..
+- Apache common Logging 사용 - Log4j 사용가능
+- Library서의 API활용, 설정으로 활용, GUI툴로 설정 작성
+
+CloverETL Enterprise Server
+
+- WebServices style of API for managing execution of graphs (allows for rapid implementation of any WebService)
+- runs in app.container (Tomcat, JBoss, WebSphere, GlassFish, ..etc..) on any platform with JVM (Unix, Windows, Linux, AS/400 and many more)
+
+CloverGUI
+
+- free for non-commercial use.
+- Ecliopse plug-in으로서 제공
+
+### Talend
+
+#### JasperETL
+
+JasperSoft Open Source Business Intelligence Suite의 일부분
+
+JasperServer
+
+<http://jasperforge.org/sf/projects/jasperetl>
+
+- JasperServer – interactive and managed reporting for JasperReports
+  - Report Scheduling and Distribution
+- JasperReports – pixel-perfect reports for screen or print
+- JasperAnalysis – interactive data analysis / OLAP server
+- JapserStudio - powerful graphical interactive & production report designer
+- JasperETL – high performance data integration
+
+Professional (상용)
+
+- Support 강화
+- Multi-user metadata repository
+- CPU Balancer
+- Distant Run
+- Activity Monitoring Console (AMC) monitors job events (successes, failures, warnings, etc.), execution times and data volumes from within JasperETL
+
+### ETL 비교자료
+
+#### 전반적 비교
+
+- <http://mysqlbarbeque.blogspot.com/2008/03/open-source-etl-tools-vs-commerical-etl.html>
+- <http://blogs.ittoolbox.com/bi/websphere/archives/wiki-wednesday-comparing-talend-and-pentaho-kettle-open-source-etl-tools-16294>
+- <http://mediaproducts.gartner.com/reprints/sas/vol5/article8/article8.html>
+
+#### 성능비교
+
+- <http://marcrussel.files.wordpress.com/2007/08/benchmark-tos-vs-kettle.pdf>
+- <http://marcrussel.files.wordpress.com/2008/10/etlbenchmarks_manappsc221008.pdf>
+
+## Children
+
+- [[pentaho-data-integration]]
+
 ## Related
 - [[distributed-processing]]
 - [[hadoop]]
+- [[pentaho-data-integration]]
+- [[soa]]

@@ -14,3 +14,6 @@ User user = ref.get();
 - PhantomReference를 쓰면 객체가 finalize된 이후에 사용자 코드가 관여할 수 있다.
 
 Strong \> Soft \> Weak \> Phantom
+
+## JCR
+- <http://jackrabbit.apache.org/getting-started-with-apache-jackrabbit.html>

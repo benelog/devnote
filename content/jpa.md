@@ -5,6 +5,7 @@
 - [Slice를 사용하여 OpenJPA 애플리케이션 확장하기](http://www.ibm.com/developerworks/kr/library/os-openjpa/index.html)
 - [AWS RDS와 Spring Cloud + JPA 시작하기](https://greencrayon00.wordpress.com/2015/10/16/aws-rds%EC%99%80-spring-cloud-jpa-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/)
 - [AridPOJOs: Active Record스타일의 Dynamic Finder지원 GenericDao](http://toby.epril.com/?p=322)
+- <http://code.google.com/p/warp-persist/wiki/Tutorials>
 
 ## Native query
 
