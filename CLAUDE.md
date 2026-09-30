@@ -8,7 +8,7 @@ Obsidian vault 기반 개발 노트 모음. 빌드 도구는 [benelog/obsidian-s
 
 - `content/*.md` — 286개 마크다운 노트 (플랫 구조)
 - `site.yaml` — 사이트 설정 (title, subtitle, lang, content-directory, output-directory, gitHub)
-- `.github/workflows/deploy.yaml` — master에 push되면 `benelog/obsidian-site@v1`로 빌드해 GitHub Pages에 배포
+- `.github/workflows/deploy.yaml` — main에 push되면 `benelog/obsidian-site@v1`로 빌드해 GitHub Pages에 배포
 - `public/` — 빌드 결과물 (gitignored)
 - `save.sh` — 전체 변경사항을 add/commit/push 하는 스크립트
 

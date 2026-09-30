@@ -5,4 +5,4 @@ content-directory: content
 output-directory: public
 gitHub:
   repository-url: https://github.com/benelog/devnote
-  content-branch: master
+  content-branch: main
