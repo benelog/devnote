@@ -14,6 +14,16 @@
 ## 도구
 
 - <https://github.com/wagoodman/dive> : 이미지 레이어 확인
+- [nspawn](https://nspawn.org/) : systemd-nspawn 머신을 Docker처럼 관리하는 도구
+  - OCI 레지스트리와 Docker Hub에서 이미지를 받아 공유 레이어로 저장하고, systemd-machined/systemd D-Bus API로 머신을 시작·검사·중지한다.
+  - systemd가 포함된 이미지는 머신처럼 부팅하고, Docker 이미지처럼 entrypoint만 있는 이미지는 stub init 아래 앱으로 실행한다.
+  - `docker0`와 비슷한 NAT 브리지, 포트 publish, 머신 이름 해석을 자체 관리하며 `mkosi`로 OCI 이미지를 빌드·push할 수 있다.
+  - GitHub: <https://github.com/nspawn/nspawn>
+- [nsl](https://frostyard.github.io/nsl/) : Linux 호스트에서 WSL처럼 쓰는 systemd-nspawn 기반 개발 머신
+  - Debian, Ubuntu, Fedora, Arch, openSUSE 등 서명된 배포판 이미지를 만들고, 프로젝트 디렉터리에서 `nsl` 또는 `nsl run`으로 셸·명령을 실행한다.
+  - 일반 머신은 공유 VM 안의 systemd-nspawn 컨테이너로 돌며 `/mnt/host`로 호스트 파일을 사용하고, 포트 포워딩·Wayland 앱·SSH 편집기 연동을 제공한다.
+  - `--isolated`로 신뢰하기 어려운 소프트웨어를 별도 VM에 격리할 수 있고, 아직 pre-release 상태라고 명시되어 있다.
+  - GitHub: <https://github.com/frostyard/nsl>
 
 ## 명령어
 
