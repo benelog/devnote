@@ -179,3 +179,5 @@ mvn net.sf.alchim:winstone-maven-plugin:embed
 - [[mvc]]
 - [[rest]]
 - [[spring-mvc]]
+- [[web-xml]]
+- [[file-upload]]

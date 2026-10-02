@@ -27,7 +27,6 @@
 - [[ai-agent-role]]
 - [[ai-agent]]
 - [[ai-framework]]
-- [[ai-standard]]
 - [[ocr]]
 
 ## Related

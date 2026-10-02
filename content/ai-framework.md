@@ -3,5 +3,4 @@
 
 ## Related
 - [[ai-agent]]
-- [[gpt]]
 - [[spring-ai]]

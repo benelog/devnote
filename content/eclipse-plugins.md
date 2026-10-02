@@ -173,3 +173,4 @@ update URL : <http://moreunit.sourceforge.net/org.moreunit.updatesite/>
 - [[code-coverage]]
 - [[java-profiling]]
 - [[static-analysis]]
+- [[maven-eclipse]]

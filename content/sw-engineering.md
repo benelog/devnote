@@ -148,3 +148,4 @@ StateChart Diagram
 ## Children
 - [[project-management]]
 - [[compsac]]
+- [[sw-quality]]

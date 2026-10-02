@@ -127,5 +127,4 @@ surge.sh로 배포
 - [[documentation-cases]]
 - [[excel]]
 - [[markdown]]
-- [[pdf]]
 - [[wiki]]

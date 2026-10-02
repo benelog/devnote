@@ -35,6 +35,7 @@ DB modeling 이화식님의 강좌:
 - [[db-transation]]
 - [[dbms-compare]]
 - [[derby]]
+- [[informix]]
 - [[mysql]]
 - [[oracle-db]]
 - [[sql]]

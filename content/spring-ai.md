@@ -4,4 +4,3 @@
 - [[ai]]
 - [[ai-agent]]
 - [[ai-framework]]
-- [[gpt]]

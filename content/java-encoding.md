@@ -93,5 +93,111 @@ SQLErrorCodeSQLExceptionTranslator를 상속해서 정의하거나, classpath
 root에 sql-error-codes.xm파일을 재정의해서 Sql 에러코드에 대응되는
 Exception을 정의할 수도 있습니다.
 
+## 한글 코드 문제와 해결방법
+
+```jsp
+<%@ page contentType="text/html; charset=EUC_KR" %>
+
+<%@ page contentType="text/html; charset=EUC_KR" %> ...
+
+<% String userId = new String(request.getParameter("id").getBytes("Cp1252"), "EUC_KR");
+
+...
+```
+
+JSP에서 Beans 사용하기 `<jsp:setProperty>`
+
+JSP 문서
+
+```jsp
+<jsp:useBean scope="page"/>
+
+<jsp:setProperty name="user" property="*"/>
+
+<% user.toKorean(); %>
+```
+
+User Bean (User.java)
+
+```java
+import java.io.*;
+import CharacterSet;
+
+public class User {
+    private String id;
+    private String password;
+
+    public void setId(String str) { id = str; }
+    public void setPassword(String str) { password = str; }
+    public String getId() { return id; }
+    public String getPassword() { return password; }
+
+    public void toKorean() {
+        id = CharacterSet.toKorean(id);
+    }
+}
+```
+
+CharacterSet 클래스 (CharacterSet.java)
+
+```java
+import java.lang.*;
+import java.io.*;
+
+public class CharacterSet {
+    public static String toKorean(String str) {
+        try {
+            return new String(str.getBytes("Cp1252"), "EUC_KR");
+        } catch (UnsupportedEncodingException e) {
+            return null;
+        }
+    }
+}
+```
+
+### Web.xml
+
+```xml
+<filter>
+<filter-name>Set Character Encoding</filter-name>
+<filter-class>filters.SetCharacterEncodingFilter</filter-class>
+<init-param>
+<param-name>encoding</param-name>
+<param-value>euc-kr</param-value>
+</init-param>
+</filter>
+<filter-mapping>
+<filter-name>Set Character Encoding</filter-name>
+<url-pattern>/*</url-pattern>
+</filter-mapping>
+```
+
+### Server.xml
+
+### 설정파일
+
+`/usr/local/share/jakarta-tomcat-5.0.19/conf/web.xml` charset추가
+
+```xml
+<mime-mapping>
+<extension>htm</extension>
+<mime-type>text/html;charset=euc-kr</mime-type>
+</mime-mapping>
+<mime-mapping>
+<extension>html</extension>
+<mime-type>text/html;charset=euc-kr</mime-type>
+</mime-mapping>
+```
+
+`/usr/local/apache/conf/httpd.conf` 아래 두줄 추가
+
+```apache
+AddCharSet EUC-KR .euc-kr
+AddDefaultCharSet EUC-KR
+```
+
+- <http://blog.naver.com/syberhiphop/10031746625>
+
 ## Related
 - [[encoding]]
+- [[tomcat]]
