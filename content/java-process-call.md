@@ -126,3 +126,5 @@ waitFor는 무한대기 될 수도 있다…​
 \</dependency\>
 
 ## Related
+- [[linux-process]]
+- [[java-external-process]]

@@ -111,3 +111,4 @@ Last updated 2026-02-28 04:33:58 +0900
 
 ## Related
 - [[r-example]]
+- [[statistics]]

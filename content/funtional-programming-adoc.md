@@ -8,3 +8,6 @@
   - flatMap() 메서드 제공
   - Monad Laws를 만족시키는 구현체
   - Optional, Promise가 Monad의 예
+
+## Related
+- [[functional-programming]]

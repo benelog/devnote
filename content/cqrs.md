@@ -23,3 +23,7 @@
 - <http://blog.2mas.xyz/cqrs-the-simple-way-with-eventstore-and-elasticsearch-integrating-elasticsearch/>
 
 [Online Event Processing - Achieving consistency where distributed transactions have failed](https://queue.acm.org/detail.cfm?id=3321612)
+
+## Related
+- [[event-driven]]
+- [[domain-driven-design]]

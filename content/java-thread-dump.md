@@ -14,3 +14,6 @@ more dum.txt \| grep locked \| sort -i \| uniq -c \| sort -i : 같은
 - Thread Logic : <https://java.net/projects/threadlogic>
 - IBM Thread and Monitor Dump Analyzer for Java :
 - <https://www.ibm.com/developerworks/mydeveloperworks/groups/service/html/communityview?communityUuid=2245aa39-fa5c-4475-b891-14c205f7333c>
+
+## Related
+- [[java-profiling]]

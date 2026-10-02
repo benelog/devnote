@@ -99,3 +99,6 @@ public class HttpUnitTest {
 - [Selenium과 Cucumber를 활용해 웹 테스트 자동화하기 1](http://www.slipp.net/wiki/pages/viewpage.action?pageId=1736714)
 - [Selenium과 Cucumber를 활용해 웹 테스트 자동화하기 2 - Feature별 실행](http://www.slipp.net/wiki/pages/viewpage.action?pageId=1736718)
 - [Selenium과 Cucumber를 활용해 웹 테스트 자동화하기 3 - 브라우저 재사용](http://www.slipp.net/wiki/pages/viewpage.action?pageId=1736723)
+
+## Related
+- [[test-framework]]

@@ -318,3 +318,5 @@ Variable](http://blog.naver.com/parnx/140054010739)
 
 ## Related
 - [[graal-vm]]
+- [[jvm]]
+- [[java-performance]]

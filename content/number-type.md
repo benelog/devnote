@@ -8,3 +8,6 @@
 
 - [\`나이스오류' 예견된 사고…설계서ㆍ테스트 없었다](https://www.yna.co.kr/view/AKR20110902079600004)
 - [나이스, 프로그램에 문제… 쓰레기값(컴퓨터 연산과정서 드물게 나오는 엉뚱한 값) 처리 누락](https://news.chosun.com/site/data/html_dir/2011/07/25/2011072500100.html)
+
+## Related
+- [[java-basic]]

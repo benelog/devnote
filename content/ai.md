@@ -24,7 +24,7 @@
 * https://github.com/epoko77-ai/im-not-ai
 
 ## Children
-- [[ai-gent-role]]
+- [[ai-agent-role]]
 - [[ai-agent]]
 - [[ai-framework]]
 - [[ai-standard]]

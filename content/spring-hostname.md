@@ -57,3 +57,4 @@ SPel이 잘 먹는지는 다음와 같이 테스트 할 수 있습니다.
 > return InetAddress.getLocalHost(); }
 
 ## Related
+- [[spring-boot]]

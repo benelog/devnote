@@ -151,3 +151,6 @@
 * [[ai-productivity]]
 * [[claude-code]]
 * [[ai-agent-harness]]
+
+## Related
+- [[ai-agent-role]]

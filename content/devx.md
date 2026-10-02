@@ -9,3 +9,7 @@
 - <https://github.blog/enterprise-software/collaboration/developer-experience-what-is-it-and-why-should-you-care/>
 - <https://www.multitudes.com/blog/what-is-devx>
 - <https://www.multitudes.com/blog/want-productive-engineers-start-with-trust-not-metrics>
+
+## Related
+- [[productivity]]
+- [[ai-productivity]]

@@ -59,3 +59,6 @@
 ## Convention
 
 - <https://github.com/airbnb/javascript/tree/master/react>
+
+## Related
+- [[front-architecture]]

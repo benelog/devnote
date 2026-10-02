@@ -578,3 +578,4 @@ JDBC에서 Connection, Statement,ResultSet의 close 글에 나온 것처럼 Conn
 - [[spring-data-jdbc]]
 - [[spring-db]]
 - [[sql-injection]]
+- [[java-encoding]]

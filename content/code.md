@@ -5,3 +5,6 @@
 - [[code-coverage]]
 - [[code-formatting]]
 - [[code-review]]
+
+## Related
+- [[naming-convention]]

@@ -13,3 +13,5 @@
 - <http://grinder.sourceforge.net/>
 
 ## Related
+- [[java-profiling]]
+- [[java-gc]]

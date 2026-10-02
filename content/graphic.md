@@ -77,3 +77,6 @@ Image2Html](http://www.choboweb.com/268)
 
 ## Java graphic
 - [\[팁\] 이미지 크기 변환할 때 품질 유지하기](http://javacan.tistory.com/entry/124)
+
+## Related
+- [[ui-design]]

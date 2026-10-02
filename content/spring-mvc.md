@@ -303,3 +303,5 @@ jar파일 하나만 다운로드 받아서 바로 실행시키면 됩니다.
 - [[rest]]
 - [[servlet]]
 - [[spring-test]]
+- [[java-encoding]]
+- [[spring-resource-handling]]

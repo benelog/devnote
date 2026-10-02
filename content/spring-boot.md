@@ -31,3 +31,5 @@
 ## Related
 - [[android-dependency-injection]]
 - [[dependency-injection]]
+- [[spring-properties]]
+- [[spring-hostname]]

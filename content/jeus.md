@@ -1188,3 +1188,4 @@ set rlim_fd_max=2048
 - [[ejb]]
 - [[jndi]]
 - [[jdbc]]
+- [[java-encoding]]

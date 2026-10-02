@@ -467,3 +467,5 @@ List<Trips> tripList = ti.getTrips();
 - [[no-sql]]
 - [[cloud]]
 - [[ejb]]
+- [[jpa]]
+- [[groovy]]

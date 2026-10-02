@@ -79,3 +79,5 @@ single TCP connection being used instead of multiple ones.
 curl --http2 -v d2.naver.com
 
 ## Related
+- [[http]]
+- [[nginx]]

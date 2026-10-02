@@ -3,3 +3,6 @@
   - 0보다 큰지 확인만할때 Exsits 사용
   - 내림차순 인덱스
 - <http://stackoverflow.com/questions/621884/database-development-mistakes-made-by-application-developers>
+
+## Related
+- [[oracle-db]]

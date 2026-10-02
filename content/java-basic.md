@@ -309,3 +309,4 @@ public class Test
 
 ## Related
 - [[logging]]
+- [[number-type]]

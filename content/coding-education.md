@@ -31,3 +31,6 @@
 - <https://codecombat.com/>
 - [Python for kids](http://www.yes24.com/24/Goods/9313650)
 - [마인크래프트로 배우는 파이썬 프로그래밍](http://www.yes24.com/24/goods/30123117?scode=032&OzSrank=1)
+
+## Related
+- [[programming-language]]

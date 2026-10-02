@@ -9,3 +9,4 @@
 - [[async]]
 - [[kafka]]
 - [[messaging-queue]]
+- [[cqrs]]

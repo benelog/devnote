@@ -16,3 +16,6 @@ www.jabber.org
 www.lavalites.com
 
 gaim.sourceforge.net
+
+## Related
+- [[hardware]]

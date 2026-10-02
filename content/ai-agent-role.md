@@ -78,3 +78,8 @@
     * "앞으로 몇 년간 가장 보상받는 사람들은 AI 네이티브(AI-native)이면서 동시에 호기심이 많고, 여러 분야를 넘나드는 제너럴리스트일 거라고 생각해요. 단순히 AI 도구를 잘 쓰는 것만으로는 안 되고, 엔지니어링 너머의 더 넓은 문제를 볼 수 있어야 해요."
 ### Code Review
 * https://www.latent.space/p/reviews-dead
+
+## Related
+- [[ai-agent]]
+- [[ai-productivity]]
+- [[claude-code]]

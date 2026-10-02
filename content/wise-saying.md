@@ -190,3 +190,6 @@ Fredrick P.Brook, The Mythical Man-Month
 소프트웨어를 디자인할 때는 저는 건축가입니다. 유저 인터페이스를 디아니할
 때는 예술가이며, 구현할 때는 장인이 됩니다. 하지만 테스트를 할 때는 아마
 쳐죽일 놈이 될 것입니다. - 스티브 맥코넬
+
+## Related
+- [[test-quote]]

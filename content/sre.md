@@ -6,3 +6,4 @@
 - [[infra-monitoring]]
 - [[logging]]
 - [[observability]]
+- [[google-infra]]

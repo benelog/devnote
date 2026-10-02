@@ -128,3 +128,8 @@
 - <https://analyticsindiamag.com/global-tech/airbnb-uses-llms-to-pull-off-an-18-month-enzyme-to-rtl-migration-in-just-6-weeks/>
   - 위의 3개 사례를 개한 종합 내용
   - AI도구를 써도 인간의 통찰, 리뷰, 검증이 필요하다는 문장으로 마무리
+
+## Related
+- [[code-review]]
+- [[ai-agent-role]]
+- [[devx]]

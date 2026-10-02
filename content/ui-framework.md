@@ -63,3 +63,6 @@ Framework](http://blog.outsider.ne.kr/632)
 ## Miplatform
 
 - [\[miplatform\] 파일업로드 예](http://blog.naver.com/essbihan/100057704821)
+
+## Related
+- [[front]]

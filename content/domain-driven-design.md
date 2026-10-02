@@ -90,3 +90,5 @@
 - [[design]]
 - [[design-pattern]]
 - [[scalability]]
+- [[refactoring]]
+- [[cqrs]]

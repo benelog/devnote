@@ -89,3 +89,4 @@ public static void main(String[] args) throws IOException, InterruptedException{
 - <https://github.com/brettwooldridge/NuProcess>
 
 ## Related
+- [[java-process-call]]

@@ -228,3 +228,4 @@ verifyCursorPosition을 default값인 true로 둘 경우 아래와 같은 에러
 - [[jdbc]]
 - [[jdbc-url]]
 - [[no-sql]]
+- [[uuid]]

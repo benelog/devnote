@@ -2,10 +2,7 @@ JSP의 문제점 : <http://www.servlets.com/soapbox/problems-jsp.html>
 
 서블릿이란 <http://nettop.pe.kr/nettop/nettop3/link/servlet/servlet.htm>
 
-JAVA 웹프로그래머의 기본
-
-javascript:void(0);\[[http://youngrok.com/wiki/wiki.php/%C0%DA%B9%D9%C0%A5%C7%C1%B7%CE%B1%D7%B7%A1%B8%D3%C](http://youngrok.com/wiki/wiki.php/%C0%DA%B9%D9%C0%A5%C7%C1%B7%CE%B1%D7%B7%A1%B8%D3%C)
-0%C7%B1%E2%BA%BB\]
+[JAVA 웹프로그래머의 기본](http://youngrok.com/wiki/wiki.php/%C0%DA%B9%D9%C0%A5%C7%C1%B7%CE%B1%D7%B7%A1%B8%D3%C0%C7%B1%E2%BA%BB)
 
 한스의 10가지 jsp tip
 

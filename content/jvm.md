@@ -94,3 +94,5 @@ Example](http://java.sun.com/developer/technicalArticles/Networking/HotSpot/inli
 - [[graal-vm]]
 
 ## Related
+- [[java-profiling]]
+- [[java-gc]]

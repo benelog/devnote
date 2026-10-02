@@ -31,3 +31,4 @@ configure logging -level DEBUG -package WEB
 - [[springone2gx-2010]]
 - [[java-framework]]
 - [[groovy]]
+- [[spring-shell]]

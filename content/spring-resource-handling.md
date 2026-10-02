@@ -71,3 +71,4 @@ spring.resources.static-locations 로 수정 가능
 전략](http://kwon37xi.egloos.com/4735742)
 
 ## Related
+- [[spring-mvc]]

@@ -48,3 +48,6 @@ Matcher m = p.matcher(source);
 System.out.println();
 while(m.find()) System.out.println(m.group());
 ```
+
+## Related
+- [[java-string]]

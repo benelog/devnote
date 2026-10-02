@@ -26,3 +26,4 @@ scope)’라고 한다. 고차 함수가 반환하는 함수가 고차 함수에
 - [[java-lambda]]
 - [[persistent-data-structure]]
 - [[scala]]
+- [[funtional-programming-adoc]]
