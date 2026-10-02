@@ -1,3 +1,4 @@
+- [AI 가격 급락, 기술 역사상 최고 속도…기업 지속가능성은 '비상'](https://www.aitimes.com/news/articleView.html?idxno=215863) (AI타임스, 2026.10.1)
 - <https://deep-learning-drizzle.github.io/>
 - <https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web>
 - [LLM 자체 호스팅, 현실과 한계 총정리](https://digitalbourgeois.tistory.com/m/1623)
