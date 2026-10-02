@@ -43,6 +43,43 @@ class="bare">http://svn.apache.org/repos/asf/apr/apr/trunk/network_io/unix/socke
 
 </div>
 
+<div class="sect2">
+
+#### Ubuntu 배포판에서 설치
+
+<div class="paragraph">
+
+sudo apt-get install apache2
+
+</div>
+
+<div class="sect3">
+
+##### 실행
+
+<div class="paragraph">
+
+sudo /etc/init.d/apache2 restart
+
+</div>
+
+</div>
+
+<div class="sect3">
+
+##### 확인
+
+<div class="paragraph">
+
+기본 설치하면 /var/www에 index.html 이 읽어진다. index.html의 내용을
+바꾼후 바뀐 내용이 반영되는지 본지
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -286,59 +323,6 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 - [Apache MaxClients와 Tomcat의 Full GC](http://helloworld.naver.com/helloworld/132178) : apche의 maxClient값과 Tomcat의 maxThread, AJP의 backlog값을 결정할 때 고려할 사안
 - <http://blog.naver.com/PostView.nhn?blogId=sugyoo&logNo=20119924250> : Worker vs prefork
-
-</div>
-
-</div>
-
-</div>
-
-<div class="sect1">
-
-### 아파치 설치
-
-<div class="sectionbody">
-
-<div class="paragraph">
-
-Ubuntu 배포판 :
-
-</div>
-
-<div class="sect2">
-
-#### 설치하기
-
-<div class="paragraph">
-
-sudo apt-get install apache2
-
-</div>
-
-<div class="sect3">
-
-##### 실행
-
-<div class="paragraph">
-
-sudo /etc/init.d/apache2 restart
-
-</div>
-
-</div>
-
-<div class="sect3">
-
-##### 확인
-
-<div class="paragraph">
-
-기본 설치하면 /var/www에 index.html 이 읽어진다. index.html의 내용을
-바꾼후 바뀐 내용이 반영되는지 본지
-
-</div>
-
-</div>
 
 </div>
 

@@ -32,4 +32,4 @@ kill %\[작업번호\]
 killlall -signal 프로세스명
 
 ## Related
-- [[java-process-call]]
+- [[java-external-process]]

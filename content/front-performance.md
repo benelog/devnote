@@ -41,6 +41,11 @@ Site](http://developer.yahoo.com/performance/rules.html)
 [JavaScript와 Ajax 성능
 극대화하기](http://www.ibm.com/developerworks/kr/library/wa-aj-jsajaxperf/index.html)
 
+## 정적 자원 배포
+
+- [메이븐을 이용한 정적 파일 배포](http://d2.naver.com/helloworld/1242)
+- [샵N에서 정적 자원 파일을 관리하는 방법](http://d2.naver.com/helloworld/53617)
+
 ## 로그분석
 
 Webalizer
@@ -60,6 +65,3 @@ Webalizer
 <http://tools.phinf.naver.net/tools.html>
 
 Emulator : <http://blog.mrpol.nl/2010/01/14/network-emulator-toolkit/>
-
-## Related
-- [[front-optimization]]

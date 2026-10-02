@@ -19,6 +19,17 @@ scope)’라고 한다. 고차 함수가 반환하는 함수가 고차 함수에
 프로그래밍 실전노트\|클로저(코드 블록)의 개념과 유용성 / 서광열 :
 <http://olv.moazine.com/search2/?page=&where=atl&ot_mag=&ot_atl=&ot_img=&domainurl=olv.moazine.com&SearchText=%BC%AD%B1%A4%BF%AD%20%C5%AC%B7%CE%C0%FA&S_id=3&a_id=H8pjG1mIIWF3EdcDm44FBaO0>
 
+## Monad
+
+- [Monad란 무엇인가?](https://www.youtube.com/watch?v=jI4aMyqvpfQ) (김동경 님)
+  - 값을 담는 컨테이너의 일종
+  - Functor를 기반으로 구현
+    - Functor를 이용하면 모델링 할 수 있는 상황의 예 : 값이 없는 경우, 값이 미래에 준비될것으로 예상되는 경우
+  - 함수 합성 가능. non-blocking pipeline 구현에 활용 가능.
+  - flatMap() 메서드 제공
+  - Monad Laws를 만족시키는 구현체
+  - Optional, Promise가 Monad의 예
+
 ## Related
 - [[clojure]]
 - [[haskell]]
@@ -26,4 +37,3 @@ scope)’라고 한다. 고차 함수가 반환하는 함수가 고차 함수에
 - [[java-lambda]]
 - [[persistent-data-structure]]
 - [[scala]]
-- [[funtional-programming-adoc]]

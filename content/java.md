@@ -55,7 +55,6 @@
 - [[java-multiline-string]]
 - [[java-native-memory]]
 - [[java-performance]]
-- [[java-process-call]]
 - [[java-profiling]]
 - [[java-puzzler]]
 - [[java-references]]
