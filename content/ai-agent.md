@@ -76,7 +76,13 @@
 
 ### 모델 라우팅
 
-- [사내 LLM 요청을 한곳으로 모은 AI Gateway 구축기](https://tech.inflab.com/20260825-ai-gateway/) (인프랩, 2026.8.25)
+- [서비스 개발에 집중할 수 있는 AI 플랫폼 만들기](https://toss.tech/article/ai-platform-foundation) (토스, 2026.10.13)
+    - GenAI Portal에서 프로젝트별 모델 권한·예산·데이터 등급과 승인 절차를 관리하고, GenAI Gateway가 실제 호출에 인증·사용량 제한·가드레일과 공급자별 연동을 적용
+    - 모델 호출은 GenAI Gateway, 사내 도구 실행은 MCP Gateway로 분리하며, 도구 실행 권한과 연결 서비스의 데이터 접근 권한도 별도로 검증
+    - 입력의 개인정보·프롬프트 공격 검사와 운영 로그의 개인정보 마스킹을 분리하고, 공통 추적 식별자로 Langfuse 서비스 트레이스와 Gateway 호출 기록을 연결
+    - 월 예산과 TPM 처리량을 별도로 관리하고, 진행 중인 요청의 토큰을 먼저 예약한 뒤 실제 사용량으로 보정해 스트리밍·재시도에서도 한도 초과를 방지
+    - 확보한 PTU 용량을 우선 사용하고 부족하면 같은 모델의 PAYG 경로로 전환하며, 오류 유형별 재시도와 복구 확인으로 약정 용량을 다시 활용
+- [사내 LLM 요청을 한곳으로 모은 AI Gateway 구축기](https://tech.inflab.com/20260825-ai-gateway/) (인프랩, 2026.9.8)
     - 30곳 넘는 LLM 사용처의 모델 선택, API 키 관리, 사용량 관측을 한곳에 모으기 위해 Envoy AI Gateway 기반 사내 라우팅 서비스를 구축한 사례
     - LiteLLM Proxy, Portkey AI Gateway와 비교해 셀프호스팅 무료 플랜에서 예산/rate limit, OpenTelemetry 관측성, 비용 추적, 가드레일이 상용 플랜 뒤에 잠기지 않는 점을 Envoy 선택 이유로 설명
     - 서비스 코드에는 `low`/`medium`/`high` 등급만 노출하고, 게이트웨이 설정에서 실제 모델과 우선순위 fallback을 관리해 모델 은퇴와 가격 변동 대응 비용을 낮춤
