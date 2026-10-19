@@ -76,6 +76,11 @@
 - <https://jellyfish.co/blog/with-copilot-engineers-get-15-more-capacity-without-additional-headcount/>
   - Ticket 해결 속도가 15% 향상
 - [Google DORA 2024 Report](https://dora.dev/dora-report-2024) : AI 도입 초기(2024년)에는 배포 처리량이 오히려 악화되었고, AI 활용 증가가 배포 불안정성을 높이는 부작용이 나타났다.
+- [AI 생성 코드의 이해와 Human Accountability](https://www.linkedin.com/feed/update/urn:li:activity:7509904483317899264/) (Sangwoo Ko, LinkedIn)
+    - AI가 생성한 코드를 이해하지 않고 제출해도 되는지에 대한 교육생들의 논쟁에서 출발해, Human in the loop가 필요한 이유를 소명 책임(Accountability)으로 설명
+    - 글에서는 작업 수행 책임(Responsibility)은 AI와 나눌 수 있지만, 결과를 설명·입증해야 하는 최종 책임은 사람에게 남는다고 구분
+    - Chromium 기여 가이드라인을 사례로 들어 제출자의 코드 이해, AI 작성 부분의 불확실성 표시, 사람의 피드백에 대한 사람의 응답을 강조
+    - 문제 해결 자체보다 개념적 이해와 통찰이 중요하다는 수학자들의 논의를 인용하며, 이해를 생략하면 AI가 해결하지 못하는 문제에 대응할 역량도 잃을 수 있다고 지적
 - [AI 코딩 시대, 성장이 멈추는 개발자의 뇌에서 일어나는 일 | GeekNews](https://news.hada.io/topic?id=28653)
     - AI를 잘 쓰는 핵심 역량은 출력물의 품질을 판단·교정하는 능력이며, AI에 의존할수록 오히려 이 능력이 약화되는 역설을 지적
     - Bjork의 "바람직한 어려움" 이론에 따르면 쉽게 처리한 정보는 장기 기억에 남지 않음
