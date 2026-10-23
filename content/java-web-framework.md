@@ -76,6 +76,5 @@ Navigation-Rule
 ## Children
 - [[play-framework]]
 - [[spring-mvc]]
-- [[struts2]]
-- [[async-server]]
 - [[struts]]
+- [[async-server]]

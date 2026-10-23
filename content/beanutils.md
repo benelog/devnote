@@ -298,6 +298,6 @@ private List<Map<String, Object>> createMapListForTest(int iterations) {
 
 ## Related
 - [[apache-commons]]
-- [[java-dto]]
+- [[java-tips]]
 - [[java-performance]]
 - [[spring]]

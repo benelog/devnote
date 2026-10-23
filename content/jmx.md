@@ -173,7 +173,7 @@ Lucy에서의 MBean으로 모니티터링 가능한 것들
 
 ## Related
 - [[java]]
-- [[infra-monitoring]]
+- [[observability]]
 - [[java-profiling]]
 - [[tomcat]]
 - [[spring]]

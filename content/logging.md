@@ -250,6 +250,4 @@ org.apache.commons.logging.impl.SLF4JLogFactory을 사용하며 내부적으로 
 - <https://github.com/tigrawap/slit>
 
 ## Related
-- [[infra-monitoring]]
 - [[observability]]
-- [[sre]]

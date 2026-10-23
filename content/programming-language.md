@@ -1,7 +1,12 @@
+## Go
+
+### GC
+
+<https://tech.kakao.com/posts/618>
+
 ## Children
 - [[c-language]]
 - [[clojure]]
-- [[golang]]
 - [[groovy]]
 - [[haskell]]
 - [[java]]

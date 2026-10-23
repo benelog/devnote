@@ -160,7 +160,7 @@ Last updated 2026-02-28 04:33:58 +0900
 
 ## Related
 - [[api-design]]
-- [[java-dto]]
+- [[java-tips]]
 - [[java-json-parser]]
 - [[mvc]]
 - [[rpc-protocol]]

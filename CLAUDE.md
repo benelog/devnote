@@ -6,7 +6,7 @@ Obsidian vault 기반 개발 노트 모음. 빌드 도구는 [benelog/obsidian-s
 
 ## 핵심 구조
 
-- `content/*.md` — 337개 마크다운 노트 (플랫 구조)
+- `content/*.md` — 330개 마크다운 노트 (플랫 구조)
 - `site.yaml` — 사이트 설정 (title, subtitle, lang, content-directory, output-directory, gitHub)
 - `.github/workflows/deploy.yaml` — main에 push되면 `benelog/obsidian-site@v1`로 빌드해 GitHub Pages에 배포
 - `public/` — 빌드 결과물 (gitignored)
@@ -27,7 +27,7 @@ obsidian-site serve --port 8000
 ## 노트 컨벤션
 
 - 파일명이 페이지 제목 (`spring-boot` → "spring boot"). H1은 섹션 헤딩으로만 사용
-- `[[wikilink]]`는 `## Related`(연관 노트) 또는 `## Children`(하위 노트 목록) 섹션에 위치. 현재 약 1,130개
+- `[[wikilink]]`는 `## Related`(연관 노트) 또는 `## Children`(하위 노트 목록) 섹션에 위치. 현재 약 1,110개
 - 빌드 시 `#` → `##`, `##` → `###`으로 한 단계씩 하향 (템플릿이 페이지 제목을 H1으로 렌더링)
 - Related/Children 섹션은 본문에서 분리되어 사이드바에 렌더링됨
 - Backlinks는 자동 생성 (해당 페이지를 참조하는 다른 페이지 목록)
