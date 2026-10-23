@@ -1,5 +1,3 @@
-
-
 <http://wiki.kldp.org/KoreanDoc/html/Using_Docbook-KLDP/>
 
 <https://src.springframework.org/svn/spring-batch/trunk/src/site/docbook/reference/repeat.xml>
@@ -35,7 +33,5 @@ Build tool
 <https://github.com/spring-projects/gradle-plugins/tree/master/docbook-reference-plugin>
 
 ## Related
-- [[asciidoc]]
-- [[documentation-cases]]
 - [[documentation-tools]]
 - [[markdown]]

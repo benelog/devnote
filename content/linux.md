@@ -85,14 +85,23 @@ rm 을 mv
 
 I/O multiplexing : <http://www.mimul.com/pebble/default/2012/03/21/1332303327316.html>
 
+## Kernel
+
+### Kernel build
+
+- <https://phoenixnap.com/kb/build-linux-kernel>
+
+`make -j$(nproc)` 로 병렬 빌드
+
+### Kernel update
+
+- <https://www.baeldung.com/linux/remove-old-kernels>
+- <https://www.reddit.com/r/archlinux/comments/fp557l/how_to_remove_manually_compiled_kernel/?rdt=64142>
+
 ## Children
 - [[docker]]
-- [[hard-disk]]
 - [[linux-desktop]]
 - [[linux-dist]]
-- [[linux-kernel]]
-- [[linux-memory]]
-- [[linux-network]]
 - [[linux-process]]
 - [[linux-shell]]
 - [[linux-tips]]
@@ -103,3 +112,8 @@ I/O multiplexing : <http://www.mimul.com/pebble/default/2012/03/21/1332303327316
 - [[virtualization]]
 - [[web-shell]]
 - [[wget]]
+
+## Related
+- [[hardware]]
+- [[memory]]
+- [[network]]

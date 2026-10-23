@@ -1,5 +1,3 @@
-
-
 - <http://www.slideshare.net/KentBeck/software-g-forces>
 - <http://martinfowler.com/bliki/BlueGreenDeployment.html>
 
@@ -28,9 +26,14 @@
 - <http://www.hudson-labs.org/views/interviews>
 - [Thinking of Hudson? Fork it, too!](http://www.theserverside.com/discussions/thread.tss?thread_id=61409)
 
+## Server automation
+
+[Puppet](http://www.puppetlabs.com/): 시스템 설정 관리 자동화 도구,
+[Capistrano](http://www.capify.org/): 여러 서버에 작업을 병렬로 실행하는
+도구 [Fabric](http://docs.fabfile.org)
+
 ## Related
 - [[static-analysis]]
 - [[cloud-deployment]]
 - [[docker]]
 - [[k8s]]
-- [[server-automation]]

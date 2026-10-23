@@ -11,5 +11,4 @@
 - [[design]]
 - [[design-pattern]]
 - [[domain-driven-design]]
-- [[msa-solutions]]
 - [[spring-cloud]]

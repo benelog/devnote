@@ -82,5 +82,7 @@ disconnect
 ### Build
 - <http://www.gridshore.nl/2009/01/03/building-spring-dm-server-compliant-osgi-bundles-with-maven/>
 
-## Related
-- [[jpms]]
+## JPMS
+
+- <https://www.infoq.com/articles/java9-osgi-future-modularity>
+- <https://www.infoq.com/articles/java9-osgi-future-modularity-part-2>

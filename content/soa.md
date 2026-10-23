@@ -164,4 +164,5 @@ Tomcat 위에서 돌아감. MySQL에 설정 데이터 저장
 - [[rest]]
 - [[rpc-protocol]]
 - [[architecture]]
-- [[msa-solutions]]
+- [[spring-cloud]]
+- [[web-2.0]]

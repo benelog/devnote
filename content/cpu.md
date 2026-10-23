@@ -1,1 +1,0 @@
-- [CPU는 어떻게 작동할까?](https://www.youtube.com/watch?v=Fg00LN30Ezg)

@@ -42,6 +42,16 @@ Windows의 탐색기에서 Git을 사용할 수 있도록 도와주는 툴로서
 
 update site : <http://download.eclipse.org/egit/updates>
 
+## Diff
+
+### k3diff
+
+<http://kdiff3.sourceforge.net/>
+
+### DiffMerge
+
+<http://www.sourcegear.com/diffmerge/downloads.php>
+
 ## Related
 - [[git-command]]
 - [[github]]

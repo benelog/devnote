@@ -1,5 +1,3 @@
-
-
 <http://www.securityfocus.com/archive/1/528177/30/0/threaded>
 
 <http://www.gopivotal.com/security/cve-2013-4152>

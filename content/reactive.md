@@ -20,9 +20,12 @@
 - <https://spring.io/blog/2017/02/23/spring-framework-5-0-m5-update>
 - <https://spring.io/blog/2017/03/15/spring-tips-the-spring-web-flux-reactive-client>
 
+## Async JDBC
+
+- <https://medium.com/netifi/spring-webflux-and-rxjava2-jdbc-83a94e71ba04>
+- <https://github.com/r2dbc>
+
 ## Related
 - [[async]]
-- [[async-jdbc]]
 - [[async-server]]
 - [[java-concurrency]]
-- [[java-fiber]]

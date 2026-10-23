@@ -1,4 +1,3 @@
-
 ## Http Header
 
 - [Transfer-Encoding: chunked VS Content-Length](http://pungjoo.tistory.com/14)

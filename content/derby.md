@@ -1,4 +1,3 @@
-
 [\[Derby](http://blog.naver.com/phrack/80051132752) Embeded Driver로 SQL
 실행하기\]
 

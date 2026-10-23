@@ -12,6 +12,6 @@
   - Nashorn으로 React 동형 렌더링, J2V8로 V8 엔진 통합. 템플릿 엔진(Velocity, Freemarker, Thymeleaf, JSP, EJS) 성능 비교 포함
 
 ## Related
-- [[javascript-basic]]
+- [[javascript]]
 - [[react-js]]
 - [[spring-boot]]

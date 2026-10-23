@@ -30,6 +30,12 @@ re-specify all configuration if this is the case
 - <http://mojo.codehaus.org/sql-maven-plugin/>
 - <http://mojo.codehaus.org/sql-maven-plugin/examples/execute.html>
 
+## SQL client
+
+- <https://www.dbvis.com/> : ERD 자동으로 그리기에 좋음
+- <https://dbeaver.io>
+- <http://squirrel-sql.sourceforge.net/>
+
 ## Related
 - [[jdbc]]
 - [[jdbc-url]]

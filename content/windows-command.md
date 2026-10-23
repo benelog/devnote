@@ -112,10 +112,8 @@ EditPlus에서 WinDiff 사용하기
 - <http://www.microsoft.com/korea/ie/ie7/technology>
 
 ## Children
-
 - [[windows-shortcuts]]
 
 ## Related
-- [[windows-shortcuts]]
-- [[diff]]
+- [[git-tools]]
 - [[linux-shell]]

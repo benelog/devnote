@@ -77,5 +77,5 @@ Navigation-Rule
 - [[play-framework]]
 - [[spring-mvc]]
 - [[struts2]]
-- [[vert-x]]
+- [[async-server]]
 - [[struts]]

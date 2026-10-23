@@ -28,7 +28,6 @@
 ```
 
 ## Related
-- [[javascript-basic]]
-- [[javascript-dom]]
+- [[javascript]]
 - [[javascript-module]]
 - [[node-js]]

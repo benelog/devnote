@@ -95,9 +95,12 @@ transaction으로 update가 일어났을 때 그러하다. 조회 건이 줄어�
 - [DBMS는 어떻게 트랜잭션을 관리할까?](http://helloworld.naver.com/helloworld/407507)
 - [비즈니스 중심적인 트랜잭션 모니터링 및 관리, Part 1: 엔드투엔드 트랜잭션 트래킹 기술 소개](http://www.ibm.com/developerworks/kr/library/opendw/20080122/)
 
+## Distributed transaction
+
+- <https://github.com/alibaba/fescar> → <https://github.com/seata/seata>
+
 ## Related
 - [[distributed-processing]]
-- [[distributed-transaction]]
 - [[jdbc]]
 - [[jdbc-url]]
 - [[no-sql]]

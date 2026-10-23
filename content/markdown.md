@@ -43,7 +43,5 @@ Eclipse plulgin update site :
 - <https://github.com/nhnent/tui.editor>
 
 ## Related
-- [[asciidoc]]
-- [[docbook]]
-- [[documentation-cases]]
 - [[documentation-tools]]
+- [[docbook]]

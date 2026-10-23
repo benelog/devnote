@@ -1,4 +1,3 @@
-
 - [How to Web2.0 디자인 가이드](http://blog.saver.pe.kr/entry/How-to-Web20-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B0%80%EC%9D%B4%EB%93%9C)
 - [Ten Steps to Personas](http://www.hceye.org/HCInsight-Nielsen.htm)
 

@@ -24,4 +24,3 @@
 - [[continous-deployments]]
 - [[docker]]
 - [[paas]]
-- [[server-automation]]

@@ -1,5 +1,3 @@
-
-
 <http://www.refactormycode.com/>
 
 [okjsp 부산 세미나

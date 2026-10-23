@@ -7,7 +7,10 @@
 - <http://www.youtube.com/watch?v=XGre_In29f0>
 - <http://wiki.developerforce.com/index.php/An_Introduction_to_Force_Database>
 
+## MSA solutions
+
+<https://zeebe.io/>
+
 ## Related
 - [[architecture]]
-- [[msa-solutions]]
 - [[scalability]]

@@ -1,4 +1,3 @@
-
 [세계 IT시장은 지금 클라우드 컴퓨팅
 열풍](http://news.naver.com/main/read.nhn?mode=LSD&sid1=105&mid=sec&oid=092&aid=0001941847)
 

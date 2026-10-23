@@ -95,9 +95,8 @@ Component as a whole to other client Component instances.
 - [[scalability]]
 - [[cqrs]]
 - [[soa]]
+
 ## Related
 - [[platform-choice]]
 - [[design]]
-- [[msa-solutions]]
-
 - [[spring-cloud]]

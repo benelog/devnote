@@ -1,6 +1,0 @@
-
-- <https://github.com/timyates/mod-jdbc-persistor>
-- <http://vertxproject.wordpress.com/2012/05/18/where-vert-x-delivers-over-node/>
-- <http://blog.andrewvc.com/vertx-node-on-ropes>
-
-## Related

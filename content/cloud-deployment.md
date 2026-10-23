@@ -350,6 +350,10 @@ chain.benelog.net  →  Cloudflare Pages (_worker.js)  →  DoltHub HTTP API
 - til.benelog.net 구성과의 대비: 그쪽은 **카드는 없지만 상시 운영이 안 되고**(임시 URL 만료),
   이쪽은 **카드도 없고 상시 운영도 된다.** 대신 임의의 Go 바이너리를 못 올리고 런타임이 Worker로 고정된다
 
+## Utility service
+
+<https://surge.sh/>
+
 ## Children
 - [[cloud-db]]
 
@@ -361,5 +365,3 @@ chain.benelog.net  →  Cloudflare Pages (_worker.js)  →  DoltHub HTTP API
 - [[golang]]
 - [[k8s]]
 - [[paas]]
-- [[server-automation]]
-- [[utility-service]]

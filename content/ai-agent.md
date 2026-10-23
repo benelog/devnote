@@ -1,4 +1,3 @@
-
 ## 적용 사례
 
 - [Beyond Vibe Coding to Agentic Coding: 카카오의 AI 협업 개발  실험](https://tech.kakao.com/posts/711)

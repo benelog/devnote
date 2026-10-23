@@ -82,4 +82,3 @@ and accessible' 에러가 나올 때
 - [[continous-deployments]]
 - [[k8s]]
 - [[paas]]
-- [[server-automation]]

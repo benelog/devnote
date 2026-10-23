@@ -224,8 +224,14 @@ verifyCursorPosition을 default값인 true로 둘 경우 아래와 같은 에러
   - <https://wiki.genexus.com/commwiki/servlet/wiki?4188,Client+and+server+cursors+-+using+MySQL> 도 참고
   - [Real MySQL](http://www.yes24.com/Product/Goods/6960931?OzSrank=1) 750-753쪽
 
+## UUID
+
+### Mysql 저장
+
+- <https://www.percona.com/blog/2014/12/19/store-uuid-optimized-way/> : ordered uuid 함수 예제
+  - <https://www.npmjs.com/package/ordered-uuid>
+
 ## Related
 - [[jdbc]]
 - [[jdbc-url]]
 - [[no-sql]]
-- [[uuid]]

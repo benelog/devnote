@@ -1,4 +1,4 @@
 ## Children
-- [[sql-client]]
+- [[db-schema-tools]]
 - [[sql-injection]]
 - [[sql-tunning]]

@@ -106,9 +106,13 @@ public static String getMessageDigest(Mac mac, String message) {
 [Akka 첫 번째, Akka를 이용한 Concurrent 프로그래밍
 시작하기](http://javacan.tistory.com/169)
 
+## Fiber
+
+- <https://youtu.be/RFF2SfPMfpk?t=4040>\[Oracle Code One 2018
+- [Java에서 Fiber를 이용하여 동시성concurrency 프로그래밍 쉽게 하기](https://www.slideshare.net/NHNFORWARD/2019-java-fiber-concurrency-222954402)
+
 ## Related
 - [[async]]
-- [[async-jdbc]]
-- [[async-server]]
 - [[reactive]]
+- [[async-server]]
 - [[android-thread]]

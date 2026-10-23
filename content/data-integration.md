@@ -158,13 +158,20 @@ Professional (상용)
 - <http://marcrussel.files.wordpress.com/2007/08/benchmark-tos-vs-kettle.pdf>
 - <http://marcrussel.files.wordpress.com/2008/10/etlbenchmarks_manappsc221008.pdf>
 
-## Children
+## Flat file
 
+<http://sourceforge.net/projects/flatpack>
+
+<http://jffp.sourceforge.net/>
+
+csvfix : <http://code.google.com/p/csvfix/>
+
+<http://csvfix.byethost5.com/csvfix15/csvfix.html>
+
+## Children
 - [[pentaho-data-integration]]
 
 ## Related
 - [[distributed-processing]]
 - [[hadoop]]
-- [[pentaho-data-integration]]
 - [[soa]]
-- [[flat-file]]

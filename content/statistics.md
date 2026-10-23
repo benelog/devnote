@@ -1,4 +1,3 @@
-
 [Back to the Future: Lisp as a Base for a Statistical Computing
 System](http://lambda-the-ultimate.org/node/3726)
 

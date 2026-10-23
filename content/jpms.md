@@ -1,5 +1,0 @@
-- <https://www.infoq.com/articles/java9-osgi-future-modularity>
-- <https://www.infoq.com/articles/java9-osgi-future-modularity-part-2>
-
-## Related
-- [[osgi]]

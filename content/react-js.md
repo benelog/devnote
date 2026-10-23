@@ -32,6 +32,8 @@
 
 ## Flux & Redux
 
+- [Flux로의 카툰 안내서](http://bestalign.github.io/2015/10/06/cartoon-guide-to-flux/)
+- [Redux로의 카툰 안내서](http://blog.weirdx.io/redux%EB%A1%9C%EC%9D%98-%EC%B9%B4%ED%88%B0-%EC%95%88%EB%82%B4%EC%84%9C/)
 - [페이스북의 결정: MVC는 확장에 용이하지 않다. 그렇다면 Flux다.](http://blog.coderifleman.com/post/121910103804/%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%B6%81%EC%9D%98-%EA%B2%B0%EC%A0%95-mvc%EB%8A%94-%ED%99%95%EC%9E%A5%EC%97%90-%EC%9A%A9%EC%9D%B4%ED%95%98%EC%A7%80-%EC%95%8A%EB%8B%A4-%EA%B7%B8%EB%A0%87%EB%8B%A4%EB%A9%B4-flux%EB%8B%A4)
 - <http://haruair.github.io/flux/docs/overview.html#content>
 - [Flux와 Redux](https://taegon.kim/archives/5288)
@@ -59,6 +61,3 @@
 ## Convention
 
 - <https://github.com/airbnb/javascript/tree/master/react>
-
-## Related
-- [[front-architecture]]

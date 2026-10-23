@@ -19,5 +19,4 @@ GridGain = Compute + Data + Cloud
 ## Related
 - [[data-integration]]
 - [[db-transation]]
-- [[distributed-transaction]]
 - [[hadoop]]

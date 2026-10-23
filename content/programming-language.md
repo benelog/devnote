@@ -16,3 +16,4 @@
 
 ## Related
 - [[coding-education]]
+- [[algorithm]]

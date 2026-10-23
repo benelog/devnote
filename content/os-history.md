@@ -9,3 +9,6 @@
 ## Unix
 
 - <http://www.ddanzi.com/ddanziNews/92939697>
+
+## Related
+- [[prince-of-persia]]

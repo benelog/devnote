@@ -118,13 +118,40 @@ surge.sh로 배포
 - Postach.io
 - Pattern
 
+## AsciiDoc
+
+<https://github.com/dagwieers/asciidoc-odf>
+
+## 사례
+
+<https://techblog.lycorp.co.jp/ko/turn-invisible-logic-into-readable-document>
+
+## Editor
+
+### Rich editor
+
+- <https://yabwe.github.io/medium-editor/> : 미디엄 스타일
+
+### Markdown Editor
+
+- <http://vuejs.org/examples/>
+- <http://www.codingdrama.com/bootstrap-markdown/>
+- <https://github.com/lepture/editor>
+- <https://github.com/NextStepWebs/simplemde-markdown-editor/>
+- <http://epiceditor.com/>
+- <https://stackedit.io>
+
+## Wiki
+
+- [위키와 Xanadu](http://hyperworlds.org/mindmaps/XanaduWiki/FormatEdit.html)
+- <http://www.slideshare.net/gagnonc/wiki-it>
+
+## Diagram
+
+<https://excalidraw.com/>
+
 ## Children
 - [[ascii-tools]]
-- [[asciidoc]]
-- [[diagram]]
 - [[docbook]]
-- [[documentation-editor]]
-- [[documentation-cases]]
 - [[excel]]
 - [[markdown]]
-- [[wiki]]

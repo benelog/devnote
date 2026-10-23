@@ -41,4 +41,4 @@ vmstat -a
 - [[logging]]
 - [[observability]]
 - [[sre]]
-- [[linux-memory]]
+- [[memory]]

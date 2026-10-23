@@ -97,6 +97,5 @@ syn queue: 3-way handshake 중인 connection 이 대기
     netstat -n -t | grep 'TIME_WAIT'
 
 ## Related
-- [[linux-network]]
 - [[network]]
 - [[tshark]]

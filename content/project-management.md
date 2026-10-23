@@ -33,6 +33,9 @@ IT조직들](http://www.zdnet.co.kr/itbiz/column/anchor/yscho/0,39044217,3917247
 
 - <https://www.brightball.com/articles/story-points-are-pointless-measure-queues>
 
+## Planning
+
+- [BANEX 템플릿 - 사업부터 개발까지 모든 스테이크홀더의 눈높이를 맞추는 프로덕트 플래닝](https://engineering.linecorp.com/ko/blog/banex-template-for-product-planning)
+
 ## Children
 - [[issue-tracker]]
-- [[planning]]

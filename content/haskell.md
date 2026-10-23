@@ -1,4 +1,3 @@
-
 [Crossing borders: Explore functional programming with
 Haskell](http://www.ibm.com/developerworks/java/library/j-cb07186.html)
 

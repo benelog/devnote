@@ -5,13 +5,11 @@
     - TAP (Task-based Asynchronous Pattern). async/wait
 
 ## Children
-- [[async-jdbc]]
+- [[reactive]]
 - [[async-server]]
 
 ## Related
 - [[event-driven]]
 - [[java-concurrency]]
-- [[java-fiber]]
 - [[kafka]]
 - [[messaging-queue]]
-- [[reactive]]

@@ -28,6 +28,3 @@
 - [[ai-agent]]
 - [[ai-framework]]
 - [[ocr]]
-
-## Related
-- [[spring-ai]]

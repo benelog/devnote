@@ -870,6 +870,4 @@ for(i = 0; i < sidebarBlocks.length; i++) {
 
 ## Related
 - [[javascript]]
-- [[javascript-basic]]
-- [[javascript-dom]]
 - [[regular-expression]]

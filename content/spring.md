@@ -144,8 +144,16 @@ javascript, JSF 지원기능 등 더욱 확장된 영역으로, 이제는 앞으
 #### 1. Spring 3.0
 내년에는 Spring 3.0 정식버전이 발표될 예정으로 있습니다. 가장 영향력이 큰 Core 모듈이자, 어떤 기술들과 비교해도 스프링의 발전의 속도가 빠르다는 것을 확실히 느끼게 해주는 부분입니다.
 
+## Tips
+
+[Spring JavaConfig냐 XML 설정이냐](http://kwon37xi.egloos.com/4853063)
+
+### sample apps
+
+- <https://github.com/scottfrederick/spring-music/>
+
 ## Children
-- [[spring-ai]]
+- [[ai-framework]]
 - [[spring-batch]]
 - [[spring-boot]]
 - [[spring-changes]]
@@ -160,7 +168,6 @@ javascript, JSF 지원기능 등 더욱 확장된 영역으로, 이제는 앞으
 - [[spring-resource-handling]]
 - [[spring-security]]
 - [[spring-shell]]
-- [[spring-tips]]
 - [[toby-spring]]
 - [[spring-aop]]
 - [[spring-container]]
