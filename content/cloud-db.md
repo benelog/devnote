@@ -129,4 +129,4 @@ SQLite를 서버로 올린 libSQL의 관리형 서비스. 이 노트의 [til.ben
 - [[cloud]]
 - [[db]]
 - [[paas]]
-- [[programming-language]]
+- [[golang]]

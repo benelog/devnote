@@ -162,7 +162,7 @@ javascript, JSF 지원기능 등 더욱 확장된 영역으로, 이제는 앞으
 - [[spring-db]]
 - [[spring-hostname]]
 - [[spring-integration]]
-- [[architecture]]
+- [[spring-modulith]]
 - [[spring-mvc]]
 - [[spring-properties]]
 - [[spring-resource-handling]]
