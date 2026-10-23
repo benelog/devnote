@@ -92,6 +92,11 @@ Kokoro에는 한국어가 없다. 2026년 10월 기준으로 한국어가 되는
     - 한국어 프리셋 목소리는 `Sohee`. `ltts "안녕하세요" -l ko -v Sohee -o hello.mp3`
     - 기본은 1.7B(약 3GB 다운로드, `~/.cache/huggingface/`). `--model-size 0.6B`가 빠르다. `-d cpu`가 기본
     - `--say`(바로 재생) 때문에 `sounddevice`를 import하므로 PortAudio(`libportaudio2`)가 없으면 시작조차 못 한다. 파일만 만들 때는 `PYTHONPATH`에 빈 `sounddevice.py` 스텁을 두면 우회된다
+- 실행 결과 (2026.10.24, 8코어 CPU, GPU 없음, RAM 30GB)
+    - `ltts "안녕하세요 정상혁입니다" -l ko -v Sohee -o hello.mp3` : 1.7B 모델로 2.1초짜리 음성을 만드는 데 전체 5분 49초. 모델 다운로드를 빼면 CPU 연산만 약 1분 52초
+    - 2초 문장에 2분이 걸리는 속도라 긴 글을 이 사양에서 Qwen3-TTS로 읽히기는 어렵다. 한국어 긴 글은 Supertonic 3 같은 ONNX 경량 모델이 현실적이고, Qwen3-TTS는 GPU가 있을 때 쓴다
+    - PyTorch가 `Could not initialize NNPACK! Reason: Unsupported hardware.` 경고를 내지만 결과에는 영향이 없다
+    - `Sohee` 목소리의 한국어 발음과 억양은 자연스러웠다
 
 ## 적용 사례
 
