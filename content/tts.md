@@ -66,6 +66,33 @@ ffmpeg -i out.wav -b:a 64k out.mp3
     - 한국어, 목소리 복제, 감정·말투 지시, 아이 목소리처럼 프리셋에 없는 목소리가 필요하면 Qwen3-TTS. 다만 CPU에서는 실시간의 1/3 속도여서 95분짜리 책에 5시간쯤 걸리는 셈이고, GPU나 Apple Silicon이 있어야 편하다
     - OpenAI `gpt-4o-mini-tts`가 하던 "말투를 글로 지시" 역할을 로컬에서 대체할 후보가 Qwen3-TTS CustomVoice다
 
+## 한국어를 지원하는 오픈소스 TTS
+
+Kokoro에는 한국어가 없다. 2026년 10월 기준으로 한국어가 되는 오픈 가중치 모델은 다음과 같다. 한국어 품질을 독립적으로 비교한 자료는 아직 없어서, 같은 문장을 만들어 직접 들어 보고 골라야 한다.
+
+| 모델 | 크기 | 라이선스 | 한국어 | 특징 |
+|---|---|---|---|---|
+| [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) (Alibaba) | 0.6B / 1.7B | Apache-2.0 | 10개 언어 중 하나 | 복제·말투 지시·목소리 설계. 공식 지원은 CUDA. CPU는 커뮤니티 런타임 |
+| [Supertonic 3](https://github.com/supertone-inc/supertonic) (Supertone, 한국) | 99M | 코드 MIT, 모델 OpenRAIL-M | 31개 언어. 자체 벤치마크에서 한국어 CER 3.26(VoxCPM2 4.70) | ONNX Runtime으로 CPU·브라우저·모바일에서 돎. e-reader에서도 RTF 0.3. 프리셋 목소리와 `<laugh>` 같은 표현 태그. 복제 없음. **저장소가 archived 상태**(업데이트·지원 중단) |
+| [VoxCPM2](https://github.com/OpenBMB/VoxCPM) (OpenBMB) | 2B | Apache-2.0 | 30개 언어 | 48kHz. 목소리 설계·복제·전사 기반 복제. VRAM 8GB. CPU는 llama.cpp-omni·ONNX로 가능 |
+| [Fun-CosyVoice 3](https://github.com/FunAudioLLM/CosyVoice) (Alibaba) | 0.5B | Apache-2.0 | 9개 언어 | 교차 언어 복제, 감정·속도 지시, 양방향 스트리밍 150ms. NVIDIA GPU 전제 |
+| [Chatterbox Multilingual](https://github.com/resemble-ai/chatterbox) (Resemble AI) | 500M | MIT | 23개 언어 | `language_id="ko"`. 참조 음성으로 복제. 참조 음성 언어가 다르면 억양이 묻어 나옴. Turbo·Nano 변종은 영어 전용 |
+| [MeloTTS](https://github.com/myshell-ai/MeloTTS) (MyShell·MIT) | 소형 | MIT | 언어당 목소리 하나 | CPU 실시간. 복제·지시 없음. 가볍게 쓰는 기준선 |
+| [Fish Speech](https://github.com/fishaudio/fish-speech) | - | 1.5·1.6은 CC BY-NC-SA, S2 Pro는 상용 라이선스 | 13개 언어 | 비상업 조건이라 공개 서비스에는 쓰기 어려움 |
+
+- 고르는 기준
+    - **CPU만 있고 빠르게** : Supertonic 3. 한국 회사가 만든 모델이어서 한국어 수치가 좋지만, 저장소가 보존(archive)으로 넘어가 앞날이 불확실하다. 가중치는 Hugging Face `supertone-oss-archive/supertonic-3`에 남아 있다
+    - **목소리 복제·말투 지시가 필요** : Qwen3-TTS(가볍고 문서가 좋음), VoxCPM2(품질 우선, 무거움), CosyVoice 3(스트리밍 대화형)
+    - **라이선스가 가장 느슨해야** : Chatterbox Multilingual, MeloTTS(MIT)
+- 참고 : [Best Open Source Self-Hosted TTS 2026](https://pinggy.io/blog/best_open_source_self_hosted_text_to_speech_models/) (Pinggy), [TTS Model Quality Ranking 2026](https://offlinetts.com/blog/tts-model-ranking-2026/) (OfflineTTS), [오픈소스 TTS 4종으로 목소리 0원 복제하기](https://brunch.co.kr/@ainote/63) (brunch)
+
+### ltts로 Qwen3-TTS 한국어 돌려 보기
+
+- [fcjr/ltts](https://github.com/fcjr/ltts)는 Qwen3-TTS(기본)와 Kokoro를 한 CLI로 감싼다. `uv tool install ltts`
+    - 한국어 프리셋 목소리는 `Sohee`. `ltts "안녕하세요" -l ko -v Sohee -o hello.mp3`
+    - 기본은 1.7B(약 3GB 다운로드, `~/.cache/huggingface/`). `--model-size 0.6B`가 빠르다. `-d cpu`가 기본
+    - `--say`(바로 재생) 때문에 `sounddevice`를 import하므로 PortAudio(`libportaudio2`)가 없으면 시작조차 못 한다. 파일만 만들 때는 `PYTHONPATH`에 빈 `sounddevice.py` 스텁을 두면 우회된다
+
 ## 적용 사례
 
 - [Book Play](https://github.com/benelog/book-play) : 책의 본문을 화자별로 나눠 줄마다 MP3를 만들고(`tools/book-voices.py`), 영화와 오디오북이 같은 녹음을 재생한다. 엔진은 OpenAI(유료)와 Kokoro(무료) 중 고른다
