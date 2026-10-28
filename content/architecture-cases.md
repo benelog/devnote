@@ -143,7 +143,6 @@
 ## 네이버
 
 - [네이버 메인 페이지의 트래픽 처리](https://d2.naver.com/helloworld/6070967)
-- [스마트스토어센터 Oracle에서 MySQL로의 무중단 전환기](https://d2.naver.com/helloworld/6512234)
 
 ## 뱅크 샐러드
 

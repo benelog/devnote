@@ -32,6 +32,11 @@
 
 ## Migration 사례
 
+- [스마트스토어센터 Oracle에서 MySQL로의 무중단 전환기](https://d2.naver.com/helloworld/6512234)
+  - 공용 Oracle의 리소스 경합과 라이선스 비용 문제를 해소하기 위해 MySQL로 전환. 전환 전후 이중 쓰기 방향을 바꿔 무중단 전환과 롤백에 대비.
+  - JPA는 datasource-proxy로 수집한 쿼리를 주 DB 커밋 후 보조 DB에서 실행하고, 보조 DB 실패는 운영 트랜잭션에 영향을 주지 않도록 분리. MyBatis는 CombinedSqlSessionFactory로 이중 쓰기를 중앙화하고 DB별 SQL을 별도 관리.
+  - Repository의 읽기 호출을 직렬화해 Kafka로 전달하고 MySQL에서 재현하여 성능을 비교. Airflow와 Hive로 레코드 수·칼럼 해시·통계 값을 비교하며 약 6개월간 정합성 문제를 수정.
+  - 복잡한 OR 조건의 UNION 변환, Spring Batch 복합 PK 페이징 쿼리 튜닝, HikariCP·JDBC 설정, SEQUENCE에서 IDENTITY로 변경할 때의 식별자 생성 시점 차이를 다룸.
 - <https://stripe.com/blog/online-migrations>
   - 1\. Dual writing
   - 2\. Changing all read paths
