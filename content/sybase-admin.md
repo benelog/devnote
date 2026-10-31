@@ -281,5 +281,5 @@ bcp out은 그냥 out을 시키시면 되지만 in은 작업을 하나 해주셔
 ## Related
 - [[sybase]]
 - [[db-lock]]
-- [[db-transation]]
+- [[db-transaction]]
 - [[db]]

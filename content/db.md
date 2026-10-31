@@ -41,7 +41,7 @@ DB modeling 이화식님의 강좌:
 ### 개념
 - [[db-lock]]
 - [[db-normalization]]
-- [[db-transation]]
+- [[db-transaction]]
 - [[sql]]
 
 ### 도구와 비교

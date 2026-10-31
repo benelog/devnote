@@ -21,6 +21,6 @@
 - [[cloud-computing]]
 - [[cloud-deployment]]
 - [[cloud-news]]
-- [[continous-deployments]]
+- [[ci-cd]]
 - [[docker]]
 - [[paas]]

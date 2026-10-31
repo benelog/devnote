@@ -75,4 +75,4 @@ vmstat -a
 - [[logging]]
 
 ## Related
-- [[memory]]
+- [[system-memory]]

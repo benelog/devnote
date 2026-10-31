@@ -156,7 +156,7 @@
   - 배치 기반 처리 영역 : 정산의 ‘확정’과 ‘마감’을 책임지는 영역. Spring Batch, Argo Workflow
 
 ## Related
-- [[design]]
+- [[software-design]]
 - [[design-pattern]]
 - [[domain-driven-design]]
 - [[scalability]]

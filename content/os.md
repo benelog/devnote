@@ -1,8 +1,8 @@
 ## Children
 - [[linux]]
-- [[memory]]
-- [[os-history]]
-- [[windows-command]]
+- [[system-memory]]
+- [[computing-history]]
+- [[windows]]
 
 ## Related
 - [[hardware]]

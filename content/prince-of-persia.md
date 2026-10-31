@@ -6,5 +6,5 @@
 - 6502 aseembly에 대한 자료 : <ftp://ftp.apple.asimov.net/pub/apple_II/documentation/programming/6502assembly/>
 
 ## Related
-- [[os-history]]
+- [[computing-history]]
 - [[c-language]]

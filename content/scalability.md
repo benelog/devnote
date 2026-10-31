@@ -11,7 +11,7 @@
 ## Related
 - [[architecture]]
 - [[architecture-cases]]
-- [[design]]
+- [[software-design]]
 - [[design-pattern]]
 - [[domain-driven-design]]
 - [[spring-cloud]]

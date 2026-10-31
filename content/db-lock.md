@@ -38,4 +38,4 @@ each transaction is waiting to acqure a lock on data that the other
 transaction has locked.
 
 ## Related
-- [[db-transation]]
+- [[db-transaction]]

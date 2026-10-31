@@ -96,9 +96,9 @@ Component as a whole to other client Component instances.
 - [[soa]]
 - [[api-design]]
 - [[async]]
-- [[platform-choice]]
+- [[tech-stack-migration]]
 
 ## Related
-- [[design]]
+- [[software-design]]
 - [[spring-cloud]]
 - [[design-pattern]]

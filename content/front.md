@@ -6,7 +6,7 @@
 - [[responsive-design]]
 - [[graphic]]
 - [[gulp]]
-- [[html-basic]]
+- [[html-css]]
 - [[webpack]]
 
 ## Related

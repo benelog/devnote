@@ -228,6 +228,6 @@ warning이 존재할 경우 건수를 클릭하면 해당하는 클래스들이 
 - [[static-analysis]]
 - [[pmd]]
 - [[code-review]]
-- [[continous-deployments]]
+- [[ci-cd]]
 - [[eclipse-plugins]]
 - [[maven]]

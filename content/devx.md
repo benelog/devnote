@@ -11,5 +11,5 @@
 - <https://www.multitudes.com/blog/want-productive-engineers-start-with-trust-not-metrics>
 
 ## Related
-- [[productivity]]
+- [[useful-sites]]
 - [[ai-productivity]]

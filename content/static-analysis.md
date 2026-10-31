@@ -387,7 +387,7 @@ Convention
 ## Related
 - [[code-formatting]]
 - [[code-review]]
-- [[continous-deployments]]
+- [[ci-cd]]
 - [[eclipse-plugins]]
 - [[maven]]
 - [[code-coverage]]

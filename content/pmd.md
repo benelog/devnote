@@ -86,6 +86,6 @@ Project의 Properties에도 PMD관련 설정이 있습니다. 외부에서 만�
 - [[static-analysis]]
 - [[findbugs]]
 - [[code-formatting]]
-- [[continous-deployments]]
+- [[ci-cd]]
 - [[eclipse-plugins]]
 - [[maven]]

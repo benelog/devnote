@@ -300,5 +300,5 @@ Onconfig 환경 파일의 OPTCOMPIND 파라메터 고려
 - [[dbms-compare]]
 - [[db]]
 - [[db-lock]]
-- [[db-transation]]
-- [[sql-tunning]]
+- [[db-transaction]]
+- [[sql-tuning]]

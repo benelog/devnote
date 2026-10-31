@@ -1,5 +1,5 @@
 ## Children
-- [[sql-tunning]]
+- [[sql-tuning]]
 
 ## Related
 - [[db-schema-tools]]

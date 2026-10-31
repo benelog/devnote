@@ -357,7 +357,7 @@ chain.benelog.net  →  Cloudflare Pages (_worker.js)  →  DoltHub HTTP API
 ## Related
 - [[aws]]
 - [[db]]
-- [[continous-deployments]]
+- [[ci-cd]]
 - [[docker]]
 - [[golang]]
 - [[k8s]]

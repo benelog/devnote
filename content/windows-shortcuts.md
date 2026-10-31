@@ -233,6 +233,6 @@
 등록정보→바로가는키 부분에 원하는 단축키조합을 지정
 
 ## Related
-- [[windows-command]]
+- [[windows]]
 - [[eclipse-shortcuts]]
-- [[productivity]]
+- [[useful-sites]]

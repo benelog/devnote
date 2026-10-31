@@ -593,8 +593,8 @@ load from 'new_cust' insert into customer;
 ## Related
 - [[db]]
 - [[db-lock]]
-- [[db-transation]]
+- [[db-transaction]]
 - [[oracle-db]]
 - [[sql]]
-- [[sql-tunning]]
+- [[sql-tuning]]
 - [[informix]]

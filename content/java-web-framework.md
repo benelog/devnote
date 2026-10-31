@@ -76,7 +76,7 @@ Navigation-Rule
 ## Children
 - [[play-framework]]
 - [[struts]]
-- [[http-server]]
+- [[jax-rs]]
 
 ## Related
 - [[async-server]]

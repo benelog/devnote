@@ -79,6 +79,6 @@ and accessible' 에러가 나올 때
 - [[cloud-computing]]
 - [[cloud-deployment]]
 - [[cloud-news]]
-- [[continous-deployments]]
+- [[ci-cd]]
 - [[k8s]]
 - [[paas]]

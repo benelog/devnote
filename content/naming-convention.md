@@ -5,4 +5,4 @@
   - <https://tuhrig.de/find-vs-get/>
 
 ## Related
-- [[code]]
+- [[code-quality]]

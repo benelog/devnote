@@ -107,10 +107,10 @@ I/O multiplexing : <http://www.mimul.com/pebble/default/2012/03/21/1332303327316
 - [[ssh]]
 - [[terminal-tools]]
 - [[vi]]
-- [[web-shell]]
+- [[web-terminal]]
 - [[wget]]
 
 ## Related
 - [[hardware]]
-- [[memory]]
+- [[system-memory]]
 - [[network]]

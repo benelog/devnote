@@ -643,5 +643,5 @@ sp_helptext 함수명 : 함수에 대한 ddl
 - [[sybase]]
 - [[sybase-sql]]
 - [[sybase-admin]]
-- [[db-transation]]
+- [[db-transaction]]
 - [[db-lock]]

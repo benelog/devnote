@@ -87,7 +87,7 @@
 ## Related
 - [[architecture]]
 - [[architecture-cases]]
-- [[design]]
+- [[software-design]]
 - [[design-pattern]]
 - [[scalability]]
 - [[refactoring]]

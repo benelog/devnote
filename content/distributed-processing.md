@@ -21,4 +21,4 @@ GridGain = Compute + Data + Cloud
 
 ## Related
 - [[data-integration]]
-- [[db-transation]]
+- [[db-transaction]]

@@ -20,7 +20,7 @@
 - [[encoding]]
 - [[functional-programming]]
 - [[language-compare]]
-- [[number-type]]
+- [[floating-point]]
 - [[regular-expression]]
 
 ## Related

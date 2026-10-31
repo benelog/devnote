@@ -392,6 +392,6 @@ DEMO
 
 ## Related
 - [[regular-expression]]
-- [[html-basic]]
+- [[html-css]]
 - [[nashorn]]
 - [[react-js]]

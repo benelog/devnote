@@ -18,7 +18,7 @@ ALTER TABLE gas_station ADD COLUMN ref_id NUMERIC(8,0) IDENTITY
 ## Related
 - [[db]]
 - [[db-lock]]
-- [[db-transation]]
+- [[db-transaction]]
 - [[dbms-compare]]
 - [[jdbc]]
 - [[sql]]

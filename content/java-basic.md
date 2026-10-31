@@ -305,8 +305,8 @@ public class Test
 - APIViz
 
 ## Children
-- [[java-basic-summary]]
+- [[java-syntax-notes]]
 
 ## Related
 - [[logging]]
-- [[number-type]]
+- [[floating-point]]
