@@ -29,3 +29,4 @@
 - [[ai-framework]]
 - [[ocr]]
 - [[tts]]
+- [[ai-productivity]]

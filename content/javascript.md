@@ -385,15 +385,13 @@ DEMO
 - <https://addyosmani.com/resources/essentialjsdesignpatterns/book/>
 
 ## Children
-- [[gulp]]
 - [[javascript-module]]
 - [[node-js]]
-- [[webpack]]
-- [[react-js]]
 - [[javascript-bootcamp]]
+- [[jquery]]
 
 ## Related
 - [[regular-expression]]
-- [[jquery]]
 - [[html-basic]]
 - [[nashorn]]
+- [[react-js]]

@@ -23,10 +23,12 @@
 - <http://www.softwaretestinghelp.com/how-to-write-good-bug-report/>
 
 ## Children
-- [[mock]]
 - [[performance-test]]
 - [[tdd]]
 - [[test-framework]]
 - [[test-quote]]
 - [[ui-test]]
 - [[code-coverage]]
+
+## Related
+- [[mock]]

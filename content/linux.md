@@ -99,17 +99,14 @@ I/O multiplexing : <http://www.mimul.com/pebble/default/2012/03/21/1332303327316
 - <https://www.reddit.com/r/archlinux/comments/fp557l/how_to_remove_manually_compiled_kernel/?rdt=64142>
 
 ## Children
-- [[docker]]
 - [[linux-desktop]]
 - [[linux-dist]]
 - [[linux-process]]
 - [[linux-shell]]
 - [[linux-tips]]
-- [[os-history]]
 - [[ssh]]
 - [[terminal-tools]]
 - [[vi]]
-- [[virtualization]]
 - [[web-shell]]
 - [[wget]]
 

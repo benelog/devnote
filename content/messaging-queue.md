@@ -42,8 +42,10 @@
 - <http://grinder.sourceforge.net/g3/script-gallery.html#jmssender>
 - <http://grinder.sourceforge.net/g3/script-gallery.html#jmsreceiver>
 
+## Children
+- [[kafka]]
+
 ## Related
 - [[async]]
 - [[event-driven]]
-- [[kafka]]
 - [[soa]]

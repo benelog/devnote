@@ -32,48 +32,43 @@
 - <http://javac.info/>
 
 ## Children
-- [[android]]
-- [[eclipse]]
-- [[java-build]]
-- [[effective-java]]
-- [[java-annotation]]
+### 언어와 표준 API
 - [[java-basic]]
-- [[java-bytecode]]
-- [[java-concurrency]]
-- [[java-date]]
-- [[java-tips]]
-- [[java-ee-pattern]]
-- [[java-encoding]]
-- [[java-external-process]]
-- [[java-fast-boot]]
-- [[java-functional-library]]
-- [[java-gc]]
-- [[java-json-parser]]
+- [[java-annotation]]
 - [[java-lambda]]
-- [[java-memory-model]]
-- [[java-multiline-string]]
-- [[java-native-memory]]
-- [[java-performance]]
-- [[java-profiling]]
-- [[java-puzzler]]
-- [[java-references]]
-- [[java-security]]
+- [[java-concurrency]]
 - [[java-string]]
-- [[java-thread-dump]]
-- [[java-web-framework]]
-- [[jca]]
-- [[jcip-annotation]]
-- [[jdbc]]
-- [[jpa]]
-- [[osgi]]
-- [[jvm]]
-- [[memory]]
-- [[openjdk]]
-- [[quartz]]
-- [[spring]]
-- [[jmx]]
-- [[jndi]]
+- [[java-date]]
+- [[java-encoding]]
 - [[java-io]]
-- [[java-xml]]
-- [[apache-commons]]
+- [[java-external-process]]
+- [[jndi]]
+- [[java-ee-pattern]]
+- [[effective-java]]
+- [[java-puzzler]]
+- [[java-tips]]
+
+### 런타임
+- [[jvm]]
+
+### 라이브러리와 프레임워크
 - [[java-framework]]
+- [[spring]]
+
+### 웹
+- [[servlet]]
+- [[java-web-framework]]
+
+### 데이터 접근
+- [[jdbc]]
+- [[orm]]
+
+### 빌드와 개발 도구
+- [[java-build]]
+- [[eclipse]]
+
+### 플랫폼
+- [[android]]
+
+## Related
+- [[java-security]]

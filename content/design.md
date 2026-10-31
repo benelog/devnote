@@ -12,6 +12,9 @@ Reeves\[http://www.talk-with-hani.com/archives/1196\[어썸한 디자인이
 - [[design-pattern]]
 - [[uml]]
 - [[domain-driven-design]]
+- [[dependency-injection]]
+- [[mvc]]
+- [[object-oriented]]
 
 ## Related
 - [[architecture]]

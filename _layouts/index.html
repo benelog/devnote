@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="{lang}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title}</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .hub-section {
+      background: var(--color-card);
+      border-radius: var(--radius-card);
+      box-shadow: var(--shadow-card);
+      padding: 24px 40px;
+      margin-bottom: 24px;
+      animation: fadeUp 0.35s ease-out both;
+    }
+    .hub-groups {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px 32px;
+    }
+    .hub-group h2 {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--color-text-secondary);
+      margin: 0 0 6px;
+    }
+    .hub-group ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .hub-group a {
+      display: block;
+      padding: 3px 0;
+      font-size: 15px;
+      color: var(--color-text);
+      text-decoration: none;
+    }
+    .hub-group a:hover {
+      color: var(--color-primary-dark);
+    }
+    @media (max-width: 640px) {
+      .hub-section {
+        padding: 24px 20px;
+        border-radius: 0;
+      }
+      .hub-groups {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="top-nav">
+    <a href="index.html" class="nav-home">{title}</a>
+    <span class="nav-subtitle">{subtitle}</span>
+    <a href="tags.html" class="nav-tags">Tags</a>
+  </nav>
+
+  <div class="index-layout">
+    <section class="hub-section">
+      <div class="hub-groups">
+        <div class="hub-group">
+          <h2>언어와 개발</h2>
+          <ul>
+            <li><a href="programming-language.html">programming language</a></li>
+            <li><a href="algorithm.html">algorithm</a></li>
+            <li><a href="front.html">front</a></li>
+          </ul>
+        </div>
+        <div class="hub-group">
+          <h2>데이터</h2>
+          <ul>
+            <li><a href="db.html">db</a></li>
+            <li><a href="data-processing.html">data processing</a></li>
+          </ul>
+        </div>
+        <div class="hub-group">
+          <h2>설계</h2>
+          <ul>
+            <li><a href="architecture.html">architecture</a></li>
+            <li><a href="design.html">design</a></li>
+          </ul>
+        </div>
+        <div class="hub-group">
+          <h2>엔지니어링</h2>
+          <ul>
+            <li><a href="sw-engineering.html">sw engineering</a></li>
+            <li><a href="test.html">test</a></li>
+            <li><a href="security.html">security</a></li>
+          </ul>
+        </div>
+        <div class="hub-group">
+          <h2>인프라</h2>
+          <ul>
+            <li><a href="os.html">os</a></li>
+            <li><a href="hardware.html">hardware</a></li>
+            <li><a href="network.html">network</a></li>
+            <li><a href="cloud.html">cloud</a></li>
+            <li><a href="observability.html">observability</a></li>
+          </ul>
+        </div>
+        <div class="hub-group">
+          <h2>AI와 도구</h2>
+          <ul>
+            <li><a href="ai.html">ai</a></li>
+            <li><a href="documentation-tools.html">documentation tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="graph-section">
+      <div id="graph"></div>
+    </section>
+
+    <section class="page-list-section">
+      <div class="page-list-header">
+        <h2>Pages <span class="page-count">({page_count})</span></h2>
+        <input type="text" id="search" placeholder="Search pages…" autocomplete="off">
+      </div>
+      <ul id="page-list" class="page-list">
+        {page_list}
+      </ul>
+    </section>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+  (function() {
+    const data = {graph_data};
+
+    const container = document.getElementById('graph');
+    const width = container.clientWidth;
+    const height = Math.min(600, window.innerHeight * 0.6);
+    container.style.height = height + 'px';
+
+    const svg = d3.select('#graph')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height);
+
+    const g = svg.append('g');
+
+    // Zoom
+    const zoom = d3.zoom()
+      .scaleExtent([0.3, 5])
+      .on('zoom', (event) => {
+        g.attr('transform', event.transform);
+        updateLabels(event.transform.k);
+      });
+    svg.call(zoom);
+
+    // Scale node size by connection count
+    const maxCount = d3.max(data.nodes, d => d.count) || 1;
+    const nodeRadius = d => 3 + (d.count / maxCount) * 10;
+
+    // Green-based color scale
+    const nodeColor = d3.scaleSequential(d3.interpolateGreens).domain([-1, maxCount]);
+
+    const size = Math.min(width, height);
+
+    const simulation = d3.forceSimulation(data.nodes)
+      .force('link', d3.forceLink(data.links).id(d => d.id).distance(40))
+      .force('charge', d3.forceManyBody().strength(-40))
+      .force('x', d3.forceX(width / 2).strength(0.1))
+      .force('y', d3.forceY(height / 2).strength(0.1))
+      .force('radial', d3.forceRadial(size * 0.3, width / 2, height / 2).strength(0.15))
+      .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 2));
+
+    const link = g.append('g')
+      .attr('class', 'links')
+      .selectAll('line')
+      .data(data.links)
+      .join('line')
+      .attr('stroke', '#ccc')
+      .attr('stroke-width', 0.8);
+
+    const node = g.append('g')
+      .attr('class', 'nodes')
+      .selectAll('circle')
+      .data(data.nodes)
+      .join('circle')
+      .attr('r', nodeRadius)
+      .attr('fill', d => d.count > 0 ? nodeColor(d.count) : '#ddd')
+      .attr('stroke', '#fff')
+      .attr('stroke-width', 1.5)
+      .style('cursor', 'pointer')
+      .on('click', (event, d) => { window.location.href = d.id + '.html'; })
+      .call(d3.drag()
+        .on('start', dragstart)
+        .on('drag', dragged)
+        .on('end', dragend));
+
+    node.append('title').text(d => d.title);
+
+    // Build adjacency index for hover highlight
+    const linkedById = new Set();
+    data.links.forEach(d => {
+      const s = typeof d.source === 'object' ? d.source.id : d.source;
+      const t = typeof d.target === 'object' ? d.target.id : d.target;
+      linkedById.add(s + ',' + t);
+    });
+
+    function isConnected(a, b) {
+      return a.id === b.id
+        || linkedById.has(a.id + ',' + b.id)
+        || linkedById.has(b.id + ',' + a.id);
+    }
+
+    node.on('mouseenter', (event, d) => {
+      node.attr('opacity', o => isConnected(d, o) ? 1 : 0.15);
+      link
+        .attr('stroke', l => (l.source.id === d.id || l.target.id === d.id) ? '#03C75A' : '#ccc')
+        .attr('stroke-width', l => (l.source.id === d.id || l.target.id === d.id) ? 1.8 : 0.3)
+        .attr('opacity', l => (l.source.id === d.id || l.target.id === d.id) ? 1 : 0.15);
+      labels.style('opacity', o => isConnected(d, o) ? 1 : 0);
+    });
+
+    node.on('mouseleave', () => {
+      node.attr('opacity', 1);
+      link.attr('stroke', '#ccc').attr('stroke-width', 0.8).attr('opacity', 1);
+      const k = d3.zoomTransform(svg.node()).k;
+      updateLabels(k);
+    });
+
+    const labels = g.append('g')
+      .attr('class', 'labels')
+      .selectAll('text')
+      .data(data.nodes)
+      .join('text')
+      .text(d => d.title)
+      .attr('font-size', 10)
+      .attr('fill', '#444')
+      .attr('dx', d => nodeRadius(d) + 2)
+      .attr('dy', 3)
+      .style('pointer-events', 'none');
+
+    function updateLabels(k) {
+      labels.style('opacity', d => {
+        if (k >= 0.8) return 1;
+        if (k >= 0.5) return d.count >= maxCount * 0.3 ? 1 : 0;
+        return d.count >= maxCount * 0.6 ? 1 : 0;
+      });
+    }
+    updateLabels(1);
+
+    simulation.on('tick', () => {
+      link
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y);
+      node
+        .attr('cx', d => d.x)
+        .attr('cy', d => d.y);
+      labels
+        .attr('x', d => d.x)
+        .attr('y', d => d.y);
+    });
+
+    function dragstart(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x; d.fy = d.y;
+    }
+    function dragged(event, d) {
+      d.fx = event.x; d.fy = event.y;
+    }
+    function dragend(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+      d.fx = null; d.fy = null;
+    }
+
+    // Search
+    const searchInput = document.getElementById('search');
+    const listItems = document.querySelectorAll('#page-list li');
+
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value.toLowerCase();
+      listItems.forEach(li => {
+        const text = li.textContent.toLowerCase();
+        li.style.display = text.includes(query) ? '' : 'none';
+      });
+    });
+  })();
+  </script>
+</body>
+</html>

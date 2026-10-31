@@ -36,4 +36,3 @@ sudo update-rc.d -f nginx disable
 
 ## Related
 - [[apache-httpd]]
-- [[http-server]]

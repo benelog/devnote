@@ -38,10 +38,3 @@
 
 - <http://incubator.apache.org/wink/>
 - [Apache Wink를 Jackson JSON 프로세서와 함께 사용하기](https://www.ibm.com/developerworks/kr/library/wa-aj-jackson/index.html)
-
-## Related
-- [[apache-httpd]]
-- [[http-cache]]
-- [[http-client]]
-- [[http2]]
-- [[nginx]]

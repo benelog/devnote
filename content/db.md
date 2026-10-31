@@ -28,15 +28,22 @@ DB modeling 이화식님의 강좌:
 - RDB한계
 
 ## Children
+### 제품
 - [[cubrid]]
-- [[db-lock]]
-- [[db-normalization]]
-- [[db-schema-tools]]
-- [[db-transation]]
-- [[dbms-compare]]
 - [[derby]]
 - [[informix]]
 - [[mysql]]
 - [[oracle-db]]
-- [[sql]]
 - [[sybase]]
+- [[no-sql]]
+- [[search-engine]]
+
+### 개념
+- [[db-lock]]
+- [[db-normalization]]
+- [[db-transation]]
+- [[sql]]
+
+### 도구와 비교
+- [[db-schema-tools]]
+- [[dbms-compare]]

@@ -158,6 +158,9 @@ Tomcat 위에서 돌아감. MySQL에 설정 데이터 저장
 
 - <http://opensyncro.org/OpenSyncro_User_Manual_v2_2.pdf>
 
+## Children
+- [[web-2.0]]
+
 ## Related
 - [[data-integration]]
 - [[messaging-queue]]
@@ -165,4 +168,3 @@ Tomcat 위에서 돌아감. MySQL에 설정 데이터 저장
 - [[rpc-protocol]]
 - [[architecture]]
 - [[spring-cloud]]
-- [[web-2.0]]

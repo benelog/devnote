@@ -1,19 +1,29 @@
 ## Children
+### 언어
 - [[c-language]]
 - [[clojure]]
 - [[golang]]
 - [[groovy]]
 - [[haskell]]
 - [[java]]
+- [[javascript]]
 - [[kotlin]]
-- [[language-compare]]
 - [[php]]
 - [[python]]
 - [[r-project]]
 - [[ruby]]
 - [[scala]]
-- [[sql]]
+
+### 공통 주제
+- [[date]]
+- [[dsl]]
+- [[encoding]]
+- [[functional-programming]]
+- [[language-compare]]
+- [[number-type]]
+- [[regular-expression]]
 
 ## Related
 - [[coding-education]]
 - [[algorithm]]
+- [[sql]]

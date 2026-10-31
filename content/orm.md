@@ -159,8 +159,10 @@ log4j.logger.java.sql.PreparedStatement=DEBUG
 - <http://theeye.pe.kr/entry/knowing-oscache-model-on-integrated-ibatis>
 - <http://code.google.com/p/ibatis-with-memcached>
 
+## Children
+- [[jpa]]
+
 ## Related
 - [[jdbc]]
-- [[jpa]]
 - [[spring-data-jdbc]]
 - [[spring-db]]

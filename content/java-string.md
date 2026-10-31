@@ -9,5 +9,8 @@
 ## Java 문자열
 - <http://www.javacodegeeks.com/2010/11/java-best-practices-char-to-byte-and.html>
 
+## Children
+- [[java-multiline-string]]
+
 ## Related
 - [[regular-expression]]

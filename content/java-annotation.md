@@ -15,5 +15,5 @@
 
 Object C <http://blog.airensoft.com/42?category=7>
 
-## Related
+## Children
 - [[annotation-processing]]

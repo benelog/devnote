@@ -33,9 +33,10 @@ obsidian-site serve --port 8000
 - `## Children`은 본문에 남고, 사이드바 Related 목록에도 함께 표시됨
 - 노트의 부모는 하나만 둔다. 부모의 `## Children`에만 등록하고, 다른 허브와의 관계는 `## Related`로 표현한다
 - `## Children` 목록이 길면 `###` 소제목으로 묶는다
+- 최상위 허브(부모 없는 노트)는 programming-language, algorithm, front, db, data-processing, architecture, design, sw-engineering, test, security, os, hardware, network, cloud, observability, ai, documentation-tools 17개다. 새 노트는 이 중 하나의 하위에 둔다
 - Backlinks는 자동 생성 (해당 페이지를 참조하는 다른 페이지 목록)
 
 ## 주의사항
 
 - `public/`은 gitignored. 커밋하지 않는다
-- 레이아웃·스타일·렌더링 로직은 이 repo에 없다. benelog/obsidian-site에서 수정한다
+- 레이아웃·스타일·렌더링 로직은 이 repo에 없다. benelog/obsidian-site에서 수정한다. 예외로 `_layouts/index.html`만 둔다 (obsidian-site 기본 템플릿 사본 + 홈 허브 목록). 최상위 허브를 바꾸면 함께 고치고, 기본 템플릿이 바뀌면 동기화한다

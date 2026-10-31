@@ -153,29 +153,42 @@ javascript, JSF 지원기능 등 더욱 확장된 영역으로, 이제는 앞으
 - <https://github.com/scottfrederick/spring-music/>
 
 ## Children
-- [[ai-framework]]
-- [[spring-batch]]
-- [[spring-boot]]
-- [[spring-changes]]
-- [[spring-cloud]]
-- [[spring-data-jdbc]]
-- [[spring-db]]
-- [[spring-hostname]]
-- [[spring-integration]]
-- [[spring-modulith]]
-- [[spring-mvc]]
-- [[spring-properties]]
-- [[spring-resource-handling]]
-- [[spring-security]]
-- [[spring-shell]]
-- [[toby-spring]]
-- [[spring-aop]]
+### 코어
 - [[spring-container]]
-- [[spring-roo]]
+- [[spring-aop]]
+- [[spring-properties]]
+- [[spring-hostname]]
+- [[spring-resource-handling]]
+
+### 웹과 보안
+- [[spring-mvc]]
+- [[spring-security]]
+
+### 데이터
+- [[spring-db]]
+- [[spring-data-jdbc]]
+
+### 배치와 통합
+- [[spring-batch]]
+- [[spring-integration]]
+
+### 애플리케이션 구성
+- [[spring-boot]]
+- [[spring-cloud]]
+- [[spring-modulith]]
+
+### 테스트와 도구
 - [[spring-test]]
+- [[spring-shell]]
+- [[spring-roo]]
+
+### 자료와 이력
+- [[spring-changes]]
+- [[toby-spring]]
 - [[springone2gx-2010]]
 
 ## Related
 - [[dependency-injection]]
 - [[design-pattern]]
 - [[domain-driven-design]]
+- [[ai-framework]]

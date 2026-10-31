@@ -153,9 +153,9 @@
 * [Claude Skills는 굉장하다, MCP보다 더 큰 혁신일지도](https://news.hada.io/topic?id=23734)
 
 ## Children
-* [[ai-productivity]]
-* [[claude-code]]
-* [[ai-agent-harness]]
+- [[claude-code]]
+- [[ai-agent-harness]]
 
 ## Related
 - [[ai-agent-role]]
+- [[ai-productivity]]

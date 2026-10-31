@@ -119,9 +119,11 @@ javascript:void(0);\[<http://www.codeproject.com/KB/java/aQuicklookatAPIDesign.a
 
 <http://wiki.apidesign.org/wiki/APIDesignPatterns>
 
-## Related
-- [[mvc]]
+## Children
 - [[rest]]
 - [[rpc-protocol]]
+
+## Related
+- [[mvc]]
 - [[servlet]]
 - [[spring-mvc]]

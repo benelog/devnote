@@ -6,5 +6,4 @@
 
 ## Related
 - [[http-client]]
-- [[http-server]]
 - [[http2]]

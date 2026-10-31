@@ -590,9 +590,6 @@ load from 'new_cust' insert into customer;
 122|aa|bb|cc|dd|
 ```
 
-## Children
-- [[informix]]
-
 ## Related
 - [[db]]
 - [[db-lock]]
@@ -600,3 +597,4 @@ load from 'new_cust' insert into customer;
 - [[oracle-db]]
 - [[sql]]
 - [[sql-tunning]]
+- [[informix]]

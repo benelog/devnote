@@ -7,9 +7,9 @@
 ## Children
 - [[reactive]]
 - [[async-server]]
+- [[event-driven]]
+- [[messaging-queue]]
 
 ## Related
-- [[event-driven]]
 - [[java-concurrency]]
 - [[kafka]]
-- [[messaging-queue]]

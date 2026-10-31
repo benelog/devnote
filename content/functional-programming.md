@@ -30,10 +30,12 @@ scope)’라고 한다. 고차 함수가 반환하는 함수가 고차 함수에
   - Monad Laws를 만족시키는 구현체
   - Optional, Promise가 Monad의 예
 
+## Children
+- [[persistent-data-structure]]
+
 ## Related
 - [[clojure]]
 - [[haskell]]
 - [[java-functional-library]]
 - [[java-lambda]]
-- [[persistent-data-structure]]
 - [[scala]]

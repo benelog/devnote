@@ -2,9 +2,11 @@
 - <http://www.slideshare.net/gyuyoul/presentations>
 
 ## Children
-- [[code-coverage]]
 - [[code-formatting]]
 - [[code-review]]
+- [[naming-convention]]
+- [[refactoring]]
+- [[static-analysis]]
 
 ## Related
-- [[naming-convention]]
+- [[code-coverage]]

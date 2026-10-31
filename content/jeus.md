@@ -107,7 +107,6 @@ WEBMain.xml 에서 encoding 부분 추가 또는 수정
 ```
 
 ## Children
-- [[webtob]]
 - [[jeus-tuning]]
 - [[jeus-admin-manual]]
 
@@ -118,3 +117,4 @@ WEBMain.xml 에서 encoding 부분 추가 또는 수정
 - [[jndi]]
 - [[jdbc]]
 - [[java-encoding]]
+- [[webtob]]

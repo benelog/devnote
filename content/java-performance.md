@@ -12,6 +12,9 @@
 - <http://www.tuning-java.com/150>
 - <http://grinder.sourceforge.net/>
 
-## Related
+## Children
 - [[java-profiling]]
+- [[jmx]]
+
+## Related
 - [[java-gc]]

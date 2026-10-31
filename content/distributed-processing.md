@@ -16,7 +16,9 @@ GridGain = Compute + Data + Cloud
 
 3.0 new feature
 
+## Children
+- [[hadoop]]
+
 ## Related
 - [[data-integration]]
 - [[db-transation]]
-- [[hadoop]]

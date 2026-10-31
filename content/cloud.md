@@ -3,3 +3,8 @@
 - [[cloud-db]]
 - [[cloud-deployment]]
 - [[cloud-news]]
+- [[aws]]
+- [[docker]]
+- [[k8s]]
+- [[paas]]
+- [[virtualization]]

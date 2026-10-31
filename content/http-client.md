@@ -55,5 +55,4 @@
 
 ## Related
 - [[http-cache]]
-- [[http-server]]
 - [[http2]]

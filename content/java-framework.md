@@ -194,14 +194,17 @@ Frameworks은 Application 제작에 필요한 다수의 Tool Box를 제공한다
 - 첨부: ![li2-forprincess.jpg](https://raw.githubusercontent.com/benelog/devnote/master/attachments/175117_li2-forprincess.jpg)
 
 ## Children
-
-- [[search-engine]]
 - [[ejb]]
+- [[apache-commons]]
+- [[guava]]
+- [[java-functional-library]]
+- [[java-json-parser]]
+- [[java-xml]]
+- [[osgi]]
 
 ## Related
 - [[design-pattern]]
 - [[java-web-framework]]
 - [[spring]]
-- [[ejb]]
 - [[struts]]
 - [[architecture]]

@@ -92,7 +92,15 @@ Example](http://java.sun.com/developer/technicalArticles/Networking/HotSpot/inli
 
 ## Children
 - [[graal-vm]]
+- [[java-bytecode]]
+- [[java-fast-boot]]
+- [[java-gc]]
+- [[java-memory-model]]
+- [[java-native-memory]]
+- [[java-performance]]
+- [[java-references]]
+- [[nashorn]]
+- [[openjdk]]
 
 ## Related
 - [[java-profiling]]
-- [[java-gc]]

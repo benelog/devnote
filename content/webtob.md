@@ -279,4 +279,3 @@ MaxProc는 사용될 수 있는 최대 프로세스 수를 의미한다. 이 영
 - [[jeus]]
 - [[jeus-tuning]]
 - [[apache-httpd]]
-- [[http-server]]

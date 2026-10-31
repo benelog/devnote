@@ -186,11 +186,9 @@ JDBC에서 Connection, Statement,ResultSet의 close 글에 나온 것처럼 Conn
 몇 년전에 DbUtils와 비슷한 클래스를 만든 적이 있었는데, 그때도 좀 찾아볼 걸 그랬나봅니다. 그러고 보면 저도 apache commons에 이미 있는 것을 많이도 만들어본 삽질의 시간들을 겪었었습니다. 신입 때 [commons beanutils](http://commons.apache.org/beanutils/)하고 [commons io](http://commons.apache.org/io/)에 포함된 것 비슷한 유틸리티 만들어 놓고 혼자서 뿌듯해 했었죠 -_-;
 
 ## Children
-
 - [[beanutils]]
 
 ## Related
-- [[beanutils]]
 - [[guava]]
 - [[java-io]]
 - [[http-client]]

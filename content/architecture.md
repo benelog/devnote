@@ -91,12 +91,14 @@ Component as a whole to other client Component instances.
 
 ## Children
 - [[architecture-cases]]
-- [[design-pattern]]
 - [[scalability]]
 - [[cqrs]]
 - [[soa]]
+- [[api-design]]
+- [[async]]
+- [[platform-choice]]
 
 ## Related
-- [[platform-choice]]
 - [[design]]
 - [[spring-cloud]]
+- [[design-pattern]]

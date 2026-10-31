@@ -143,8 +143,8 @@ Open ssl
 - [[java-security]]
 - [[sql-injection]]
 - [[xml-injection]]
+- [[oauth]]
 
 ## Related
 - [[jdbc]]
-- [[oauth]]
 - [[spring-security]]

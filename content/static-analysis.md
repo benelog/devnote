@@ -383,7 +383,6 @@ Convention
 ## Children
 - [[findbugs]]
 - [[pmd]]
-- [[sw-quality]]
 
 ## Related
 - [[code-formatting]]
@@ -392,3 +391,4 @@ Convention
 - [[eclipse-plugins]]
 - [[maven]]
 - [[code-coverage]]
+- [[sw-quality]]

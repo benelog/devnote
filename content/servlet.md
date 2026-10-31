@@ -173,11 +173,11 @@ mvn net.sf.alchim:winstone-maven-plugin:embed
 - [[tomcat]]
 - [[jsp]]
 - [[jeus]]
+- [[file-upload]]
+- [[web-xml]]
 
 ## Related
 - [[api-design]]
 - [[mvc]]
 - [[rest]]
 - [[spring-mvc]]
-- [[web-xml]]
-- [[file-upload]]

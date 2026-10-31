@@ -72,8 +72,6 @@ numbers around 65,535
 | [X0199.zip](http://www.iexceller.com/MyXls/Lectures/X0199.zip) | [양방향 참조하기](http://www.iexceller.com/MyXls/Lectures/X0199.zip) | 가로, 세로 양방향으로 참조하기 |
 | [X0200.zip](http://www.iexceller.com/MyXls/Lectures/X0200.zip) | [작업일정 진도표 만들기](http://www.iexceller.com/MyXls/Lectures/X0200.zip) | 작업일정 진도표(일명 Gantt 차트) 만들기 |
 
-## Children
-- [[java-excel]]
-
 ## Related
 - [[java-io]]
+- [[java-excel]]

@@ -354,9 +354,6 @@ chain.benelog.net  →  Cloudflare Pages (_worker.js)  →  DoltHub HTTP API
 
 <https://surge.sh/>
 
-## Children
-- [[cloud-db]]
-
 ## Related
 - [[aws]]
 - [[db]]
@@ -365,3 +362,4 @@ chain.benelog.net  →  Cloudflare Pages (_worker.js)  →  DoltHub HTTP API
 - [[golang]]
 - [[k8s]]
 - [[paas]]
+- [[cloud-db]]
