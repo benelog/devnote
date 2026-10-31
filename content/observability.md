@@ -19,6 +19,40 @@
 - [SigNoz](https://github.com/signoz/signoz)
   - OpenTelemetry-native 오픈소스 관측성 플랫폼. logs, metrics, traces를 한 도구에서 다루며 APM, distributed tracing, log management, infra monitoring 기능을 제공한다.
 
+## APM
+
+<http://www.javaperformancetuning.com/articles/apm1b.shtml>
+
+자원사용량으로 Applicatino 성능저하를 설명하기 어려움 애플리케이션
+서비스가 필요로 하는 자원 중에 단 하나라도 부족하면 수행될 수 없음
+
+Application은 물리적인 리소스를 직접 사용할 수 없음
+
+OS나 시스템S/W는 H/W나 다른 하위 S/W 리소스를 Warping하여
+
+시스템에 존재하는 모든 리소스를 리스트업할 수 없음(현실적으로 불가능)
+
+어플리케이션을 프로파일링
+
+자원의 부족은 자원사용량보다는 서비스 응답시간을 토해서 검출하는 것이
+효과적
+
+개별 트랜잭션의 응답시간을 분포도로 모니터링
+
+외부리소스 호출부분..
+
+외부리소스를 사용하는 클래스/메소드 연계지점
+
+### Jennifer
+
+[Jennifer 4.0 사용기](http://blog.openframework.or.kr/82)
+
+<http://blog.naver.com/firebats?Redirect=Log&logNo=30039537369&vid=0>
+
+### Spring insight
+
+<http://www.infoq.com/interviews/travis-springinsight>
+
 ## Infra monitoring
 
 - <https://github.com/facebook/osquery>

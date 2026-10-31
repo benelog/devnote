@@ -22,4 +22,3 @@
 * [Testing Exceptions in JUnit 4.7](http://weblogs.java.net/blog/johnsmart/archive/2009/09/27/testing-exceptions-junit-47)
 * [Working with temporary files in JUnit 4.7](http://weblogs.java.net/blog/johnsmart/archive/2009/09/29/working-temporary-files-junit-47)
 * [Infinitest 사용하기](http://blog.openframework.or.kr/attachment/cfile25.uf@1925141F4A7F6B417CD6DE.pdf)
-

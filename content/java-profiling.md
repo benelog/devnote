@@ -73,35 +73,6 @@ cent os에서 정의된 tmpwatch에서 지운다.
 - MAT : <http://www.eclipse.org/mat/>
 - MAT + IBM Heap analyzer : <http://web-dev.tistory.com/623>
 
-## Thread dump
-
-<http://yusuke.homeip.net/samurai/en/index.html>
-
-LWP확인
-
-ps –Lf –p \[pid\]
-
-- UID: 사용자ID
-- PID: 프로세스ID
-- PPID: 부모프로세스 ID
-- LWP : Light Weight Process. 쓰레드 ID
-- C : 지속적으로 사용한 CPU 사용량
-- NLWP : 해당 프로세스에서 사용하는 쓰레드의 수. LWP 개수
-- STIME: 프로세스가 시작한 시간
-- TTY: 해당 프로세스를 통제하는 터미널
-- TIME: 시:분:초 형식의 CPU 점유시간
-- CMD:프로세스를 수행시킨 명령어
-
-ps -mo pid,lwp,stime,time,pcpu -p javapid
-
-16진수 → 10진수
-
-- Bash\> echo \$<span class="indexterm" primary="0x1acc"></span>0x1acc
-- Bash\> echo \$<span class="indexterm" primary="16#1acc"></span>16#1acc
-- Python\> print 0x1acc 10진수 → 16진수
-- Python\> print hex(6860)
-- Bash\> echo "obase=16;6860" \| bc
-
 ## Headump option
 
 -XX:+HeapDumpOnOutOfMemoryError
@@ -166,40 +137,6 @@ Monkey Wrench
 
 <http://code.google.com/p/java-allocation-instrumenter/>
 
-## APM
-
-<http://www.javaperformancetuning.com/articles/apm1b.shtml>
-
-자원사용량으로 Applicatino 성능저하를 설명하기 어려움 애플리케이션
-서비스가 필요로 하는 자원 중에 단 하나라도 부족하면 수행될 수 없음
-
-Application은 물리적인 리소스를 직접 사용할 수 없음
-
-OS나 시스템S/W는 H/W나 다른 하위 S/W 리소스를 Warping하여
-
-시스템에 존재하는 모든 리소스를 리스트업할 수 없음(현실적으로 불가능)
-
-어플리케이션을 프로파일링
-
-자원의 부족은 자원사용량보다는 서비스 응답시간을 토해서 검출하는 것이
-효과적
-
-개별 트랜잭션의 응답시간을 분포도로 모니터링
-
-외부리소스 호출부분..
-
-외부리소스를 사용하는 클래스/메소드 연계지점
-
-## Jenifer
-
-[Jennifer 4.0 사용기](http://blog.openframework.or.kr/82)
-
-<http://blog.naver.com/firebats?Redirect=Log&logNo=30039537369&vid=0>
-
-## Spring insight
-
-<http://www.infoq.com/interviews/travis-springinsight>
-
 ## Byteman
 
 <http://www.jboss.org/byteman/>
@@ -222,3 +159,4 @@ OS나 시스템S/W는 H/W나 다른 하위 S/W 리소스를 Warping하여
 ## Related
 - [[java-performance]]
 - [[jvm]]
+- [[observability]]

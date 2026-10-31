@@ -39,12 +39,6 @@ of statements exceeded 에러 발생
 - [ResultSet 의 close 메소드를 finally 에서 반드시 부르지 않아도 되는 이유](http://sayjava.egloos.com/3628406#8145310)
 - [JDBC 중복할당에 의한 WAS행(Hang)현상 추적하기](http://www.javaservice.net/~java/bbs/read.cgi?m=apm&b=jscfaq&c=r_p&n=1130485838)
 
-## Mysql
-
-- <https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-configuration-properties.html>
-- <https://kwonnam.pe.kr/wiki/database/mysql/jdbc>
-  - MySQL에서는 `useServerPrepStmts=true` 를써야 Server side cache 활성화됨 (default false)
-
 ## Fetch size
 
 - <http://bleujin.tistory.com/152>
@@ -54,14 +48,6 @@ of statements exceeded 에러 발생
 - <http://www.databasesandlife.com/reading-row-by-row-into-java-from-mysql/>
 - <http://blog.naver.com/PostView.nhn?blogId=kang594&logNo=40515882&parentCategoryNo=8&viewDate=&currentPage=1&listtype=0>
 - connector 버전 5.0.2이상에서는 useCursorFetch가 먹음 : <http://wiki.gxtechnical.com/commwiki/servlet/hwiki?Client+and+server+cursors+-+using+MySQL>
-
-### autoreconnect=true
-
-- <http://dev.mysql.com/doc/refman/5.1/en/connector-j-usagenotes-j2ee.html>
-
-### Mysql batchupdate
-
-- <http://swik.net/MySQL/Mark+Matthew/A+10x+Performance+Increase+for+Batch+INSERTs+With+MySQL+Connector%2FJ+Is+On+The+Way…​./cxj7h>
 
 ## BLOB image 관련
 

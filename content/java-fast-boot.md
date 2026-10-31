@@ -9,6 +9,14 @@
 
 - <https://dzone.com/articles/hot-swap-java-bytecode-on-runtime>
 
+## Hot deployment
+- [JAVA에서의 Hot Deployment 문제](http://blog.naver.com/parnx/140038291903)
+- <http://www.theserverside.com/news/thread.tss?thread_id=26044>
+
+### java Rebel
+- <http://www.theserverside.com/news/thread.tss?thread_id=47771>
+- <http://www.zeroturnaround.com/javarebel-demonstration-screencast/>
+
 ## 빠른 시작을 위한 팁
 
 - <https://spring.io/blog/2018/12/12/how-fast-is-spring>

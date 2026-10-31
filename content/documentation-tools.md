@@ -132,15 +132,6 @@ surge.sh로 배포
 
 - <https://yabwe.github.io/medium-editor/> : 미디엄 스타일
 
-### Markdown Editor
-
-- <http://vuejs.org/examples/>
-- <http://www.codingdrama.com/bootstrap-markdown/>
-- <https://github.com/lepture/editor>
-- <https://github.com/NextStepWebs/simplemde-markdown-editor/>
-- <http://epiceditor.com/>
-- <https://stackedit.io>
-
 ## Wiki
 
 - [위키와 Xanadu](http://hyperworlds.org/mindmaps/XanaduWiki/FormatEdit.html)
@@ -149,6 +140,14 @@ surge.sh로 배포
 ## Diagram
 
 <https://excalidraw.com/>
+
+<http://meesoft.logicnet.dk/>
+
+<http://www.graphviz.org>
+
+<http://openclipart.org/> : Vector
+
+<http://www.omnigroup.com/products/omnigraffle> :맥만 되는듯
 
 ## Children
 - [[ascii-tools]]

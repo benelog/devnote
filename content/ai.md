@@ -11,10 +11,6 @@
   - Gemini 모델의 다중 모드 처리와 수학적 추론 능력을 예시로 설명한다.
   - AI 혁명의 이면에 있는 설계도를 구글 연구와 인프라 발전의 맥락에서 정리한다.
 
-## Agent 활용 사례
-
-- [AI 데이터 분석가 ‘물어보새’ 등장 – 1부. RAG와 Text-To-SQL  활용](https://techblog.woowahan.com/18144/)
-
 ## Prompt Engineering
 
 - <https://github.com/modu-ai/smarter-prompt>

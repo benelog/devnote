@@ -27,6 +27,10 @@ CGLIB 가 사용 ( CGLIB is a higher abstraction than ASM. )
 
 - Findbugs, AspectJ, Spring의 CGLIB→ Javassit migration :https://jira.springsource.org/browse/SPR-8190
 
+```java
+ClassParser("C:\path\ClassFile.class").parse().getPackageName();
+```
+
 ### SERP
 
 - <http://serp.sourceforge.net/>

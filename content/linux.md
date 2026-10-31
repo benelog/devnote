@@ -65,9 +65,7 @@ nmap localhost
 perl -i -pe's/\r$//;' <file name here>
 ```
 
-### wget
-
-rcp
+### rcp
 
 ```sh
 rcp id@server:/home1/benelog/score.month score.month
@@ -81,11 +79,9 @@ rm 을 mv
 
 - <http://code.google.com/p/trash-cli/>
 
-### Kernel
+## Kernel
 
 I/O multiplexing : <http://www.mimul.com/pebble/default/2012/03/21/1332303327316.html>
-
-## Kernel
 
 ### Kernel build
 

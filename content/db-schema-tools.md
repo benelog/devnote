@@ -17,6 +17,10 @@ re-specify all configuration if this is the case
 - <http://stackoverflow.com/questions/36549359/liquibase-generate-changelog-from-jpa-entities>
 - <http://stackoverflow.com/questions/27877154/liquibase-and-jpa-annotated-entities>
 
+## dbdeploy
+
+- <http://dbdeploy.com/>
+
 ## c5
 
 - <http://code.google.com/p/c5-db-migration/>

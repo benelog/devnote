@@ -57,17 +57,7 @@ Image2Html](http://www.choboweb.com/268)
 
 <http://net.tutsplus.com/articles/web-roundups/the-top-8-placeholders-for-web-designers/>
 
-## Diagram 도구
-
-<http://meesoft.logicnet.dk/>
-
-<http://www.graphviz.org>
-
-<http://openclipart.org/> : Vector
-
-<http://www.omnigroup.com/products/omnigraffle> :맥만 되는듯
-
-### Alice
+## Alice
 
 <http://www.alice.org/>
 

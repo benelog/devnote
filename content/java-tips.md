@@ -19,14 +19,6 @@ ttp://www.codeproject.com/Tips/560894/File-Change-Notification-in-Java-7
 
 ttp://docs.oracle.com/javase/tutorial/essential/io/notification.html
 
-## Hot deployment
-- [JAVA에서의 Hot Deployment 문제](http://blog.naver.com/parnx/140038291903)
-- <http://www.theserverside.com/news/thread.tss?thread_id=26044>
-
-### java Rebel
-- <http://www.theserverside.com/news/thread.tss?thread_id=47771>
-- <http://www.zeroturnaround.com/javarebel-demonstration-screencast/>
-
 ## Java constant interface
 - [Constant Interface antipattern](http://www.google.co.kr/search?source=)
 

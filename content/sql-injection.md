@@ -11,7 +11,6 @@
 - \]
 - <http://www.technewsworld.com/story/Mass-SQL-Attack-a-Wake-Up-Call-for-Developers-62783.html?welcome=1209498513&welcome=1210717878>
 - <http://www.theregister.co.uk/2008/05/21/china_sql_injection_attack/>
-- <http://erratasec.blogspot.com/2007/08/sidejacking-with-hamster_05.html>
 
 ## 도구
 

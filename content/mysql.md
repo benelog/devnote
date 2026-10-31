@@ -69,10 +69,6 @@ CREATE INDEX \<인덱스명\> ON \<테이블명\> ( 칼럼명1, 칼럼명2, …�
 
 <http://planet.mysql.com/entry/?id=26207>
 
-### mysql jdbc
-
-**socketTimeout=60000&connectTimeout=60000**
-
 ## Innodb vs Myisam
 
 <http://dev.kthcorp.com/2011/06/17/why-we-need-to-use-innodb-on-mysql-vs-myisam-comparison/>
@@ -100,6 +96,24 @@ select \* from mysql.userselect \* from mysql.dbselect version()select
 : Php에서 load data in file의 성능비교 insert 성능 :
 <http://dev.mysql.com/doc/refman/5.1/en/insert-speed.html>http://kvz.io/blog/2009/03/31/improve-mysql-insert-performance/\[<http://kvz.io/blog/2009/03/31/improve-mysql-insert-performance/>\]
 insert delayed : (myisam에서만 가능)
+
+## Connector/J
+
+- <https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-configuration-properties.html>
+- <https://kwonnam.pe.kr/wiki/database/mysql/jdbc>
+  - MySQL에서는 `useServerPrepStmts=true` 를써야 Server side cache 활성화됨 (default false)
+
+### 타임아웃
+
+**socketTimeout=60000&connectTimeout=60000**
+
+### autoreconnect=true
+
+- <http://dev.mysql.com/doc/refman/5.1/en/connector-j-usagenotes-j2ee.html>
+
+### Mysql batchupdate
+
+- <http://swik.net/MySQL/Mark+Matthew/A+10x+Performance+Increase+for+Batch+INSERTs+With+MySQL+Connector%2FJ+Is+On+The+Way…​./cxj7h>
 
 ### JDBC에 속성포함 예제
 

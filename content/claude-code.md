@@ -119,13 +119,6 @@
     - 실측에서 Opus 4.7은 Opus 4.6 대비 평균 요청 토큰·비용이 +37.4% 증가
     - 요청을 바꾸지 않아도 비용이 늘어나므로, 사전에 비용 영향을 추정하는 데 활용 가능
 
-## Agent platform
-* [The Secrets of Claude's Agent Platform From the Team Who Built It](https://www.youtube.com/watch?v=lLypHkIVLqc)
-    - Every의 AI & I 인터뷰로, Anthropic Claude Platform 제품·엔지니어링 리더가 Managed Agents 방향을 설명
-    - 목표와 예산만 주면 클라우드 컴퓨터 위 Claude를 실행·확장·관리하는 형태를 지향하며, 에이전트 제품의 운영 인프라 부담을 플랫폼이 맡는다는 관점
-    - 하네스와 모델이 하나의 단위로 가까워지는 흐름, 팀용 에이전트 형태, 장시간 실행 에이전트의 프로덕션 안정성 이슈를 다룸
-    - 법무팀의 마케팅 문구 리뷰 에이전트 사례, advisor/adversarial pair/swarm 같은 멀티 에이전트 오케스트레이션, outcome·budget 기반 성공 측정도 언급
-
 ## Related
 - [[ai-agent-role]]
 - [[ai-agent-harness]]

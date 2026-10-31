@@ -5,6 +5,7 @@
 - <https://vercel.com/blog/becoming-an-ai-engineering-company>
 - <https://v0.dev/>
 - [자율 에이전트를 활용한 AI 네이티브 자바 개발 (SpringCamp 2026, 최용호)](https://github.com/springcamp/presentations/blob/main/SpringCamp-2026-Presentations/%5B%EC%B5%9C%EC%9A%A9%ED%98%B8%EB%8B%98%5D%20%EC%9E%90%EC%9C%A8%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20AI%20%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94%20%EA%B0%9C%EB%B0%9C.pdf)
+- [AI 데이터 분석가 ‘물어보새’ 등장 – 1부. RAG와 Text-To-SQL  활용](https://techblog.woowahan.com/18144/)
 
 ## 도구
 
@@ -127,7 +128,14 @@
     - 로컬 편집 상태를 local container, cloud VM, SSH host, Windows/WSL2/macOS, managed sandbox 등 적절한 실행 환경으로 동기화해 명령을 실행하고 결과를 다시 스트리밍하는 CLI
     - fast test loop, coding agent sandbox, cross-platform 실행, browser/desktop QA, parallel experiments, GPU workload 같은 작업별 provider 추천과 `crabbox doctor` 검증 흐름을 제공
     - 작업 후 임대한 컨테이너나 sandbox를 정리하는 disposable execution 경로를 강조해, agent 하네스 선택과 실행 환경 격리·정리 보장을 분리해서 비교할 수 있게 한다
- 
+
+## Agent platform
+* [The Secrets of Claude's Agent Platform From the Team Who Built It](https://www.youtube.com/watch?v=lLypHkIVLqc)
+    - Every의 AI & I 인터뷰로, Anthropic Claude Platform 제품·엔지니어링 리더가 Managed Agents 방향을 설명
+    - 목표와 예산만 주면 클라우드 컴퓨터 위 Claude를 실행·확장·관리하는 형태를 지향하며, 에이전트 제품의 운영 인프라 부담을 플랫폼이 맡는다는 관점
+    - 하네스와 모델이 하나의 단위로 가까워지는 흐름, 팀용 에이전트 형태, 장시간 실행 에이전트의 프로덕션 안정성 이슈를 다룸
+    - 법무팀의 마케팅 문구 리뷰 에이전트 사례, advisor/adversarial pair/swarm 같은 멀티 에이전트 오케스트레이션, outcome·budget 기반 성공 측정도 언급
+
 ## Open 스펙
 - <https://agents.md/>
 - <https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation>

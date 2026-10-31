@@ -73,6 +73,14 @@ Navigation-Rule
 
 - <http://code.google.com/p/perfbench/>
 
+## View layer 기술
+
+- <http://www.zkoss.org/>
+
+### Apache Click
+
+- <http://www.ibm.com/developerworks/kr/library/wa-apacheclick/index.html>
+
 ## Children
 - [[play-framework]]
 - [[struts]]

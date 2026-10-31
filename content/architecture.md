@@ -21,38 +21,10 @@ which represent services implemented by the elements resident in the
 Component. These services define behavior offered by instances of the
 Component as a whole to other client Component instances.
 
-## MSA
-
-- <https://medium.com/@madhukaudantha/microservice-architecture-and-design-patterns-for-microservices-e0e5013fd58a>
-- <https://particular.net/blog/goodbye-microservices-hello-right-sized-services>
-- <https://www.ben-morris.com/entity-services-when-microservices-are-worse-than-monoliths/>
-- <https://medium.com/@lenalysis/right-sized-services-and-microservice-architecture-1c907ef55d3b>
-- <https://towardsdatascience.com/effective-microservices-10-best-practices-c6e4ba0c6ee2>
-- <http://www.moreagile.net/2014/10/microservices.html>
-- <http://www.popit.kr/why-microservice/>
-- <http://www.slideshare.net/JoshEvans2/mastering-chaos-a-netflix-guide-to-microservices>
-- <http://basho.com/posts/technical/microservices-please-dont/>
-- <http://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/>
-- [마이크로서비스 - 데이터 조인하기](https://baramnemse.github.io/blog/05/)
-- [마이크로 서비스, 콜하지 말고 이벤트 컨슈밍하기](https://baramnemse.github.io/blog/1/)
-- <https://allegro.tech/2016/03/Managing-Frontend-in-the-microservices-architecture.html>
-- <https://blog.bernd-ruecker.com/3-common-pitfalls-in-microservice-integration-and-how-to-avoid-them-3f27a442cd07>
-
-## Transactional out box ( Store and forward)
-
-- [MSA에서 메시징 트랜잭션 처리하기](https://www.popit.kr/msa%ec%97%90%ec%84%9c-%eb%a9%94%ec%8b%9c%ec%a7%95-%ed%8a%b8%eb%9e%9c%ec%9e%ad%ec%85%98-%ec%b2%98%eb%a6%ac%ed%95%98%ea%b8%b0/)
-
 ## Events
 
 - <https://www.infoq.com/articles/events-workflow-automation>
 - [워크플로우 코드 왜 항상 복잡할까? - Temporal이 보여준 다른 방법 (SpringCamp 2026, 정승주)](https://github.com/springcamp/presentations/blob/main/SpringCamp-2026-Presentations/%5B%EC%A0%95%EC%8A%B9%EC%A3%BC%EB%8B%98%5D%20%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0%20%EC%BD%94%EB%93%9C%20%EC%99%9C%20%ED%95%AD%EC%83%81%20%EB%B3%B5%EC%9E%A1%ED%95%A0%EA%B9%8C_%20Temporal%EC%9D%B4%20%EB%B3%B4%EC%97%AC%EC%A4%80%20%EB%8B%A4%EB%A5%B8%20%EB%B0%A9%EB%B2%95.pdf)
-
-## TCC
-
-- <https://www.codota.com/code/java/methods/org.bytesoft.compensable.Compensable/%3Cinit%3E>
-- <https://github.com/liuyangming/ByteTCC>
-- <https://github.com/apache/servicecomb-pack>
-  - <https://github.com/apache/servicecomb-pack/blob/133a2fa7247b2ba00a380762a38369849390560e/integration-tests/pack-tests/src/test/java/org/apache/servicecomb/pack/integration/tests/resttemplate/GreetingService.java#L38>
 
 ## 아키텍트의 역할
 
@@ -97,6 +69,7 @@ Component as a whole to other client Component instances.
 - [[api-design]]
 - [[async]]
 - [[tech-stack-migration]]
+- [[msa]]
 
 ## Related
 - [[software-design]]

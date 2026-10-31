@@ -36,29 +36,13 @@
 - <http://timeandmoney.sourceforge.net/>
 - <http://www.eaipatterns.com/ramblings/40_marchnan.html>
 
-## apache BCEL
-
-```java
-ClassParser("C:\path\ClassFile.class").parse().getPackageName();
-```
-
 ## JLine
 
 - <http://jline.sourceforge.net/>
 
-## View layer 기술
-
-- <http://www.zkoss.org/>
-
-## Domain Driven
-
-### Rome
+## Rome
 
 - <http://javacan.tistory.com/entry/ReadRSSAtomFeedUsingROME>
-
-### Apache Click
-
-- <http://www.ibm.com/developerworks/kr/library/wa-apacheclick/index.html>
 
 ## framework 개발원칙
 
@@ -192,6 +176,10 @@ Frameworks은 Application 제작에 필요한 다수의 Tool Box를 제공한다
   - R. Johnson교수의 Home Page
 
 - 첨부: ![li2-forprincess.jpg](https://raw.githubusercontent.com/benelog/devnote/master/attachments/175117_li2-forprincess.jpg)
+
+## JCR
+- <http://jackrabbit.apache.org/getting-started-with-apache-jackrabbit.html>
+- <http://www.infoq.com/articles/spring-modules-jcr>
 
 ## Children
 - [[ejb]]

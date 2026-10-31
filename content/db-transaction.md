@@ -103,3 +103,4 @@ transaction으로 update가 일어났을 때 그러하다. 조회 건이 줄어�
 - [[db-lock]]
 - [[distributed-processing]]
 - [[spring-db]]
+- [[msa]]

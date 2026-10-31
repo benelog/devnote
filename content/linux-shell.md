@@ -160,21 +160,6 @@ ll
 colrm
 ```
 
-### cron
-
-- [cron](http://blog.naver.com/ememo96/100026769696)
-- [crontab](http://pelex529.blogspot.com/2007/06/crontab.html)
-
-```
-/etc/cron.allow : 허용할 사용자 ID 목록
-/etc/cron.deny : 거부할 사용자 ID 목록
-/var/spool/cron/root
-```
-
-```sh
-service crond restart
-```
-
 ### Rsync
 
 - [Using rsync over ssh](http://oreilly.com/pub/h/38)

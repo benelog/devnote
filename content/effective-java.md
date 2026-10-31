@@ -36,4 +36,3 @@ Naming convention :
 ## Related
 - [[design-pattern]]
 - [[object-oriented]]
-

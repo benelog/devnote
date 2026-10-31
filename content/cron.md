@@ -29,6 +29,21 @@
 - [Pacific Time Zone (PT) vs Pacific Satndard Zone (PST) vs Pacific Daylight Zone (PDT)](https://m.blog.naver.com/elviz1/221649940876)
 - [서머타임과 배치작업](https://meetup.nhncloud.com/posts/232)
 
+## crontab
+
+- [cron](http://blog.naver.com/ememo96/100026769696)
+- [crontab](http://pelex529.blogspot.com/2007/06/crontab.html)
+
+```
+/etc/cron.allow : 허용할 사용자 ID 목록
+/etc/cron.deny : 거부할 사용자 ID 목록
+/var/spool/cron/root
+```
+
+```sh
+service crond restart
+```
+
 ## Related
 - [[job-scheduling]]
 - [[quartz]]
