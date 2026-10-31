@@ -73,8 +73,6 @@ model](http://www.ibm.com/developerworks/java/library/j-cb05236.html)
 
 <http://sleeplessinfremont.wordpress.com/2010/06/16/functional-programming-with-google-collection-api-now-guava/>
 
-## 통계
-
 ## Interface 비교
 
 [인정있는 인터페이스(Humane Interface)](http://www.younghoe.info/15)
@@ -129,5 +127,3 @@ With](http://caml.inria.fr/pub/docs/oreilly-book/html/)
 Basic
 
 <http://www.qb64.net/>
-
-## Related

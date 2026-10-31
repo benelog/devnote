@@ -1,7 +1,5 @@
 ## Eclipse plug-in
 
-### 플러그인 랭킹
-
 ### jadclipse
 
 <http://sourceforge.net/projects/jadclipse/>

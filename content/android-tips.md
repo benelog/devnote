@@ -155,5 +155,3 @@ UI cataloghttp://www.androidviews.net/\[<http://www.androidviews.net/>\]
 - <http://stackoverflow.com/questions/11224454/android-share-session-between-webview-and-httpclient>
 - <http://stackoverflow.com/questions/18057624/two-way-sync-for-cookies-between-httpurlconnection-java-net-cookiemanager-and>
 - <http://stackoverflow.com/questions/12731211/pass-cookies-from-httpurlconnection-java-net-cookiemanager-to-webview-android>
-
-## Related

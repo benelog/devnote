@@ -187,7 +187,7 @@ Coverity) or security vulnerability analysis (Klocwork, or Fortify).
 
 <div class="sect1">
 
-### JavanCSS
+## JavanCSS
 
 <div class="sectionbody">
 
@@ -197,7 +197,7 @@ Coverity) or security vulnerability analysis (Klocwork, or Fortify).
 
 <div class="sect1">
 
-### Simian
+## Simian
 
 <div class="sectionbody">
 
@@ -228,7 +228,7 @@ Coverity) or security vulnerability analysis (Klocwork, or Fortify).
 
 <div class="sect3">
 
-### Macker
+## Macker
 
 <div class="paragraph">
 
@@ -250,7 +250,7 @@ Architectural Rule check
 
 <div class="sect1">
 
-### XRadar
+## XRadar
 
 <div class="sectionbody">
 
@@ -266,7 +266,7 @@ Architectural Rule check
 
 <div class="sect1">
 
-### Relief
+## Relief
 
 <div class="sectionbody">
 

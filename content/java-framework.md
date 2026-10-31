@@ -42,8 +42,6 @@
 ClassParser("C:\path\ClassFile.class").parse().getPackageName();
 ```
 
-## 객체생성
-
 ## JLine
 
 - <http://jline.sourceforge.net/>

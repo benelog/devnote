@@ -37,6 +37,5 @@ re-specify all configuration if this is the case
 - <http://squirrel-sql.sourceforge.net/>
 
 ## Related
-- [[jdbc]]
-- [[jdbc-url]]
-- [[no-sql]]
+- [[jpa]]
+- [[test-framework]]

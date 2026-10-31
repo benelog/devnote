@@ -241,6 +241,4 @@ SELECT Substr(username,1,12) username,
 
 ## Related
 - [[jdbc]]
-- [[jdbc-url]]
-- [[no-sql]]
 - [[sql-tunning]]

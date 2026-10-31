@@ -360,13 +360,7 @@ private static void batchUpdate(String url, String driver, Properties prop, Stri
 
 ## Related
 - [[apache-commons]]
-- [[db-lock]]
-- [[db-normalization]]
-- [[db-schema-tools]]
-- [[db-transation]]
-- [[derby]]
 - [[mysql]]
-- [[no-sql]]
 - [[oracle-db]]
 - [[orm]]
 - [[security]]

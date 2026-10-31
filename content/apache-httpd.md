@@ -14,13 +14,13 @@ class="bare">http://svn.apache.org/repos/asf/apr/apr/trunk/network_io/unix/socke
 
 <div class="sect1">
 
-### Apache 설치
+## Apache 설치
 
 <div class="sectionbody">
 
 <div class="sect2">
 
-#### yum을 이용해 설치 :
+### yum을 이용해 설치 :
 
 <div class="paragraph">
 
@@ -32,7 +32,7 @@ class="bare">http://svn.apache.org/repos/asf/apr/apr/trunk/network_io/unix/socke
 
 <div class="sect2">
 
-#### 다운받아 설치
+### 다운받아 설치
 
 <div class="paragraph">
 
@@ -45,7 +45,7 @@ class="bare">http://svn.apache.org/repos/asf/apr/apr/trunk/network_io/unix/socke
 
 <div class="sect2">
 
-#### Ubuntu 배포판에서 설치
+### Ubuntu 배포판에서 설치
 
 <div class="paragraph">
 
@@ -55,7 +55,7 @@ sudo apt-get install apache2
 
 <div class="sect3">
 
-##### 실행
+#### 실행
 
 <div class="paragraph">
 
@@ -67,7 +67,7 @@ sudo /etc/init.d/apache2 restart
 
 <div class="sect3">
 
-##### 확인
+#### 확인
 
 <div class="paragraph">
 
@@ -86,7 +86,7 @@ sudo /etc/init.d/apache2 restart
 
 <div class="sect1">
 
-### 명령어
+## 명령어
 
 <div class="sectionbody">
 
@@ -139,7 +139,7 @@ apachectl graceful
 
 <div class="sect1">
 
-### Tomcat 연동
+## Tomcat 연동
 
 <div class="sectionbody">
 
@@ -194,7 +194,7 @@ apachectl graceful
 
 <div class="sect1">
 
-### Virtual host
+## Virtual host
 
 <div class="sectionbody">
 
@@ -216,7 +216,7 @@ apachectl graceful
 
 <div class="sect1">
 
-### 로그
+## 로그
 
 <div class="sectionbody">
 
@@ -233,7 +233,7 @@ rotation(logrotate)\]
 
 <div class="sect1">
 
-### Load balacing
+## Load balacing
 
 <div class="sectionbody">
 
@@ -264,7 +264,7 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 <div class="sect1">
 
-### 에러해결
+## 에러해결
 
 <div class="sectionbody">
 
@@ -282,7 +282,7 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 <div class="sect1">
 
-### 보안
+## 보안
 
 <div class="sectionbody">
 
@@ -298,7 +298,7 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 <div class="sect1">
 
-### 설정
+## 설정
 
 <div class="sectionbody">
 
@@ -315,7 +315,7 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 <div class="sect1">
 
-### Performance Tuning
+## Performance Tuning
 
 <div class="sectionbody">
 
@@ -332,7 +332,7 @@ Windows](http://thought-bytes.blogspot.com/2007/03/how-to-load-balance-tomcat-55
 
 <div class="sect1">
 
-### apxs 설치
+## apxs 설치
 
 <div class="sectionbody">
 
@@ -348,7 +348,7 @@ sudo apt-get install apache2-threaded-dev
 
 <div class="sect1">
 
-### 컴파일
+## 컴파일
 
 <div class="sectionbody">
 

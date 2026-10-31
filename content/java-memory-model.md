@@ -98,7 +98,7 @@ volatile은 모든 쓰레드가 공유하는 항상 최신의 값을 보장하�
 
 <div class="sect1">
 
-### 참고자료
+## 참고자료
 
 <div class="sectionbody">
 
@@ -116,7 +116,7 @@ volatile은 모든 쓰레드가 공유하는 항상 최신의 값을 보장하�
 
 <div class="sect1">
 
-### Java memory model
+## Java memory model
 
 <div class="sectionbody">
 

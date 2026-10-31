@@ -9,5 +9,3 @@
 ## Spring batch와 Spring integration 결합
 - <http://www.infoq.com/presentations/Automating-Operations>
 - <http://www.dzone.com/links/rss/practical_use_of_spring_batch_and_spring_integrat.html>
-
-## Related

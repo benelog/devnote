@@ -106,12 +106,5 @@ NoSQL](http://www.ibm.com/developerworks/kr/library/j-javadev2-8/)
 [http://xeround.com](http://xeround.com/)
 
 ## Related
-- [[db-lock]]
-- [[db-normalization]]
-- [[db-schema-tools]]
-- [[db-transation]]
-- [[derby]]
-- [[jdbc]]
-- [[jdbc-url]]
-- [[mysql]]
-- [[oracle-db]]
+- [[search-engine]]
+- [[server-cache]]

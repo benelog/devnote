@@ -74,8 +74,6 @@
 - <http://www.dzone.com/links/r/15_great_html5_website_templates_for_your_next_pr.html>
 - 기능지원현황 : <http://caniuse.com/>
 
-### WebSocket
-
 ### LocalStorage
 
 - <http://nundefined.tistory.com/24>

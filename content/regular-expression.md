@@ -3,8 +3,6 @@
 alt="regular_expressions_cheat_sheet.png" />
 </figure>
 
-## 학습
-
 ## 도움사이트
 
 - Java : <http://www.regexplanet.com/advanced/java/index.html>

@@ -19,8 +19,6 @@
 - <http://making.duolingo.com/rewriting-duolingos-engine-in-scala>
 - <https://medium.com/@mpjme/why-are-it-systems-in-big-enterprises-usually-built-using-java-instead-of-python-or-javascript-ce7a752c6421>
 
-## Javascript MVC
-
 ## Typescript 도입
 
 - [우리가 Typescript를 선택한 이유](https://medium.com/@constell99/%EC%9A%B0%EB%A6%AC%EA%B0%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-b0a423654f1e) : Reddit이 선택한 이유

@@ -122,7 +122,7 @@ create database a_db 시에 system table(system catalog)이 생긴다. sys,spt_ 
 에서 테이블명,컬럼명, 인덱스 명이 있는지 system_table에서 체크한다.
 create object를 할 때맏 system테이블에서 정보가 만들어진다.
 
-create table #a.tab은 임시테이블. 임시로 tempdb의 디스크영역에 쓴다. session종료되면 자동으로 없어진다.
+create table `#a.tab`은 임시테이블. 임시로 tempdb의 디스크영역에 쓴다. session종료되면 자동으로 없어진다.
 
 Optional DB (default로 생기지는 않음)
 
@@ -448,7 +448,7 @@ query plan 보는 방법
 
 ## 2005.03.17 Sybase 교육
 
-- create table #테이블명 : session specific한 temporary table 생성..
+- create table `#테이블명` : session specific한 temporary table 생성..
   - 같은 로그인이라도 다른 세션에서는 접근할 수없다.
   - grant도 줄 수 없다.
   - sp_help로 테이블을 확인할려면 tempdb로 이동해야 한다.

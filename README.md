@@ -51,12 +51,12 @@ content-directory: content
 output-directory: public
 gitHub:
   repository-url: https://github.com/benelog/devnote
-  content-branch: master
+  content-branch: main
 ```
 
 ### 배포
 
-master 브랜치에 push하면 `.github/workflows/deploy.yaml`이 `benelog/obsidian-site@v1` 액션으로 빌드해 GitHub Pages에 배포한다.
+main 브랜치에 push하면 `.github/workflows/deploy.yaml`이 `benelog/obsidian-site@v1` 액션으로 빌드해 GitHub Pages에 배포한다.
 
 ## 구조
 

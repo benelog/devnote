@@ -44,5 +44,3 @@ href="http://www.techspot.com/news/53165-google-patches-master-key-android-flaw-
 </tr>
 </tbody>
 </table>
-
-## Related

@@ -13,5 +13,3 @@ Javadoc 주석 + Annotation processing
 <http://blog.joda.org/2008/01/java-7-multi-line-string-literals_594.html>
 
 <https://docs.google.com/document/edit?id=1TBVweU_9nz9ESLV3N5FniBOfpaBKwIXkUVYNmyGrQ94>
-
-## Related

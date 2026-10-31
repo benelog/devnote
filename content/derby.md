@@ -15,5 +15,3 @@
 
 ## Related
 - [[jdbc]]
-- [[jdbc-url]]
-- [[no-sql]]

@@ -100,7 +100,6 @@ transaction으로 update가 일어났을 때 그러하다. 조회 건이 줄어�
 - <https://github.com/alibaba/fescar> → <https://github.com/seata/seata>
 
 ## Related
+- [[db-lock]]
 - [[distributed-processing]]
-- [[jdbc]]
-- [[jdbc-url]]
-- [[no-sql]]
+- [[spring-db]]

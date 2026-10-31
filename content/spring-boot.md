@@ -29,7 +29,5 @@
 - <https://discord.gg/x4eT5HYk6X>
 
 ## Related
-- [[android-dependency-injection]]
-- [[dependency-injection]]
 - [[spring-properties]]
 - [[spring-hostname]]

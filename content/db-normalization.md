@@ -64,8 +64,3 @@ DB내 데이터의 불일치 위험을 최소화
 
 - [정규화(Normalization) 실습](http://blog.daum.net/sweetheev/4171747)
 - <http://force44.blog.me/130100972038>
-
-## Related
-- [[jdbc]]
-- [[jdbc-url]]
-- [[no-sql]]

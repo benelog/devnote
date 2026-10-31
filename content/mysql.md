@@ -92,8 +92,6 @@ select \* from mysql.userselect \* from mysql.dbselect version()select
 
 <http://dev.mysql.com/doc/refman/5.1/en/load-data.html>http://dev.mysql.com/doc/refman/5.1/en/mysqlimport.html\[<http://dev.mysql.com/doc/refman/5.1/en/mysqlimport.html>\]
 
-### performance
-
 ###  : 옵션 조정해서 비교하는 사례
 
 <http://www.mysqlperformanceblog.com/2008/07/03/how-to-load-large-files-safely-into-innodb-with-load-data-infile/>
@@ -233,5 +231,3 @@ verifyCursorPosition을 default값인 true로 둘 경우 아래와 같은 에러
 
 ## Related
 - [[jdbc]]
-- [[jdbc-url]]
-- [[no-sql]]

@@ -38,7 +38,7 @@ Patterns](http://www.objectmentor.com/resources/articles/Principles_and_Patterns
 
 <div class="sect1">
 
-### GOF Patterns
+## GOF Patterns
 
 ![GofPattenMap.gif](https://raw.githubusercontent.com/benelog/devnote/master/attachments/175127_GofPattenMap.gif)
 
@@ -99,7 +99,7 @@ Patterns](http://www.objectmentor.com/resources/articles/Principles_and_Patterns
 
 <div class="sect2">
 
-#### Design pattern 15년후, 20년후
+### Design pattern 15년후, 20년후
 
 <div class="paragraph">
 
@@ -124,7 +124,7 @@ class="bare">http://www.informit.com/articles/article.aspx?p=1404056</a>
 
 <div class="sect3">
 
-##### 종합
+#### 종합
 
 <div class="paragraph">
 
@@ -160,7 +160,7 @@ class="bare">http://www.informit.com/articles/article.aspx?p=1404056</a>
 
 <div class="sect3">
 
-##### Singleton
+#### Singleton
 
 <div class="paragraph">
 
@@ -181,7 +181,7 @@ Pattern in Java :
 
 <div class="sect3">
 
-##### Factory Method
+#### Factory Method
 
 <div class="paragraph">
 
@@ -208,7 +208,7 @@ Simple Factory가 Factory Pattern은 아니다.
 
 <div class="sect3">
 
-##### Abstract Factory
+#### Abstract Factory
 
 <div class="paragraph">
 
@@ -221,7 +221,7 @@ Simple Factory가 Factory Pattern은 아니다.
 
 <div class="sect3">
 
-##### Visitor
+#### Visitor
 
 <div class="paragraph">
 
@@ -288,7 +288,7 @@ public void accept(Visitor visitor){
 
 <div class="sect3">
 
-##### State
+#### State
 
 <div class="paragraph">
 
@@ -336,7 +336,7 @@ public void accept(Visitor visitor){
 
 <div class="sect3">
 
-##### Mediator
+#### Mediator
 
 <div class="paragraph">
 
@@ -348,7 +348,7 @@ public void accept(Visitor visitor){
 
 <div class="sect3">
 
-##### Observer
+#### Observer
 
 <div class="paragraph">
 
@@ -379,7 +379,7 @@ Spring batch의 JobExecutionListener
 
 <div class="sect3">
 
-##### Adaptor
+#### Adaptor
 
 <div class="paragraph">
 
@@ -421,7 +421,7 @@ Facade : 인터페이스를 간단하게 바꿈
 
 <div class="sect3">
 
-##### Facade
+#### Facade
 
 <div class="paragraph">
 
@@ -435,7 +435,7 @@ Facade : 인터페이스를 간단하게 바꿈
 
 <div class="sect3">
 
-##### Template method
+#### Template method
 
 <div class="paragraph">
 
@@ -456,7 +456,7 @@ Strategy는 구성사용, Template method는 상속 사용
 
 <div class="sect3">
 
-##### Iterator
+#### Iterator
 
 <div class="paragraph">
 
@@ -470,7 +470,7 @@ Strategy는 구성사용, Template method는 상속 사용
 
 <div class="sect3">
 
-##### Composite
+#### Composite
 
 <div class="paragraph">
 
@@ -504,7 +504,7 @@ class="bare">http://javacan.tistory.com/entry/137</a>
 
 <div class="sect3">
 
-##### Strategy
+#### Strategy
 
 <div class="paragraph">
 
@@ -533,7 +533,7 @@ Strategy](http://javacan.tistory.com/entry/%ED%8C%A8%ED%84%B4-%EC%8A%A4%ED%84%B0
 
 <div class="sect3">
 
-##### Decorator
+#### Decorator
 
 <div class="paragraph">
 
@@ -553,7 +553,7 @@ jdk 예제 : java io InputStream
 
 <div class="sect3">
 
-##### Proxy
+#### Proxy
 
 <div class="paragraph">
 
@@ -582,7 +582,7 @@ Proxy와 Adaptor는 모두 클라이언트와 다른 객체 사이에 끼여들�
 
 <div class="sect3">
 
-##### Command
+#### Command
 
 <div class="paragraph">
 
@@ -610,13 +610,13 @@ class="bare">http://javacan.tistory.com/279</a>
 
 <div class="sect3">
 
-##### Compound
+#### Compound
 
 </div>
 
 <div class="sect3">
 
-##### Chain of responsibility
+#### Chain of responsibility
 
 <div class="paragraph">
 
@@ -635,13 +635,13 @@ class="bare">http://javacan.tistory.com/277</a>
 
 <div class="sect1">
 
-### GoF 외 패턴
+## GoF 외 패턴
 
 <div class="sectionbody">
 
 <div class="sect3">
 
-##### Value Object
+#### Value Object
 
 <div class="paragraph">
 
@@ -659,7 +659,7 @@ class="bare">http://javacan.tistory.com/277</a>
 
 <div class="sect3">
 
-##### IoC, DI
+#### IoC, DI
 
 <div class="paragraph">
 
@@ -689,7 +689,7 @@ class="bare">http://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programmin
 
 </div>
 
-##### J2EE Patterns
+#### J2EE Patterns
 
 ![j2eePatternMap.gif](https://raw.githubusercontent.com/benelog/devnote/master/attachments/175129_j2eePatternMap.gif)
 

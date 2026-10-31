@@ -186,5 +186,3 @@ i(…​); public static \* d(…​); public static \* v(…​); }﻿
 
 <http://www.saikoa.com/comparison_proguard_dexguard>
 <http://www.android-decompiler.com/blog/2013/04/02/a-look-inside-dexguard/>
-
-## Related

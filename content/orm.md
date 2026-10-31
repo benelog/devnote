@@ -7,10 +7,6 @@
 - [iBATIS, Hibernate, and JPA: Which is right for you?](http://www.javaworld.com/javaworld/jw-07-2008/jw-07-orm-comparison.html)
 - [Hibernate, iBATIS 그리고 JPA중.. 당신의 선택은.?](http://blog.openframework.or.kr/50)
 
-## JPA
-
-[JPA](jpa.adoc) 참조
-
 ## jOOQ
 
 - <http://java.dzone.com/articles/no-more-need-orms>

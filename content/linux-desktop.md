@@ -60,5 +60,3 @@
 
 blacklist 선언은 alsa-base.conf, blacklist.conf 둘 중에 한 곳만 하면 될
 듯
-
-## Related

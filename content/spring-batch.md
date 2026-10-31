@@ -331,7 +331,4 @@ Transaction밖에서 retry 하라...
 - <http://floatingcube.blogspot.com/2009/09/retry-spring-batch-job-due-to-database.html>
 
 ## Children
-
 - [[spring-batch-series]]
-
-## Related

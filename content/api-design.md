@@ -111,8 +111,6 @@ javascript:void(0);\[<http://www.codeproject.com/KB/java/aQuicklookatAPIDesign.a
 
     http://wiki.apidesign.org/[http://wiki.apidesign.org]
 
-### Static
-
 ### 응집도와 결합도
 
 <http://www.threeriversinstitute.org/blog/?p=104>

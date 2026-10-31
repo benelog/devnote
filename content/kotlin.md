@@ -10,5 +10,3 @@
 
 - <https://github.com/Narbase/Kunafa>
 - <https://kvision.io/>
-
-## Related

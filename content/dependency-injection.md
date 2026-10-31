@@ -22,4 +22,4 @@ advocates we settled on the name Dependency Injection
 
 ## Related
 - [[android-dependency-injection]]
-- [[spring-boot]]
+- [[spring-container]]

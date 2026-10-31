@@ -25,11 +25,4 @@
   - jdbc:hsqldb:mem:mymemdb
 
 ## Related
-- [[db-lock]]
-- [[db-normalization]]
-- [[db-schema-tools]]
-- [[db-transation]]
 - [[derby]]
-- [[mysql]]
-- [[no-sql]]
-- [[oracle-db]]

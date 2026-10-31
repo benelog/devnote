@@ -8,8 +8,6 @@ of your application. 댓글중에 : Honestly, don’t try that at home, it
 hurts : java annotation processors have the worst documentation I’ve
 ever seen
 
-## Dependency Injection
-
 ## [Robo-guice](http://code.google.com/p/roboguice/)
 
 - Cafe 앱에서 사용
@@ -79,4 +77,4 @@ ever seen
 
 ## Related
 - [[dependency-injection]]
-- [[spring-boot]]
+- [[spring-container]]

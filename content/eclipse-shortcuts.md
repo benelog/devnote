@@ -61,5 +61,3 @@
 - Ctrl+R : Run to line
 - F8 : Resume
 - Ctrl+F2 : 프로그램 종료
-
-## Related

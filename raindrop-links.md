@@ -38,8 +38,9 @@ for i, item in enumerate(d['items'], 1):
 
 | 주제 | 파일 |
 | --- | --- |
-| AI 코딩 생산성, 조직 AX, 개발자 학습 영향 | `ai-coding-productivity.md` |
-| Claude Code 사용법·도구·토큰 최적화·플러그인/스킬 | `claude-code.md` |
+| AI 코딩 생산성, 조직 AX, 개발자 학습 영향 | `ai-productivity.md` |
+| Claude Code 사용법·도구·토큰 최적화·플러그인 | `claude-code.md` |
+| 에이전트 공통 스펙(AGENTS.md, Skill)·터미널 도구·모델 라우팅 | `ai-agent.md` |
 | 하네스 엔지니어링·에이전트 팀 설계 | `ai-agent-harness.md` |
 | 에이전트 역할/프롬프트/업무 분담 | `ai-agent-role.md` |
 | LLM 프레임워크 일반 | `ai-framework.md` |
